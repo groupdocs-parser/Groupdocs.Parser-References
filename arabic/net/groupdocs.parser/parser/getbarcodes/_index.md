@@ -1,0 +1,174 @@
+---
+title: GetBarcodes
+second_title: GroupDocs.Parser لمرجع .NET API
+description: استخراج الرموز الشريطية من المستند.
+type: docs
+weight: 50
+url: /ar/net/groupdocs.parser/parser/getbarcodes/
+---
+## GetBarcodes() {#getbarcodes}
+
+استخراج الرموز الشريطية من المستند.
+
+```csharp
+public IEnumerable<PageBarcodeArea> GetBarcodes()
+```
+
+### قيمة الإرجاع
+
+مجموعة من[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea) كائنات ؛ `لا شيء` إذا كان استخراج الرموز الشريطية غير مدعوم.
+
+### أمثلة
+
+يوضح المثال التالي كيفية استخراج الرموز الشريطية من مستند:
+
+```csharp
+// إنشاء مثيل لفئة المحلل اللغوي
+using (Parser parser = new Parser(filePath))
+{
+    // استخراج الباركود من الوثيقة.
+    IEnumerable<PageBarcodeArea> barcodes = parser.GetBarcodes();
+
+    // كرر عبر الرموز الشريطية
+    foreach(PageBarcodeArea barcode in barcodes)
+    {
+        // طباعة فهرس الصفحة
+        Console.WriteLine("Page: " + barcode.Page.Index.ToString());
+        // طباعة قيمة الباركود
+        Console.WriteLine("Value: " + barcode.Value);
+    }
+}
+```
+
+### أنظر أيضا
+
+* class [PageBarcodeArea](../../../groupdocs.parser.data/pagebarcodearea)
+* class [Parser](../../parser)
+* مساحة الاسم [GroupDocs.Parser](../../parser)
+* المجسم [GroupDocs.Parser](../../../)
+
+---
+
+## GetBarcodes(int) {#getbarcodes_2}
+
+استخراج الرموز الشريطية من صفحة المستند.
+
+```csharp
+public IEnumerable<PageBarcodeArea> GetBarcodes(int pageIndex)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| pageIndex | Int32 | فهرس الصفحات الصفري. |
+
+### قيمة الإرجاع
+
+مجموعة من[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea) كائنات ؛ `لا شيء` إذا كان استخراج الرموز الشريطية غير مدعوم.
+
+### أمثلة
+
+يوضح المثال التالي كيفية استخراج الرموز الشريطية من صفحة مستند:
+
+```csharp
+// إنشاء مثيل لفئة المحلل اللغوي
+using (Parser parser = new Parser(filePath))
+{
+    // استخراج الباركود من صفحة الوثيقة الثانية.
+    IEnumerable<PageBarcodeArea> barcodes = parser.GetBarcodes(1);
+
+    // كرر عبر الرموز الشريطية
+    foreach(PageBarcodeArea barcode in barcodes)
+    {
+        // طباعة فهرس الصفحة
+        Console.WriteLine("Page: " + barcode.Page.Index.ToString());
+        // طباعة قيمة الباركود
+        Console.WriteLine("Value: " + barcode.Value);
+    }
+}
+```
+
+### أنظر أيضا
+
+* class [PageBarcodeArea](../../../groupdocs.parser.data/pagebarcodearea)
+* class [Parser](../../parser)
+* مساحة الاسم [GroupDocs.Parser](../../parser)
+* المجسم [GroupDocs.Parser](../../../)
+
+---
+
+## GetBarcodes(PageAreaOptions) {#getbarcodes_1}
+
+استخراج الرموز الشريطية من المستند باستخدام خيارات التخصيص (لتعيين المنطقة المستطيلة التي تحتوي على رموز شريطية) .
+
+```csharp
+public IEnumerable<PageBarcodeArea> GetBarcodes(PageAreaOptions options)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| options | PageAreaOptions | خيارات استخراج الباركود. |
+
+### قيمة الإرجاع
+
+مجموعة من[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea) كائنات ؛ `لا شيء` إذا كان استخراج الرموز الشريطية غير مدعوم.
+
+### أمثلة
+
+يوضح المثال التالي كيفية استخراج الرموز الشريطية من الزاوية العلوية اليمنى.
+
+```csharp
+// إنشاء مثيل لفئة المحلل اللغوي
+using (Parser parser = new Parser(filePath))
+{
+    // قم بإنشاء الخيارات المستخدمة لاستخراج الرموز الشريطية
+    PageAreaOptions options = new PageAreaOptions(new Rectangle(new Point(590, 80), new Size(150, 150)));
+    // استخراج الباركود من الزاوية العلوية اليمنى.
+    IEnumerable<PageBarcodeArea> barcodes = parser.GetBarcodes(options);
+
+    // كرر عبر الرموز الشريطية
+    foreach (PageBarcodeArea barcode in barcodes)
+    {
+        // طباعة فهرس الصفحة
+        Console.WriteLine("Page: " + barcode.Page.Index.ToString());
+        // طباعة قيمة الباركود
+        Console.WriteLine("Value: " + barcode.Value);
+    }
+}
+```
+
+### أنظر أيضا
+
+* class [PageBarcodeArea](../../../groupdocs.parser.data/pagebarcodearea)
+* class [PageAreaOptions](../../../groupdocs.parser.options/pageareaoptions)
+* class [Parser](../../parser)
+* مساحة الاسم [GroupDocs.Parser](../../parser)
+* المجسم [GroupDocs.Parser](../../../)
+
+---
+
+## GetBarcodes(int, PageAreaOptions) {#getbarcodes_3}
+
+استخراج الرموز الشريطية من صفحة المستند باستخدام خيارات التخصيص (لتعيين المنطقة المستطيلة التي تحتوي على رموز شريطية) .
+
+```csharp
+public IEnumerable<PageBarcodeArea> GetBarcodes(int pageIndex, PageAreaOptions options)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| pageIndex | Int32 | فهرس الصفحات الصفري. |
+| options | PageAreaOptions | خيارات استخراج الباركود. |
+
+### قيمة الإرجاع
+
+مجموعة من[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea) كائنات ؛ `لا شيء` إذا كان استخراج الرموز الشريطية غير مدعوم.
+
+### أنظر أيضا
+
+* class [PageBarcodeArea](../../../groupdocs.parser.data/pagebarcodearea)
+* class [PageAreaOptions](../../../groupdocs.parser.options/pageareaoptions)
+* class [Parser](../../parser)
+* مساحة الاسم [GroupDocs.Parser](../../parser)
+* المجسم [GroupDocs.Parser](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Parser.dll -->
