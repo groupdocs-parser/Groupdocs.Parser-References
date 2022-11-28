@@ -3,7 +3,7 @@ title: Parser
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents the main class that controls text images container extraction and parsing functionality.
 type: docs
-weight: 590
+weight: 620
 url: /net/groupdocs.parser/parser/
 ---
 ## Parser class
@@ -21,13 +21,15 @@ public sealed class Parser : IDisposable
 | [Parser](parser#constructor_2)(DbConnection) | Initializes a new instance of the [`Parser`](../parser) class to extract data from a database. |
 | [Parser](parser#constructor)(EmailConnection) | Initializes a new instance of the [`Parser`](../parser) class to extract data from a remote email server. |
 | [Parser](parser#constructor_4)(Stream) | Initializes a new instance of the [`Parser`](../parser) class. |
-| [Parser](parser#constructor_7)(string) | Initializes a new instance of the [`Parser`](../parser) class. |
+| [Parser](parser#constructor_8)(string) | Initializes a new instance of the [`Parser`](../parser) class. |
 | [Parser](parser#constructor_3)(DbConnection, ParserSettings) | Initializes a new instance of the [`Parser`](../parser) class to extract data from a database. |
 | [Parser](parser#constructor_1)(EmailConnection, ParserSettings) | Initializes a new instance of the [`Parser`](../parser) class to extract data from a remote email server. |
 | [Parser](parser#constructor_5)(Stream, LoadOptions) | Initializes a new instance of the [`Parser`](../parser) class with [`LoadOptions`](../../groupdocs.parser.options/loadoptions). |
-| [Parser](parser#constructor_8)(string, LoadOptions) | Initializes a new instance of the [`Parser`](../parser) class with [`LoadOptions`](../../groupdocs.parser.options/loadoptions). |
+| [Parser](parser#constructor_7)(Stream, ParserSettings) | Initializes a new instance of the [`Parser`](../parser) class with [`ParserSettings`](../../groupdocs.parser.options/parsersettings). |
+| [Parser](parser#constructor_9)(string, LoadOptions) | Initializes a new instance of the [`Parser`](../parser) class with [`LoadOptions`](../../groupdocs.parser.options/loadoptions). |
+| [Parser](parser#constructor_11)(string, ParserSettings) | Initializes a new instance of the [`Parser`](../parser) class with [`ParserSettings`](../../groupdocs.parser.options/parsersettings). |
 | [Parser](parser#constructor_6)(Stream, LoadOptions, ParserSettings) | Initializes a new instance of the [`Parser`](../parser) class with [`LoadOptions`](../../groupdocs.parser.options/loadoptions) and [`ParserSettings`](../../groupdocs.parser.options/parsersettings). |
-| [Parser](parser#constructor_9)(string, LoadOptions, ParserSettings) | Initializes a new instance of the [`Parser`](../parser) class with [`LoadOptions`](../../groupdocs.parser.options/loadoptions) and [`ParserSettings`](../../groupdocs.parser.options/parsersettings). |
+| [Parser](parser#constructor_10)(string, LoadOptions, ParserSettings) | Initializes a new instance of the [`Parser`](../parser) class with [`LoadOptions`](../../groupdocs.parser.options/loadoptions) and [`ParserSettings`](../../groupdocs.parser.options/parsersettings). |
 
 ## Properties
 

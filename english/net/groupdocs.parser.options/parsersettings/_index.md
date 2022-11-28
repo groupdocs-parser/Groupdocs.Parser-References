@@ -3,7 +3,7 @@ title: ParserSettings
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the settings which are used to customize data extraction.
 type: docs
-weight: 510
+weight: 540
 url: /net/groupdocs.parser.options/parsersettings/
 ---
 ## ParserSettings class
@@ -18,13 +18,16 @@ public sealed class ParserSettings
 
 | Name | Description |
 | --- | --- |
-| [ParserSettings](parsersettings)(ILogger) | Initializes a new instance of the [`ParserSettings`](../parsersettings) class. |
+| [ParserSettings](parsersettings#constructor)(ILogger) | Initializes a new instance of the [`ParserSettings`](../parsersettings) class with the logger. |
+| [ParserSettings](parsersettings#constructor_2)(OcrConnectorBase) | Initializes a new instance of the [`ParserSettings`](../parsersettings) class with the OCR Connector. |
+| [ParserSettings](parsersettings#constructor_1)(ILogger, OcrConnectorBase) | Initializes a new instance of the [`ParserSettings`](../parsersettings) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
 | [Logger](../../groupdocs.parser.options/parsersettings/logger) { get; } | Gets the logger which is used for logging events and errors during data extraction. |
+| [OcrConnector](../../groupdocs.parser.options/parsersettings/ocrconnector) { get; } | Gets the OCR Connector which is used to provide OCR functionality. |
 
 ### Remarks
 

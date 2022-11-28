@@ -3,7 +3,7 @@ title: Toc
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether table of contents extraction is supported.
 type: docs
-weight: 170
+weight: 190
 url: /net/groupdocs.parser.options/features/toc/
 ---
 ## Features.Toc property

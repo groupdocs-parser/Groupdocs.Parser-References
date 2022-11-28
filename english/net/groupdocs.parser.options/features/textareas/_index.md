@@ -3,7 +3,7 @@ title: TextAreas
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether text areas extraction is supported.
 type: docs
-weight: 150
+weight: 170
 url: /net/groupdocs.parser.options/features/textareas/
 ---
 ## Features.TextAreas property

@@ -3,7 +3,7 @@ title: TextOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used for text extraction.
 type: docs
-weight: 580
+weight: 610
 url: /net/groupdocs.parser.options/textoptions/
 ---
 ## TextOptions class
@@ -18,12 +18,16 @@ public sealed class TextOptions
 
 | Name | Description |
 | --- | --- |
-| [TextOptions](textoptions)(bool) | Initializes a new instance of the [`TextOptions`](../textoptions) class. |
+| [TextOptions](textoptions#constructor)(bool) | Initializes a new instance of the [`TextOptions`](../textoptions) class. |
+| [TextOptions](textoptions#constructor_1)(bool, bool) | Initializes a new instance of the [`TextOptions`](../textoptions) class with the OCR usage option. |
+| [TextOptions](textoptions#constructor_2)(bool, bool, OcrOptions) | Initializes a new instance of the [`TextOptions`](../textoptions) class with the ability to set OCR options. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
+| [OcrOptions](../../groupdocs.parser.options/textoptions/ocroptions) { get; } | Gets the additional options for OCR functionality. |
+| [UseOcr](../../groupdocs.parser.options/textoptions/useocr) { get; } | Gets the value that indicates whether the OCR Connector is used to extract a text. |
 | [UseRawModeIfPossible](../../groupdocs.parser.options/textoptions/userawmodeifpossible) { get; } | Gets the value that indicates whether the raw mode is used. |
 
 ### Remarks

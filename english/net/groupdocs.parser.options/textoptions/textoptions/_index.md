@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/groupdocs.parser.options/textoptions/textoptions/
 ---
-## TextOptions constructor
+## TextOptions(bool) {#constructor}
 
 Initializes a new instance of the [`TextOptions`](../../textoptions) class.
 
@@ -20,6 +20,50 @@ public TextOptions(bool useRawModeIfPossible)
 
 ### See Also
 
+* class [TextOptions](../../textoptions)
+* namespace [GroupDocs.Parser.Options](../../textoptions)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## TextOptions(bool, bool) {#constructor_1}
+
+Initializes a new instance of the [`TextOptions`](../../textoptions) class with the OCR usage option.
+
+```csharp
+public TextOptions(bool useRawModeIfPossible, bool useOcr)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| useRawModeIfPossible | Boolean | The value that indicates whether the raw mode is used. |
+| useOcr | Boolean | The value that indicates whether the OCR functionality is used to extract a text. |
+
+### See Also
+
+* class [TextOptions](../../textoptions)
+* namespace [GroupDocs.Parser.Options](../../textoptions)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## TextOptions(bool, bool, OcrOptions) {#constructor_2}
+
+Initializes a new instance of the [`TextOptions`](../../textoptions) class with the ability to set OCR options.
+
+```csharp
+public TextOptions(bool useRawModeIfPossible, bool useOcr, OcrOptions ocrOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| useRawModeIfPossible | Boolean | The value that indicates whether the raw mode is used. |
+| useOcr | Boolean | The value that indicates whether the OCR functionality is used to extract a text. |
+| ocrOptions | OcrOptions | The additional options for OCR functionality. |
+
+### See Also
+
+* class [OcrOptions](../../ocroptions)
 * class [TextOptions](../../textoptions)
 * namespace [GroupDocs.Parser.Options](../../textoptions)
 * assembly [GroupDocs.Parser](../../../)

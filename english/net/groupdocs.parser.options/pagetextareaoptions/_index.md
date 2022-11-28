@@ -3,7 +3,7 @@ title: PageTextAreaOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used for page text areas extraction.
 type: docs
-weight: 500
+weight: 530
 url: /net/groupdocs.parser.options/pagetextareaoptions/
 ---
 ## PageTextAreaOptions class
@@ -18,9 +18,11 @@ public sealed class PageTextAreaOptions : PageAreaOptions
 
 | Name | Description |
 | --- | --- |
-| [PageTextAreaOptions](pagetextareaoptions#constructor)(string) | Initializes a new instance of the [`PageTextAreaOptions`](../pagetextareaoptions) class with the regular expression. Other options are set by default (see remarks for details). |
-| [PageTextAreaOptions](pagetextareaoptions#constructor_2)(string, Rectangle) | Initializes a new instance of the [`PageTextAreaOptions`](../pagetextareaoptions) class with the regular expression and rectangular area. Other options are set by default (see remarks for details). |
-| [PageTextAreaOptions](pagetextareaoptions#constructor_1)(string, bool, bool, bool, Rectangle) | Initializes a new instance of the [`PageTextAreaOptions`](../pagetextareaoptions) class. |
+| [PageTextAreaOptions](pagetextareaoptions#constructor)(bool) | Initializes a new instance of the [`PageTextAreaOptions`](../pagetextareaoptions) class with the OCR usage option. |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_2)(string) | Initializes a new instance of the [`PageTextAreaOptions`](../pagetextareaoptions) class with the regular expression. Other options are set by default (see remarks for details). |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_1)(bool, OcrOptions) | Initializes a new instance of the [`PageTextAreaOptions`](../pagetextareaoptions) class with the ability to set OCR options. |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_4)(string, Rectangle) | Initializes a new instance of the [`PageTextAreaOptions`](../pagetextareaoptions) class with the regular expression and rectangular area. Other options are set by default (see remarks for details). |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_3)(string, bool, bool, bool, Rectangle) | Initializes a new instance of the [`PageTextAreaOptions`](../pagetextareaoptions) class. |
 
 ## Properties
 
@@ -29,8 +31,10 @@ public sealed class PageTextAreaOptions : PageAreaOptions
 | [Expression](../../groupdocs.parser.options/pagetextareaoptions/expression) { get; } | Gets the regular expression. |
 | [IgnoreFormatting](../../groupdocs.parser.options/pagetextareaoptions/ignoreformatting) { get; } | Gets the value that indicates whether text formatting is ignored. |
 | [MatchCase](../../groupdocs.parser.options/pagetextareaoptions/matchcase) { get; } | Gets the value that indicates whether a text case isn't ignored. |
+| [OcrOptions](../../groupdocs.parser.options/pagetextareaoptions/ocroptions) { get; } | Gets the additional options for OCR functionality. |
 | [Rectangle](../../groupdocs.parser.options/pageareaoptions/rectangle) { get; } | Gets the rectangular area that contains page areas. |
 | [UniteSegments](../../groupdocs.parser.options/pagetextareaoptions/unitesegments) { get; } | Gets the value that indicates whether segments are united. |
+| [UseOcr](../../groupdocs.parser.options/pagetextareaoptions/useocr) { get; } | Gets the value that indicates whether OCR functionality is used to extract text areas. |
 
 ### Remarks
 

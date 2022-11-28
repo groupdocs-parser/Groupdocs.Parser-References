@@ -26,8 +26,10 @@ public sealed class Features
 | [Hyperlinks](../../groupdocs.parser.options/features/hyperlinks) { get; } | Gets the value that indicates whether hyperlinks extraction is supported. |
 | [Images](../../groupdocs.parser.options/features/images) { get; } | Gets the value that indicates whether images extraction is supported. |
 | [Metadata](../../groupdocs.parser.options/features/metadata) { get; } | Gets the value that indicates whether metadata extraction is supported. |
+| [Ocr](../../groupdocs.parser.options/features/ocr) { get; } | Gets the value that indicates whether OCR functionality is supported. |
 | [ParseByTemplate](../../groupdocs.parser.options/features/parsebytemplate) { get; } | Gets the value that indicates whether parsing by template is supported. |
 | [ParseForm](../../groupdocs.parser.options/features/parseform) { get; } | Gets the value that indicates whether form parsing is supported. |
+| [Preview](../../groupdocs.parser.options/features/preview) { get; } | Gets the value that indicates whether preview generation is supported. |
 | [Search](../../groupdocs.parser.options/features/search) { get; } | Gets the value that indicates whether text search is supported. |
 | [Structure](../../groupdocs.parser.options/features/structure) { get; } | Gets the value that indicates whether text structure extraction is supported. |
 | [Tables](../../groupdocs.parser.options/features/tables) { get; } | Gets the value that indicates whether tables extraction is supported. |
