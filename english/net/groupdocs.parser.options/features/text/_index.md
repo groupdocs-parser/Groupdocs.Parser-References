@@ -3,7 +3,7 @@ title: Text
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether text extraction is supported.
 type: docs
-weight: 140
+weight: 160
 url: /net/groupdocs.parser.options/features/text/
 ---
 ## Features.Text property

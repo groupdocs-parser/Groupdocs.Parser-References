@@ -276,7 +276,7 @@ IEnumerable<ContainerItem> emails = parser.GetContainer();
 
 ---
 
-## Parser(string) {#constructor_7}
+## Parser(string) {#constructor_8}
 
 Initializes a new instance of the [`Parser`](../../parser) class.
 
@@ -320,7 +320,7 @@ using (Parser parser = new Parser(filePath))
 
 ---
 
-## Parser(string, LoadOptions) {#constructor_8}
+## Parser(string, LoadOptions) {#constructor_9}
 
 Initializes a new instance of the [`Parser`](../../parser) class with [`LoadOptions`](../../../groupdocs.parser.options/loadoptions).
 
@@ -380,7 +380,29 @@ catch (InvalidPasswordException)
 
 ---
 
-## Parser(string, LoadOptions, ParserSettings) {#constructor_9}
+## Parser(string, ParserSettings) {#constructor_11}
+
+Initializes a new instance of the [`Parser`](../../parser) class with [`ParserSettings`](../../../groupdocs.parser.options/parsersettings).
+
+```csharp
+public Parser(string filePath, ParserSettings parserSettings)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | String | The path to the file. |
+| parserSettings | ParserSettings | The parser settings which are used to customize data extraction. |
+
+### See Also
+
+* class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
+* class [Parser](../../parser)
+* namespace [GroupDocs.Parser](../../parser)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## Parser(string, LoadOptions, ParserSettings) {#constructor_10}
 
 Initializes a new instance of the [`Parser`](../../parser) class with [`LoadOptions`](../../../groupdocs.parser.options/loadoptions) and [`ParserSettings`](../../../groupdocs.parser.options/parsersettings).
 
@@ -582,6 +604,28 @@ catch (InvalidPasswordException)
 ### See Also
 
 * class [LoadOptions](../../../groupdocs.parser.options/loadoptions)
+* class [Parser](../../parser)
+* namespace [GroupDocs.Parser](../../parser)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## Parser(Stream, ParserSettings) {#constructor_7}
+
+Initializes a new instance of the [`Parser`](../../parser) class with [`ParserSettings`](../../../groupdocs.parser.options/parsersettings).
+
+```csharp
+public Parser(Stream document, ParserSettings parserSettings)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | Stream | The path to the file. |
+| parserSettings | ParserSettings | The parser settings which are used to customize data extraction. |
+
+### See Also
+
+* class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
 * class [Parser](../../parser)
 * namespace [GroupDocs.Parser](../../parser)
 * assembly [GroupDocs.Parser](../../../)

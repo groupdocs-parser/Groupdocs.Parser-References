@@ -1,12 +1,54 @@
 ---
 title: PageTextAreaOptions
 second_title: GroupDocs.Parser for .NET API Reference
-description: Initializes a new instance of the PageTextAreaOptionsgroupdocs.parser.options/pagetextareaoptions class with the regular expression. Other options are set by default see remarks for details.
+description: Initializes a new instance of the PageTextAreaOptionsgroupdocs.parser.options/pagetextareaoptions class with the OCR usage option.
 type: docs
 weight: 10
 url: /net/groupdocs.parser.options/pagetextareaoptions/pagetextareaoptions/
 ---
-## PageTextAreaOptions(string) {#constructor}
+## PageTextAreaOptions(bool) {#constructor}
+
+Initializes a new instance of the [`PageTextAreaOptions`](../../pagetextareaoptions) class with the OCR usage option.
+
+```csharp
+public PageTextAreaOptions(bool useOcr)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| useOcr | Boolean | The value that indicates whether OCR functionality is used to extract text areas. |
+
+### See Also
+
+* class [PageTextAreaOptions](../../pagetextareaoptions)
+* namespace [GroupDocs.Parser.Options](../../pagetextareaoptions)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## PageTextAreaOptions(bool, OcrOptions) {#constructor_1}
+
+Initializes a new instance of the [`PageTextAreaOptions`](../../pagetextareaoptions) class with the ability to set OCR options.
+
+```csharp
+public PageTextAreaOptions(bool useOcr, OcrOptions ocrOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| useOcr | Boolean | The value that indicates whether OCR functionality is used to extract text areas. |
+| ocrOptions | OcrOptions | The additional options for OCR functionality. |
+
+### See Also
+
+* class [OcrOptions](../../ocroptions)
+* class [PageTextAreaOptions](../../pagetextareaoptions)
+* namespace [GroupDocs.Parser.Options](../../pagetextareaoptions)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## PageTextAreaOptions(string) {#constructor_2}
 
 Initializes a new instance of the [`PageTextAreaOptions`](../../pagetextareaoptions) class with the regular expression. Other options are set by default (see remarks for details).
 
@@ -46,7 +88,7 @@ The following properties have default values:
 
 ---
 
-## PageTextAreaOptions(string, Rectangle) {#constructor_2}
+## PageTextAreaOptions(string, Rectangle) {#constructor_4}
 
 Initializes a new instance of the [`PageTextAreaOptions`](../../pagetextareaoptions) class with the regular expression and rectangular area. Other options are set by default (see remarks for details).
 
@@ -84,7 +126,7 @@ The following properties have default values:
 
 ---
 
-## PageTextAreaOptions(string, bool, bool, bool, Rectangle) {#constructor_1}
+## PageTextAreaOptions(string, bool, bool, bool, Rectangle) {#constructor_3}
 
 Initializes a new instance of the [`PageTextAreaOptions`](../../pagetextareaoptions) class.
 

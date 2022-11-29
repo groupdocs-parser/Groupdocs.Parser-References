@@ -1,14 +1,14 @@
 ---
 title: ParserSettings
 second_title: GroupDocs.Parser for .NET API Reference
-description: Initializes a new instance of the ParserSettingsgroupdocs.parser.options/parsersettings class.
+description: Initializes a new instance of the ParserSettingsgroupdocs.parser.options/parsersettings class with the logger.
 type: docs
 weight: 10
 url: /net/groupdocs.parser.options/parsersettings/parsersettings/
 ---
-## ParserSettings constructor
+## ParserSettings(ILogger) {#constructor}
 
-Initializes a new instance of the [`ParserSettings`](../../parsersettings) class.
+Initializes a new instance of the [`ParserSettings`](../../parsersettings) class with the logger.
 
 ```csharp
 public ParserSettings(ILogger logger)
@@ -21,6 +21,50 @@ public ParserSettings(ILogger logger)
 ### See Also
 
 * interface [ILogger](../../ilogger)
+* class [ParserSettings](../../parsersettings)
+* namespace [GroupDocs.Parser.Options](../../parsersettings)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(OcrConnectorBase) {#constructor_2}
+
+Initializes a new instance of the [`ParserSettings`](../../parsersettings) class with the OCR Connector.
+
+```csharp
+public ParserSettings(OcrConnectorBase ocrConnector)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ocrConnector | OcrConnectorBase | An instance of class that inherits [`OcrConnectorBase`](../../ocrconnectorbase) class to provide OCR functionality. |
+
+### See Also
+
+* class [OcrConnectorBase](../../ocrconnectorbase)
+* class [ParserSettings](../../parsersettings)
+* namespace [GroupDocs.Parser.Options](../../parsersettings)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(ILogger, OcrConnectorBase) {#constructor_1}
+
+Initializes a new instance of the [`ParserSettings`](../../parsersettings) class.
+
+```csharp
+public ParserSettings(ILogger logger, OcrConnectorBase ocrConnector)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| logger | ILogger | An instance of class that implements [`ILogger`](../../ilogger) interface. |
+| ocrConnector | OcrConnectorBase | An instance of class that inherits [`OcrConnectorBase`](../../ocrconnectorbase) class to provide OCR functionality. |
+
+### See Also
+
+* interface [ILogger](../../ilogger)
+* class [OcrConnectorBase](../../ocrconnectorbase)
 * class [ParserSettings](../../parsersettings)
 * namespace [GroupDocs.Parser.Options](../../parsersettings)
 * assembly [GroupDocs.Parser](../../../)

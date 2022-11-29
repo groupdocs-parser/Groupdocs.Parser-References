@@ -25,6 +25,9 @@ The namespace provides classes to specify additional options when parsing data f
 | [HighlightOptions](./highlightoptions) | Provides the options which are used to extract a highlight (a block of text aroud found text in search scenarios). |
 | [ImageOptions](./imageoptions) | Provides the options which are used for image extraction. |
 | [LoadOptions](./loadoptions) | Provides the options which are used to open a file. |
+| [OcrConnectorBase](./ocrconnectorbase) | Provides the OCR functionality. |
+| [OcrEventHandler](./ocreventhandler) | Provides a handler for OCR events. |
+| [OcrOptions](./ocroptions) | Provides the options which are used for OCR Connector. |
 | [PageAreaOptions](./pageareaoptions) | Provides the options which are used for page areas extraction. |
 | [PageInfo](./pageinfo) | Represents the document page information. |
 | [PageRenderInfo](./pagerenderinfo) | Represents the information of how a page is rendered. |

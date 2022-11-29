@@ -3,7 +3,7 @@ title: ParseForm
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether form parsing is supported.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.parser.options/features/parseform/
 ---
 ## Features.ParseForm property
