@@ -3,7 +3,7 @@ title: PageTextAreaOptions
 second_title: GroupDocs.Parser for Java API Reference
 description: Provides the options which are used for page text areas extraction.
 type: docs
-weight: 26
+weight: 29
 url: /java/com.groupdocs.parser.options/pagetextareaoptions/
 ---
 **Inheritance:**

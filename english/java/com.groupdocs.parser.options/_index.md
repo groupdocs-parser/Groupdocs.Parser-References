@@ -26,6 +26,9 @@ The package provides classes to specify additional options when parsing data fro
 | [HighlightOptions](../com.groupdocs.parser.options/highlightoptions) | Provides the options which are used to extract a highlight (a block of text aroud found text in search scenarios). |
 | [ImageOptions](../com.groupdocs.parser.options/imageoptions) | Provides the options which are used for image extraction. |
 | [LoadOptions](../com.groupdocs.parser.options/loadoptions) | Provides the options which are used to open a file. |
+| [OcrConnectorBase](../com.groupdocs.parser.options/ocrconnectorbase) | Provides the OCR functionality. |
+| [OcrEventHandler](../com.groupdocs.parser.options/ocreventhandler) | Provides a handler for OCR events. |
+| [OcrOptions](../com.groupdocs.parser.options/ocroptions) | Provides the options which are used for OCR Connector. |
 | [PageAreaOptions](../com.groupdocs.parser.options/pageareaoptions) | Provides the options which are used for page areas extraction. |
 | [PageInfo](../com.groupdocs.parser.options/pageinfo) | Represents the document page information. |
 | [PageRenderInfo](../com.groupdocs.parser.options/pagerenderinfo) | Represents the information of how a page is rendered. |

@@ -3,7 +3,7 @@ title: PageRenderInfo
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents the information of how a page is rendered.
 type: docs
-weight: 24
+weight: 27
 url: /java/com.groupdocs.parser.options/pagerenderinfo/
 ---
 **Inheritance:**

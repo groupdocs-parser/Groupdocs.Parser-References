@@ -3,7 +3,7 @@ title: IPreviewPageRender
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents a method which is called before a document page is rendered.
 type: docs
-weight: 35
+weight: 38
 url: /java/com.groupdocs.parser.options/ipreviewpagerender/
 ---```
 public interface IPreviewPageRender
