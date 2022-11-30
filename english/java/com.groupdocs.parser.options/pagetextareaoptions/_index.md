@@ -26,6 +26,8 @@ An instance of [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetext
 
 | Constructor | Description |
 | --- | --- |
+| [PageTextAreaOptions(boolean useOcr)](#PageTextAreaOptions-boolean-) | Initializes a new instance of the [TextOptions](../../com.groupdocs.parser.options/textoptions) class with the OCR usage option. |
+| [PageTextAreaOptions(boolean useOcr, OcrOptions ocrOptions)](#PageTextAreaOptions-boolean-com.groupdocs.parser.options.OcrOptions-) | Initializes a new instance of the [TextOptions](../../com.groupdocs.parser.options/textoptions) class with the ability to set OCR options. |
 | [PageTextAreaOptions(String expression)](#PageTextAreaOptions-java.lang.String-) | Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class with the regular expression. |
 | [PageTextAreaOptions(String expression, Rectangle rectangle)](#PageTextAreaOptions-java.lang.String-com.groupdocs.parser.data.Rectangle-) | Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class with the regular expression and rectangular area. |
 | [PageTextAreaOptions(String expression, boolean matchCase, boolean uniteSegments, boolean ignoreFormatting, Rectangle rectangle)](#PageTextAreaOptions-java.lang.String-boolean-boolean-boolean-com.groupdocs.parser.data.Rectangle-) | Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class. |
@@ -37,6 +39,35 @@ An instance of [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetext
 | [isMatchCase()](#isMatchCase--) | Gets the value that indicates whether a text case isn't ignored. |
 | [isUniteSegments()](#isUniteSegments--) | Gets the value that indicates whether segments are united. |
 | [isIgnoreFormatting()](#isIgnoreFormatting--) | Gets the value that indicates whether text formatting is ignored. |
+| [isUseOcr()](#isUseOcr--) | Gets the value that indicates whether the OCR Connector is used to extract a text. |
+| [getOcrOptions()](#getOcrOptions--) | Gets the additional options for OCR functionality. |
+### PageTextAreaOptions(boolean useOcr) {#PageTextAreaOptions-boolean-}
+```
+public PageTextAreaOptions(boolean useOcr)
+```
+
+
+Initializes a new instance of the [TextOptions](../../com.groupdocs.parser.options/textoptions) class with the OCR usage option.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| useOcr | boolean | The value that indicates whether the OCR functionality is used to extract a text. |
+
+### PageTextAreaOptions(boolean useOcr, OcrOptions ocrOptions) {#PageTextAreaOptions-boolean-com.groupdocs.parser.options.OcrOptions-}
+```
+public PageTextAreaOptions(boolean useOcr, OcrOptions ocrOptions)
+```
+
+
+Initializes a new instance of the [TextOptions](../../com.groupdocs.parser.options/textoptions) class with the ability to set OCR options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| useOcr | boolean | The value that indicates whether the OCR functionality is used to extract a text. |
+| ocrOptions | [OcrOptions](../../com.groupdocs.parser.options/ocroptions) | The additional options for OCR functionality. |
+
 ### PageTextAreaOptions(String expression) {#PageTextAreaOptions-java.lang.String-}
 ```
 public PageTextAreaOptions(String expression)
@@ -134,3 +165,23 @@ Gets the value that indicates whether text formatting is ignored.
 
 **Returns:**
 boolean -  true  if text formatting is ignored; otherwise,  false .
+### isUseOcr() {#isUseOcr--}
+```
+public boolean isUseOcr()
+```
+
+
+Gets the value that indicates whether the OCR Connector is used to extract a text.
+
+**Returns:**
+boolean -  true  if the OCR functionality is used; otherwise,  false .
+### getOcrOptions() {#getOcrOptions--}
+```
+public OcrOptions getOcrOptions()
+```
+
+
+Gets the additional options for OCR functionality.
+
+**Returns:**
+[OcrOptions](../../com.groupdocs.parser.options/ocroptions) - An instance of [OcrOptions](../../com.groupdocs.parser.options/ocroptions) class with the additional OCR options.

@@ -49,6 +49,8 @@ An instance of this class is used as [Parser.getFeatures()](../../com.groupdocs.
 | [isTables()](#isTables--) | Gets the value that indicates whether tables extraction is supported. |
 | [isParseByTemplate()](#isParseByTemplate--) | Gets the value that indicates whether parsing by template is supported. |
 | [isParseForm()](#isParseForm--) | Gets the value that indicates whether form parsing is supported. |
+| [isPreview()](#isPreview--) | Gets the value that indicates whether preview generation is supported. |
+| [isOcr()](#isOcr--) | Gets the value that indicates whether OCR functionality is supported. |
 ### Features() {#Features--}
 ```
 public Features()
@@ -240,3 +242,23 @@ Gets the value that indicates whether form parsing is supported.
 
 **Returns:**
 boolean -  true  if form parsing is supported; otherwise,  false .
+### isPreview() {#isPreview--}
+```
+public boolean isPreview()
+```
+
+
+Gets the value that indicates whether preview generation is supported.
+
+**Returns:**
+boolean -  true  if preview generation is supported; otherwise,  false .
+### isOcr() {#isOcr--}
+```
+public boolean isOcr()
+```
+
+
+Gets the value that indicates whether OCR functionality is supported.
+
+**Returns:**
+boolean -  true  if OCR functionality is supported; otherwise,  false .
