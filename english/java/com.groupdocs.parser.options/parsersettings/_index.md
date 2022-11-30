@@ -3,7 +3,7 @@ title: ParserSettings
 second_title: GroupDocs.Parser for Java API Reference
 description: Provides the settings which are used to customize data extraction.
 type: docs
-weight: 27
+weight: 30
 url: /java/com.groupdocs.parser.options/parsersettings/
 ---
 **Inheritance:**
@@ -24,15 +24,44 @@ Provides the settings which are used to customize data extraction.
 
 | Constructor | Description |
 | --- | --- |
-| [ParserSettings(ILogger logger)](#ParserSettings-com.groupdocs.parser.options.ILogger-) | Initializes a new instance of the [ParserSettings](../../com.groupdocs.parser.options/parsersettings) class. |
+| [ParserSettings(ILogger logger)](#ParserSettings-com.groupdocs.parser.options.ILogger-) | Initializes a new instance of the [ParserSettings](../../com.groupdocs.parser.options/parsersettings) class the logger. |
+| [ParserSettings(OcrConnectorBase ocrConnector)](#ParserSettings-com.groupdocs.parser.options.OcrConnectorBase-) | Initializes a new instance of the [ParserSettings](../../com.groupdocs.parser.options/parsersettings) class the OCR Connector. |
+| [ParserSettings(ILogger logger, OcrConnectorBase ocrConnector)](#ParserSettings-com.groupdocs.parser.options.ILogger-com.groupdocs.parser.options.OcrConnectorBase-) | Initializes a new instance of the [ParserSettings](../../com.groupdocs.parser.options/parsersettings) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getLogger()](#getLogger--) | Gets the logger which is used for logging events and errors during data extraction. |
+| [getOcrConnector()](#getOcrConnector--) | Gets the OCR Connector which is used to provide OCR functionality. |
 ### ParserSettings(ILogger logger) {#ParserSettings-com.groupdocs.parser.options.ILogger-}
 ```
 public ParserSettings(ILogger logger)
+```
+
+
+Initializes a new instance of the [ParserSettings](../../com.groupdocs.parser.options/parsersettings) class the logger.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| logger | [ILogger](../../com.groupdocs.parser.options/ilogger) | An instance of class that implements [ILogger](../../com.groupdocs.parser.options/ilogger) interface. |
+
+### ParserSettings(OcrConnectorBase ocrConnector) {#ParserSettings-com.groupdocs.parser.options.OcrConnectorBase-}
+```
+public ParserSettings(OcrConnectorBase ocrConnector)
+```
+
+
+Initializes a new instance of the [ParserSettings](../../com.groupdocs.parser.options/parsersettings) class the OCR Connector.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ocrConnector | [OcrConnectorBase](../../com.groupdocs.parser.options/ocrconnectorbase) | An instance of class that inherits [OcrConnectorBase](../../com.groupdocs.parser.options/ocrconnectorbase) class to provide OCR functionality. |
+
+### ParserSettings(ILogger logger, OcrConnectorBase ocrConnector) {#ParserSettings-com.groupdocs.parser.options.ILogger-com.groupdocs.parser.options.OcrConnectorBase-}
+```
+public ParserSettings(ILogger logger, OcrConnectorBase ocrConnector)
 ```
 
 
@@ -42,6 +71,7 @@ Initializes a new instance of the [ParserSettings](../../com.groupdocs.parser.op
 | Parameter | Type | Description |
 | --- | --- | --- |
 | logger | [ILogger](../../com.groupdocs.parser.options/ilogger) | An instance of class that implements [ILogger](../../com.groupdocs.parser.options/ilogger) interface. |
+| ocrConnector | [OcrConnectorBase](../../com.groupdocs.parser.options/ocrconnectorbase) | An instance of class that inherits [OcrConnectorBase](../../com.groupdocs.parser.options/ocrconnectorbase) class to provide OCR functionality. |
 
 ### getLogger() {#getLogger--}
 ```
@@ -53,3 +83,13 @@ Gets the logger which is used for logging events and errors during data extracti
 
 **Returns:**
 [ILogger](../../com.groupdocs.parser.options/ilogger) - An instance of class that implements [ILogger](../../com.groupdocs.parser.options/ilogger) interface.
+### getOcrConnector() {#getOcrConnector--}
+```
+public OcrConnectorBase getOcrConnector()
+```
+
+
+Gets the OCR Connector which is used to provide OCR functionality.
+
+**Returns:**
+[OcrConnectorBase](../../com.groupdocs.parser.options/ocrconnectorbase) - An instance of class that inherits [OcrConnectorBase](../../com.groupdocs.parser.options/ocrconnectorbase) class to provide OCR functionality.

@@ -3,7 +3,7 @@ title: TextDocumentInfo
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents the text document information.
 type: docs
-weight: 30
+weight: 33
 url: /java/com.groupdocs.parser.options/textdocumentinfo/
 ---
 **Inheritance:**

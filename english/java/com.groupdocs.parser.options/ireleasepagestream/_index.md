@@ -3,7 +3,7 @@ title: IReleasePageStream
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents a method which releases the stream created by the  delegate.
 type: docs
-weight: 36
+weight: 39
 url: /java/com.groupdocs.parser.options/ireleasepagestream/
 ---```
 public interface IReleasePageStream

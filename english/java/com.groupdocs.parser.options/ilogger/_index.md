@@ -3,7 +3,7 @@ title: ILogger
 second_title: GroupDocs.Parser for Java API Reference
 description: Defines the interface of a logger that is used for logging events and errors during data extraction.
 type: docs
-weight: 34
+weight: 37
 url: /java/com.groupdocs.parser.options/ilogger/
 ---```
 public interface ILogger

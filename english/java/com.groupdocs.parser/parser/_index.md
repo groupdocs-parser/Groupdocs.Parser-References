@@ -26,10 +26,12 @@ Represents the main class that controls text, images, container extraction and p
 | [Parser(EmailConnection connection, ParserSettings parserSettings)](#Parser-com.groupdocs.parser.options.EmailConnection-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class. |
 | [Parser(String filePath)](#Parser-java.lang.String-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class. |
 | [Parser(String filePath, LoadOptions loadOptions)](#Parser-java.lang.String-com.groupdocs.parser.options.LoadOptions-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [LoadOptions](../../com.groupdocs.parser.options/loadoptions). |
-| [Parser(String filePath, LoadOptions loadOptions, ParserSettings parserSettings)](#Parser-java.lang.String-com.groupdocs.parser.options.LoadOptions-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [LoadOptions](../../com.groupdocs.parser.options/loadoptions). |
+| [Parser(String filePath, ParserSettings parserSettings)](#Parser-java.lang.String-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [ParserSettings](../../com.groupdocs.parser.options/parsersettings). |
+| [Parser(String filePath, LoadOptions loadOptions, ParserSettings parserSettings)](#Parser-java.lang.String-com.groupdocs.parser.options.LoadOptions-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [LoadOptions](../../com.groupdocs.parser.options/loadoptions) and [ParserSettings](../../com.groupdocs.parser.options/parsersettings). |
 | [Parser(InputStream document)](#Parser-java.io.InputStream-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class. |
 | [Parser(InputStream document, LoadOptions loadOptions)](#Parser-java.io.InputStream-com.groupdocs.parser.options.LoadOptions-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [LoadOptions](../../com.groupdocs.parser.options/loadoptions). |
-| [Parser(InputStream document, LoadOptions loadOptions, ParserSettings parserSettings)](#Parser-java.io.InputStream-com.groupdocs.parser.options.LoadOptions-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [LoadOptions](../../com.groupdocs.parser.options/loadoptions). |
+| [Parser(InputStream document, ParserSettings parserSettings)](#Parser-java.io.InputStream-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [ParserSettings](../../com.groupdocs.parser.options/parsersettings). |
+| [Parser(InputStream document, LoadOptions loadOptions, ParserSettings parserSettings)](#Parser-java.io.InputStream-com.groupdocs.parser.options.LoadOptions-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [LoadOptions](../../com.groupdocs.parser.options/loadoptions) and [ParserSettings](../../com.groupdocs.parser.options/parsersettings). |
 ## Methods
 
 | Method | Description |
@@ -377,13 +379,27 @@ try {
 | filePath | java.lang.String | The path to the file. |
 | loadOptions | [LoadOptions](../../com.groupdocs.parser.options/loadoptions) | The options to open the file. |
 
+### Parser(String filePath, ParserSettings parserSettings) {#Parser-java.lang.String-com.groupdocs.parser.options.ParserSettings-}
+```
+public Parser(String filePath, ParserSettings parserSettings)
+```
+
+
+Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [ParserSettings](../../com.groupdocs.parser.options/parsersettings).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | The path to the file. |
+| parserSettings | [ParserSettings](../../com.groupdocs.parser.options/parsersettings) | The parser settings which are used to customize data extraction. |
+
 ### Parser(String filePath, LoadOptions loadOptions, ParserSettings parserSettings) {#Parser-java.lang.String-com.groupdocs.parser.options.LoadOptions-com.groupdocs.parser.options.ParserSettings-}
 ```
 public Parser(String filePath, LoadOptions loadOptions, ParserSettings parserSettings)
 ```
 
 
-Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [LoadOptions](../../com.groupdocs.parser.options/loadoptions). and [ParserSettings](../../com.groupdocs.parser.options/parsersettings)
+Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [LoadOptions](../../com.groupdocs.parser.options/loadoptions) and [ParserSettings](../../com.groupdocs.parser.options/parsersettings).
 
 **Learn more:**
 
@@ -528,13 +544,27 @@ In some cases it's necessary to define [FileFormat](../../com.groupdocs.parser.o
 | document | java.io.InputStream | The source input stream. |
 | loadOptions | [LoadOptions](../../com.groupdocs.parser.options/loadoptions) | The options to open the file. |
 
+### Parser(InputStream document, ParserSettings parserSettings) {#Parser-java.io.InputStream-com.groupdocs.parser.options.ParserSettings-}
+```
+public Parser(InputStream document, ParserSettings parserSettings)
+```
+
+
+Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [ParserSettings](../../com.groupdocs.parser.options/parsersettings).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| document | java.io.InputStream | The source input stream. |
+| parserSettings | [ParserSettings](../../com.groupdocs.parser.options/parsersettings) | The parser settings which are used to customize data extraction. |
+
 ### Parser(InputStream document, LoadOptions loadOptions, ParserSettings parserSettings) {#Parser-java.io.InputStream-com.groupdocs.parser.options.LoadOptions-com.groupdocs.parser.options.ParserSettings-}
 ```
 public Parser(InputStream document, LoadOptions loadOptions, ParserSettings parserSettings)
 ```
 
 
-Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [LoadOptions](../../com.groupdocs.parser.options/loadoptions). and [ParserSettings](../../com.groupdocs.parser.options/parsersettings)
+Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [LoadOptions](../../com.groupdocs.parser.options/loadoptions) and [ParserSettings](../../com.groupdocs.parser.options/parsersettings).
 
 **Learn more:**
 
