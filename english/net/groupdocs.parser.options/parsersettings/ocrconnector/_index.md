@@ -3,7 +3,7 @@ title: OcrConnector
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the OCR Connector which is used to provide OCR functionality.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.parser.options/parsersettings/ocrconnector/
 ---
 ## ParserSettings.OcrConnector property

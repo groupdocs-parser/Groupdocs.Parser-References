@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/groupdocs.parser.options/parsersettings/parsersettings/
 ---
-## ParserSettings(ILogger) {#constructor}
+## ParserSettings(ILogger) {#constructor_1}
 
 Initializes a new instance of the [`ParserSettings`](../../parsersettings) class with the logger.
 
@@ -27,7 +27,7 @@ public ParserSettings(ILogger logger)
 
 ---
 
-## ParserSettings(OcrConnectorBase) {#constructor_2}
+## ParserSettings(OcrConnectorBase) {#constructor_4}
 
 Initializes a new instance of the [`ParserSettings`](../../parsersettings) class with the OCR Connector.
 
@@ -48,9 +48,30 @@ public ParserSettings(OcrConnectorBase ocrConnector)
 
 ---
 
-## ParserSettings(ILogger, OcrConnectorBase) {#constructor_1}
+## ParserSettings(ExternalResourceHandler) {#constructor}
 
-Initializes a new instance of the [`ParserSettings`](../../parsersettings) class.
+Initializes a new instance of the [`ParserSettings`](../../parsersettings) class with the External Resource Handler.
+
+```csharp
+public ParserSettings(ExternalResourceHandler externalResourceHandler)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| externalResourceHandler | ExternalResourceHandler | An instance of class that inherits [`ExternalResourceHandler`](../../externalresourcehandler) class to provide the control of external resources loading. |
+
+### See Also
+
+* class [ExternalResourceHandler](../../externalresourcehandler)
+* class [ParserSettings](../../parsersettings)
+* namespace [GroupDocs.Parser.Options](../../parsersettings)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(ILogger, OcrConnectorBase) {#constructor_2}
+
+Initializes a new instance of the [`ParserSettings`](../../parsersettings) class with logger and OCR Connector.
 
 ```csharp
 public ParserSettings(ILogger logger, OcrConnectorBase ocrConnector)
@@ -65,6 +86,32 @@ public ParserSettings(ILogger logger, OcrConnectorBase ocrConnector)
 
 * interface [ILogger](../../ilogger)
 * class [OcrConnectorBase](../../ocrconnectorbase)
+* class [ParserSettings](../../parsersettings)
+* namespace [GroupDocs.Parser.Options](../../parsersettings)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(ILogger, OcrConnectorBase, ExternalResourceHandler) {#constructor_3}
+
+Initializes a new instance of the [`ParserSettings`](../../parsersettings) class.
+
+```csharp
+public ParserSettings(ILogger logger, OcrConnectorBase ocrConnector, 
+    ExternalResourceHandler externalResourceHandler)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| logger | ILogger | An instance of class that implements [`ILogger`](../../ilogger) interface. |
+| ocrConnector | OcrConnectorBase | An instance of class that inherits [`OcrConnectorBase`](../../ocrconnectorbase) class to provide OCR functionality. |
+| externalResourceHandler | ExternalResourceHandler | An instance of class that inherits [`ExternalResourceHandler`](../../externalresourcehandler) class to provide the control of external resource loading. |
+
+### See Also
+
+* interface [ILogger](../../ilogger)
+* class [OcrConnectorBase](../../ocrconnectorbase)
+* class [ExternalResourceHandler](../../externalresourcehandler)
 * class [ParserSettings](../../parsersettings)
 * namespace [GroupDocs.Parser.Options](../../parsersettings)
 * assembly [GroupDocs.Parser](../../../)
