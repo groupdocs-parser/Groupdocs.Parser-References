@@ -3,7 +3,7 @@ title: ICreatePageStream
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents a delegate that returns a stream to write page preview data.
 type: docs
-weight: 35
+weight: 37
 url: /java/com.groupdocs.parser.options/icreatepagestream/
 ---```
 public interface ICreatePageStream

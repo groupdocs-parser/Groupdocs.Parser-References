@@ -3,7 +3,7 @@ title: TextOptions
 second_title: GroupDocs.Parser for Java API Reference
 description: Provides the options which are used for text extraction.
 type: docs
-weight: 34
+weight: 36
 url: /java/com.groupdocs.parser.options/textoptions/
 ---
 **Inheritance:**

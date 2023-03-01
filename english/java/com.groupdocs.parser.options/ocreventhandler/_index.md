@@ -3,7 +3,7 @@ title: OcrEventHandler
 second_title: GroupDocs.Parser for Java API Reference
 description: Provides a handler for OCR events.
 type: docs
-weight: 23
+weight: 25
 url: /java/com.groupdocs.parser.options/ocreventhandler/
 ---
 **Inheritance:**

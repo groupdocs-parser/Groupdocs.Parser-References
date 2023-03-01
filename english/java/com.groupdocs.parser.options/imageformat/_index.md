@@ -3,7 +3,7 @@ title: ImageFormat
 second_title: GroupDocs.Parser for Java API Reference
 description: Defines a format of the image.
 type: docs
-weight: 43
+weight: 45
 url: /java/com.groupdocs.parser.options/imageformat/
 ---
 **Inheritance:**
