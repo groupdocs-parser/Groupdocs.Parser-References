@@ -620,7 +620,7 @@ public Parser(Stream document, ParserSettings parserSettings)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | Stream | The path to the file. |
+| document | Stream | The source input stream. |
 | parserSettings | ParserSettings | The parser settings which are used to customize data extraction. |
 
 ### See Also

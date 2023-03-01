@@ -18,6 +18,8 @@ The namespace provides classes to specify additional options when parsing data f
 | [EmailEwsConnection](./emailewsconnection) | Represents the email connection information for EWS protocol. |
 | [EmailImapConnection](./emailimapconnection) | Represents the email connection information for IMAP protocol. |
 | [EmailPopConnection](./emailpopconnection) | Represents the email connection information for POP protocol. |
+| [ExternalResourceHandler](./externalresourcehandler) | Provides a handler for external resources loading. |
+| [ExternalResourceLoadingArgs](./externalresourceloadingargs) | Provides the data for [`OnLoading`](../groupdocs.parser.options/externalresourcehandler/onloading) method. |
 | [Features](./features) | Represents the supported features list. Allows to obtain information which features are supported or not for the document. |
 | [FileInfo](./fileinfo) | Represents the file information. |
 | [FileType](./filetype) | Represents the file type. Provides methods to obtain list of all file types supported by **GroupDocs.Parser**. |

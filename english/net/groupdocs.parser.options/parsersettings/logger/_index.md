@@ -3,7 +3,7 @@ title: Logger
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the logger which is used for logging events and errors during data extraction.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.parser.options/parsersettings/logger/
 ---
 ## ParserSettings.Logger property
