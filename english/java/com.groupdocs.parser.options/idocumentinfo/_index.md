@@ -3,9 +3,10 @@ title: IDocumentInfo
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents the document information.
 type: docs
-weight: 38
+weight: 36
 url: /java/com.groupdocs.parser.options/idocumentinfo/
----```
+---
+```
 public interface IDocumentInfo
 ```
 

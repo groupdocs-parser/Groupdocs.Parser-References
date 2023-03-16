@@ -3,7 +3,7 @@ title: OcrConnectorBase
 second_title: GroupDocs.Parser for Java API Reference
 description: Provides the OCR functionality.
 type: docs
-weight: 24
+weight: 22
 url: /java/com.groupdocs.parser.options/ocrconnectorbase/
 ---
 **Inheritance:**
