@@ -16,7 +16,7 @@ public bool FormattedTextPage { get; }
 
 ### Rückgabewert
 
-`Stimmt` wenn die Extraktion formatierter Textseiten unterstützt wird; Andernfalls,`FALSCH`.
+`WAHR` wenn die Extraktion formatierter Textseiten unterstützt wird; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

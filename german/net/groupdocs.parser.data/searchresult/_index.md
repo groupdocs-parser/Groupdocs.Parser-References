@@ -18,7 +18,7 @@ public sealed class SearchResult
 
 | Name | Beschreibung |
 | --- | --- |
-| [LeftHighlightItem](../../groupdocs.parser.data/searchresult/lefthighlightitem) { get; } | Ruft die linke Markierung ab. |
+| [LeftHighlightItem](../../groupdocs.parser.data/searchresult/lefthighlightitem) { get; } | Ruft die linke Markierung auf. |
 | [PageIndex](../../groupdocs.parser.data/searchresult/pageindex) { get; } | Ruft den Seitenindex ab, wo der Text gefunden wird. |
 | [Position](../../groupdocs.parser.data/searchresult/position) { get; } | Ruft die Position im Dokumenttext ab. |
 | [RightHighlightItem](../../groupdocs.parser.data/searchresult/righthighlightitem) { get; } | Bekommt das richtige Highlight. |
@@ -26,7 +26,7 @@ public sealed class SearchResult
 
 ### Bemerkungen
 
-Eine Instanz von[`SearchResult`](../searchresult) Klasse wird als Rückgabewert von verwendet[`Search`](../../groupdocs.parser/parser/search) und[`Search`](../../groupdocs.parser/parser/search) Methoden. Siehe dort die Anwendungsbeispiele.
+Eine Instanz von[`SearchResult`](../searchresult) Klasse wird als Rückgabewert von verwendet[`Search`](../../groupdocs.parser/parser/search) Und[`Search`](../../groupdocs.parser/parser/search) Methoden. Siehe dort die Anwendungsbeispiele.
 
 ### Siehe auch
 

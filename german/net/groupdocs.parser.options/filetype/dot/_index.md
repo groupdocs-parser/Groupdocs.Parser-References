@@ -1,14 +1,14 @@
 ---
 title: DOT
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: Dateien mit der Erweiterung .DOT sind Vorlagendateien die von Microsoft Word erstellt wurden um vorformatierte Einstellungen für die Generierung weiterer DOC oder DOCXDateien zu haben. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/wordprocessing/dot/ .
+description: Dateien mit der Erweiterung .DOT sind Vorlagendateien die von Microsoft Word erstellt wurden um vorformatierte Einstellungen für die Generierung weiterer DOC oder DOCXDateien zu haben. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/wordprocessing/dot/ .
 type: docs
 weight: 120
 url: /de/net/groupdocs.parser.options/filetype/dot/
 ---
 ## FileType.DOT field
 
-Dateien mit der Erweiterung .DOT sind Vorlagendateien, die von Microsoft Word erstellt wurden, um vorformatierte Einstellungen für die Generierung weiterer DOC- oder DOCX-Dateien zu haben. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/word-processing/dot/) .
+Dateien mit der Erweiterung .DOT sind Vorlagendateien, die von Microsoft Word erstellt wurden, um vorformatierte Einstellungen für die Generierung weiterer DOC- oder DOCX-Dateien zu haben. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/word-processing/dot/) .
 
 ```csharp
 public static readonly FileType DOT;

@@ -16,7 +16,7 @@ public Point Position { get; }
 
 ### Eigentumswert
 
-Eine Instanz von[`Point`](../../point) Klasse, die die Koordinaten der oberen linken Ecke des rechteckigen Bereichs darstellt.
+Eine Instanz von[`Point`](../../point)Klasse, die die Koordinaten der oberen linken Ecke des rechteckigen Bereichs darstellt.
 
 ### Siehe auch
 

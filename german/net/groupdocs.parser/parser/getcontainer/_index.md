@@ -20,9 +20,9 @@ Eine Sammlung von Containerartikeln; `Null`wenn die Containerextraktion nicht un
 
 ### Bemerkungen
 
-Um zu überprüfen, ob das Format das Extrahieren von Anhängen unterstützt, siehe[Unterstützte Dokumentformate](https://docs.groupdocs.com/parser/net/supported-document-formats/) (**Container und Anhänge extrahieren** Säule).
+Um zu überprüfen, ob das Format das Extrahieren von Anhängen unterstützt, siehe[Unterstützte Dokumentformate](https://docs.groupdocs.com/parser/net/supported-document-formats/) (**Container und Anhänge extrahieren** Spalte).
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Extrahieren Sie Daten aus Anhängen und ZIP-Archiven](https://docs.groupdocs.com/display/parsernet/Extract+data+from+attachments+and+ZIP+archives)
 * [Containerelemente durchlaufen](https://docs.groupdocs.com/display/parsernet/Iterate+through+container+items)

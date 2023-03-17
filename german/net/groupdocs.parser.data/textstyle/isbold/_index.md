@@ -16,7 +16,7 @@ public bool IsBold { get; }
 
 ### Rückgabewert
 
-`Stimmt` wenn die Schriftart fett ist; Andernfalls,`FALSCH`.
+`WAHR` wenn die Schriftart fett ist; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

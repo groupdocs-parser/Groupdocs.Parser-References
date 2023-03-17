@@ -3,7 +3,7 @@ title: TextPage
 second_title: GroupDocs.Parser für .NET-API-Referenz
 description: Ruft den Wert ab der angibt ob die Extraktion von Textseiten unterstützt wird.
 type: docs
-weight: 160
+weight: 180
 url: /de/net/groupdocs.parser.options/features/textpage/
 ---
 ## Features.TextPage property
@@ -16,7 +16,7 @@ public bool TextPage { get; }
 
 ### Rückgabewert
 
-`Stimmt` ob Textseitenextraktion unterstützt wird; Andernfalls,`FALSCH`.
+`WAHR` ob Textseitenextraktion unterstützt wird; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

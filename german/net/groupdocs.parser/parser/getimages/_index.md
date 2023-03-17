@@ -20,7 +20,7 @@ Eine Sammlung von[`PageImageArea`](../../../groupdocs.parser.data/pageimagearea)
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Bilder aus Dokumenten extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+images+from+documents)
 * [Bilder in Dateien extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+images+to+files)
@@ -82,7 +82,7 @@ Eine Sammlung von[`PageImageArea`](../../../groupdocs.parser.data/pageimagearea)
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Bilder aus Dokumenten extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+images+from+documents)
 * [Bilder in Dateien extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+images+to+files)
@@ -148,7 +148,7 @@ Eine Sammlung von[`PageImageArea`](../../../groupdocs.parser.data/pageimagearea)
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Bilder aus Dokumenten extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+images+from+documents)
 * [Bilder in Dateien extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+images+to+files)
@@ -227,7 +227,7 @@ Eine Sammlung von[`PageImageArea`](../../../groupdocs.parser.data/pageimagearea)
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Bilder aus Dokumenten extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+images+from+documents)
 * [Bilder in Dateien extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+images+to+files)

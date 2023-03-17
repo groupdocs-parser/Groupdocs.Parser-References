@@ -16,7 +16,7 @@ public int? WordCount { get; }
 
 ### Eigentumswert
 
-Ein positiver ganzzahliger Wert, der die maximale Wortanzahl darstellt;`Null` wenn die Wortzahl nicht begrenzt ist.
+Ein positiver ganzzahliger Wert, der die maximale Wortzahl darstellt;`Null` wenn die Wortzahl nicht begrenzt ist.
 
 ### Siehe auch
 

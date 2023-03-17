@@ -1,14 +1,14 @@
 ---
 title: DOCM
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: DOCMDateien sind Microsoft Word 2007 oder höher erstellte Dokumente mit der Fähigkeit Makros auszuführen. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/wordprocessing/docm/ .
+description: DOCMDateien sind Microsoft Word 2007 oder höher erstellte Dokumente mit der Fähigkeit Makros auszuführen. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/wordprocessing/docm/ .
 type: docs
 weight: 100
 url: /de/net/groupdocs.parser.options/filetype/docm/
 ---
 ## FileType.DOCM field
 
-DOCM-Dateien sind Microsoft Word 2007 oder höher erstellte Dokumente mit der Fähigkeit, Makros auszuführen. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/word-processing/docm/) .
+DOCM-Dateien sind Microsoft Word 2007 oder höher erstellte Dokumente mit der Fähigkeit, Makros auszuführen. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/word-processing/docm/) .
 
 ```csharp
 public static readonly FileType DOCM;

@@ -1,14 +1,14 @@
 ---
 title: PS
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: PostScript PS ist eine AllzweckSeitenbeschreibungssprache die im Desktop und ElectronicPublishingGeschäft verwendet wird. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/pagedescriptionlanguage/ps/ .
+description: PostScript PS ist eine AllzweckSeitenbeschreibungssprache die im Desktop und ElectronicPublishingGeschäft verwendet wird. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/pagedescriptionlanguage/ps/ .
 type: docs
 weight: 620
 url: /de/net/groupdocs.parser.options/filetype/ps/
 ---
 ## FileType.PS field
 
-PostScript (PS) ist eine Allzweck-Seitenbeschreibungssprache, die im Desktop- und Electronic-Publishing-Geschäft verwendet wird. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/page-description-language/ps/) .
+PostScript (PS) ist eine Allzweck-Seitenbeschreibungssprache, die im Desktop- und Electronic-Publishing-Geschäft verwendet wird. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/page-description-language/ps/) .
 
 ```csharp
 public static readonly FileType PS;

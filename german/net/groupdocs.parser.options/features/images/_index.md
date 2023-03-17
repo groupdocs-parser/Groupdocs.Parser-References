@@ -16,7 +16,7 @@ public bool Images { get; }
 
 ### Rückgabewert
 
-`Stimmt` wenn die Bildextraktion unterstützt wird; Andernfalls,`FALSCH`.
+`WAHR` wenn die Bildextraktion unterstützt wird; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

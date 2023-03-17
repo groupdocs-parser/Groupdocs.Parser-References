@@ -16,7 +16,7 @@ public bool MatchCase { get; }
 
 ### Eigentumswert
 
-`Stimmt` wenn ein Textfall nicht ignoriert wird; Andernfalls,`FALSCH`.
+`WAHR` wenn ein Textfall nicht ignoriert wird; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

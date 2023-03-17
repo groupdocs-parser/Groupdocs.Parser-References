@@ -1,14 +1,14 @@
 ---
 title: GZ
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: Dateien mit der Erweiterung .gz sind komprimierte Dateien die mit der gzipKomprimierungsanwendung erstellt wurden. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/compression/gz/ .
+description: Dateien mit der Erweiterung .gz sind komprimierte Dateien die mit der gzipKomprimierungsanwendung erstellt wurden. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/compression/gz/ .
 type: docs
 weight: 220
 url: /de/net/groupdocs.parser.options/filetype/gz/
 ---
 ## FileType.GZ field
 
-Dateien mit der Erweiterung .gz sind komprimierte Dateien, die mit der gzip-Komprimierungsanwendung erstellt wurden. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/compression/gz/) .
+Dateien mit der Erweiterung .gz sind komprimierte Dateien, die mit der gzip-Komprimierungsanwendung erstellt wurden. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/compression/gz/) .
 
 ```csharp
 public static readonly FileType GZ;

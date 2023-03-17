@@ -1,14 +1,14 @@
 ---
 title: OTT
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: Dateien mit der Erweiterung OTT stellen Vorlagendokumente dar die von Anwendungen in Übereinstimmung mit dem OpenDocumentStandardformat von OASIS generiert wurden. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/wordprocessing/ott/ .
+description: Dateien mit der Erweiterung OTT stellen Vorlagendokumente dar die von Anwendungen in Übereinstimmung mit dem OpenDocumentStandardformat von OASIS generiert wurden. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/wordprocessing/ott/ .
 type: docs
 weight: 480
 url: /de/net/groupdocs.parser.options/filetype/ott/
 ---
 ## FileType.OTT field
 
-Dateien mit der Erweiterung OTT stellen Vorlagendokumente dar, die von Anwendungen in Übereinstimmung mit dem OpenDocument-Standardformat von OASIS generiert wurden. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/word-processing/ott/) .
+Dateien mit der Erweiterung OTT stellen Vorlagendokumente dar, die von Anwendungen in Übereinstimmung mit dem OpenDocument-Standardformat von OASIS generiert wurden. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/word-processing/ott/) .
 
 ```csharp
 public static readonly FileType OTT;

@@ -3,7 +3,7 @@ title: TemplateBarcode
 second_title: GroupDocs.Parser für .NET-API-Referenz
 description: Stellt das BarcodeVorlagenfeld bereit.
 type: docs
-weight: 610
+weight: 660
 url: /de/net/groupdocs.parser.templates/templatebarcode/
 ---
 ## TemplateBarcode class

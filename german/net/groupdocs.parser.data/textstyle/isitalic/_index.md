@@ -16,7 +16,7 @@ public bool IsItalic { get; }
 
 ### Rückgabewert
 
-`Stimmt` wenn die Schriftart kursiv ist; Andernfalls,`FALSCH`.
+`WAHR` wenn die Schriftart kursiv ist; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

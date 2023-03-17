@@ -3,7 +3,7 @@ title: UniteSegments
 second_title: GroupDocs.Parser für .NET-API-Referenz
 description: Ruft den Wert ab der angibt ob Segmente vereint sind.
 type: docs
-weight: 50
+weight: 60
 url: /de/net/groupdocs.parser.options/pagetextareaoptions/unitesegments/
 ---
 ## PageTextAreaOptions.UniteSegments property
@@ -16,7 +16,7 @@ public bool UniteSegments { get; }
 
 ### Eigentumswert
 
-`Stimmt` wenn Segmente vereint sind; Andernfalls,`FALSCH`.
+`WAHR` wenn Segmente vereint sind; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

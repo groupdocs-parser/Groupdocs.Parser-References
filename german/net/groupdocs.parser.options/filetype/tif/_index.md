@@ -1,14 +1,14 @@
 ---
 title: TIF
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: TIF Tagged Image File Format stellt Rasterbilder dar die für die Verwendung auf einer Vielzahl von Geräten bestimmt sind die diesem Dateiformatstandard entsprechen. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/image/tiff/ .
+description: TIF Tagged Image File Format stellt Rasterbilder dar die für die Verwendung auf einer Vielzahl von Geräten bestimmt sind die diesem Dateiformatstandard entsprechen. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/image/tiff/ .
 type: docs
 weight: 710
 url: /de/net/groupdocs.parser.options/filetype/tif/
 ---
 ## FileType.TIF field
 
-TIF, Tagged Image File Format, stellt Rasterbilder dar, die für die Verwendung auf einer Vielzahl von Geräten bestimmt sind, die diesem Dateiformatstandard entsprechen. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/image/tiff/) .
+TIF, Tagged Image File Format, stellt Rasterbilder dar, die für die Verwendung auf einer Vielzahl von Geräten bestimmt sind, die diesem Dateiformatstandard entsprechen. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/image/tiff/) .
 
 ```csharp
 public static readonly FileType TIF;

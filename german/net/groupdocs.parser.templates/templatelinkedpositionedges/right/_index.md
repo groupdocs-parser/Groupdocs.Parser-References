@@ -16,7 +16,7 @@ public bool Right { get; }
 
 ### Eigentumswert
 
-`Stimmt` wenn ein Feld rechts vom verknüpften Feld gesucht wird; Andernfalls,`FALSCH`.
+`WAHR` wenn ein Feld rechts vom verknüpften Feld gesucht wird; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

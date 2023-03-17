@@ -3,7 +3,7 @@ title: TemplateLinkedPosition
 second_title: GroupDocs.Parser für .NET-API-Referenz
 description: Stellt eine Vorlagenfeldposition bereit die das verknüpfte Feld verwendet.
 type: docs
-weight: 650
+weight: 700
 url: /de/net/groupdocs.parser.templates/templatelinkedposition/
 ---
 ## TemplateLinkedPosition class
@@ -26,7 +26,7 @@ public sealed class TemplateLinkedPosition : TemplatePosition
 | Name | Beschreibung |
 | --- | --- |
 | [AutoScale](../../groupdocs.parser.templates/templatelinkedposition/autoscale) { get; } | Ruft den Wert ab, der angibt, ob[`SearchArea`](./searcharea) wird um die verknüpfte Feldgröße skaliert. |
-| [Edges](../../groupdocs.parser.templates/templatelinkedposition/edges) { get; } | Ruft die Ränder des verknüpften Felds ab, wo ein Feld gesucht wird. |
+| [Edges](../../groupdocs.parser.templates/templatelinkedposition/edges) { get; } | Ruft die Kanten des verknüpften Felds ab, wo ein Feld gesucht wird. |
 | [LinkedFieldName](../../groupdocs.parser.templates/templatelinkedposition/linkedfieldname) { get; } | Ruft den verknüpften Feldnamen ab. |
 | [SearchArea](../../groupdocs.parser.templates/templatelinkedposition/searcharea) { get; } | Ruft die Größe des Bereichs ab, in dem ein Feld durchsucht wird. |
 

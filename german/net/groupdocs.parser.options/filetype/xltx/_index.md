@@ -1,14 +1,14 @@
 ---
 title: XLTX
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: Dateien mit der Erweiterung XLTX stellen Microsoft ExcelVorlagendateien dar die auf den Office OpenXML Dateiformatspezifikationen basieren. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/specification/spreadsheet/xltx/ .
+description: Dateien mit der Erweiterung XLTX stellen Microsoft ExcelVorlagendateien dar die auf den Office OpenXML Dateiformatspezifikationen basieren. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/specification/spreadsheet/xltx/ .
 type: docs
 weight: 870
 url: /de/net/groupdocs.parser.options/filetype/xltx/
 ---
 ## FileType.XLTX field
 
-Dateien mit der Erweiterung XLTX stellen Microsoft Excel-Vorlagendateien dar, die auf den Office OpenXML -Dateiformatspezifikationen basieren. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/specification/spreadsheet/xltx/) .
+Dateien mit der Erweiterung XLTX stellen Microsoft Excel-Vorlagendateien dar, die auf den Office OpenXML -Dateiformatspezifikationen basieren. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/specification/spreadsheet/xltx/) .
 
 ```csharp
 public static readonly FileType XLTX;

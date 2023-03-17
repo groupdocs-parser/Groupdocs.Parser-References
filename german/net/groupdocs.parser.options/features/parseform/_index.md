@@ -3,7 +3,7 @@ title: ParseForm
 second_title: GroupDocs.Parser für .NET-API-Referenz
 description: Ruft den Wert ab der angibt ob die Formularanalyse unterstützt wird.
 type: docs
-weight: 100
+weight: 110
 url: /de/net/groupdocs.parser.options/features/parseform/
 ---
 ## Features.ParseForm property
@@ -16,7 +16,7 @@ public bool ParseForm { get; }
 
 ### Rückgabewert
 
-`Stimmt` wenn die Formularanalyse unterstützt wird; Andernfalls,`FALSCH`.
+`WAHR` wenn die Formularanalyse unterstützt wird; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

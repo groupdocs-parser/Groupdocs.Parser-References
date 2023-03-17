@@ -16,7 +16,7 @@ public bool Hyperlinks { get; }
 
 ### Rückgabewert
 
-`Stimmt` ob die Extraktion von Hyperlinks unterstützt wird; Andernfalls,`FALSCH`.
+`WAHR` ob die Extraktion von Hyperlinks unterstützt wird; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

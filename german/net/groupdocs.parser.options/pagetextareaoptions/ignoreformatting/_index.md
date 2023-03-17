@@ -16,7 +16,7 @@ public bool IgnoreFormatting { get; }
 
 ### Eigentumswert
 
-`Stimmt` wenn die Textformatierung ignoriert wird; Andernfalls,`FALSCH`.
+`WAHR` wenn die Textformatierung ignoriert wird; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

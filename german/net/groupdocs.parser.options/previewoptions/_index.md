@@ -3,7 +3,7 @@ title: PreviewOptions
 second_title: GroupDocs.Parser für .NET-API-Referenz
 description: Bietet Optionen zum Festlegen von Anforderungen und zum Streamen von Delegaten für die Vorschaugenerierung.
 type: docs
-weight: 520
+weight: 570
 url: /de/net/groupdocs.parser.options/previewoptions/
 ---
 ## PreviewOptions class

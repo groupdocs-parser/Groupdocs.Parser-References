@@ -20,7 +20,7 @@ Eine Instanz vonTextReader Klasse mit dem extrahierten Text; `Null` wenn die Tex
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Text aus Dokumenten extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+text+from+documents)
 * [Extrahieren Sie Text im genauen Modus](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
@@ -69,7 +69,7 @@ Eine Instanz vonTextReader Klasse mit dem extrahierten Text; `Null` wenn die Tex
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Extrahieren Sie Text im genauen Modus](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
 * [Text im Raw-Modus extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Raw+mode)
@@ -119,7 +119,7 @@ Eine Instanz vonTextReader Klasse mit dem extrahierten Text; `Null` wenn die Ext
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Extrahieren Sie Text im genauen Modus](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
 
@@ -191,7 +191,7 @@ Eine Instanz vonTextReader Klasse mit dem extrahierten Text; `Null` wenn die Ext
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Extrahieren Sie Text im genauen Modus](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
 * [Text im Raw-Modus extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Raw+mode)

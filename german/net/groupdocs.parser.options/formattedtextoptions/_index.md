@@ -3,7 +3,7 @@ title: FormattedTextOptions
 second_title: GroupDocs.Parser für .NET-API-Referenz
 description: Stellt die Optionen bereit die für die Extraktion von formatiertem Text verwendet werden.
 type: docs
-weight: 390
+weight: 410
 url: /de/net/groupdocs.parser.options/formattedtextoptions/
 ---
 ## FormattedTextOptions class
@@ -28,9 +28,9 @@ public sealed class FormattedTextOptions
 
 ### Bemerkungen
 
-Eine Instanz von[`FormattedTextOptions`](../formattedtextoptions) class wird als parameter in verwendet[`GetFormattedText`](../../groupdocs.parser/parser/getformattedtext) und[`GetFormattedText`](../../groupdocs.parser/parser/getformattedtext) Methoden. Siehe dort die Verwendungsbeispiele.
+Eine Instanz von[`FormattedTextOptions`](../formattedtextoptions) class wird als parameter in verwendet[`GetFormattedText`](../../groupdocs.parser/parser/getformattedtext) Und[`GetFormattedText`](../../groupdocs.parser/parser/getformattedtext) Methoden. Siehe dort die Verwendungsbeispiele.
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Formatierten Text aus Dokument extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+formatted+text+from+document)
 * Extrahieren Sie einen Dokumenttext als[HTML](https://docs.groupdocs.com/display/parsernet/HTML)

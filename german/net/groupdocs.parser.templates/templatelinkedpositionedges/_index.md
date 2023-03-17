@@ -3,7 +3,7 @@ title: TemplateLinkedPositionEdges
 second_title: GroupDocs.Parser für .NET-API-Referenz
 description: Liefert die Ränder des verlinkten Feldes wo das Textfeld gesucht wird. TemplateLinkedPositionEdges./templatelinkedpositionedges verwendet wirdTemplateLinkedPosition./templatelinkedposition Klasse.
 type: docs
-weight: 660
+weight: 710
 url: /de/net/groupdocs.parser.templates/templatelinkedpositionedges/
 ---
 ## TemplateLinkedPositionEdges class

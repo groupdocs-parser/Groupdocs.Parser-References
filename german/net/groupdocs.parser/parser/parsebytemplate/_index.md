@@ -24,7 +24,7 @@ Eine Instanz von[`DocumentData`](../../../groupdocs.parser.data/documentdata) Kl
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Analysieren Sie Daten aus Dokumenten](https://docs.groupdocs.com/display/parsernet/Parse+data+from+documents)
 * [Arbeiten mit Vorlagen](https://docs.groupdocs.com/display/parsernet/Working+with+templates)

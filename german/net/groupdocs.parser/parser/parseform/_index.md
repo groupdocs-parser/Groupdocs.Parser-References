@@ -20,7 +20,7 @@ Eine Instanz von[`DocumentData`](../../../groupdocs.parser.data/documentdata) Kl
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Daten aus PDF-Formularen extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+data+from+PDF+forms)
 * [Arbeiten mit extrahierten Daten](https://docs.groupdocs.com/display/parsernet/Working+with+data+extracted+by+template)

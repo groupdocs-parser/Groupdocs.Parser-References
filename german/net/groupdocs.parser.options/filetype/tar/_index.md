@@ -1,14 +1,14 @@
 ---
 title: TAR
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: Dateien mit der Erweiterung .tar sind Archive die mit einem Unixbasierten Dienstprogramm zum Sammeln einer oder mehrerer Dateien erstellt wurden. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/compression/tar/ .
+description: Dateien mit der Erweiterung .tar sind Archive die mit einem Unixbasierten Dienstprogramm zum Sammeln einer oder mehrerer Dateien erstellt wurden. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/compression/tar/ .
 type: docs
 weight: 690
 url: /de/net/groupdocs.parser.options/filetype/tar/
 ---
 ## FileType.TAR field
 
-Dateien mit der Erweiterung .tar sind Archive, die mit einem Unix-basierten Dienstprogramm zum Sammeln einer oder mehrerer Dateien erstellt wurden. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/compression/tar/) .
+Dateien mit der Erweiterung .tar sind Archive, die mit einem Unix-basierten Dienstprogramm zum Sammeln einer oder mehrerer Dateien erstellt wurden. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/compression/tar/) .
 
 ```csharp
 public static readonly FileType TAR;

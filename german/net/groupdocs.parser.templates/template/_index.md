@@ -3,7 +3,7 @@ title: Template
 second_title: GroupDocs.Parser für .NET-API-Referenz
 description: Stellt die Dokumentvorlage bereit. Es besteht ausTemplateItem./templateitem objects  die die Elemente der Vorlage darstellen z. B. Textfeld und Tabellendefinitionen.
 type: docs
-weight: 600
+weight: 650
 url: /de/net/groupdocs.parser.templates/template/
 ---
 ## Template class
@@ -35,7 +35,7 @@ public sealed class Template : IEnumerable<TemplateItem>
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Arbeiten mit Vorlagen](https://docs.groupdocs.com/display/parsernet/Working+with+templates)
 

@@ -16,7 +16,7 @@ public bool? HasMergedCells { get; }
 
 ### Eigentumswert
 
-`Stimmt` wenn die Tabelle verbundene Zellen hat; Andernfalls,`FALSCH` .`Null` wenn es nicht eingestellt ist.
+`WAHR` wenn die Tabelle verbundene Zellen hat; ansonsten,`FALSCH` .`Null` wenn es nicht eingestellt ist.
 
 ### Siehe auch
 

@@ -26,7 +26,7 @@ Eine Instanz von[`FileType`](../../../groupdocs.parser.options/filetype) Klasse;
 
 *detectionMode* Der Parameter bietet die Möglichkeit, die Erkennung des Dateityps zu steuern:
 
-* **Standard** . Der Dateityp wird durch die Dateierweiterung erkannt; Wenn die Dateierweiterung nicht erkannt wird, wird der Dateityp anhand des Dateiinhalts erkannt.
+* **Standard** Der Dateityp wird durch die Dateierweiterung erkannt; Wenn die Dateierweiterung nicht erkannt wird, wird der Dateityp anhand des Dateiinhalts erkannt.
 * **Verlängerung** .Der Dateityp wird nur anhand der Dateiendung erkannt.
 * **Inhalt** . Der Dateityp wird nur durch den Dateiinhalt erkannt.
 

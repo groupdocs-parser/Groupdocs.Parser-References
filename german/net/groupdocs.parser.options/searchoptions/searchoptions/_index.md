@@ -109,7 +109,7 @@ public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpress
 
 ## SearchOptions(bool, bool, bool, bool) {#constructor_2}
 
-Initialisiert eine neue Instanz von[`SearchOptions`](../../searchoptions) Klasse, die verwendet wird, um nach Seiten und ohne Highlight-Extraktion zu suchen.
+Initialisiert eine neue Instanz von[`SearchOptions`](../../searchoptions)Klasse, die verwendet wird, um nach Seiten und ohne Highlight-Extraktion zu suchen.
 
 ```csharp
 public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpression, 

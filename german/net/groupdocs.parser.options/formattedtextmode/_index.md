@@ -3,7 +3,7 @@ title: FormattedTextMode
 second_title: GroupDocs.Parser für .NET-API-Referenz
 description: Definiert einen formatierten Textmodus.
 type: docs
-weight: 380
+weight: 400
 url: /de/net/groupdocs.parser.options/formattedtextmode/
 ---
 ## FormattedTextMode enumeration
@@ -24,7 +24,7 @@ public enum FormattedTextMode
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Formatierten Text aus Dokument extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+formatted+text+from+document)
 * Extrahieren Sie einen Dokumenttext als[HTML](https://docs.groupdocs.com/display/parsernet/HTML)

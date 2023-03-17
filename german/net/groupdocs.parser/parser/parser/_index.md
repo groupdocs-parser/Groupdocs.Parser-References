@@ -20,7 +20,7 @@ public Parser(DbConnection connection)
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Daten aus Datenbanken extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+data+from+databases)
 
@@ -85,7 +85,7 @@ public Parser(DbConnection connection, ParserSettings parserSettings)
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Daten aus Datenbanken extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+data+from+databases)
 * [Protokollierung](https://docs.groupdocs.com/display/parsernet/Logging)
@@ -151,7 +151,7 @@ public Parser(EmailConnection connection)
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Extrahieren Sie E-Mails von Remote-Servern über POP-, IMAP- oder Exchange Web Services-Protokolle](https://docs.groupdocs.com/display/parsernet/Extract+emails+from+remote+server+via+POP%2C+IMAP+or+Exchange+Web+Services+protocols)
 
@@ -220,7 +220,7 @@ public Parser(EmailConnection connection, ParserSettings parserSettings)
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Extrahieren Sie E-Mails von Remote-Servern über POP-, IMAP- oder Exchange Web Services-Protokolle](https://docs.groupdocs.com/display/parsernet/Extract+emails+from+remote+server+via+POP%2C+IMAP+or+Exchange+Web+Services+protocols)
 * [Protokollierung](https://docs.groupdocs.com/display/parsernet/Logging)
@@ -276,7 +276,7 @@ IEnumerable<ContainerItem> emails = parser.GetContainer();
 
 ---
 
-## Parser(string) {#constructor_7}
+## Parser(string) {#constructor_8}
 
 Initialisiert eine neue Instanz von[`Parser`](../../parser) Klasse.
 
@@ -290,7 +290,7 @@ public Parser(string filePath)
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Dokument von lokaler Festplatte laden](https://docs.groupdocs.com/display/parsernet/Load+document+from+local+disk)
 
@@ -320,7 +320,7 @@ using (Parser parser = new Parser(filePath))
 
 ---
 
-## Parser(string, LoadOptions) {#constructor_8}
+## Parser(string, LoadOptions) {#constructor_9}
 
 Initialisiert eine neue Instanz von[`Parser`](../../parser) Klasse mit[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) .
 
@@ -335,7 +335,7 @@ public Parser(string filePath, LoadOptions loadOptions)
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Laden bestimmter Dateiformate](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
 * [Passwortgeschützte Dokumente laden](https://docs.groupdocs.com/display/parsernet/Password-protected+documents)
@@ -380,7 +380,29 @@ catch (InvalidPasswordException)
 
 ---
 
-## Parser(string, LoadOptions, ParserSettings) {#constructor_9}
+## Parser(string, ParserSettings) {#constructor_11}
+
+Initialisiert eine neue Instanz von[`Parser`](../../parser) Klasse mit[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
+
+```csharp
+public Parser(string filePath, ParserSettings parserSettings)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| filePath | String | Der Pfad zur Datei. |
+| parserSettings | ParserSettings | Die Parsereinstellungen, die zum Anpassen der Datenextraktion verwendet werden. |
+
+### Siehe auch
+
+* class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
+* class [Parser](../../parser)
+* namensraum [GroupDocs.Parser](../../parser)
+* Montage [GroupDocs.Parser](../../../)
+
+---
+
+## Parser(string, LoadOptions, ParserSettings) {#constructor_10}
 
 Initialisiert eine neue Instanz von[`Parser`](../../parser) Klasse mit[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) und[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
 
@@ -396,7 +418,7 @@ public Parser(string filePath, LoadOptions loadOptions, ParserSettings parserSet
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Laden bestimmter Dateiformate](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
 * [Passwortgeschützte Dokumente laden](https://docs.groupdocs.com/display/parsernet/Password-protected+documents)
@@ -408,11 +430,11 @@ public Parser(string filePath, LoadOptions loadOptions, ParserSettings parserSet
 Das folgende Beispiel zeigt, wie Sie die Informationen per erhalten[`ILogger`](../../../groupdocs.parser.options/ilogger) Schnittstelle:
 
 ```csharp
-// Versuchen
+// versuchen
 {
     // Erstellen Sie eine Instanz der Logger-Klasse
     Logger logger = new Logger();
-    // Eine Instanz der Parser-Klasse mit den Parser-Einstellungen erstellen
+    // Erstellen Sie eine Instanz der Parser-Klasse mit den Parser-Einstellungen
     using (Parser parser = new Parser(filePath, null, new ParserSettings(logger)))
     {
         // Prüfen, ob Textextraktion unterstützt wird
@@ -442,7 +464,7 @@ private class Logger : ILogger
     }
     public void Trace(string message)
     {
-        // Ereignismeldung drucken
+        // Ereignisnachricht drucken
         Console.WriteLine("Event: " + message);
     }
     public void Warning(string message)
@@ -477,7 +499,7 @@ public Parser(Stream document)
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Dokument aus Stream laden](https://docs.groupdocs.com/display/parsernet/Load+document+from+stream)
 
@@ -522,7 +544,7 @@ public Parser(Stream document, LoadOptions loadOptions)
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Laden bestimmter Dateiformate](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
 * [Passwortgeschützte Dokumente laden](https://docs.groupdocs.com/display/parsernet/Password-protected+documents)
@@ -588,6 +610,28 @@ catch (InvalidPasswordException)
 
 ---
 
+## Parser(Stream, ParserSettings) {#constructor_7}
+
+Initialisiert eine neue Instanz von[`Parser`](../../parser) Klasse mit[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
+
+```csharp
+public Parser(Stream document, ParserSettings parserSettings)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| document | Stream | Der Quelleingabestream. |
+| parserSettings | ParserSettings | Die Parsereinstellungen, die zum Anpassen der Datenextraktion verwendet werden. |
+
+### Siehe auch
+
+* class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
+* class [Parser](../../parser)
+* namensraum [GroupDocs.Parser](../../parser)
+* Montage [GroupDocs.Parser](../../../)
+
+---
+
 ## Parser(Stream, LoadOptions, ParserSettings) {#constructor_6}
 
 Initialisiert eine neue Instanz von[`Parser`](../../parser) Klasse mit[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) und[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
@@ -604,7 +648,7 @@ public Parser(Stream document, LoadOptions loadOptions, ParserSettings parserSet
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Laden bestimmter Dateiformate](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
 * [Passwortgeschützte Dokumente laden](https://docs.groupdocs.com/display/parsernet/Password-protected+documents)
@@ -616,11 +660,11 @@ public Parser(Stream document, LoadOptions loadOptions, ParserSettings parserSet
 Das folgende Beispiel zeigt, wie Sie die Informationen per erhalten[`ILogger`](../../../groupdocs.parser.options/ilogger) Schnittstelle:
 
 ```csharp
-// Versuchen
+// versuchen
 {
     // Erstellen Sie eine Instanz der Logger-Klasse
     Logger logger = new Logger();
-    // Eine Instanz der Parser-Klasse mit den Parser-Einstellungen erstellen
+    // Erstellen Sie eine Instanz der Parser-Klasse mit den Parser-Einstellungen
     using (Parser parser = new Parser(stream, null, new ParserSettings(logger)))
     {
         // Prüfen, ob Textextraktion unterstützt wird
@@ -650,7 +694,7 @@ private class Logger : ILogger
     }
     public void Trace(string message)
     {
-        // Ereignismeldung drucken
+        // Ereignisnachricht drucken
         Console.WriteLine("Event: " + message);
     }
     public void Warning(string message)

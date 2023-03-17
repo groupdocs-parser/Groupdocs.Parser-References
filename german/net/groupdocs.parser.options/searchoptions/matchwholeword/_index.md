@@ -16,7 +16,7 @@ public bool MatchWholeWord { get; }
 
 ### Eigentumswert
 
-`Stimmt` wenn die Textsuche durch ein ganzes Wort begrenzt ist; Andernfalls,`FALSCH`.
+`WAHR` wenn die Textsuche durch ein ganzes Wort begrenzt ist; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

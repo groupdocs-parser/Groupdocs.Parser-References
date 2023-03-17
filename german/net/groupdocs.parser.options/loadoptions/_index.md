@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: GroupDocs.Parser für .NET-API-Referenz
 description: Stellt die Optionen bereit die zum Öffnen einer Datei verwendet werden.
 type: docs
-weight: 450
+weight: 470
 url: /de/net/groupdocs.parser.options/loadoptions/
 ---
 ## LoadOptions class
@@ -18,9 +18,9 @@ public sealed class LoadOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [LoadOptions](loadoptions#constructor)() | Initialisiert eine neue Instanz von[`LoadOptions`](../loadoptions) Klasse mit leer[`Password`](./password) ,[`FileFormat`](./fileformat) gleichtUnknown und Standardkodierungen. |
-| [LoadOptions](loadoptions#constructor_1)(FileFormat) | Initialisiert eine neue Instanz von[`LoadOptions`](../loadoptions) class mit leer[`Password`](./password) und Standardcodierungen. |
-| [LoadOptions](loadoptions#constructor_4)(string) | Initialisiert eine neue Instanz von[`LoadOptions`](../loadoptions)class mit[`FileFormat`](./fileformat) gleichtUnknown und Standardkodierungen. |
+| [LoadOptions](loadoptions#constructor)() | Initialisiert eine neue Instanz von[`LoadOptions`](../loadoptions) Klasse mit leer[`Password`](./password) ,[`FileFormat`](./fileformat) gleichUnknown und Standardkodierungen. |
+| [LoadOptions](loadoptions#constructor_1)(FileFormat) | Initialisiert eine neue Instanz von[`LoadOptions`](../loadoptions) class mit leer[`Password`](./password)und Standardcodierungen. |
+| [LoadOptions](loadoptions#constructor_4)(string) | Initialisiert eine neue Instanz von[`LoadOptions`](../loadoptions) class mit[`FileFormat`](./fileformat) gleichUnknown und Standardkodierungen. |
 | [LoadOptions](loadoptions#constructor_2)(FileFormat, string) | Initialisiert eine neue Instanz von[`LoadOptions`](../loadoptions) Klasse mit dem Passwort und den Standardkodierungen. |
 | [LoadOptions](loadoptions#constructor_3)(FileFormat, string, Encoding, Encoding) | Initialisiert eine neue Instanz von[`LoadOptions`](../loadoptions) Klasse mit benutzerdefinierten Codierungen. |
 
@@ -42,7 +42,7 @@ Eine Instanz dieser Klasse wird als Parameter in verwendet[`Parser`](../../group
 
 Siehe dort die Anwendungsbeispiele.
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Laden bestimmter Dateiformate](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
 * [Passwortgeschützte Dokumente laden](https://docs.groupdocs.com/display/parsernet/Password-protected+documents)

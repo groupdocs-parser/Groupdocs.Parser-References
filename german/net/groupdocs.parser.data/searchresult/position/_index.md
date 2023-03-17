@@ -16,7 +16,7 @@ public int Position { get; }
 
 ### Eigentumswert
 
-Ein nullbasierter Index der Startposition des Suchergebnisses. Abhängig von[`SearchByPages`](../../../groupdocs.parser.options/searchoptions/searchbypages)Eigenschaftswert Dieser Index beginnt ab dem Dokumentanfang oder dem Seitenanfang des Dokuments.
+Ein nullbasierter Index der Startposition des Suchergebnisses. Abhängig von[`SearchByPages`](../../../groupdocs.parser.options/searchoptions/searchbypages) Eigenschaftswert Dieser Index beginnt ab dem Dokumentanfang oder dem Seitenanfang des Dokuments.
 
 ### Siehe auch
 

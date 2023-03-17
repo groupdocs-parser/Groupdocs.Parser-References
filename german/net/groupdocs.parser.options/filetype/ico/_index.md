@@ -1,14 +1,14 @@
 ---
 title: ICO
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: Dateien mit der Erweiterung ICO sind Bilddateitypen die als Symbol zur Darstellung einer Anwendung unter Microsoft Windows verwendet werden. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/ico/ .
+description: Dateien mit der Erweiterung ICO sind Bilddateitypen die als Symbol zur Darstellung einer Anwendung unter Microsoft Windows verwendet werden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/ico/ .
 type: docs
 weight: 250
 url: /de/net/groupdocs.parser.options/filetype/ico/
 ---
 ## FileType.ICO field
 
-Dateien mit der Erweiterung ICO sind Bilddateitypen, die als Symbol zur Darstellung einer Anwendung unter Microsoft Windows verwendet werden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/ico/) .
+Dateien mit der Erweiterung ICO sind Bilddateitypen, die als Symbol zur Darstellung einer Anwendung unter Microsoft Windows verwendet werden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/ico/) .
 
 ```csharp
 public static readonly FileType ICO;

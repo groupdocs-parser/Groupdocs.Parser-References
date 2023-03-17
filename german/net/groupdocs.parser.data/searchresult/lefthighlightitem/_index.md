@@ -1,14 +1,14 @@
 ---
 title: LeftHighlightItem
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: Ruft die linke Markierung ab.
+description: Ruft die linke Markierung auf.
 type: docs
 weight: 10
 url: /de/net/groupdocs.parser.data/searchresult/lefthighlightitem/
 ---
 ## SearchResult.LeftHighlightItem property
 
-Ruft die linke Markierung ab.
+Ruft die linke Markierung auf.
 
 ```csharp
 public HighlightItem LeftHighlightItem { get; }

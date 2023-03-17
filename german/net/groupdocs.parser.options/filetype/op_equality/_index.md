@@ -17,11 +17,11 @@ public static bool operator ==(FileType left, FileType right)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | left | FileType | Links[`FileType`](../../filetype) Objekt. |
-| right | FileType | Recht[`FileType`](../../filetype) Objekt. |
+| right | FileType | Rechts[`FileType`](../../filetype) Objekt. |
 
 ### Rückgabewert
 
-wenn beides[`FileType`](../../filetype) Objekte sind gleich; Andernfalls,
+wenn beides[`FileType`](../../filetype) Objekte sind gleich; ansonsten,
 
 ```csharp
 true

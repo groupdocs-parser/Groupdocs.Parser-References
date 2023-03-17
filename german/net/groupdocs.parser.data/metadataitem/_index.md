@@ -29,7 +29,7 @@ public sealed class MetadataItem
 
 ### Bemerkungen
 
-Eine Instanz von[`MetadataItem`](../metadataitem) Klasse wird als Rückgabewert von verwendet[`GetMetadata`](../../groupdocs.parser/parser/getmetadata) Methode und als Artikel in[`Metadata`](../containeritem/metadata)Sammlung. Siehe dort die Anwendungsbeispiele.
+Eine Instanz von[`MetadataItem`](../metadataitem) Klasse wird als Rückgabewert von verwendet[`GetMetadata`](../../groupdocs.parser/parser/getmetadata) Methode und als Artikel in[`Metadata`](../containeritem/metadata) Sammlung. Siehe dort die Anwendungsbeispiele.
 
 ### Siehe auch
 

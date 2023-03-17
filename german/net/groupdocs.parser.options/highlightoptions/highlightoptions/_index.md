@@ -1,14 +1,14 @@
 ---
 title: HighlightOptions
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: Initialisiert eine neue Instanz vonHighlightOptionsgroupdocs.parser.options/highlightoptionsKlasse die verwendet wird um eine Hervorhebung fester Länge zu extrahieren.
+description: Initialisiert eine neue Instanz vonHighlightOptionsgroupdocs.parser.options/highlightoptions Klasse die verwendet wird um eine Hervorhebung fester Länge zu extrahieren.
 type: docs
 weight: 10
 url: /de/net/groupdocs.parser.options/highlightoptions/highlightoptions/
 ---
 ## HighlightOptions(int) {#constructor}
 
-Initialisiert eine neue Instanz von[`HighlightOptions`](../../highlightoptions)Klasse, die verwendet wird, um eine Hervorhebung fester Länge zu extrahieren.
+Initialisiert eine neue Instanz von[`HighlightOptions`](../../highlightoptions) Klasse, die verwendet wird, um eine Hervorhebung fester Länge zu extrahieren.
 
 ```csharp
 public HighlightOptions(int maxLength)

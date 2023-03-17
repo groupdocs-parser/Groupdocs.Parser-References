@@ -1,12 +1,54 @@
 ---
 title: PageTextAreaOptions
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: Initialisiert eine neue Instanz vonPageTextAreaOptionsgroupdocs.parser.options/pagetextareaoptions Klasse mit dem regulären Ausdruck. Andere Optionen sind standardmäßig eingestellt siehe Anmerkungen für Details.
+description: Initialisiert eine neue Instanz vonPageTextAreaOptionsgroupdocs.parser.options/pagetextareaoptions Klasse mit der OCRNutzungsoption.
 type: docs
 weight: 10
 url: /de/net/groupdocs.parser.options/pagetextareaoptions/pagetextareaoptions/
 ---
-## PageTextAreaOptions(string) {#constructor}
+## PageTextAreaOptions(bool) {#constructor}
+
+Initialisiert eine neue Instanz von[`PageTextAreaOptions`](../../pagetextareaoptions) Klasse mit der OCR-Nutzungsoption.
+
+```csharp
+public PageTextAreaOptions(bool useOcr)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| useOcr | Boolean | Der Wert, der angibt, ob die OCR-Funktion zum Extrahieren von Textbereichen verwendet wird. |
+
+### Siehe auch
+
+* class [PageTextAreaOptions](../../pagetextareaoptions)
+* namensraum [GroupDocs.Parser.Options](../../pagetextareaoptions)
+* Montage [GroupDocs.Parser](../../../)
+
+---
+
+## PageTextAreaOptions(bool, OcrOptions) {#constructor_1}
+
+Initialisiert eine neue Instanz von[`PageTextAreaOptions`](../../pagetextareaoptions) Klasse mit der Möglichkeit, OCR-Optionen festzulegen.
+
+```csharp
+public PageTextAreaOptions(bool useOcr, OcrOptions ocrOptions)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| useOcr | Boolean | Der Wert, der angibt, ob die OCR-Funktion zum Extrahieren von Textbereichen verwendet wird. |
+| ocrOptions | OcrOptions | Die zusätzlichen Optionen für die OCR-Funktionalität. |
+
+### Siehe auch
+
+* class [OcrOptions](../../ocroptions)
+* class [PageTextAreaOptions](../../pagetextareaoptions)
+* namensraum [GroupDocs.Parser.Options](../../pagetextareaoptions)
+* Montage [GroupDocs.Parser](../../../)
+
+---
+
+## PageTextAreaOptions(string) {#constructor_2}
 
 Initialisiert eine neue Instanz von[`PageTextAreaOptions`](../../pagetextareaoptions) Klasse mit dem regulären Ausdruck. Andere Optionen sind standardmäßig eingestellt (siehe Anmerkungen für Details).
 
@@ -46,7 +88,7 @@ Die folgenden Eigenschaften haben Standardwerte:
 
 ---
 
-## PageTextAreaOptions(string, Rectangle) {#constructor_2}
+## PageTextAreaOptions(string, Rectangle) {#constructor_4}
 
 Initialisiert eine neue Instanz von[`PageTextAreaOptions`](../../pagetextareaoptions) class mit dem regulären Ausdruck und dem rechteckigen Bereich. Andere Optionen sind standardmäßig eingestellt (siehe Anmerkungen für Details).
 
@@ -84,7 +126,7 @@ Die folgenden Eigenschaften haben Standardwerte:
 
 ---
 
-## PageTextAreaOptions(string, bool, bool, bool, Rectangle) {#constructor_1}
+## PageTextAreaOptions(string, bool, bool, bool, Rectangle) {#constructor_3}
 
 Initialisiert eine neue Instanz von[`PageTextAreaOptions`](../../pagetextareaoptions) Klasse.
 

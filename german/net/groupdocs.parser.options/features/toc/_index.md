@@ -3,7 +3,7 @@ title: Toc
 second_title: GroupDocs.Parser für .NET-API-Referenz
 description: Ruft den Wert ab der angibt ob die Inhaltsverzeichnisextraktion unterstützt wird.
 type: docs
-weight: 170
+weight: 190
 url: /de/net/groupdocs.parser.options/features/toc/
 ---
 ## Features.Toc property
@@ -16,7 +16,7 @@ public bool Toc { get; }
 
 ### Rückgabewert
 
-`Stimmt` ob die Extraktion des Inhaltsverzeichnisses unterstützt wird; Andernfalls,`FALSCH`.
+`WAHR` ob die Extraktion des Inhaltsverzeichnisses unterstützt wird; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

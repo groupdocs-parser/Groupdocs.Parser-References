@@ -16,7 +16,7 @@ public bool FormattedText { get; }
 
 ### Rückgabewert
 
-`Stimmt` wenn die Extraktion von formatiertem Text unterstützt wird; Andernfalls,`FALSCH`.
+`WAHR` wenn die Extraktion von formatiertem Text unterstützt wird; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: XLSM
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: Dateien mit der Erweiterung XLSM ist eine Art von Tabellenkalkulationsdatei die Makros unterstützt. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/specification/spreadsheet/xlsm/ .
+description: Dateien mit der Erweiterung XLSM ist eine Art von Tabellenkalkulationsdatei die Makros unterstützt. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/specification/spreadsheet/xlsm/ .
 type: docs
 weight: 830
 url: /de/net/groupdocs.parser.options/filetype/xlsm/
 ---
 ## FileType.XLSM field
 
-Dateien mit der Erweiterung XLSM ist eine Art von Tabellenkalkulationsdatei, die Makros unterstützt. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/specification/spreadsheet/xlsm/) .
+Dateien mit der Erweiterung XLSM ist eine Art von Tabellenkalkulationsdatei, die Makros unterstützt. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/specification/spreadsheet/xlsm/) .
 
 ```csharp
 public static readonly FileType XLSM;

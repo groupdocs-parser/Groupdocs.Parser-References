@@ -3,7 +3,7 @@ title: TemplateField
 second_title: GroupDocs.Parser für .NET-API-Referenz
 description: Stellt das Vorlagentextfeld bereit.
 type: docs
-weight: 620
+weight: 670
 url: /de/net/groupdocs.parser.templates/templatefield/
 ---
 ## TemplateField class

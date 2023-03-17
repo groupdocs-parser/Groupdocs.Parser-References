@@ -24,7 +24,7 @@ Eine Sammlung von[`SearchResult`](../../../groupdocs.parser.data/searchresult) G
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Suchtext](https://docs.groupdocs.com/display/parsernet/Search+text)
 * [Durchsuchen Sie Text in Microsoft Office Word-Dokumenten](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+Word+documents)
@@ -90,7 +90,7 @@ Eine Sammlung von[`SearchResult`](../../../groupdocs.parser.data/searchresult) O
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Suchtext](https://docs.groupdocs.com/display/parsernet/Search+text)
 * [Durchsuchen Sie Text in Microsoft Office Word-Dokumenten](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+Word+documents)

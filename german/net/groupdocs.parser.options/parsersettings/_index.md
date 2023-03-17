@@ -3,7 +3,7 @@ title: ParserSettings
 second_title: GroupDocs.Parser für .NET-API-Referenz
 description: Stellt die Einstellungen bereit die zum Anpassen der Datenextraktion verwendet werden.
 type: docs
-weight: 510
+weight: 560
 url: /de/net/groupdocs.parser.options/parsersettings/
 ---
 ## ParserSettings class
@@ -18,17 +18,23 @@ public sealed class ParserSettings
 
 | Name | Beschreibung |
 | --- | --- |
-| [ParserSettings](parsersettings)(ILogger) | Initialisiert eine neue Instanz von[`ParserSettings`](../parsersettings) Klasse. |
+| [ParserSettings](parsersettings#constructor)(ExternalResourceHandler) | Initialisiert eine neue Instanz von[`ParserSettings`](../parsersettings) Klasse mit dem External Resource Handler. |
+| [ParserSettings](parsersettings#constructor_1)(ILogger) | Initialisiert eine neue Instanz von[`ParserSettings`](../parsersettings) Klasse mit dem Logger. |
+| [ParserSettings](parsersettings#constructor_4)(OcrConnectorBase) | Initialisiert eine neue Instanz von[`ParserSettings`](../parsersettings) Klasse mit dem OCR Connector. |
+| [ParserSettings](parsersettings#constructor_2)(ILogger, OcrConnectorBase) | Initialisiert eine neue Instanz von[`ParserSettings`](../parsersettings) Klasse mit Logger und OCR Connector. |
+| [ParserSettings](parsersettings#constructor_3)(ILogger, OcrConnectorBase, ExternalResourceHandler) | Initialisiert eine neue Instanz von[`ParserSettings`](../parsersettings) Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
+| [ExternalResourceHandler](../../groupdocs.parser.options/parsersettings/externalresourcehandler) { get; } | Ruft den Handler für externe Ressourcen ab. |
 | [Logger](../../groupdocs.parser.options/parsersettings/logger) { get; } | Ruft den Logger ab, der zum Protokollieren von Ereignissen und Fehlern während der Datenextraktion verwendet wird. |
+| [OcrConnector](../../groupdocs.parser.options/parsersettings/ocrconnector) { get; } | Ruft den OCR Connector ab, der verwendet wird, um OCR-Funktionalität bereitzustellen. |
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Protokollierung](https://docs.groupdocs.com/display/parsernet/Logging)
 

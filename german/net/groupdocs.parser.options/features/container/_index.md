@@ -16,7 +16,7 @@ public bool Container { get; }
 
 ### Rückgabewert
 
-`Stimmt` ob Containerextraktion unterstützt wird; Andernfalls,`FALSCH`.
+`WAHR` ob Containerextraktion unterstützt wird; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

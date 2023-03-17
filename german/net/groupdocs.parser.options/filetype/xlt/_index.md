@@ -1,14 +1,14 @@
 ---
 title: XLT
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: Dateien mit der Erweiterung .XLT sind Vorlagendateien die mit Microsoft Excel erstellt wurden einer Tabellenkalkulationsanwendung  die Teil der Microsoft OfficeSuite ist. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/specification/spreadsheet/xlt/ .
+description: Dateien mit der Erweiterung .XLT sind Vorlagendateien die mit Microsoft Excel erstellt wurden einer Tabellenkalkulationsanwendung  die Teil der Microsoft OfficeSuite ist. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/specification/spreadsheet/xlt/ .
 type: docs
 weight: 850
 url: /de/net/groupdocs.parser.options/filetype/xlt/
 ---
 ## FileType.XLT field
 
--Dateien mit der Erweiterung .XLT sind Vorlagendateien, die mit Microsoft Excel erstellt wurden, einer Tabellenkalkulationsanwendung , die Teil der Microsoft Office-Suite ist. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/specification/spreadsheet/xlt/) .
+-Dateien mit der Erweiterung .XLT sind Vorlagendateien, die mit Microsoft Excel erstellt wurden, einer Tabellenkalkulationsanwendung , die Teil der Microsoft Office-Suite ist. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/specification/spreadsheet/xlt/) .
 
 ```csharp
 public static readonly FileType XLT;

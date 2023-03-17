@@ -20,7 +20,7 @@ Eine Instanz vonXmlReader Klasse mit XML-Textstruktur; `Null` wenn die Textstruk
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Textstruktur extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+text+structure)
 

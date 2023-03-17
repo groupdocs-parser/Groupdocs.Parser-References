@@ -16,7 +16,7 @@ public bool IsLineLimited { get; }
 
 ### Rückgabewert
 
-`Stimmt`wenn die Highlight-Extraktion durch den Anfang (oder das Ende) einer Textzeile begrenzt ist; Andernfalls,`FALSCH`.
+`WAHR` wenn die Highlight-Extraktion durch den Anfang (oder das Ende) einer Textzeile begrenzt ist; ansonsten,`FALSCH`.
 
 ### Siehe auch
 
