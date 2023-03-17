@@ -1,0 +1,174 @@
+---
+title: GetBarcodes
+second_title: GroupDocs.Parser .NET API संदर्भ के लिए
+description: दस्तवेज़ से बरकड नकलत है
+type: docs
+weight: 50
+url: /hi/net/groupdocs.parser/parser/getbarcodes/
+---
+## GetBarcodes() {#getbarcodes}
+
+दस्तावेज़ से बारकोड निकालता है।
+
+```csharp
+public IEnumerable<PageBarcodeArea> GetBarcodes()
+```
+
+### प्रतिलाभ की मात्रा
+
+का संग्रह[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea) ऑब्जेक्ट्स; `व्यर्थ` यदि बारकोड निष्कर्षण समर्थित नहीं है.
+
+### उदाहरण
+
+निम्न उदाहरण दिखाता है कि किसी दस्तावेज़ से बारकोड कैसे निकाले जाते हैं:
+
+```csharp
+// पार्सर वर्ग का एक उदाहरण बनाएँ
+using (Parser parser = new Parser(filePath))
+{
+    // दस्तावेज़ से बारकोड निकालें।
+    IEnumerable<PageBarcodeArea> barcodes = parser.GetBarcodes();
+
+    // बारकोड पर पुनरावृति करें
+    foreach(PageBarcodeArea barcode in barcodes)
+    {
+        // पेज इंडेक्स प्रिंट करें
+        Console.WriteLine("Page: " + barcode.Page.Index.ToString());
+        // बारकोड मान प्रिंट करें
+        Console.WriteLine("Value: " + barcode.Value);
+    }
+}
+```
+
+### यह सभी देखें
+
+* class [PageBarcodeArea](../../../groupdocs.parser.data/pagebarcodearea)
+* class [Parser](../../parser)
+* नाम स्थान [GroupDocs.Parser](../../parser)
+* सभा [GroupDocs.Parser](../../../)
+
+---
+
+## GetBarcodes(int) {#getbarcodes_2}
+
+दस्तावेज़ पृष्ठ से बारकोड निकालता है.
+
+```csharp
+public IEnumerable<PageBarcodeArea> GetBarcodes(int pageIndex)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| pageIndex | Int32 | शून्य-आधारित पृष्ठ अनुक्रमणिका। |
+
+### प्रतिलाभ की मात्रा
+
+का संग्रह[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea) ऑब्जेक्ट्स; `व्यर्थ` यदि बारकोड निष्कर्षण समर्थित नहीं है.
+
+### उदाहरण
+
+निम्न उदाहरण दिखाता है कि दस्तावेज़ पृष्ठ से बारकोड कैसे निकाले जाते हैं:
+
+```csharp
+// पार्सर वर्ग का एक उदाहरण बनाएँ
+using (Parser parser = new Parser(filePath))
+{
+    // दूसरे दस्तावेज़ पृष्ठ से बारकोड निकालें।
+    IEnumerable<PageBarcodeArea> barcodes = parser.GetBarcodes(1);
+
+    // बारकोड पर पुनरावृति करें
+    foreach(PageBarcodeArea barcode in barcodes)
+    {
+        // पेज इंडेक्स प्रिंट करें
+        Console.WriteLine("Page: " + barcode.Page.Index.ToString());
+        // बारकोड मान प्रिंट करें
+        Console.WriteLine("Value: " + barcode.Value);
+    }
+}
+```
+
+### यह सभी देखें
+
+* class [PageBarcodeArea](../../../groupdocs.parser.data/pagebarcodearea)
+* class [Parser](../../parser)
+* नाम स्थान [GroupDocs.Parser](../../parser)
+* सभा [GroupDocs.Parser](../../../)
+
+---
+
+## GetBarcodes(PageAreaOptions) {#getbarcodes_1}
+
+अनुकूलन विकल्पों का उपयोग करके दस्तावेज़ से बारकोड निकालता है (बारकोड वाले आयताकार क्षेत्र को सेट करने के लिए)
+
+```csharp
+public IEnumerable<PageBarcodeArea> GetBarcodes(PageAreaOptions options)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| options | PageAreaOptions | बारकोड निष्कर्षण के लिए विकल्प। |
+
+### प्रतिलाभ की मात्रा
+
+का संग्रह[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea) ऑब्जेक्ट्स; `व्यर्थ` यदि बारकोड निष्कर्षण समर्थित नहीं है.
+
+### उदाहरण
+
+निम्न उदाहरण दिखाता है कि ऊपरी-दाएँ कोने से बारकोड कैसे निकाले जाते हैं।
+
+```csharp
+// पार्सर वर्ग का एक उदाहरण बनाएँ
+using (Parser parser = new Parser(filePath))
+{
+    // उन विकल्पों को बनाएं जो बारकोड निष्कर्षण के लिए उपयोग किए जाते हैं
+    PageAreaOptions options = new PageAreaOptions(new Rectangle(new Point(590, 80), new Size(150, 150)));
+    // ऊपरी-दाएं कोने से बारकोड निकालें।
+    IEnumerable<PageBarcodeArea> barcodes = parser.GetBarcodes(options);
+
+    // बारकोड पर पुनरावृति करें
+    foreach (PageBarcodeArea barcode in barcodes)
+    {
+        // पेज इंडेक्स प्रिंट करें
+        Console.WriteLine("Page: " + barcode.Page.Index.ToString());
+        // बारकोड मान प्रिंट करें
+        Console.WriteLine("Value: " + barcode.Value);
+    }
+}
+```
+
+### यह सभी देखें
+
+* class [PageBarcodeArea](../../../groupdocs.parser.data/pagebarcodearea)
+* class [PageAreaOptions](../../../groupdocs.parser.options/pageareaoptions)
+* class [Parser](../../parser)
+* नाम स्थान [GroupDocs.Parser](../../parser)
+* सभा [GroupDocs.Parser](../../../)
+
+---
+
+## GetBarcodes(int, PageAreaOptions) {#getbarcodes_3}
+
+अनुकूलन विकल्पों का उपयोग करके दस्तावेज़ पृष्ठ से बारकोड निकालता है (बारकोड वाले आयताकार क्षेत्र को सेट करने के लिए)
+
+```csharp
+public IEnumerable<PageBarcodeArea> GetBarcodes(int pageIndex, PageAreaOptions options)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| pageIndex | Int32 | शून्य-आधारित पृष्ठ अनुक्रमणिका। |
+| options | PageAreaOptions | बारकोड निष्कर्षण के लिए विकल्प। |
+
+### प्रतिलाभ की मात्रा
+
+का संग्रह[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea) ऑब्जेक्ट्स; `व्यर्थ` यदि बारकोड निष्कर्षण समर्थित नहीं है.
+
+### यह सभी देखें
+
+* class [PageBarcodeArea](../../../groupdocs.parser.data/pagebarcodearea)
+* class [PageAreaOptions](../../../groupdocs.parser.options/pageareaoptions)
+* class [Parser](../../parser)
+* नाम स्थान [GroupDocs.Parser](../../parser)
+* सभा [GroupDocs.Parser](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Parser.dll -->
