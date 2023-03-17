@@ -3,7 +3,7 @@ title: Tables
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Tablo çıkarmanın desteklenip desteklenmediğini gösteren değeri alır.
 type: docs
-weight: 130
+weight: 150
 url: /tr/net/groupdocs.parser.options/features/tables/
 ---
 ## Features.Tables property
@@ -16,7 +16,7 @@ public bool Tables { get; }
 
 ### Geri dönüş değeri
 
-`doğru` tablo çıkarma destekleniyorsa; aksi halde,`yanlış`.
+`doğru` tablo çıkarma destekleniyorsa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

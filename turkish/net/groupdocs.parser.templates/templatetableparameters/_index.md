@@ -3,7 +3,7 @@ title: TemplateTableParameters
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Tablo algılama algoritmaları için parametreler sağlar.
 type: docs
-weight: 710
+weight: 760
 url: /tr/net/groupdocs.parser.templates/templatetableparameters/
 ---
 ## TemplateTableParameters class

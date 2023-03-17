@@ -3,7 +3,7 @@ title: TemplateField
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Şablon metin alanını sağlar.
 type: docs
-weight: 620
+weight: 670
 url: /tr/net/groupdocs.parser.templates/templatefield/
 ---
 ## TemplateField class

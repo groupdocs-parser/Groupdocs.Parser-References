@@ -3,7 +3,7 @@ title: PreviewPageRender
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Belge sayfası işlenmeden önce çağrılan bir yöntemi temsil eder.
 type: docs
-weight: 540
+weight: 590
 url: /tr/net/groupdocs.parser.options/previewpagerender/
 ---
 ## PreviewPageRender delegate

@@ -1,14 +1,14 @@
 ---
 title: JP2
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: JPEG 2000 JP2 bir görüntü kodlama sistemi ve en gelişmiş görüntü sıkıştırma standardıdır. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/jp2/ .
+description: JPEG 2000 JP2 bir görüntü kodlama sistemi ve en gelişmiş görüntü sıkıştırma standardıdır. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/jp2/ .
 type: docs
 weight: 280
 url: /tr/net/groupdocs.parser.options/filetype/jp2/
 ---
 ## FileType.JP2 field
 
-JPEG 2000 (JP2), bir görüntü kodlama sistemi ve en gelişmiş görüntü sıkıştırma standardıdır. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/jp2/) .
+JPEG 2000 (JP2), bir görüntü kodlama sistemi ve en gelişmiş görüntü sıkıştırma standardıdır. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/jp2/) .
 
 ```csharp
 public static readonly FileType JP2;

@@ -3,7 +3,7 @@ title: ParseForm
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Form ayrıştırmanın desteklenip desteklenmediğini gösteren değeri alır.
 type: docs
-weight: 100
+weight: 110
 url: /tr/net/groupdocs.parser.options/features/parseform/
 ---
 ## Features.ParseForm property
@@ -16,7 +16,7 @@ public bool ParseForm { get; }
 
 ### Geri dönüş değeri
 
-`doğru` form ayrıştırma destekleniyorsa; aksi halde,`yanlış`.
+`doğru` form ayrıştırma destekleniyorsa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

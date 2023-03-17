@@ -3,7 +3,7 @@ title: Template
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Belge şablonunu sağlar. Bu oluşmaktadırTemplateItem./templateitem metin alanı ve tablo tanımları gibi şablonun öğelerini temsil eden object .
 type: docs
-weight: 600
+weight: 650
 url: /tr/net/groupdocs.parser.templates/template/
 ---
 ## Template class

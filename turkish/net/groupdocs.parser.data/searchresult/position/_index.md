@@ -16,7 +16,7 @@ public int Position { get; }
 
 ### Mülk değeri
 
-Arama sonucunun başlangıç konumunun sıfır tabanlı bir dizini. Şuna bağlı olarak[`SearchByPages`](../../../groupdocs.parser.options/searchoptions/searchbypages)özellik değeri bu dizin belge başlangıcından veya belge sayfası başlangıcından başlar.
+Arama sonucunun başlangıç konumunun sıfır tabanlı bir dizini. Şuna bağlı olarak[`SearchByPages`](../../../groupdocs.parser.options/searchoptions/searchbypages) özellik değeri bu dizin belge başlangıcından veya belge sayfası başlangıcından başlar.
 
 ### Ayrıca bakınız
 

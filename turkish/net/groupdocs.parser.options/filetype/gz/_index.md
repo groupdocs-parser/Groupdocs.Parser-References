@@ -1,14 +1,14 @@
 ---
 title: GZ
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: .gz uzantılı dosyalar gzip sıkıştırma uygulamasıyla oluşturulan sıkıştırılmış dosyalardır. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/compression/gz/ .
+description: .gz uzantılı dosyalar gzip sıkıştırma uygulamasıyla oluşturulan sıkıştırılmış dosyalardır. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/compression/gz/ .
 type: docs
 weight: 220
 url: /tr/net/groupdocs.parser.options/filetype/gz/
 ---
 ## FileType.GZ field
 
-.gz uzantılı dosyalar, gzip sıkıştırma uygulamasıyla oluşturulan sıkıştırılmış dosyalardır. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/compression/gz/) .
+.gz uzantılı dosyalar, gzip sıkıştırma uygulamasıyla oluşturulan sıkıştırılmış dosyalardır. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/compression/gz/) .
 
 ```csharp
 public static readonly FileType GZ;

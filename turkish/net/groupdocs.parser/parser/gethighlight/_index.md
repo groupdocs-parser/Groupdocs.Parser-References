@@ -17,7 +17,7 @@ public HighlightItem GetHighlight(int position, bool isDirect, HighlightOptions 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | position | Int32 | Vurgulamanın başlangıç konumu. |
-| isDirect | Boolean | Vurgu çıkarmanın doğrudan olup olmadığını gösteren değer. `doğru` vurgulama sağ tarafından çıkarılırsa*position* ; aksi halde,`yanlış` . |
+| isDirect | Boolean | Vurgu çıkarmanın doğrudan olup olmadığını gösteren değer. `doğru` vurgulama sağ tarafından çıkarılırsa*position* ; aksi takdirde,`YANLIŞ` . |
 | options | HighlightOptions | Vurgu çıkarma seçenekleri. |
 
 ### Geri dönüş değeri

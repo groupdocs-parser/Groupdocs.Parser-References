@@ -16,7 +16,7 @@ public bool Hyperlinks { get; }
 
 ### Geri dönüş değeri
 
-`doğru` köprü çıkarma destekleniyorsa; aksi halde,`yanlış`.
+`doğru` köprü çıkarma destekleniyorsa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

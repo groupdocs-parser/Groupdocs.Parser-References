@@ -3,7 +3,7 @@ title: ImageFormat
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Görüntünün biçimini tanımlar.
 type: docs
-weight: 430
+weight: 450
 url: /tr/net/groupdocs.parser.options/imageformat/
 ---
 ## ImageFormat enumeration

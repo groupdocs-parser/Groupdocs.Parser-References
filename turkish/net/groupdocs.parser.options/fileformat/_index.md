@@ -3,7 +3,7 @@ title: FileFormat
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Dosyanın türünü tanımlar.
 type: docs
-weight: 340
+weight: 360
 url: /tr/net/groupdocs.parser.options/fileformat/
 ---
 ## FileFormat enumeration

@@ -16,7 +16,7 @@ public bool Metadata { get; }
 
 ### Geri dönüş değeri
 
-`doğru`meta veri çıkarma destekleniyorsa; aksi halde,`yanlış`.
+`doğru`meta veri çıkarma destekleniyorsa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

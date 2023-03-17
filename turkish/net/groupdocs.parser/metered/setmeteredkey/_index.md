@@ -21,7 +21,7 @@ public void SetMeteredKey(string publicKey, string privateKey)
 
 ### Örnekler
 
-Aşağıdaki örnek, Ölçülü tuşlarla ürünün nasıl etkinleştirileceğini gösterir.
+Aşağıdaki örnek, ürünün Ölçülü tuşlarla nasıl etkinleştirileceğini gösterir.
 
 ```csharp
 string publicKey = "Public Key";

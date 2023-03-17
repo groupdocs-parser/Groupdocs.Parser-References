@@ -1,14 +1,14 @@
 ---
 title: PageImageArea
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: Şablon işlevine göre ayrıştırmada sayfadaki bir görüntüyü temsil etmek için kullanılan bir sayfa görüntü alanını temsil eder veya görüntüler epostalardan veya Zip arşivlerinden çıkarılmışsa bir görüntü eki.
+description: Şablon işlevine göre ayrıştırmada sayfadaki bir görüntüyü temsil etmek için kullanılan bir sayfa görüntü alanını veya görüntüler epostalardan veya Zip arşivlerinden çıkarılmışsa bir görüntü ekini temsil eder.
 type: docs
 weight: 110
 url: /tr/net/groupdocs.parser.data/pageimagearea/
 ---
 ## PageImageArea class
 
-Şablon işlevine göre ayrıştırmada sayfadaki bir görüntüyü temsil etmek için kullanılan bir sayfa görüntü alanını temsil eder veya görüntüler e-postalardan veya Zip arşivlerinden çıkarılmışsa bir görüntü eki.
+Şablon işlevine göre ayrıştırmada sayfadaki bir görüntüyü temsil etmek için kullanılan bir sayfa görüntü alanını veya görüntüler e-postalardan veya Zip arşivlerinden çıkarılmışsa bir görüntü ekini temsil eder.
 
 ```csharp
 public sealed class PageImageArea : PageArea

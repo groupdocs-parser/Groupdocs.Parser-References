@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Bir dosyayı açmak için kullanılan seçenekleri sağlar.
 type: docs
-weight: 450
+weight: 470
 url: /tr/net/groupdocs.parser.options/loadoptions/
 ---
 ## LoadOptions class
@@ -19,8 +19,8 @@ public sealed class LoadOptions
 | İsim | Tanım |
 | --- | --- |
 | [LoadOptions](loadoptions#constructor)() | Yeni bir örneğini başlatır.[`LoadOptions`](../loadoptions) boş olan sınıf [`Password`](./password) ,[`FileFormat`](./fileformat) eşittirUnknown ve varsayılan kodlamalar. |
-| [LoadOptions](loadoptions#constructor_1)(FileFormat) | Yeni bir örneğini başlatır.[`LoadOptions`](../loadoptions) class ile boş[`Password`](./password) ve varsayılan kodlamalar. |
-| [LoadOptions](loadoptions#constructor_4)(string) | Yeni bir örneğini başlatır.[`LoadOptions`](../loadoptions)class ile[`FileFormat`](./fileformat) eşittirUnknown ve varsayılan kodlamalar. |
+| [LoadOptions](loadoptions#constructor_1)(FileFormat) | Yeni bir örneğini başlatır.[`LoadOptions`](../loadoptions) class ile boş[`Password`](./password)ve varsayılan kodlamalar. |
+| [LoadOptions](loadoptions#constructor_4)(string) | Yeni bir örneğini başlatır.[`LoadOptions`](../loadoptions) class ile[`FileFormat`](./fileformat) eşittirUnknown ve varsayılan kodlamalar. |
 | [LoadOptions](loadoptions#constructor_2)(FileFormat, string) | Yeni bir örneğini başlatır.[`LoadOptions`](../loadoptions) parola ve varsayılan kodlamalar ile sınıf. |
 | [LoadOptions](loadoptions#constructor_3)(FileFormat, string, Encoding, Encoding) | Yeni bir örneğini başlatır.[`LoadOptions`](../loadoptions) özel kodlamalara sahip sınıf. |
 

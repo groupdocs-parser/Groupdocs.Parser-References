@@ -18,6 +18,8 @@ Ad alanı, belgelerden veri ayrıştırılırken ek seçenekler belirtmek için 
 | [EmailEwsConnection](./emailewsconnection) | EWS protokolü için e-posta bağlantı bilgilerini temsil eder. |
 | [EmailImapConnection](./emailimapconnection) | IMAP protokolü için e-posta bağlantı bilgilerini temsil eder. |
 | [EmailPopConnection](./emailpopconnection) | POP protokolü için e-posta bağlantı bilgilerini temsil eder. |
+| [ExternalResourceHandler](./externalresourcehandler) | Harici kaynakların yüklenmesi için bir işleyici sağlar. |
+| [ExternalResourceLoadingArgs](./externalresourceloadingargs) | Şunun için veri sağlar:[`OnLoading`](../groupdocs.parser.options/externalresourcehandler/onloading) yöntem. |
 | [Features](./features) | Desteklenen özellikler listesini temsil eder. Belge için hangi özelliklerin desteklenip desteklenmediği hakkında bilgi alınmasını sağlar. |
 | [FileInfo](./fileinfo) | Dosya bilgilerini temsil eder. |
 | [FileType](./filetype) | Dosya türünü temsil eder. Tarafından desteklenen tüm dosya türlerinin listesini elde etmek için yöntemler sağlar.**GroupDocs.Ayrıştırıcı** . |
@@ -25,6 +27,9 @@ Ad alanı, belgelerden veri ayrıştırılırken ek seçenekler belirtmek için 
 | [HighlightOptions](./highlightoptions) | Bir vurguyu (arama senaryolarında bulunan metnin etrafındaki bir metin bloğu) ayıklamak için kullanılan seçenekleri sağlar. |
 | [ImageOptions](./imageoptions) | Görüntü çıkarma için kullanılan seçenekleri sağlar. |
 | [LoadOptions](./loadoptions) | Bir dosyayı açmak için kullanılan seçenekleri sağlar. |
+| [OcrConnectorBase](./ocrconnectorbase) | OCR işlevselliğini sağlar. |
+| [OcrEventHandler](./ocreventhandler) | OCR olayları için bir işleyici sağlar. |
+| [OcrOptions](./ocroptions) | OCR Bağlayıcısı için kullanılan seçenekleri sağlar. |
 | [PageAreaOptions](./pageareaoptions) | Sayfa alanlarının çıkarılması için kullanılan seçenekleri sağlar. |
 | [PageInfo](./pageinfo) | Belge sayfası bilgilerini temsil eder. |
 | [PageRenderInfo](./pagerenderinfo) | Bir sayfanın nasıl işlendiğine dair bilgileri temsil eder. |

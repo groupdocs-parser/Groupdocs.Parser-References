@@ -1,14 +1,14 @@
 ---
 title: DJVU
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: DjVu déjà vu olarak telaffuz edilir özellikle metin çizim resim ve fotoğrafların birleşimini içeren taranmış belgeler ve kitaplar için tasarlanmış bir grafik dosyası biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/djvu/ .
+description: DjVu déjà vu olarak telaffuz edilir özellikle metin çizim resim ve fotoğrafların birleşimini içeren taranmış belgeler ve kitaplar için tasarlanmış bir grafik dosyası biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/djvu/ .
 type: docs
 weight: 80
 url: /tr/net/groupdocs.parser.options/filetype/djvu/
 ---
 ## FileType.DJVU field
 
-DjVu, "déjà vu" olarak telaffuz edilir, özellikle metin, çizim, resim ve fotoğrafların birleşimini içeren taranmış belgeler ve kitaplar için tasarlanmış bir grafik dosyası biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/djvu/) .
+DjVu, "déjà vu" olarak telaffuz edilir, özellikle metin, çizim, resim ve fotoğrafların birleşimini içeren taranmış belgeler ve kitaplar için tasarlanmış bir grafik dosyası biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/djvu/) .
 
 ```csharp
 public static readonly FileType DJVU;

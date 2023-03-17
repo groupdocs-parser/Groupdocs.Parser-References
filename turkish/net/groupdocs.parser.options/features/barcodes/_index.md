@@ -16,7 +16,7 @@ public bool Barcodes { get; }
 
 ### Geri dönüş değeri
 
-`doğru` barkod çıkarma destekleniyorsa; aksi halde,`yanlış`.
+`doğru` barkod çıkarma destekleniyorsa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

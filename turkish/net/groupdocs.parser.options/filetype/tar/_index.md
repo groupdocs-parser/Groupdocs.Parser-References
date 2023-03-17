@@ -1,14 +1,14 @@
 ---
 title: TAR
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: .tar uzantılı dosyalar bir veya daha fazla dosya toplamak için Unix tabanlı yardımcı programla oluşturulan arşivlerdir. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/compression/tar/ .
+description: .tar uzantılı dosyalar bir veya daha fazla dosya toplamak için Unix tabanlı yardımcı programla oluşturulan arşivlerdir. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/compression/tar/ .
 type: docs
 weight: 690
 url: /tr/net/groupdocs.parser.options/filetype/tar/
 ---
 ## FileType.TAR field
 
-.tar uzantılı dosyalar, bir veya daha fazla dosya toplamak için Unix tabanlı yardımcı programla oluşturulan arşivlerdir. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/compression/tar/) .
+.tar uzantılı dosyalar, bir veya daha fazla dosya toplamak için Unix tabanlı yardımcı programla oluşturulan arşivlerdir. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/compression/tar/) .
 
 ```csharp
 public static readonly FileType TAR;

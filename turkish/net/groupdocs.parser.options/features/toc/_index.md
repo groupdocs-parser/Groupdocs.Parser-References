@@ -3,7 +3,7 @@ title: Toc
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: İçindekiler tablosu çıkarmanın desteklenip desteklenmediğini gösteren değeri alır.
 type: docs
-weight: 170
+weight: 190
 url: /tr/net/groupdocs.parser.options/features/toc/
 ---
 ## Features.Toc property
@@ -16,7 +16,7 @@ public bool Toc { get; }
 
 ### Geri dönüş değeri
 
-`doğru` içindekiler tablosu çıkarma destekleniyorsa; aksi halde,`yanlış`.
+`doğru` içindekiler tablosu çıkarma destekleniyorsa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

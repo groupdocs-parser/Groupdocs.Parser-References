@@ -3,7 +3,7 @@ title: TextDocumentInfo
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Metin belgesi bilgilerini temsil eder.
 type: docs
-weight: 570
+weight: 620
 url: /tr/net/groupdocs.parser.options/textdocumentinfo/
 ---
 ## TextDocumentInfo class

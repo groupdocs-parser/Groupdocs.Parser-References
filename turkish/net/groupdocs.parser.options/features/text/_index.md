@@ -3,7 +3,7 @@ title: Text
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Metin çıkarmanın desteklenip desteklenmediğini gösteren değeri alır.
 type: docs
-weight: 140
+weight: 160
 url: /tr/net/groupdocs.parser.options/features/text/
 ---
 ## Features.Text property
@@ -16,7 +16,7 @@ public bool Text { get; }
 
 ### Geri dönüş değeri
 
-`doğru` metin çıkarma destekleniyorsa; aksi halde,`yanlış`.
+`doğru` metin çıkarma destekleniyorsa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

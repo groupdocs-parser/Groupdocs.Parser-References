@@ -109,7 +109,7 @@ public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpress
 
 ## SearchOptions(bool, bool, bool, bool) {#constructor_2}
 
-Yeni bir örneğini başlatır.[`SearchOptions`](../../searchoptions) vurgu çıkarma olmadan and sayfalarına göre arama yapmak için kullanılan sınıf.
+Yeni bir örneğini başlatır.[`SearchOptions`](../../searchoptions)vurgu çıkarma olmadan and sayfalarına göre arama yapmak için kullanılan sınıf.
 
 ```csharp
 public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpression, 
@@ -145,15 +145,15 @@ Aşağıdaki özellikler varsayılan değerlere sahiptir:
 
 **[`MatchCase`](../matchcase)**
 
-`yanlış`
+`YANLIŞ`
 
 **[`MatchWholeWord`](../matchwholeword)**
 
-`yanlış`
+`YANLIŞ`
 
 **[`UseRegularExpression`](../useregularexpression)**
 
-`yanlış`
+`YANLIŞ`
 
 **[`LeftHighlightOptions`](../lefthighlightoptions)**
 

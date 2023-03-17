@@ -16,7 +16,7 @@ public bool SearchByPages { get; }
 
 ### Mülk değeri
 
-`doğru` arama sayfalara göre yapılıyorsa; aksi halde,`yanlış` ve arama dahil edilmeden tüm belge üzerinde gerçekleştirilir[`PageIndex`](../../../groupdocs.parser.data/searchresult/pageindex) özellik değeri içinde[`SearchResult`](../../../groupdocs.parser.data/searchresult) sınıf.
+`doğru` arama sayfalara göre yapılıyorsa; aksi takdirde,`YANLIŞ` ve arama dahil edilmeden tüm belge üzerinde gerçekleştirilir[`PageIndex`](../../../groupdocs.parser.data/searchresult/pageindex) özellik değeri içinde[`SearchResult`](../../../groupdocs.parser.data/searchresult) sınıf.
 
 ### Ayrıca bakınız
 

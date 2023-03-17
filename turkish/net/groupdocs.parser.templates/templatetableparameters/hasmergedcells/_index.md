@@ -16,7 +16,7 @@ public bool? HasMergedCells { get; }
 
 ### Mülk değeri
 
-`doğru` tablo birleştirilmiş hücrelere sahipse; aksi halde,`yanlış` .`hükümsüz` ayarlanmamışsa.
+`doğru` tablo birleştirilmiş hücrelere sahipse; aksi takdirde,`YANLIŞ` .`hükümsüz` ayarlanmamışsa.
 
 ### Ayrıca bakınız
 

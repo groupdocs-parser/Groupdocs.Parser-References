@@ -3,7 +3,7 @@ title: Parser
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Metin resimler kapsayıcı çıkarma ve ayrıştırma işlevselliğini kontrol eden ana sınıfı temsil eder.
 type: docs
-weight: 590
+weight: 640
 url: /tr/net/groupdocs.parser/parser/
 ---
 ## Parser class
@@ -21,13 +21,15 @@ public sealed class Parser : IDisposable
 | [Parser](parser#constructor_2)(DbConnection) | Yeni bir örneğini başlatır.[`Parser`](../parser) bir veritabanından veri ayıklamak için sınıf. |
 | [Parser](parser#constructor)(EmailConnection) | Yeni bir örneğini başlatır.[`Parser`](../parser) uzak bir e-posta sunucusundan veri ayıklamak için sınıf. |
 | [Parser](parser#constructor_4)(Stream) | Yeni bir örneğini başlatır.[`Parser`](../parser) sınıf. |
-| [Parser](parser#constructor_7)(string) | Yeni bir örneğini başlatır.[`Parser`](../parser) sınıf. |
+| [Parser](parser#constructor_8)(string) | Yeni bir örneğini başlatır.[`Parser`](../parser) sınıf. |
 | [Parser](parser#constructor_3)(DbConnection, ParserSettings) | Yeni bir örneğini başlatır.[`Parser`](../parser) bir veritabanından veri ayıklamak için sınıf. |
 | [Parser](parser#constructor_1)(EmailConnection, ParserSettings) | Yeni bir örneğini başlatır.[`Parser`](../parser) uzak bir e-posta sunucusundan veri ayıklamak için sınıf. |
 | [Parser](parser#constructor_5)(Stream, LoadOptions) | Yeni bir örneğini başlatır.[`Parser`](../parser) ile sınıf[`LoadOptions`](../../groupdocs.parser.options/loadoptions) . |
-| [Parser](parser#constructor_8)(string, LoadOptions) | Yeni bir örneğini başlatır.[`Parser`](../parser) ile sınıf[`LoadOptions`](../../groupdocs.parser.options/loadoptions) . |
+| [Parser](parser#constructor_7)(Stream, ParserSettings) | Yeni bir örneğini başlatır.[`Parser`](../parser) ile sınıf[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
+| [Parser](parser#constructor_9)(string, LoadOptions) | Yeni bir örneğini başlatır.[`Parser`](../parser) ile sınıf[`LoadOptions`](../../groupdocs.parser.options/loadoptions) . |
+| [Parser](parser#constructor_11)(string, ParserSettings) | Yeni bir örneğini başlatır.[`Parser`](../parser) ile sınıf[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
 | [Parser](parser#constructor_6)(Stream, LoadOptions, ParserSettings) | Yeni bir örneğini başlatır.[`Parser`](../parser) ile sınıf[`LoadOptions`](../../groupdocs.parser.options/loadoptions) ve[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
-| [Parser](parser#constructor_9)(string, LoadOptions, ParserSettings) | Yeni bir örneğini başlatır.[`Parser`](../parser) ile sınıf[`LoadOptions`](../../groupdocs.parser.options/loadoptions) ve[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
+| [Parser](parser#constructor_10)(string, LoadOptions, ParserSettings) | Yeni bir örneğini başlatır.[`Parser`](../parser) ile sınıf[`LoadOptions`](../../groupdocs.parser.options/loadoptions) ve[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
 
 ## Özellikleri
 

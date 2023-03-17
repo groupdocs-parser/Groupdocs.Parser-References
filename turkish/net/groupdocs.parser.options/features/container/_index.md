@@ -16,7 +16,7 @@ public bool Container { get; }
 
 ### Geri dönüş değeri
 
-`doğru` konteyner çıkarma destekleniyorsa; aksi halde,`yanlış`.
+`doğru` konteyner çıkarma destekleniyorsa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

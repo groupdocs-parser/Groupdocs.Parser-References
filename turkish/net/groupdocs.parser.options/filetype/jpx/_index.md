@@ -1,14 +1,14 @@
 ---
 title: JPX
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: JPEG 2000 JPX bir görüntü kodlama sistemi ve en gelişmiş görüntü sıkıştırma standardıdır. Wavelet teknolojisi kullanılarak olarak tasarlanan JPEG 2000 herhangi bir kalitedeki kayıpsız içeriği aynı anda kodlayabilir. Bu dosya biçimi hakkında daha fazla bilgi edinin buradahttps//wiki.fileformat.com/image/jp2/ .
+description: JPEG 2000 JPX bir görüntü kodlama sistemi ve en gelişmiş görüntü sıkıştırma standardıdır. Wavelet teknolojisi kullanılarak olarak tasarlanan JPEG 2000 herhangi bir kalitedeki kayıpsız içeriği aynı anda kodlayabilir. Bu dosya biçimi hakkında daha fazla bilgi edinin Buradahttps//wiki.fileformat.com/image/jp2/ .
 type: docs
 weight: 340
 url: /tr/net/groupdocs.parser.options/filetype/jpx/
 ---
 ## FileType.JPX field
 
-JPEG 2000 (JPX), bir görüntü kodlama sistemi ve en gelişmiş görüntü sıkıştırma standardıdır. Wavelet teknolojisi kullanılarak olarak tasarlanan JPEG 2000, herhangi bir kalitedeki kayıpsız içeriği aynı anda kodlayabilir. Bu dosya biçimi hakkında daha fazla bilgi edinin [burada](https://wiki.fileformat.com/image/jp2/) .
+JPEG 2000 (JPX), bir görüntü kodlama sistemi ve en gelişmiş görüntü sıkıştırma standardıdır. Wavelet teknolojisi kullanılarak olarak tasarlanan JPEG 2000, herhangi bir kalitedeki kayıpsız içeriği aynı anda kodlayabilir. Bu dosya biçimi hakkında daha fazla bilgi edinin [Burada](https://wiki.fileformat.com/image/jp2/) .
 
 ```csharp
 public static readonly FileType JPX;

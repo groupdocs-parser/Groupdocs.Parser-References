@@ -3,7 +3,7 @@ title: PageInfo
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Belge sayfası bilgilerini temsil eder.
 type: docs
-weight: 470
+weight: 520
 url: /tr/net/groupdocs.parser.options/pageinfo/
 ---
 ## PageInfo class

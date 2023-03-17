@@ -1,14 +1,14 @@
 ---
 title: ICO
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: ICO uzantılı dosyalar Microsoft Windowsta bir uygulamanın temsili için simge olarak kullanılan görüntü dosyası türleridir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/ico/ .
+description: ICO uzantılı dosyalar Microsoft Windowsta bir uygulamanın temsili için simge olarak kullanılan görüntü dosyası türleridir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/ico/ .
 type: docs
 weight: 250
 url: /tr/net/groupdocs.parser.options/filetype/ico/
 ---
 ## FileType.ICO field
 
-ICO uzantılı dosyalar, Microsoft Windows'ta bir uygulamanın temsili için simge olarak kullanılan görüntü dosyası türleridir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/ico/) .
+ICO uzantılı dosyalar, Microsoft Windows'ta bir uygulamanın temsili için simge olarak kullanılan görüntü dosyası türleridir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/ico/) .
 
 ```csharp
 public static readonly FileType ICO;

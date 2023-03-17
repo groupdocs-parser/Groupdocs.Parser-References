@@ -16,7 +16,7 @@ public string Text { get; }
 
 ### Mülk değeri
 
-Alan metninin bir değerini temsil eden bir dize değeri;`hükümsüz` eğer[`PageArea`](../pagearea)mülkiyet değil[`PageTextArea`](../../pagetextarea).
+Alan metninin bir değerini temsil eden bir dize değeri;`hükümsüz` eğer[`PageArea`](../pagearea) mülkiyet değil[`PageTextArea`](../../pagetextarea).
 
 ### Ayrıca bakınız
 

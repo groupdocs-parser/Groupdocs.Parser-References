@@ -3,7 +3,7 @@ title: UniteSegments
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Segmentlerin birleşik olup olmadığını gösteren değeri alır.
 type: docs
-weight: 50
+weight: 60
 url: /tr/net/groupdocs.parser.options/pagetextareaoptions/unitesegments/
 ---
 ## PageTextAreaOptions.UniteSegments property
@@ -16,7 +16,7 @@ public bool UniteSegments { get; }
 
 ### Mülk değeri
 
-`doğru` segmentler birleştirilirse; aksi halde,`yanlış`.
+`doğru` segmentler birleştirilirse; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

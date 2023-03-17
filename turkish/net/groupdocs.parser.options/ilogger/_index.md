@@ -3,7 +3,7 @@ title: ILogger
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Veri çıkarma sırasında olayları ve hataları günlüğe kaydetmek için kullanılan bir kaydedicinin arayüzünü tanımlar.
 type: docs
-weight: 420
+weight: 440
 url: /tr/net/groupdocs.parser.options/ilogger/
 ---
 ## ILogger interface

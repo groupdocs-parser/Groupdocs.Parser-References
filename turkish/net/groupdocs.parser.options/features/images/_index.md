@@ -16,7 +16,7 @@ public bool Images { get; }
 
 ### Geri dönüş değeri
 
-`doğru` görüntü çıkarma destekleniyorsa; aksi halde,`yanlış`.
+`doğru` görüntü çıkarma destekleniyorsa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

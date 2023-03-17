@@ -3,7 +3,7 @@ title: TemplatePosition
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Şablon konumları için bir temel soyut sınıf sağlar.
 type: docs
-weight: 670
+weight: 720
 url: /tr/net/groupdocs.parser.templates/templateposition/
 ---
 ## TemplatePosition class

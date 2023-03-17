@@ -16,7 +16,7 @@ public bool FormattedText { get; }
 
 ### Geri dönüş değeri
 
-`doğru` biçimlendirilmiş metin çıkarma destekleniyorsa; aksi halde,`yanlış`.
+`doğru` biçimlendirilmiş metin çıkarma destekleniyorsa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

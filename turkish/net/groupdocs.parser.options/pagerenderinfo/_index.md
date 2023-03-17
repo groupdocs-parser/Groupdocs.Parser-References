@@ -3,7 +3,7 @@ title: PageRenderInfo
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Bir sayfanın nasıl işlendiğine dair bilgileri temsil eder.
 type: docs
-weight: 480
+weight: 530
 url: /tr/net/groupdocs.parser.options/pagerenderinfo/
 ---
 ## PageRenderInfo class
@@ -39,7 +39,7 @@ public sealed class PageRenderInfo
 
 Bazı belgelerin (örneğin elektronik tablolar) bir sayfasını tek bir görüntü olarak oluşturması mümkün değildir. Bu belgeler için bir sayfa bir dizi döşeme olarak işlenir. Bu karolar dikdörtgen masaya yerleştirilir.
 
-[`RowCount`](./rowcount) ve[`ColumnCount`](./columncount) , bu tablonun toplam satır ve sütun sayısını temsil eder. Belge sayfası tek görüntüye render ise, bu özellikler 1'e eşittir.
+[`RowCount`](./rowcount) Ve[`ColumnCount`](./columncount) , bu tablonun toplam satır ve sütun sayısını temsil eder. Belge sayfası tek görüntüye render ise, bu özellikler 1'e eşittir.
 
 ### Ayrıca bakınız
 

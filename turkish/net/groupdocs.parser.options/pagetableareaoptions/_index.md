@@ -3,7 +3,7 @@ title: PageTableAreaOptions
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Sayfa tablosu alanlarının çıkarılması için kullanılan seçenekleri sağlar.
 type: docs
-weight: 490
+weight: 540
 url: /tr/net/groupdocs.parser.options/pagetableareaoptions/
 ---
 ## PageTableAreaOptions class
@@ -29,7 +29,7 @@ public sealed class PageTableAreaOptions : PageAreaOptions
 
 ### Notlar
 
-Bir örneği[`PageTableAreaOptions`](../pagetableareaoptions) sınıf, içinde parametresi olarak kullanılır[`GetTables`](../../groupdocs.parser/parser/gettables) ve[`GetTables`](../../groupdocs.parser/parser/gettables) method. Oradaki kullanım örneklerine bakın.
+Bir örneği[`PageTableAreaOptions`](../pagetableareaoptions) sınıf, içinde parametresi olarak kullanılır[`GetTables`](../../groupdocs.parser/parser/gettables) Ve[`GetTables`](../../groupdocs.parser/parser/gettables) method. Oradaki kullanım örneklerine bakın.
 
 ### Ayrıca bakınız
 

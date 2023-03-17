@@ -3,7 +3,7 @@ title: TemplateFixedPosition
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Dikdörtgen alan tarafından tanımlanan bir şablon alanı konumu sağlar.
 type: docs
-weight: 630
+weight: 680
 url: /tr/net/groupdocs.parser.templates/templatefixedposition/
 ---
 ## TemplateFixedPosition class
@@ -31,7 +31,7 @@ public sealed class TemplateFixedPosition : TemplatePosition
 Bu, alan konumunu tanımlamanın en basit yoludur. Sayfada alan değerini sınırlayan dikdörtgen bir alan ayarlanmasını gerektirir. Dikdörtgen alanın içerdiği (kısmen de olsa) tüm metin bir değer olarak çıkarılacaktır:
 
 ```csharp
-// "Adres" adında, (35, 160) konumunda ve (110, 20) boyutunda bir dikdörtgenle sınırlandırılmış sabit bir şablon alanı oluşturun
+// "Adres" adında, (35, 160) konumunda ve boyutunda (110, 20) bir dikdörtgenle sınırlandırılmış sabit bir şablon alanı oluşturun
 TemplateField templateField = new TemplateField(
     new TemplateFixedPosition(new Rectangle(new Point(35, 160), new Size(110, 20))),
     "Address");

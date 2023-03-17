@@ -3,7 +3,7 @@ title: TextOptions
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Metin çıkarma için kullanılan seçenekleri sağlar.
 type: docs
-weight: 580
+weight: 630
 url: /tr/net/groupdocs.parser.options/textoptions/
 ---
 ## TextOptions class
@@ -18,17 +18,21 @@ public sealed class TextOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [TextOptions](textoptions)(bool) | Yeni bir örneğini başlatır.[`TextOptions`](../textoptions) sınıf. |
+| [TextOptions](textoptions#constructor)(bool) | Yeni bir örneğini başlatır.[`TextOptions`](../textoptions) sınıf. |
+| [TextOptions](textoptions#constructor_1)(bool, bool) | Yeni bir örneğini başlatır.[`TextOptions`](../textoptions) OCR kullanım seçeneğine sahip sınıf. |
+| [TextOptions](textoptions#constructor_2)(bool, bool, OcrOptions) | Yeni bir örneğini başlatır.[`TextOptions`](../textoptions) OCR seçeneklerini ayarlama yeteneğine sahip sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
+| [OcrOptions](../../groupdocs.parser.options/textoptions/ocroptions) { get; } | OCR işlevi için ek seçenekler alır. |
+| [UseOcr](../../groupdocs.parser.options/textoptions/useocr) { get; } | Bir metni ayıklamak için OCR Bağlayıcının kullanılıp kullanılmadığını gösteren değeri alır. |
 | [UseRawModeIfPossible](../../groupdocs.parser.options/textoptions/userawmodeifpossible) { get; } | Ham modun kullanılıp kullanılmadığını gösteren değeri alır. |
 
 ### Notlar
 
-Bir örneği[`TextOptions`](../textoptions) sınıf içinde parameter olarak kullanılır[`GetText`](../../groupdocs.parser/parser/gettext) ve[`GetText`](../../groupdocs.parser/parser/gettext) yöntemler. Oradaki kullanım örneklerine bakın.
+Bir örneği[`TextOptions`](../textoptions) sınıf içinde parameter olarak kullanılır[`GetText`](../../groupdocs.parser/parser/gettext) Ve[`GetText`](../../groupdocs.parser/parser/gettext) yöntemler. Oradaki kullanım örneklerine bakın.
 
 Metin çıkarmanın ham modunu belirtmek için kullanılır. Bu moddaki bir metin, doğru olmayan bir şekilde ancak standart moddan daha hızlı çıkarılır. Ham mod belge formatını desteklemiyorsa, bu parametre dikkate alınmaz ve standart mod kullanılır.
 

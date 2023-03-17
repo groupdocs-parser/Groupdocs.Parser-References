@@ -16,7 +16,7 @@ public bool IsEmpty { get; }
 
 ### Mülk değeri
 
-`doğru` örnek boşsa (tüm alanlar`yanlış` ); aksi halde,`yanlış`.
+`doğru` örnek boşsa (tüm alanlar`YANLIŞ` ); aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

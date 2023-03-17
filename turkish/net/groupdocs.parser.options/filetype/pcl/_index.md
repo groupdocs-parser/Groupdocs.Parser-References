@@ -1,14 +1,14 @@
 ---
 title: PCL
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: PCL Hewlett Packard HP tarafından tanıtılan bir Sayfa Açıklama Dili olan Yazıcı Komut Dili anlamına gelir. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/pagedescriptionlanguage/pcl/ .
+description: PCL Hewlett Packard HP tarafından tanıtılan bir Sayfa Açıklama Dili olan Yazıcı Komut Dili anlamına gelir. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/pagedescriptionlanguage/pcl/ .
 type: docs
 weight: 490
 url: /tr/net/groupdocs.parser.options/filetype/pcl/
 ---
 ## FileType.PCL field
 
-PCL, Hewlett Packard (HP) tarafından tanıtılan bir Sayfa Açıklama Dili olan Yazıcı Komut Dili anlamına gelir. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/page-description-language/pcl/) .
+PCL, Hewlett Packard (HP) tarafından tanıtılan bir Sayfa Açıklama Dili olan Yazıcı Komut Dili anlamına gelir. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/page-description-language/pcl/) .
 
 ```csharp
 public static readonly FileType PCL;

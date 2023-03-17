@@ -16,7 +16,7 @@ public bool MatchCase { get; }
 
 ### Mülk değeri
 
-`doğru` bir metin durumu yok sayılmazsa; aksi halde,`yanlış`.
+`doğru` bir metin durumu yok sayılmazsa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: PS
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: PostScript PS masaüstü ve elektronik yayıncılık işinde kullanılan genel amaçlı bir sayfa tanımlama dilidir. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/pagedescriptionlanguage/ps/ .
+description: PostScript PS masaüstü ve elektronik yayıncılık işinde kullanılan genel amaçlı bir sayfa açıklama dilidir. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/pagedescriptionlanguage/ps/ .
 type: docs
 weight: 620
 url: /tr/net/groupdocs.parser.options/filetype/ps/
 ---
 ## FileType.PS field
 
-PostScript (PS), masaüstü ve elektronik yayıncılık işinde kullanılan genel amaçlı bir sayfa tanımlama dilidir. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/page-description-language/ps/) .
+PostScript (PS), masaüstü ve elektronik yayıncılık işinde kullanılan genel amaçlı bir sayfa açıklama dilidir. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/page-description-language/ps/) .
 
 ```csharp
 public static readonly FileType PS;

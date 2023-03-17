@@ -16,7 +16,7 @@ public bool Left { get; }
 
 ### Mülk değeri
 
-`doğru` bağlantılı alandan sola doğru bir alan aranırsa; aksi halde,`yanlış`.
+`doğru` bağlantılı alandan sola doğru bir alan aranırsa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

@@ -3,7 +3,7 @@ title: TemplateTable
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Şablon tablosunu sağlar.
 type: docs
-weight: 690
+weight: 740
 url: /tr/net/groupdocs.parser.templates/templatetable/
 ---
 ## TemplateTable class

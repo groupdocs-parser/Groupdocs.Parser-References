@@ -3,7 +3,7 @@ title: HighlightOptions
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Bir vurguyu arama senaryolarında bulunan metnin etrafındaki bir metin bloğu ayıklamak için kullanılan seçenekleri sağlar.
 type: docs
-weight: 400
+weight: 420
 url: /tr/net/groupdocs.parser.options/highlightoptions/
 ---
 ## HighlightOptions class
@@ -18,7 +18,7 @@ public sealed class HighlightOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [HighlightOptions](highlightoptions#constructor)(int) | Yeni bir örneğini başlatır.[`HighlightOptions`](../highlightoptions)sabit uzunlukta bir vurguyu ayıklamak için kullanılan sınıf. |
+| [HighlightOptions](highlightoptions#constructor)(int) | Yeni bir örneğini başlatır.[`HighlightOptions`](../highlightoptions) sabit uzunlukta bir vurguyu ayıklamak için kullanılan sınıf. |
 | [HighlightOptions](highlightoptions#constructor_1)(int?, bool) | Yeni bir örneğini başlatır.[`HighlightOptions`](../highlightoptions) satırla sınırlı bir vurguyu ayıklamak için kullanılan sınıf. |
 | [HighlightOptions](highlightoptions#constructor_2)(int?, int) | Yeni bir örneğini başlatır.[`HighlightOptions`](../highlightoptions) sabit sözcük sayısıyla bir vurguyu ayıklamak için kullanılan sınıf. |
 | [HighlightOptions](highlightoptions#constructor_3)(int?, int?, bool) | Yeni bir örneğini başlatır.[`HighlightOptions`](../highlightoptions) sınıf. |

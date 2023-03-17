@@ -3,7 +3,7 @@ title: TextPage
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Metin sayfası çıkarmanın desteklenip desteklenmediğini gösteren değeri alır.
 type: docs
-weight: 160
+weight: 180
 url: /tr/net/groupdocs.parser.options/features/textpage/
 ---
 ## Features.TextPage property
@@ -16,7 +16,7 @@ public bool TextPage { get; }
 
 ### Geri dönüş değeri
 
-`doğru` metin sayfası çıkarma destekleniyorsa; aksi halde,`yanlış`.
+`doğru` metin sayfası çıkarma destekleniyorsa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

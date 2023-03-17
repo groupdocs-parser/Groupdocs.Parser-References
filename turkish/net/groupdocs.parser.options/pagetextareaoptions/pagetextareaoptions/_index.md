@@ -1,12 +1,54 @@
 ---
 title: PageTextAreaOptions
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: Yeni bir örneğini başlatır.PageTextAreaOptionsgroupdocs.parser.options/pagetextareaoptions düzenli ifade ile sınıf. Diğer seçenekler varsayılan olarak ayarlanmıştır ayrıntılar için açıklamalara bakın.
+description: Yeni bir örneğini başlatır.PageTextAreaOptionsgroupdocs.parser.options/pagetextareaoptions OCR kullanım seçeneğine sahip sınıf.
 type: docs
 weight: 10
 url: /tr/net/groupdocs.parser.options/pagetextareaoptions/pagetextareaoptions/
 ---
-## PageTextAreaOptions(string) {#constructor}
+## PageTextAreaOptions(bool) {#constructor}
+
+Yeni bir örneğini başlatır.[`PageTextAreaOptions`](../../pagetextareaoptions) OCR kullanım seçeneğine sahip sınıf.
+
+```csharp
+public PageTextAreaOptions(bool useOcr)
+```
+
+| Parametre | Tip | Tanım |
+| --- | --- | --- |
+| useOcr | Boolean | Metin alanlarını ayıklamak için OCR işlevinin kullanılıp kullanılmadığını gösteren değer. |
+
+### Ayrıca bakınız
+
+* class [PageTextAreaOptions](../../pagetextareaoptions)
+* ad alanı [GroupDocs.Parser.Options](../../pagetextareaoptions)
+* toplantı [GroupDocs.Parser](../../../)
+
+---
+
+## PageTextAreaOptions(bool, OcrOptions) {#constructor_1}
+
+Yeni bir örneğini başlatır.[`PageTextAreaOptions`](../../pagetextareaoptions) OCR seçeneklerini ayarlama yeteneğine sahip sınıf.
+
+```csharp
+public PageTextAreaOptions(bool useOcr, OcrOptions ocrOptions)
+```
+
+| Parametre | Tip | Tanım |
+| --- | --- | --- |
+| useOcr | Boolean | Metin alanlarını ayıklamak için OCR işlevinin kullanılıp kullanılmadığını gösteren değer. |
+| ocrOptions | OcrOptions | OCR işlevi için ek seçenekler. |
+
+### Ayrıca bakınız
+
+* class [OcrOptions](../../ocroptions)
+* class [PageTextAreaOptions](../../pagetextareaoptions)
+* ad alanı [GroupDocs.Parser.Options](../../pagetextareaoptions)
+* toplantı [GroupDocs.Parser](../../../)
+
+---
+
+## PageTextAreaOptions(string) {#constructor_2}
 
 Yeni bir örneğini başlatır.[`PageTextAreaOptions`](../../pagetextareaoptions) düzenli ifade ile sınıf. Diğer seçenekler varsayılan olarak ayarlanmıştır (ayrıntılar için açıklamalara bakın).
 
@@ -24,15 +66,15 @@ Aşağıdaki özellikler varsayılan değerlere sahiptir:
 
 **[`MatchCase`](../matchcase)**
 
-`yanlış`
+`YANLIŞ`
 
 **[`UniteSegments`](../unitesegments)**
 
-`yanlış`
+`YANLIŞ`
 
 **[`IgnoreFormatting`](../ignoreformatting)**
 
-`yanlış`
+`YANLIŞ`
 
 **[`Rectangle`](../../pageareaoptions/rectangle)**
 
@@ -46,7 +88,7 @@ Aşağıdaki özellikler varsayılan değerlere sahiptir:
 
 ---
 
-## PageTextAreaOptions(string, Rectangle) {#constructor_2}
+## PageTextAreaOptions(string, Rectangle) {#constructor_4}
 
 Yeni bir örneğini başlatır.[`PageTextAreaOptions`](../../pagetextareaoptions) düzenli ifade ve dikdörtgen alan ile class . Diğer seçenekler varsayılan olarak ayarlanmıştır (ayrıntılar için açıklamalara bakın).
 
@@ -65,15 +107,15 @@ Aşağıdaki özellikler varsayılan değerlere sahiptir:
 
 **[`MatchCase`](../matchcase)**
 
-`yanlış`
+`YANLIŞ`
 
 **[`UniteSegments`](../unitesegments)**
 
-`yanlış`
+`YANLIŞ`
 
 **[`IgnoreFormatting`](../ignoreformatting)**
 
-`yanlış`
+`YANLIŞ`
 
 ### Ayrıca bakınız
 
@@ -84,7 +126,7 @@ Aşağıdaki özellikler varsayılan değerlere sahiptir:
 
 ---
 
-## PageTextAreaOptions(string, bool, bool, bool, Rectangle) {#constructor_1}
+## PageTextAreaOptions(string, bool, bool, bool, Rectangle) {#constructor_3}
 
 Yeni bir örneğini başlatır.[`PageTextAreaOptions`](../../pagetextareaoptions) sınıf.
 

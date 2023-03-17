@@ -16,7 +16,7 @@ public bool IgnoreFormatting { get; }
 
 ### Mülk değeri
 
-`doğru` metin biçimlendirmesi yoksayılırsa; aksi halde,`yanlış`.
+`doğru` metin biçimlendirmesi yoksayılırsa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

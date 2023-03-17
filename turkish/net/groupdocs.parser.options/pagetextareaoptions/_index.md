@@ -3,7 +3,7 @@ title: PageTextAreaOptions
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Sayfa metin alanlarının çıkarılması için kullanılan seçenekleri sağlar.
 type: docs
-weight: 500
+weight: 550
 url: /tr/net/groupdocs.parser.options/pagetextareaoptions/
 ---
 ## PageTextAreaOptions class
@@ -18,9 +18,11 @@ public sealed class PageTextAreaOptions : PageAreaOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [PageTextAreaOptions](pagetextareaoptions#constructor)(string) | Yeni bir örneğini başlatır.[`PageTextAreaOptions`](../pagetextareaoptions) düzenli ifade ile sınıf. Diğer seçenekler varsayılan olarak ayarlanmıştır (ayrıntılar için açıklamalara bakın). |
-| [PageTextAreaOptions](pagetextareaoptions#constructor_2)(string, Rectangle) | Yeni bir örneğini başlatır.[`PageTextAreaOptions`](../pagetextareaoptions) düzenli ifade ve dikdörtgen alan ile class . Diğer seçenekler varsayılan olarak ayarlanmıştır (ayrıntılar için açıklamalara bakın). |
-| [PageTextAreaOptions](pagetextareaoptions#constructor_1)(string, bool, bool, bool, Rectangle) | Yeni bir örneğini başlatır.[`PageTextAreaOptions`](../pagetextareaoptions) sınıf. |
+| [PageTextAreaOptions](pagetextareaoptions#constructor)(bool) | Yeni bir örneğini başlatır.[`PageTextAreaOptions`](../pagetextareaoptions) OCR kullanım seçeneğine sahip sınıf. |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_2)(string) | Yeni bir örneğini başlatır.[`PageTextAreaOptions`](../pagetextareaoptions) düzenli ifade ile sınıf. Diğer seçenekler varsayılan olarak ayarlanmıştır (ayrıntılar için açıklamalara bakın). |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_1)(bool, OcrOptions) | Yeni bir örneğini başlatır.[`PageTextAreaOptions`](../pagetextareaoptions) OCR seçeneklerini ayarlama yeteneğine sahip sınıf. |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_4)(string, Rectangle) | Yeni bir örneğini başlatır.[`PageTextAreaOptions`](../pagetextareaoptions) düzenli ifade ve dikdörtgen alan ile class . Diğer seçenekler varsayılan olarak ayarlanmıştır (ayrıntılar için açıklamalara bakın). |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_3)(string, bool, bool, bool, Rectangle) | Yeni bir örneğini başlatır.[`PageTextAreaOptions`](../pagetextareaoptions) sınıf. |
 
 ## Özellikleri
 
@@ -29,12 +31,14 @@ public sealed class PageTextAreaOptions : PageAreaOptions
 | [Expression](../../groupdocs.parser.options/pagetextareaoptions/expression) { get; } | Normal ifadeyi alır. |
 | [IgnoreFormatting](../../groupdocs.parser.options/pagetextareaoptions/ignoreformatting) { get; } | Metin biçimlendirmesinin göz ardı edilip edilmediğini gösteren değeri alır. |
 | [MatchCase](../../groupdocs.parser.options/pagetextareaoptions/matchcase) { get; } | Bir metin durumunun yok sayılmadığını gösteren değeri alır. |
+| [OcrOptions](../../groupdocs.parser.options/pagetextareaoptions/ocroptions) { get; } | OCR işlevi için ek seçenekler alır. |
 | [Rectangle](../../groupdocs.parser.options/pageareaoptions/rectangle) { get; } | Sayfa alanlarını içeren dikdörtgen alanı alır. |
 | [UniteSegments](../../groupdocs.parser.options/pagetextareaoptions/unitesegments) { get; } | Segmentlerin birleşik olup olmadığını gösteren değeri alır. |
+| [UseOcr](../../groupdocs.parser.options/pagetextareaoptions/useocr) { get; } | Metin alanlarını ayıklamak için OCR işlevinin kullanılıp kullanılmadığını gösteren değeri alır. |
 
 ### Notlar
 
-Bir örneği[`PageTextAreaOptions`](../pagetextareaoptions) sınıf, içinde parametresi olarak kullanılır[`GetTextAreas`](../../groupdocs.parser/parser/gettextareas) ve[`GetTextAreas`](../../groupdocs.parser/parser/gettextareas) method. Oradaki kullanım örneklerine bakın. **Daha fazla bilgi edin:**
+Bir örneği[`PageTextAreaOptions`](../pagetextareaoptions) sınıf, içinde parametresi olarak kullanılır[`GetTextAreas`](../../groupdocs.parser/parser/gettextareas) Ve[`GetTextAreas`](../../groupdocs.parser/parser/gettextareas) method. Oradaki kullanım örneklerine bakın. **Daha fazla bilgi edin:**
 
 * [Metin alanlarını ayıklayın](https://docs.groupdocs.com/display/parsernet/Extract+text+areas)
 

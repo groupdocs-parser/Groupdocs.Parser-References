@@ -16,7 +16,7 @@ public bool MatchWholeWord { get; }
 
 ### Mülk değeri
 
-`doğru` metin araması tam bir kelime ile sınırlıysa; aksi halde,`yanlış`.
+`doğru` metin araması tam bir kelime ile sınırlıysa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 
