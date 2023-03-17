@@ -16,7 +16,7 @@ public bool IsLineLimited { get; }
 
 ### Return_Value
 
-`vrai`si l'extraction de la surbrillance est limitée par le début (ou la fin) d'une ligne de texte ; Par ailleurs,`faux`.
+`vrai` si l'extraction de la surbrillance est limitée par le début (ou la fin) d'une ligne de texte ; sinon,`FAUX`.
 
 ### Voir également
 

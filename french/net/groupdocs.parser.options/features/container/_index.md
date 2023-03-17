@@ -16,7 +16,7 @@ public bool Container { get; }
 
 ### Return_Value
 
-`vrai` si l'extraction de conteneur est prise en charge ; Par ailleurs,`faux`.
+`vrai` si l'extraction de conteneur est prise en charge ; sinon,`FAUX`.
 
 ### Voir également
 

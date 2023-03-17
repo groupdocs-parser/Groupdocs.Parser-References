@@ -16,7 +16,7 @@ public bool MatchCase { get; }
 
 ### Valeur de la propriété
 
-`vrai` si une casse de texte n'est pas ignorée ; Par ailleurs,`faux`.
+`vrai` si une casse de texte n'est pas ignorée ; sinon,`FAUX`.
 
 ### Voir également
 

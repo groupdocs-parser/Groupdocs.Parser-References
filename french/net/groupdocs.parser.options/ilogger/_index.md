@@ -3,7 +3,7 @@ title: ILogger
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Définit linterface dun enregistreur utilisé pour enregistrer les événements et les erreurs lors de lextraction des données.
 type: docs
-weight: 420
+weight: 440
 url: /fr/net/groupdocs.parser.options/ilogger/
 ---
 ## ILogger interface

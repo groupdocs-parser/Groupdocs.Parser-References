@@ -3,7 +3,7 @@ title: Features
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Représente la liste des fonctionnalités prises en charge. Permet dobtenir des informations sur les fonctionnalités prises en charge ou non pour le document.
 type: docs
-weight: 330
+weight: 350
 url: /fr/net/groupdocs.parser.options/features/
 ---
 ## Features class
@@ -26,8 +26,10 @@ public sealed class Features
 | [Hyperlinks](../../groupdocs.parser.options/features/hyperlinks) { get; } | Obtient la valeur qui indique si l'extraction des hyperliens est prise en charge. |
 | [Images](../../groupdocs.parser.options/features/images) { get; } | Obtient la valeur qui indique si l'extraction d'images est prise en charge. |
 | [Metadata](../../groupdocs.parser.options/features/metadata) { get; } | Obtient la valeur qui indique si l'extraction des métadonnées est prise en charge. |
+| [Ocr](../../groupdocs.parser.options/features/ocr) { get; } | Obtient la valeur qui indique si la fonctionnalité OCR est prise en charge. |
 | [ParseByTemplate](../../groupdocs.parser.options/features/parsebytemplate) { get; } | Obtient la valeur qui indique si l'analyse par modèle est prise en charge. |
 | [ParseForm](../../groupdocs.parser.options/features/parseform) { get; } | Obtient la valeur qui indique si l'analyse de formulaire est prise en charge. |
+| [Preview](../../groupdocs.parser.options/features/preview) { get; } | Obtient la valeur qui indique si la génération d'aperçu est prise en charge. |
 | [Search](../../groupdocs.parser.options/features/search) { get; } | Obtient la valeur qui indique si la recherche de texte est prise en charge. |
 | [Structure](../../groupdocs.parser.options/features/structure) { get; } | Obtient la valeur qui indique si l'extraction de la structure du texte est prise en charge. |
 | [Tables](../../groupdocs.parser.options/features/tables) { get; } | Obtient la valeur qui indique si l'extraction des tables est prise en charge. |
@@ -44,7 +46,7 @@ public sealed class Features
 
 ### Remarques
 
-Une instance de cette classe est utilisée comme[`Features`](../../groupdocs.parser/parser/features)propriété. Voir les exemples d'utilisation ici.
+Une instance de cette classe est utilisée comme[`Features`](../../groupdocs.parser/parser/features) propriété. Voir les exemples d'utilisation ici.
 
 **Apprendre encore plus:**
 

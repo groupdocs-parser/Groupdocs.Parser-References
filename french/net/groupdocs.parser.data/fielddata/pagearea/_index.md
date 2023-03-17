@@ -20,7 +20,7 @@ Un exemple de[`PageArea`](../../pagearea) classe qui représente la valeur du ch
 
 ### Exemples
 
-Selon le domaine`PageArea` propriété peut contenir n'importe lequel des héritiers de[`PageArea`](../../pagearea) classer. Par exemple,[`ParseForm`](../../../groupdocs.parser/parser/parseform) la méthode extrait uniquement les champs de texte.
+Selon le domaine`PageArea` propriété peut contenir n'importe lequel des héritiers de[`PageArea`](../../pagearea) classe. Par exemple,[`ParseForm`](../../../groupdocs.parser/parser/parseform) la méthode extrait uniquement les champs de texte.
 
 ```csharp
 // Récupère les données du champ

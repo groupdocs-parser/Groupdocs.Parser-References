@@ -16,7 +16,7 @@ public bool? HasMergedCells { get; }
 
 ### Valeur de la propriété
 
-`vrai` si le tableau contient des cellules fusionnées ; Par ailleurs,`faux` .`nul` s'il n'est pas défini.
+`vrai` si le tableau contient des cellules fusionnées ; sinon,`FAUX` .`nul` s'il n'est pas défini.
 
 ### Voir également
 

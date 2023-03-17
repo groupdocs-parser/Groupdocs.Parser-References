@@ -3,7 +3,7 @@ title: TemplateItem
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Fournit une classe abstraite de base pour les éléments de modèle.
 type: docs
-weight: 640
+weight: 690
 url: /fr/net/groupdocs.parser.templates/templateitem/
 ---
 ## TemplateItem class
@@ -23,7 +23,7 @@ public abstract class TemplateItem
 
 ### Remarques
 
-Les héritiers de[`TemplateItem`](../templateitem) classe sont utilisés dans[`Template`](../template) le recueil.
+Les héritiers de[`TemplateItem`](../templateitem) classe sont utilisés dans[`Template`](../template) collection.
 
 ### Voir également
 

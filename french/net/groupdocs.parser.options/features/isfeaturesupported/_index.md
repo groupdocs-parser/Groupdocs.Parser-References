@@ -3,7 +3,7 @@ title: IsFeatureSupported
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Renvoie la valeur qui indique si la fonctionnalité est prise en charge.
 type: docs
-weight: 180
+weight: 200
 url: /fr/net/groupdocs.parser.options/features/isfeaturesupported/
 ---
 ## Features.IsFeatureSupported method
@@ -20,7 +20,7 @@ public bool IsFeatureSupported(string featureName)
 
 ### Return_Value
 
-`vrai` si la fonctionnalité est prise en charge ; Par ailleurs,`faux`.
+`vrai` si la fonctionnalité est prise en charge ; sinon,`FAUX`.
 
 ### Voir également
 

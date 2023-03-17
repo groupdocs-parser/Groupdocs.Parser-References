@@ -16,7 +16,7 @@ public TemplateTableLayout TableLayout { get; }
 
 ### Valeur de la propriété
 
-Un instant de[`TemplateTableLayout`](../../../groupdocs.parser.templates/templatetablelayout) classer.
+Un instant de[`TemplateTableLayout`](../../../groupdocs.parser.templates/templatetablelayout) classe.
 
 ### Voir également
 

@@ -16,7 +16,7 @@ public bool Top { get; }
 
 ### Valeur de la propriété
 
-`vrai` si un champ est recherché par le haut à partir du champ lié ; Par ailleurs,`faux`.
+`vrai` si un champ est recherché par le haut à partir du champ lié ; sinon,`FAUX`.
 
 ### Voir également
 

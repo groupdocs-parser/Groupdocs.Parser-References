@@ -1,14 +1,14 @@
 ---
 title: Page
 second_title: Référence de l'API GroupDocs.Parser pour .NET
-description: Représente les informations de page du document telles que lindex de page et la taille de page. Il est utilisé pour représenter la page qui contient les héritiers dePageArea./pagearea class dans la fonctionnalité danalyse par modèle.
+description: Représente les informations de page du document telles que lindex de page et la taille de page. Il est utilisé pour représenter la page qui contient les héritiers dePageArea./pageareaclass dans la fonctionnalité danalyse par modèle.
 type: docs
 weight: 60
 url: /fr/net/groupdocs.parser.data/page/
 ---
 ## Page class
 
-Représente les informations de page du document telles que l'index de page et la taille de page. Il est utilisé pour représenter la page qui contient les héritiers de[`PageArea`](../pagearea) class dans la fonctionnalité d'analyse par modèle.
+Représente les informations de page du document telles que l'index de page et la taille de page. Il est utilisé pour représenter la page qui contient les héritiers de[`PageArea`](../pagearea)class dans la fonctionnalité d'analyse par modèle.
 
 ```csharp
 public sealed class Page

@@ -3,7 +3,7 @@ title: TemplateTableLayout
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Fournit le modèle de disposition de tableau utilisé parTemplateTable./templatetable classe pour définir la position de la table.
 type: docs
-weight: 700
+weight: 750
 url: /fr/net/groupdocs.parser.templates/templatetablelayout/
 ---
 ## TemplateTableLayout class

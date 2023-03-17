@@ -16,7 +16,7 @@ public IList<PageTextArea> Areas { get; }
 
 ### Valeur de la propriété
 
-Une collection de zones de page de texte enfant ; vide si la zone de page de texte n'a pas d'enfants.
+Une collection de zones de page de texte enfant ; vide si la zone de page de texte n'a pas d'enfant.
 
 ### Voir également
 

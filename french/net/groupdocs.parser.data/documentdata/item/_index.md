@@ -20,13 +20,13 @@ public FieldData this[int index] { get; }
 
 ### Return_Value
 
-Un exemple de[`FieldData`](../../fielddata) classer.
+Un exemple de[`FieldData`](../../fielddata) classe.
 
 ### Exemples
 
 Itération via tous les champs :
 
-[`FieldData`](../../fielddata) la classe représente les données de champ. Selon le domaine[`PageArea`](../../fielddata/pagearea) propriété peut contenir n'importe lequel des héritiers de[`PageArea`](../../pagearea) classer. Par exemple,[`ParseForm`](../../../groupdocs.parser/parser/parseform) method extrait uniquement les champs de texte :
+[`FieldData`](../../fielddata) la classe représente les données de champ. Selon le domaine[`PageArea`](../../fielddata/pagearea) propriété peut contenir n'importe lequel des héritiers de[`PageArea`](../../pagearea) classe. Par exemple,[`ParseForm`](../../../groupdocs.parser/parser/parseform) method extrait uniquement les champs de texte :
 
 ```csharp
 for (int i = 0; i < data.Count; i++)

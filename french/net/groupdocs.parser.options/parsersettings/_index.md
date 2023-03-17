@@ -3,7 +3,7 @@ title: ParserSettings
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Fournit les paramètres utilisés pour personnaliser lextraction des données.
 type: docs
-weight: 510
+weight: 560
 url: /fr/net/groupdocs.parser.options/parsersettings/
 ---
 ## ParserSettings class
@@ -18,13 +18,19 @@ public sealed class ParserSettings
 
 | Nom | La description |
 | --- | --- |
-| [ParserSettings](parsersettings)(ILogger) | Initialise une nouvelle instance du[`ParserSettings`](../parsersettings) classe. |
+| [ParserSettings](parsersettings#constructor)(ExternalResourceHandler) | Initialise une nouvelle instance du[`ParserSettings`](../parsersettings) classe avec le gestionnaire de ressources externes. |
+| [ParserSettings](parsersettings#constructor_1)(ILogger) | Initialise une nouvelle instance du[`ParserSettings`](../parsersettings) classe avec le logger. |
+| [ParserSettings](parsersettings#constructor_4)(OcrConnectorBase) | Initialise une nouvelle instance du[`ParserSettings`](../parsersettings) classe avec le connecteur OCR. |
+| [ParserSettings](parsersettings#constructor_2)(ILogger, OcrConnectorBase) | Initialise une nouvelle instance du[`ParserSettings`](../parsersettings) classe avec enregistreur et connecteur OCR. |
+| [ParserSettings](parsersettings#constructor_3)(ILogger, OcrConnectorBase, ExternalResourceHandler) | Initialise une nouvelle instance du[`ParserSettings`](../parsersettings) classe. |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
+| [ExternalResourceHandler](../../groupdocs.parser.options/parsersettings/externalresourcehandler) { get; } | Obtient le gestionnaire des ressources externes. |
 | [Logger](../../groupdocs.parser.options/parsersettings/logger) { get; } | Obtient l'enregistreur utilisé pour consigner les événements et les erreurs lors de l'extraction des données. |
+| [OcrConnector](../../groupdocs.parser.options/parsersettings/ocrconnector) { get; } | Obtient le connecteur OCR qui est utilisé pour fournir la fonctionnalité OCR. |
 
 ### Remarques
 

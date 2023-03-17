@@ -3,7 +3,7 @@ title: ParseByTemplate
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Obtient la valeur qui indique si lanalyse par modèle est prise en charge.
 type: docs
-weight: 90
+weight: 100
 url: /fr/net/groupdocs.parser.options/features/parsebytemplate/
 ---
 ## Features.ParseByTemplate property
@@ -16,7 +16,7 @@ public bool ParseByTemplate { get; }
 
 ### Return_Value
 
-`vrai` si l'analyse par modèle est prise en charge ; Par ailleurs,`faux`.
+`vrai` si l'analyse par modèle est prise en charge ; sinon,`FAUX`.
 
 ### Voir également
 

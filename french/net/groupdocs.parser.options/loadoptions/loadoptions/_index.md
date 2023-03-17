@@ -24,7 +24,7 @@ public LoadOptions()
 
 ## LoadOptions(string) {#constructor_4}
 
-Initialise une nouvelle instance du[`LoadOptions`](../../loadoptions)classe avec[`FileFormat`](../fileformat) égal àUnknown et encodages par défaut.
+Initialise une nouvelle instance du[`LoadOptions`](../../loadoptions) classe avec[`FileFormat`](../fileformat) égal àUnknown et encodages par défaut.
 
 ```csharp
 public LoadOptions(string password)
@@ -44,7 +44,7 @@ public LoadOptions(string password)
 
 ## LoadOptions(FileFormat) {#constructor_1}
 
-Initialise une nouvelle instance du[`LoadOptions`](../../loadoptions) class avec vide[`Password`](../password) et encodages par défaut.
+Initialise une nouvelle instance du[`LoadOptions`](../../loadoptions) class avec vide[`Password`](../password)et encodages par défaut.
 
 ```csharp
 public LoadOptions(FileFormat fileFormat)

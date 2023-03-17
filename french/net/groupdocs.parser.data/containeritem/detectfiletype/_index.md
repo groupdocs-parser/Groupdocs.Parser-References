@@ -20,13 +20,13 @@ public FileType DetectFileType(FileTypeDetectionMode detectionMode)
 
 ### Return_Value
 
-Un exemple de[`FileType`](../../../groupdocs.parser.options/filetype) classer;[`Unknown`](../../../groupdocs.parser.options/filetype/unknown) si un type de fichier n'est pas détecté.
+Un exemple de[`FileType`](../../../groupdocs.parser.options/filetype) classe;[`Unknown`](../../../groupdocs.parser.options/filetype/unknown) si un type de fichier n'est pas détecté.
 
 ### Remarques
 
 *detectionMode* Le paramètre permet de contrôler la détection du type de fichier :
 
-* **Défaut** . Le type de fichier est détecté par l'extension de fichier ; si l'extension de fichier n'est pas reconnue, le type de fichier est détecté par le contenu du fichier.
+* **Défaut** Le type de fichier est détecté par l'extension de fichier ; si l'extension de fichier n'est pas reconnue, le type de fichier est détecté par le contenu du fichier.
 * **Extension** .Le type de fichier est détecté uniquement par l'extension de fichier.
 * **Contenu** . Le type de fichier est détecté uniquement par le contenu du fichier.
 

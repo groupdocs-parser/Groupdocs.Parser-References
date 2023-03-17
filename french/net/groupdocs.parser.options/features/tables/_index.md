@@ -3,7 +3,7 @@ title: Tables
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Obtient la valeur qui indique si lextraction des tables est prise en charge.
 type: docs
-weight: 130
+weight: 150
 url: /fr/net/groupdocs.parser.options/features/tables/
 ---
 ## Features.Tables property
@@ -16,7 +16,7 @@ public bool Tables { get; }
 
 ### Return_Value
 
-`vrai` si l'extraction des tables est prise en charge ; Par ailleurs,`faux`.
+`vrai` si l'extraction des tables est prise en charge ; sinon,`FAUX`.
 
 ### Voir également
 

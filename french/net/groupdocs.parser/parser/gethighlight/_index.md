@@ -17,7 +17,7 @@ public HighlightItem GetHighlight(int position, bool isDirect, HighlightOptions 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | position | Int32 | La position de départ de la surbrillance. |
-| isDirect | Boolean | La valeur qui indique si l'extraction de la surbrillance est directe. `vrai` si le surlignage est extrait par le droit de*position* ; Par ailleurs,`faux` . |
+| isDirect | Boolean | La valeur qui indique si l'extraction de la surbrillance est directe. `vrai` si le surlignage est extrait par le droit de*position* ; sinon,`FAUX` . |
 | options | HighlightOptions | Les options d'extraction de surbrillance. |
 
 ### Return_Value

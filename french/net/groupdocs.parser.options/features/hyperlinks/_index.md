@@ -16,7 +16,7 @@ public bool Hyperlinks { get; }
 
 ### Return_Value
 
-`vrai` si l'extraction des hyperliens est prise en charge ; Par ailleurs,`faux`.
+`vrai` si l'extraction des hyperliens est prise en charge ; sinon,`FAUX`.
 
 ### Voir également
 

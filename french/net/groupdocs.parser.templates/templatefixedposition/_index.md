@@ -3,7 +3,7 @@ title: TemplateFixedPosition
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Fournit une position de champ de modèle définie par la zone rectangulaire.
 type: docs
-weight: 630
+weight: 680
 url: /fr/net/groupdocs.parser.templates/templatefixedposition/
 ---
 ## TemplateFixedPosition class

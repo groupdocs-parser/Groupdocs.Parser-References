@@ -16,7 +16,7 @@ public bool IsItalic { get; }
 
 ### Return_Value
 
-`vrai` si la police est en italique ; Par ailleurs,`faux`.
+`vrai` si la police est en italique ; sinon,`FAUX`.
 
 ### Voir également
 

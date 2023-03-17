@@ -3,7 +3,7 @@ title: SearchOptions
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Fournit les options utilisées pour la recherche de texte.
 type: docs
-weight: 560
+weight: 610
 url: /fr/net/groupdocs.parser.options/searchoptions/
 ---
 ## SearchOptions class
@@ -20,7 +20,7 @@ public sealed class SearchOptions
 | --- | --- |
 | [SearchOptions](searchoptions#constructor)() | Initialise une nouvelle instance du[`SearchOptions`](../searchoptions) classe avec des valeurs par défaut. Voir les remarques pour plus de détails. |
 | [SearchOptions](searchoptions#constructor_1)(bool, bool, bool) | Initialise une nouvelle instance du[`SearchOptions`](../searchoptions) classe qui est utilisée pour rechercher sans extraction de surbrillance. |
-| [SearchOptions](searchoptions#constructor_2)(bool, bool, bool, bool) | Initialise une nouvelle instance du[`SearchOptions`](../searchoptions) classe qui est utilisée pour rechercher par pages et sans extraction de surbrillance. |
+| [SearchOptions](searchoptions#constructor_2)(bool, bool, bool, bool) | Initialise une nouvelle instance du[`SearchOptions`](../searchoptions)classe qui est utilisée pour rechercher par pages et sans extraction de surbrillance. |
 | [SearchOptions](searchoptions#constructor_4)(bool, bool, bool, HighlightOptions) | Initialise une nouvelle instance du[`SearchOptions`](../searchoptions) classe qui est utilisée pour rechercher avec les mêmes options de surbrillance pour l'extraction de surbrillance gauche et droite. |
 | [SearchOptions](searchoptions#constructor_5)(bool, bool, bool, HighlightOptions, HighlightOptions) | Initialise une nouvelle instance du[`SearchOptions`](../searchoptions) classe qui est utilisée pour rechercher avec les options de surbrillance pour l'extraction de surbrillance gauche et droite. |
 | [SearchOptions](searchoptions#constructor_3)(bool, bool, bool, bool, HighlightOptions, HighlightOptions) | Initialise une nouvelle instance du[`SearchOptions`](../searchoptions) classe. |

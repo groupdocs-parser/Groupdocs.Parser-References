@@ -3,7 +3,7 @@ title: Parser
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Représente la classe principale qui contrôle le texte les images lextraction de conteneurs et la fonctionnalité danalyse.
 type: docs
-weight: 590
+weight: 640
 url: /fr/net/groupdocs.parser/parser/
 ---
 ## Parser class
@@ -21,13 +21,15 @@ public sealed class Parser : IDisposable
 | [Parser](parser#constructor_2)(DbConnection) | Initialise une nouvelle instance du[`Parser`](../parser) classe pour extraire des données d'une base de données. |
 | [Parser](parser#constructor)(EmailConnection) | Initialise une nouvelle instance du[`Parser`](../parser) classe pour extraire les données d'un serveur de messagerie distant. |
 | [Parser](parser#constructor_4)(Stream) | Initialise une nouvelle instance du[`Parser`](../parser) classe. |
-| [Parser](parser#constructor_7)(string) | Initialise une nouvelle instance du[`Parser`](../parser) classe. |
+| [Parser](parser#constructor_8)(string) | Initialise une nouvelle instance du[`Parser`](../parser) classe. |
 | [Parser](parser#constructor_3)(DbConnection, ParserSettings) | Initialise une nouvelle instance du[`Parser`](../parser) classe pour extraire des données d'une base de données. |
 | [Parser](parser#constructor_1)(EmailConnection, ParserSettings) | Initialise une nouvelle instance du[`Parser`](../parser) classe pour extraire les données d'un serveur de messagerie distant. |
 | [Parser](parser#constructor_5)(Stream, LoadOptions) | Initialise une nouvelle instance du[`Parser`](../parser) classe avec[`LoadOptions`](../../groupdocs.parser.options/loadoptions) . |
-| [Parser](parser#constructor_8)(string, LoadOptions) | Initialise une nouvelle instance du[`Parser`](../parser) classe avec[`LoadOptions`](../../groupdocs.parser.options/loadoptions) . |
+| [Parser](parser#constructor_7)(Stream, ParserSettings) | Initialise une nouvelle instance du[`Parser`](../parser) classe avec[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
+| [Parser](parser#constructor_9)(string, LoadOptions) | Initialise une nouvelle instance du[`Parser`](../parser) classe avec[`LoadOptions`](../../groupdocs.parser.options/loadoptions) . |
+| [Parser](parser#constructor_11)(string, ParserSettings) | Initialise une nouvelle instance du[`Parser`](../parser) classe avec[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
 | [Parser](parser#constructor_6)(Stream, LoadOptions, ParserSettings) | Initialise une nouvelle instance du[`Parser`](../parser) classe avec[`LoadOptions`](../../groupdocs.parser.options/loadoptions) et[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
-| [Parser](parser#constructor_9)(string, LoadOptions, ParserSettings) | Initialise une nouvelle instance du[`Parser`](../parser) classe avec[`LoadOptions`](../../groupdocs.parser.options/loadoptions) et[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
+| [Parser](parser#constructor_10)(string, LoadOptions, ParserSettings) | Initialise une nouvelle instance du[`Parser`](../parser) classe avec[`LoadOptions`](../../groupdocs.parser.options/loadoptions) et[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
 
 ## Propriétés
 
