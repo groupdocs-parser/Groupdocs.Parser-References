@@ -3,7 +3,7 @@ title: Toc
 second_title: Referencia de API de GroupDocs.Parser para .NET
 description: Obtiene el valor que indica si se admite la extracción de la tabla de contenido.
 type: docs
-weight: 170
+weight: 190
 url: /es/net/groupdocs.parser.options/features/toc/
 ---
 ## Features.Toc property
@@ -16,7 +16,7 @@ public bool Toc { get; }
 
 ### Valor_devuelto
 
-`verdadero` si se admite la extracción de la tabla de contenido; de lo contrario,`falso`.
+`verdadero` si se admite la extracción de la tabla de contenido; de lo contrario,`FALSO`.
 
 ### Ver también
 

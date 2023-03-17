@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Referencia de API de GroupDocs.Parser para .NET
 description: Proporciona las opciones que se utilizan para abrir un archivo.
 type: docs
-weight: 450
+weight: 470
 url: /es/net/groupdocs.parser.options/loadoptions/
 ---
 ## LoadOptions class
@@ -19,8 +19,8 @@ public sealed class LoadOptions
 | Nombre | Descripción |
 | --- | --- |
 | [LoadOptions](loadoptions#constructor)() | Inicializa una nueva instancia del[`LoadOptions`](../loadoptions) clase con vacío[`Password`](./password) ,[`FileFormat`](./fileformat) igual aUnknown y codificaciones predeterminadas. |
-| [LoadOptions](loadoptions#constructor_1)(FileFormat) | Inicializa una nueva instancia del[`LoadOptions`](../loadoptions) class con vacío[`Password`](./password) y codificaciones predeterminadas. |
-| [LoadOptions](loadoptions#constructor_4)(string) | Inicializa una nueva instancia del[`LoadOptions`](../loadoptions)clase con[`FileFormat`](./fileformat) igual aUnknown y codificaciones predeterminadas. |
+| [LoadOptions](loadoptions#constructor_1)(FileFormat) | Inicializa una nueva instancia del[`LoadOptions`](../loadoptions) class con vacío[`Password`](./password) codificaciones predeterminadas. |
+| [LoadOptions](loadoptions#constructor_4)(string) | Inicializa una nueva instancia del[`LoadOptions`](../loadoptions) clase con[`FileFormat`](./fileformat) igual aUnknown y codificaciones predeterminadas. |
 | [LoadOptions](loadoptions#constructor_2)(FileFormat, string) | Inicializa una nueva instancia del[`LoadOptions`](../loadoptions) class con la contraseña y las codificaciones predeterminadas. |
 | [LoadOptions](loadoptions#constructor_3)(FileFormat, string, Encoding, Encoding) | Inicializa una nueva instancia del[`LoadOptions`](../loadoptions) clase con codificaciones personalizadas. |
 

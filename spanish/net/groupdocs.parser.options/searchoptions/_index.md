@@ -3,7 +3,7 @@ title: SearchOptions
 second_title: Referencia de API de GroupDocs.Parser para .NET
 description: Proporciona las opciones que se utilizan para la búsqueda de texto.
 type: docs
-weight: 560
+weight: 610
 url: /es/net/groupdocs.parser.options/searchoptions/
 ---
 ## SearchOptions class
@@ -20,7 +20,7 @@ public sealed class SearchOptions
 | --- | --- |
 | [SearchOptions](searchoptions#constructor)() | Inicializa una nueva instancia del[`SearchOptions`](../searchoptions) clase con valores predeterminados. Ver comentarios para más detalles. |
 | [SearchOptions](searchoptions#constructor_1)(bool, bool, bool) | Inicializa una nueva instancia del[`SearchOptions`](../searchoptions) clase que se utiliza para buscar sin extracción de resaltado. |
-| [SearchOptions](searchoptions#constructor_2)(bool, bool, bool, bool) | Inicializa una nueva instancia del[`SearchOptions`](../searchoptions) clase que se utiliza para buscar por páginas y sin extracción de resaltado. |
+| [SearchOptions](searchoptions#constructor_2)(bool, bool, bool, bool) | Inicializa una nueva instancia del[`SearchOptions`](../searchoptions)clase que se utiliza para buscar por páginas y sin extracción de resaltado. |
 | [SearchOptions](searchoptions#constructor_4)(bool, bool, bool, HighlightOptions) | Inicializa una nueva instancia del[`SearchOptions`](../searchoptions) clase que se utiliza para buscar con las mismas opciones de resaltado para la extracción de resaltado izquierdo y derecho. |
 | [SearchOptions](searchoptions#constructor_5)(bool, bool, bool, HighlightOptions, HighlightOptions) | Inicializa una nueva instancia del[`SearchOptions`](../searchoptions) clase que se utiliza para buscar con las opciones de resaltado para la extracción de resaltado izquierdo y derecho. |
 | [SearchOptions](searchoptions#constructor_3)(bool, bool, bool, bool, HighlightOptions, HighlightOptions) | Inicializa una nueva instancia del[`SearchOptions`](../searchoptions) clase. |

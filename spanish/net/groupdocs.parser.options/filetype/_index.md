@@ -3,7 +3,7 @@ title: FileType
 second_title: Referencia de API de GroupDocs.Parser para .NET
 description: Representa el tipo de archivo. Proporciona métodos para obtener una lista de todos los tipos de archivos admitidos porGroupDocs.Parser .
 type: docs
-weight: 360
+weight: 380
 url: /es/net/groupdocs.parser.options/filetype/
 ---
 ## FileType class
@@ -122,7 +122,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [XLS](../../groupdocs.parser.options/filetype/xls) | Los archivos con extensión XLS representan el formato de archivo binario de Excel. Dichos archivos pueden ser creados por Microsoft Excel así como otros programas de hojas de cálculo similares como OpenOffice Calc o Apple Numbers. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/specification/spreadsheet/xls/) . |
 | static readonly [XLSB](../../groupdocs.parser.options/filetype/xlsb) | El formato de archivo XLSB especifica el formato de archivo binario de Excel, que es una colección de registros y estructuras que especifican el contenido del libro de trabajo de Excel. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/specification/spreadsheet/xlsb/) . |
 | static readonly [XLSM](../../groupdocs.parser.options/filetype/xlsm) | Los archivos con extensión XLSM son un tipo de archivos de hoja de cálculo que admiten macros. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/specification/spreadsheet/xlsm/) . |
-| static readonly [XLSX](../../groupdocs.parser.options/filetype/xlsx) | XLSX es un formato conocido para documentos de Microsoft Excel que Microsoft presentó con el lanzamiento de Microsoft Office 2007. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/specification/spreadsheet/xlsx/) . |
+| static readonly [XLSX](../../groupdocs.parser.options/filetype/xlsx) | XLSX es un formato conocido para documentos de Microsoft Excel que Microsoft introdujo con el lanzamiento de Microsoft Office 2007. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/specification/spreadsheet/xlsx/) . |
 | static readonly [XLT](../../groupdocs.parser.options/filetype/xlt) | Los archivos con la extensión .XLT son archivos de plantilla creados con Microsoft Excel, que es una aplicación de hoja de cálculo que forma parte del paquete Microsoft Office. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/specification/spreadsheet/xlt/) . |
 | static readonly [XLTM](../../groupdocs.parser.options/filetype/xltm) | La extensión de archivo XLTM representa archivos generados por Microsoft Excel como archivos de plantilla habilitados para macros . Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/specification/spreadsheet/xltm/) . |
 | static readonly [XLTX](../../groupdocs.parser.options/filetype/xltx) | Los archivos con extensión XLTX representan archivos de plantilla de Microsoft Excel que se basan en las especificaciones de formato de archivo de Office OpenXML . Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/specification/spreadsheet/xltx/) . |

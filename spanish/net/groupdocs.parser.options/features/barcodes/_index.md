@@ -16,7 +16,7 @@ public bool Barcodes { get; }
 
 ### Valor_devuelto
 
-`verdadero` si se admite la extracción de códigos de barras; de lo contrario,`falso`.
+`verdadero` si se admite la extracción de códigos de barras; de lo contrario,`FALSO`.
 
 ### Ver también
 

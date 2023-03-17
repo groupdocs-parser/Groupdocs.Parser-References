@@ -276,7 +276,7 @@ IEnumerable<ContainerItem> emails = parser.GetContainer();
 
 ---
 
-## Parser(string) {#constructor_7}
+## Parser(string) {#constructor_8}
 
 Inicializa una nueva instancia del[`Parser`](../../parser) clase.
 
@@ -320,7 +320,7 @@ using (Parser parser = new Parser(filePath))
 
 ---
 
-## Parser(string, LoadOptions) {#constructor_8}
+## Parser(string, LoadOptions) {#constructor_9}
 
 Inicializa una nueva instancia del[`Parser`](../../parser) clase con[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) .
 
@@ -380,7 +380,29 @@ catch (InvalidPasswordException)
 
 ---
 
-## Parser(string, LoadOptions, ParserSettings) {#constructor_9}
+## Parser(string, ParserSettings) {#constructor_11}
+
+Inicializa una nueva instancia del[`Parser`](../../parser) clase con[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
+
+```csharp
+public Parser(string filePath, ParserSettings parserSettings)
+```
+
+| Parámetro | Escribe | Descripción |
+| --- | --- | --- |
+| filePath | String | La ruta al archivo. |
+| parserSettings | ParserSettings | La configuración del analizador que se utiliza para personalizar la extracción de datos. |
+
+### Ver también
+
+* class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
+* class [Parser](../../parser)
+* espacio de nombres [GroupDocs.Parser](../../parser)
+* asamblea [GroupDocs.Parser](../../../)
+
+---
+
+## Parser(string, LoadOptions, ParserSettings) {#constructor_10}
 
 Inicializa una nueva instancia del[`Parser`](../../parser) clase con[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) y[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
 
@@ -408,7 +430,7 @@ public Parser(string filePath, LoadOptions loadOptions, ParserSettings parserSet
 El siguiente ejemplo muestra cómo recibir la información a través de[`ILogger`](../../../groupdocs.parser.options/ilogger) interfaz:
 
 ```csharp
-// probar
+// intentar
 {
     // Crea una instancia de la clase Logger
     Logger logger = new Logger();
@@ -588,6 +610,28 @@ catch (InvalidPasswordException)
 
 ---
 
+## Parser(Stream, ParserSettings) {#constructor_7}
+
+Inicializa una nueva instancia del[`Parser`](../../parser) clase con[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
+
+```csharp
+public Parser(Stream document, ParserSettings parserSettings)
+```
+
+| Parámetro | Escribe | Descripción |
+| --- | --- | --- |
+| document | Stream | El flujo de entrada de origen. |
+| parserSettings | ParserSettings | La configuración del analizador que se utiliza para personalizar la extracción de datos. |
+
+### Ver también
+
+* class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
+* class [Parser](../../parser)
+* espacio de nombres [GroupDocs.Parser](../../parser)
+* asamblea [GroupDocs.Parser](../../../)
+
+---
+
 ## Parser(Stream, LoadOptions, ParserSettings) {#constructor_6}
 
 Inicializa una nueva instancia del[`Parser`](../../parser) clase con[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) y[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
@@ -616,7 +660,7 @@ public Parser(Stream document, LoadOptions loadOptions, ParserSettings parserSet
 El siguiente ejemplo muestra cómo recibir la información a través de[`ILogger`](../../../groupdocs.parser.options/ilogger) interfaz:
 
 ```csharp
-// probar
+// intentar
 {
     // Crea una instancia de la clase Logger
     Logger logger = new Logger();

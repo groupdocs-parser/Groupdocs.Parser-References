@@ -16,7 +16,7 @@ public bool IsBold { get; }
 
 ### Valor_devuelto
 
-`verdadero` si la fuente está en negrita; de lo contrario,`falso`.
+`verdadero` si la fuente está en negrita; de lo contrario,`FALSO`.
 
 ### Ver también
 

@@ -3,7 +3,7 @@ title: Search
 second_title: Referencia de API de GroupDocs.Parser para .NET
 description: Obtiene el valor que indica si se admite la búsqueda de texto.
 type: docs
-weight: 110
+weight: 130
 url: /es/net/groupdocs.parser.options/features/search/
 ---
 ## Features.Search property
@@ -16,7 +16,7 @@ public bool Search { get; }
 
 ### Valor_devuelto
 
-`verdadero` si se admite la búsqueda de texto; de lo contrario,`falso`.
+`verdadero` si se admite la búsqueda de texto; de lo contrario,`FALSO`.
 
 ### Ver también
 

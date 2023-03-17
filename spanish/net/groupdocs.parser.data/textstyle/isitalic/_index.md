@@ -16,7 +16,7 @@ public bool IsItalic { get; }
 
 ### Valor_devuelto
 
-`verdadero` si la fuente es cursiva; de lo contrario,`falso`.
+`verdadero` si la fuente es cursiva; de lo contrario,`FALSO`.
 
 ### Ver también
 

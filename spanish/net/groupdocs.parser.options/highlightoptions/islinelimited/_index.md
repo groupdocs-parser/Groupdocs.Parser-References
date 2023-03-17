@@ -16,7 +16,7 @@ public bool IsLineLimited { get; }
 
 ### Valor_devuelto
 
-`verdadero`si la extracción de resaltado está limitada por el inicio (o el final) de una línea de texto; de lo contrario,`falso`.
+`verdadero` si la extracción de resaltado está limitada por el inicio (o el final) de una línea de texto; de lo contrario,`FALSO`.
 
 ### Ver también
 

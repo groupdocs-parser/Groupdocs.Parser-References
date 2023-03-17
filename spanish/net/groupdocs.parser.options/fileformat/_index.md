@@ -3,7 +3,7 @@ title: FileFormat
 second_title: Referencia de API de GroupDocs.Parser para .NET
 description: Define un tipo de archivo.
 type: docs
-weight: 340
+weight: 360
 url: /es/net/groupdocs.parser.options/fileformat/
 ---
 ## FileFormat enumeration

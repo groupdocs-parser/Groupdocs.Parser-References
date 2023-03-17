@@ -3,7 +3,7 @@ title: Template
 second_title: Referencia de API de GroupDocs.Parser para .NET
 description: Proporciona la plantilla del documento. Consiste enTemplateItem./templateitem objects que representan los elementos de la plantilla como el campo de texto y las definiciones de tablas.
 type: docs
-weight: 600
+weight: 650
 url: /es/net/groupdocs.parser.templates/template/
 ---
 ## Template class

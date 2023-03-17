@@ -24,7 +24,7 @@ public LoadOptions()
 
 ## LoadOptions(string) {#constructor_4}
 
-Inicializa una nueva instancia del[`LoadOptions`](../../loadoptions)clase con[`FileFormat`](../fileformat) igual aUnknown y codificaciones predeterminadas.
+Inicializa una nueva instancia del[`LoadOptions`](../../loadoptions) clase con[`FileFormat`](../fileformat) igual aUnknown y codificaciones predeterminadas.
 
 ```csharp
 public LoadOptions(string password)
@@ -44,7 +44,7 @@ public LoadOptions(string password)
 
 ## LoadOptions(FileFormat) {#constructor_1}
 
-Inicializa una nueva instancia del[`LoadOptions`](../../loadoptions) class con vacío[`Password`](../password) y codificaciones predeterminadas.
+Inicializa una nueva instancia del[`LoadOptions`](../../loadoptions) class con vacío[`Password`](../password) codificaciones predeterminadas.
 
 ```csharp
 public LoadOptions(FileFormat fileFormat)

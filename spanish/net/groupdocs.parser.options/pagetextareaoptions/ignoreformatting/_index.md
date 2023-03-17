@@ -16,7 +16,7 @@ public bool IgnoreFormatting { get; }
 
 ### El valor de la propiedad
 
-`verdadero` si se ignora el formato de texto; de lo contrario,`falso`.
+`verdadero` si se ignora el formato de texto; de lo contrario,`FALSO`.
 
 ### Ver también
 

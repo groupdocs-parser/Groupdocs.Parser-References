@@ -109,7 +109,7 @@ public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpress
 
 ## SearchOptions(bool, bool, bool, bool) {#constructor_2}
 
-Inicializa una nueva instancia del[`SearchOptions`](../../searchoptions) clase que se utiliza para buscar por páginas y sin extracción de resaltado.
+Inicializa una nueva instancia del[`SearchOptions`](../../searchoptions)clase que se utiliza para buscar por páginas y sin extracción de resaltado.
 
 ```csharp
 public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpression, 
@@ -145,15 +145,15 @@ Las siguientes propiedades tienen valores predeterminados:
 
 **[`MatchCase`](../matchcase)**
 
-`falso`
+`FALSO`
 
 **[`MatchWholeWord`](../matchwholeword)**
 
-`falso`
+`FALSO`
 
 **[`UseRegularExpression`](../useregularexpression)**
 
-`falso`
+`FALSO`
 
 **[`LeftHighlightOptions`](../lefthighlightoptions)**
 

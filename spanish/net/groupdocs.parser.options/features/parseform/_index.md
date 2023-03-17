@@ -3,7 +3,7 @@ title: ParseForm
 second_title: Referencia de API de GroupDocs.Parser para .NET
 description: Obtiene el valor que indica si se admite el análisis de formularios.
 type: docs
-weight: 100
+weight: 110
 url: /es/net/groupdocs.parser.options/features/parseform/
 ---
 ## Features.ParseForm property
@@ -16,7 +16,7 @@ public bool ParseForm { get; }
 
 ### Valor_devuelto
 
-`verdadero` si se admite el análisis de formularios; de lo contrario,`falso`.
+`verdadero` si se admite el análisis de formularios; de lo contrario,`FALSO`.
 
 ### Ver también
 

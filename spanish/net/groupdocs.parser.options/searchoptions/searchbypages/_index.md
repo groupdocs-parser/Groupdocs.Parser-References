@@ -16,7 +16,7 @@ public bool SearchByPages { get; }
 
 ### El valor de la propiedad
 
-`verdadero` si la búsqueda se realiza por páginas; de lo contrario,`falso` y la búsqueda se realiza en todo el documento sin incluir[`PageIndex`](../../../groupdocs.parser.data/searchresult/pageindex) valor de propiedad en[`SearchResult`](../../../groupdocs.parser.data/searchresult) clase.
+`verdadero` si la búsqueda se realiza por páginas; de lo contrario,`FALSO` y la búsqueda se realiza en todo el documento sin incluir[`PageIndex`](../../../groupdocs.parser.data/searchresult/pageindex) valor de propiedad en[`SearchResult`](../../../groupdocs.parser.data/searchresult) clase.
 
 ### Ver también
 

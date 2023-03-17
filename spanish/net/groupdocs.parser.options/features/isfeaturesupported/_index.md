@@ -3,7 +3,7 @@ title: IsFeatureSupported
 second_title: Referencia de API de GroupDocs.Parser para .NET
 description: Devuelve el valor que indica si la función es compatible.
 type: docs
-weight: 180
+weight: 200
 url: /es/net/groupdocs.parser.options/features/isfeaturesupported/
 ---
 ## Features.IsFeatureSupported method
@@ -20,7 +20,7 @@ public bool IsFeatureSupported(string featureName)
 
 ### Valor_devuelto
 
-`verdadero` si la función es compatible; de lo contrario,`falso`.
+`verdadero` si la función es compatible; de lo contrario,`FALSO`.
 
 ### Ver también
 

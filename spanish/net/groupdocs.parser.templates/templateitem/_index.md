@@ -3,7 +3,7 @@ title: TemplateItem
 second_title: Referencia de API de GroupDocs.Parser para .NET
 description: Proporciona una clase abstracta base para elementos de plantilla.
 type: docs
-weight: 640
+weight: 690
 url: /es/net/groupdocs.parser.templates/templateitem/
 ---
 ## TemplateItem class

@@ -16,7 +16,7 @@ public bool Left { get; }
 
 ### El valor de la propiedad
 
-`verdadero` si se busca un campo por la izquierda del campo vinculado; de lo contrario,`falso`.
+`verdadero` si se busca un campo por la izquierda del campo vinculado; de lo contrario,`FALSO`.
 
 ### Ver también
 

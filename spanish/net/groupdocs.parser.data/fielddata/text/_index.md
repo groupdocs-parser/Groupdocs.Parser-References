@@ -16,7 +16,7 @@ public string Text { get; }
 
 ### El valor de la propiedad
 
-Un valor de cadena que representa un valor del texto del campo;`nulo` si[`PageArea`](../pagearea)la propiedad no es[`PageTextArea`](../../pagetextarea).
+Un valor de cadena que representa un valor del texto del campo;`nulo` si[`PageArea`](../pagearea) la propiedad no es[`PageTextArea`](../../pagetextarea).
 
 ### Ver también
 

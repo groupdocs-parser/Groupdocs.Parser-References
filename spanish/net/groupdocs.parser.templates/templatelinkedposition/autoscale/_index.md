@@ -16,7 +16,7 @@ public bool AutoScale { get; }
 
 ### El valor de la propiedad
 
-`verdadero` si[`SearchArea`](../searcharea) está escalado por el tamaño del campo vinculado; de lo contrario,`falso`
+`verdadero` si[`SearchArea`](../searcharea) está escalado por el tamaño del campo vinculado; de lo contrario,`FALSO`
 
 ### Ver también
 

@@ -1,14 +1,14 @@
 ---
 title: OpenParser
 second_title: Referencia de API de GroupDocs.Parser para .NET
-description: Crea elParsergroupdocs.parser/parser objeto para el contenido del artículo.
+description: Crea elParsergroupdocs.parser/parser objeto para el contenido del elemento.
 type: docs
 weight: 70
 url: /es/net/groupdocs.parser.data/containeritem/openparser/
 ---
 ## OpenParser() {#openparser}
 
-Crea el[`Parser`](../../../groupdocs.parser/parser) objeto para el contenido del artículo.
+Crea el[`Parser`](../../../groupdocs.parser/parser) objeto para el contenido del elemento.
 
 ```csharp
 public Parser OpenParser()

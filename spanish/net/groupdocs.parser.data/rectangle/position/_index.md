@@ -16,7 +16,7 @@ public Point Position { get; }
 
 ### El valor de la propiedad
 
-una instancia de[`Point`](../../point) clase que representa las coordenadas de la esquina superior izquierda del área rectangular.
+una instancia de[`Point`](../../point)clase que representa las coordenadas de la esquina superior izquierda del área rectangular.
 
 ### Ver también
 

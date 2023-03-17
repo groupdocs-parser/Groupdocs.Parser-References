@@ -16,7 +16,7 @@ public bool MatchWholeWord { get; }
 
 ### El valor de la propiedad
 
-`verdadero` si la búsqueda de texto está limitada por una palabra completa; de lo contrario,`falso`.
+`verdadero` si la búsqueda de texto está limitada por una palabra completa; de lo contrario,`FALSO`.
 
 ### Ver también
 
