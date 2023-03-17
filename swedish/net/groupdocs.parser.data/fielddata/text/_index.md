@@ -16,7 +16,7 @@ public string Text { get; }
 
 ### Fastighetsvärde
 
-Ett strängvärde som representerar ett värde i fälttexten;`null` om[`PageArea`](../pagearea)egendom är det inte[`PageTextArea`](../../pagetextarea).
+Ett strängvärde som representerar ett värde i fälttexten;`null` om[`PageArea`](../pagearea) egendom är det inte[`PageTextArea`](../../pagetextarea).
 
 ### Se även
 

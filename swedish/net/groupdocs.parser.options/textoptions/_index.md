@@ -3,7 +3,7 @@ title: TextOptions
 second_title: GroupDocs.Parser för .NET API-referens
 description: Ger alternativen som används för textextraktion.
 type: docs
-weight: 580
+weight: 630
 url: /sv/net/groupdocs.parser.options/textoptions/
 ---
 ## TextOptions class
@@ -18,12 +18,16 @@ public sealed class TextOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [TextOptions](textoptions)(bool) | Initierar en ny instans av[`TextOptions`](../textoptions) class. |
+| [TextOptions](textoptions#constructor)(bool) | Initierar en ny instans av[`TextOptions`](../textoptions) class. |
+| [TextOptions](textoptions#constructor_1)(bool, bool) | Initierar en ny instans av[`TextOptions`](../textoptions) klass med OCR-användningsalternativet. |
+| [TextOptions](textoptions#constructor_2)(bool, bool, OcrOptions) | Initierar en ny instans av[`TextOptions`](../textoptions) klass med möjlighet att ställa in OCR-alternativ. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
+| [OcrOptions](../../groupdocs.parser.options/textoptions/ocroptions) { get; } | Får ytterligare alternativ för OCR-funktionalitet. |
+| [UseOcr](../../groupdocs.parser.options/textoptions/useocr) { get; } | Hämtar värdet som indikerar om OCR Connector används för att extrahera en text. |
 | [UseRawModeIfPossible](../../groupdocs.parser.options/textoptions/userawmodeifpossible) { get; } | Får värdet som indikerar om råläget används. |
 
 ### Anmärkningar

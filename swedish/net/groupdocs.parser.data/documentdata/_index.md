@@ -1,14 +1,14 @@
 ---
 title: DocumentData
 second_title: GroupDocs.Parser för .NET API-referens
-description: Representerar data i dokumentet. Den består avFieldData./fielddata objects som innehåller fältdata från document.
+description: Representerar data i dokumentet. Den består avFieldData./fielddataobjects som innehåller fältdata från document.
 type: docs
 weight: 20
 url: /sv/net/groupdocs.parser.data/documentdata/
 ---
 ## DocumentData class
 
-Representerar data i dokumentet. Den består av[`FieldData`](../fielddata) objects som innehåller fältdata från document.
+Representerar data i dokumentet. Den består av[`FieldData`](../fielddata)objects som innehåller fältdata från document.
 
 ```csharp
 public class DocumentData : IEnumerable<FieldData>

@@ -3,7 +3,7 @@ title: PageTableAreaOptions
 second_title: GroupDocs.Parser för .NET API-referens
 description: Ger alternativen som används för extrahering av sidtabellområden.
 type: docs
-weight: 490
+weight: 540
 url: /sv/net/groupdocs.parser.options/pagetableareaoptions/
 ---
 ## PageTableAreaOptions class

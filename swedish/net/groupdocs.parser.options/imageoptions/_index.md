@@ -3,7 +3,7 @@ title: ImageOptions
 second_title: GroupDocs.Parser för .NET API-referens
 description: Ger alternativen som används för bildextrahering.
 type: docs
-weight: 440
+weight: 460
 url: /sv/net/groupdocs.parser.options/imageoptions/
 ---
 ## ImageOptions class

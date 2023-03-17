@@ -3,7 +3,7 @@ title: TemplateTable
 second_title: GroupDocs.Parser för .NET API-referens
 description: Tillhandahåller malltabellen.
 type: docs
-weight: 690
+weight: 740
 url: /sv/net/groupdocs.parser.templates/templatetable/
 ---
 ## TemplateTable class

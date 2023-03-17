@@ -3,7 +3,7 @@ title: Structure
 second_title: GroupDocs.Parser för .NET API-referens
 description: Hämtar värdet som anger om textstrukturextraktion stöds.
 type: docs
-weight: 120
+weight: 140
 url: /sv/net/groupdocs.parser.options/features/structure/
 ---
 ## Features.Structure property

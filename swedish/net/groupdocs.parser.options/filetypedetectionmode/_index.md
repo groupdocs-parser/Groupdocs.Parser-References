@@ -3,7 +3,7 @@ title: FileTypeDetectionMode
 second_title: GroupDocs.Parser för .NET API-referens
 description: Definierar ett läge för filtypsdetektering.
 type: docs
-weight: 370
+weight: 390
 url: /sv/net/groupdocs.parser.options/filetypedetectionmode/
 ---
 ## FileTypeDetectionMode enumeration

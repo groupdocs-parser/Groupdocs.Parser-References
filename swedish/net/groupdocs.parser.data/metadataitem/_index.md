@@ -29,7 +29,7 @@ public sealed class MetadataItem
 
 ### Anmärkningar
 
-En instans av[`MetadataItem`](../metadataitem) klass används som returvärde av[`GetMetadata`](../../groupdocs.parser/parser/getmetadata) metod och som en artikel i[`Metadata`](../containeritem/metadata)samling. Se användningsexemplen där.
+En instans av[`MetadataItem`](../metadataitem) klass används som returvärde av[`GetMetadata`](../../groupdocs.parser/parser/getmetadata) metod och som en artikel i[`Metadata`](../containeritem/metadata) samling. Se användningsexemplen där.
 
 ### Se även
 

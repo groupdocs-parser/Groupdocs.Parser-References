@@ -3,7 +3,7 @@ title: PageTextAreaOptions
 second_title: GroupDocs.Parser för .NET API-referens
 description: Ger alternativen som används för extrahering av sidtextområden.
 type: docs
-weight: 500
+weight: 550
 url: /sv/net/groupdocs.parser.options/pagetextareaoptions/
 ---
 ## PageTextAreaOptions class
@@ -18,9 +18,11 @@ public sealed class PageTextAreaOptions : PageAreaOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [PageTextAreaOptions](pagetextareaoptions#constructor)(string) | Initierar en ny instans av[`PageTextAreaOptions`](../pagetextareaoptions) klass med det reguljära uttrycket. Andra alternativ är inställda som standard (se anmärkningar för detaljer). |
-| [PageTextAreaOptions](pagetextareaoptions#constructor_2)(string, Rectangle) | Initierar en ny instans av[`PageTextAreaOptions`](../pagetextareaoptions) class med det reguljära uttrycket och det rektangulära området. Andra alternativ är inställda som standard (se anmärkningar för detaljer). |
-| [PageTextAreaOptions](pagetextareaoptions#constructor_1)(string, bool, bool, bool, Rectangle) | Initierar en ny instans av[`PageTextAreaOptions`](../pagetextareaoptions) class. |
+| [PageTextAreaOptions](pagetextareaoptions#constructor)(bool) | Initierar en ny instans av[`PageTextAreaOptions`](../pagetextareaoptions) klass med OCR-användningsalternativet. |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_2)(string) | Initierar en ny instans av[`PageTextAreaOptions`](../pagetextareaoptions) klass med det reguljära uttrycket. Andra alternativ är inställda som standard (se anmärkningar för detaljer). |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_1)(bool, OcrOptions) | Initierar en ny instans av[`PageTextAreaOptions`](../pagetextareaoptions) klass med möjlighet att ställa in OCR-alternativ. |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_4)(string, Rectangle) | Initierar en ny instans av[`PageTextAreaOptions`](../pagetextareaoptions) class med det reguljära uttrycket och det rektangulära området. Andra alternativ är inställda som standard (se anmärkningar för detaljer). |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_3)(string, bool, bool, bool, Rectangle) | Initierar en ny instans av[`PageTextAreaOptions`](../pagetextareaoptions) class. |
 
 ## Egenskaper
 
@@ -29,8 +31,10 @@ public sealed class PageTextAreaOptions : PageAreaOptions
 | [Expression](../../groupdocs.parser.options/pagetextareaoptions/expression) { get; } | Hämtar det reguljära uttrycket. |
 | [IgnoreFormatting](../../groupdocs.parser.options/pagetextareaoptions/ignoreformatting) { get; } | Hämtar värdet som anger om textformatering ignoreras. |
 | [MatchCase](../../groupdocs.parser.options/pagetextareaoptions/matchcase) { get; } | Hämtar värdet som indikerar om en text inte ignoreras. |
+| [OcrOptions](../../groupdocs.parser.options/pagetextareaoptions/ocroptions) { get; } | Får ytterligare alternativ för OCR-funktionalitet. |
 | [Rectangle](../../groupdocs.parser.options/pageareaoptions/rectangle) { get; } | Hämtar det rektangulära området som innehåller sidområden. |
 | [UniteSegments](../../groupdocs.parser.options/pagetextareaoptions/unitesegments) { get; } | Får värdet som indikerar om segment är förenade. |
+| [UseOcr](../../groupdocs.parser.options/pagetextareaoptions/useocr) { get; } | Får värdet som indikerar om OCR-funktionalitet används för att extrahera textområden. |
 
 ### Anmärkningar
 

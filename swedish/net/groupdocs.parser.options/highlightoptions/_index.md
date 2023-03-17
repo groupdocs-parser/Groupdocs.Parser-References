@@ -3,7 +3,7 @@ title: HighlightOptions
 second_title: GroupDocs.Parser för .NET API-referens
 description: Tillhandahåller alternativen som används för att extrahera en markering ett block med text med hittad text i sökscenarier.
 type: docs
-weight: 400
+weight: 420
 url: /sv/net/groupdocs.parser.options/highlightoptions/
 ---
 ## HighlightOptions class
@@ -18,7 +18,7 @@ public sealed class HighlightOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [HighlightOptions](highlightoptions#constructor)(int) | Initierar en ny instans av[`HighlightOptions`](../highlightoptions)klass som används för att extrahera en markering med fast längd. |
+| [HighlightOptions](highlightoptions#constructor)(int) | Initierar en ny instans av[`HighlightOptions`](../highlightoptions) klass som används för att extrahera en markering med fast längd. |
 | [HighlightOptions](highlightoptions#constructor_1)(int?, bool) | Initierar en ny instans av[`HighlightOptions`](../highlightoptions) klass som används för att extrahera en linjebegränsad markering. |
 | [HighlightOptions](highlightoptions#constructor_2)(int?, int) | Initierar en ny instans av[`HighlightOptions`](../highlightoptions) klass som används för att extrahera en markering med det fasta antalet ord. |
 | [HighlightOptions](highlightoptions#constructor_3)(int?, int?, bool) | Initierar en ny instans av[`HighlightOptions`](../highlightoptions) class. |

@@ -3,7 +3,7 @@ title: PageAreaOptions
 second_title: GroupDocs.Parser för .NET API-referens
 description: Ger alternativen som används för extrahering av sidområden.
 type: docs
-weight: 460
+weight: 510
 url: /sv/net/groupdocs.parser.options/pageareaoptions/
 ---
 ## PageAreaOptions class
@@ -28,7 +28,7 @@ public class PageAreaOptions
 
 ### Anmärkningar
 
-Ett exempel på[`PageAreaOptions`](../pageareaoptions) klass används som parameter i följande metoder:
+Ett exempel på[`PageAreaOptions`](../pageareaoptions)klass används som parameter i följande metoder:
 
 * [`GetImages`](../../groupdocs.parser/parser/getimages)
 * [`GetImages`](../../groupdocs.parser/parser/getimages)

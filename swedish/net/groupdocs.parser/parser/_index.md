@@ -3,7 +3,7 @@ title: Parser
 second_title: GroupDocs.Parser för .NET API-referens
 description: Representerar huvudklassen som styr text bilder containerextraktion och analysfunktioner.
 type: docs
-weight: 590
+weight: 640
 url: /sv/net/groupdocs.parser/parser/
 ---
 ## Parser class
@@ -21,13 +21,15 @@ public sealed class Parser : IDisposable
 | [Parser](parser#constructor_2)(DbConnection) | Initierar en ny instans av[`Parser`](../parser) klass för att extrahera data från en databas. |
 | [Parser](parser#constructor)(EmailConnection) | Initierar en ny instans av[`Parser`](../parser) klass för att extrahera data från en fjärransluten e-postserver. |
 | [Parser](parser#constructor_4)(Stream) | Initierar en ny instans av[`Parser`](../parser) class. |
-| [Parser](parser#constructor_7)(string) | Initierar en ny instans av[`Parser`](../parser) class. |
+| [Parser](parser#constructor_8)(string) | Initierar en ny instans av[`Parser`](../parser) class. |
 | [Parser](parser#constructor_3)(DbConnection, ParserSettings) | Initierar en ny instans av[`Parser`](../parser) klass för att extrahera data från en databas. |
 | [Parser](parser#constructor_1)(EmailConnection, ParserSettings) | Initierar en ny instans av[`Parser`](../parser) klass för att extrahera data från en fjärransluten e-postserver. |
 | [Parser](parser#constructor_5)(Stream, LoadOptions) | Initierar en ny instans av[`Parser`](../parser) klass med[`LoadOptions`](../../groupdocs.parser.options/loadoptions) . |
-| [Parser](parser#constructor_8)(string, LoadOptions) | Initierar en ny instans av[`Parser`](../parser) klass med[`LoadOptions`](../../groupdocs.parser.options/loadoptions) . |
+| [Parser](parser#constructor_7)(Stream, ParserSettings) | Initierar en ny instans av[`Parser`](../parser) klass med[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
+| [Parser](parser#constructor_9)(string, LoadOptions) | Initierar en ny instans av[`Parser`](../parser) klass med[`LoadOptions`](../../groupdocs.parser.options/loadoptions) . |
+| [Parser](parser#constructor_11)(string, ParserSettings) | Initierar en ny instans av[`Parser`](../parser) klass med[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
 | [Parser](parser#constructor_6)(Stream, LoadOptions, ParserSettings) | Initierar en ny instans av[`Parser`](../parser) klass med[`LoadOptions`](../../groupdocs.parser.options/loadoptions) och[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
-| [Parser](parser#constructor_9)(string, LoadOptions, ParserSettings) | Initierar en ny instans av[`Parser`](../parser) klass med[`LoadOptions`](../../groupdocs.parser.options/loadoptions) och[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
+| [Parser](parser#constructor_10)(string, LoadOptions, ParserSettings) | Initierar en ny instans av[`Parser`](../parser) klass med[`LoadOptions`](../../groupdocs.parser.options/loadoptions) och[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
 
 ## Egenskaper
 

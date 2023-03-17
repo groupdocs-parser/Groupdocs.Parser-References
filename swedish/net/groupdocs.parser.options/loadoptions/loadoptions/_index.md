@@ -24,7 +24,7 @@ public LoadOptions()
 
 ## LoadOptions(string) {#constructor_4}
 
-Initierar en ny instans av[`LoadOptions`](../../loadoptions)class med[`FileFormat`](../fileformat) lika medUnknown och standardkodningar.
+Initierar en ny instans av[`LoadOptions`](../../loadoptions) class med[`FileFormat`](../fileformat) lika medUnknown och standardkodningar.
 
 ```csharp
 public LoadOptions(string password)
@@ -44,7 +44,7 @@ public LoadOptions(string password)
 
 ## LoadOptions(FileFormat) {#constructor_1}
 
-Initierar en ny instans av[`LoadOptions`](../../loadoptions) class med tom[`Password`](../password) och standardkodningar.
+Initierar en ny instans av[`LoadOptions`](../../loadoptions) class med tom[`Password`](../password)och standardkodningar.
 
 ```csharp
 public LoadOptions(FileFormat fileFormat)

@@ -3,7 +3,7 @@ title: Template
 second_title: GroupDocs.Parser för .NET API-referens
 description: Tillhandahåller dokumentmallen. Den består avTemplateItem./templateitem objects som representerar objekten i mallen såsom textfält och tabelldefinitioner.
 type: docs
-weight: 600
+weight: 650
 url: /sv/net/groupdocs.parser.templates/template/
 ---
 ## Template class

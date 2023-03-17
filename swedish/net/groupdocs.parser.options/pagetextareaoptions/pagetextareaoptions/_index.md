@@ -1,12 +1,54 @@
 ---
 title: PageTextAreaOptions
 second_title: GroupDocs.Parser för .NET API-referens
-description: Initierar en ny instans avPageTextAreaOptionsgroupdocs.parser.options/pagetextareaoptions klass med det reguljära uttrycket. Andra alternativ är inställda som standard se anmärkningar för detaljer.
+description: Initierar en ny instans avPageTextAreaOptionsgroupdocs.parser.options/pagetextareaoptions klass med OCRanvändningsalternativet.
 type: docs
 weight: 10
 url: /sv/net/groupdocs.parser.options/pagetextareaoptions/pagetextareaoptions/
 ---
-## PageTextAreaOptions(string) {#constructor}
+## PageTextAreaOptions(bool) {#constructor}
+
+Initierar en ny instans av[`PageTextAreaOptions`](../../pagetextareaoptions) klass med OCR-användningsalternativet.
+
+```csharp
+public PageTextAreaOptions(bool useOcr)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| useOcr | Boolean | Värdet som anger om OCR-funktionalitet används för att extrahera textområden. |
+
+### Se även
+
+* class [PageTextAreaOptions](../../pagetextareaoptions)
+* namnutrymme [GroupDocs.Parser.Options](../../pagetextareaoptions)
+* hopsättning [GroupDocs.Parser](../../../)
+
+---
+
+## PageTextAreaOptions(bool, OcrOptions) {#constructor_1}
+
+Initierar en ny instans av[`PageTextAreaOptions`](../../pagetextareaoptions) klass med möjlighet att ställa in OCR-alternativ.
+
+```csharp
+public PageTextAreaOptions(bool useOcr, OcrOptions ocrOptions)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| useOcr | Boolean | Värdet som anger om OCR-funktionalitet används för att extrahera textområden. |
+| ocrOptions | OcrOptions | De ytterligare alternativen för OCR-funktionalitet. |
+
+### Se även
+
+* class [OcrOptions](../../ocroptions)
+* class [PageTextAreaOptions](../../pagetextareaoptions)
+* namnutrymme [GroupDocs.Parser.Options](../../pagetextareaoptions)
+* hopsättning [GroupDocs.Parser](../../../)
+
+---
+
+## PageTextAreaOptions(string) {#constructor_2}
 
 Initierar en ny instans av[`PageTextAreaOptions`](../../pagetextareaoptions) klass med det reguljära uttrycket. Andra alternativ är inställda som standard (se anmärkningar för detaljer).
 
@@ -46,7 +88,7 @@ Följande egenskaper har standardvärden:
 
 ---
 
-## PageTextAreaOptions(string, Rectangle) {#constructor_2}
+## PageTextAreaOptions(string, Rectangle) {#constructor_4}
 
 Initierar en ny instans av[`PageTextAreaOptions`](../../pagetextareaoptions) class med det reguljära uttrycket och det rektangulära området. Andra alternativ är inställda som standard (se anmärkningar för detaljer).
 
@@ -84,7 +126,7 @@ Följande egenskaper har standardvärden:
 
 ---
 
-## PageTextAreaOptions(string, bool, bool, bool, Rectangle) {#constructor_1}
+## PageTextAreaOptions(string, bool, bool, bool, Rectangle) {#constructor_3}
 
 Initierar en ny instans av[`PageTextAreaOptions`](../../pagetextareaoptions) class.
 

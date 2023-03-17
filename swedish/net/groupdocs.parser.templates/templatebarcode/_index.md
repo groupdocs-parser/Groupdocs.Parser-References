@@ -3,7 +3,7 @@ title: TemplateBarcode
 second_title: GroupDocs.Parser för .NET API-referens
 description: Tillhandahåller mallens streckkodsfält.
 type: docs
-weight: 610
+weight: 660
 url: /sv/net/groupdocs.parser.templates/templatebarcode/
 ---
 ## TemplateBarcode class

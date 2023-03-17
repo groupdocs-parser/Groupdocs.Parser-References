@@ -3,7 +3,7 @@ title: ParseForm
 second_title: GroupDocs.Parser för .NET API-referens
 description: Hämtar värdet som indikerar om formulärtolkning stöds.
 type: docs
-weight: 100
+weight: 110
 url: /sv/net/groupdocs.parser.options/features/parseform/
 ---
 ## Features.ParseForm property

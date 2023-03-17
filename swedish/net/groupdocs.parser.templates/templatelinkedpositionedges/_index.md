@@ -3,7 +3,7 @@ title: TemplateLinkedPositionEdges
 second_title: GroupDocs.Parser för .NET API-referens
 description: Tillhandahåller kanterna på det länkade fältet där textfältet söks. TemplateLinkedPositionEdges./templatelinkedpositionedges används iTemplateLinkedPosition./templatelinkedposition class.
 type: docs
-weight: 660
+weight: 710
 url: /sv/net/groupdocs.parser.templates/templatelinkedpositionedges/
 ---
 ## TemplateLinkedPositionEdges class

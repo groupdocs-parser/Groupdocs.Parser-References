@@ -3,7 +3,7 @@ title: ParserSettings
 second_title: GroupDocs.Parser för .NET API-referens
 description: Ger inställningarna som används för att anpassa dataextraktion.
 type: docs
-weight: 510
+weight: 560
 url: /sv/net/groupdocs.parser.options/parsersettings/
 ---
 ## ParserSettings class
@@ -18,13 +18,19 @@ public sealed class ParserSettings
 
 | namn | Beskrivning |
 | --- | --- |
-| [ParserSettings](parsersettings)(ILogger) | Initierar en ny instans av[`ParserSettings`](../parsersettings) class. |
+| [ParserSettings](parsersettings#constructor)(ExternalResourceHandler) | Initierar en ny instans av[`ParserSettings`](../parsersettings) klass med den externa resurshanteraren. |
+| [ParserSettings](parsersettings#constructor_1)(ILogger) | Initierar en ny instans av[`ParserSettings`](../parsersettings) klass med loggern. |
+| [ParserSettings](parsersettings#constructor_4)(OcrConnectorBase) | Initierar en ny instans av[`ParserSettings`](../parsersettings) klass med OCR Connector. |
+| [ParserSettings](parsersettings#constructor_2)(ILogger, OcrConnectorBase) | Initierar en ny instans av[`ParserSettings`](../parsersettings) klass med logger och OCR Connector. |
+| [ParserSettings](parsersettings#constructor_3)(ILogger, OcrConnectorBase, ExternalResourceHandler) | Initierar en ny instans av[`ParserSettings`](../parsersettings) class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
+| [ExternalResourceHandler](../../groupdocs.parser.options/parsersettings/externalresourcehandler) { get; } | Hämtar hanteraren för externa resurser. |
 | [Logger](../../groupdocs.parser.options/parsersettings/logger) { get; } | Hämtar loggern som används för att logga händelser och fel under datautvinning. |
+| [OcrConnector](../../groupdocs.parser.options/parsersettings/ocrconnector) { get; } | Hämtar OCR Connector som används för att tillhandahålla OCR-funktionalitet. |
 
 ### Anmärkningar
 

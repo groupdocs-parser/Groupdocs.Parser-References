@@ -3,7 +3,7 @@ title: Text
 second_title: GroupDocs.Parser för .NET API-referens
 description: Hämtar värdet som anger om textextraktion stöds.
 type: docs
-weight: 140
+weight: 160
 url: /sv/net/groupdocs.parser.options/features/text/
 ---
 ## Features.Text property

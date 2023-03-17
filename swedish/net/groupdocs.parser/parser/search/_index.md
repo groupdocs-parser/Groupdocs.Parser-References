@@ -20,7 +20,7 @@ public IEnumerable<SearchResult> Search(string keyword)
 
 ### Returvärde
 
-En samling av[`SearchResult`](../../../groupdocs.parser.data/searchresult) objekt; `null` om sökning inte stöds.
+En samling av[`SearchResult`](../../../groupdocs.parser.data/searchresult) föremål; `null` om sökning inte stöds.
 
 ### Anmärkningar
 

@@ -3,7 +3,7 @@ title: Search
 second_title: GroupDocs.Parser för .NET API-referens
 description: Får värdet som anger om textsökning stöds.
 type: docs
-weight: 110
+weight: 130
 url: /sv/net/groupdocs.parser.options/features/search/
 ---
 ## Features.Search property

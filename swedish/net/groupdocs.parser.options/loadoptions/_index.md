@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: GroupDocs.Parser för .NET API-referens
 description: Ger alternativen som används för att öppna en fil.
 type: docs
-weight: 450
+weight: 470
 url: /sv/net/groupdocs.parser.options/loadoptions/
 ---
 ## LoadOptions class
@@ -19,8 +19,8 @@ public sealed class LoadOptions
 | namn | Beskrivning |
 | --- | --- |
 | [LoadOptions](loadoptions#constructor)() | Initierar en ny instans av[`LoadOptions`](../loadoptions) klass med tom[`Password`](./password) ,[`FileFormat`](./fileformat) lika medUnknown och standardkodningar. |
-| [LoadOptions](loadoptions#constructor_1)(FileFormat) | Initierar en ny instans av[`LoadOptions`](../loadoptions) class med tom[`Password`](./password) och standardkodningar. |
-| [LoadOptions](loadoptions#constructor_4)(string) | Initierar en ny instans av[`LoadOptions`](../loadoptions)class med[`FileFormat`](./fileformat) lika medUnknown och standardkodningar. |
+| [LoadOptions](loadoptions#constructor_1)(FileFormat) | Initierar en ny instans av[`LoadOptions`](../loadoptions) class med tom[`Password`](./password)och standardkodningar. |
+| [LoadOptions](loadoptions#constructor_4)(string) | Initierar en ny instans av[`LoadOptions`](../loadoptions) class med[`FileFormat`](./fileformat) lika medUnknown och standardkodningar. |
 | [LoadOptions](loadoptions#constructor_2)(FileFormat, string) | Initierar en ny instans av[`LoadOptions`](../loadoptions) klass med lösenordet och standardkodningarna. |
 | [LoadOptions](loadoptions#constructor_3)(FileFormat, string, Encoding, Encoding) | Initierar en ny instans av[`LoadOptions`](../loadoptions) klass med anpassade kodningar. |
 

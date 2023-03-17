@@ -13,11 +13,11 @@ Namnutrymmet tillhandahåller klasser som representerar analysresultat.
 | Klass | Beskrivning |
 | --- | --- |
 | [ContainerItem](./containeritem) | Representerar ett containerobjekt som Zip-arkivenhet, e-postbilaga, PDF-portföljobjekt och så vidare. |
-| [DocumentData](./documentdata) | Representerar data i dokumentet. Den består av[`FieldData`](../groupdocs.parser.data/fielddata) objects som innehåller fältdata från document. |
+| [DocumentData](./documentdata) | Representerar data i dokumentet. Den består av[`FieldData`](../groupdocs.parser.data/fielddata)objects som innehåller fältdata från document. |
 | [FieldData](./fielddata) | Representerar fältdata som ett namn, ett sidindex, ett fältvärde och så vidare. Beroende på fältet kan värdet vara en text, en bild, en tabell och så vidare. |
 | [HighlightItem](./highlightitem) | Representerar en höjdpunkt, en del av texten som vanligtvis används för att förklara sammanhanget för den hittade texten i sökfunktionen. |
 | [MetadataItem](./metadataitem) | Representerar ett metadataobjekt som används i containerobjekt och metadataextraheringsfunktioner. |
-| [Page](./page) | Representerar dokumentets sidinformation såsom sidindex och sidstorlek. Den används för att representera sidan som innehåller arvtagare till[`PageArea`](../groupdocs.parser.data/pagearea) class i funktionaliteten för analys efter mall. |
+| [Page](./page) | Representerar dokumentets sidinformation såsom sidindex och sidstorlek. Den används för att representera sidan som innehåller arvtagare till[`PageArea`](../groupdocs.parser.data/pagearea)class i funktionaliteten för analys efter mall. |
 | [PageArea](./pagearea) | Representerar en abstrakt basklass för sidområden som används för att representera block på dokumentsidan i funktionaliteten för analys av mall. |
 | [PageBarcodeArea](./pagebarcodearea) | Representerar ett streckkodsområde på sidan som används för att representera ett streckkodsvärde i funktionaliteten för analys av mall. |
 | [PageGroupArea](./pagegrouparea) | Representerar en grupp av sidområden som används för att gruppera olika typer av block på dokumentsidan i analysen efter mallfunktionalitet. |

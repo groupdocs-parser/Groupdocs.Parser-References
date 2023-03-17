@@ -1,14 +1,14 @@
 ---
 title: Page
 second_title: GroupDocs.Parser för .NET API-referens
-description: Representerar dokumentets sidinformation såsom sidindex och sidstorlek. Den används för att representera sidan som innehåller arvtagare tillPageArea./pagearea class i funktionaliteten för analys efter mall.
+description: Representerar dokumentets sidinformation såsom sidindex och sidstorlek. Den används för att representera sidan som innehåller arvtagare tillPageArea./pageareaclass i funktionaliteten för analys efter mall.
 type: docs
 weight: 60
 url: /sv/net/groupdocs.parser.data/page/
 ---
 ## Page class
 
-Representerar dokumentets sidinformation såsom sidindex och sidstorlek. Den används för att representera sidan som innehåller arvtagare till[`PageArea`](../pagearea) class i funktionaliteten för analys efter mall.
+Representerar dokumentets sidinformation såsom sidindex och sidstorlek. Den används för att representera sidan som innehåller arvtagare till[`PageArea`](../pagearea)class i funktionaliteten för analys efter mall.
 
 ```csharp
 public sealed class Page

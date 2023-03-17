@@ -3,7 +3,7 @@ title: IsFeatureSupported
 second_title: GroupDocs.Parser för .NET API-referens
 description: Returnerar värdet som anger om funktionen stöds.
 type: docs
-weight: 180
+weight: 200
 url: /sv/net/groupdocs.parser.options/features/isfeaturesupported/
 ---
 ## Features.IsFeatureSupported method

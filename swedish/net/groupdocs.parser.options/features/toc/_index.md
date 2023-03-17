@@ -3,7 +3,7 @@ title: Toc
 second_title: GroupDocs.Parser för .NET API-referens
 description: Hämtar värdet som anger om innehållsförteckningsextraktion stöds.
 type: docs
-weight: 170
+weight: 190
 url: /sv/net/groupdocs.parser.options/features/toc/
 ---
 ## Features.Toc property

@@ -3,7 +3,7 @@ title: PreviewPageRender
 second_title: GroupDocs.Parser för .NET API-referens
 description: Representerar en metod som anropas innan en dokumentsida renderas.
 type: docs
-weight: 540
+weight: 590
 url: /sv/net/groupdocs.parser.options/previewpagerender/
 ---
 ## PreviewPageRender delegate

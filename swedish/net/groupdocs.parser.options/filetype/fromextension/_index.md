@@ -26,7 +26,7 @@ När filtypen stöds returneras den, annars returneras standard[`Unknown`](../un
 
 | undantag | skick |
 | --- | --- |
-| ArgumentException | Kastas när*extension*är null eller tom sträng. |
+| ArgumentException | Kastas när*extension* är null eller tom sträng. |
 
 ### Se även
 
