@@ -1,0 +1,172 @@
+---
+title: SearchOptions
+second_title: GroupDocs.Parser for .NET API リファレンス
+description: の新しいインスタンスを初期化しますSearchOptionsgroupdocs.parser.options/searchoptionsclass.
+type: docs
+weight: 10
+url: /ja/net/groupdocs.parser.options/searchoptions/searchoptions/
+---
+## SearchOptions(bool, bool, bool, bool, HighlightOptions, HighlightOptions) {#constructor_3}
+
+の新しいインスタンスを初期化します[`SearchOptions`](../../searchoptions)class.
+
+```csharp
+public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpression, 
+    bool searchByPages, HighlightOptions leftHighlightOptions, 
+    HighlightOptions rightHighlightOptions)
+```
+
+| パラメータ | タイプ | 説明 |
+| --- | --- | --- |
+| matchCase | Boolean | テキストの大文字小文字が無視されないかどうかを示す値。 |
+| matchWholeWord | Boolean | テキスト検索が単語全体で制限されているかどうかを示す値。 |
+| useRegularExpression | Boolean | 正規表現を使用するかどうかを示す値。 |
+| searchByPages | Boolean | 検索がページ単位で実行されるかどうかを示す値。 |
+| leftHighlightOptions | HighlightOptions | 左ハイライトのオプション。 |
+| rightHighlightOptions | HighlightOptions | 右ハイライトのオプション。 |
+
+### 関連項目
+
+* class [HighlightOptions](../../highlightoptions)
+* class [SearchOptions](../../searchoptions)
+* 名前空間 [GroupDocs.Parser.Options](../../searchoptions)
+* 組み立て [GroupDocs.Parser](../../../)
+
+---
+
+## SearchOptions(bool, bool, bool, HighlightOptions, HighlightOptions) {#constructor_5}
+
+の新しいインスタンスを初期化します[`SearchOptions`](../../searchoptions)左と右のハイライト抽出のハイライト オプションで search に使用されるクラス.
+
+```csharp
+public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpression, 
+    HighlightOptions leftHighlightOptions, HighlightOptions rightHighlightOptions)
+```
+
+| パラメータ | タイプ | 説明 |
+| --- | --- | --- |
+| matchCase | Boolean | テキストの大文字小文字が無視されないかどうかを示す値。 |
+| matchWholeWord | Boolean | テキスト検索が単語全体で制限されているかどうかを示す値。 |
+| useRegularExpression | Boolean | 正規表現を使用するかどうかを示す値。 |
+| leftHighlightOptions | HighlightOptions | 左ハイライトのオプション。 |
+| rightHighlightOptions | HighlightOptions | 右ハイライトのオプション。 |
+
+### 関連項目
+
+* class [HighlightOptions](../../highlightoptions)
+* class [SearchOptions](../../searchoptions)
+* 名前空間 [GroupDocs.Parser.Options](../../searchoptions)
+* 組み立て [GroupDocs.Parser](../../../)
+
+---
+
+## SearchOptions(bool, bool, bool, HighlightOptions) {#constructor_4}
+
+の新しいインスタンスを初期化します[`SearchOptions`](../../searchoptions)左右のハイライト抽出で同じハイライト オプションを使用して search を検索するために使用されるクラス.
+
+```csharp
+public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpression, 
+    HighlightOptions highlightOptions)
+```
+
+| パラメータ | タイプ | 説明 |
+| --- | --- | --- |
+| matchCase | Boolean | テキストの大文字小文字が無視されないかどうかを示す値。 |
+| matchWholeWord | Boolean | テキスト検索が単語全体で制限されているかどうかを示す値。 |
+| useRegularExpression | Boolean | 正規表現を使用するかどうかを示す値。 |
+| highlightOptions | HighlightOptions | 両方のハイライトのオプション。 |
+
+### 関連項目
+
+* class [HighlightOptions](../../highlightoptions)
+* class [SearchOptions](../../searchoptions)
+* 名前空間 [GroupDocs.Parser.Options](../../searchoptions)
+* 組み立て [GroupDocs.Parser](../../../)
+
+---
+
+## SearchOptions(bool, bool, bool) {#constructor_1}
+
+の新しいインスタンスを初期化します[`SearchOptions`](../../searchoptions)ハイライト抽出なしで を検索するために使用されるクラス.
+
+```csharp
+public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpression)
+```
+
+| パラメータ | タイプ | 説明 |
+| --- | --- | --- |
+| matchCase | Boolean | テキストの大文字小文字が無視されないかどうかを示す値。 |
+| matchWholeWord | Boolean | テキスト検索が単語全体で制限されているかどうかを示す値。 |
+| useRegularExpression | Boolean | 正規表現を使用するかどうかを示す値。 |
+
+### 関連項目
+
+* class [SearchOptions](../../searchoptions)
+* 名前空間 [GroupDocs.Parser.Options](../../searchoptions)
+* 組み立て [GroupDocs.Parser](../../../)
+
+---
+
+## SearchOptions(bool, bool, bool, bool) {#constructor_2}
+
+の新しいインスタンスを初期化します[`SearchOptions`](../../searchoptions)ページと ハイライト抽出なしで検索するために使用されるクラス.
+
+```csharp
+public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpression, 
+    bool searchByPages)
+```
+
+| パラメータ | タイプ | 説明 |
+| --- | --- | --- |
+| matchCase | Boolean | テキストの大文字小文字が無視されないかどうかを示す値。 |
+| matchWholeWord | Boolean | テキスト検索が単語全体で制限されているかどうかを示す値。 |
+| useRegularExpression | Boolean | 正規表現を使用するかどうかを示す値。 |
+| searchByPages | Boolean | 検索がページ単位で実行されるかどうかを示す値。 |
+
+### 関連項目
+
+* class [SearchOptions](../../searchoptions)
+* 名前空間 [GroupDocs.Parser.Options](../../searchoptions)
+* 組み立て [GroupDocs.Parser](../../../)
+
+---
+
+## SearchOptions() {#constructor}
+
+の新しいインスタンスを初期化します[`SearchOptions`](../../searchoptions)デフォルト値を持つクラス。詳しくは備考欄をご覧ください。
+
+```csharp
+public SearchOptions()
+```
+
+### 備考
+
+次のプロパティにはデフォルト値があります。
+
+**[`MatchCase`](../matchcase)**
+
+`間違い`
+
+**[`MatchWholeWord`](../matchwholeword)**
+
+`間違い`
+
+**[`UseRegularExpression`](../useregularexpression)**
+
+`間違い`
+
+**[`LeftHighlightOptions`](../lefthighlightoptions)**
+
+`ヌル`
+
+**[`RightHighlightOptions`](../righthighlightoptions)**
+
+`ヌル`
+
+### 関連項目
+
+* class [SearchOptions](../../searchoptions)
+* 名前空間 [GroupDocs.Parser.Options](../../searchoptions)
+* 組み立て [GroupDocs.Parser](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Parser.dll -->
