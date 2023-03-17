@@ -3,7 +3,7 @@ title: PageRenderInfo
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Rappresenta le informazioni su come viene visualizzata una pagina.
 type: docs
-weight: 480
+weight: 530
 url: /it/net/groupdocs.parser.options/pagerenderinfo/
 ---
 ## PageRenderInfo class
@@ -39,7 +39,7 @@ public sealed class PageRenderInfo
 
 Alcuni documenti (fogli di calcolo, ad esempio) non sono in grado di eseguire il rendering di una pagina come singola immagine. Per quei documenti una pagina viene visualizzata come un insieme di tessere. Queste tessere sono posizionate nel tavolo rettangolare.
 
-[`RowCount`](./rowcount) e[`ColumnCount`](./columncount) rappresenta il numero totale di righe e colonne di questa tabella. Se la pagina del documento è renderizzata alla singola immagine queste proprietà sono uguali a 1.
+[`RowCount`](./rowcount) E[`ColumnCount`](./columncount) rappresenta il numero totale di righe e colonne di questa tabella. Se la pagina del documento è renderizzata alla singola immagine queste proprietà sono uguali a 1.
 
 ### Guarda anche
 

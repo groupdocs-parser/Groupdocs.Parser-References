@@ -16,7 +16,7 @@ public bool Right { get; }
 
 ### Valore della proprietà
 
-`VERO` se un campo viene cercato da destra dal campo collegato; altrimenti,`falso`.
+`VERO` se un campo viene cercato da destra dal campo collegato; Altrimenti,`falso`.
 
 ### Guarda anche
 

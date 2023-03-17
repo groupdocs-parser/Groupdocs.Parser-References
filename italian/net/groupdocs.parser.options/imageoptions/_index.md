@@ -3,7 +3,7 @@ title: ImageOptions
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Fornisce le opzioni utilizzate per lestrazione dellimmagine.
 type: docs
-weight: 440
+weight: 460
 url: /it/net/groupdocs.parser.options/imageoptions/
 ---
 ## ImageOptions class
@@ -32,7 +32,7 @@ Un'istanza di[`ImageOptions`](../imageoptions) la classe viene utilizzata come p
 
 Viene utilizzato per specificare il formato dell'immagine per l'estrazione dell'immagine.
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Estrai le immagini dall'area della pagina del documento](https://docs.groupdocs.com/display/parsernet/Extract+images+from+document+page+area)
 * [Estrai immagini in file](https://docs.groupdocs.com/display/parsernet/Extract+images+to+files)

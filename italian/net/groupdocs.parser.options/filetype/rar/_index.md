@@ -1,14 +1,14 @@
 ---
 title: RAR
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: I file con estensione .rar rappresentano file di archivio creati per memorizzare informazioni in forma compressa o normale. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/compression/rar/ .
+description: I file con estensione .rar rappresentano file di archivio creati per memorizzare informazioni in forma compressa o normale. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/compression/rar/ .
 type: docs
 weight: 650
 url: /it/net/groupdocs.parser.options/filetype/rar/
 ---
 ## FileType.RAR field
 
-I file con estensione .rar rappresentano file di archivio creati per memorizzare informazioni in forma compressa o normale. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/compression/rar/) .
+I file con estensione .rar rappresentano file di archivio creati per memorizzare informazioni in forma compressa o normale. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/compression/rar/) .
 
 ```csharp
 public static readonly FileType RAR;

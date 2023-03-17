@@ -20,7 +20,7 @@ public Parser(DbConnection connection)
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Estrarre i dati dai database](https://docs.groupdocs.com/display/parsernet/Extract+data+from+databases)
 
@@ -85,7 +85,7 @@ public Parser(DbConnection connection, ParserSettings parserSettings)
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Estrarre i dati dai database](https://docs.groupdocs.com/display/parsernet/Extract+data+from+databases)
 * [Registrazione](https://docs.groupdocs.com/display/parsernet/Logging)
@@ -151,7 +151,7 @@ public Parser(EmailConnection connection)
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Estrai le email dal server remoto tramite i protocolli POP, IMAP o Exchange Web Services](https://docs.groupdocs.com/display/parsernet/Extract+emails+from+remote+server+via+POP%2C+IMAP+or+Exchange+Web+Services+protocols)
 
@@ -220,7 +220,7 @@ public Parser(EmailConnection connection, ParserSettings parserSettings)
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Estrai le email dal server remoto tramite i protocolli POP, IMAP o Exchange Web Services](https://docs.groupdocs.com/display/parsernet/Extract+emails+from+remote+server+via+POP%2C+IMAP+or+Exchange+Web+Services+protocols)
 * [Registrazione](https://docs.groupdocs.com/display/parsernet/Logging)
@@ -276,7 +276,7 @@ IEnumerable<ContainerItem> emails = parser.GetContainer();
 
 ---
 
-## Parser(string) {#constructor_7}
+## Parser(string) {#constructor_8}
 
 Inizializza una nuova istanza di[`Parser`](../../parser) classe.
 
@@ -290,7 +290,7 @@ public Parser(string filePath)
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Carica il documento dal disco locale](https://docs.groupdocs.com/display/parsernet/Load+document+from+local+disk)
 
@@ -320,7 +320,7 @@ using (Parser parser = new Parser(filePath))
 
 ---
 
-## Parser(string, LoadOptions) {#constructor_8}
+## Parser(string, LoadOptions) {#constructor_9}
 
 Inizializza una nuova istanza di[`Parser`](../../parser) classe con[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) .
 
@@ -335,7 +335,7 @@ public Parser(string filePath, LoadOptions loadOptions)
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Caricamento di formati di file specifici](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
 * [Caricamento di documenti protetti da password](https://docs.groupdocs.com/display/parsernet/Password-protected+documents)
@@ -380,7 +380,29 @@ catch (InvalidPasswordException)
 
 ---
 
-## Parser(string, LoadOptions, ParserSettings) {#constructor_9}
+## Parser(string, ParserSettings) {#constructor_11}
+
+Inizializza una nuova istanza di[`Parser`](../../parser) classe con[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
+
+```csharp
+public Parser(string filePath, ParserSettings parserSettings)
+```
+
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| filePath | String | Il percorso del file. |
+| parserSettings | ParserSettings | Le impostazioni del parser utilizzate per personalizzare l'estrazione dei dati. |
+
+### Guarda anche
+
+* class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
+* class [Parser](../../parser)
+* spazio dei nomi [GroupDocs.Parser](../../parser)
+* assemblea [GroupDocs.Parser](../../../)
+
+---
+
+## Parser(string, LoadOptions, ParserSettings) {#constructor_10}
 
 Inizializza una nuova istanza di[`Parser`](../../parser) classe con[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) e[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
 
@@ -396,7 +418,7 @@ public Parser(string filePath, LoadOptions loadOptions, ParserSettings parserSet
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Caricamento di formati di file specifici](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
 * [Caricamento di documenti protetti da password](https://docs.groupdocs.com/display/parsernet/Password-protected+documents)
@@ -477,7 +499,7 @@ public Parser(Stream document)
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Carica il documento dal flusso](https://docs.groupdocs.com/display/parsernet/Load+document+from+stream)
 
@@ -522,7 +544,7 @@ public Parser(Stream document, LoadOptions loadOptions)
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Caricamento di formati di file specifici](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
 * [Caricamento di documenti protetti da password](https://docs.groupdocs.com/display/parsernet/Password-protected+documents)
@@ -588,6 +610,28 @@ catch (InvalidPasswordException)
 
 ---
 
+## Parser(Stream, ParserSettings) {#constructor_7}
+
+Inizializza una nuova istanza di[`Parser`](../../parser) classe con[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
+
+```csharp
+public Parser(Stream document, ParserSettings parserSettings)
+```
+
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| document | Stream | Il flusso di input di origine. |
+| parserSettings | ParserSettings | Le impostazioni del parser utilizzate per personalizzare l'estrazione dei dati. |
+
+### Guarda anche
+
+* class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
+* class [Parser](../../parser)
+* spazio dei nomi [GroupDocs.Parser](../../parser)
+* assemblea [GroupDocs.Parser](../../../)
+
+---
+
 ## Parser(Stream, LoadOptions, ParserSettings) {#constructor_6}
 
 Inizializza una nuova istanza di[`Parser`](../../parser) classe con[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) e[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
@@ -604,7 +648,7 @@ public Parser(Stream document, LoadOptions loadOptions, ParserSettings parserSet
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Caricamento di formati di file specifici](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
 * [Caricamento di documenti protetti da password](https://docs.groupdocs.com/display/parsernet/Password-protected+documents)

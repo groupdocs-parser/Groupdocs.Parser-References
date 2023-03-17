@@ -1,14 +1,14 @@
 ---
 title: GZ
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: I file con estensione .gz sono file compressi creati con lapplicazione di compressione gzip. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/compression/gz/ .
+description: I file con estensione .gz sono file compressi creati con lapplicazione di compressione gzip. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/compression/gz/ .
 type: docs
 weight: 220
 url: /it/net/groupdocs.parser.options/filetype/gz/
 ---
 ## FileType.GZ field
 
-I file con estensione .gz sono file compressi creati con l'applicazione di compressione gzip. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/compression/gz/) .
+I file con estensione .gz sono file compressi creati con l'applicazione di compressione gzip. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/compression/gz/) .
 
 ```csharp
 public static readonly FileType GZ;

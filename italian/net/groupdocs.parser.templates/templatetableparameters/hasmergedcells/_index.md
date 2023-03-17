@@ -16,7 +16,7 @@ public bool? HasMergedCells { get; }
 
 ### Valore della proprietà
 
-`VERO` se la tabella ha celle unite; altrimenti,`falso` .`nullo` se non è impostato.
+`VERO` se la tabella ha celle unite; Altrimenti,`falso` .`nullo` se non è impostato.
 
 ### Guarda anche
 

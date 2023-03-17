@@ -1,14 +1,14 @@
 ---
 title: JPG
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: Un JPG è un tipo di formato di immagine che viene salvato utilizzando il metodo di compressione con perdita. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/image/jpeg/ .
+description: Un JPG è un tipo di formato di immagine che viene salvato utilizzando il metodo di compressione con perdita. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/image/jpeg/ .
 type: docs
 weight: 320
 url: /it/net/groupdocs.parser.options/filetype/jpg/
 ---
 ## FileType.JPG field
 
-Un JPG è un tipo di formato di immagine che viene salvato utilizzando il metodo di compressione con perdita. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/image/jpeg/) .
+Un JPG è un tipo di formato di immagine che viene salvato utilizzando il metodo di compressione con perdita. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/image/jpeg/) .
 
 ```csharp
 public static readonly FileType JPG;

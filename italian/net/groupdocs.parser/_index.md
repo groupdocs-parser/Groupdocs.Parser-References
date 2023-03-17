@@ -12,7 +12,7 @@ Lo spazio dei nomi fornisce classi per l'analisi dei dati dai documenti. Con la 
 
 | Classe | Descrizione |
 | --- | --- |
-| [License](./license) | Fornisce i metodi per concedere in licenza il componente. Ulteriori informazioni sulle licenze[qui](https://purchase.groupdocs.com/faqs/licensing) . |
+| [License](./license) | Fornisce i metodi per concedere in licenza il componente. Ulteriori informazioni sulle licenze[Qui](https://purchase.groupdocs.com/faqs/licensing) . |
 | [Metered](./metered) | Fornisce metodi per l'applicazione[Misurato](https://purchase.groupdocs.com/faqs/licensing/metered) licenza. |
 | [Parser](./parser) | Rappresenta la classe principale che controlla il testo, le immagini, l'estrazione del contenitore e la funzionalità di analisi. |
 

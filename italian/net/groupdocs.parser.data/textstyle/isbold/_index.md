@@ -16,7 +16,7 @@ public bool IsBold { get; }
 
 ### Valore di ritorno
 
-`VERO` se il carattere è in grassetto; altrimenti,`falso`.
+`VERO` se il carattere è in grassetto; Altrimenti,`falso`.
 
 ### Guarda anche
 

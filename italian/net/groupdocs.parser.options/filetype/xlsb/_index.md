@@ -1,14 +1,14 @@
 ---
 title: XLSB
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: Il formato di file XLSB specifica il formato di file binario di Excel che è una raccolta di record e strutture che specificano il contenuto della cartella di lavoro di Excel. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/specification/spreadsheet/xlsb/ .
+description: Il formato di file XLSB specifica il formato di file binario di Excel che è una raccolta di record e strutture che specificano il contenuto della cartella di lavoro di Excel. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/specification/spreadsheet/xlsb/ .
 type: docs
 weight: 820
 url: /it/net/groupdocs.parser.options/filetype/xlsb/
 ---
 ## FileType.XLSB field
 
-Il formato di file XLSB specifica il formato di file binario di Excel, che è una raccolta di record e strutture che specificano il contenuto della cartella di lavoro di Excel. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/specification/spreadsheet/xlsb/) .
+Il formato di file XLSB specifica il formato di file binario di Excel, che è una raccolta di record e strutture che specificano il contenuto della cartella di lavoro di Excel. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/specification/spreadsheet/xlsb/) .
 
 ```csharp
 public static readonly FileType XLSB;

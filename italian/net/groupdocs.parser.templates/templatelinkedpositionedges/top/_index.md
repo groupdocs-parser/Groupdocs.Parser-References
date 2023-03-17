@@ -16,7 +16,7 @@ public bool Top { get; }
 
 ### Valore della proprietà
 
-`VERO` se un campo viene cercato dall'alto dal campo collegato; altrimenti,`falso`.
+`VERO` se un campo viene cercato dall'alto dal campo collegato; Altrimenti,`falso`.
 
 ### Guarda anche
 

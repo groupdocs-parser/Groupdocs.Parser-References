@@ -1,14 +1,14 @@
 ---
 title: DocumentData
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: Rappresenta i dati del documento. Esso consiste inFieldData./fielddata oggetti che contengono i dati del campo dal documento.
+description: Rappresenta i dati del documento. Consiste inFieldData./fielddataoggetti che contengono i dati del campo dal documento.
 type: docs
 weight: 20
 url: /it/net/groupdocs.parser.data/documentdata/
 ---
 ## DocumentData class
 
-Rappresenta i dati del documento. Esso consiste in[`FieldData`](../fielddata) oggetti che contengono i dati del campo dal documento.
+Rappresenta i dati del documento. Consiste in[`FieldData`](../fielddata)oggetti che contengono i dati del campo dal documento.
 
 ```csharp
 public class DocumentData : IEnumerable<FieldData>
@@ -36,7 +36,7 @@ public class DocumentData : IEnumerable<FieldData>
 
 ### Osservazioni
 
-Un'istanza di[`DocumentData`](../documentdata) class viene utilizzata come valore di ritorno di[`ParseByTemplate`](../../groupdocs.parser/parser/parsebytemplate) e[`ParseForm`](../../groupdocs.parser/parser/parseform) metodi. Vedi gli esempi di utilizzo qui.
+Un'istanza di[`DocumentData`](../documentdata) class viene utilizzata come valore di ritorno di[`ParseByTemplate`](../../groupdocs.parser/parser/parsebytemplate) E[`ParseForm`](../../groupdocs.parser/parser/parseform) metodi. Vedi gli esempi di utilizzo qui.
 
 ### Guarda anche
 

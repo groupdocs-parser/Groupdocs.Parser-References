@@ -1,14 +1,14 @@
 ---
 title: POTX
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: I file con estensione .POTX rappresentano presentazioni modello Microsoft PowerPoint create con Microsoft PowerPoint 2007 e versioni successive. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/presentation/potx/ .
+description: I file con estensione .POTX rappresentano presentazioni modello Microsoft PowerPoint create con Microsoft PowerPoint 2007 e versioni successive. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/presentation/potx/ .
 type: docs
 weight: 550
 url: /it/net/groupdocs.parser.options/filetype/potx/
 ---
 ## FileType.POTX field
 
-I file con estensione .POTX rappresentano presentazioni modello Microsoft PowerPoint create con Microsoft PowerPoint 2007 e versioni successive. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/presentation/potx/) .
+I file con estensione .POTX rappresentano presentazioni modello Microsoft PowerPoint create con Microsoft PowerPoint 2007 e versioni successive. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/presentation/potx/) .
 
 ```csharp
 public static readonly FileType POTX;

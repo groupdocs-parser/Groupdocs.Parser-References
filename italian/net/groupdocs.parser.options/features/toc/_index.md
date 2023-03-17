@@ -3,7 +3,7 @@ title: Toc
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Ottiene il valore che indica se lestrazione del sommario è supportata.
 type: docs
-weight: 170
+weight: 190
 url: /it/net/groupdocs.parser.options/features/toc/
 ---
 ## Features.Toc property
@@ -16,7 +16,7 @@ public bool Toc { get; }
 
 ### Valore di ritorno
 
-`VERO` se l'estrazione del sommario è supportata; altrimenti,`falso`.
+`VERO` se l'estrazione del sommario è supportata; Altrimenti,`falso`.
 
 ### Guarda anche
 

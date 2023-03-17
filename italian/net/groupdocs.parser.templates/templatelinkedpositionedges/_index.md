@@ -3,7 +3,7 @@ title: TemplateLinkedPositionEdges
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Fornisce i bordi del campo collegato in cui viene cercato il campo di testo. TemplateLinkedPositionEdges./templatelinkedpositionedges è usato inTemplateLinkedPosition./templatelinkedposition classe.
 type: docs
-weight: 660
+weight: 710
 url: /it/net/groupdocs.parser.templates/templatelinkedpositionedges/
 ---
 ## TemplateLinkedPositionEdges class

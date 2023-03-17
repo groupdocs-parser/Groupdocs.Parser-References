@@ -20,7 +20,7 @@ Un'istanza diXmlReader classe con struttura di testo XML; `nullo` se l'estrazion
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Estrai la struttura del testo](https://docs.groupdocs.com/display/parsernet/Extract+text+structure)
 

@@ -3,7 +3,7 @@ title: TextPage
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Ottiene il valore che indica se lestrazione della pagina di testo è supportata.
 type: docs
-weight: 160
+weight: 180
 url: /it/net/groupdocs.parser.options/features/textpage/
 ---
 ## Features.TextPage property
@@ -16,7 +16,7 @@ public bool TextPage { get; }
 
 ### Valore di ritorno
 
-`VERO` se l'estrazione della pagina di testo è supportata; altrimenti,`falso`.
+`VERO` se l'estrazione della pagina di testo è supportata; Altrimenti,`falso`.
 
 ### Guarda anche
 

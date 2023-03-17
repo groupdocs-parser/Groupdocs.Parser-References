@@ -1,14 +1,14 @@
 ---
 title: HTM
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: I file con estensione HTM rappresentano Hypertext Markup Language per la creazione di pagine Web per la visualizzazione in browser Web come Google Chrome Internet Explorer Firefox e molti altri. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/web/htm/ .
+description: I file con estensione HTM rappresentano Hypertext Markup Language per la creazione di pagine Web per la visualizzazione in browser Web come Google Chrome Internet Explorer Firefox e molti altri. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/web/htm/ .
 type: docs
 weight: 230
 url: /it/net/groupdocs.parser.options/filetype/htm/
 ---
 ## FileType.HTM field
 
-I file con estensione HTM rappresentano Hypertext Markup Language per la creazione di pagine Web per la visualizzazione in browser Web come Google Chrome, Internet Explorer, Firefox e molti altri. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/web/htm/) .
+I file con estensione HTM rappresentano Hypertext Markup Language per la creazione di pagine Web per la visualizzazione in browser Web come Google Chrome, Internet Explorer, Firefox e molti altri. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/web/htm/) .
 
 ```csharp
 public static readonly FileType HTM;

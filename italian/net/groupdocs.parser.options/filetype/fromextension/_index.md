@@ -26,7 +26,7 @@ Quando il tipo di file è supportato lo restituisce, altrimenti restituisce defa
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentException | Lanciato quando*extension*è una stringa nulla o vuota. |
+| ArgumentException | Lanciato quando*extension* è una stringa nulla o vuota. |
 
 ### Guarda anche
 

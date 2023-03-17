@@ -20,7 +20,7 @@ Un'istanza di[`Features`](../../../groupdocs.parser.options/features) classe che
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Ottieni funzionalità supportate](https://docs.groupdocs.com/display/parsernet/Get+supported+features)
 

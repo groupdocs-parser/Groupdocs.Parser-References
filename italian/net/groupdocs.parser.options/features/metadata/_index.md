@@ -16,7 +16,7 @@ public bool Metadata { get; }
 
 ### Valore di ritorno
 
-`VERO`se l'estrazione dei metadati è supportata; altrimenti,`falso`.
+`VERO`se l'estrazione dei metadati è supportata; Altrimenti,`falso`.
 
 ### Guarda anche
 

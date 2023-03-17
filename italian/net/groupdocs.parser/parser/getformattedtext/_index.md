@@ -24,7 +24,7 @@ Un'istanza diTextReader classe con il testo estratto; `nullo` se l'estrazione de
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Estrai il testo formattato dal documento](https://docs.groupdocs.com/display/parsernet/Extract+formatted+text+from+document)
 * Estrarre un testo del documento come[HTML](https://docs.groupdocs.com/display/parsernet/HTML)
@@ -77,7 +77,7 @@ Un'istanza diTextReaderclasse con il testo estratto; `nullo` se l'estrazione del
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Estrai il testo formattato dalla pagina del documento](https://docs.groupdocs.com/display/parsernet/Extract+formatted+text+from+document+page)
 * Estrarre un testo del documento come[HTML](https://docs.groupdocs.com/display/parsernet/HTML)

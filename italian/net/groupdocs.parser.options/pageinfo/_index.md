@@ -3,7 +3,7 @@ title: PageInfo
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Rappresenta le informazioni sulla pagina del documento.
 type: docs
-weight: 470
+weight: 520
 url: /it/net/groupdocs.parser.options/pageinfo/
 ---
 ## PageInfo class

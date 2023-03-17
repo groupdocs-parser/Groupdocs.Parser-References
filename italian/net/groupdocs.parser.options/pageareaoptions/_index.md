@@ -3,7 +3,7 @@ title: PageAreaOptions
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Fornisce le opzioni utilizzate per lestrazione delle aree della pagina.
 type: docs
-weight: 460
+weight: 510
 url: /it/net/groupdocs.parser.options/pageareaoptions/
 ---
 ## PageAreaOptions class
@@ -28,7 +28,7 @@ public class PageAreaOptions
 
 ### Osservazioni
 
-Un'istanza di[`PageAreaOptions`](../pageareaoptions) class viene utilizzata come parametro nei seguenti metodi:
+Un'istanza di[`PageAreaOptions`](../pageareaoptions)class viene utilizzata come parametro nei seguenti metodi:
 
 * [`GetImages`](../../groupdocs.parser/parser/getimages)
 * [`GetImages`](../../groupdocs.parser/parser/getimages)
@@ -37,7 +37,7 @@ Un'istanza di[`PageAreaOptions`](../pageareaoptions) class viene utilizzata come
 * [`GetHyperlinks`](../../groupdocs.parser/parser/gethyperlinks)
 * [`GetHyperlinks`](../../groupdocs.parser/parser/gethyperlinks)
 
-Vedi gli esempi di utilizzo qui.
+Vedi gli esempi di utilizzo lì.
 
 ### Guarda anche
 

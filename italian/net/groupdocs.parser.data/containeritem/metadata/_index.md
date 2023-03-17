@@ -38,7 +38,7 @@ Il tipo MIME del contenuto dell'allegato.
 
 **Descrizione**
 
-**Data**
+**data**
 
 L'ora e la data dell'ultima modifica del file indicato dalla Voce Zip.
 
@@ -48,7 +48,7 @@ L'ora e la data dell'ultima modifica del file indicato dalla Voce Zip.
 
 **Descrizione**
 
-**Data**
+**data**
 
 L'ora e la data in cui l'elemento di archiviazione di Outlook è stato modificato l'ultima volta.
 
@@ -60,7 +60,7 @@ Il valore del campo "mittente".
 
 Il valore del campo "a".
 
-**materia**
+**soggetto**
 
 Il valore del campo "oggetto".
 

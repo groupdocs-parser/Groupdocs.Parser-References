@@ -1,14 +1,14 @@
 ---
 title: JP2
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: JPEG 2000 JP2 è un sistema di codifica delle immagini e uno standard di compressione delle immagini allavanguardia. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/image/jp2/ .
+description: JPEG 2000 JP2 è un sistema di codifica delle immagini e uno standard di compressione delle immagini allavanguardia. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/image/jp2/ .
 type: docs
 weight: 280
 url: /it/net/groupdocs.parser.options/filetype/jp2/
 ---
 ## FileType.JP2 field
 
-JPEG 2000 (JP2) è un sistema di codifica delle immagini e uno standard di compressione delle immagini all'avanguardia. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/image/jp2/) .
+JPEG 2000 (JP2) è un sistema di codifica delle immagini e uno standard di compressione delle immagini all'avanguardia. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/image/jp2/) .
 
 ```csharp
 public static readonly FileType JP2;

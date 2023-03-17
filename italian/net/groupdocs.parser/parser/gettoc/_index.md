@@ -20,7 +20,7 @@ Una raccolta di elementi del sommario; `nullo` se l'estrazione del sommario non 
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Estrai il sommario](https://docs.groupdocs.com/display/parsernet/Extract+table+of+contents)
 * [Estrai il testo per voce del sommario](https://docs.groupdocs.com/display/parsernet/Extract+text+by+table+of+contents+item)

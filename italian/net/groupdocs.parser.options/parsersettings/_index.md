@@ -3,7 +3,7 @@ title: ParserSettings
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Fornisce le impostazioni utilizzate per personalizzare lestrazione dei dati.
 type: docs
-weight: 510
+weight: 560
 url: /it/net/groupdocs.parser.options/parsersettings/
 ---
 ## ParserSettings class
@@ -18,17 +18,23 @@ public sealed class ParserSettings
 
 | Nome | Descrizione |
 | --- | --- |
-| [ParserSettings](parsersettings)(ILogger) | Inizializza una nuova istanza di[`ParserSettings`](../parsersettings) classe. |
+| [ParserSettings](parsersettings#constructor)(ExternalResourceHandler) | Inizializza una nuova istanza di[`ParserSettings`](../parsersettings) class con il gestore di risorse esterno. |
+| [ParserSettings](parsersettings#constructor_1)(ILogger) | Inizializza una nuova istanza di[`ParserSettings`](../parsersettings) classe con il logger. |
+| [ParserSettings](parsersettings#constructor_4)(OcrConnectorBase) | Inizializza una nuova istanza di[`ParserSettings`](../parsersettings) classe con il connettore OCR. |
+| [ParserSettings](parsersettings#constructor_2)(ILogger, OcrConnectorBase) | Inizializza una nuova istanza di[`ParserSettings`](../parsersettings) classe con logger e connettore OCR. |
+| [ParserSettings](parsersettings#constructor_3)(ILogger, OcrConnectorBase, ExternalResourceHandler) | Inizializza una nuova istanza di[`ParserSettings`](../parsersettings) classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
+| [ExternalResourceHandler](../../groupdocs.parser.options/parsersettings/externalresourcehandler) { get; } | Ottiene il gestore per le risorse esterne. |
 | [Logger](../../groupdocs.parser.options/parsersettings/logger) { get; } | Ottiene il logger utilizzato per la registrazione di eventi ed errori durante l'estrazione dei dati. |
+| [OcrConnector](../../groupdocs.parser.options/parsersettings/ocrconnector) { get; } | Ottiene il connettore OCR utilizzato per fornire la funzionalità OCR. |
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Registrazione](https://docs.groupdocs.com/display/parsernet/Logging)
 

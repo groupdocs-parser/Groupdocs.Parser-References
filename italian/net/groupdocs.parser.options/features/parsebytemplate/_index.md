@@ -3,7 +3,7 @@ title: ParseByTemplate
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Ottiene il valore che indica se lanalisi per modello è supportata.
 type: docs
-weight: 90
+weight: 100
 url: /it/net/groupdocs.parser.options/features/parsebytemplate/
 ---
 ## Features.ParseByTemplate property
@@ -16,7 +16,7 @@ public bool ParseByTemplate { get; }
 
 ### Valore di ritorno
 
-`VERO` se è supportata l'analisi per modello; altrimenti,`falso`.
+`VERO` se è supportata l'analisi per modello; Altrimenti,`falso`.
 
 ### Guarda anche
 

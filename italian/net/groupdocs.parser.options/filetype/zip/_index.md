@@ -1,14 +1,14 @@
 ---
 title: ZIP
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: Lestensione del file ZIP rappresenta archivi che possono contenere uno o più file o directory. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/compression/zip/ .
+description: Lestensione del file ZIP rappresenta archivi che possono contenere uno o più file o directory. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/compression/zip/ .
 type: docs
 weight: 890
 url: /it/net/groupdocs.parser.options/filetype/zip/
 ---
 ## FileType.ZIP field
 
-L'estensione del file ZIP rappresenta archivi che possono contenere uno o più file o directory. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/compression/zip/) .
+L'estensione del file ZIP rappresenta archivi che possono contenere uno o più file o directory. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/compression/zip/) .
 
 ```csharp
 public static readonly FileType ZIP;

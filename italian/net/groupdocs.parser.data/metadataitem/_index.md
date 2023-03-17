@@ -29,7 +29,7 @@ public sealed class MetadataItem
 
 ### Osservazioni
 
-Un'istanza di[`MetadataItem`](../metadataitem) la classe viene utilizzata come valore di ritorno di[`GetMetadata`](../../groupdocs.parser/parser/getmetadata) metodo e come elemento in[`Metadata`](../containeritem/metadata)collection. Guarda gli esempi di utilizzo qui.
+Un'istanza di[`MetadataItem`](../metadataitem) la classe viene utilizzata come valore di ritorno di[`GetMetadata`](../../groupdocs.parser/parser/getmetadata) metodo e come elemento in[`Metadata`](../containeritem/metadata) collection. Guarda gli esempi di utilizzo qui.
 
 ### Guarda anche
 

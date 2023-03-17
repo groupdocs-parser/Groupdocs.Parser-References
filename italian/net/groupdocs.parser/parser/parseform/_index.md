@@ -20,7 +20,7 @@ Un'istanza di[`DocumentData`](../../../groupdocs.parser.data/documentdata) class
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Estrai i dati dai moduli PDF](https://docs.groupdocs.com/display/parsernet/Extract+data+from+PDF+forms)
 * [Lavorare con i dati estratti](https://docs.groupdocs.com/display/parsernet/Working+with+data+extracted+by+template)

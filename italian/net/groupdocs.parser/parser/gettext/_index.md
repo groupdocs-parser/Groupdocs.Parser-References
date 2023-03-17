@@ -20,7 +20,7 @@ Un'istanza diTextReader classe con il testo estratto; `nullo` se l'estrazione de
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Estrai il testo dai documenti](https://docs.groupdocs.com/display/parsernet/Extract+text+from+documents)
 * [Estrai il testo in modalità Accurata](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
@@ -69,7 +69,7 @@ Un'istanza diTextReader classe con il testo estratto; `nullo` se l'estrazione de
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Estrai il testo in modalità Accurata](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
 * [Estrai il testo in modalità Raw](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Raw+mode)
@@ -119,7 +119,7 @@ Un'istanza diTextReader classe con il testo estratto; `nullo` se l'estrazione de
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Estrai il testo in modalità Accurata](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
 
@@ -191,7 +191,7 @@ Un'istanza diTextReader classe con il testo estratto; `nullo` se l'estrazione de
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Estrai il testo in modalità Accurata](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
 * [Estrai il testo in modalità Raw](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Raw+mode)

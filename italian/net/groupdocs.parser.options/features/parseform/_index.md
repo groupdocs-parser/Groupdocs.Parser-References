@@ -3,7 +3,7 @@ title: ParseForm
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Ottiene il valore che indica se lanalisi del modulo è supportata.
 type: docs
-weight: 100
+weight: 110
 url: /it/net/groupdocs.parser.options/features/parseform/
 ---
 ## Features.ParseForm property
@@ -16,7 +16,7 @@ public bool ParseForm { get; }
 
 ### Valore di ritorno
 
-`VERO` se l'analisi dei moduli è supportata; altrimenti,`falso`.
+`VERO` se l'analisi dei moduli è supportata; Altrimenti,`falso`.
 
 ### Guarda anche
 

@@ -48,7 +48,7 @@ Un'istanza di[`PageImageArea`](../pageimagearea) class viene utilizzata come val
 * [`GetImages`](../../groupdocs.parser/parser/getimages)
 * [`GetImages`](../../groupdocs.parser/parser/getimages)
 
-Vedi gli esempi di utilizzo qui.
+Vedi gli esempi di utilizzo lì.
 
 ### Guarda anche
 

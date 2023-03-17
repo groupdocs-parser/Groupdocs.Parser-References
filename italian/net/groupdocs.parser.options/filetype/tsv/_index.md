@@ -1,14 +1,14 @@
 ---
 title: TSV
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: Un formato di file con valori separati da tabulazioni TSV rappresenta i dati separati da tabulazioni in formato di testo semplice. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/spreadsheet/tsv/ .
+description: Un formato di file con valori separati da tabulazioni TSV rappresenta i dati separati da tabulazioni in formato di testo semplice. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/spreadsheet/tsv/ .
 type: docs
 weight: 730
 url: /it/net/groupdocs.parser.options/filetype/tsv/
 ---
 ## FileType.TSV field
 
-Un formato di file con valori separati da tabulazioni (TSV) rappresenta i dati separati da tabulazioni in formato di testo semplice. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/spreadsheet/tsv/) .
+Un formato di file con valori separati da tabulazioni (TSV) rappresenta i dati separati da tabulazioni in formato di testo semplice. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/spreadsheet/tsv/) .
 
 ```csharp
 public static readonly FileType TSV;

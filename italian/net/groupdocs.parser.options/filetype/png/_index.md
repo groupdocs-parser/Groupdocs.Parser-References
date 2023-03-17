@@ -1,14 +1,14 @@
 ---
 title: PNG
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: PNG Portable Network Graphics si riferisce a un tipo di formato di file di immagine raster che utilizza la compressione senza perdita. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/image/png/ .
+description: PNG Portable Network Graphics si riferisce a un tipo di formato di file di immagine raster che utilizza la compressione senza perdita. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/image/png/ .
 type: docs
 weight: 520
 url: /it/net/groupdocs.parser.options/filetype/png/
 ---
 ## FileType.PNG field
 
-PNG, Portable Network Graphics, si riferisce a un tipo di formato di file di immagine raster che utilizza la compressione senza perdita. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/image/png/) .
+PNG, Portable Network Graphics, si riferisce a un tipo di formato di file di immagine raster che utilizza la compressione senza perdita. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/image/png/) .
 
 ```csharp
 public static readonly FileType PNG;

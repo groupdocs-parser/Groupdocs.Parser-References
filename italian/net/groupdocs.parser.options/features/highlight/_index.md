@@ -16,7 +16,7 @@ public bool Highlight { get; }
 
 ### Valore di ritorno
 
-`VERO` se l'estrazione delle evidenziazioni è supportata; altrimenti,`falso`.
+`VERO` se l'estrazione delle evidenziazioni è supportata; Altrimenti,`falso`.
 
 ### Guarda anche
 
