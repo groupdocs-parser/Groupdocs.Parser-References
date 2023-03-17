@@ -3,7 +3,7 @@ title: TemplateTable
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يوفر جدول النموذج .
 type: docs
-weight: 690
+weight: 740
 url: /ar/net/groupdocs.parser.templates/templatetable/
 ---
 ## TemplateTable class
@@ -34,7 +34,7 @@ public sealed class TemplateTable : TemplateItem
 
 هناك طريقتان لتعريف الجدول:
 
-* استخدام[`TemplateTableLayout`](../templatetablelayout) صف دراسي. في هذه الحالة يتم تحديد الجدول من خلال موضعه على الصفحة: منطقة مستطيلة وفواصل الأعمدة والصفوف.
+* استخدام[`TemplateTableLayout`](../templatetablelayout) فصل. في هذه الحالة يتم تحديد الجدول من خلال موضعه على الصفحة: منطقة مستطيلة وفواصل الأعمدة والصفوف.
 * استخدام[`TemplateTableParameters`](../templatetableparameters) class. في هذه الحالة يتم الكشف عن الجدول تلقائيًا بواسطة الخوارزميات ذات المعلمات المحددة.[`TemplateTableParameters`](../templatetableparameters) فئة لمزيد من المعلومات.
 
 ### أنظر أيضا

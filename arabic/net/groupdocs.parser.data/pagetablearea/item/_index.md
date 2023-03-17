@@ -21,7 +21,7 @@ public PageTableAreaCell this[int rowIndex, int columnIndex] { get; }
 
 ### قيمة الإرجاع
 
-مثال على[`PageTableAreaCell`](../../pagetableareacell) صف دراسي؛`لا شيء` إذا لم يتم العثور على خلية.
+مثال على[`PageTableAreaCell`](../../pagetableareacell) فصل؛`باطل` إذا لم يتم العثور على خلية.
 
 ### أنظر أيضا
 

@@ -16,7 +16,7 @@ public bool AutoScale { get; }
 
 ### Property_Value
 
-`حقيقي` إذا[`SearchArea`](../searcharea) يتم تحجيمها من خلال حجم الحقل المرتبط ؛ خلاف ذلك،`خاطئة`
+`حقيقي` لو[`SearchArea`](../searcharea) يتم تحجيمها من خلال حجم الحقل المرتبط ؛ خلاف ذلك،`خطأ شنيع`
 
 ### أنظر أيضا
 

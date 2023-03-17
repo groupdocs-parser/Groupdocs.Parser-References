@@ -16,7 +16,7 @@ public int Position { get; }
 
 ### Property_Value
 
-فهرس صفري لموضع بدء نتيجة البحث. يعتمد على[`SearchByPages`](../../../groupdocs.parser.options/searchoptions/searchbypages)تبدأ قيمة الخاصية هذا الفهرس من بداية المستند أو بداية صفحة المستند .
+فهرس صفري لموضع بدء نتيجة البحث. يعتمد على[`SearchByPages`](../../../groupdocs.parser.options/searchoptions/searchbypages) تبدأ قيمة الخاصية هذا الفهرس من بداية المستند أو بداية صفحة المستند .
 
 ### أنظر أيضا
 

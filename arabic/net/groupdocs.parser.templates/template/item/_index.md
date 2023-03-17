@@ -20,7 +20,7 @@ public TemplateItem this[int index] { get; }
 
 ### قيمة الإرجاع
 
-مثال على[`TemplateItem`](../../templateitem) صف دراسي.
+مثال على[`TemplateItem`](../../templateitem) فصل.
 
 ### أنظر أيضا
 

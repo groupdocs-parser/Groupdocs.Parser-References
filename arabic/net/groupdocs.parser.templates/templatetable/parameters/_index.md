@@ -16,7 +16,7 @@ public TemplateTableParameters Parameters { get; }
 
 ### Property_Value
 
-مثيل[`TemplateTableParameters`](../../templatetableparameters) فئة تمثل المعلمات لاكتشاف الجدول في الوضع التلقائي ؛ `لا شيء` إذا لم يتم تعيينه.
+مثيل[`TemplateTableParameters`](../../templatetableparameters) فئة تمثل المعلمات لاكتشاف الجدول في الوضع التلقائي ؛ `باطل` إذا لم يتم تعيينه.
 
 ### أنظر أيضا
 

@@ -16,7 +16,7 @@ public string Text { get; }
 
 ### Property_Value
 
-قيمة سلسلة تمثل قيمة نص الحقل ؛`لا شيء` إذا[`PageArea`](../pagearea)الملكية ليست كذلك[`PageTextArea`](../../pagetextarea).
+قيمة سلسلة تمثل قيمة نص الحقل ؛`باطل` لو[`PageArea`](../pagearea) الملكية ليست كذلك[`PageTextArea`](../../pagetextarea).
 
 ### أنظر أيضا
 

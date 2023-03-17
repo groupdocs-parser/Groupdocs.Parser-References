@@ -20,7 +20,7 @@ public IEnumerable<SearchResult> Search(string keyword)
 
 ### قيمة الإرجاع
 
-مجموعة من[`SearchResult`](../../../groupdocs.parser.data/searchresult) أشياء؛ `لا شيء` إذا لم يتم دعم البحث.
+مجموعة من[`SearchResult`](../../../groupdocs.parser.data/searchresult) أشياء؛ `باطل` إذا لم يتم دعم البحث.
 
 ### ملاحظات
 
@@ -86,7 +86,7 @@ public IEnumerable<SearchResult> Search(string keyword, SearchOptions options)
 
 ### قيمة الإرجاع
 
-مجموعة من[`SearchResult`](../../../groupdocs.parser.data/searchresult) كائنات ؛ `لا شيء` إذا لم يتم دعم البحث.
+مجموعة من[`SearchResult`](../../../groupdocs.parser.data/searchresult) كائنات ؛ `باطل` إذا لم يتم دعم البحث.
 
 ### ملاحظات
 

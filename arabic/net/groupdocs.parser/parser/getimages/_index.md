@@ -16,7 +16,7 @@ public IEnumerable<PageImageArea> GetImages()
 
 ### قيمة الإرجاع
 
-مجموعة من[`PageImageArea`](../../../groupdocs.parser.data/pageimagearea) كائنات ؛ `لا شيء` إذا كان استخراج الصور غير مدعوم.
+مجموعة من[`PageImageArea`](../../../groupdocs.parser.data/pageimagearea) كائنات ؛ `باطل` إذا كان استخراج الصور غير مدعوم.
 
 ### ملاحظات
 
@@ -78,7 +78,7 @@ public IEnumerable<PageImageArea> GetImages(PageAreaOptions options)
 
 ### قيمة الإرجاع
 
-مجموعة من[`PageImageArea`](../../../groupdocs.parser.data/pageimagearea) كائنات ؛ `لا شيء` إذا كان استخراج الصور غير مدعوم.
+مجموعة من[`PageImageArea`](../../../groupdocs.parser.data/pageimagearea) كائنات ؛ `باطل` إذا كان استخراج الصور غير مدعوم.
 
 ### ملاحظات
 
@@ -144,7 +144,7 @@ public IEnumerable<PageImageArea> GetImages(int pageIndex)
 
 ### قيمة الإرجاع
 
-مجموعة من[`PageImageArea`](../../../groupdocs.parser.data/pageimagearea) كائنات ؛ `لا شيء` إذا كان استخراج الصور غير مدعوم.
+مجموعة من[`PageImageArea`](../../../groupdocs.parser.data/pageimagearea) كائنات ؛ `باطل` إذا كان استخراج الصور غير مدعوم.
 
 ### ملاحظات
 
@@ -223,7 +223,7 @@ public IEnumerable<PageImageArea> GetImages(int pageIndex, PageAreaOptions optio
 
 ### قيمة الإرجاع
 
-مجموعة من[`PageImageArea`](../../../groupdocs.parser.data/pageimagearea) كائنات ؛ `لا شيء` إذا كان استخراج الصور غير مدعوم.
+مجموعة من[`PageImageArea`](../../../groupdocs.parser.data/pageimagearea) كائنات ؛ `باطل` إذا كان استخراج الصور غير مدعوم.
 
 ### ملاحظات
 

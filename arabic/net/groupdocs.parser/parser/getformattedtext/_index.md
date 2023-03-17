@@ -20,7 +20,7 @@ public TextReader GetFormattedText(FormattedTextOptions options)
 
 ### قيمة الإرجاع
 
-مثيلTextReader فئة مع النص المستخرج `لا شيء` إذا كان استخراج النص المنسق غير مدعوم.
+مثيلTextReader فئة مع النص المستخرج `باطل` إذا كان استخراج النص المنسق غير مدعوم.
 
 ### ملاحظات
 
@@ -73,7 +73,7 @@ public TextReader GetFormattedText(int pageIndex, FormattedTextOptions options)
 
 ### قيمة الإرجاع
 
-مثيلTextReaderفئة مع النص المستخرج ؛ `لا شيء` إذا لم يتم دعم استخراج صفحة النص المنسق.
+مثيلTextReaderفئة مع النص المستخرج ؛ `باطل` إذا لم يتم دعم استخراج صفحة النص المنسق.
 
 ### ملاحظات
 

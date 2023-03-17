@@ -1,12 +1,54 @@
 ---
 title: PageTextAreaOptions
 second_title: GroupDocs.Parser لمرجع .NET API
-description: يقوم بتهيئة مثيل جديد لملفPageTextAreaOptionsgroupdocs.parser.options/pagetextareaoptions فئة مع التعبير النمطي. يتم تعيين الخيارات الأخرى افتراضيًا انظر الملاحظات للحصول على التفاصيل.
+description: يقوم بتهيئة مثيل جديد لملفPageTextAreaOptionsgroupdocs.parser.options/pagetextareaoptions فئة مع خيار استخدام OCR.
 type: docs
 weight: 10
 url: /ar/net/groupdocs.parser.options/pagetextareaoptions/pagetextareaoptions/
 ---
-## PageTextAreaOptions(string) {#constructor}
+## PageTextAreaOptions(bool) {#constructor}
+
+يقوم بتهيئة مثيل جديد لملف[`PageTextAreaOptions`](../../pagetextareaoptions) فئة مع خيار استخدام OCR.
+
+```csharp
+public PageTextAreaOptions(bool useOcr)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| useOcr | Boolean | القيمة التي تشير إلى ما إذا كانت وظيفة OCR تُستخدم لاستخراج مناطق النص. |
+
+### أنظر أيضا
+
+* class [PageTextAreaOptions](../../pagetextareaoptions)
+* مساحة الاسم [GroupDocs.Parser.Options](../../pagetextareaoptions)
+* المجسم [GroupDocs.Parser](../../../)
+
+---
+
+## PageTextAreaOptions(bool, OcrOptions) {#constructor_1}
+
+يقوم بتهيئة مثيل جديد لملف[`PageTextAreaOptions`](../../pagetextareaoptions) فئة مع القدرة على تعيين خيارات OCR.
+
+```csharp
+public PageTextAreaOptions(bool useOcr, OcrOptions ocrOptions)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| useOcr | Boolean | القيمة التي تشير إلى ما إذا كانت وظيفة OCR تُستخدم لاستخراج مناطق النص. |
+| ocrOptions | OcrOptions | الخيارات الإضافية لوظيفة OCR. |
+
+### أنظر أيضا
+
+* class [OcrOptions](../../ocroptions)
+* class [PageTextAreaOptions](../../pagetextareaoptions)
+* مساحة الاسم [GroupDocs.Parser.Options](../../pagetextareaoptions)
+* المجسم [GroupDocs.Parser](../../../)
+
+---
+
+## PageTextAreaOptions(string) {#constructor_2}
 
 يقوم بتهيئة مثيل جديد لملف[`PageTextAreaOptions`](../../pagetextareaoptions) فئة مع التعبير النمطي. يتم تعيين الخيارات الأخرى افتراضيًا (انظر الملاحظات للحصول على التفاصيل).
 
@@ -24,19 +66,19 @@ public PageTextAreaOptions(string expression)
 
 **[`MatchCase`](../matchcase)**
 
-`خاطئة`
+`خطأ شنيع`
 
 **[`UniteSegments`](../unitesegments)**
 
-`خاطئة`
+`خطأ شنيع`
 
 **[`IgnoreFormatting`](../ignoreformatting)**
 
-`خاطئة`
+`خطأ شنيع`
 
 **[`Rectangle`](../../pageareaoptions/rectangle)**
 
-`لا شيء`
+`باطل`
 
 ### أنظر أيضا
 
@@ -46,7 +88,7 @@ public PageTextAreaOptions(string expression)
 
 ---
 
-## PageTextAreaOptions(string, Rectangle) {#constructor_2}
+## PageTextAreaOptions(string, Rectangle) {#constructor_4}
 
 يقوم بتهيئة مثيل جديد لملف[`PageTextAreaOptions`](../../pagetextareaoptions) class مع التعبير النمطي والمساحة المستطيلة. يتم تعيين الخيارات الأخرى افتراضيًا (انظر الملاحظات للحصول على التفاصيل).
 
@@ -65,15 +107,15 @@ public PageTextAreaOptions(string expression, Rectangle rectangle)
 
 **[`MatchCase`](../matchcase)**
 
-`خاطئة`
+`خطأ شنيع`
 
 **[`UniteSegments`](../unitesegments)**
 
-`خاطئة`
+`خطأ شنيع`
 
 **[`IgnoreFormatting`](../ignoreformatting)**
 
-`خاطئة`
+`خطأ شنيع`
 
 ### أنظر أيضا
 
@@ -84,7 +126,7 @@ public PageTextAreaOptions(string expression, Rectangle rectangle)
 
 ---
 
-## PageTextAreaOptions(string, bool, bool, bool, Rectangle) {#constructor_1}
+## PageTextAreaOptions(string, bool, bool, bool, Rectangle) {#constructor_3}
 
 يقوم بتهيئة مثيل جديد لملف[`PageTextAreaOptions`](../../pagetextareaoptions) فئة .
 

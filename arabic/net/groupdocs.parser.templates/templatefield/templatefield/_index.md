@@ -40,7 +40,7 @@ public TemplateField(TemplatePosition position, string name, int? pageIndex)
 | --- | --- | --- |
 | position | TemplatePosition | الموقع الميداني. |
 | name | String | اسم الحقل. |
-| pageIndex | Nullable`1 | قيمة عدد صحيح تمثل فهرس الصفحة حيث يوجد عنصر القالب ؛ `لا شيء` إذا كان عنصر القالب موجودًا في أي صفحة. |
+| pageIndex | Nullable`1 | قيمة عدد صحيح تمثل فهرس الصفحة حيث يوجد عنصر القالب ؛ `باطل` إذا كان عنصر القالب موجودًا في أي صفحة. |
 
 ### أنظر أيضا
 

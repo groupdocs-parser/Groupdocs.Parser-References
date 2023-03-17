@@ -3,7 +3,7 @@ title: TemplateItem
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يوفر فئة أساسية لعناصر القالب.
 type: docs
-weight: 640
+weight: 690
 url: /ar/net/groupdocs.parser.templates/templateitem/
 ---
 ## TemplateItem class

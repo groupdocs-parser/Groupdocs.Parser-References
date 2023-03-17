@@ -16,7 +16,7 @@ public IEnumerable<PageBarcodeArea> GetBarcodes()
 
 ### قيمة الإرجاع
 
-مجموعة من[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea) كائنات ؛ `لا شيء` إذا كان استخراج الرموز الشريطية غير مدعوم.
+مجموعة من[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea) كائنات ؛ `باطل` إذا كان استخراج الرموز الشريطية غير مدعوم.
 
 ### أمثلة
 
@@ -63,7 +63,7 @@ public IEnumerable<PageBarcodeArea> GetBarcodes(int pageIndex)
 
 ### قيمة الإرجاع
 
-مجموعة من[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea) كائنات ؛ `لا شيء` إذا كان استخراج الرموز الشريطية غير مدعوم.
+مجموعة من[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea) كائنات ؛ `باطل` إذا كان استخراج الرموز الشريطية غير مدعوم.
 
 ### أمثلة
 
@@ -110,7 +110,7 @@ public IEnumerable<PageBarcodeArea> GetBarcodes(PageAreaOptions options)
 
 ### قيمة الإرجاع
 
-مجموعة من[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea) كائنات ؛ `لا شيء` إذا كان استخراج الرموز الشريطية غير مدعوم.
+مجموعة من[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea) كائنات ؛ `باطل` إذا كان استخراج الرموز الشريطية غير مدعوم.
 
 ### أمثلة
 
@@ -161,7 +161,7 @@ public IEnumerable<PageBarcodeArea> GetBarcodes(int pageIndex, PageAreaOptions o
 
 ### قيمة الإرجاع
 
-مجموعة من[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea) كائنات ؛ `لا شيء` إذا كان استخراج الرموز الشريطية غير مدعوم.
+مجموعة من[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea) كائنات ؛ `باطل` إذا كان استخراج الرموز الشريطية غير مدعوم.
 
 ### أنظر أيضا
 

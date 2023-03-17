@@ -3,7 +3,7 @@ title: Text
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يحصل على القيمة التي تشير إلى ما إذا كان استخراج النص مدعومًا.
 type: docs
-weight: 140
+weight: 160
 url: /ar/net/groupdocs.parser.options/features/text/
 ---
 ## Features.Text property
@@ -16,7 +16,7 @@ public bool Text { get; }
 
 ### قيمة الإرجاع
 
-`حقيقي` إذا تم دعم استخراج النص ؛ خلاف ذلك،`خاطئة`.
+`حقيقي` إذا تم دعم استخراج النص ؛ خلاف ذلك،`خطأ شنيع`.
 
 ### أنظر أيضا
 

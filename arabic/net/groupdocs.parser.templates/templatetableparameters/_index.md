@@ -3,7 +3,7 @@ title: TemplateTableParameters
 second_title: GroupDocs.Parser لمرجع .NET API
 description: توفير معلمات لخوارزميات الكشف عن الجدول.
 type: docs
-weight: 710
+weight: 760
 url: /ar/net/groupdocs.parser.templates/templatetableparameters/
 ---
 ## TemplateTableParameters class

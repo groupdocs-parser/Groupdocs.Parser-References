@@ -3,7 +3,7 @@ title: TextAreas
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يحصل على القيمة التي تشير إلى ما إذا كان استخراج مناطق النص مدعومًا.
 type: docs
-weight: 150
+weight: 170
 url: /ar/net/groupdocs.parser.options/features/textareas/
 ---
 ## Features.TextAreas property
@@ -16,7 +16,7 @@ public bool TextAreas { get; }
 
 ### قيمة الإرجاع
 
-`حقيقي` إذا تم دعم استخراج مناطق النص ؛ خلاف ذلك،`خاطئة`.
+`حقيقي` إذا تم دعم استخراج مناطق النص ؛ خلاف ذلك،`خطأ شنيع`.
 
 ### أنظر أيضا
 

@@ -3,7 +3,7 @@ title: Parser
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يمثل الفئة الرئيسية التي تتحكم في النصوص والصور ووظائف استخراج الحاوية والتحليل.
 type: docs
-weight: 590
+weight: 640
 url: /ar/net/groupdocs.parser/parser/
 ---
 ## Parser class
@@ -21,13 +21,15 @@ public sealed class Parser : IDisposable
 | [Parser](parser#constructor_2)(DbConnection) | يقوم بتهيئة مثيل جديد لملف[`Parser`](../parser) فئة لاستخراج البيانات من قاعدة بيانات. |
 | [Parser](parser#constructor)(EmailConnection) | يقوم بتهيئة مثيل جديد لملف[`Parser`](../parser) فئة لاستخراج البيانات من خادم بريد إلكتروني بعيد. |
 | [Parser](parser#constructor_4)(Stream) | يقوم بتهيئة مثيل جديد لملف[`Parser`](../parser) فئة . |
-| [Parser](parser#constructor_7)(string) | يقوم بتهيئة مثيل جديد لملف[`Parser`](../parser) فئة . |
+| [Parser](parser#constructor_8)(string) | يقوم بتهيئة مثيل جديد لملف[`Parser`](../parser) فئة . |
 | [Parser](parser#constructor_3)(DbConnection, ParserSettings) | يقوم بتهيئة مثيل جديد لملف[`Parser`](../parser) فئة لاستخراج البيانات من قاعدة بيانات. |
 | [Parser](parser#constructor_1)(EmailConnection, ParserSettings) | يقوم بتهيئة مثيل جديد لملف[`Parser`](../parser) فئة لاستخراج البيانات من خادم بريد إلكتروني بعيد. |
 | [Parser](parser#constructor_5)(Stream, LoadOptions) | يقوم بتهيئة مثيل جديد لملف[`Parser`](../parser) فئة مع[`LoadOptions`](../../groupdocs.parser.options/loadoptions) . |
-| [Parser](parser#constructor_8)(string, LoadOptions) | يقوم بتهيئة مثيل جديد لملف[`Parser`](../parser) فئة مع[`LoadOptions`](../../groupdocs.parser.options/loadoptions) . |
+| [Parser](parser#constructor_7)(Stream, ParserSettings) | يقوم بتهيئة مثيل جديد لملف[`Parser`](../parser) فئة مع[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
+| [Parser](parser#constructor_9)(string, LoadOptions) | يقوم بتهيئة مثيل جديد لملف[`Parser`](../parser) فئة مع[`LoadOptions`](../../groupdocs.parser.options/loadoptions) . |
+| [Parser](parser#constructor_11)(string, ParserSettings) | يقوم بتهيئة مثيل جديد لملف[`Parser`](../parser) فئة مع[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
 | [Parser](parser#constructor_6)(Stream, LoadOptions, ParserSettings) | يقوم بتهيئة مثيل جديد لملف[`Parser`](../parser) فئة مع[`LoadOptions`](../../groupdocs.parser.options/loadoptions) و[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
-| [Parser](parser#constructor_9)(string, LoadOptions, ParserSettings) | يقوم بتهيئة مثيل جديد لملف[`Parser`](../parser) فئة مع[`LoadOptions`](../../groupdocs.parser.options/loadoptions) و[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
+| [Parser](parser#constructor_10)(string, LoadOptions, ParserSettings) | يقوم بتهيئة مثيل جديد لملف[`Parser`](../parser) فئة مع[`LoadOptions`](../../groupdocs.parser.options/loadoptions) و[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
 
 ## الخصائص
 

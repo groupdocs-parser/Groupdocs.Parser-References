@@ -3,7 +3,7 @@ title: FormattedTextOptions
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يوفر الخيارات المستخدمة لاستخراج النص المنسق.
 type: docs
-weight: 390
+weight: 410
 url: /ar/net/groupdocs.parser.options/formattedtextoptions/
 ---
 ## FormattedTextOptions class

@@ -3,7 +3,7 @@ title: HighlightOptions
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يوفر الخيارات التي تُستخدم لاستخراج تمييز جزء من نص تم العثور عليه في سيناريوهات البحث .
 type: docs
-weight: 400
+weight: 420
 url: /ar/net/groupdocs.parser.options/highlightoptions/
 ---
 ## HighlightOptions class
@@ -18,7 +18,7 @@ public sealed class HighlightOptions
 
 | اسم | وصف |
 | --- | --- |
-| [HighlightOptions](highlightoptions#constructor)(int) | يقوم بتهيئة مثيل جديد لملف[`HighlightOptions`](../highlightoptions)فئة تُستخدم لاستخراج تمييز بطول ثابت. |
+| [HighlightOptions](highlightoptions#constructor)(int) | يقوم بتهيئة مثيل جديد لملف[`HighlightOptions`](../highlightoptions) فئة تُستخدم لاستخراج تمييز بطول ثابت. |
 | [HighlightOptions](highlightoptions#constructor_1)(int?, bool) | يقوم بتهيئة مثيل جديد لملف[`HighlightOptions`](../highlightoptions) فئة تُستخدم لاستخراج تمييز محدود الخط. |
 | [HighlightOptions](highlightoptions#constructor_2)(int?, int) | يقوم بتهيئة مثيل جديد لملف[`HighlightOptions`](../highlightoptions) فئة تُستخدم لاستخراج تمييز مع عدد الكلمات الثابت. |
 | [HighlightOptions](highlightoptions#constructor_3)(int?, int?, bool) | يقوم بتهيئة مثيل جديد لملف[`HighlightOptions`](../highlightoptions) فئة . |

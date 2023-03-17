@@ -42,7 +42,7 @@ using (Parser parser = new Parser(filePath))
         // افتح دفق الصورة
         using (Stream imageStream = image.GetImageStream())
         {
-            // قم بإنشاء الملف لحفظ الصورة
+            // أنشئ الملف لحفظ الصورة
             using (Stream destStream = File.Create(Guid.NewGuid().ToString() + image.FileType.Extension))
             {
                 byte[] buffer = new byte[4096];
@@ -117,7 +117,7 @@ using (Parser parser = new Parser(filePath))
         // افتح دفق الصورة
         using (Stream imageStream = image.GetImageStream(options))
         {
-            // قم بإنشاء الملف لحفظ الصورة
+            // أنشئ الملف لحفظ الصورة
             using (Stream destStream = File.Create(Guid.NewGuid().ToString() + ".png"))
             {
                 byte[] buffer = new byte[4096];

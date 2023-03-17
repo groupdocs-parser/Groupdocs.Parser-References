@@ -26,7 +26,7 @@ public static FileType FromExtension(string extension)
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentException | عندما ألقيت*extension*سلسلة فارغة أو فارغة. |
+| ArgumentException | عندما ألقيت*extension* سلسلة فارغة أو فارغة. |
 
 ### أنظر أيضا
 

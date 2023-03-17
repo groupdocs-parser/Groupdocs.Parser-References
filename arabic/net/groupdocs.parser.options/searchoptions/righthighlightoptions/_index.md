@@ -16,7 +16,7 @@ public HighlightOptions RightHighlightOptions { get; }
 
 ### Property_Value
 
-مثال على[`HighlightOptions`](../../highlightoptions) صف دراسي؛`لا شيء` إذا لم يتم تعيينه.
+مثال على[`HighlightOptions`](../../highlightoptions) فصل؛`باطل` إذا لم يتم تعيينه.
 
 ### أنظر أيضا
 

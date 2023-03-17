@@ -3,7 +3,7 @@ title: PageTextAreaOptions
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يوفر الخيارات المستخدمة لاستخراج مناطق نص الصفحة.
 type: docs
-weight: 500
+weight: 550
 url: /ar/net/groupdocs.parser.options/pagetextareaoptions/
 ---
 ## PageTextAreaOptions class
@@ -18,9 +18,11 @@ public sealed class PageTextAreaOptions : PageAreaOptions
 
 | اسم | وصف |
 | --- | --- |
-| [PageTextAreaOptions](pagetextareaoptions#constructor)(string) | يقوم بتهيئة مثيل جديد لملف[`PageTextAreaOptions`](../pagetextareaoptions) فئة مع التعبير النمطي. يتم تعيين الخيارات الأخرى افتراضيًا (انظر الملاحظات للحصول على التفاصيل). |
-| [PageTextAreaOptions](pagetextareaoptions#constructor_2)(string, Rectangle) | يقوم بتهيئة مثيل جديد لملف[`PageTextAreaOptions`](../pagetextareaoptions) class مع التعبير النمطي والمساحة المستطيلة. يتم تعيين الخيارات الأخرى افتراضيًا (انظر الملاحظات للحصول على التفاصيل). |
-| [PageTextAreaOptions](pagetextareaoptions#constructor_1)(string, bool, bool, bool, Rectangle) | يقوم بتهيئة مثيل جديد لملف[`PageTextAreaOptions`](../pagetextareaoptions) فئة . |
+| [PageTextAreaOptions](pagetextareaoptions#constructor)(bool) | يقوم بتهيئة مثيل جديد لملف[`PageTextAreaOptions`](../pagetextareaoptions) فئة مع خيار استخدام OCR. |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_2)(string) | يقوم بتهيئة مثيل جديد لملف[`PageTextAreaOptions`](../pagetextareaoptions) فئة مع التعبير النمطي. يتم تعيين الخيارات الأخرى افتراضيًا (انظر الملاحظات للحصول على التفاصيل). |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_1)(bool, OcrOptions) | يقوم بتهيئة مثيل جديد لملف[`PageTextAreaOptions`](../pagetextareaoptions) فئة مع القدرة على تعيين خيارات OCR. |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_4)(string, Rectangle) | يقوم بتهيئة مثيل جديد لملف[`PageTextAreaOptions`](../pagetextareaoptions) class مع التعبير النمطي والمساحة المستطيلة. يتم تعيين الخيارات الأخرى افتراضيًا (انظر الملاحظات للحصول على التفاصيل). |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_3)(string, bool, bool, bool, Rectangle) | يقوم بتهيئة مثيل جديد لملف[`PageTextAreaOptions`](../pagetextareaoptions) فئة . |
 
 ## الخصائص
 
@@ -29,8 +31,10 @@ public sealed class PageTextAreaOptions : PageAreaOptions
 | [Expression](../../groupdocs.parser.options/pagetextareaoptions/expression) { get; } | الحصول على التعبير النمطي . |
 | [IgnoreFormatting](../../groupdocs.parser.options/pagetextareaoptions/ignoreformatting) { get; } | يحصل على القيمة التي تشير إلى تجاهل تنسيق النص. |
 | [MatchCase](../../groupdocs.parser.options/pagetextareaoptions/matchcase) { get; } | يحصل على القيمة التي تشير إلى عدم تجاهل حالة النص. |
+| [OcrOptions](../../groupdocs.parser.options/pagetextareaoptions/ocroptions) { get; } | يحصل على الخيارات الإضافية لوظيفة OCR . |
 | [Rectangle](../../groupdocs.parser.options/pageareaoptions/rectangle) { get; } | الحصول على المنطقة المستطيلة التي تحتوي على مناطق الصفحات. |
 | [UniteSegments](../../groupdocs.parser.options/pagetextareaoptions/unitesegments) { get; } | يحصل على القيمة التي تشير إلى ما إذا كانت المقاطع متحدة. |
+| [UseOcr](../../groupdocs.parser.options/pagetextareaoptions/useocr) { get; } | يحصل على القيمة التي تشير إلى ما إذا كانت وظيفة OCR تُستخدم لاستخراج مناطق النص. |
 
 ### ملاحظات
 

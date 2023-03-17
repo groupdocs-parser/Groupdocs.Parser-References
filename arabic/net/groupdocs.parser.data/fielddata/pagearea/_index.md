@@ -20,7 +20,7 @@ public PageArea PageArea { get; }
 
 ### أمثلة
 
-حسب المجال`PageArea` يمكن أن تحتوي property على أي من ورثة[`PageArea`](../../pagearea) صف دراسي. على سبيل المثال ،[`ParseForm`](../../../groupdocs.parser/parser/parseform) طريقة لاستخراج الحقول النصية فقط.
+حسب المجال`PageArea` يمكن أن تحتوي property على أي من ورثة[`PageArea`](../../pagearea) فصل. على سبيل المثال ،[`ParseForm`](../../../groupdocs.parser/parser/parseform) طريقة لاستخراج الحقول النصية فقط.
 
 ```csharp
 // احصل على البيانات الميدانية

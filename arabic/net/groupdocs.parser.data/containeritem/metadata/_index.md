@@ -60,7 +60,7 @@ public IEnumerable<MetadataItem> Metadata { get; }
 
 قيمة الحقل "إلى".
 
-**موضوعات**
+**موضوع**
 
 قيمة حقل "الموضوع".
 

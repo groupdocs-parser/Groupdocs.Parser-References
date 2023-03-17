@@ -16,7 +16,7 @@ public Rectangle Rectangle { get; }
 
 ### Property_Value
 
-مثال على[`Rectangle`](../../../groupdocs.parser.data/rectangle) فئة تمثل مساحة المستطيل التي تحتوي على الجدول ؛`لا شيء` إذا لم يتم تعيينه.
+مثال على[`Rectangle`](../../../groupdocs.parser.data/rectangle) فئة تمثل مساحة المستطيل التي تحتوي على الجدول ؛`باطل` إذا لم يتم تعيينه.
 
 ### أنظر أيضا
 

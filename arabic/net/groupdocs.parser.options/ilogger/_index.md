@@ -3,7 +3,7 @@ title: ILogger
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يحدد واجهة المسجل المستخدمة لتسجيل الأحداث والأخطاء أثناء استخراج البيانات.
 type: docs
-weight: 420
+weight: 440
 url: /ar/net/groupdocs.parser.options/ilogger/
 ---
 ## ILogger interface

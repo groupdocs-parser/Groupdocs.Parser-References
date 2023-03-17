@@ -1,14 +1,14 @@
 ---
 title: Page
 second_title: GroupDocs.Parser لمرجع .NET API
-description: يمثل معلومات صفحة المستند مثل فهرس الصفحة وحجم الصفحة. تُستخدم لتمثيل الصفحة التي تحتوي على ورثةPageArea./pagearea class في التحليل بواسطة وظيفة القالب.
+description: يمثل معلومات صفحة المستند مثل فهرس الصفحة وحجم الصفحة. تُستخدم لتمثيل الصفحة التي تحتوي على ورثةPageArea./pageareaclass في التحليل بواسطة وظيفة القالب.
 type: docs
 weight: 60
 url: /ar/net/groupdocs.parser.data/page/
 ---
 ## Page class
 
-يمثل معلومات صفحة المستند مثل فهرس الصفحة وحجم الصفحة. تُستخدم لتمثيل الصفحة التي تحتوي على ورثة[`PageArea`](../pagearea) class في التحليل بواسطة وظيفة القالب.
+يمثل معلومات صفحة المستند مثل فهرس الصفحة وحجم الصفحة. تُستخدم لتمثيل الصفحة التي تحتوي على ورثة[`PageArea`](../pagearea)class في التحليل بواسطة وظيفة القالب.
 
 ```csharp
 public sealed class Page

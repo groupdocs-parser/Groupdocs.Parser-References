@@ -16,7 +16,7 @@ public Encoding Encoding { get; }
 
 ### Property_Value
 
-مثال علىEncoding صف دراسي.
+مثال علىEncoding فصل.
 
 ### أنظر أيضا
 

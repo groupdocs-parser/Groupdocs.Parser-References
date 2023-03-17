@@ -3,7 +3,7 @@ title: TemplateTableLayout
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يوفر تخطيط الجدول النموذجي الذي يستخدمهTemplateTable./templatetable فئة لتحديد موضع الجدول.
 type: docs
-weight: 700
+weight: 750
 url: /ar/net/groupdocs.parser.templates/templatetablelayout/
 ---
 ## TemplateTableLayout class

@@ -3,7 +3,7 @@ title: ParseForm
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يحصل على القيمة التي تشير إلى ما إذا كان تحليل النموذج مدعومًا.
 type: docs
-weight: 100
+weight: 110
 url: /ar/net/groupdocs.parser.options/features/parseform/
 ---
 ## Features.ParseForm property
@@ -16,7 +16,7 @@ public bool ParseForm { get; }
 
 ### قيمة الإرجاع
 
-`حقيقي` إذا كان تحليل النموذج مدعومًا ؛ خلاف ذلك،`خاطئة`.
+`حقيقي` إذا كان تحليل النموذج مدعومًا ؛ خلاف ذلك،`خطأ شنيع`.
 
 ### أنظر أيضا
 

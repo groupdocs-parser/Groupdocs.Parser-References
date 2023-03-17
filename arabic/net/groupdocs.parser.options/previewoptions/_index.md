@@ -3,7 +3,7 @@ title: PreviewOptions
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يوفر خيارات لتعيين المتطلبات وتدفق المفوضين لإنشاء معاينة .
 type: docs
-weight: 520
+weight: 570
 url: /ar/net/groupdocs.parser.options/previewoptions/
 ---
 ## PreviewOptions class

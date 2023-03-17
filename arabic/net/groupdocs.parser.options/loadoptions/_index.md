@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يوفر الخيارات التي يتم استخدامها لفتح ملف.
 type: docs
-weight: 450
+weight: 470
 url: /ar/net/groupdocs.parser.options/loadoptions/
 ---
 ## LoadOptions class
@@ -19,8 +19,8 @@ public sealed class LoadOptions
 | اسم | وصف |
 | --- | --- |
 | [LoadOptions](loadoptions#constructor)() | يقوم بتهيئة مثيل جديد لملف[`LoadOptions`](../loadoptions) فئة فارغة[`Password`](./password) و[`FileFormat`](./fileformat) يساويUnknown والتشفير الافتراضي . |
-| [LoadOptions](loadoptions#constructor_1)(FileFormat) | يقوم بتهيئة مثيل جديد لملف[`LoadOptions`](../loadoptions) class فارغة[`Password`](./password) والتشفير الافتراضي. |
-| [LoadOptions](loadoptions#constructor_4)(string) | يقوم بتهيئة مثيل جديد لملف[`LoadOptions`](../loadoptions)class مع[`FileFormat`](./fileformat) يساويUnknown والتشفير الافتراضي . |
+| [LoadOptions](loadoptions#constructor_1)(FileFormat) | يقوم بتهيئة مثيل جديد لملف[`LoadOptions`](../loadoptions) class فارغة[`Password`](./password)والتشفير الافتراضي. |
+| [LoadOptions](loadoptions#constructor_4)(string) | يقوم بتهيئة مثيل جديد لملف[`LoadOptions`](../loadoptions) class مع[`FileFormat`](./fileformat) يساويUnknown والتشفير الافتراضي . |
 | [LoadOptions](loadoptions#constructor_2)(FileFormat, string) | يقوم بتهيئة مثيل جديد لملف[`LoadOptions`](../loadoptions) فئة بكلمة المرور والتشفير الافتراضي. |
 | [LoadOptions](loadoptions#constructor_3)(FileFormat, string, Encoding, Encoding) | يقوم بتهيئة مثيل جديد لملف[`LoadOptions`](../loadoptions) فئة مع ترميزات مخصصة. |
 

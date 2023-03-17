@@ -3,7 +3,7 @@ title: SearchOptions
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يوفر الخيارات المستخدمة للبحث عن النص.
 type: docs
-weight: 560
+weight: 610
 url: /ar/net/groupdocs.parser.options/searchoptions/
 ---
 ## SearchOptions class
@@ -20,7 +20,7 @@ public sealed class SearchOptions
 | --- | --- |
 | [SearchOptions](searchoptions#constructor)() | يقوم بتهيئة مثيل جديد لملف[`SearchOptions`](../searchoptions) فئة مع القيم الافتراضية. انظر الملاحظات للحصول على التفاصيل. |
 | [SearchOptions](searchoptions#constructor_1)(bool, bool, bool) | يقوم بتهيئة مثيل جديد لملف[`SearchOptions`](../searchoptions) الفئة التي تستخدم للبحث دون تمييز الاستخراج. |
-| [SearchOptions](searchoptions#constructor_2)(bool, bool, bool, bool) | يقوم بتهيئة مثيل جديد لملف[`SearchOptions`](../searchoptions) الفئة التي يتم استخدامها للبحث عن طريق الصفحات و دون تمييز الاستخراج. |
+| [SearchOptions](searchoptions#constructor_2)(bool, bool, bool, bool) | يقوم بتهيئة مثيل جديد لملف[`SearchOptions`](../searchoptions)الفئة التي يتم استخدامها للبحث عن طريق الصفحات و دون تمييز الاستخراج. |
 | [SearchOptions](searchoptions#constructor_4)(bool, bool, bool, HighlightOptions) | يقوم بتهيئة مثيل جديد لملف[`SearchOptions`](../searchoptions) الفئة التي تُستخدم للبحث مع نفس خيارات التمييز لاستخراج التمييز الأيمن والأيسر. |
 | [SearchOptions](searchoptions#constructor_5)(bool, bool, bool, HighlightOptions, HighlightOptions) | يقوم بتهيئة مثيل جديد لملف[`SearchOptions`](../searchoptions) فئة تستخدم للبحث مع خيارات التمييز لاستخراج التمييز الأيمن والأيسر. |
 | [SearchOptions](searchoptions#constructor_3)(bool, bool, bool, bool, HighlightOptions, HighlightOptions) | يقوم بتهيئة مثيل جديد لملف[`SearchOptions`](../searchoptions) فئة . |

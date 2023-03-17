@@ -16,7 +16,7 @@ public TemplateTableLayout Layout { get; }
 
 ### Property_Value
 
-مثال على[`TemplateTableLayout`](../../templatetablelayout) الفئة التي تمثل تخطيط الجدول ؛`لا شيء` إذا لم يتم تعيينه.
+مثال على[`TemplateTableLayout`](../../templatetablelayout) الفئة التي تمثل تخطيط الجدول ؛`باطل` إذا لم يتم تعيينه.
 
 ### أنظر أيضا
 

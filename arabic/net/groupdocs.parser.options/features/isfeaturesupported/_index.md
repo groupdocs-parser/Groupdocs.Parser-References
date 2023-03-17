@@ -3,7 +3,7 @@ title: IsFeatureSupported
 second_title: GroupDocs.Parser لمرجع .NET API
 description: إرجاع القيمة التي تشير إلى ما إذا كانت الميزة مدعومة.
 type: docs
-weight: 180
+weight: 200
 url: /ar/net/groupdocs.parser.options/features/isfeaturesupported/
 ---
 ## Features.IsFeatureSupported method
@@ -20,7 +20,7 @@ public bool IsFeatureSupported(string featureName)
 
 ### قيمة الإرجاع
 
-`حقيقي` إذا كانت الميزة مدعومة ؛ خلاف ذلك،`خاطئة`.
+`حقيقي` إذا كانت الميزة مدعومة ؛ خلاف ذلك،`خطأ شنيع`.
 
 ### أنظر أيضا
 

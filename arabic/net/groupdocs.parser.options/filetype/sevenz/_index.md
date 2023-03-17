@@ -1,14 +1,14 @@
 ---
 title: SEVENZ
 second_title: GroupDocs.Parser لمرجع .NET API
-description: 7z هو تنسيق أرشفة لضغط الملفات والمجلدات بنسبة ضغط عالية. تعرف على المزيد حول تنسيق الملف هذا هناhttps//wiki.fileformat.com/compression/7z/ .
+description: 7z هو تنسيق أرشفة لضغط الملفات والمجلدات بنسبة ضغط عالية . تعرف على المزيد حول تنسيق الملف هذا هناhttps//wiki.fileformat.com/compression/7z/ .
 type: docs
 weight: 670
 url: /ar/net/groupdocs.parser.options/filetype/sevenz/
 ---
 ## FileType.SEVENZ field
 
-7z هو تنسيق أرشفة لضغط الملفات والمجلدات بنسبة ضغط عالية. تعرف على المزيد حول تنسيق الملف هذا [هنا](https://wiki.fileformat.com/compression/7z/) .
+7z هو تنسيق أرشفة لضغط الملفات والمجلدات بنسبة ضغط عالية . تعرف على المزيد حول تنسيق الملف هذا [هنا](https://wiki.fileformat.com/compression/7z/) .
 
 ```csharp
 public static readonly FileType SEVENZ;

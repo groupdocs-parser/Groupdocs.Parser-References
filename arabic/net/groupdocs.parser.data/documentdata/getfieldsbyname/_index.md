@@ -26,7 +26,7 @@ public IList<FieldData> GetFieldsByName(string fieldName)
 
 ابحث عن الحقول حسب اسم الحقل:
 
-[`FieldData`](../../fielddata) فئة تمثل البيانات الميدانية. حسب المجال[`PageArea`](../../fielddata/pagearea) يمكن أن تحتوي property على أي من ورثة[`PageArea`](../../pagearea) صف دراسي. فمثلا،[`ParseForm`](../../../groupdocs.parser/parser/parseform) method استخراج الحقول النصية فقط.
+[`FieldData`](../../fielddata) فئة تمثل البيانات الميدانية. حسب المجال[`PageArea`](../../fielddata/pagearea) يمكن أن تحتوي property على أي من ورثة[`PageArea`](../../pagearea) فصل. على سبيل المثال،[`ParseForm`](../../../groupdocs.parser/parser/parseform) method استخراج الحقول النصية فقط.
 
 ```csharp
 // احصل على جميع الحقول مع اسم "العنوان"
