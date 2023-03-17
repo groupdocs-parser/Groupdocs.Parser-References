@@ -1,0 +1,172 @@
+---
+title: SearchOptions
+second_title: .NET API 참조용 GroupDocs.Parser
+description: 의 새 인스턴스를 초기화합니다.SearchOptionsgroupdocs.parser.options/searchoptions 클래스.
+type: docs
+weight: 10
+url: /ko/net/groupdocs.parser.options/searchoptions/searchoptions/
+---
+## SearchOptions(bool, bool, bool, bool, HighlightOptions, HighlightOptions) {#constructor_3}
+
+의 새 인스턴스를 초기화합니다.[`SearchOptions`](../../searchoptions) 클래스.
+
+```csharp
+public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpression, 
+    bool searchByPages, HighlightOptions leftHighlightOptions, 
+    HighlightOptions rightHighlightOptions)
+```
+
+| 모수 | 유형 | 설명 |
+| --- | --- | --- |
+| matchCase | Boolean | 텍스트 대소문자가 무시되지 않는지 여부를 나타내는 값입니다. |
+| matchWholeWord | Boolean | 텍스트 검색이 전체 단어로 제한되는지 여부를 나타내는 값입니다. |
+| useRegularExpression | Boolean | 정규식이 사용되는지 여부를 나타내는 값입니다. |
+| searchByPages | Boolean | 검색이 페이지별로 수행되는지 여부를 나타내는 값입니다. |
+| leftHighlightOptions | HighlightOptions | 왼쪽 하이라이트에 대한 옵션입니다. |
+| rightHighlightOptions | HighlightOptions | 오른쪽 하이라이트 옵션. |
+
+### 또한보십시오
+
+* class [HighlightOptions](../../highlightoptions)
+* class [SearchOptions](../../searchoptions)
+* 네임스페이스 [GroupDocs.Parser.Options](../../searchoptions)
+* 집회 [GroupDocs.Parser](../../../)
+
+---
+
+## SearchOptions(bool, bool, bool, HighlightOptions, HighlightOptions) {#constructor_5}
+
+의 새 인스턴스를 초기화합니다.[`SearchOptions`](../../searchoptions) 왼쪽 및 오른쪽 하이라이트 추출에 대한 하이라이트 옵션으로 search 에 사용되는 클래스입니다.
+
+```csharp
+public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpression, 
+    HighlightOptions leftHighlightOptions, HighlightOptions rightHighlightOptions)
+```
+
+| 모수 | 유형 | 설명 |
+| --- | --- | --- |
+| matchCase | Boolean | 텍스트 대소문자가 무시되지 않는지 여부를 나타내는 값입니다. |
+| matchWholeWord | Boolean | 텍스트 검색이 전체 단어로 제한되는지 여부를 나타내는 값입니다. |
+| useRegularExpression | Boolean | 정규식이 사용되는지 여부를 나타내는 값입니다. |
+| leftHighlightOptions | HighlightOptions | 왼쪽 하이라이트에 대한 옵션입니다. |
+| rightHighlightOptions | HighlightOptions | 오른쪽 하이라이트 옵션. |
+
+### 또한보십시오
+
+* class [HighlightOptions](../../highlightoptions)
+* class [SearchOptions](../../searchoptions)
+* 네임스페이스 [GroupDocs.Parser.Options](../../searchoptions)
+* 집회 [GroupDocs.Parser](../../../)
+
+---
+
+## SearchOptions(bool, bool, bool, HighlightOptions) {#constructor_4}
+
+의 새 인스턴스를 초기화합니다.[`SearchOptions`](../../searchoptions) 왼쪽과 오른쪽 하이라이트 추출에 대해 동일한 하이라이트 옵션으로 search 에 사용되는 클래스입니다.
+
+```csharp
+public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpression, 
+    HighlightOptions highlightOptions)
+```
+
+| 모수 | 유형 | 설명 |
+| --- | --- | --- |
+| matchCase | Boolean | 텍스트 대소문자가 무시되지 않는지 여부를 나타내는 값입니다. |
+| matchWholeWord | Boolean | 텍스트 검색이 전체 단어로 제한되는지 여부를 나타내는 값입니다. |
+| useRegularExpression | Boolean | 정규식이 사용되는지 여부를 나타내는 값입니다. |
+| highlightOptions | HighlightOptions | 두 옵션 모두 강조 표시됩니다. |
+
+### 또한보십시오
+
+* class [HighlightOptions](../../highlightoptions)
+* class [SearchOptions](../../searchoptions)
+* 네임스페이스 [GroupDocs.Parser.Options](../../searchoptions)
+* 집회 [GroupDocs.Parser](../../../)
+
+---
+
+## SearchOptions(bool, bool, bool) {#constructor_1}
+
+의 새 인스턴스를 초기화합니다.[`SearchOptions`](../../searchoptions) 하이라이트 추출 없이 를 검색하는데 사용되는 클래스.
+
+```csharp
+public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpression)
+```
+
+| 모수 | 유형 | 설명 |
+| --- | --- | --- |
+| matchCase | Boolean | 텍스트 대소문자가 무시되지 않는지 여부를 나타내는 값입니다. |
+| matchWholeWord | Boolean | 텍스트 검색이 전체 단어로 제한되는지 여부를 나타내는 값입니다. |
+| useRegularExpression | Boolean | 정규식이 사용되는지 여부를 나타내는 값입니다. |
+
+### 또한보십시오
+
+* class [SearchOptions](../../searchoptions)
+* 네임스페이스 [GroupDocs.Parser.Options](../../searchoptions)
+* 집회 [GroupDocs.Parser](../../../)
+
+---
+
+## SearchOptions(bool, bool, bool, bool) {#constructor_2}
+
+의 새 인스턴스를 초기화합니다.[`SearchOptions`](../../searchoptions)강조 추출 없이 페이지와 로 검색하는 데 사용되는 클래스입니다.
+
+```csharp
+public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpression, 
+    bool searchByPages)
+```
+
+| 모수 | 유형 | 설명 |
+| --- | --- | --- |
+| matchCase | Boolean | 텍스트 대소문자가 무시되지 않는지 여부를 나타내는 값입니다. |
+| matchWholeWord | Boolean | 텍스트 검색이 전체 단어로 제한되는지 여부를 나타내는 값입니다. |
+| useRegularExpression | Boolean | 정규식이 사용되는지 여부를 나타내는 값입니다. |
+| searchByPages | Boolean | 검색이 페이지별로 수행되는지 여부를 나타내는 값입니다. |
+
+### 또한보십시오
+
+* class [SearchOptions](../../searchoptions)
+* 네임스페이스 [GroupDocs.Parser.Options](../../searchoptions)
+* 집회 [GroupDocs.Parser](../../../)
+
+---
+
+## SearchOptions() {#constructor}
+
+의 새 인스턴스를 초기화합니다.[`SearchOptions`](../../searchoptions) 기본값이 있는 클래스. 자세한 내용은 비고를 참조하십시오.
+
+```csharp
+public SearchOptions()
+```
+
+### 비고
+
+다음 속성에는 기본값이 있습니다.
+
+**[`MatchCase`](../matchcase)**
+
+`거짓`
+
+**[`MatchWholeWord`](../matchwholeword)**
+
+`거짓`
+
+**[`UseRegularExpression`](../useregularexpression)**
+
+`거짓`
+
+**[`LeftHighlightOptions`](../lefthighlightoptions)**
+
+`없는`
+
+**[`RightHighlightOptions`](../righthighlightoptions)**
+
+`없는`
+
+### 또한보십시오
+
+* class [SearchOptions](../../searchoptions)
+* 네임스페이스 [GroupDocs.Parser.Options](../../searchoptions)
+* 집회 [GroupDocs.Parser](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Parser.dll -->
