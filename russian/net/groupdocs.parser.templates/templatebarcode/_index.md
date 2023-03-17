@@ -3,7 +3,7 @@ title: TemplateBarcode
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Предоставляет поле штрихкода шаблона.
 type: docs
-weight: 610
+weight: 660
 url: /ru/net/groupdocs.parser.templates/templatebarcode/
 ---
 ## TemplateBarcode class

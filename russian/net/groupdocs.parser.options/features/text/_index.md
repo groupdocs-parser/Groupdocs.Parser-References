@@ -3,7 +3,7 @@ title: Text
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Получает значение указывающее поддерживается ли извлечение текста.
 type: docs
-weight: 140
+weight: 160
 url: /ru/net/groupdocs.parser.options/features/text/
 ---
 ## Features.Text property

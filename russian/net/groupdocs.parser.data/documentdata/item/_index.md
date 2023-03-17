@@ -20,13 +20,13 @@ public FieldData this[int index] { get; }
 
 ### Возвращаемое значение
 
-Экземпляр[`FieldData`](../../fielddata) учебный класс.
+Экземпляр[`FieldData`](../../fielddata) сорт.
 
 ### Примеры
 
 Перебор по всем полям:
 
-[`FieldData`](../../fielddata) класс представляет данные поля. В зависимости от поля[`PageArea`](../../fielddata/pagearea) property может содержать любого из наследников[`PageArea`](../../pagearea) учебный класс. Например,[`ParseForm`](../../../groupdocs.parser/parser/parseform) method извлекает только текстовые поля:
+[`FieldData`](../../fielddata) класс представляет данные поля. В зависимости от поля[`PageArea`](../../fielddata/pagearea) property может содержать любого из наследников[`PageArea`](../../pagearea) сорт. Например,[`ParseForm`](../../../groupdocs.parser/parser/parseform) method извлекает только текстовые поля:
 
 ```csharp
 for (int i = 0; i < data.Count; i++)

@@ -22,7 +22,7 @@ public IEnumerable<ContainerItem> GetContainer()
 
 Чтобы проверить, поддерживает ли формат извлечение вложений, см.[Поддерживаемые форматы документов](https://docs.groupdocs.com/parser/net/supported-document-formats/) (**Извлечение контейнеров и вложений** столбец).
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечение данных из вложений и ZIP-архивов](https://docs.groupdocs.com/display/parsernet/Extract+data+from+attachments+and+ZIP+archives)
 * [Итерация по элементам контейнера](https://docs.groupdocs.com/display/parsernet/Iterate+through+container+items)

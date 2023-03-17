@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /ru/net/groupdocs.parser.options/textoptions/textoptions/
 ---
-## TextOptions constructor
+## TextOptions(bool) {#constructor}
 
 Инициализирует новый экземпляр[`TextOptions`](../../textoptions) класс.
 
@@ -20,6 +20,50 @@ public TextOptions(bool useRawModeIfPossible)
 
 ### Смотрите также
 
+* class [TextOptions](../../textoptions)
+* пространство имен [GroupDocs.Parser.Options](../../textoptions)
+* сборка [GroupDocs.Parser](../../../)
+
+---
+
+## TextOptions(bool, bool) {#constructor_1}
+
+Инициализирует новый экземпляр[`TextOptions`](../../textoptions) класс с опцией использования OCR.
+
+```csharp
+public TextOptions(bool useRawModeIfPossible, bool useOcr)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| useRawModeIfPossible | Boolean | Значение, указывающее, используется ли необработанный режим. |
+| useOcr | Boolean | Значение, указывающее, используется ли функция OCR для извлечения текста. |
+
+### Смотрите также
+
+* class [TextOptions](../../textoptions)
+* пространство имен [GroupDocs.Parser.Options](../../textoptions)
+* сборка [GroupDocs.Parser](../../../)
+
+---
+
+## TextOptions(bool, bool, OcrOptions) {#constructor_2}
+
+Инициализирует новый экземпляр[`TextOptions`](../../textoptions) класс с возможностью установки опций OCR.
+
+```csharp
+public TextOptions(bool useRawModeIfPossible, bool useOcr, OcrOptions ocrOptions)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| useRawModeIfPossible | Boolean | Значение, указывающее, используется ли необработанный режим. |
+| useOcr | Boolean | Значение, указывающее, используется ли функция OCR для извлечения текста. |
+| ocrOptions | OcrOptions | Дополнительные параметры для функциональности OCR. |
+
+### Смотрите также
+
+* class [OcrOptions](../../ocroptions)
 * class [TextOptions](../../textoptions)
 * пространство имен [GroupDocs.Parser.Options](../../textoptions)
 * сборка [GroupDocs.Parser](../../../)

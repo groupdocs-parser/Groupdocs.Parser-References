@@ -3,7 +3,7 @@ title: PreviewPageRender
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Представляет метод который вызывается перед визуализацией страницы документа.
 type: docs
-weight: 540
+weight: 590
 url: /ru/net/groupdocs.parser.options/previewpagerender/
 ---
 ## PreviewPageRender delegate

@@ -20,7 +20,7 @@ public TemplateItem this[int index] { get; }
 
 ### Возвращаемое значение
 
-Экземпляр[`TemplateItem`](../../templateitem) учебный класс.
+Экземпляр[`TemplateItem`](../../templateitem) сорт.
 
 ### Смотрите также
 

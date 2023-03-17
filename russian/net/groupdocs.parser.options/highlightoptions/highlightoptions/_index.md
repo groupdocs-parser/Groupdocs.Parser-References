@@ -1,14 +1,14 @@
 ---
 title: HighlightOptions
 second_title: Справочник по API GroupDocs.Parser для .NET
-description: Инициализирует новый экземплярHighlightOptionsgroupdocs.parser.options/highlightoptionsclass который используется для извлечения выделения фиксированной длины.
+description: Инициализирует новый экземплярHighlightOptionsgroupdocs.parser.options/highlightoptions class который используется для извлечения выделения фиксированной длины.
 type: docs
 weight: 10
 url: /ru/net/groupdocs.parser.options/highlightoptions/highlightoptions/
 ---
 ## HighlightOptions(int) {#constructor}
 
-Инициализирует новый экземпляр[`HighlightOptions`](../../highlightoptions)class, который используется для извлечения выделения фиксированной длины.
+Инициализирует новый экземпляр[`HighlightOptions`](../../highlightoptions) class, который используется для извлечения выделения фиксированной длины.
 
 ```csharp
 public HighlightOptions(int maxLength)

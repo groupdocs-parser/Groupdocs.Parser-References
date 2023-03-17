@@ -3,7 +3,7 @@ title: Parser
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Представляет основной класс управляющий текстом изображениями извлечением контейнеров и функциями синтаксического анализа.
 type: docs
-weight: 590
+weight: 640
 url: /ru/net/groupdocs.parser/parser/
 ---
 ## Parser class
@@ -21,13 +21,15 @@ public sealed class Parser : IDisposable
 | [Parser](parser#constructor_2)(DbConnection) | Инициализирует новый экземпляр[`Parser`](../parser) класс для извлечения данных из базы данных. |
 | [Parser](parser#constructor)(EmailConnection) | Инициализирует новый экземпляр[`Parser`](../parser) класс для извлечения данных с удаленного почтового сервера. |
 | [Parser](parser#constructor_4)(Stream) | Инициализирует новый экземпляр[`Parser`](../parser) класс. |
-| [Parser](parser#constructor_7)(string) | Инициализирует новый экземпляр[`Parser`](../parser) класс. |
+| [Parser](parser#constructor_8)(string) | Инициализирует новый экземпляр[`Parser`](../parser) класс. |
 | [Parser](parser#constructor_3)(DbConnection, ParserSettings) | Инициализирует новый экземпляр[`Parser`](../parser) класс для извлечения данных из базы данных. |
 | [Parser](parser#constructor_1)(EmailConnection, ParserSettings) | Инициализирует новый экземпляр[`Parser`](../parser) класс для извлечения данных с удаленного почтового сервера. |
 | [Parser](parser#constructor_5)(Stream, LoadOptions) | Инициализирует новый экземпляр[`Parser`](../parser) класс с[`LoadOptions`](../../groupdocs.parser.options/loadoptions) . |
-| [Parser](parser#constructor_8)(string, LoadOptions) | Инициализирует новый экземпляр[`Parser`](../parser) класс с[`LoadOptions`](../../groupdocs.parser.options/loadoptions) . |
+| [Parser](parser#constructor_7)(Stream, ParserSettings) | Инициализирует новый экземпляр[`Parser`](../parser) класс с[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
+| [Parser](parser#constructor_9)(string, LoadOptions) | Инициализирует новый экземпляр[`Parser`](../parser) класс с[`LoadOptions`](../../groupdocs.parser.options/loadoptions) . |
+| [Parser](parser#constructor_11)(string, ParserSettings) | Инициализирует новый экземпляр[`Parser`](../parser) класс с[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
 | [Parser](parser#constructor_6)(Stream, LoadOptions, ParserSettings) | Инициализирует новый экземпляр[`Parser`](../parser) класс с[`LoadOptions`](../../groupdocs.parser.options/loadoptions) и[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
-| [Parser](parser#constructor_9)(string, LoadOptions, ParserSettings) | Инициализирует новый экземпляр[`Parser`](../parser) класс с[`LoadOptions`](../../groupdocs.parser.options/loadoptions) и[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
+| [Parser](parser#constructor_10)(string, LoadOptions, ParserSettings) | Инициализирует новый экземпляр[`Parser`](../parser) класс с[`LoadOptions`](../../groupdocs.parser.options/loadoptions) и[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
 
 ## Характеристики
 

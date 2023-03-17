@@ -16,7 +16,7 @@ public TemplateTableLayout TableLayout { get; }
 
 ### Стоимость имущества
 
-Инстанс[`TemplateTableLayout`](../../../groupdocs.parser.templates/templatetablelayout) учебный класс.
+Инстанс[`TemplateTableLayout`](../../../groupdocs.parser.templates/templatetablelayout) сорт.
 
 ### Смотрите также
 

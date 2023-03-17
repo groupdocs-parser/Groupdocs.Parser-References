@@ -3,7 +3,7 @@ title: UniteSegments
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Получает значение указывающее объединены ли сегменты.
 type: docs
-weight: 50
+weight: 60
 url: /ru/net/groupdocs.parser.options/pagetextareaoptions/unitesegments/
 ---
 ## PageTextAreaOptions.UniteSegments property

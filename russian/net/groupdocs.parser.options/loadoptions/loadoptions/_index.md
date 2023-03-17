@@ -24,7 +24,7 @@ public LoadOptions()
 
 ## LoadOptions(string) {#constructor_4}
 
-Инициализирует новый экземпляр[`LoadOptions`](../../loadoptions)class с[`FileFormat`](../fileformat) равноUnknown и кодировки по умолчанию.
+Инициализирует новый экземпляр[`LoadOptions`](../../loadoptions) class с[`FileFormat`](../fileformat) равноUnknown и кодировки по умолчанию.
 
 ```csharp
 public LoadOptions(string password)
@@ -44,7 +44,7 @@ public LoadOptions(string password)
 
 ## LoadOptions(FileFormat) {#constructor_1}
 
-Инициализирует новый экземпляр[`LoadOptions`](../../loadoptions) class с пустым[`Password`](../password) и кодировки по умолчанию.
+Инициализирует новый экземпляр[`LoadOptions`](../../loadoptions) class с пустым[`Password`](../password)и кодировки по умолчанию.
 
 ```csharp
 public LoadOptions(FileFormat fileFormat)

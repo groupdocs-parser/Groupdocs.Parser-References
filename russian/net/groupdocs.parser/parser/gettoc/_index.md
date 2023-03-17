@@ -20,7 +20,7 @@ public IEnumerable<TocItem> GetToc()
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечь оглавление](https://docs.groupdocs.com/display/parsernet/Extract+table+of+contents)
 * [Извлечь текст по элементу оглавления](https://docs.groupdocs.com/display/parsernet/Extract+text+by+table+of+contents+item)

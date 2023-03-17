@@ -20,7 +20,7 @@ public PageArea PageArea { get; }
 
 ### Примеры
 
-В зависимости от поля`PageArea` property может содержать любого из наследников[`PageArea`](../../pagearea) учебный класс. Например,[`ParseForm`](../../../groupdocs.parser/parser/parseform) метод извлекает только текстовые поля.
+В зависимости от поля`PageArea` property может содержать любого из наследников[`PageArea`](../../pagearea) сорт. Например,[`ParseForm`](../../../groupdocs.parser/parser/parseform) метод извлекает только текстовые поля.
 
 ```csharp
 // Получить данные поля

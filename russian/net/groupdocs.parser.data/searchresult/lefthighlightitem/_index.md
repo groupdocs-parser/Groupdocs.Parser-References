@@ -16,7 +16,7 @@ public HighlightItem LeftHighlightItem { get; }
 
 ### Стоимость имущества
 
-Экземпляр[`HighlightItem`](../../highlightitem) учебный класс;`нулевой` если он не установлен.
+Экземпляр[`HighlightItem`](../../highlightitem) сорт;`нулевой` если он не установлен.
 
 ### Смотрите также
 

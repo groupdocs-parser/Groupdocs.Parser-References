@@ -3,7 +3,7 @@ title: Logger
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Получает регистратор который используется для регистрации событий и ошибок во время извлечения данных.
 type: docs
-weight: 20
+weight: 30
 url: /ru/net/groupdocs.parser.options/parsersettings/logger/
 ---
 ## ParserSettings.Logger property

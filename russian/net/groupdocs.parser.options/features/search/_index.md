@@ -3,7 +3,7 @@ title: Search
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Получает значение указывающее поддерживается ли текстовый поиск.
 type: docs
-weight: 110
+weight: 130
 url: /ru/net/groupdocs.parser.options/features/search/
 ---
 ## Features.Search property

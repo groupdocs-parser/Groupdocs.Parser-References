@@ -3,7 +3,7 @@ title: PageTableAreaOptions
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Предоставляет параметры используемые для извлечения областей таблицы страниц.
 type: docs
-weight: 490
+weight: 540
 url: /ru/net/groupdocs.parser.options/pagetableareaoptions/
 ---
 ## PageTableAreaOptions class
@@ -29,7 +29,7 @@ public sealed class PageTableAreaOptions : PageAreaOptions
 
 ### Примечания
 
-Экземпляр[`PageTableAreaOptions`](../pagetableareaoptions) класс используется как параметр в[`GetTables`](../../groupdocs.parser/parser/gettables) а также[`GetTables`](../../groupdocs.parser/parser/gettables) методы. См. примеры использования здесь.
+Экземпляр[`PageTableAreaOptions`](../pagetableareaoptions) класс используется как параметр в[`GetTables`](../../groupdocs.parser/parser/gettables) и[`GetTables`](../../groupdocs.parser/parser/gettables) методы. См. примеры использования здесь.
 
 ### Смотрите также
 

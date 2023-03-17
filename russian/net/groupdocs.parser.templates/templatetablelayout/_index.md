@@ -3,7 +3,7 @@ title: TemplateTableLayout
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Предоставляет макет таблицы шаблонов который используетсяTemplateTable./templatetable класс для определения позиции таблицы.
 type: docs
-weight: 700
+weight: 750
 url: /ru/net/groupdocs.parser.templates/templatetablelayout/
 ---
 ## TemplateTableLayout class

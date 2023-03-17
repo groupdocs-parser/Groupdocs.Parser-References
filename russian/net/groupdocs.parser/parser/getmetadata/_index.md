@@ -20,7 +20,7 @@ public IEnumerable<MetadataItem> GetMetadata()
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечение метаданных из документов](https://docs.groupdocs.com/display/parsernet/Extract+metadata+from+documents)
 * [Извлечение метаданных из документов Microsoft Office Word](https://docs.groupdocs.com/display/parsernet/Extract+metadata+from+Microsoft+Office+Word+documents)

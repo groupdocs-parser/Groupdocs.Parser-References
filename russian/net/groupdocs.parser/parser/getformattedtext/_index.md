@@ -24,7 +24,7 @@ public TextReader GetFormattedText(FormattedTextOptions options)
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечь форматированный текст из документа](https://docs.groupdocs.com/display/parsernet/Extract+formatted+text+from+document)
 * Извлечь текст документа как[HTML](https://docs.groupdocs.com/display/parsernet/HTML)
@@ -77,7 +77,7 @@ public TextReader GetFormattedText(int pageIndex, FormattedTextOptions options)
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечь форматированный текст со страницы документа](https://docs.groupdocs.com/display/parsernet/Extract+formatted+text+from+document+page)
 * Извлечь текст документа как[HTML](https://docs.groupdocs.com/display/parsernet/HTML)

@@ -3,7 +3,7 @@ title: TemplatePosition
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Предоставляет базовый абстрактный класс для позиций шаблона.
 type: docs
-weight: 670
+weight: 720
 url: /ru/net/groupdocs.parser.templates/templateposition/
 ---
 ## TemplatePosition class

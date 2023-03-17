@@ -3,7 +3,7 @@ title: Structure
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Получает значение указывающее поддерживается ли извлечение структуры текста.
 type: docs
-weight: 120
+weight: 140
 url: /ru/net/groupdocs.parser.options/features/structure/
 ---
 ## Features.Structure property

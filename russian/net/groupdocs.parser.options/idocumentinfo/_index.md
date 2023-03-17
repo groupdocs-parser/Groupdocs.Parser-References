@@ -3,7 +3,7 @@ title: IDocumentInfo
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Представляет информацию о документе.
 type: docs
-weight: 410
+weight: 430
 url: /ru/net/groupdocs.parser.options/idocumentinfo/
 ---
 ## IDocumentInfo interface
@@ -26,7 +26,7 @@ public interface IDocumentInfo
 
 ### Примечания
 
-Объекты, реализующие этот интерфейс, возвращаются[`GetDocumentInfo`](../../groupdocs.parser/parser/getdocumentinfo) method. См. примеры использования здесь. **Учить больше:**
+Объекты, реализующие этот интерфейс, возвращаются[`GetDocumentInfo`](../../groupdocs.parser/parser/getdocumentinfo) method. См. примеры использования здесь. **Узнать больше:**
 
 * [Получить информацию о документе](https://docs.groupdocs.com/display/parsernet/Get+document+info)
 * [Определить кодировку](https://docs.groupdocs.com/display/parsernet/Detect+encoding)

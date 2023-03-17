@@ -26,7 +26,7 @@ public static FileType FromExtension(string extension)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Брошен, когда*extension*является нулевым или пустой строкой. |
+| ArgumentException | Брошен, когда*extension* является нулевым или пустой строкой. |
 
 ### Смотрите также
 

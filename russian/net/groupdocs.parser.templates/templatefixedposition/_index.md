@@ -3,7 +3,7 @@ title: TemplateFixedPosition
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Предоставляет позицию поля шаблона определяемую прямоугольной областью.
 type: docs
-weight: 630
+weight: 680
 url: /ru/net/groupdocs.parser.templates/templatefixedposition/
 ---
 ## TemplateFixedPosition class

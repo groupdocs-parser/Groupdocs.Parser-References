@@ -3,7 +3,7 @@ title: Tables
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Получает значение указывающее поддерживается ли извлечение таблиц.
 type: docs
-weight: 130
+weight: 150
 url: /ru/net/groupdocs.parser.options/features/tables/
 ---
 ## Features.Tables property

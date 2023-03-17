@@ -3,7 +3,7 @@ title: TemplateLinkedPositionEdges
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Предоставляет края связанного поля где ищется текстовое поле. TemplateLinkedPositionEdges./templatelinkedpositionedges используется вTemplateLinkedPosition./templatelinkedposition класс.
 type: docs
-weight: 660
+weight: 710
 url: /ru/net/groupdocs.parser.templates/templatelinkedpositionedges/
 ---
 ## TemplateLinkedPositionEdges class

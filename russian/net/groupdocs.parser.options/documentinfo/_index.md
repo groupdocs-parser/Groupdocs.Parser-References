@@ -26,7 +26,7 @@ public class DocumentInfo : IDocumentInfo
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Получить информацию о документе](https://docs.groupdocs.com/display/parsernet/Get+document+info)
 * [Определить кодировку](https://docs.groupdocs.com/display/parsernet/Detect+encoding)

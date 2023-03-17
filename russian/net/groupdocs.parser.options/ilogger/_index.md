@@ -3,7 +3,7 @@ title: ILogger
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Определяет интерфейс регистратора который используется для регистрации событий и ошибок при извлечении данных.
 type: docs
-weight: 420
+weight: 440
 url: /ru/net/groupdocs.parser.options/ilogger/
 ---
 ## ILogger interface
@@ -24,9 +24,9 @@ public interface ILogger
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
-* [логирование](https://docs.groupdocs.com/display/parsernet/Logging)
+* [Ведение журнала](https://docs.groupdocs.com/display/parsernet/Logging)
 
 ### Смотрите также
 

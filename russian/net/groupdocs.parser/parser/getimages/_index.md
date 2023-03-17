@@ -20,7 +20,7 @@ public IEnumerable<PageImageArea> GetImages()
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечение изображений из документов](https://docs.groupdocs.com/display/parsernet/Extract+images+from+documents)
 * [Извлечь изображения в файлы](https://docs.groupdocs.com/display/parsernet/Extract+images+to+files)
@@ -82,7 +82,7 @@ public IEnumerable<PageImageArea> GetImages(PageAreaOptions options)
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечение изображений из документов](https://docs.groupdocs.com/display/parsernet/Extract+images+from+documents)
 * [Извлечь изображения в файлы](https://docs.groupdocs.com/display/parsernet/Extract+images+to+files)
@@ -148,7 +148,7 @@ public IEnumerable<PageImageArea> GetImages(int pageIndex)
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечение изображений из документов](https://docs.groupdocs.com/display/parsernet/Extract+images+from+documents)
 * [Извлечь изображения в файлы](https://docs.groupdocs.com/display/parsernet/Extract+images+to+files)
@@ -227,7 +227,7 @@ public IEnumerable<PageImageArea> GetImages(int pageIndex, PageAreaOptions optio
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечение изображений из документов](https://docs.groupdocs.com/display/parsernet/Extract+images+from+documents)
 * [Извлечь изображения в файлы](https://docs.groupdocs.com/display/parsernet/Extract+images+to+files)

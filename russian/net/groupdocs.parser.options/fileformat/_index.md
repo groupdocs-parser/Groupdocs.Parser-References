@@ -3,7 +3,7 @@ title: FileFormat
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Определяет тип файла.
 type: docs
-weight: 340
+weight: 360
 url: /ru/net/groupdocs.parser.options/fileformat/
 ---
 ## FileFormat enumeration
@@ -33,7 +33,7 @@ public enum FileFormat
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Загрузка определенных форматов файлов](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
 

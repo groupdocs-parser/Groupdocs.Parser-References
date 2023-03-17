@@ -1,14 +1,14 @@
 ---
 title: ParserSettings
 second_title: Справочник по API GroupDocs.Parser для .NET
-description: Инициализирует новый экземплярParserSettingsgroupdocs.parser.options/parsersettings класс.
+description: Инициализирует новый экземплярParserSettingsgroupdocs.parser.options/parsersettings класс с регистратором.
 type: docs
 weight: 10
 url: /ru/net/groupdocs.parser.options/parsersettings/parsersettings/
 ---
-## ParserSettings constructor
+## ParserSettings(ILogger) {#constructor_1}
 
-Инициализирует новый экземпляр[`ParserSettings`](../../parsersettings) класс.
+Инициализирует новый экземпляр[`ParserSettings`](../../parsersettings) класс с регистратором.
 
 ```csharp
 public ParserSettings(ILogger logger)
@@ -21,6 +21,97 @@ public ParserSettings(ILogger logger)
 ### Смотрите также
 
 * interface [ILogger](../../ilogger)
+* class [ParserSettings](../../parsersettings)
+* пространство имен [GroupDocs.Parser.Options](../../parsersettings)
+* сборка [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(OcrConnectorBase) {#constructor_4}
+
+Инициализирует новый экземпляр[`ParserSettings`](../../parsersettings) класс с соединителем OCR.
+
+```csharp
+public ParserSettings(OcrConnectorBase ocrConnector)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| ocrConnector | OcrConnectorBase | Экземпляр класса, который наследует[`OcrConnectorBase`](../../ocrconnectorbase) класс для обеспечения функциональности OCR. |
+
+### Смотрите также
+
+* class [OcrConnectorBase](../../ocrconnectorbase)
+* class [ParserSettings](../../parsersettings)
+* пространство имен [GroupDocs.Parser.Options](../../parsersettings)
+* сборка [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(ExternalResourceHandler) {#constructor}
+
+Инициализирует новый экземпляр[`ParserSettings`](../../parsersettings) класс с обработчиком внешних ресурсов.
+
+```csharp
+public ParserSettings(ExternalResourceHandler externalResourceHandler)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| externalResourceHandler | ExternalResourceHandler | Экземпляр класса, который наследует[`ExternalResourceHandler`](../../externalresourcehandler) класс для обеспечения контроля загрузки внешних ресурсов. |
+
+### Смотрите также
+
+* class [ExternalResourceHandler](../../externalresourcehandler)
+* class [ParserSettings](../../parsersettings)
+* пространство имен [GroupDocs.Parser.Options](../../parsersettings)
+* сборка [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(ILogger, OcrConnectorBase) {#constructor_2}
+
+Инициализирует новый экземпляр[`ParserSettings`](../../parsersettings) класс с регистратором и соединителем OCR.
+
+```csharp
+public ParserSettings(ILogger logger, OcrConnectorBase ocrConnector)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| logger | ILogger | Экземпляр класса, который реализует[`ILogger`](../../ilogger) интерфейс. |
+| ocrConnector | OcrConnectorBase | Экземпляр класса, который наследует[`OcrConnectorBase`](../../ocrconnectorbase) класс для обеспечения функциональности OCR. |
+
+### Смотрите также
+
+* interface [ILogger](../../ilogger)
+* class [OcrConnectorBase](../../ocrconnectorbase)
+* class [ParserSettings](../../parsersettings)
+* пространство имен [GroupDocs.Parser.Options](../../parsersettings)
+* сборка [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(ILogger, OcrConnectorBase, ExternalResourceHandler) {#constructor_3}
+
+Инициализирует новый экземпляр[`ParserSettings`](../../parsersettings) класс.
+
+```csharp
+public ParserSettings(ILogger logger, OcrConnectorBase ocrConnector, 
+    ExternalResourceHandler externalResourceHandler)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| logger | ILogger | Экземпляр класса, который реализует[`ILogger`](../../ilogger) интерфейс. |
+| ocrConnector | OcrConnectorBase | Экземпляр класса, который наследует[`OcrConnectorBase`](../../ocrconnectorbase) класс для обеспечения функциональности OCR. |
+| externalResourceHandler | ExternalResourceHandler | Экземпляр класса, который наследует[`ExternalResourceHandler`](../../externalresourcehandler) класс для управления загрузкой внешних ресурсов. |
+
+### Смотрите также
+
+* interface [ILogger](../../ilogger)
+* class [OcrConnectorBase](../../ocrconnectorbase)
+* class [ExternalResourceHandler](../../externalresourcehandler)
 * class [ParserSettings](../../parsersettings)
 * пространство имен [GroupDocs.Parser.Options](../../parsersettings)
 * сборка [GroupDocs.Parser](../../../)

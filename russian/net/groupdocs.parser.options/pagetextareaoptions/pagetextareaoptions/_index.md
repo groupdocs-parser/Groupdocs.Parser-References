@@ -1,12 +1,54 @@
 ---
 title: PageTextAreaOptions
 second_title: Справочник по API GroupDocs.Parser для .NET
-description: Инициализирует новый экземплярPageTextAreaOptionsgroupdocs.parser.options/pagetextareaoptions класс с регулярным выражением. Остальные параметры установлены по умолчанию подробности см. в примечаниях.
+description: Инициализирует новый экземплярPageTextAreaOptionsgroupdocs.parser.options/pagetextareaoptions класс с опцией использования OCR.
 type: docs
 weight: 10
 url: /ru/net/groupdocs.parser.options/pagetextareaoptions/pagetextareaoptions/
 ---
-## PageTextAreaOptions(string) {#constructor}
+## PageTextAreaOptions(bool) {#constructor}
+
+Инициализирует новый экземпляр[`PageTextAreaOptions`](../../pagetextareaoptions) класс с опцией использования OCR.
+
+```csharp
+public PageTextAreaOptions(bool useOcr)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| useOcr | Boolean | Значение, указывающее, используются ли функции OCR для извлечения текстовых областей. |
+
+### Смотрите также
+
+* class [PageTextAreaOptions](../../pagetextareaoptions)
+* пространство имен [GroupDocs.Parser.Options](../../pagetextareaoptions)
+* сборка [GroupDocs.Parser](../../../)
+
+---
+
+## PageTextAreaOptions(bool, OcrOptions) {#constructor_1}
+
+Инициализирует новый экземпляр[`PageTextAreaOptions`](../../pagetextareaoptions) класс с возможностью установки опций OCR.
+
+```csharp
+public PageTextAreaOptions(bool useOcr, OcrOptions ocrOptions)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| useOcr | Boolean | Значение, указывающее, используются ли функции OCR для извлечения текстовых областей. |
+| ocrOptions | OcrOptions | Дополнительные параметры для функциональности OCR. |
+
+### Смотрите также
+
+* class [OcrOptions](../../ocroptions)
+* class [PageTextAreaOptions](../../pagetextareaoptions)
+* пространство имен [GroupDocs.Parser.Options](../../pagetextareaoptions)
+* сборка [GroupDocs.Parser](../../../)
+
+---
+
+## PageTextAreaOptions(string) {#constructor_2}
 
 Инициализирует новый экземпляр[`PageTextAreaOptions`](../../pagetextareaoptions) класс с регулярным выражением. Остальные параметры установлены по умолчанию (подробности см. в примечаниях).
 
@@ -46,7 +88,7 @@ public PageTextAreaOptions(string expression)
 
 ---
 
-## PageTextAreaOptions(string, Rectangle) {#constructor_2}
+## PageTextAreaOptions(string, Rectangle) {#constructor_4}
 
 Инициализирует новый экземпляр[`PageTextAreaOptions`](../../pagetextareaoptions) class с регулярным выражением и прямоугольной областью. Остальные параметры установлены по умолчанию (подробности см. в примечаниях).
 
@@ -84,7 +126,7 @@ public PageTextAreaOptions(string expression, Rectangle rectangle)
 
 ---
 
-## PageTextAreaOptions(string, bool, bool, bool, Rectangle) {#constructor_1}
+## PageTextAreaOptions(string, bool, bool, bool, Rectangle) {#constructor_3}
 
 Инициализирует новый экземпляр[`PageTextAreaOptions`](../../pagetextareaoptions) класс.
 

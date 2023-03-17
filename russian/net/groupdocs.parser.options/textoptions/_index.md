@@ -3,7 +3,7 @@ title: TextOptions
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Предоставляет параметры используемые для извлечения текста.
 type: docs
-weight: 580
+weight: 630
 url: /ru/net/groupdocs.parser.options/textoptions/
 ---
 ## TextOptions class
@@ -18,21 +18,25 @@ public sealed class TextOptions
 
 | Имя | Описание |
 | --- | --- |
-| [TextOptions](textoptions)(bool) | Инициализирует новый экземпляр[`TextOptions`](../textoptions) класс. |
+| [TextOptions](textoptions#constructor)(bool) | Инициализирует новый экземпляр[`TextOptions`](../textoptions) класс. |
+| [TextOptions](textoptions#constructor_1)(bool, bool) | Инициализирует новый экземпляр[`TextOptions`](../textoptions) класс с опцией использования OCR. |
+| [TextOptions](textoptions#constructor_2)(bool, bool, OcrOptions) | Инициализирует новый экземпляр[`TextOptions`](../textoptions) класс с возможностью установки опций OCR. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
+| [OcrOptions](../../groupdocs.parser.options/textoptions/ocroptions) { get; } | Получает дополнительные параметры для функции OCR. |
+| [UseOcr](../../groupdocs.parser.options/textoptions/useocr) { get; } | Получает значение, указывающее, используется ли соединитель OCR для извлечения текста. |
 | [UseRawModeIfPossible](../../groupdocs.parser.options/textoptions/userawmodeifpossible) { get; } | Получает значение, указывающее, используется ли необработанный режим. |
 
 ### Примечания
 
-Экземпляр[`TextOptions`](../textoptions) класс используется как параметр в[`GetText`](../../groupdocs.parser/parser/gettext) а также[`GetText`](../../groupdocs.parser/parser/gettext) методы. См. примеры использования там.
+Экземпляр[`TextOptions`](../textoptions) класс используется как параметр в[`GetText`](../../groupdocs.parser/parser/gettext) и[`GetText`](../../groupdocs.parser/parser/gettext) методы. См. примеры использования там.
 
 Используется для указания необработанного режима извлечения текста. Текст в этом режиме извлекается неточно, но быстрее, чем в стандартном режиме. Если сырой режим не поддерживает формат документа, то этот параметр игнорируется и используется стандартный режим.
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечь текст в точном режиме](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
 * [Извлечение текста в режиме Raw](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Raw+mode)

@@ -3,7 +3,7 @@ title: ParseForm
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Получает значение указывающее поддерживается ли синтаксический анализ формы.
 type: docs
-weight: 100
+weight: 110
 url: /ru/net/groupdocs.parser.options/features/parseform/
 ---
 ## Features.ParseForm property

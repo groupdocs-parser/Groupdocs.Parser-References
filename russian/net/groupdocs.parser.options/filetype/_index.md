@@ -3,7 +3,7 @@ title: FileType
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Представляет тип файла. Предоставляет методы для получения списка всех типов файлов поддерживаемыхGroupDocs.Парсер .
 type: docs
-weight: 360
+weight: 380
 url: /ru/net/groupdocs.parser.options/filetype/
 ---
 ## FileType class
@@ -131,7 +131,7 @@ public sealed class FileType : IEquatable<FileType>
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Поддерживаемые форматы документов](https://docs.groupdocs.com/display/parsernet/Supported+Document+Formats)
 * [Получить поддерживаемые форматы файлов](https://docs.groupdocs.com/display/parsernet/Get+supported+file+formats)

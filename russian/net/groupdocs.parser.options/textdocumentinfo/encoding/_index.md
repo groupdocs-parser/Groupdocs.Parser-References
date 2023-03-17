@@ -16,7 +16,7 @@ public Encoding Encoding { get; }
 
 ### Стоимость имущества
 
-ЭкземплярEncoding учебный класс.
+ЭкземплярEncoding сорт.
 
 ### Смотрите также
 

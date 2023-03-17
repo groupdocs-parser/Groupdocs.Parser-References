@@ -29,7 +29,7 @@ public sealed class MetadataItem
 
 ### Примечания
 
-Экземпляр[`MetadataItem`](../metadataitem) класс используется как возвращаемое значение из[`GetMetadata`](../../groupdocs.parser/parser/getmetadata) метод и как элемент в[`Metadata`](../containeritem/metadata)collection. См. примеры использования здесь.
+Экземпляр[`MetadataItem`](../metadataitem) класс используется как возвращаемое значение из[`GetMetadata`](../../groupdocs.parser/parser/getmetadata) метод и как элемент в[`Metadata`](../containeritem/metadata) collection. См. примеры использования здесь.
 
 ### Смотрите также
 
