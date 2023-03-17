@@ -1,14 +1,14 @@
 ---
 title: FormattedTextPage
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取是否支持格式化文本页面提取的值
+description: 获取是否支持格式化文本页提取的值
 type: docs
 weight: 40
 url: /zh/net/groupdocs.parser.options/features/formattedtextpage/
 ---
 ## Features.FormattedTextPage property
 
-获取是否支持格式化文本页面提取的值。
+获取是否支持格式化文本页提取的值。
 
 ```csharp
 public bool FormattedTextPage { get; }

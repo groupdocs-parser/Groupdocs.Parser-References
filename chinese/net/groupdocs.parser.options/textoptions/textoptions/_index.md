@@ -1,14 +1,14 @@
 ---
 title: TextOptions
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化TextOptionsgroupdocs.parser.options/textoptions类.
+description: 初始化一个新的实例TextOptionsgroupdocs.parser.options/textoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.options/textoptions/textoptions/
 ---
-## TextOptions constructor
+## TextOptions(bool) {#constructor}
 
-初始化[`TextOptions`](../../textoptions)类.
+初始化一个新的实例[`TextOptions`](../../textoptions)类.
 
 ```csharp
 public TextOptions(bool useRawModeIfPossible)
@@ -20,6 +20,50 @@ public TextOptions(bool useRawModeIfPossible)
 
 ### 也可以看看
 
+* class [TextOptions](../../textoptions)
+* 命名空间 [GroupDocs.Parser.Options](../../textoptions)
+* 部件 [GroupDocs.Parser](../../../)
+
+---
+
+## TextOptions(bool, bool) {#constructor_1}
+
+初始化一个新的实例[`TextOptions`](../../textoptions)具有 OCR 使用选项的类。
+
+```csharp
+public TextOptions(bool useRawModeIfPossible, bool useOcr)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| useRawModeIfPossible | Boolean | 指示是否使用原始模式的值。 |
+| useOcr | Boolean | 指示 OCR 功能是否用于提取文本的值。 |
+
+### 也可以看看
+
+* class [TextOptions](../../textoptions)
+* 命名空间 [GroupDocs.Parser.Options](../../textoptions)
+* 部件 [GroupDocs.Parser](../../../)
+
+---
+
+## TextOptions(bool, bool, OcrOptions) {#constructor_2}
+
+初始化一个新的实例[`TextOptions`](../../textoptions)具有设置 OCR 选项的能力的类。
+
+```csharp
+public TextOptions(bool useRawModeIfPossible, bool useOcr, OcrOptions ocrOptions)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| useRawModeIfPossible | Boolean | 指示是否使用原始模式的值。 |
+| useOcr | Boolean | 指示 OCR 功能是否用于提取文本的值。 |
+| ocrOptions | OcrOptions | OCR 功能的附加选项。 |
+
+### 也可以看看
+
+* class [OcrOptions](../../ocroptions)
 * class [TextOptions](../../textoptions)
 * 命名空间 [GroupDocs.Parser.Options](../../textoptions)
 * 部件 [GroupDocs.Parser](../../../)

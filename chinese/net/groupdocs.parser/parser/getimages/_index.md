@@ -16,11 +16,11 @@ public IEnumerable<PageImageArea> GetImages()
 
 ### 返回值
 
-集合[`PageImageArea`](../../../groupdocs.parser.data/pageimagearea)对象; `无效的`如果不支持图像提取。
+的集合[`PageImageArea`](../../../groupdocs.parser.data/pageimagearea)对象； `无效的`如果不支持图像提取.
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [从文档中提取图像](https://docs.groupdocs.com/display/parsernet/Extract+images+from+documents)
 * [将图像提取到文件](https://docs.groupdocs.com/display/parsernet/Extract+images+to+files)
@@ -35,12 +35,12 @@ public IEnumerable<PageImageArea> GetImages()
 以下示例显示了如何从整个文档中提取所有图像：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using (Parser parser = new Parser(filePath))
 {
-    // 提取图片
+    // 提取图像
     IEnumerable<PageImageArea> images = parser.GetImages();
-    // 检查是否支持图像提取
+    // 检查是否支持图片提取
     if (images == null)
     {
         Console.WriteLine("Images extraction isn't supported");
@@ -66,7 +66,7 @@ using (Parser parser = new Parser(filePath))
 
 ## GetImages(PageAreaOptions) {#getimages_1}
 
-使用自定义选项 （设置包含图像的矩形区域）从文档中提取图像。
+使用自定义选项从文档中提取图像 （设置包含图像的矩形区域）。
 
 ```csharp
 public IEnumerable<PageImageArea> GetImages(PageAreaOptions options)
@@ -78,11 +78,11 @@ public IEnumerable<PageImageArea> GetImages(PageAreaOptions options)
 
 ### 返回值
 
-集合[`PageImageArea`](../../../groupdocs.parser.data/pageimagearea)对象; `无效的`如果不支持图像提取。
+的集合[`PageImageArea`](../../../groupdocs.parser.data/pageimagearea)对象； `无效的`如果不支持图像提取.
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [从文档中提取图像](https://docs.groupdocs.com/display/parsernet/Extract+images+from+documents)
 * [将图像提取到文件](https://docs.groupdocs.com/display/parsernet/Extract+images+to+files)
@@ -98,14 +98,14 @@ public IEnumerable<PageImageArea> GetImages(PageAreaOptions options)
 以下示例显示如何仅从左上角提取图像：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using (Parser parser = new Parser(filePath))
 {
     // 创建用于图像提取的选项
     PageAreaOptions options = new PageAreaOptions(new Rectangle(new Point(0, 0), new Size(300, 100)));
     // 从页面的左上角提取图像：
     IEnumerable<PageImageArea> images = parser.GetImages(options);
-    // 检查是否支持图像提取
+    // 检查是否支持图片提取
     if (images == null)
     {
         Console.WriteLine("Page images extraction isn't supported");
@@ -144,11 +144,11 @@ public IEnumerable<PageImageArea> GetImages(int pageIndex)
 
 ### 返回值
 
-集合[`PageImageArea`](../../../groupdocs.parser.data/pageimagearea)对象; `无效的`如果不支持图像提取。
+的集合[`PageImageArea`](../../../groupdocs.parser.data/pageimagearea)对象； `无效的`如果不支持图像提取.
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [从文档中提取图像](https://docs.groupdocs.com/display/parsernet/Extract+images+from+documents)
 * [将图像提取到文件](https://docs.groupdocs.com/display/parsernet/Extract+images+to+files)
@@ -161,10 +161,10 @@ public IEnumerable<PageImageArea> GetImages(int pageIndex)
 
 ### 例子
 
-要从文档页面中提取图像，请使用以下方法：
+要从文档页面中提取图像，使用以下方法：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using (Parser parser = new Parser(filePath))
 {
     // 检查文档是否支持图片提取
@@ -186,13 +186,13 @@ using (Parser parser = new Parser(filePath))
     // 遍历页面
     for (int pageIndex = 0; pageIndex<documentInfo.PageCount; pageIndex++)
     {
-        //打印页码 
+        // 打印页码 
         Console.WriteLine(string.Format("Page {0}/{1}", pageIndex + 1, documentInfo.PageCount));
         // 遍历图像
-        // 我们忽略空值检查，因为我们之前检查过图像提取功能支持
+        // 我们忽略空值检查，因为我们之前已经检查过图像提取功能支持
         foreach (PageImageArea image in parser.GetImages(pageIndex))
         {
-            // 打印一个矩形和图像类型
+            // 打印矩形和图像类型
             Console.WriteLine(string.Format("R: {0}, Text: {1}", image.Rectangle, image.FileType));
         }
     }
@@ -210,7 +210,7 @@ using (Parser parser = new Parser(filePath))
 
 ## GetImages(int, PageAreaOptions) {#getimages_3}
 
-使用自定义选项 （设置包含图像的矩形区域）从文档页面中提取图像。
+使用自定义选项从文档页面中提取图像 （设置包含图像的矩形区域）。
 
 ```csharp
 public IEnumerable<PageImageArea> GetImages(int pageIndex, PageAreaOptions options)
@@ -223,11 +223,11 @@ public IEnumerable<PageImageArea> GetImages(int pageIndex, PageAreaOptions optio
 
 ### 返回值
 
-集合[`PageImageArea`](../../../groupdocs.parser.data/pageimagearea)对象; `无效的`如果不支持图像提取。
+的集合[`PageImageArea`](../../../groupdocs.parser.data/pageimagearea)对象； `无效的`如果不支持图像提取.
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [从文档中提取图像](https://docs.groupdocs.com/display/parsernet/Extract+images+from+documents)
 * [将图像提取到文件](https://docs.groupdocs.com/display/parsernet/Extract+images+to+files)

@@ -1,14 +1,14 @@
 ---
 title: PageTableAreaCell
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化PageTableAreaCellgroupdocs.parser.data/pagetableareacell类.
+description: 初始化一个新的实例PageTableAreaCellgroupdocs.parser.data/pagetableareacell类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.data/pagetableareacell/pagetableareacell/
 ---
 ## PageTableAreaCell(int, int, PageArea, int, int) {#constructor_1}
 
-初始化[`PageTableAreaCell`](../../pagetableareacell)类.
+初始化一个新的实例[`PageTableAreaCell`](../../pagetableareacell)类.
 
 ```csharp
 public PageTableAreaCell(int rowIndex, int columnIndex, PageArea pageArea, int rowSpan, 
@@ -21,7 +21,7 @@ public PageTableAreaCell(int rowIndex, int columnIndex, PageArea pageArea, int r
 | columnIndex | Int32 | 列的从零开始的索引。 |
 | pageArea | PageArea | 表格单元格的值。 |
 | rowSpan | Int32 | 包含表格单元格的总行数。 |
-| columnSpan | Int32 | 包含表格单元格的总列数。 |
+| columnSpan | Int32 | 包含表格单元格的列总数。 |
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public PageTableAreaCell(int rowIndex, int columnIndex, PageArea pageArea, int r
 
 ## PageTableAreaCell(int, int, PageArea) {#constructor}
 
-初始化[`PageTableAreaCell`](../../pagetableareacell)类.
+初始化一个新的实例[`PageTableAreaCell`](../../pagetableareacell)类.
 
 ```csharp
 public PageTableAreaCell(int rowIndex, int columnIndex, PageArea pageArea)

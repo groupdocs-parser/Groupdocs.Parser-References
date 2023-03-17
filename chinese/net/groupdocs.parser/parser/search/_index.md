@@ -1,14 +1,14 @@
 ---
 title: Search
 second_title: GroupDocs.Parser for .NET API 参考
-description: 搜索一个keyword在文档中
+description: 搜索一个keyword在文档中.
 type: docs
 weight: 200
 url: /zh/net/groupdocs.parser/parser/search/
 ---
 ## Search(string) {#search}
 
-搜索一个*keyword*在文档中。
+搜索一个*keyword*在文档中.
 
 ```csharp
 public IEnumerable<SearchResult> Search(string keyword)
@@ -20,11 +20,11 @@ public IEnumerable<SearchResult> Search(string keyword)
 
 ### 返回值
 
-集合[`SearchResult`](../../../groupdocs.parser.data/searchresult)物体； `无效的`如果不支持搜索。
+的集合[`SearchResult`](../../../groupdocs.parser.data/searchresult)对象； `无效的`如果不支持搜索.
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [搜索文本](https://docs.groupdocs.com/display/parsernet/Search+text)
 * [在 Microsoft Office Word 文档中搜索文本](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+Word+documents)
@@ -34,14 +34,14 @@ public IEnumerable<SearchResult> Search(string keyword)
 * [在电子邮件中搜索文本](https://docs.groupdocs.com/display/parsernet/Search+text+in+Emails)
 * [在 EPUB 电子书中搜索文本](https://docs.groupdocs.com/display/parsernet/Search+text+in+EPUB+eBooks)
 * [在 HTML 文档中搜索文本](https://docs.groupdocs.com/display/parsernet/Search+text+in+HTML+documents)
-* [在 Microsoft OneNote 部分中搜索文本](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+OneNote+sections)
+* [在 Microsoft OneNote 分区中搜索文本](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+OneNote+sections)
 
 ### 例子
 
 以下示例显示如何在文档中查找关键字：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using(Parser parser = new Parser(filePath))
 {
     // 搜索关键字：
@@ -86,11 +86,11 @@ public IEnumerable<SearchResult> Search(string keyword, SearchOptions options)
 
 ### 返回值
 
-集合[`SearchResult`](../../../groupdocs.parser.data/searchresult)对象; `无效的`如果不支持搜索。
+的集合[`SearchResult`](../../../groupdocs.parser.data/searchresult)对象； `无效的`如果不支持搜索.
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [搜索文本](https://docs.groupdocs.com/display/parsernet/Search+text)
 * [在 Microsoft Office Word 文档中搜索文本](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+Word+documents)
@@ -100,19 +100,19 @@ public IEnumerable<SearchResult> Search(string keyword, SearchOptions options)
 * [在电子邮件中搜索文本](https://docs.groupdocs.com/display/parsernet/Search+text+in+Emails)
 * [在 EPUB 电子书中搜索文本](https://docs.groupdocs.com/display/parsernet/Search+text+in+EPUB+eBooks)
 * [在 HTML 文档中搜索文本](https://docs.groupdocs.com/display/parsernet/Search+text+in+HTML+documents)
-* [在 Microsoft OneNote 部分中搜索文本](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+OneNote+sections)
+* [在 Microsoft OneNote 分区中搜索文本](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+OneNote+sections)
 
 ### 例子
 
-以下示例显示了如何在文档中使用正则表达式进行搜索：
+以下示例显示如何在文档中使用正则表达式进行搜索：
 
-以下示例显示了如何在页面上搜索文本：
+以下示例显示如何在页面上搜索文本：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using(Parser parser = new Parser(filePath))
 {
-    // 使用带有大小写匹配的正则表达式进行搜索
+    // 使用大小写匹配的正则表达式搜索
     IEnumerable<SearchResult> sr = parser.Search("page number: [0-9]+", new SearchOptions(true, false, true));
     // 检查是否支持搜索
     if(sr == null)
@@ -131,10 +131,10 @@ using(Parser parser = new Parser(filePath))
 ```
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using(Parser parser = new Parser(filePath))
 {
-    // 搜索带有页码的关键字
+    // 使用页码搜索关键字
     IEnumerable<SearchResult> sr = parser.Search("line", new SearchOptions(false, false, false, true));
     // 检查是否支持搜索
     if(sr == null)

@@ -3,7 +3,7 @@ title: Parser
 second_title: GroupDocs.Parser for .NET API 参考
 description: 表示控制文本图像容器提取和解析功能的主类
 type: docs
-weight: 590
+weight: 640
 url: /zh/net/groupdocs.parser/parser/
 ---
 ## Parser class
@@ -18,16 +18,18 @@ public sealed class Parser : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Parser](parser#constructor_2)(DbConnection) | 初始化[`Parser`](../parser)类从数据库中提取数据。 |
-| [Parser](parser#constructor)(EmailConnection) | 初始化[`Parser`](../parser)从远程电子邮件服务器中提取数据的类。 |
-| [Parser](parser#constructor_4)(Stream) | 初始化[`Parser`](../parser)类. |
-| [Parser](parser#constructor_7)(string) | 初始化[`Parser`](../parser)类. |
-| [Parser](parser#constructor_3)(DbConnection, ParserSettings) | 初始化[`Parser`](../parser)类从数据库中提取数据。 |
-| [Parser](parser#constructor_1)(EmailConnection, ParserSettings) | 初始化[`Parser`](../parser)从远程电子邮件服务器中提取数据的类。 |
-| [Parser](parser#constructor_5)(Stream, LoadOptions) | 初始化[`Parser`](../parser)类与[`LoadOptions`](../../groupdocs.parser.options/loadoptions). |
-| [Parser](parser#constructor_8)(string, LoadOptions) | 初始化[`Parser`](../parser)类与[`LoadOptions`](../../groupdocs.parser.options/loadoptions). |
-| [Parser](parser#constructor_6)(Stream, LoadOptions, ParserSettings) | 初始化[`Parser`](../parser)类与[`LoadOptions`](../../groupdocs.parser.options/loadoptions) 和[`ParserSettings`](../../groupdocs.parser.options/parsersettings). |
-| [Parser](parser#constructor_9)(string, LoadOptions, ParserSettings) | 初始化[`Parser`](../parser)类与[`LoadOptions`](../../groupdocs.parser.options/loadoptions) 和[`ParserSettings`](../../groupdocs.parser.options/parsersettings). |
+| [Parser](parser#constructor_2)(DbConnection) | 初始化一个新的实例[`Parser`](../parser)从数据库中提取数据的类。 |
+| [Parser](parser#constructor)(EmailConnection) | 初始化一个新的实例[`Parser`](../parser)从远程电子邮件服务器中提取数据的类。 |
+| [Parser](parser#constructor_4)(Stream) | 初始化一个新的实例[`Parser`](../parser)类. |
+| [Parser](parser#constructor_8)(string) | 初始化一个新的实例[`Parser`](../parser)类. |
+| [Parser](parser#constructor_3)(DbConnection, ParserSettings) | 初始化一个新的实例[`Parser`](../parser)从数据库中提取数据的类。 |
+| [Parser](parser#constructor_1)(EmailConnection, ParserSettings) | 初始化一个新的实例[`Parser`](../parser)从远程电子邮件服务器中提取数据的类。 |
+| [Parser](parser#constructor_5)(Stream, LoadOptions) | 初始化一个新的实例[`Parser`](../parser)类[`LoadOptions`](../../groupdocs.parser.options/loadoptions). |
+| [Parser](parser#constructor_7)(Stream, ParserSettings) | 初始化一个新的实例[`Parser`](../parser)类[`ParserSettings`](../../groupdocs.parser.options/parsersettings). |
+| [Parser](parser#constructor_9)(string, LoadOptions) | 初始化一个新的实例[`Parser`](../parser)类[`LoadOptions`](../../groupdocs.parser.options/loadoptions). |
+| [Parser](parser#constructor_11)(string, ParserSettings) | 初始化一个新的实例[`Parser`](../parser)类[`ParserSettings`](../../groupdocs.parser.options/parsersettings). |
+| [Parser](parser#constructor_6)(Stream, LoadOptions, ParserSettings) | 初始化一个新的实例[`Parser`](../parser)类[`LoadOptions`](../../groupdocs.parser.options/loadoptions) 和[`ParserSettings`](../../groupdocs.parser.options/parsersettings). |
+| [Parser](parser#constructor_10)(string, LoadOptions, ParserSettings) | 初始化一个新的实例[`Parser`](../parser)类[`LoadOptions`](../../groupdocs.parser.options/loadoptions) 和[`ParserSettings`](../../groupdocs.parser.options/parsersettings). |
 
 ## 特性
 
@@ -39,25 +41,25 @@ public sealed class Parser : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Dispose](../../groupdocs.parser/parser/dispose)() | 执行与释放、释放或重置非托管资源相关的应用程序定义任务。 |
+| [Dispose](../../groupdocs.parser/parser/dispose)() | 执行与释放、释放或重置非托管资源相关的应用程序定义的任务。 |
 | [GeneratePreview](../../groupdocs.parser/parser/generatepreview)(PreviewOptions) | 获取页面预览。 |
 | [GetBarcodes](../../groupdocs.parser/parser/getbarcodes#getbarcodes)() | 从文档中提取条形码。 |
 | [GetBarcodes](../../groupdocs.parser/parser/getbarcodes#getbarcodes_2)(int) | 从文档页面中提取条形码。 |
-| [GetBarcodes](../../groupdocs.parser/parser/getbarcodes#getbarcodes_1)(PageAreaOptions) | 使用自定义选项 从文档中提取条形码（设置包含条形码的矩形区域）。 |
-| [GetBarcodes](../../groupdocs.parser/parser/getbarcodes#getbarcodes_3)(int, PageAreaOptions) | 使用自定义选项 （设置包含条形码的矩形区域）从文档页面中提取条形码。 |
-| [GetContainer](../../groupdocs.parser/parser/getcontainer)() | 从文档中提取容器对象以使用包含附件、ZIP 存档等的格式。 |
+| [GetBarcodes](../../groupdocs.parser/parser/getbarcodes#getbarcodes_1)(PageAreaOptions) | 使用自定义选项从文档中提取条形码 （设置包含条形码的矩形区域）。 |
+| [GetBarcodes](../../groupdocs.parser/parser/getbarcodes#getbarcodes_3)(int, PageAreaOptions) | 使用自定义选项从文档页面中提取条形码 （设置包含条形码的矩形区域）。 |
+| [GetContainer](../../groupdocs.parser/parser/getcontainer)() | 从文档中提取容器对象以处理包含附件、ZIP 存档等的格式。 |
 | [GetDocumentInfo](../../groupdocs.parser/parser/getdocumentinfo)() | 返回有关文档的一般信息。 |
 | [GetFormattedText](../../groupdocs.parser/parser/getformattedtext#getformattedtext)(FormattedTextOptions) | 从文档中提取格式化文本。 |
 | [GetFormattedText](../../groupdocs.parser/parser/getformattedtext#getformattedtext_1)(int, FormattedTextOptions) | 从文档页面中提取格式化文本。 |
-| [GetHighlight](../../groupdocs.parser/parser/gethighlight)(int, bool, HighlightOptions) | 从文档中提取亮点。 |
+| [GetHighlight](../../groupdocs.parser/parser/gethighlight)(int, bool, HighlightOptions) | 从文档中提取突出显示。 |
 | [GetHyperlinks](../../groupdocs.parser/parser/gethyperlinks#gethyperlinks)() | 从文档中提取超链接。 |
 | [GetHyperlinks](../../groupdocs.parser/parser/gethyperlinks#gethyperlinks_2)(int) | 从文档页面中提取超链接。 |
-| [GetHyperlinks](../../groupdocs.parser/parser/gethyperlinks#gethyperlinks_1)(PageAreaOptions) | 使用自定义选项 （设置包含超链接的矩形区域）从文档中提取超链接。 |
-| [GetHyperlinks](../../groupdocs.parser/parser/gethyperlinks#gethyperlinks_3)(int, PageAreaOptions) | 使用自定义选项 （设置包含超链接的矩形区域）从文档页面中提取超链接。 |
+| [GetHyperlinks](../../groupdocs.parser/parser/gethyperlinks#gethyperlinks_1)(PageAreaOptions) | 使用自定义选项从文档中提取超链接 （设置包含超链接的矩形区域）。 |
+| [GetHyperlinks](../../groupdocs.parser/parser/gethyperlinks#gethyperlinks_3)(int, PageAreaOptions) | 使用自定义选项从文档页面中提取超链接 （设置包含超链接的矩形区域）。 |
 | [GetImages](../../groupdocs.parser/parser/getimages#getimages)() | 从文档中提取图像。 |
 | [GetImages](../../groupdocs.parser/parser/getimages#getimages_2)(int) | 从文档页面中提取图像。 |
-| [GetImages](../../groupdocs.parser/parser/getimages#getimages_1)(PageAreaOptions) | 使用自定义选项 （设置包含图像的矩形区域）从文档中提取图像。 |
-| [GetImages](../../groupdocs.parser/parser/getimages#getimages_3)(int, PageAreaOptions) | 使用自定义选项 （设置包含图像的矩形区域）从文档页面中提取图像。 |
+| [GetImages](../../groupdocs.parser/parser/getimages#getimages_1)(PageAreaOptions) | 使用自定义选项从文档中提取图像 （设置包含图像的矩形区域）。 |
+| [GetImages](../../groupdocs.parser/parser/getimages#getimages_3)(int, PageAreaOptions) | 使用自定义选项从文档页面中提取图像 （设置包含图像的矩形区域）。 |
 | [GetMetadata](../../groupdocs.parser/parser/getmetadata)() | 从文档中提取元数据。 |
 | [GetStructure](../../groupdocs.parser/parser/getstructure)() | 从文档中提取结构化文本。 |
 | [GetTables](../../groupdocs.parser/parser/gettables#gettables)(PageTableAreaOptions) | 从文档中提取表格。 |
@@ -72,8 +74,8 @@ public sealed class Parser : IDisposable
 | [GetTextAreas](../../groupdocs.parser/parser/gettextareas#gettextareas_3)(int, PageTextAreaOptions) | 使用自定义选项（正则表达式、匹配大小写等）从文档页面中提取文本区域。 |
 | [GetToc](../../groupdocs.parser/parser/gettoc)() | 从文档中提取目录。 |
 | [ParseByTemplate](../../groupdocs.parser/parser/parsebytemplate)(Template) | 通过用户生成的模板解析文档。 |
-| [ParseForm](../../groupdocs.parser/parser/parseform)() | 解析文档表单。 |
-| [Search](../../groupdocs.parser/parser/search#search)(string) | 搜索一个*keyword*在文档中。 |
+| [ParseForm](../../groupdocs.parser/parser/parseform)() | 解析文档格式。 |
+| [Search](../../groupdocs.parser/parser/search#search)(string) | 搜索一个*keyword*在文档中. |
 | [Search](../../groupdocs.parser/parser/search#search_1)(string, SearchOptions) | 搜索一个*keyword*在文档中使用搜索选项（正则表达式、匹配大小写等）。 |
 | static [GetFileInfo](../../groupdocs.parser/parser/getfileinfo#getfileinfo)(Stream) | 返回有关文件的一般信息。 |
 | static [GetFileInfo](../../groupdocs.parser/parser/getfileinfo#getfileinfo_2)(string) | 返回有关文件的一般信息。 |

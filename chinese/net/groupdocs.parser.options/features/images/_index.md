@@ -1,14 +1,14 @@
 ---
 title: Images
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取指示是否支持图像提取的值
+description: 获取是否支持图片提取的值
 type: docs
 weight: 70
 url: /zh/net/groupdocs.parser.options/features/images/
 ---
 ## Features.Images property
 
-获取指示是否支持图像提取的值。
+获取是否支持图片提取的值。
 
 ```csharp
 public bool Images { get; }

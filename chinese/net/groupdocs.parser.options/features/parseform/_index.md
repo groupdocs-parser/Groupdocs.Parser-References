@@ -3,7 +3,7 @@ title: ParseForm
 second_title: GroupDocs.Parser for .NET API 参考
 description: 获取是否支持表单解析的值
 type: docs
-weight: 100
+weight: 110
 url: /zh/net/groupdocs.parser.options/features/parseform/
 ---
 ## Features.ParseForm property

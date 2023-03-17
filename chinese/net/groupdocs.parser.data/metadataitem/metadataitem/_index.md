@@ -1,14 +1,14 @@
 ---
 title: MetadataItem
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化MetadataItemgroupdocs.parser.data/metadataitem类.
+description: 初始化一个新的实例MetadataItemgroupdocs.parser.data/metadataitem类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.data/metadataitem/metadataitem/
 ---
 ## MetadataItem constructor
 
-初始化[`MetadataItem`](../../metadataitem)类.
+初始化一个新的实例[`MetadataItem`](../../metadataitem)类.
 
 ```csharp
 public MetadataItem(string name, string value)
@@ -21,7 +21,7 @@ public MetadataItem(string name, string value)
 
 ### 评论
 
-的一个实例[`MetadataItem`](../../metadataitem)类被用作返回值 的[`GetMetadata`](../../../groupdocs.parser/parser/getmetadata)方法.
+的实例[`MetadataItem`](../../metadataitem)类用作返回值 的[`GetMetadata`](../../../groupdocs.parser/parser/getmetadata)方法.
 
 ### 也可以看看
 

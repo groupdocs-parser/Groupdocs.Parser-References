@@ -18,15 +18,15 @@ public sealed class EmailEwsConnection : EmailConnection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmailEwsConnection](emailewsconnection#constructor)(string, string, string) | 初始化[`EmailEwsConnection`](../emailewsconnection)类. |
-| [EmailEwsConnection](emailewsconnection#constructor_1)(string, string, string, string) | 初始化[`EmailEwsConnection`](../emailewsconnection)类. |
+| [EmailEwsConnection](emailewsconnection#constructor)(string, string, string) | 初始化一个新的实例[`EmailEwsConnection`](../emailewsconnection)类. |
+| [EmailEwsConnection](emailewsconnection#constructor_1)(string, string, string, string) | 初始化一个新的实例[`EmailEwsConnection`](../emailewsconnection)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Domain](../../groupdocs.parser.options/emailewsconnection/domain) { get; } | 获取域名。 |
-| [MailboxUri](../../groupdocs.parser.options/emailewsconnection/mailboxuri) { get; } | 获取邮箱的URI。 |
+| [MailboxUri](../../groupdocs.parser.options/emailewsconnection/mailboxuri) { get; } | 获取邮箱的 URI。 |
 | [Password](../../groupdocs.parser.options/emailconnection/password) { get; } | 获取密码。 |
 | [UserName](../../groupdocs.parser.options/emailconnection/username) { get; } | 获取用户名。 |
 

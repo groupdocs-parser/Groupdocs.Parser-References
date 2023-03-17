@@ -26,11 +26,11 @@ public TemplateTableLayout MoveTo(Point point)
 
 此功能允许移动表格布局。
 
-例如，一个文档在每一页上都有表格（或在页面上有表格的一组文档）。 这些表的位置和内容不同，但具有相同的列和行。在这种情况下，用户可以定义 [`TemplateTableLayout`](../../templatetablelayout)对象在`(0, 0)`一次，然后将其移动到确定表的位置。
+例如，一个文档在每一页上都有表格（或一组文档在页面上有一个表格）。 这些表的位置和内容不同，但列和行相同。在这种情况下，用户可以定义 [`TemplateTableLayout`](../../templatetablelayout)反对`(0, 0)`一次然后移动到确定表的位置.
 
-如果表格位置依赖于页面的其他对象，用户可以定义[`TemplateTableLayout`](../../templatetablelayout)基于模板文档的 对象，然后根据锚对象移动它。例如，如果这是一个汇总表和 ，它后面是详细信息表（可以包含不同的行数）。在这种情况下，用户可以定义 [`TemplateTableLayout`](../../templatetablelayout)模板文档上的对象（具有已知的详细信息表矩形），然后移动 [`TemplateTableLayout`](../../templatetablelayout)对象根据模板和真实文档的详细信息表矩形的差异。
+如果表格位置取决于页面的其他对象，用户可以定义[`TemplateTableLayout`](../../templatetablelayout)基于模板文档的 对象，然后根据锚点对象移动它。例如，如果这是一个汇总表并且 它后面是详细信息表（它可以包含不同的行数）。在这种情况下，用户可以定义 [`TemplateTableLayout`](../../templatetablelayout)模板文档上的对象（具有已知的详细信息表矩形），然后移动 [`TemplateTableLayout`](../../templatetablelayout)根据模板和真实文档的细节表矩形的差异对象.
 
-`MoveTo`方法返回当前对象的副本。 用户可以传递任何坐标（即使是负数 - 然后布局将移动到左侧/顶部）。
+`MoveTo`方法返回当前对象的副本。 用户可以传递任何坐标（即使是负坐标 - 然后布局将移动到左侧/顶部）。
 
 ```csharp
 // 创建表格布局
@@ -41,26 +41,26 @@ TemplateTableLayout layout = new TemplateTableLayout(
 // 打印一个矩形
 Rectangle rect = layout.Rectangle;
 
-// 打印： pos: (0, 0) size: (230, 75)
+// 打印：pos: (0, 0) size: (230, 75)
 Console.WriteLine(string.Format("pos: ({0}, {1}) size: ({2}, {3})", rect.Left, rect.Top, rect.Size.Width, rect.Size.Height));
 
 // 将布局移动到确定的表格位置
 TemplateTableLayout movedLayout = layout.MoveTo(new Point(315, 250));
 
 // 确保第一个分隔符被移动：
-Console.WriteLine(movedLayout.VerticalSeparators[0]); //打印：315
-Console.WriteLine(movedLayout.HorizontalSeparators[0]); //打印：250
+Console.WriteLine(movedLayout.VerticalSeparators[0]); // 打印：315
+Console.WriteLine(movedLayout.HorizontalSeparators[0]); // 打印：250
 
 Rectangle movedRect = movedLayout.Rectangle;
 
-// 打印： pos: (315, 250) size: (230, 75)
+// 打印：pos: (315, 250) size: (230, 75)
 Console.WriteLine(string.Format("pos: ({0}, {1}) size: ({2}, {3})", movedRect.Left, movedRect.Top, movedRect.Size.Width, movedRect.Size.Height));
 
-//movedLayout 对象是布局对象的副本，因此我们可以在不影响原始布局的情况下调整分隔符：
+// movedLayout 对象是布局对象的副本，因此我们可以在不影响原始布局的情况下调整分隔符：
 movedLayout.HorizontalSeparators.Add(90);
 
 Console.WriteLine(movedLayout.HorizontalSeparators.Count); // 打印：7
-Console.WriteLine(layout.HorizontalSeparators.Count); //打印：6
+Console.WriteLine(layout.HorizontalSeparators.Count); // 打印：6
 ```
 
 ### 也可以看看

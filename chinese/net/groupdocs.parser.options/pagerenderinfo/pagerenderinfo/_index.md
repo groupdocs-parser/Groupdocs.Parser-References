@@ -1,14 +1,14 @@
 ---
 title: PageRenderInfo
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化PageRenderInfogroupdocs.parser.options/pagerenderinfo类.
+description: 初始化一个新的实例PageRenderInfogroupdocs.parser.options/pagerenderinfo类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.options/pagerenderinfo/pagerenderinfo/
 ---
 ## PageRenderInfo constructor
 
-初始化[`PageRenderInfo`](../../pagerenderinfo)类.
+初始化一个新的实例[`PageRenderInfo`](../../pagerenderinfo)类.
 
 ```csharp
 public PageRenderInfo(int pageNumber, int rowCount, int columnCount)
@@ -16,9 +16,9 @@ public PageRenderInfo(int pageNumber, int rowCount, int columnCount)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageNumber | Int32 | 页码（以 1 开头）。 |
-| rowCount | Int32 | 瓦片行的总数。 |
-| columnCount | Int32 | 瓦片列的总数。 |
+| pageNumber | Int32 | 页码（从 1 开始）。 |
+| rowCount | Int32 | 图块行的总数。 |
+| columnCount | Int32 | 图块列的总数。 |
 
 ### 也可以看看
 

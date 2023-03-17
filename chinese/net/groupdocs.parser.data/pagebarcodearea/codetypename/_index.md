@@ -1,14 +1,14 @@
 ---
 title: CodeTypeName
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取条形码类型的名称
+description: 获取条码类型的名称
 type: docs
 weight: 20
 url: /zh/net/groupdocs.parser.data/pagebarcodearea/codetypename/
 ---
 ## PageBarcodeArea.CodeTypeName property
 
-获取条形码类型的名称。
+获取条码类型的名称。
 
 ```csharp
 public string CodeTypeName { get; }
@@ -16,7 +16,7 @@ public string CodeTypeName { get; }
 
 ### 适当的价值
 
-一个字符串值表示条形码的类型名称。
+一个字符串值代表条形码的类型名称。
 
 ### 也可以看看
 

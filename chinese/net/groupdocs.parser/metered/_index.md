@@ -1,14 +1,14 @@
 ---
 title: Metered
 second_title: GroupDocs.Parser for .NET API 参考
-description: 提供申请方法计量的https//purchase.groupdocs.com/faqs/licensing/metered执照
+description: 提供应用方法计量的https//purchase.groupdocs.com/faqs/licensing/metered执照
 type: docs
 weight: 260
 url: /zh/net/groupdocs.parser/metered/
 ---
 ## Metered class
 
-提供申请方法[计量的](https://purchase.groupdocs.com/faqs/licensing/metered)执照。
+提供应用方法[计量的](https://purchase.groupdocs.com/faqs/licensing/metered)执照。
 
 ```csharp
 public class Metered
@@ -18,14 +18,14 @@ public class Metered
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Metered](metered)() | 初始化[`Metered`](../metered)类. |
+| [Metered](metered)() | 初始化一个新的实例[`Metered`](../metered)类. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetMeteredKey](../../groupdocs.parser/metered/setmeteredkey)(string, string) | 使用计量键激活产品。 |
-| static [GetConsumptionCredit](../../groupdocs.parser/metered/getconsumptioncredit)() | 检索消耗的信用计数。 |
+| [SetMeteredKey](../../groupdocs.parser/metered/setmeteredkey)(string, string) | 使用计量密钥激活产品。 |
+| static [GetConsumptionCredit](../../groupdocs.parser/metered/getconsumptioncredit)() | 检索消耗的积分数。 |
 | static [GetConsumptionQuantity](../../groupdocs.parser/metered/getconsumptionquantity)() | 检索已处理的 MB 数量。 |
 
 ### 也可以看看

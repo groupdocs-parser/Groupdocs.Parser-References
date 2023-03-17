@@ -1,14 +1,14 @@
 ---
 title: Left
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取矩形区域左边缘的 x 坐标
+description: 获取矩形区域左边缘的x坐标
 type: docs
 weight: 30
 url: /zh/net/groupdocs.parser.data/rectangle/left/
 ---
 ## Rectangle.Left property
 
-获取矩形区域左边缘的 x 坐标。
+获取矩形区域左边缘的x坐标。
 
 ```csharp
 public double Left { get; }

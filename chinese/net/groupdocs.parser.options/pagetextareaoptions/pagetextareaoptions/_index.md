@@ -1,14 +1,56 @@
 ---
 title: PageTextAreaOptions
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化PageTextAreaOptionsgroupdocs.parser.options/pagetextareaoptions使用正则表达式的类 其他选项默认设置详见备注
+description: 初始化一个新的实例PageTextAreaOptionsgroupdocs.parser.options/pagetextareaoptions具有 OCR 使用选项的类
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.options/pagetextareaoptions/pagetextareaoptions/
 ---
-## PageTextAreaOptions(string) {#constructor}
+## PageTextAreaOptions(bool) {#constructor}
 
-初始化[`PageTextAreaOptions`](../../pagetextareaoptions)使用正则表达式的类。 其他选项默认设置（详见备注）
+初始化一个新的实例[`PageTextAreaOptions`](../../pagetextareaoptions)具有 OCR 使用选项的类。
+
+```csharp
+public PageTextAreaOptions(bool useOcr)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| useOcr | Boolean | 指示 OCR 功能是否用于提取文本区域的值。 |
+
+### 也可以看看
+
+* class [PageTextAreaOptions](../../pagetextareaoptions)
+* 命名空间 [GroupDocs.Parser.Options](../../pagetextareaoptions)
+* 部件 [GroupDocs.Parser](../../../)
+
+---
+
+## PageTextAreaOptions(bool, OcrOptions) {#constructor_1}
+
+初始化一个新的实例[`PageTextAreaOptions`](../../pagetextareaoptions)具有设置 OCR 选项的能力的类。
+
+```csharp
+public PageTextAreaOptions(bool useOcr, OcrOptions ocrOptions)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| useOcr | Boolean | 指示 OCR 功能是否用于提取文本区域的值。 |
+| ocrOptions | OcrOptions | OCR 功能的附加选项。 |
+
+### 也可以看看
+
+* class [OcrOptions](../../ocroptions)
+* class [PageTextAreaOptions](../../pagetextareaoptions)
+* 命名空间 [GroupDocs.Parser.Options](../../pagetextareaoptions)
+* 部件 [GroupDocs.Parser](../../../)
+
+---
+
+## PageTextAreaOptions(string) {#constructor_2}
+
+初始化一个新的实例[`PageTextAreaOptions`](../../pagetextareaoptions)类与正则表达式。 其他选项默认设置（详见备注）。
 
 ```csharp
 public PageTextAreaOptions(string expression)
@@ -46,9 +88,9 @@ public PageTextAreaOptions(string expression)
 
 ---
 
-## PageTextAreaOptions(string, Rectangle) {#constructor_2}
+## PageTextAreaOptions(string, Rectangle) {#constructor_4}
 
-初始化[`PageTextAreaOptions`](../../pagetextareaoptions) class 带有正则表达式和矩形区域。 其他选项默认设置（详见备注）
+初始化一个新的实例[`PageTextAreaOptions`](../../pagetextareaoptions) class 带有正则表达式和矩形区域。 其他选项默认设置（详见备注）。
 
 ```csharp
 public PageTextAreaOptions(string expression, Rectangle rectangle)
@@ -84,9 +126,9 @@ public PageTextAreaOptions(string expression, Rectangle rectangle)
 
 ---
 
-## PageTextAreaOptions(string, bool, bool, bool, Rectangle) {#constructor_1}
+## PageTextAreaOptions(string, bool, bool, bool, Rectangle) {#constructor_3}
 
-初始化[`PageTextAreaOptions`](../../pagetextareaoptions)类.
+初始化一个新的实例[`PageTextAreaOptions`](../../pagetextareaoptions)类.
 
 ```csharp
 public PageTextAreaOptions(string expression, bool matchCase, bool uniteSegments, 
@@ -97,8 +139,8 @@ public PageTextAreaOptions(string expression, bool matchCase, bool uniteSegments
 | --- | --- | --- |
 | expression | String | 正则表达式。 |
 | matchCase | Boolean | 指示是否不忽略文本大小写的值。 |
-| uniteSegments | Boolean | 指示段是否合并的值。 |
-| ignoreFormatting | Boolean | 指示是否忽略文本格式的值。 |
+| uniteSegments | Boolean | 指示段是否统一的值。 |
+| ignoreFormatting | Boolean | 指示是否忽略文本格式设置的值。 |
 | rectangle | Rectangle | 包含页面区域的矩形区域。 |
 
 ### 也可以看看

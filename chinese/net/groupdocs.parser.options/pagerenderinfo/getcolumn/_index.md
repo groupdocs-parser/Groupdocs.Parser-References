@@ -1,14 +1,14 @@
 ---
 title: GetColumn
 second_title: GroupDocs.Parser for .NET API 参考
-description: 返回图块所在列的索引tileIndex放置
+description: 返回瓦片所在列的索引tileIndex被放置.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.parser.options/pagerenderinfo/getcolumn/
 ---
 ## PageRenderInfo.GetColumn method
 
-返回图块所在列的索引*tileIndex*放置。
+返回瓦片所在列的索引*tileIndex*被放置.
 
 ```csharp
 public int GetColumn(int tileIndex)
@@ -16,7 +16,7 @@ public int GetColumn(int tileIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tileIndex | Int32 | 瓦片的从零开始的索引。 |
+| tileIndex | Int32 | 磁贴的从零开始的索引。 |
 
 ### 返回值
 

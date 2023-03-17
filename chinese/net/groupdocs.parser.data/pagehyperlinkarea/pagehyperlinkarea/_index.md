@@ -1,14 +1,14 @@
 ---
 title: PageHyperlinkArea
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化PageHyperlinkAreagroupdocs.parser.data/pagehyperlinkarea类.
+description: 初始化一个新的实例PageHyperlinkAreagroupdocs.parser.data/pagehyperlinkarea类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.data/pagehyperlinkarea/pagehyperlinkarea/
 ---
 ## PageHyperlinkArea constructor
 
-初始化[`PageHyperlinkArea`](../../pagehyperlinkarea)类.
+初始化一个新的实例[`PageHyperlinkArea`](../../pagehyperlinkarea)类.
 
 ```csharp
 public PageHyperlinkArea(string text, string url, Page page, Rectangle rectangle)

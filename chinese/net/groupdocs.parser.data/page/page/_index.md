@@ -1,14 +1,14 @@
 ---
 title: Page
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化Pagegroupdocs.parser.data/page类.
+description: 初始化一个新的实例Pagegroupdocs.parser.data/page类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.data/page/page/
 ---
 ## Page constructor
 
-初始化[`Page`](../../page)类.
+初始化一个新的实例[`Page`](../../page)类.
 
 ```csharp
 public Page(int index, Size size)

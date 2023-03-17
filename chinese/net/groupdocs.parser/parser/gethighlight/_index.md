@@ -1,14 +1,14 @@
 ---
 title: GetHighlight
 second_title: GroupDocs.Parser for .NET API 参考
-description: 从文档中提取亮点
+description: 从文档中提取突出显示
 type: docs
 weight: 90
 url: /zh/net/groupdocs.parser/parser/gethighlight/
 ---
 ## Parser.GetHighlight method
 
-从文档中提取亮点。
+从文档中提取突出显示。
 
 ```csharp
 public HighlightItem GetHighlight(int position, bool isDirect, HighlightOptions options)
@@ -16,17 +16,17 @@ public HighlightItem GetHighlight(int position, bool isDirect, HighlightOptions 
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| position | Int32 | 高光的开始位置。 |
-| isDirect | Boolean | 指示是否直接提取高光的值。 `真的`如果高光是由右边提取的*position*;否则，`错误的`. |
+| position | Int32 | 高亮的开始位置。 |
+| isDirect | Boolean | 高亮提取是否直接的值。 `真的`如果突出显示是通过的权利提取的*position*;否则，`错误的`. |
 | options | HighlightOptions | 突出显示提取选项。 |
 
 ### 返回值
 
-的一个实例[`HighlightItem`](../../../groupdocs.parser.data/highlightitem)表示提取的高亮的类； `无效的`如果不支持高亮提取。
+的实例[`HighlightItem`](../../../groupdocs.parser.data/highlightitem)表示提取的高光的类； `无效的`如果不支持突出显示提取.
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [提取亮点](https://docs.groupdocs.com/display/parsernet/Extract+highlights)
 
@@ -35,7 +35,7 @@ public HighlightItem GetHighlight(int position, bool isDirect, HighlightOptions 
 以下示例显示如何提取包含 3 个单词的突出显示：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using (Parser parser = new Parser(filePath))
 {
     // 提取一个亮点：
@@ -48,7 +48,7 @@ using (Parser parser = new Parser(filePath))
         return;
     }
     
-    // 打印提取的高光
+    // 打印提取的高亮
     Console.WriteLine(string.Format("At {0}: {1}", hl.Position, hl.Text));
 }
 ```

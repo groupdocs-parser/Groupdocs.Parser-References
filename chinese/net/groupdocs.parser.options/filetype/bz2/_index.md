@@ -1,14 +1,14 @@
 ---
 title: BZ2
 second_title: GroupDocs.Parser for .NET API 参考
-description: 使用 Bzip2 算法压缩的文件
+description: 使用 Bzip2 算法的压缩文件
 type: docs
 weight: 20
 url: /zh/net/groupdocs.parser.options/filetype/bz2/
 ---
 ## FileType.BZ2 field
 
-使用 Bzip2 算法压缩的文件。
+使用 Bzip2 算法的压缩文件。
 
 ```csharp
 public static readonly FileType BZ2;

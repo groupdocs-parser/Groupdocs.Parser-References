@@ -1,14 +1,14 @@
 ---
 title: OpenStream
 second_title: GroupDocs.Parser for .NET API 参考
-description: 打开项目内容的流
+description: 打开项目内容流
 type: docs
 weight: 80
 url: /zh/net/groupdocs.parser.data/containeritem/openstream/
 ---
 ## ContainerItem.OpenStream method
 
-打开项目内容的流。
+打开项目内容流。
 
 ```csharp
 public Stream OpenStream()

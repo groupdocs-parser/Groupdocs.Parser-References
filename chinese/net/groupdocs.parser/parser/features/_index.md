@@ -16,17 +16,17 @@ public Features Features { get; }
 
 ### 适当的价值
 
-一个实例[`Features`](../../../groupdocs.parser.options/features)表示支持的功能的类。
+的实例[`Features`](../../../groupdocs.parser.options/features)表示支持的功能的类。
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [获取支持的功能](https://docs.groupdocs.com/display/parsernet/Get+supported+features)
 
 ### 例子
 
-如果不支持该功能，则方法返回`无效的`而不是价值。 某些操作可能会消耗大量时间。因此，调用该方法来检查对该功能的支持并不是最佳选择。 为此使用了 Features 属性：
+如果不支持该功能，则该方法返回`无效的`而不是价值。 某些操作可能会消耗大量时间。因此，调用该方法来检查对该功能的支持并不是最佳选择。 为此使用了 Features 属性：
 
 ```csharp
 using(Parser parser = new Parser("doc.zip"))

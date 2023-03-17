@@ -1,14 +1,14 @@
 ---
 title: TocItem
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化TocItemgroupdocs.parser.data/tocitem类.
+description: 初始化一个新的实例TocItemgroupdocs.parser.data/tocitem类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.data/tocitem/tocitem/
 ---
 ## TocItem constructor
 
-初始化[`TocItem`](../../tocitem)类.
+初始化一个新的实例[`TocItem`](../../tocitem)类.
 
 ```csharp
 public TocItem(int depth, string text, int? pageIndex)
@@ -18,7 +18,7 @@ public TocItem(int depth, string text, int? pageIndex)
 | --- | --- | --- |
 | depth | Int32 | 项目的深度级别。 |
 | text | String | 项目的文本。 |
-| pageIndex | Nullable`1 | 项目引用的页面的索引 |
+| pageIndex | Nullable`1 | 项目引用的页面索引 |
 
 ### 也可以看看
 

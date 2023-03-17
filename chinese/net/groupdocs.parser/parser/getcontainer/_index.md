@@ -1,14 +1,14 @@
 ---
 title: GetContainer
 second_title: GroupDocs.Parser for .NET API 参考
-description: 从文档中提取容器对象以使用包含附件ZIP 存档等的格式
+description: 从文档中提取容器对象以处理包含附件ZIP 存档等的格式
 type: docs
 weight: 60
 url: /zh/net/groupdocs.parser/parser/getcontainer/
 ---
 ## Parser.GetContainer method
 
-从文档中提取容器对象以使用包含附件、ZIP 存档等的格式。
+从文档中提取容器对象以处理包含附件、ZIP 存档等的格式。
 
 ```csharp
 public IEnumerable<ContainerItem> GetContainer()
@@ -16,27 +16,27 @@ public IEnumerable<ContainerItem> GetContainer()
 
 ### 返回值
 
-容器物品的集合； `无效的`如果不支持容器提取。
+容器项目的集合； `无效的`如果不支持容器提取.
 
 ### 评论
 
-要检查格式是否支持提取附件，请参见[支持的文档格式](https://docs.groupdocs.com/parser/net/supported-document-formats/)(**提取容器和附件**柱子）。
+要检查格式是否支持提取附件，请参阅[支持的文档格式](https://docs.groupdocs.com/parser/net/supported-document-formats/)(**提取容器和附件**柱子）。
 
-**学到更多：**
+**了解更多：**
 
-* [从附件和 ZIP 档案中提取数据](https://docs.groupdocs.com/display/parsernet/Extract+data+from+attachments+and+ZIP+archives)
+* [从附件和 ZIP 存档中提取数据](https://docs.groupdocs.com/display/parsernet/Extract+data+from+attachments+and+ZIP+archives)
 * [遍历容器项](https://docs.groupdocs.com/display/parsernet/Iterate+through+container+items)
-* [从 PDF 作品集中提取附件](https://docs.groupdocs.com/display/parsernet/Extract+attachments+from+PDF+portfolios)
+* [从 PDF 公文包中提取附件](https://docs.groupdocs.com/display/parsernet/Extract+attachments+from+PDF+portfolios)
 * [从电子邮件中提取附件](https://docs.groupdocs.com/display/parsernet/Extract+attachments+from+Emails)
 * [从 Outlook 存储中提取电子邮件](https://docs.groupdocs.com/display/parsernet/Extract+emails+from+Outlook+Storage)
 * [从 ZIP 存档文件中提取文本](https://docs.groupdocs.com/display/parsernet/Extract+text+from+ZIP+archive+files)
 
 ### 例子
 
-以下示例显示如何从容器中提取附件：
+以下示例显示了如何从容器中提取附件：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using(Parser parser = new Parser(filePath))
 {
     // 从容器中提取附件

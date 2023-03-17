@@ -1,14 +1,14 @@
 ---
 title: GroupDocsParserException
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化GroupDocsParserExceptiongroupdocs.parser.exceptions/groupdocsparserexception类.
+description: 初始化一个新的实例GroupDocsParserExceptiongroupdocs.parser.exceptions/groupdocsparserexception类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.exceptions/groupdocsparserexception/groupdocsparserexception/
 ---
 ## GroupDocsParserException() {#constructor}
 
-初始化[`GroupDocsParserException`](../../groupdocsparserexception)类.
+初始化一个新的实例[`GroupDocsParserException`](../../groupdocsparserexception)类.
 
 ```csharp
 public GroupDocsParserException()
@@ -24,7 +24,7 @@ public GroupDocsParserException()
 
 ## GroupDocsParserException(string) {#constructor_1}
 
-初始化[`GroupDocsParserException`](../../groupdocsparserexception)类.
+初始化一个新的实例[`GroupDocsParserException`](../../groupdocsparserexception)类.
 
 ```csharp
 public GroupDocsParserException(string message)

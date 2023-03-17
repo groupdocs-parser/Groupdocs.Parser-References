@@ -1,14 +1,14 @@
 ---
 title: TEXT
 second_title: GroupDocs.Parser for .NET API 参考
-description: 带有 .TEXT 扩展名的文件表示包含行形式的纯文本的文本文档 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/wordprocessing/txt/.
+description: 具有 .TEXT 扩展名的文件表示包含行形式的纯文本的文本文档 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/wordprocessing/txt/.
 type: docs
 weight: 700
 url: /zh/net/groupdocs.parser.options/filetype/text/
 ---
 ## FileType.TEXT field
 
-带有 .TEXT 扩展名的文件表示包含行形式的纯文本的文本文档。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/word-processing/txt/).
+具有 .TEXT 扩展名的文件表示包含行形式的纯文本的文本文档。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/word-processing/txt/).
 
 ```csharp
 public static readonly FileType TEXT;

@@ -16,7 +16,7 @@ public Rectangle Rectangle { get; }
 
 ### 适当的价值
 
-一个实例[`Rectangle`](../../rectangle)表示包含页面区域的页面的矩形区域的类。
+的实例[`Rectangle`](../../rectangle)表示包含页面区域的页面矩形区域的类。
 
 ### 也可以看看
 

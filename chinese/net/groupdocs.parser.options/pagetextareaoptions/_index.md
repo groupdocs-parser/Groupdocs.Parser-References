@@ -3,7 +3,7 @@ title: PageTextAreaOptions
 second_title: GroupDocs.Parser for .NET API 参考
 description: 提供用于页面文本区域提取的选项
 type: docs
-weight: 500
+weight: 550
 url: /zh/net/groupdocs.parser.options/pagetextareaoptions/
 ---
 ## PageTextAreaOptions class
@@ -18,9 +18,11 @@ public sealed class PageTextAreaOptions : PageAreaOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PageTextAreaOptions](pagetextareaoptions#constructor)(string) | 初始化[`PageTextAreaOptions`](../pagetextareaoptions)使用正则表达式的类。 其他选项默认设置（详见备注） |
-| [PageTextAreaOptions](pagetextareaoptions#constructor_2)(string, Rectangle) | 初始化[`PageTextAreaOptions`](../pagetextareaoptions) class 带有正则表达式和矩形区域。 其他选项默认设置（详见备注） |
-| [PageTextAreaOptions](pagetextareaoptions#constructor_1)(string, bool, bool, bool, Rectangle) | 初始化[`PageTextAreaOptions`](../pagetextareaoptions)类. |
+| [PageTextAreaOptions](pagetextareaoptions#constructor)(bool) | 初始化一个新的实例[`PageTextAreaOptions`](../pagetextareaoptions)具有 OCR 使用选项的类。 |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_2)(string) | 初始化一个新的实例[`PageTextAreaOptions`](../pagetextareaoptions)类与正则表达式。 其他选项默认设置（详见备注）。 |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_1)(bool, OcrOptions) | 初始化一个新的实例[`PageTextAreaOptions`](../pagetextareaoptions)具有设置 OCR 选项的能力的类。 |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_4)(string, Rectangle) | 初始化一个新的实例[`PageTextAreaOptions`](../pagetextareaoptions) class 带有正则表达式和矩形区域。 其他选项默认设置（详见备注）。 |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_3)(string, bool, bool, bool, Rectangle) | 初始化一个新的实例[`PageTextAreaOptions`](../pagetextareaoptions)类. |
 
 ## 特性
 
@@ -29,12 +31,14 @@ public sealed class PageTextAreaOptions : PageAreaOptions
 | [Expression](../../groupdocs.parser.options/pagetextareaoptions/expression) { get; } | 获取正则表达式。 |
 | [IgnoreFormatting](../../groupdocs.parser.options/pagetextareaoptions/ignoreformatting) { get; } | 获取指示是否忽略文本格式的值。 |
 | [MatchCase](../../groupdocs.parser.options/pagetextareaoptions/matchcase) { get; } | 获取指示是否不忽略文本大小写的值。 |
+| [OcrOptions](../../groupdocs.parser.options/pagetextareaoptions/ocroptions) { get; } | 获取 OCR 功能的附加选项。 |
 | [Rectangle](../../groupdocs.parser.options/pageareaoptions/rectangle) { get; } | 获取包含页面区域的矩形区域。 |
-| [UniteSegments](../../groupdocs.parser.options/pagetextareaoptions/unitesegments) { get; } | 获取表示段是否合并的值。 |
+| [UniteSegments](../../groupdocs.parser.options/pagetextareaoptions/unitesegments) { get; } | 获取段是否统一的值。 |
+| [UseOcr](../../groupdocs.parser.options/pagetextareaoptions/useocr) { get; } | 获取指示 OCR 功能是否用于提取文本区域的值。 |
 
 ### 评论
 
-的一个实例[`PageTextAreaOptions`](../pagetextareaoptions)类用作参数 [`GetTextAreas`](../../groupdocs.parser/parser/gettextareas)和[`GetTextAreas`](../../groupdocs.parser/parser/gettextareas)方法. 请参阅那里的用法示例。 **学到更多：**
+的实例[`PageTextAreaOptions`](../pagetextareaoptions)类在中用作参数 [`GetTextAreas`](../../groupdocs.parser/parser/gettextareas)和[`GetTextAreas`](../../groupdocs.parser/parser/gettextareas) methods. 请参阅此处的用法示例。 **了解更多：**
 
 * [提取文本区域](https://docs.groupdocs.com/display/parsernet/Extract+text+areas)
 

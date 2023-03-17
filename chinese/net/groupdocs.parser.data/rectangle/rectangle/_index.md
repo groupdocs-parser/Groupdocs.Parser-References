@@ -1,14 +1,14 @@
 ---
 title: Rectangle
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化Rectanglegroupdocs.parser.data/rectangle类.
+description: 初始化一个新的实例Rectanglegroupdocs.parser.data/rectangle类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.data/rectangle/rectangle/
 ---
 ## Rectangle(double, double, double, double) {#constructor}
 
-初始化[`Rectangle`](../../rectangle)类.
+初始化一个新的实例[`Rectangle`](../../rectangle)类.
 
 ```csharp
 public Rectangle(double left, double top, double right, double bottom)
@@ -31,7 +31,7 @@ public Rectangle(double left, double top, double right, double bottom)
 
 ## Rectangle(Point, Size) {#constructor_1}
 
-初始化[`Rectangle`](../../rectangle)类.
+初始化一个新的实例[`Rectangle`](../../rectangle)类.
 
 ```csharp
 public Rectangle(Point position, Size size)

@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化Sizegroupdocs.parser.data/size类.
+description: 初始化一个新的实例Sizegroupdocs.parser.data/size类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.data/size/size/
 ---
 ## Size constructor
 
-初始化[`Size`](../../size)类.
+初始化一个新的实例[`Size`](../../size)类.
 
 ```csharp
 public Size(double width, double height)

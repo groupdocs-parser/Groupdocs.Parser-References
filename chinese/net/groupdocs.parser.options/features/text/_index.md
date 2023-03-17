@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取指示是否支持文本提取的值
+description: 获取是否支持文本提取的值
 type: docs
-weight: 140
+weight: 160
 url: /zh/net/groupdocs.parser.options/features/text/
 ---
 ## Features.Text property
 
-获取指示是否支持文本提取的值。
+获取是否支持文本提取的值。
 
 ```csharp
 public bool Text { get; }

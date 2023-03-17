@@ -1,14 +1,14 @@
 ---
 title: Rectangle
 second_title: GroupDocs.Parser for .NET API 参考
-description: 表示一个矩形区域
+description: 代表一个矩形区域
 type: docs
 weight: 160
 url: /zh/net/groupdocs.parser.data/rectangle/
 ---
 ## Rectangle class
 
-表示一个矩形区域。
+代表一个矩形区域。
 
 ```csharp
 public sealed class Rectangle
@@ -18,19 +18,19 @@ public sealed class Rectangle
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Rectangle](rectangle#constructor_1)(Point, Size) | 初始化[`Rectangle`](../rectangle)类. |
-| [Rectangle](rectangle#constructor)(double, double, double, double) | 初始化[`Rectangle`](../rectangle)类. |
+| [Rectangle](rectangle#constructor_1)(Point, Size) | 初始化一个新的实例[`Rectangle`](../rectangle)类. |
+| [Rectangle](rectangle#constructor)(double, double, double, double) | 初始化一个新的实例[`Rectangle`](../rectangle)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Bottom](../../groupdocs.parser.data/rectangle/bottom) { get; } | 获取矩形区域底边的 y 坐标。 |
-| [Left](../../groupdocs.parser.data/rectangle/left) { get; } | 获取矩形区域左边缘的 x 坐标。 |
-| [Position](../../groupdocs.parser.data/rectangle/position) { get; } | 获取矩形区域左上角的坐标。 |
-| [Right](../../groupdocs.parser.data/rectangle/right) { get; } | 获取矩形区域右边缘的x坐标。 |
-| [Size](../../groupdocs.parser.data/rectangle/size) { get; } | 获取大小。 |
-| [Top](../../groupdocs.parser.data/rectangle/top) { get; } | 获取矩形区域上边缘的 y 坐标。 |
+| [Bottom](../../groupdocs.parser.data/rectangle/bottom) { get; } | 获取矩形区域底边的y坐标。 |
+| [Left](../../groupdocs.parser.data/rectangle/left) { get; } | 获取矩形区域左边缘的x坐标。 |
+| [Position](../../groupdocs.parser.data/rectangle/position) { get; } | 获取矩形区域的左上角坐标。 |
+| [Right](../../groupdocs.parser.data/rectangle/right) { get; } | 获取矩形区域右边的x坐标。 |
+| [Size](../../groupdocs.parser.data/rectangle/size) { get; } | 获取尺寸。 |
+| [Top](../../groupdocs.parser.data/rectangle/top) { get; } | 获取矩形区域上边缘的y坐标。 |
 
 ## 方法
 

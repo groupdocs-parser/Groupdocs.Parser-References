@@ -1,14 +1,14 @@
 ---
 title: EmailPopConnection
 second_title: GroupDocs.Parser for .NET API 参考
-description: 代表 POP 协议的电子邮件连接信息
+description: 表示POP协议的邮件连接信息
 type: docs
 weight: 320
 url: /zh/net/groupdocs.parser.options/emailpopconnection/
 ---
 ## EmailPopConnection class
 
-代表 POP 协议的电子邮件连接信息。
+表示POP协议的邮件连接信息。
 
 ```csharp
 public sealed class EmailPopConnection : EmailConnection
@@ -18,7 +18,7 @@ public sealed class EmailPopConnection : EmailConnection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmailPopConnection](emailpopconnection)(string, int, string, string) | 初始化[`EmailPopConnection`](../emailpopconnection)类. |
+| [EmailPopConnection](emailpopconnection)(string, int, string, string) | 初始化一个新的实例[`EmailPopConnection`](../emailpopconnection)类. |
 
 ## 特性
 

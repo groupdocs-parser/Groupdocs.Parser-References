@@ -16,7 +16,7 @@ public TemplateTableLayout Layout { get; }
 
 ### 适当的价值
 
-一个实例[`TemplateTableLayout`](../../templatetablelayout)代表表格布局的类；`无效的`如果没有设置。
+的实例[`TemplateTableLayout`](../../templatetablelayout)表示表格布局的类；`无效的`如果没有设置。
 
 ### 也可以看看
 

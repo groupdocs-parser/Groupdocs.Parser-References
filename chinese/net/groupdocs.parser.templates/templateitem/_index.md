@@ -1,14 +1,14 @@
 ---
 title: TemplateItem
 second_title: GroupDocs.Parser for .NET API 参考
-description: 为模板项提供一个基本抽象类
+description: 为模板项提供基本抽象类
 type: docs
-weight: 640
+weight: 690
 url: /zh/net/groupdocs.parser.templates/templateitem/
 ---
 ## TemplateItem class
 
-为模板项提供一个基本抽象类。
+为模板项提供基本抽象类。
 
 ```csharp
 public abstract class TemplateItem

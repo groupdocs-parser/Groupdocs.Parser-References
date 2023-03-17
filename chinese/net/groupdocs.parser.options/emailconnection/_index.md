@@ -1,14 +1,14 @@
 ---
 title: EmailConnection
 second_title: GroupDocs.Parser for .NET API 参考
-description: 代表邮件连接信息
+description: 表示邮件连接信息
 type: docs
 weight: 290
 url: /zh/net/groupdocs.parser.options/emailconnection/
 ---
 ## EmailConnection class
 
-代表邮件连接信息。
+表示邮件连接信息。
 
 ```csharp
 public abstract class EmailConnection

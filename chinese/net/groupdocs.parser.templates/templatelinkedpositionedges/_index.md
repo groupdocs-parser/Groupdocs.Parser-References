@@ -3,7 +3,7 @@ title: TemplateLinkedPositionEdges
 second_title: GroupDocs.Parser for .NET API 参考
 description: 提供搜索文本字段的链接字段的边缘 TemplateLinkedPositionEdges./templatelinkedpositionedges用于TemplateLinkedPosition./templatelinkedposition类.
 type: docs
-weight: 660
+weight: 710
 url: /zh/net/groupdocs.parser.templates/templatelinkedpositionedges/
 ---
 ## TemplateLinkedPositionEdges class
@@ -18,17 +18,17 @@ public sealed class TemplateLinkedPositionEdges
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TemplateLinkedPositionEdges](templatelinkedpositionedges)(bool, bool, bool, bool) | 初始化[`TemplateLinkedPositionEdges`](../templatelinkedpositionedges)类. |
+| [TemplateLinkedPositionEdges](templatelinkedpositionedges)(bool, bool, bool, bool) | 初始化一个新的实例[`TemplateLinkedPositionEdges`](../templatelinkedpositionedges)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Bottom](../../groupdocs.parser.templates/templatelinkedpositionedges/bottom) { get; } | 获取表示是否从链接字段中按底部搜索字段的值。 |
-| [IsEmpty](../../groupdocs.parser.templates/templatelinkedpositionedges/isempty) { get; } | 获取实例是否为空的值。 |
-| [Left](../../groupdocs.parser.templates/templatelinkedpositionedges/left) { get; } | 获取表示是否从链接字段向左搜索字段的值。 |
-| [Right](../../groupdocs.parser.templates/templatelinkedpositionedges/right) { get; } | 获取表示是否从链接字段中向右搜索字段的值。 |
-| [Top](../../groupdocs.parser.templates/templatelinkedpositionedges/top) { get; } | 获取一个字段是否被链接字段的顶部搜索到的值。 |
+| [Bottom](../../groupdocs.parser.templates/templatelinkedpositionedges/bottom) { get; } | 获取一个字段是否从链接字段底部搜索的值。 |
+| [IsEmpty](../../groupdocs.parser.templates/templatelinkedpositionedges/isempty) { get; } | 获取表示实例是否为空的值。 |
+| [Left](../../groupdocs.parser.templates/templatelinkedpositionedges/left) { get; } | 获取一个字段是否从链接字段左侧搜索的值。 |
+| [Right](../../groupdocs.parser.templates/templatelinkedpositionedges/right) { get; } | 获取是否从链接字段向右搜索字段的值。 |
+| [Top](../../groupdocs.parser.templates/templatelinkedpositionedges/top) { get; } | 获取一个字段是否从链接字段顶部搜索的值。 |
 
 ### 也可以看看
 

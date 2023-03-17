@@ -1,14 +1,14 @@
 ---
 title: EmailImapConnection
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化EmailImapConnectiongroupdocs.parser.options/emailimapconnection类.
+description: 初始化一个新的实例EmailImapConnectiongroupdocs.parser.options/emailimapconnection类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.options/emailimapconnection/emailimapconnection/
 ---
 ## EmailImapConnection constructor
 
-初始化[`EmailImapConnection`](../../emailimapconnection)类.
+初始化一个新的实例[`EmailImapConnection`](../../emailimapconnection)类.
 
 ```csharp
 public EmailImapConnection(string host, int port, string userName, string password)

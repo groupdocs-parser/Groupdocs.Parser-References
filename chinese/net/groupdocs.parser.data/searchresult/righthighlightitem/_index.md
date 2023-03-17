@@ -1,14 +1,14 @@
 ---
 title: RightHighlightItem
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获得正确的高光
+description: 获取正确的高亮显示
 type: docs
 weight: 40
 url: /zh/net/groupdocs.parser.data/searchresult/righthighlightitem/
 ---
 ## SearchResult.RightHighlightItem property
 
-获得正确的高光。
+获取正确的高亮显示。
 
 ```csharp
 public HighlightItem RightHighlightItem { get; }
@@ -16,7 +16,7 @@ public HighlightItem RightHighlightItem { get; }
 
 ### 适当的价值
 
-一个实例[`HighlightItem`](../../highlightitem)班级;`无效的`如果没有设置。
+的实例[`HighlightItem`](../../highlightitem)班级;`无效的`如果没有设置。
 
 ### 也可以看看
 

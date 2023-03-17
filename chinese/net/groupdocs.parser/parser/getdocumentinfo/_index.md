@@ -16,11 +16,11 @@ public IDocumentInfo GetDocumentInfo()
 
 ### 返回值
 
-实现的类的实例[`IDocumentInfo`](../../../groupdocs.parser.options/idocumentinfo)界面。
+实现类的实例[`IDocumentInfo`](../../../groupdocs.parser.options/idocumentinfo)界面。
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [获取文档信息](https://docs.groupdocs.com/display/parsernet/Get+document+info)
 * [检测编码](https://docs.groupdocs.com/display/parsernet/Detect+encoding)
@@ -30,7 +30,7 @@ public IDocumentInfo GetDocumentInfo()
 以下示例显示了如何获取文档信息：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using(Parser parser = new Parser(filePath))
 {
     // 获取文档信息

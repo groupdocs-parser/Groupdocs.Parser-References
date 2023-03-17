@@ -1,14 +1,14 @@
 ---
 title: MD
 second_title: GroupDocs.Parser for .NET API 参考
-description: 使用 Markdown 语言方言创建的文本文件以 .MD 或 .MARKDOWN 文件扩展名保存了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/wordprocessing/md/.
+description: 使用 Markdown 语言方言创建的文本文件以 .MD 或 .MARKDOWN 文件扩展名保存详细了解此文件格式 这里https//wiki.fileformat.com/wordprocessing/md/.
 type: docs
 weight: 350
 url: /zh/net/groupdocs.parser.options/filetype/md/
 ---
 ## FileType.MD field
 
-使用 Markdown 语言方言创建的文本文件以 .MD 或 .MARKDOWN 文件扩展名保存。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/word-processing/md/).
+使用 Markdown 语言方言创建的文本文件以 .MD 或 .MARKDOWN 文件扩展名保存。详细了解此文件格式 [这里](https://wiki.fileformat.com/word-processing/md/).
 
 ```csharp
 public static readonly FileType MD;

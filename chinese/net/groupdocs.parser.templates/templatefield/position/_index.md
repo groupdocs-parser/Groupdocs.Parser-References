@@ -16,7 +16,7 @@ public TemplatePosition Position { get; }
 
 ### 适当的价值
 
-一个实例[`TemplatePosition`](../../templateposition)子孙阶层。
+的实例[`TemplatePosition`](../../templateposition)后代阶级。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: License
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化Licensegroupdocs.parser/license类.
+description: 初始化一个新的实例Licensegroupdocs.parser/license类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser/license/license/
 ---
 ## License constructor
 
-初始化[`License`](../../license)类.
+初始化一个新的实例[`License`](../../license)类.
 
 ```csharp
 public License()

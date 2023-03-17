@@ -16,7 +16,7 @@ public Rectangle Rectangle { get; }
 
 ### 适当的价值
 
-一个实例[`Rectangle`](../../../groupdocs.parser.data/rectangle)代表包含页面区域的矩形区域的类；`无效的`如果没有设置。
+的实例[`Rectangle`](../../../groupdocs.parser.data/rectangle)表示包含页面区域的矩形区域的类；`无效的`如果没有设置。
 
 ### 也可以看看
 

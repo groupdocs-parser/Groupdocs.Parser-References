@@ -1,14 +1,14 @@
 ---
 title: Metadata
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取指示是否支持元数据提取的值
+description: 获取是否支持元数据提取的值
 type: docs
 weight: 80
 url: /zh/net/groupdocs.parser.options/features/metadata/
 ---
 ## Features.Metadata property
 
-获取指示是否支持元数据提取的值。
+获取是否支持元数据提取的值。
 
 ```csharp
 public bool Metadata { get; }

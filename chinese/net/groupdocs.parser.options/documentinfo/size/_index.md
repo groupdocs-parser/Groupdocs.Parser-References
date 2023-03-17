@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取文档的大小以字节为单位
+description: 获取文档的字节大小
 type: docs
 weight: 50
 url: /zh/net/groupdocs.parser.options/documentinfo/size/
 ---
 ## DocumentInfo.Size property
 
-获取文档的大小（以字节为单位）。
+获取文档的字节大小。
 
 ```csharp
 public long Size { get; }

@@ -16,7 +16,7 @@ public string Text { get; }
 
 ### 适当的价值
 
-一个字符串值，表示字段文本的值；`无效的`如果[`PageArea`](../pagearea)财产不是[`PageTextArea`](../../pagetextarea).
+表示字段文本值的字符串值；`无效的`如果[`PageArea`](../pagearea)财产不是[`PageTextArea`](../../pagetextarea).
 
 ### 也可以看看
 

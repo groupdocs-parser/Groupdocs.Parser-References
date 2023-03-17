@@ -3,7 +3,7 @@ title: PageAreaOptions
 second_title: GroupDocs.Parser for .NET API 参考
 description: 提供用于页面区域提取的选项
 type: docs
-weight: 460
+weight: 510
 url: /zh/net/groupdocs.parser.options/pageareaoptions/
 ---
 ## PageAreaOptions class
@@ -18,7 +18,7 @@ public class PageAreaOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PageAreaOptions](pageareaoptions)(Rectangle) | 初始化[`PageAreaOptions`](../pageareaoptions)类. |
+| [PageAreaOptions](pageareaoptions)(Rectangle) | 初始化一个新的实例[`PageAreaOptions`](../pageareaoptions)类. |
 
 ## 特性
 
@@ -28,7 +28,7 @@ public class PageAreaOptions
 
 ### 评论
 
-一个实例[`PageAreaOptions`](../pageareaoptions)类在以下方法中用作参数 ：
+的实例[`PageAreaOptions`](../pageareaoptions)类在以下方法中用作参数 ：
 
 * [`GetImages`](../../groupdocs.parser/parser/getimages)
 * [`GetImages`](../../groupdocs.parser/parser/getimages)
@@ -37,7 +37,7 @@ public class PageAreaOptions
 * [`GetHyperlinks`](../../groupdocs.parser/parser/gethyperlinks)
 * [`GetHyperlinks`](../../groupdocs.parser/parser/gethyperlinks)
 
-请参阅那里的用法示例。
+请参阅此处的用法示例。
 
 ### 也可以看看
 

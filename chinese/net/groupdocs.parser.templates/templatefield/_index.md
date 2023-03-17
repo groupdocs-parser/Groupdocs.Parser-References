@@ -3,7 +3,7 @@ title: TemplateField
 second_title: GroupDocs.Parser for .NET API 参考
 description: 提供模板文本字段
 type: docs
-weight: 620
+weight: 670
 url: /zh/net/groupdocs.parser.templates/templatefield/
 ---
 ## TemplateField class
@@ -18,8 +18,8 @@ public sealed class TemplateField : TemplateItem
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TemplateField](templatefield#constructor)(TemplatePosition, string) | 初始化[`TemplateField`](../templatefield)类. |
-| [TemplateField](templatefield#constructor_1)(TemplatePosition, string, int?) | 初始化[`TemplateField`](../templatefield)类. |
+| [TemplateField](templatefield#constructor)(TemplatePosition, string) | 初始化一个新的实例[`TemplateField`](../templatefield)类. |
+| [TemplateField](templatefield#constructor_1)(TemplatePosition, string, int?) | 初始化一个新的实例[`TemplateField`](../templatefield)类. |
 
 ## 特性
 
@@ -31,7 +31,7 @@ public sealed class TemplateField : TemplateItem
 
 ### 评论
 
-文本字段由其在页面上的位置定义。定义文本字段的三种方法：
+文本字段由其在页面上的位置定义。定义文本域的三种方式：
 
 * [`使用矩形区域`](../templatefixedposition)
 * [`使用正则表达式`](../templateregexposition)

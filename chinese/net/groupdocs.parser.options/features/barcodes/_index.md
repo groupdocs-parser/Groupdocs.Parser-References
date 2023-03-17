@@ -1,14 +1,14 @@
 ---
 title: Barcodes
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取指示是否支持条码提取的值
+description: 获取是否支持提取条码的值
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.options/features/barcodes/
 ---
 ## Features.Barcodes property
 
-获取指示是否支持条码提取的值。
+获取是否支持提取条码的值。
 
 ```csharp
 public bool Barcodes { get; }
@@ -16,7 +16,7 @@ public bool Barcodes { get; }
 
 ### 返回值
 
-`真的`是否支持条码提取；否则，`错误的`.
+`真的`是否支持条形码提取；否则，`错误的`.
 
 ### 也可以看看
 

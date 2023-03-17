@@ -1,14 +1,14 @@
 ---
 title: MetadataItem
 second_title: GroupDocs.Parser for .NET API 参考
-description: 表示在容器项目和元数据提取功能中使用的元数据项目
+description: 表示用于容器项和元数据提取功能的元数据项
 type: docs
 weight: 50
 url: /zh/net/groupdocs.parser.data/metadataitem/
 ---
 ## MetadataItem class
 
-表示在容器项目和元数据提取功能中使用的元数据项目。
+表示用于容器项和元数据提取功能的元数据项。
 
 ```csharp
 public sealed class MetadataItem
@@ -18,7 +18,7 @@ public sealed class MetadataItem
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MetadataItem](metadataitem)(string, string) | 初始化[`MetadataItem`](../metadataitem)类. |
+| [MetadataItem](metadataitem)(string, string) | 初始化一个新的实例[`MetadataItem`](../metadataitem)类. |
 
 ## 特性
 
@@ -29,7 +29,7 @@ public sealed class MetadataItem
 
 ### 评论
 
-的一个实例[`MetadataItem`](../metadataitem)类用作返回值 [`GetMetadata`](../../groupdocs.parser/parser/getmetadata)方法并作为项目[`Metadata`](../containeritem/metadata)集合. 请参阅那里的用法示例。
+的实例[`MetadataItem`](../metadataitem)类用作返回值 的[`GetMetadata`](../../groupdocs.parser/parser/getmetadata)方法并作为其中的一项[`Metadata`](../containeritem/metadata)collection. 请参阅此处的用法示例。
 
 ### 也可以看看
 

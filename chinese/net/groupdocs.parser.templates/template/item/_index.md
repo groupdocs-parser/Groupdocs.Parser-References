@@ -20,7 +20,7 @@ public TemplateItem this[int index] { get; }
 
 ### 返回值
 
-一个实例[`TemplateItem`](../../templateitem)班级。
+的实例[`TemplateItem`](../../templateitem)班级。
 
 ### 也可以看看
 

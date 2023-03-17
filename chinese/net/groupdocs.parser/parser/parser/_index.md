@@ -1,14 +1,14 @@
 ---
 title: Parser
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化Parsergroupdocs.parser/parser类从数据库中提取数据
+description: 初始化一个新的实例Parsergroupdocs.parser/parser从数据库中提取数据的类
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser/parser/parser/
 ---
 ## Parser(DbConnection) {#constructor_2}
 
-初始化[`Parser`](../../parser)类从数据库中提取数据。
+初始化一个新的实例[`Parser`](../../parser)从数据库中提取数据的类。
 
 ```csharp
 public Parser(DbConnection connection)
@@ -20,13 +20,13 @@ public Parser(DbConnection connection)
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [从数据库中提取数据](https://docs.groupdocs.com/display/parsernet/Extract+data+from+databases)
 
 ### 例子
 
-以下示例显示了如何从 Sqlite 数据库中提取数据：
+下面的例子展示了如何从 Sqlite 数据库中提取数据：
 
 ```csharp
 // 创建 DbConnection 对象
@@ -46,7 +46,7 @@ using (Parser parser = new Parser(connection))
         Console.WriteLine("Toc extraction isn't supported.");
         return;
     }
-    // 获取表列表
+    // 获取表格列表
     IEnumerable<TocItem> toc = parser.GetToc();
     // 遍历表
     foreach (TocItem i in toc)
@@ -72,7 +72,7 @@ using (Parser parser = new Parser(connection))
 
 ## Parser(DbConnection, ParserSettings) {#constructor_3}
 
-初始化[`Parser`](../../parser)类从数据库中提取数据。
+初始化一个新的实例[`Parser`](../../parser)从数据库中提取数据的类。
 
 ```csharp
 public Parser(DbConnection connection, ParserSettings parserSettings)
@@ -85,14 +85,14 @@ public Parser(DbConnection connection, ParserSettings parserSettings)
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [从数据库中提取数据](https://docs.groupdocs.com/display/parsernet/Extract+data+from+databases)
-* [日志记录](https://docs.groupdocs.com/display/parsernet/Logging)
+* [记录](https://docs.groupdocs.com/display/parsernet/Logging)
 
 ### 例子
 
-以下示例显示了如何从 Sqlite 数据库中提取数据：
+下面的例子展示了如何从 Sqlite 数据库中提取数据：
 
 ```csharp
 // 创建 DbConnection 对象
@@ -112,7 +112,7 @@ using (Parser parser = new Parser(connection))
         Console.WriteLine("Toc extraction isn't supported.");
         return;
     }
-    // 获取表列表
+    // 获取表格列表
     IEnumerable<TocItem> toc = parser.GetToc();
     // 遍历表
     foreach (TocItem i in toc)
@@ -139,7 +139,7 @@ using (Parser parser = new Parser(connection))
 
 ## Parser(EmailConnection) {#constructor}
 
-初始化[`Parser`](../../parser)从远程电子邮件服务器中提取数据的类。
+初始化一个新的实例[`Parser`](../../parser)从远程电子邮件服务器中提取数据的类。
 
 ```csharp
 public Parser(EmailConnection connection)
@@ -151,13 +151,13 @@ public Parser(EmailConnection connection)
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [通过 POP、IMAP 或 Exchange Web 服务协议从远程服务器提取电子邮件](https://docs.groupdocs.com/display/parsernet/Extract+emails+from+remote+server+via+POP%2C+IMAP+or+Exchange+Web+Services+protocols)
 
 ### 例子
 
-以下示例显示如何从 Exchange Server 提取电子邮件：
+以下示例显示如何从 Exchange Server 中提取电子邮件：
 
 ```csharp
 // 为 Exchange Web 服务协议创建连接对象 
@@ -176,19 +176,19 @@ using (Parser parser = new Parser(connection))
         return;
     }
 
-// 从服务器中提取电子邮件消息
+// 从服务器中提取电子邮件信息
 IEnumerable<ContainerItem> emails = parser.GetContainer();
  
     // 遍历附件
     foreach (ContainerItem item in emails)
     {
-        // 为电子邮件消息创建 Parser 类的实例
+        // 为电子邮件创建 Parser 类的实例
         using (Parser emailParser = item.OpenParser())
         {
             // 提取邮件文本
             using (TextReader reader = emailParser.GetText())
             {
-                // 打印电子邮件文本
+                // 打印邮件文本
                 Console.WriteLine(reader == null ? "Text extraction isn't supported." : reader.ReadToEnd());
             }
         }
@@ -207,7 +207,7 @@ IEnumerable<ContainerItem> emails = parser.GetContainer();
 
 ## Parser(EmailConnection, ParserSettings) {#constructor_1}
 
-初始化[`Parser`](../../parser)从远程电子邮件服务器中提取数据的类。
+初始化一个新的实例[`Parser`](../../parser)从远程电子邮件服务器中提取数据的类。
 
 ```csharp
 public Parser(EmailConnection connection, ParserSettings parserSettings)
@@ -220,14 +220,14 @@ public Parser(EmailConnection connection, ParserSettings parserSettings)
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [通过 POP、IMAP 或 Exchange Web 服务协议从远程服务器提取电子邮件](https://docs.groupdocs.com/display/parsernet/Extract+emails+from+remote+server+via+POP%2C+IMAP+or+Exchange+Web+Services+protocols)
-* [日志记录](https://docs.groupdocs.com/display/parsernet/Logging)
+* [记录](https://docs.groupdocs.com/display/parsernet/Logging)
 
 ### 例子
 
-以下示例显示如何从 Exchange Server 提取电子邮件：
+以下示例显示如何从 Exchange Server 中提取电子邮件：
 
 ```csharp
 // 为 Exchange Web 服务协议创建连接对象 
@@ -246,19 +246,19 @@ using (Parser parser = new Parser(connection))
         return;
     }
 
-// 从服务器中提取电子邮件消息
+// 从服务器中提取电子邮件信息
 IEnumerable<ContainerItem> emails = parser.GetContainer();
  
     // 遍历附件
     foreach (ContainerItem item in emails)
     {
-        // 为电子邮件消息创建 Parser 类的实例
+        // 为电子邮件创建 Parser 类的实例
         using (Parser emailParser = item.OpenParser())
         {
             // 提取邮件文本
             using (TextReader reader = emailParser.GetText())
             {
-                // 打印电子邮件文本
+                // 打印邮件文本
                 Console.WriteLine(reader == null ? "Text extraction isn't supported." : reader.ReadToEnd());
             }
         }
@@ -276,9 +276,9 @@ IEnumerable<ContainerItem> emails = parser.GetContainer();
 
 ---
 
-## Parser(string) {#constructor_7}
+## Parser(string) {#constructor_8}
 
-初始化[`Parser`](../../parser)类.
+初始化一个新的实例[`Parser`](../../parser)类.
 
 ```csharp
 public Parser(string filePath)
@@ -290,7 +290,7 @@ public Parser(string filePath)
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [从本地磁盘加载文档](https://docs.groupdocs.com/display/parsernet/Load+document+from+local+disk)
 
@@ -299,14 +299,14 @@ public Parser(string filePath)
 以下示例显示如何从本地磁盘加载文档：
 
 ```csharp
-// 使用 filePath 创建 Parser 类的实例
+// 使用文件路径创建 Parser 类的实例
 using (Parser parser = new Parser(filePath))
 {
     // 将文本提取到阅读器中
     using (TextReader reader = parser.GetText())
     {
         // 打印文档中的文本
-        // 如果不支持文本提取，则 reader 为 null
+        // 如果不支持文本提取，则读取器为空
         Console.WriteLine(reader == null ? "Text extraction isn't supported" : reader.ReadToEnd());
     }
 }
@@ -320,9 +320,9 @@ using (Parser parser = new Parser(filePath))
 
 ---
 
-## Parser(string, LoadOptions) {#constructor_8}
+## Parser(string, LoadOptions) {#constructor_9}
 
-初始化[`Parser`](../../parser)类与[`LoadOptions`](../../../groupdocs.parser.options/loadoptions).
+初始化一个新的实例[`Parser`](../../parser)类[`LoadOptions`](../../../groupdocs.parser.options/loadoptions).
 
 ```csharp
 public Parser(string filePath, LoadOptions loadOptions)
@@ -335,10 +335,10 @@ public Parser(string filePath, LoadOptions loadOptions)
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
-* [加载特定的文件格式](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
-* [加载受密码保护的文档](https://docs.groupdocs.com/display/parsernet/Password-protected+documents)
+* [加载特定文件格式](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
+* [装入受密码保护的文档](https://docs.groupdocs.com/display/parsernet/Password-protected+documents)
 * [从本地磁盘加载文档](https://docs.groupdocs.com/display/parsernet/Load+document+from+local+disk)
 
 ### 例子
@@ -380,9 +380,31 @@ catch (InvalidPasswordException)
 
 ---
 
-## Parser(string, LoadOptions, ParserSettings) {#constructor_9}
+## Parser(string, ParserSettings) {#constructor_11}
 
-初始化[`Parser`](../../parser)类与[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) 和[`ParserSettings`](../../../groupdocs.parser.options/parsersettings).
+初始化一个新的实例[`Parser`](../../parser)类[`ParserSettings`](../../../groupdocs.parser.options/parsersettings).
+
+```csharp
+public Parser(string filePath, ParserSettings parserSettings)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| filePath | String | 文件的路径。 |
+| parserSettings | ParserSettings | 用于自定义数据提取的解析器设置。 |
+
+### 也可以看看
+
+* class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
+* class [Parser](../../parser)
+* 命名空间 [GroupDocs.Parser](../../parser)
+* 部件 [GroupDocs.Parser](../../../)
+
+---
+
+## Parser(string, LoadOptions, ParserSettings) {#constructor_10}
+
+初始化一个新的实例[`Parser`](../../parser)类[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) 和[`ParserSettings`](../../../groupdocs.parser.options/parsersettings).
 
 ```csharp
 public Parser(string filePath, LoadOptions loadOptions, ParserSettings parserSettings)
@@ -396,11 +418,11 @@ public Parser(string filePath, LoadOptions loadOptions, ParserSettings parserSet
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
-* [加载特定的文件格式](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
-* [加载受密码保护的文档](https://docs.groupdocs.com/display/parsernet/Password-protected+documents)
-* [日志记录](https://docs.groupdocs.com/display/parsernet/Logging)
+* [加载特定文件格式](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
+* [装入受密码保护的文档](https://docs.groupdocs.com/display/parsernet/Password-protected+documents)
+* [记录](https://docs.groupdocs.com/display/parsernet/Logging)
 * [从本地磁盘加载文档](https://docs.groupdocs.com/display/parsernet/Load+document+from+local+disk)
 
 ### 例子
@@ -410,9 +432,9 @@ public Parser(string filePath, LoadOptions loadOptions, ParserSettings parserSet
 ```csharp
 // 尝试
 {
-    // 创建一个 Logger 类的实例
+    // 创建 Logger 类的实例
     Logger logger = new Logger();
-    // 使用解析器设置创建 Parser 类的实例
+    // 使用解析器设置创建一个 Parser 类的实例
     using (Parser parser = new Parser(filePath, null, new ParserSettings(logger)))
     {
         // 检查是否支持文本提取
@@ -465,7 +487,7 @@ private class Logger : ILogger
 
 ## Parser(Stream) {#constructor_4}
 
-初始化[`Parser`](../../parser)类.
+初始化一个新的实例[`Parser`](../../parser)类.
 
 ```csharp
 public Parser(Stream document)
@@ -477,7 +499,7 @@ public Parser(Stream document)
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [从流中加载文档](https://docs.groupdocs.com/display/parsernet/Load+document+from+stream)
 
@@ -493,7 +515,7 @@ using (Parser parser = new Parser(stream))
     using (TextReader reader = parser.GetText())
     {
         // 打印文档中的文本
-        // 如果不支持文本提取，则 reader 为 null
+        // 如果不支持文本提取，则读取器为空
         Console.WriteLine(reader == null ? "Text extraction isn't supported" : reader.ReadToEnd());
     }
 }
@@ -509,7 +531,7 @@ using (Parser parser = new Parser(stream))
 
 ## Parser(Stream, LoadOptions) {#constructor_5}
 
-初始化[`Parser`](../../parser)类与[`LoadOptions`](../../../groupdocs.parser.options/loadoptions).
+初始化一个新的实例[`Parser`](../../parser)类[`LoadOptions`](../../../groupdocs.parser.options/loadoptions).
 
 ```csharp
 public Parser(Stream document, LoadOptions loadOptions)
@@ -522,20 +544,20 @@ public Parser(Stream document, LoadOptions loadOptions)
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
-* [加载特定的文件格式](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
-* [加载受密码保护的文档](https://docs.groupdocs.com/display/parsernet/Password-protected+documents)
+* [加载特定文件格式](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
+* [装入受密码保护的文档](https://docs.groupdocs.com/display/parsernet/Password-protected+documents)
 * [从流中加载文档](https://docs.groupdocs.com/display/parsernet/Load+document+from+stream)
 
 ### 例子
 
-在某些情况下需要定义[`FileFormat`](../../../groupdocs.parser.options/fileformat) 既适用于特殊情况（数据库、电子邮件服务器），也适用于按内容检测文件类型：
+在某些情况下有必要定义[`FileFormat`](../../../groupdocs.parser.options/fileformat) 既适用于特殊情况（数据库、电子邮件服务器），也适用于通过内容检测文件类型：
 
-文件密码通过[`LoadOptions`](../../../groupdocs.parser.options/loadoptions)班级：
+文档密码由[`LoadOptions`](../../../groupdocs.parser.options/loadoptions)班级：
 
 ```csharp
-// 为 Markdown 文档创建 Parser 类的实例
+// 为 markdown 文档创建一个 Parser 类的实例
 using (Parser parser = new Parser(stream, new LoadOptions(FileFormat.Markup)))
 {
     // 检查是否支持文本提取
@@ -547,7 +569,7 @@ using (Parser parser = new Parser(stream, new LoadOptions(FileFormat.Markup)))
     using (TextReader reader = parser.GetText())
     {
         // 打印文档文本
-        // 检测到降价；打印没有特殊符号的文本
+        // 检测到 Markdown；打印没有特殊符号的文本
         Console.WriteLine(reader.ReadToEnd());
     }
 }
@@ -588,9 +610,31 @@ catch (InvalidPasswordException)
 
 ---
 
+## Parser(Stream, ParserSettings) {#constructor_7}
+
+初始化一个新的实例[`Parser`](../../parser)类[`ParserSettings`](../../../groupdocs.parser.options/parsersettings).
+
+```csharp
+public Parser(Stream document, ParserSettings parserSettings)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| document | Stream | 源输入流。 |
+| parserSettings | ParserSettings | 用于自定义数据提取的解析器设置。 |
+
+### 也可以看看
+
+* class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
+* class [Parser](../../parser)
+* 命名空间 [GroupDocs.Parser](../../parser)
+* 部件 [GroupDocs.Parser](../../../)
+
+---
+
 ## Parser(Stream, LoadOptions, ParserSettings) {#constructor_6}
 
-初始化[`Parser`](../../parser)类与[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) 和[`ParserSettings`](../../../groupdocs.parser.options/parsersettings).
+初始化一个新的实例[`Parser`](../../parser)类[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) 和[`ParserSettings`](../../../groupdocs.parser.options/parsersettings).
 
 ```csharp
 public Parser(Stream document, LoadOptions loadOptions, ParserSettings parserSettings)
@@ -604,12 +648,12 @@ public Parser(Stream document, LoadOptions loadOptions, ParserSettings parserSet
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
-* [加载特定的文件格式](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
-* [加载受密码保护的文档](https://docs.groupdocs.com/display/parsernet/Password-protected+documents)
+* [加载特定文件格式](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
+* [装入受密码保护的文档](https://docs.groupdocs.com/display/parsernet/Password-protected+documents)
 * [从流中加载文档](https://docs.groupdocs.com/display/parsernet/Load+document+from+stream)
-* [日志记录](https://docs.groupdocs.com/display/parsernet/Logging)
+* [记录](https://docs.groupdocs.com/display/parsernet/Logging)
 
 ### 例子
 
@@ -618,9 +662,9 @@ public Parser(Stream document, LoadOptions loadOptions, ParserSettings parserSet
 ```csharp
 // 尝试
 {
-    // 创建一个 Logger 类的实例
+    // 创建 Logger 类的实例
     Logger logger = new Logger();
-    // 使用解析器设置创建 Parser 类的实例
+    // 使用解析器设置创建一个 Parser 类的实例
     using (Parser parser = new Parser(stream, null, new ParserSettings(logger)))
     {
         // 检查是否支持文本提取

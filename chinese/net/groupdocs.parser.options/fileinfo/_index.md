@@ -3,7 +3,7 @@ title: FileInfo
 second_title: GroupDocs.Parser for .NET API 参考
 description: 表示文件信息
 type: docs
-weight: 350
+weight: 370
 url: /zh/net/groupdocs.parser.options/fileinfo/
 ---
 ## FileInfo class
@@ -19,8 +19,8 @@ public class FileInfo
 | 姓名 | 描述 |
 | --- | --- |
 | [FileType](../../groupdocs.parser.options/fileinfo/filetype) { get; } | 获取文档类型。 |
-| [IsEncrypted](../../groupdocs.parser.options/fileinfo/isencrypted) { get; } | 获取一个值，该值表示文件是否受密码保护。 |
-| [Size](../../groupdocs.parser.options/fileinfo/size) { get; } | 获取文档的大小（以字节为单位）。 |
+| [IsEncrypted](../../groupdocs.parser.options/fileinfo/isencrypted) { get; } | 获取表示文件是否受密码保护的值。 |
+| [Size](../../groupdocs.parser.options/fileinfo/size) { get; } | 获取文档的字节大小。 |
 
 ### 也可以看看
 

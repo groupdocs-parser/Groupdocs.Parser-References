@@ -16,7 +16,7 @@ public TextStyle TextStyle { get; }
 
 ### 适当的价值
 
-一个实例[`TextStyle`](../../textstyle)表示文本样式的类。
+的实例[`TextStyle`](../../textstyle)表示文本样式的类。
 
 ### 也可以看看
 

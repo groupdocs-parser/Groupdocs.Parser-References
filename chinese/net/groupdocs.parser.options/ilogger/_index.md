@@ -1,14 +1,14 @@
 ---
 title: ILogger
 second_title: GroupDocs.Parser for .NET API 参考
-description: 定义记录器的接口用于在数据提取期间记录事件和错误
+description: 定义用于在数据提取期间记录事件和错误的记录器的接口
 type: docs
-weight: 420
+weight: 440
 url: /zh/net/groupdocs.parser.options/ilogger/
 ---
 ## ILogger interface
 
-定义记录器的接口，用于在数据提取期间记录事件和错误。
+定义用于在数据提取期间记录事件和错误的记录器的接口。
 
 ```csharp
 public interface ILogger
@@ -20,13 +20,13 @@ public interface ILogger
 | --- | --- |
 | [Error](../../groupdocs.parser.options/ilogger/error)(string, Exception) | 记录数据提取期间发生的错误。 |
 | [Trace](../../groupdocs.parser.options/ilogger/trace)(string) | 记录数据提取期间发生的事件。 |
-| [Warning](../../groupdocs.parser.options/ilogger/warning)(string) | 记录在数据提取期间发生的警告。 |
+| [Warning](../../groupdocs.parser.options/ilogger/warning)(string) | 记录数据提取期间发生的警告。 |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
-* [日志记录](https://docs.groupdocs.com/display/parsernet/Logging)
+* [记录](https://docs.groupdocs.com/display/parsernet/Logging)
 
 ### 也可以看看
 

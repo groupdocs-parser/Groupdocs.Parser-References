@@ -1,14 +1,14 @@
 ---
 title: TextPage
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取指示是否支持文本页面提取的值
+description: 获取是否支持文本页提取的值
 type: docs
-weight: 160
+weight: 180
 url: /zh/net/groupdocs.parser.options/features/textpage/
 ---
 ## Features.TextPage property
 
-获取指示是否支持文本页面提取的值。
+获取是否支持文本页提取的值。
 
 ```csharp
 public bool TextPage { get; }

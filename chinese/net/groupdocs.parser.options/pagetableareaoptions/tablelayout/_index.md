@@ -16,7 +16,7 @@ public TemplateTableLayout TableLayout { get; }
 
 ### 适当的价值
 
-一瞬间[`TemplateTableLayout`](../../../groupdocs.parser.templates/templatetablelayout)班级。
+瞬间的[`TemplateTableLayout`](../../../groupdocs.parser.templates/templatetablelayout)班级。
 
 ### 也可以看看
 

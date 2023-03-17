@@ -1,14 +1,14 @@
 ---
 title: TemplateLinkedPositionEdges
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化TemplateLinkedPositionEdgesgroupdocs.parser.templates/templatelinkedpositionedges类.
+description: 初始化一个新的实例TemplateLinkedPositionEdgesgroupdocs.parser.templates/templatelinkedpositionedges类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.templates/templatelinkedpositionedges/templatelinkedpositionedges/
 ---
 ## TemplateLinkedPositionEdges constructor
 
-初始化[`TemplateLinkedPositionEdges`](../../templatelinkedpositionedges)类.
+初始化一个新的实例[`TemplateLinkedPositionEdges`](../../templatelinkedpositionedges)类.
 
 ```csharp
 public TemplateLinkedPositionEdges(bool left, bool top, bool right, bool bottom)
@@ -17,9 +17,9 @@ public TemplateLinkedPositionEdges(bool left, bool top, bool right, bool bottom)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | left | Boolean | 指示是否从链接字段的左侧搜索字段的值。 |
-| top | Boolean | 指示是否按链接字段的顶部搜索字段的值。 |
-| right | Boolean | 指示是否从链接的字段中向右搜索字段的值。 |
-| bottom | Boolean | 指示是否从链接字段的底部搜索字段的值。 |
+| top | Boolean | 指示字段是否从链接字段顶部搜索的值。 |
+| right | Boolean | 指示是否从链接字段的右侧搜索字段的值。 |
+| bottom | Boolean | 指示是否从链接字段底部搜索字段的值。 |
 
 ### 也可以看看
 

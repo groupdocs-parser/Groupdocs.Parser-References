@@ -16,7 +16,7 @@ public int Position { get; }
 
 ### 适当的价值
 
-搜索结果起始位置的从零开始的索引。 依赖于[`SearchByPages`](../../../groupdocs.parser.options/searchoptions/searchbypages)属性值此索引从 文档开始或文档页面开始。
+搜索结果起始位置的从零开始的索引。 依赖于[`SearchByPages`](../../../groupdocs.parser.options/searchoptions/searchbypages)属性值 该索引从 文档开始或文档页面开始。
 
 ### 也可以看看
 

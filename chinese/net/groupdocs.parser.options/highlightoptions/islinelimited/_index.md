@@ -1,14 +1,14 @@
 ---
 title: IsLineLimited
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取指示高亮提取是否受文本行开头或结尾限制的值
+description: 获取指示突出显示提取是否受文本行的开头或结尾限制的值
 type: docs
 weight: 20
 url: /zh/net/groupdocs.parser.options/highlightoptions/islinelimited/
 ---
 ## HighlightOptions.IsLineLimited property
 
-获取指示高亮提取是否受文本行开头（或结尾）限制的值。
+获取指示突出显示提取是否受文本行的开头（或结尾）限制的值。
 
 ```csharp
 public bool IsLineLimited { get; }
@@ -16,7 +16,7 @@ public bool IsLineLimited { get; }
 
 ### 返回值
 
-`真的`如果高亮提取受文本行开头（或结尾）的限制；否则，`错误的`.
+`真的`如果突出显示受限于文本行的开头（或结尾）；否则，`错误的`.
 
 ### 也可以看看
 

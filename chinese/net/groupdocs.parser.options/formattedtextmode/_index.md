@@ -3,7 +3,7 @@ title: FormattedTextMode
 second_title: GroupDocs.Parser for .NET API 参考
 description: 定义格式化文本模式
 type: docs
-weight: 380
+weight: 400
 url: /zh/net/groupdocs.parser.options/formattedtextmode/
 ---
 ## FormattedTextMode enumeration
@@ -19,17 +19,17 @@ public enum FormattedTextMode
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Html | `0` | HTML 格式。 |
-| Markdown | `1` | Markdown 格式. |
+| Markdown | `1` | 降价格式. |
 | PlainText | `2` | 纯文本格式。 |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [从文档中提取格式化文本](https://docs.groupdocs.com/display/parsernet/Extract+formatted+text+from+document)
-* 提取文档文本为[HTML](https://docs.groupdocs.com/display/parsernet/HTML)
-* 提取文档文本为[降价](https://docs.groupdocs.com/display/parsernet/Markdown)
-* 提取文档文本为[纯文本](https://docs.groupdocs.com/display/parsernet/Plain+text)
+* 将文档文本提取为[HTML](https://docs.groupdocs.com/display/parsernet/HTML)
+* 将文档文本提取为[降价](https://docs.groupdocs.com/display/parsernet/Markdown)
+* 将文档文本提取为[纯文本](https://docs.groupdocs.com/display/parsernet/Plain+text)
 
 ### 也可以看看
 

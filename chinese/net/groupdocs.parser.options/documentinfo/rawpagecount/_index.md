@@ -16,11 +16,11 @@ public int RawPageCount { get; }
 
 ### 适当的价值
 
-一个整数值，表示原始页面的总数。
+表示原始页面总数的整数值。
 
 ### 评论
 
-使用`RawPageCount`财产而不是[`PageCount`](../pagecount)原始文本提取的属性。 某些文档在准确和原始文本提取模式下具有不同的页码。 [`PageCount`](../pagecount)属性可能会执行额外的计算，这会影响原始模式下的文本提取速度。
+使用`RawPageCount`财产而不是[`PageCount`](../pagecount)原始文本提取属性。 某些文档在准确和原始文本提取模式下具有不同的页码。 [`PageCount`](../pagecount)属性可能会执行额外的计算，这会影响原始模式下的文本提取速度。
 
 ### 也可以看看
 

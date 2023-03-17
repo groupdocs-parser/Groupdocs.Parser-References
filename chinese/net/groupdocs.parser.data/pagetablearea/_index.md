@@ -1,14 +1,14 @@
 ---
 title: PageTableArea
 second_title: GroupDocs.Parser for .NET API 参考
-description: 表示一个表页区域用于表示模板功能解析中的表
+description: 表示一个表页区域用于表示模板解析功能中的一个表
 type: docs
 weight: 120
 url: /zh/net/groupdocs.parser.data/pagetablearea/
 ---
 ## PageTableArea class
 
-表示一个表页区域，用于表示模板功能解析中的表。
+表示一个表页区域，用于表示模板解析功能中的一个表。
 
 ```csharp
 public sealed class PageTableArea : PageArea
@@ -18,7 +18,7 @@ public sealed class PageTableArea : PageArea
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PageTableArea](pagetablearea)(IEnumerable&lt;double&gt;, IEnumerable&lt;double&gt;, IEnumerable&lt;PageTableAreaCell&gt;, Page, Rectangle) | 初始化[`PageTableArea`](../pagetablearea)类. |
+| [PageTableArea](pagetablearea)(IEnumerable&lt;double&gt;, IEnumerable&lt;double&gt;, IEnumerable&lt;PageTableAreaCell&gt;, Page, Rectangle) | 初始化一个新的实例[`PageTableArea`](../pagetablearea)类. |
 
 ## 特性
 
@@ -39,7 +39,7 @@ public sealed class PageTableArea : PageArea
 
 ### 评论
 
-[`PageTableArea`](../pagetablearea)类用于组织继承者[`PageArea`](../pagearea)表结构中的class 。
+[`PageTableArea`](../pagetablearea)类用于组织继承者[`PageArea`](../pagearea)表结构中的class .
 
 ### 也可以看看
 

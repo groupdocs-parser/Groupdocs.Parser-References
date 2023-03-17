@@ -1,14 +1,14 @@
 ---
 title: Page
 second_title: GroupDocs.Parser for .NET API 参考
-description: 表示页面索引页面大小等文档页面信息 用于表示包含继承者的页面PageArea./pagearea模板功能解析中的class 
+description: 表示页面索引页面大小等文档页面信息 用于表示包含继承者的页面PageArea./pageareaclass 在按模板功能解析中
 type: docs
 weight: 60
 url: /zh/net/groupdocs.parser.data/page/
 ---
 ## Page class
 
-表示页面索引、页面大小等文档页面信息。 用于表示包含继承者的页面[`PageArea`](../pagearea)模板功能解析中的class 。
+表示页面索引、页面大小等文档页面信息。 用于表示包含继承者的页面[`PageArea`](../pagearea)class 在按模板功能解析中。
 
 ```csharp
 public sealed class Page
@@ -18,7 +18,7 @@ public sealed class Page
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Page](page)(int, Size) | 初始化[`Page`](../page)类. |
+| [Page](page)(int, Size) | 初始化一个新的实例[`Page`](../page)类. |
 
 ## 特性
 

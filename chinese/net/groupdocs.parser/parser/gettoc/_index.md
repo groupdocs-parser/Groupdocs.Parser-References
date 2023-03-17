@@ -20,7 +20,7 @@ public IEnumerable<TocItem> GetToc()
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [提取目录](https://docs.groupdocs.com/display/parsernet/Extract+table+of+contents)
 * [按目录项提取文本](https://docs.groupdocs.com/display/parsernet/Extract+text+by+table+of+contents+item)
@@ -32,7 +32,7 @@ public IEnumerable<TocItem> GetToc()
 以下示例显示如何从 CHM 文件中提取目录：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using (Parser parser = new Parser(filePath))
 {
     // 检查是否支持文本提取

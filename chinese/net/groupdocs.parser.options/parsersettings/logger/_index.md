@@ -3,7 +3,7 @@ title: Logger
 second_title: GroupDocs.Parser for .NET API 参考
 description: 获取用于在数据提取期间记录事件和错误的记录器
 type: docs
-weight: 20
+weight: 30
 url: /zh/net/groupdocs.parser.options/parsersettings/logger/
 ---
 ## ParserSettings.Logger property
@@ -16,7 +16,7 @@ public ILogger Logger { get; }
 
 ### 适当的价值
 
-实现的类的实例[`ILogger`](../../ilogger)界面。
+实现类的实例[`ILogger`](../../ilogger)界面。
 
 ### 也可以看看
 

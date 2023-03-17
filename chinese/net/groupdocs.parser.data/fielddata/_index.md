@@ -1,14 +1,14 @@
 ---
 title: FieldData
 second_title: GroupDocs.Parser for .NET API 参考
-description: 表示字段数据例如名称页面索引字段值等 根据字段值可以是文本图像表格等
+description: 表示字段数据例如名称页面索引字段值等 根据字段的不同值可以是文本图像表格等
 type: docs
 weight: 30
 url: /zh/net/groupdocs.parser.data/fielddata/
 ---
 ## FieldData class
 
-表示字段数据，例如名称、页面索引、字段值等。 根据字段，值可以是文本、图像、表格等。
+表示字段数据，例如名称、页面索引、字段值等。 根据字段的不同，值可以是文本、图像、表格等。
 
 ```csharp
 public sealed class FieldData
@@ -18,8 +18,8 @@ public sealed class FieldData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FieldData](fielddata#constructor)(string, PageArea) | 初始化[`FieldData`](../fielddata)类. |
-| [FieldData](fielddata#constructor_1)(string, PageArea, FieldData) | 初始化[`FieldData`](../fielddata)类. |
+| [FieldData](fielddata#constructor)(string, PageArea) | 初始化一个新的实例[`FieldData`](../fielddata)类. |
+| [FieldData](fielddata#constructor_1)(string, PageArea, FieldData) | 初始化一个新的实例[`FieldData`](../fielddata)类. |
 
 ## 特性
 

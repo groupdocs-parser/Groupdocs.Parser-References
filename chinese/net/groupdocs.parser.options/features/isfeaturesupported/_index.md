@@ -3,7 +3,7 @@ title: IsFeatureSupported
 second_title: GroupDocs.Parser for .NET API 参考
 description: 返回指示是否支持该功能的值
 type: docs
-weight: 180
+weight: 200
 url: /zh/net/groupdocs.parser.options/features/isfeaturesupported/
 ---
 ## Features.IsFeatureSupported method
@@ -20,7 +20,7 @@ public bool IsFeatureSupported(string featureName)
 
 ### 返回值
 
-`真的`是否支持该功能；否则，`错误的`.
+`真的`如果支持该功能；否则，`错误的`.
 
 ### 也可以看看
 

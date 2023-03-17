@@ -3,7 +3,7 @@ title: TemplateRegexPosition
 second_title: GroupDocs.Parser for .NET API 参考
 description: 提供使用正则表达式的模板字段位置
 type: docs
-weight: 680
+weight: 730
 url: /zh/net/groupdocs.parser.templates/templateregexposition/
 ---
 ## TemplateRegexPosition class
@@ -18,8 +18,8 @@ public sealed class TemplateRegexPosition : TemplatePosition
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TemplateRegexPosition](templateregexposition#constructor)(string) | 初始化[`TemplateRegexPosition`](../templateregexposition)类. |
-| [TemplateRegexPosition](templateregexposition#constructor_1)(string, bool) | 初始化[`TemplateRegexPosition`](../templateregexposition)类. |
+| [TemplateRegexPosition](templateregexposition#constructor)(string) | 初始化一个新的实例[`TemplateRegexPosition`](../templateregexposition)类. |
+| [TemplateRegexPosition](templateregexposition#constructor_1)(string, bool) | 初始化一个新的实例[`TemplateRegexPosition`](../templateregexposition)类. |
 
 ## 特性
 
@@ -30,14 +30,14 @@ public sealed class TemplateRegexPosition : TemplatePosition
 
 ### 例子
 
-下面的例子显示了情况 如果文档包含“Invoice Number INV-12345”，那么模板字段可以通过以下方式定义：
+以下示例显示了 的情况，如果文档包含“发票编号 INV-12345”，则模板字段可以按以下方式定义：
 
 在这种情况下，提取整个字符串作为值。 要仅提取字符串的一部分，使用正则表达式组“值”：
 
-在这种情况下，作为值“INV-3337”字符串被提取。
+在这种情况下，作为值“INV-3337”的字符串被提取。
 
 ```csharp
-// 创建一个带有“InvoiceNumber”名称的正则表达式模板字段
+// 创建一个名称为“InvoiceNumber”的正则表达式模板字段
 TemplateField templateField = new TemplateField(
     new TemplateRegexPosition("Invoice Number\\s+[A-Z0-9\\-]+"),
     "InvoiceNumber");

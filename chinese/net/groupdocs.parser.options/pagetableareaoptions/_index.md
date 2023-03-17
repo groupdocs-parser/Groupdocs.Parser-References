@@ -3,7 +3,7 @@ title: PageTableAreaOptions
 second_title: GroupDocs.Parser for .NET API 参考
 description: 提供用于页表区域提取的选项
 type: docs
-weight: 490
+weight: 540
 url: /zh/net/groupdocs.parser.options/pagetableareaoptions/
 ---
 ## PageTableAreaOptions class
@@ -18,7 +18,7 @@ public sealed class PageTableAreaOptions : PageAreaOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PageTableAreaOptions](pagetableareaoptions)(TemplateTableLayout) | 初始化[`PageAreaOptions`](../pageareaoptions)类. |
+| [PageTableAreaOptions](pagetableareaoptions)(TemplateTableLayout) | 初始化一个新的实例[`PageAreaOptions`](../pageareaoptions)类. |
 
 ## 特性
 
@@ -29,7 +29,7 @@ public sealed class PageTableAreaOptions : PageAreaOptions
 
 ### 评论
 
-的一个实例[`PageTableAreaOptions`](../pagetableareaoptions)类用作参数 [`GetTables`](../../groupdocs.parser/parser/gettables)和[`GetTables`](../../groupdocs.parser/parser/gettables)方法. 请参阅那里的用法示例。
+的实例[`PageTableAreaOptions`](../pagetableareaoptions)类在中用作参数 [`GetTables`](../../groupdocs.parser/parser/gettables)和[`GetTables`](../../groupdocs.parser/parser/gettables) methods. 请参阅此处的用法示例。
 
 ### 也可以看看
 

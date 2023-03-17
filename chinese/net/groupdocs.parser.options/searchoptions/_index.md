@@ -3,7 +3,7 @@ title: SearchOptions
 second_title: GroupDocs.Parser for .NET API 参考
 description: 提供用于文本搜索的选项
 type: docs
-weight: 560
+weight: 610
 url: /zh/net/groupdocs.parser.options/searchoptions/
 ---
 ## SearchOptions class
@@ -18,29 +18,29 @@ public sealed class SearchOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SearchOptions](searchoptions#constructor)() | 初始化[`SearchOptions`](../searchoptions)具有默认值的类。详情见备注。 |
-| [SearchOptions](searchoptions#constructor_1)(bool, bool, bool) | 初始化[`SearchOptions`](../searchoptions)用于搜索 而不提取高亮的类。 |
-| [SearchOptions](searchoptions#constructor_2)(bool, bool, bool, bool) | 初始化[`SearchOptions`](../searchoptions)用于按页面搜索的类和 而不提取高亮。 |
-| [SearchOptions](searchoptions#constructor_4)(bool, bool, bool, HighlightOptions) | 初始化[`SearchOptions`](../searchoptions)用于搜索 的类，具有相同的高亮选项，用于左右高亮提取。 |
-| [SearchOptions](searchoptions#constructor_5)(bool, bool, bool, HighlightOptions, HighlightOptions) | 初始化[`SearchOptions`](../searchoptions)用于搜索 的类，带有用于左右高亮提取的高亮选项。 |
-| [SearchOptions](searchoptions#constructor_3)(bool, bool, bool, bool, HighlightOptions, HighlightOptions) | 初始化[`SearchOptions`](../searchoptions)类. |
+| [SearchOptions](searchoptions#constructor)() | 初始化一个新的实例[`SearchOptions`](../searchoptions)具有默认值的类。详情见备注。 |
+| [SearchOptions](searchoptions#constructor_1)(bool, bool, bool) | 初始化一个新的实例[`SearchOptions`](../searchoptions)用于 search 没有高亮提取的类. |
+| [SearchOptions](searchoptions#constructor_2)(bool, bool, bool, bool) | 初始化一个新的实例[`SearchOptions`](../searchoptions)用于按页搜索的类和 没有突出显示. |
+| [SearchOptions](searchoptions#constructor_4)(bool, bool, bool, HighlightOptions) | 初始化一个新的实例[`SearchOptions`](../searchoptions)用于 search 的类，对于左右高亮提取具有相同的高亮选项。 |
+| [SearchOptions](searchoptions#constructor_5)(bool, bool, bool, HighlightOptions, HighlightOptions) | 初始化一个新的实例[`SearchOptions`](../searchoptions)用于 search 的类，带有用于左侧和右侧高亮提取的高亮选项。 |
+| [SearchOptions](searchoptions#constructor_3)(bool, bool, bool, bool, HighlightOptions, HighlightOptions) | 初始化一个新的实例[`SearchOptions`](../searchoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LeftHighlightOptions](../../groupdocs.parser.options/searchoptions/lefthighlightoptions) { get; } | 获取左侧高亮的选项。 |
+| [LeftHighlightOptions](../../groupdocs.parser.options/searchoptions/lefthighlightoptions) { get; } | 获取左侧突出显示的选项。 |
 | [MatchCase](../../groupdocs.parser.options/searchoptions/matchcase) { get; } | 获取指示是否不忽略文本大小写的值。 |
-| [MatchWholeWord](../../groupdocs.parser.options/searchoptions/matchwholeword) { get; } | 获取指示文本搜索是否被整个单词限制的值。 |
-| [RightHighlightOptions](../../groupdocs.parser.options/searchoptions/righthighlightoptions) { get; } | 获取右侧高亮的选项。 |
-| [SearchByPages](../../groupdocs.parser.options/searchoptions/searchbypages) { get; } | 获取指示搜索是否按页执行的值。 |
-| [UseRegularExpression](../../groupdocs.parser.options/searchoptions/useregularexpression) { get; } | 获取指示是否使用正则表达式的值。 |
+| [MatchWholeWord](../../groupdocs.parser.options/searchoptions/matchwholeword) { get; } | 获取文本搜索是否受限于整个单词的值。 |
+| [RightHighlightOptions](../../groupdocs.parser.options/searchoptions/righthighlightoptions) { get; } | 获取正确突出显示的选项。 |
+| [SearchByPages](../../groupdocs.parser.options/searchoptions/searchbypages) { get; } | 获取是否按页搜索的值。 |
+| [UseRegularExpression](../../groupdocs.parser.options/searchoptions/useregularexpression) { get; } | 获取表示是否使用正则表达式的值。 |
 
 ### 评论
 
-的一个实例[`SearchOptions`](../searchoptions)类用作参数 [`Search`](../../groupdocs.parser/parser/search)方法。请参阅那里的用法示例。
+的实例[`SearchOptions`](../searchoptions)类在中用作参数 [`Search`](../../groupdocs.parser/parser/search)方法。请参阅此处的用法示例。
 
-**学到更多：**
+**了解更多：**
 
 * [搜索文本](https://docs.groupdocs.com/display/parsernet/Search+text)
 * [在 Microsoft Office Word 文档中搜索文本](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+Word+documents)
@@ -50,7 +50,7 @@ public sealed class SearchOptions
 * [在电子邮件中搜索文本](https://docs.groupdocs.com/display/parsernet/Search+text+in+Emails)
 * [在 EPUB 电子书中搜索文本](https://docs.groupdocs.com/display/parsernet/Search+text+in+EPUB+eBooks)
 * [在 HTML 文档中搜索文本](https://docs.groupdocs.com/display/parsernet/Search+text+in+HTML+documents)
-* [在 Microsoft OneNote 部分中搜索文本](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+OneNote+sections)
+* [在 Microsoft OneNote 分区中搜索文本](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+OneNote+sections)
 
 ### 也可以看看
 

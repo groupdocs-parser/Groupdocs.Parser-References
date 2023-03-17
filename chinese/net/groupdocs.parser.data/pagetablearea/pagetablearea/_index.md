@@ -1,14 +1,14 @@
 ---
 title: PageTableArea
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化PageTableAreagroupdocs.parser.data/pagetablearea类.
+description: 初始化一个新的实例PageTableAreagroupdocs.parser.data/pagetablearea类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.data/pagetablearea/pagetablearea/
 ---
 ## PageTableArea constructor
 
-初始化[`PageTableArea`](../../pagetablearea)类.
+初始化一个新的实例[`PageTableArea`](../../pagetablearea)类.
 
 ```csharp
 public PageTableArea(IEnumerable<double> rows, IEnumerable<double> columns, 

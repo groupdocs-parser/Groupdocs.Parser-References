@@ -1,14 +1,14 @@
 ---
 title: Left
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取表示是否从链接字段向左搜索字段的值
+description: 获取一个字段是否从链接字段左侧搜索的值
 type: docs
 weight: 40
 url: /zh/net/groupdocs.parser.templates/templatelinkedpositionedges/left/
 ---
 ## TemplateLinkedPositionEdges.Left property
 
-获取表示是否从链接字段向左搜索字段的值。
+获取一个字段是否从链接字段左侧搜索的值。
 
 ```csharp
 public bool Left { get; }

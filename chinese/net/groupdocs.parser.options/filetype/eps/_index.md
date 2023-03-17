@@ -1,14 +1,14 @@
 ---
 title: EPS
 second_title: GroupDocs.Parser for .NET API 参考
-description: 带有 EPS 扩展名的文件本质上描述了一个 Encapsulated PostScript 语言程序 它描述了单个页面的外观了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/pagedescriptionlanguage/eps/.
+description: 具有 EPS 扩展名的文件本质上描述了一个封装的 PostScript 语言程序 它描述了单个页面的外观详细了解此文件格式 这里https//wiki.fileformat.com/pagedescriptionlanguage/eps/.
 type: docs
 weight: 180
 url: /zh/net/groupdocs.parser.options/filetype/eps/
 ---
 ## FileType.EPS field
 
-带有 EPS 扩展名的文件本质上描述了一个 Encapsulated PostScript 语言程序 ，它描述了单个页面的外观。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/page-description-language/eps/).
+具有 EPS 扩展名的文件本质上描述了一个封装的 PostScript 语言程序 ，它描述了单个页面的外观。详细了解此文件格式 [这里](https://wiki.fileformat.com/page-description-language/eps/).
 
 ```csharp
 public static readonly FileType EPS;

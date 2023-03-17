@@ -1,14 +1,14 @@
 ---
 title: TextStyle
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化TextStylegroupdocs.parser.data/textstyle类.
+description: 初始化一个新的实例TextStylegroupdocs.parser.data/textstyle类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.data/textstyle/textstyle/
 ---
 ## TextStyle constructor
 
-初始化[`TextStyle`](../../textstyle)类.
+初始化一个新的实例[`TextStyle`](../../textstyle)类.
 
 ```csharp
 public TextStyle(string name, string fontName, double fontSize, bool isBold, bool isItalic)

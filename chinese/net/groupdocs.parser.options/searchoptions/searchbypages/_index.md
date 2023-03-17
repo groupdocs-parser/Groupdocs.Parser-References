@@ -1,14 +1,14 @@
 ---
 title: SearchByPages
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取指示搜索是否按页执行的值
+description: 获取是否按页搜索的值
 type: docs
 weight: 60
 url: /zh/net/groupdocs.parser.options/searchoptions/searchbypages/
 ---
 ## SearchOptions.SearchByPages property
 
-获取指示搜索是否按页执行的值。
+获取是否按页搜索的值。
 
 ```csharp
 public bool SearchByPages { get; }
@@ -16,7 +16,7 @@ public bool SearchByPages { get; }
 
 ### 适当的价值
 
-`真的`如果搜索是按页面执行的；否则，`错误的` 并在整个文档上执行搜索，不包括[`PageIndex`](../../../groupdocs.parser.data/searchresult/pageindex)属性值 in[`SearchResult`](../../../groupdocs.parser.data/searchresult)类.
+`真的`如果搜索是按页面执行的；否则，`错误的` 并且搜索是在整个文档上执行的，不包括[`PageIndex`](../../../groupdocs.parser.data/searchresult/pageindex)属性值 在[`SearchResult`](../../../groupdocs.parser.data/searchresult)类.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: SVG
 second_title: GroupDocs.Parser for .NET API 参考
-description: SVG 文件是一个标量矢量图形文件它使用基于 XML 的文本格式 来描述图像的外观了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/pagedescriptionlanguage/svg/.
+description: SVG 文件是一种标量矢量图形文件它使用基于 XML 的文本格式 来描述图像的外观详细了解此文件格式 这里https//wiki.fileformat.com/pagedescriptionlanguage/svg/.
 type: docs
 weight: 680
 url: /zh/net/groupdocs.parser.options/filetype/svg/
 ---
 ## FileType.SVG field
 
-SVG 文件是一个标量矢量图形文件，它使用基于 XML 的文本格式 来描述图像的外观。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/page-description-language/svg/).
+SVG 文件是一种标量矢量图形文件，它使用基于 XML 的文本格式 来描述图像的外观。详细了解此文件格式 [这里](https://wiki.fileformat.com/page-description-language/svg/).
 
 ```csharp
 public static readonly FileType SVG;

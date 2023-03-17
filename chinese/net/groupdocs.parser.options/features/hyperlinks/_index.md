@@ -1,14 +1,14 @@
 ---
 title: Hyperlinks
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取指示是否支持超链接提取的值
+description: 获取是否支持超链接提取的值
 type: docs
 weight: 60
 url: /zh/net/groupdocs.parser.options/features/hyperlinks/
 ---
 ## Features.Hyperlinks property
 
-获取指示是否支持超链接提取的值。
+获取是否支持超链接提取的值。
 
 ```csharp
 public bool Hyperlinks { get; }

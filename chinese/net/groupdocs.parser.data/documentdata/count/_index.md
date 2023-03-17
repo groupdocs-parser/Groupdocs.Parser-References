@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取字段数据的总数
+description: 获取字段数据总数
 type: docs
 weight: 20
 url: /zh/net/groupdocs.parser.data/documentdata/count/
 ---
 ## DocumentData.Count property
 
-获取字段数据的总数。
+获取字段数据总数。
 
 ```csharp
 public int Count { get; }

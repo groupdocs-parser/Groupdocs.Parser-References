@@ -20,16 +20,16 @@ public IList<FieldData> GetFieldsByName(string fieldName)
 
 ### 返回值
 
-一个集合[`FieldData`](../../fielddata)物体；如果没有找到字段数据，则为空集合。
+的集合[`FieldData`](../../fielddata)对象；如果未找到字段数据，则为空集合。
 
 ### 例子
 
-按字段名称查找字段：
+按字段名查找字段：
 
-[`FieldData`](../../fielddata)类表示字段数据。视领域而定[`PageArea`](../../fielddata/pagearea)property 可以包含任何继承者[`PageArea`](../../pagearea)班级。例如，[`ParseForm`](../../../groupdocs.parser/parser/parseform) method 仅提取文本字段。
+[`FieldData`](../../fielddata)类代表字段数据。视领域而定[`PageArea`](../../fielddata/pagearea)property 可以包含的任何继承者[`PageArea`](../../pagearea)班级。例如，[`ParseForm`](../../../groupdocs.parser/parser/parseform) method 仅提取文本字段。
 
 ```csharp
-// 获取所有带有“地址”名称的字段
+// 获取名称为“Address”的所有字段
 IList<FieldData> addressFields = data.GetFieldsByName("Address");
 if(addressFields.Count == 0) {
     Console.WriteLine("Address not found");

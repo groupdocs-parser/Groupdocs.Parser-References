@@ -3,7 +3,7 @@ title: ParserSettings
 second_title: GroupDocs.Parser for .NET API 参考
 description: 提供用于自定义数据提取的设置
 type: docs
-weight: 510
+weight: 560
 url: /zh/net/groupdocs.parser.options/parsersettings/
 ---
 ## ParserSettings class
@@ -18,19 +18,25 @@ public sealed class ParserSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ParserSettings](parsersettings)(ILogger) | 初始化[`ParserSettings`](../parsersettings)类. |
+| [ParserSettings](parsersettings#constructor)(ExternalResourceHandler) | 初始化一个新的实例[`ParserSettings`](../parsersettings)类与外部资源处理程序. |
+| [ParserSettings](parsersettings#constructor_1)(ILogger) | 初始化一个新的实例[`ParserSettings`](../parsersettings)与记录器一起上课. |
+| [ParserSettings](parsersettings#constructor_4)(OcrConnectorBase) | 初始化一个新的实例[`ParserSettings`](../parsersettings)使用 OCR 连接器上课。 |
+| [ParserSettings](parsersettings#constructor_2)(ILogger, OcrConnectorBase) | 初始化一个新的实例[`ParserSettings`](../parsersettings)带有记录器和 OCR 连接器的类。 |
+| [ParserSettings](parsersettings#constructor_3)(ILogger, OcrConnectorBase, ExternalResourceHandler) | 初始化一个新的实例[`ParserSettings`](../parsersettings)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
+| [ExternalResourceHandler](../../groupdocs.parser.options/parsersettings/externalresourcehandler) { get; } | 获取外部资源的处理程序。 |
 | [Logger](../../groupdocs.parser.options/parsersettings/logger) { get; } | 获取用于在数据提取期间记录事件和错误的记录器。 |
+| [OcrConnector](../../groupdocs.parser.options/parsersettings/ocrconnector) { get; } | 获取用于提供 OCR 功能的 OCR 连接器。 |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
-* [日志记录](https://docs.groupdocs.com/display/parsernet/Logging)
+* [记录](https://docs.groupdocs.com/display/parsernet/Logging)
 
 ### 也可以看看
 

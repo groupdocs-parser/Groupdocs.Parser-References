@@ -18,14 +18,14 @@ public sealed class PageImageArea : PageArea
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PageImageArea](pageimagearea#constructor)(Stream, FileType, double) | 初始化[`PageImageArea`](../pageimagearea)类. |
-| [PageImageArea](pageimagearea#constructor_1)(Stream, FileType, double, Page, Rectangle) | 初始化[`PageImageArea`](../pageimagearea)类. |
+| [PageImageArea](pageimagearea#constructor)(Stream, FileType, double) | 初始化一个新的实例[`PageImageArea`](../pageimagearea)类. |
+| [PageImageArea](pageimagearea#constructor_1)(Stream, FileType, double, Page, Rectangle) | 初始化一个新的实例[`PageImageArea`](../pageimagearea)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileType](../../groupdocs.parser.data/pageimagearea/filetype) { get; } | 获取图片的格式 |
+| [FileType](../../groupdocs.parser.data/pageimagearea/filetype) { get; } | 获取图像的格式。 |
 | [Page](../../groupdocs.parser.data/pagearea/page) { get; } | 获取页面索引、页面大小等文档页面信息。 |
 | [Rectangle](../../groupdocs.parser.data/pagearea/rectangle) { get; } | 获取矩形区域。 |
 | [Rotation](../../groupdocs.parser.data/pageimagearea/rotation) { get; } | 获取图像的旋转角度。 |
@@ -41,14 +41,14 @@ public sealed class PageImageArea : PageArea
 
 ### 评论
 
-一个实例[`PageImageArea`](../pageimagearea)类用作以下方法的返回值 ：
+的实例[`PageImageArea`](../pageimagearea)类用作以下方法的返回值 ：
 
 * [`GetImages`](../../groupdocs.parser/parser/getimages)
 * [`GetImages`](../../groupdocs.parser/parser/getimages)
 * [`GetImages`](../../groupdocs.parser/parser/getimages)
 * [`GetImages`](../../groupdocs.parser/parser/getimages)
 
-请参阅那里的用法示例。
+请参阅此处的用法示例。
 
 ### 也可以看看
 

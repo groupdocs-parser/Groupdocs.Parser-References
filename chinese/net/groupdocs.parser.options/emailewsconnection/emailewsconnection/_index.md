@@ -1,14 +1,14 @@
 ---
 title: EmailEwsConnection
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化EmailEwsConnectiongroupdocs.parser.options/emailewsconnection类.
+description: 初始化一个新的实例EmailEwsConnectiongroupdocs.parser.options/emailewsconnection类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.options/emailewsconnection/emailewsconnection/
 ---
 ## EmailEwsConnection(string, string, string) {#constructor}
 
-初始化[`EmailEwsConnection`](../../emailewsconnection)类.
+初始化一个新的实例[`EmailEwsConnection`](../../emailewsconnection)类.
 
 ```csharp
 public EmailEwsConnection(string mailboxUri, string userName, string password)
@@ -30,7 +30,7 @@ public EmailEwsConnection(string mailboxUri, string userName, string password)
 
 ## EmailEwsConnection(string, string, string, string) {#constructor_1}
 
-初始化[`EmailEwsConnection`](../../emailewsconnection)类.
+初始化一个新的实例[`EmailEwsConnection`](../../emailewsconnection)类.
 
 ```csharp
 public EmailEwsConnection(string mailboxUri, string domain, string userName, string password)

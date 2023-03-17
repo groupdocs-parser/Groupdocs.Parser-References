@@ -1,14 +1,14 @@
 ---
 title: GZ
 second_title: GroupDocs.Parser for .NET API 参考
-description: .gz 扩展名的文件是使用 gzip 压缩应用程序创建的压缩文件 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/compression/gz/.
+description: 扩展名为 .gz 的文件是使用 gzip 压缩应用程序创建的压缩文件 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/compression/gz/.
 type: docs
 weight: 220
 url: /zh/net/groupdocs.parser.options/filetype/gz/
 ---
 ## FileType.GZ field
 
-.gz 扩展名的文件是使用 gzip 压缩应用程序创建的压缩文件。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/compression/gz/).
+扩展名为 .gz 的文件是使用 gzip 压缩应用程序创建的压缩文件。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/compression/gz/).
 
 ```csharp
 public static readonly FileType GZ;

@@ -1,14 +1,14 @@
 ---
 title: Top
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取矩形区域上边缘的 y 坐标
+description: 获取矩形区域上边缘的y坐标
 type: docs
 weight: 70
 url: /zh/net/groupdocs.parser.data/rectangle/top/
 ---
 ## Rectangle.Top property
 
-获取矩形区域上边缘的 y 坐标。
+获取矩形区域上边缘的y坐标。
 
 ```csharp
 public double Top { get; }

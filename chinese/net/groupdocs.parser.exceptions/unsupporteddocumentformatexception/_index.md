@@ -1,14 +1,14 @@
 ---
 title: UnsupportedDocumentFormatException
 second_title: GroupDocs.Parser for .NET API 参考
-description: 在文档加载期间抛出当文档格式无法识别或不支持时
+description: 在文档加载期间抛出当无法识别或不支持文档格式时
 type: docs
 weight: 240
 url: /zh/net/groupdocs.parser.exceptions/unsupporteddocumentformatexception/
 ---
 ## UnsupportedDocumentFormatException class
 
-在文档加载期间抛出，当文档格式无法识别或不支持时。
+在文档加载期间抛出，当无法识别或不支持文档格式时。
 
 ```csharp
 public sealed class UnsupportedDocumentFormatException : GroupDocsParserException
@@ -18,8 +18,8 @@ public sealed class UnsupportedDocumentFormatException : GroupDocsParserExceptio
 
 | 姓名 | 描述 |
 | --- | --- |
-| [UnsupportedDocumentFormatException](unsupporteddocumentformatexception#constructor)() | 初始化[`UnsupportedDocumentFormatException`](../unsupporteddocumentformatexception)类. |
-| [UnsupportedDocumentFormatException](unsupporteddocumentformatexception#constructor_1)(string) | 初始化[`UnsupportedDocumentFormatException`](../unsupporteddocumentformatexception)类. |
+| [UnsupportedDocumentFormatException](unsupporteddocumentformatexception#constructor)() | 初始化一个新的实例[`UnsupportedDocumentFormatException`](../unsupporteddocumentformatexception)类. |
+| [UnsupportedDocumentFormatException](unsupporteddocumentformatexception#constructor_1)(string) | 初始化一个新的实例[`UnsupportedDocumentFormatException`](../unsupporteddocumentformatexception)类. |
 
 ### 也可以看看
 

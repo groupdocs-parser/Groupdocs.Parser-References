@@ -1,14 +1,14 @@
 ---
 title: TextAreas
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取指示是否支持文本区域提取的值
+description: 获取是否支持提取文本区域的值
 type: docs
-weight: 150
+weight: 170
 url: /zh/net/groupdocs.parser.options/features/textareas/
 ---
 ## Features.TextAreas property
 
-获取指示是否支持文本区域提取的值。
+获取是否支持提取文本区域的值。
 
 ```csharp
 public bool TextAreas { get; }

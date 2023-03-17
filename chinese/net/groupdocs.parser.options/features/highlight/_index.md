@@ -1,14 +1,14 @@
 ---
 title: Highlight
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取指示是否支持高亮提取的值
+description: 获取是否支持高亮提取的值
 type: docs
 weight: 50
 url: /zh/net/groupdocs.parser.options/features/highlight/
 ---
 ## Features.Highlight property
 
-获取指示是否支持高亮提取的值。
+获取是否支持高亮提取的值。
 
 ```csharp
 public bool Highlight { get; }

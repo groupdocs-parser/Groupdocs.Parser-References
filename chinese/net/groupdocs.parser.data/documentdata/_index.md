@@ -1,14 +1,14 @@
 ---
 title: DocumentData
 second_title: GroupDocs.Parser for .NET API 参考
-description: 表示文档的数据它包括FieldData./fielddataobjects 包含来自文档的字段数据
+description: 表示文档的数据它包括FieldData./fielddataobjects 包含来自 document. 的字段数据
 type: docs
 weight: 20
 url: /zh/net/groupdocs.parser.data/documentdata/
 ---
 ## DocumentData class
 
-表示文档的数据。它包括[`FieldData`](../fielddata)objects 包含来自文档的字段数据。
+表示文档的数据。它包括[`FieldData`](../fielddata)objects 包含来自 document. 的字段数据
 
 ```csharp
 public class DocumentData : IEnumerable<FieldData>
@@ -18,13 +18,13 @@ public class DocumentData : IEnumerable<FieldData>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DocumentData](documentdata)(IEnumerable&lt;FieldData&gt;) | 初始化[`FieldData`](../fielddata)类. |
+| [DocumentData](documentdata)(IEnumerable&lt;FieldData&gt;) | 初始化一个新的实例[`FieldData`](../fielddata)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../groupdocs.parser.data/documentdata/count) { get; } | 获取字段数据的总数。 |
+| [Count](../../groupdocs.parser.data/documentdata/count) { get; } | 获取字段数据总数。 |
 | [Item](../../groupdocs.parser.data/documentdata/item) { get; } | 通过索引获取字段数据。 |
 
 ## 方法
@@ -36,7 +36,7 @@ public class DocumentData : IEnumerable<FieldData>
 
 ### 评论
 
-的一个实例[`DocumentData`](../documentdata)类被用作返回值 的[`ParseByTemplate`](../../groupdocs.parser/parser/parsebytemplate)和[`ParseForm`](../../groupdocs.parser/parser/parseform)方法. 请参阅那里的用法示例。
+的实例[`DocumentData`](../documentdata)类用作返回值 的[`ParseByTemplate`](../../groupdocs.parser/parser/parsebytemplate)和[`ParseForm`](../../groupdocs.parser/parser/parseform) methods. 请参阅此处的用法示例。
 
 ### 也可以看看
 

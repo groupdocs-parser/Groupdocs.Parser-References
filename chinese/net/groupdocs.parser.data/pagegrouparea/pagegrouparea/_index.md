@@ -1,14 +1,14 @@
 ---
 title: PageGroupArea
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化PageGroupAreagroupdocs.parser.data/pagegrouparea类.
+description: 初始化一个新的实例PageGroupAreagroupdocs.parser.data/pagegrouparea类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.data/pagegrouparea/pagegrouparea/
 ---
 ## PageGroupArea constructor
 
-初始化[`PageGroupArea`](../../pagegrouparea)类.
+初始化一个新的实例[`PageGroupArea`](../../pagegrouparea)类.
 
 ```csharp
 public PageGroupArea(IEnumerable<PageArea> areas, Page page)
@@ -17,7 +17,7 @@ public PageGroupArea(IEnumerable<PageArea> areas, Page page)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | areas | IEnumerable`1 | 要分组的页面区域的集合。 |
-| page | Page | 包含该区域的页面。 |
+| page | Page | 包含区域的页面。 |
 
 ### 也可以看看
 

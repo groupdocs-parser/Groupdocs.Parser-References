@@ -3,7 +3,7 @@ title: TemplateTable
 second_title: GroupDocs.Parser for .NET API 参考
 description: 提供模板表
 type: docs
-weight: 690
+weight: 740
 url: /zh/net/groupdocs.parser.templates/templatetable/
 ---
 ## TemplateTable class
@@ -18,8 +18,8 @@ public sealed class TemplateTable : TemplateItem
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TemplateTable](templatetable#constructor)(TemplateTableLayout, string, int?) | 初始化[`TemplateTable`](../templatetable)类. |
-| [TemplateTable](templatetable#constructor_1)(TemplateTableParameters, string, int?) | 初始化[`TemplateTable`](../templatetable)类. |
+| [TemplateTable](templatetable#constructor)(TemplateTableLayout, string, int?) | 初始化一个新的实例[`TemplateTable`](../templatetable)类. |
+| [TemplateTable](templatetable#constructor_1)(TemplateTableParameters, string, int?) | 初始化一个新的实例[`TemplateTable`](../templatetable)类. |
 
 ## 特性
 
@@ -28,14 +28,14 @@ public sealed class TemplateTable : TemplateItem
 | [Layout](../../groupdocs.parser.templates/templatetable/layout) { get; } | 获取表格布局。 |
 | [Name](../../groupdocs.parser.templates/templateitem/name) { get; } | 获取模板项的名称。 |
 | [PageIndex](../../groupdocs.parser.templates/templateitem/pageindex) { get; } | 获取模板项的页面索引。 |
-| [Parameters](../../groupdocs.parser.templates/templatetable/parameters) { get; } | 获取自动模式检测表的参数 |
+| [Parameters](../../groupdocs.parser.templates/templatetable/parameters) { get; } | 获取自动模式检测表的参数。 |
 
 ### 评论
 
-定义表有两种方式：
+有两种定义表的方法：
 
-* 使用[`TemplateTableLayout`](../templatetablelayout)班级。 在这种情况下，表格由其在页面上的位置定义： 矩形区域，列和行分隔符。
-* 使用[`TemplateTableParameters`](../templatetableparameters) class. 在这种情况下，表格由具有设置参数的算法自动检测。 请参阅[`TemplateTableParameters`](../templatetableparameters)类以获取更多信息。
+* 使用[`TemplateTableLayout`](../templatetablelayout)班级。 在这种情况下，表格由其在页面上的位置定义： 矩形区域、列和行分隔符。
+* 使用[`TemplateTableParameters`](../templatetableparameters) class. 在这种情况下，该表由具有设置参数的算法自动检测。 请参阅[`TemplateTableParameters`](../templatetableparameters)类以获取更多信息.
 
 ### 也可以看看
 

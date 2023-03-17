@@ -1,14 +1,14 @@
 ---
 title: PageArea
 second_title: GroupDocs.Parser for .NET API 参考
-description: 表示页面区域的抽象基类 用于在模板功能解析中表示文档页面上的块
+description: 表示页面区域 的抽象基类用于表示模板功能解析中文档页面上的块
 type: docs
 weight: 70
 url: /zh/net/groupdocs.parser.data/pagearea/
 ---
 ## PageArea class
 
-表示页面区域的抽象基类 用于在模板功能解析中表示文档页面上的块。
+表示页面区域 的抽象基类，用于表示模板功能解析中文档页面上的块。
 
 ```csharp
 public abstract class PageArea

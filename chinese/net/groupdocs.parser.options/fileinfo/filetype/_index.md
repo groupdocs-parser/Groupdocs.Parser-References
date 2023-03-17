@@ -16,7 +16,7 @@ public FileType FileType { get; }
 
 ### 适当的价值
 
-一个实例[`FileType`](../../filetype)表示文档类型的类。
+的实例[`FileType`](../../filetype)表示文档类型的类。
 
 ### 也可以看看
 

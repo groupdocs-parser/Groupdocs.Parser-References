@@ -1,14 +1,14 @@
 ---
 title: Bottom
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取矩形区域底边的 y 坐标
+description: 获取矩形区域底边的y坐标
 type: docs
 weight: 20
 url: /zh/net/groupdocs.parser.data/rectangle/bottom/
 ---
 ## Rectangle.Bottom property
 
-获取矩形区域底边的 y 坐标。
+获取矩形区域底边的y坐标。
 
 ```csharp
 public double Bottom { get; }
@@ -16,7 +16,7 @@ public double Bottom { get; }
 
 ### 适当的价值
 
-一个双精度值，表示矩形区域底部边缘的 y 坐标。
+表示矩形区域底部边缘的 y 坐标的双精度值。
 
 ### 也可以看看
 

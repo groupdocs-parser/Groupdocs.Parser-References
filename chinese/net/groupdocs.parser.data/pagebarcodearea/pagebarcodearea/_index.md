@@ -1,14 +1,14 @@
 ---
 title: PageBarcodeArea
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化PageBarcodeAreagroupdocs.parser.data/pagebarcodearea类.
+description: 初始化一个新的实例PageBarcodeAreagroupdocs.parser.data/pagebarcodearea类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.data/pagebarcodearea/pagebarcodearea/
 ---
 ## PageBarcodeArea constructor
 
-初始化[`PageBarcodeArea`](../../pagebarcodearea)类.
+初始化一个新的实例[`PageBarcodeArea`](../../pagebarcodearea)类.
 
 ```csharp
 public PageBarcodeArea(string value, string codeTypeName, Page page, Rectangle rectangle)
@@ -16,7 +16,7 @@ public PageBarcodeArea(string value, string codeTypeName, Page page, Rectangle r
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | String | 条形码的值。 |
+| value | String | 条形码的价值。 |
 | codeTypeName | String | 条形码的类型名称。 |
 | page | Page | 包含条形码区域的页面。 |
 | rectangle | Rectangle | 包含条形码区域的矩形区域。 |

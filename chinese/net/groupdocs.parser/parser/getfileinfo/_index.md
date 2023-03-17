@@ -20,7 +20,7 @@ public static FileInfo GetFileInfo(string filePath)
 
 ### 返回值
 
-一个实例[`FileInfo`](../../../groupdocs.parser.options/fileinfo)班级。
+的实例[`FileInfo`](../../../groupdocs.parser.options/fileinfo)班级。
 
 ### 例子
 
@@ -57,7 +57,7 @@ public static FileInfo GetFileInfo(string filePath, LoadOptions loadOptions)
 
 ### 返回值
 
-一个实例[`FileInfo`](../../../groupdocs.parser.options/fileinfo)班级。
+的实例[`FileInfo`](../../../groupdocs.parser.options/fileinfo)班级。
 
 ### 例子
 
@@ -96,7 +96,7 @@ public static FileInfo GetFileInfo(Stream document)
 
 ### 返回值
 
-一个实例[`FileInfo`](../../../groupdocs.parser.options/fileinfo)班级。
+的实例[`FileInfo`](../../../groupdocs.parser.options/fileinfo)班级。
 
 ### 例子
 
@@ -133,7 +133,7 @@ public static FileInfo GetFileInfo(Stream document, LoadOptions loadOptions)
 
 ### 返回值
 
-一个实例[`FileInfo`](../../../groupdocs.parser.options/fileinfo)班级。
+的实例[`FileInfo`](../../../groupdocs.parser.options/fileinfo)班级。
 
 ### 例子
 

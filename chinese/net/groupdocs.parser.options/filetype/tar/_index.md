@@ -1,14 +1,14 @@
 ---
 title: TAR
 second_title: GroupDocs.Parser for .NET API 参考
-description: 带有 .tar 扩展名的文件是使用基于 Unix 的实用程序创建的存档用于收集一个或多个文件 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/compression/tar/.
+description: 扩展名为 .tar 的文件是使用基于 Unix 的实用程序创建的存档用于收集一个或多个文件 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/compression/tar/.
 type: docs
 weight: 690
 url: /zh/net/groupdocs.parser.options/filetype/tar/
 ---
 ## FileType.TAR field
 
-带有 .tar 扩展名的文件是使用基于 Unix 的实用程序创建的存档，用于收集一个或多个文件。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/compression/tar/).
+扩展名为 .tar 的文件是使用基于 Unix 的实用程序创建的存档，用于收集一个或多个文件。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/compression/tar/).
 
 ```csharp
 public static readonly FileType TAR;

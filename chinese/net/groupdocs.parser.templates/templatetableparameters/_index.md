@@ -1,14 +1,14 @@
 ---
 title: TemplateTableParameters
 second_title: GroupDocs.Parser for .NET API 参考
-description: 为表格检测算法提供参数
+description: 为表检测算法提供参数
 type: docs
-weight: 710
+weight: 760
 url: /zh/net/groupdocs.parser.templates/templatetableparameters/
 ---
 ## TemplateTableParameters class
 
-为表格检测算法提供参数。
+为表检测算法提供参数。
 
 ```csharp
 public sealed class TemplateTableParameters
@@ -18,28 +18,28 @@ public sealed class TemplateTableParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TemplateTableParameters](templatetableparameters#constructor)(Rectangle, IEnumerable&lt;double&gt;) | 初始化[`TemplateTableParameters`](../templatetableparameters)类. |
-| [TemplateTableParameters](templatetableparameters#constructor_1)(Rectangle, IEnumerable&lt;double&gt;, bool?, int?, int?, int?) | 初始化[`TemplateTableParameters`](../templatetableparameters)类. |
+| [TemplateTableParameters](templatetableparameters#constructor)(Rectangle, IEnumerable&lt;double&gt;) | 初始化一个新的实例[`TemplateTableParameters`](../templatetableparameters)类. |
+| [TemplateTableParameters](templatetableparameters#constructor_1)(Rectangle, IEnumerable&lt;double&gt;, bool?, int?, int?, int?) | 初始化一个新的实例[`TemplateTableParameters`](../templatetableparameters)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [HasMergedCells](../../groupdocs.parser.templates/templatetableparameters/hasmergedcells) { get; } | 获取表格是否有合并单元格的值。 |
+| [HasMergedCells](../../groupdocs.parser.templates/templatetableparameters/hasmergedcells) { get; } | 获取表示表格是否有合并单元格的值。 |
 | [MinColumnCount](../../groupdocs.parser.templates/templatetableparameters/mincolumncount) { get; } | 获取表列的最小数量。 |
-| [MinRowCount](../../groupdocs.parser.templates/templatetableparameters/minrowcount) { get; } | 获取表行的最小数量。 |
+| [MinRowCount](../../groupdocs.parser.templates/templatetableparameters/minrowcount) { get; } | 获取表格行数的最小值。 |
 | [MinVerticalSpace](../../groupdocs.parser.templates/templatetableparameters/minverticalspace) { get; } | 获取表列之间的最小空间。 |
 | [Rectangle](../../groupdocs.parser.templates/templatetableparameters/rectangle) { get; } | 获取包含表格的矩形区域。 |
-| [VerticalSeparators](../../groupdocs.parser.templates/templatetableparameters/verticalseparators) { get; } | 获取表格列分隔符。 |
+| [VerticalSeparators](../../groupdocs.parser.templates/templatetableparameters/verticalseparators) { get; } | 获取表列分隔符。 |
 
 ### 评论
 
-检测表有两种算法：
+有两种检测表的算法：
 
-* 允许检测矩形区域中设置列的表。 该算法对简单表（没有合并列）很有用 并提供更准确的检测。
-* 允许检测页面上任何位置的表。 这是一个更复杂的算法。它可以检测页面上任何位置的表格。 附加参数有助于更正确地检测表格。
+* 允许检测具有设置列的矩形区域中的表。 此算法对简单表（无合并列）很有用 并提供更准确的检测。
+* 允许检测页面上任意位置的表格。 这是一个更复杂的算法。它可以检测页面上任何位置的表格。 附加参数有助于更正确地检测表格。
 
-在某些情况下，当算法无法检测到表或以不准确的方式执行时 [`TemplateTableLayout`](../templatetablelayout)使用类。
+在某些情况下，当算法无法检测到表格或以不准确的方式进行检测时 [`TemplateTableLayout`](../templatetablelayout)使用类.
 
 ### 也可以看看
 

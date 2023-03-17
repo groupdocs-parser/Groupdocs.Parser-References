@@ -1,14 +1,14 @@
 ---
 title: PCL
 second_title: GroupDocs.Parser for .NET API 参考
-description: PCL 代表打印机命令语言它是由惠普 HP 推出的页面描述语言 了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/pagedescriptionlanguage/pcl/.
+description: PCL 代表 Printer Command Language 是一种页面描述语言 由惠普 HP 推出详细了解此文件格式 这里https//wiki.fileformat.com/pagedescriptionlanguage/pcl/.
 type: docs
 weight: 490
 url: /zh/net/groupdocs.parser.options/filetype/pcl/
 ---
 ## FileType.PCL field
 
-PCL 代表打印机命令语言，它是由惠普 (HP) 推出的页面描述语言 。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/page-description-language/pcl/).
+PCL 代表 Printer Command Language 是一种页面描述语言 由惠普 (HP) 推出。详细了解此文件格式 [这里](https://wiki.fileformat.com/page-description-language/pcl/).
 
 ```csharp
 public static readonly FileType PCL;

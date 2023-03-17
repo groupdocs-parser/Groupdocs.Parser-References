@@ -1,14 +1,14 @@
 ---
 title: TemplateRegexPosition
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化TemplateRegexPositiongroupdocs.parser.templates/templateregexposition类.
+description: 初始化一个新的实例TemplateRegexPositiongroupdocs.parser.templates/templateregexposition类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.templates/templateregexposition/templateregexposition/
 ---
 ## TemplateRegexPosition(string) {#constructor}
 
-初始化[`TemplateRegexPosition`](../../templateregexposition)类.
+初始化一个新的实例[`TemplateRegexPosition`](../../templateregexposition)类.
 
 ```csharp
 public TemplateRegexPosition(string expression)
@@ -28,7 +28,7 @@ public TemplateRegexPosition(string expression)
 
 ## TemplateRegexPosition(string, bool) {#constructor_1}
 
-初始化[`TemplateRegexPosition`](../../templateregexposition)类.
+初始化一个新的实例[`TemplateRegexPosition`](../../templateregexposition)类.
 
 ```csharp
 public TemplateRegexPosition(string expression, bool matchCase)

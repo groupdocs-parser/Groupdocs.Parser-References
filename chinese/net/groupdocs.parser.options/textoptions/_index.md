@@ -3,7 +3,7 @@ title: TextOptions
 second_title: GroupDocs.Parser for .NET API 参考
 description: 提供用于文本提取的选项
 type: docs
-weight: 580
+weight: 630
 url: /zh/net/groupdocs.parser.options/textoptions/
 ---
 ## TextOptions class
@@ -18,24 +18,28 @@ public sealed class TextOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TextOptions](textoptions)(bool) | 初始化[`TextOptions`](../textoptions)类. |
+| [TextOptions](textoptions#constructor)(bool) | 初始化一个新的实例[`TextOptions`](../textoptions)类. |
+| [TextOptions](textoptions#constructor_1)(bool, bool) | 初始化一个新的实例[`TextOptions`](../textoptions)具有 OCR 使用选项的类。 |
+| [TextOptions](textoptions#constructor_2)(bool, bool, OcrOptions) | 初始化一个新的实例[`TextOptions`](../textoptions)具有设置 OCR 选项的能力的类。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [UseRawModeIfPossible](../../groupdocs.parser.options/textoptions/userawmodeifpossible) { get; } | 获取指示是否使用原始模式的值。 |
+| [OcrOptions](../../groupdocs.parser.options/textoptions/ocroptions) { get; } | 获取 OCR 功能的附加选项。 |
+| [UseOcr](../../groupdocs.parser.options/textoptions/useocr) { get; } | 获取指示 OCR 连接器是否用于提取文本的值。 |
+| [UseRawModeIfPossible](../../groupdocs.parser.options/textoptions/userawmodeifpossible) { get; } | 获取是否使用raw模式的值。 |
 
 ### 评论
 
-的一个实例[`TextOptions`](../textoptions)类用作 parameter in[`GetText`](../../groupdocs.parser/parser/gettext)和[`GetText`](../../groupdocs.parser/parser/gettext)方法。请参阅那里的用法示例。
+的实例[`TextOptions`](../textoptions)类用作 parameter 中[`GetText`](../../groupdocs.parser/parser/gettext)和[`GetText`](../../groupdocs.parser/parser/gettext)方法。请参阅此处的用法示例。
 
-用于指定文本提取的原始模式。 此模式下的文本提取方式不准确，但比标准模式下更快。 如果原始模式不支持文档格式，则忽略此参数，使用标准模式。
+用于指定文本提取的原始模式。 此模式下的文本以不准确的方式提取，但比标准模式更快。 如果原始模式不支持文档格式，则忽略此参数，使用标准模式。
 
-**学到更多：**
+**了解更多：**
 
-* [以准确模式提取文本](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
-* [以原始模式提取文本](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Raw+mode)
+* [以精确模式提取文本](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
+* [在 Raw 模式下提取文本](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Raw+mode)
 
 ### 也可以看看
 

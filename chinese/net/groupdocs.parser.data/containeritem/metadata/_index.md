@@ -16,13 +16,13 @@ public IEnumerable<MetadataItem> Metadata { get; }
 
 ### 适当的价值
 
-一个集合[`MetadataItem`](../../metadataitem)物体；如果未设置元数据，则为空。
+的集合[`MetadataItem`](../../metadataitem)对象；如果未设置元数据，则为空。
 
 ### 评论
 
-这些元数据指的是容器元素本身，而不是文档。根据容器类型 元数据可以包含以下项目：
+这些元数据指的是容器元素本身，而不是文档。根据容器类型， 元数据可以包含以下项目：
 
-**电子邮件附件**
+**电邮附件**
 
 **姓名**
 
@@ -40,7 +40,7 @@ public IEnumerable<MetadataItem> Metadata { get; }
 
 **日期**
 
-Zip 条目指示的文件最后一次修改的时间和日期。
+上次修改 Zip 条目指示的文件的时间和日期。
 
 **展望存储**
 

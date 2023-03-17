@@ -1,14 +1,14 @@
 ---
 title: TemplatePosition
 second_title: GroupDocs.Parser for .NET API 参考
-description: 为模板位置提供基础抽象类
+description: 为模板位置提供基本抽象类
 type: docs
-weight: 670
+weight: 720
 url: /zh/net/groupdocs.parser.templates/templateposition/
 ---
 ## TemplatePosition class
 
-为模板位置提供基础抽象类。
+为模板位置提供基本抽象类。
 
 ```csharp
 public abstract class TemplatePosition

@@ -1,14 +1,14 @@
 ---
 title: ParserSettings
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化ParserSettingsgroupdocs.parser.options/parsersettings类.
+description: 初始化一个新的实例ParserSettingsgroupdocs.parser.options/parsersettings与记录器一起上课.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.options/parsersettings/parsersettings/
 ---
-## ParserSettings constructor
+## ParserSettings(ILogger) {#constructor_1}
 
-初始化[`ParserSettings`](../../parsersettings)类.
+初始化一个新的实例[`ParserSettings`](../../parsersettings)与记录器一起上课.
 
 ```csharp
 public ParserSettings(ILogger logger)
@@ -16,11 +16,102 @@ public ParserSettings(ILogger logger)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| logger | ILogger | 实现的类的实例[`ILogger`](../../ilogger)界面。 |
+| logger | ILogger | 实现类的实例[`ILogger`](../../ilogger)界面。 |
 
 ### 也可以看看
 
 * interface [ILogger](../../ilogger)
+* class [ParserSettings](../../parsersettings)
+* 命名空间 [GroupDocs.Parser.Options](../../parsersettings)
+* 部件 [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(OcrConnectorBase) {#constructor_4}
+
+初始化一个新的实例[`ParserSettings`](../../parsersettings)使用 OCR 连接器上课。
+
+```csharp
+public ParserSettings(OcrConnectorBase ocrConnector)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| ocrConnector | OcrConnectorBase | 继承类的实例[`OcrConnectorBase`](../../ocrconnectorbase)提供 OCR 功能的类。 |
+
+### 也可以看看
+
+* class [OcrConnectorBase](../../ocrconnectorbase)
+* class [ParserSettings](../../parsersettings)
+* 命名空间 [GroupDocs.Parser.Options](../../parsersettings)
+* 部件 [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(ExternalResourceHandler) {#constructor}
+
+初始化一个新的实例[`ParserSettings`](../../parsersettings)类与外部资源处理程序.
+
+```csharp
+public ParserSettings(ExternalResourceHandler externalResourceHandler)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| externalResourceHandler | ExternalResourceHandler | 继承类的实例[`ExternalResourceHandler`](../../externalresourcehandler)提供外部资源加载控制的类。 |
+
+### 也可以看看
+
+* class [ExternalResourceHandler](../../externalresourcehandler)
+* class [ParserSettings](../../parsersettings)
+* 命名空间 [GroupDocs.Parser.Options](../../parsersettings)
+* 部件 [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(ILogger, OcrConnectorBase) {#constructor_2}
+
+初始化一个新的实例[`ParserSettings`](../../parsersettings)带有记录器和 OCR 连接器的类。
+
+```csharp
+public ParserSettings(ILogger logger, OcrConnectorBase ocrConnector)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| logger | ILogger | 实现类的实例[`ILogger`](../../ilogger)界面。 |
+| ocrConnector | OcrConnectorBase | 继承类的实例[`OcrConnectorBase`](../../ocrconnectorbase)提供 OCR 功能的类。 |
+
+### 也可以看看
+
+* interface [ILogger](../../ilogger)
+* class [OcrConnectorBase](../../ocrconnectorbase)
+* class [ParserSettings](../../parsersettings)
+* 命名空间 [GroupDocs.Parser.Options](../../parsersettings)
+* 部件 [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(ILogger, OcrConnectorBase, ExternalResourceHandler) {#constructor_3}
+
+初始化一个新的实例[`ParserSettings`](../../parsersettings)类.
+
+```csharp
+public ParserSettings(ILogger logger, OcrConnectorBase ocrConnector, 
+    ExternalResourceHandler externalResourceHandler)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| logger | ILogger | 实现类的实例[`ILogger`](../../ilogger)界面。 |
+| ocrConnector | OcrConnectorBase | 继承类的实例[`OcrConnectorBase`](../../ocrconnectorbase)提供 OCR 功能的类。 |
+| externalResourceHandler | ExternalResourceHandler | 继承类的实例[`ExternalResourceHandler`](../../externalresourcehandler)提供外部资源加载控制的类。 |
+
+### 也可以看看
+
+* interface [ILogger](../../ilogger)
+* class [OcrConnectorBase](../../ocrconnectorbase)
+* class [ExternalResourceHandler](../../externalresourcehandler)
 * class [ParserSettings](../../parsersettings)
 * 命名空间 [GroupDocs.Parser.Options](../../parsersettings)
 * 部件 [GroupDocs.Parser](../../../)

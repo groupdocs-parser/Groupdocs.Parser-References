@@ -1,14 +1,14 @@
 ---
 title: TemplateFixedPosition
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化TemplateFixedPositiongroupdocs.parser.templates/templatefixedposition类.
+description: 初始化一个新的实例TemplateFixedPositiongroupdocs.parser.templates/templatefixedposition类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.templates/templatefixedposition/templatefixedposition/
 ---
 ## TemplateFixedPosition constructor
 
-初始化[`TemplateFixedPosition`](../../templatefixedposition)类.
+初始化一个新的实例[`TemplateFixedPosition`](../../templatefixedposition)类.
 
 ```csharp
 public TemplateFixedPosition(Rectangle rectangle)

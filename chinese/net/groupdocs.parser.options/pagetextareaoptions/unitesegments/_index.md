@@ -1,14 +1,14 @@
 ---
 title: UniteSegments
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取表示段是否合并的值
+description: 获取段是否统一的值
 type: docs
-weight: 50
+weight: 60
 url: /zh/net/groupdocs.parser.options/pagetextareaoptions/unitesegments/
 ---
 ## PageTextAreaOptions.UniteSegments property
 
-获取表示段是否合并的值。
+获取段是否统一的值。
 
 ```csharp
 public bool UniteSegments { get; }
@@ -16,7 +16,7 @@ public bool UniteSegments { get; }
 
 ### 适当的价值
 
-`真的`如果分段是联合的；否则，`错误的`.
+`真的`如果段是统一的；否则，`错误的`.
 
 ### 也可以看看
 

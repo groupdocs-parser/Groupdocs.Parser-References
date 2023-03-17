@@ -1,14 +1,14 @@
 ---
 title: LoadOptions
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化LoadOptionsgroupdocs.parser.options/loadoptions 类为空Passwordgroupdocs.parser.options/loadoptions/passwordFileFormatgroupdocs.parser.options/loadoptions/fileformat等于Unknown 和默认编码
+description: 初始化一个新的实例LoadOptionsgroupdocs.parser.options/loadoptions 类为空Passwordgroupdocs.parser.options/loadoptions/passwordFileFormatgroupdocs.parser.options/loadoptions/fileformat等于Unknown 和默认编码
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.options/loadoptions/loadoptions/
 ---
 ## LoadOptions() {#constructor}
 
-初始化[`LoadOptions`](../../loadoptions) 类为空[`Password`](../password),[`FileFormat`](../fileformat)等于Unknown 和默认编码。
+初始化一个新的实例[`LoadOptions`](../../loadoptions) 类为空[`Password`](../password),[`FileFormat`](../fileformat)等于Unknown 和默认编码。
 
 ```csharp
 public LoadOptions()
@@ -24,7 +24,7 @@ public LoadOptions()
 
 ## LoadOptions(string) {#constructor_4}
 
-初始化[`LoadOptions`](../../loadoptions)class 与[`FileFormat`](../fileformat)等于Unknown 和默认编码。
+初始化一个新的实例[`LoadOptions`](../../loadoptions) class 与[`FileFormat`](../fileformat)等于Unknown 和默认编码。
 
 ```csharp
 public LoadOptions(string password)
@@ -44,7 +44,7 @@ public LoadOptions(string password)
 
 ## LoadOptions(FileFormat) {#constructor_1}
 
-初始化[`LoadOptions`](../../loadoptions) class 为空[`Password`](../password)和默认编码。
+初始化一个新的实例[`LoadOptions`](../../loadoptions) class 为空[`Password`](../password)和默认编码.
 
 ```csharp
 public LoadOptions(FileFormat fileFormat)
@@ -65,7 +65,7 @@ public LoadOptions(FileFormat fileFormat)
 
 ## LoadOptions(FileFormat, string) {#constructor_2}
 
-初始化[`LoadOptions`](../../loadoptions)具有密码和默认编码的类。
+初始化一个新的实例[`LoadOptions`](../../loadoptions)带有密码和默认编码的类。
 
 ```csharp
 public LoadOptions(FileFormat fileFormat, string password)
@@ -87,7 +87,7 @@ public LoadOptions(FileFormat fileFormat, string password)
 
 ## LoadOptions(FileFormat, string, Encoding, Encoding) {#constructor_3}
 
-初始化[`LoadOptions`](../../loadoptions)具有自定义编码的类。
+初始化一个新的实例[`LoadOptions`](../../loadoptions)具有自定义编码的类.
 
 ```csharp
 public LoadOptions(FileFormat fileFormat, string password, Encoding encoding, 

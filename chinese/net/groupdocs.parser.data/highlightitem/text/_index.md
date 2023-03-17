@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取高亮的文本
+description: 获取高亮文本
 type: docs
 weight: 20
 url: /zh/net/groupdocs.parser.data/highlightitem/text/
 ---
 ## HighlightItem.Text property
 
-获取高亮的文本。
+获取高亮文本。
 
 ```csharp
 public string Text { get; }
@@ -16,7 +16,7 @@ public string Text { get; }
 
 ### 适当的价值
 
-一个字符串值，表示突出显示的文本。
+表示突出显示文本的字符串值。
 
 ### 也可以看看
 

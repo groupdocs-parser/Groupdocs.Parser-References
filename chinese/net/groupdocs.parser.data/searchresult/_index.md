@@ -21,12 +21,12 @@ public sealed class SearchResult
 | [LeftHighlightItem](../../groupdocs.parser.data/searchresult/lefthighlightitem) { get; } | 获取左侧高亮。 |
 | [PageIndex](../../groupdocs.parser.data/searchresult/pageindex) { get; } | 获取找到文本的页面索引。 |
 | [Position](../../groupdocs.parser.data/searchresult/position) { get; } | 获取文档文本中的位置。 |
-| [RightHighlightItem](../../groupdocs.parser.data/searchresult/righthighlightitem) { get; } | 获得正确的高光。 |
+| [RightHighlightItem](../../groupdocs.parser.data/searchresult/righthighlightitem) { get; } | 获取正确的高亮显示。 |
 | [Text](../../groupdocs.parser.data/searchresult/text) { get; } | 获取文本。 |
 
 ### 评论
 
-的一个实例[`SearchResult`](../searchresult)类被用作返回值 的[`Search`](../../groupdocs.parser/parser/search)和[`Search`](../../groupdocs.parser/parser/search)方法. 请参阅那里的用法示例。
+的实例[`SearchResult`](../searchresult)类用作返回值 的[`Search`](../../groupdocs.parser/parser/search)和[`Search`](../../groupdocs.parser/parser/search) methods. 请参阅此处的用法示例。
 
 ### 也可以看看
 

@@ -18,9 +18,9 @@ public sealed class PageTextArea : PageArea
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PageTextArea](pagetextarea#constructor)(IEnumerable&lt;PageTextArea&gt;, Page) | 初始化[`PageTextArea`](../pagetextarea)类. |
-| [PageTextArea](pagetextarea#constructor_1)(string, Page, Rectangle) | 初始化[`PageTextArea`](../pagetextarea)类. |
-| [PageTextArea](pagetextarea#constructor_2)(string, double?, TextStyle, Page, Rectangle) | 初始化[`PageTextArea`](../pagetextarea)类. |
+| [PageTextArea](pagetextarea#constructor)(IEnumerable&lt;PageTextArea&gt;, Page) | 初始化一个新的实例[`PageTextArea`](../pagetextarea)类. |
+| [PageTextArea](pagetextarea#constructor_1)(string, Page, Rectangle) | 初始化一个新的实例[`PageTextArea`](../pagetextarea)类. |
+| [PageTextArea](pagetextarea#constructor_2)(string, double?, TextStyle, Page, Rectangle) | 初始化一个新的实例[`PageTextArea`](../pagetextarea)类. |
 
 ## 特性
 
@@ -41,18 +41,18 @@ public sealed class PageTextArea : PageArea
 
 ### 评论
 
-一个实例[`PageTextArea`](../pagetextarea)类用作以下方法的返回值 ：
+的实例[`PageTextArea`](../pagetextarea)类用作以下方法的返回值 ：
 
 * [`GetTextAreas`](../../groupdocs.parser/parser/gettextareas)
 * [`GetTextAreas`](../../groupdocs.parser/parser/gettextareas)
 * [`GetTextAreas`](../../groupdocs.parser/parser/gettextareas)
 * [`GetTextAreas`](../../groupdocs.parser/parser/gettextareas)
 
-也是一个实例[`PageTextArea`](../pagetextarea)类被用作 value 的[`PageArea`](../fielddata/pagearea)属性.
+也是一个实例[`PageTextArea`](../pagetextarea)类用作 value 的[`PageArea`](../fielddata/pagearea)财产.
 
-请参阅那里的用法示例。
+请参阅此处的用法示例。
 
-文本区域可以是单一的或复合的。 在第一种情况下，它包含一个以矩形区域为界的文本。 在第二种情况下，它包含其他文本区域； text 和 table 属性由子文本区域计算。
+文本区域可以是单一的也可以是复合的。 在第一种情况下，它包含一个由矩形区域包围的文本。 在第二种情况下它包含其他文本区域；文本和表格属性由子文本区域计算。
 
 ### 也可以看看
 

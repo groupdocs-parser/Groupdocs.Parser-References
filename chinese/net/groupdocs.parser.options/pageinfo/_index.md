@@ -3,7 +3,7 @@ title: PageInfo
 second_title: GroupDocs.Parser for .NET API 参考
 description: 表示文档页面信息
 type: docs
-weight: 470
+weight: 520
 url: /zh/net/groupdocs.parser.options/pageinfo/
 ---
 ## PageInfo class

@@ -20,13 +20,13 @@ public FieldData this[int index] { get; }
 
 ### 返回值
 
-一个实例[`FieldData`](../../fielddata)班级。
+的实例[`FieldData`](../../fielddata)班级。
 
 ### 例子
 
-通过所有字段进行迭代：
+遍历所有字段：
 
-[`FieldData`](../../fielddata)类表示字段数据。视领域而定[`PageArea`](../../fielddata/pagearea)property 可以包含任何继承者[`PageArea`](../../pagearea)班级。例如，[`ParseForm`](../../../groupdocs.parser/parser/parseform) method 仅提取文本字段：
+[`FieldData`](../../fielddata)类代表字段数据。视领域而定[`PageArea`](../../fielddata/pagearea)property 可以包含的任何继承者[`PageArea`](../../pagearea)班级。例如，[`ParseForm`](../../../groupdocs.parser/parser/parseform) method 仅提取文本字段：
 
 ```csharp
 for (int i = 0; i < data.Count; i++)

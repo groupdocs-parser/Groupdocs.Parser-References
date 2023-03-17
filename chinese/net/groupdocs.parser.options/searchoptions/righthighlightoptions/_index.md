@@ -1,14 +1,14 @@
 ---
 title: RightHighlightOptions
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取右侧高亮的选项
+description: 获取正确突出显示的选项
 type: docs
 weight: 50
 url: /zh/net/groupdocs.parser.options/searchoptions/righthighlightoptions/
 ---
 ## SearchOptions.RightHighlightOptions property
 
-获取右侧高亮的选项。
+获取正确突出显示的选项。
 
 ```csharp
 public HighlightOptions RightHighlightOptions { get; }
@@ -16,7 +16,7 @@ public HighlightOptions RightHighlightOptions { get; }
 
 ### 适当的价值
 
-一个实例[`HighlightOptions`](../../highlightoptions)班级;`无效的`如果没有设置。
+的实例[`HighlightOptions`](../../highlightoptions)班级;`无效的`如果没有设置。
 
 ### 也可以看看
 

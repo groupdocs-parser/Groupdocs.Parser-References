@@ -1,14 +1,14 @@
 ---
 title: Search
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取指示是否支持文本搜索的值
+description: 获取是否支持文本搜索的值
 type: docs
-weight: 110
+weight: 130
 url: /zh/net/groupdocs.parser.options/features/search/
 ---
 ## Features.Search property
 
-获取指示是否支持文本搜索的值。
+获取是否支持文本搜索的值。
 
 ```csharp
 public bool Search { get; }
@@ -16,7 +16,7 @@ public bool Search { get; }
 
 ### 返回值
 
-`真的`如果支持文本搜索；否则，`错误的`.
+`真的`是否支持文本搜索；否则，`错误的`.
 
 ### 也可以看看
 

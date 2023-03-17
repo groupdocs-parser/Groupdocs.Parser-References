@@ -16,25 +16,25 @@ public IEnumerable<PageBarcodeArea> GetBarcodes()
 
 ### 返回值
 
-集合[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea)对象; `无效的`如果不支持条形码提取。
+的集合[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea)对象； `无效的`如果不支持条形码提取.
 
 ### 例子
 
-以下示例显示如何从文档中提取条形码：
+以下示例显示了如何从文档中提取条形码：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using (Parser parser = new Parser(filePath))
 {
     // 从文档中提取条形码。
     IEnumerable<PageBarcodeArea> barcodes = parser.GetBarcodes();
 
-    // 遍历条码
+    // 遍历条形码
     foreach(PageBarcodeArea barcode in barcodes)
     {
         // 打印页面索引
         Console.WriteLine("Page: " + barcode.Page.Index.ToString());
-        // 打印条码值
+        // 打印条形码值
         Console.WriteLine("Value: " + barcode.Value);
     }
 }
@@ -63,25 +63,25 @@ public IEnumerable<PageBarcodeArea> GetBarcodes(int pageIndex)
 
 ### 返回值
 
-集合[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea)对象; `无效的`如果不支持条形码提取。
+的集合[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea)对象； `无效的`如果不支持条形码提取.
 
 ### 例子
 
-以下示例显示如何从文档页面中提取条形码：
+以下示例显示了如何从文档页面中提取条形码：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using (Parser parser = new Parser(filePath))
 {
     // 从第二个文档页面中提取条形码。
     IEnumerable<PageBarcodeArea> barcodes = parser.GetBarcodes(1);
 
-    // 遍历条码
+    // 遍历条形码
     foreach(PageBarcodeArea barcode in barcodes)
     {
         // 打印页面索引
         Console.WriteLine("Page: " + barcode.Page.Index.ToString());
-        // 打印条码值
+        // 打印条形码值
         Console.WriteLine("Value: " + barcode.Value);
     }
 }
@@ -98,7 +98,7 @@ using (Parser parser = new Parser(filePath))
 
 ## GetBarcodes(PageAreaOptions) {#getbarcodes_1}
 
-使用自定义选项 从文档中提取条形码（设置包含条形码的矩形区域）。
+使用自定义选项从文档中提取条形码 （设置包含条形码的矩形区域）。
 
 ```csharp
 public IEnumerable<PageBarcodeArea> GetBarcodes(PageAreaOptions options)
@@ -106,31 +106,31 @@ public IEnumerable<PageBarcodeArea> GetBarcodes(PageAreaOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| options | PageAreaOptions | 条码提取的选项。 |
+| options | PageAreaOptions | 条形码提取的选项。 |
 
 ### 返回值
 
-集合[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea)对象; `无效的`如果不支持条形码提取。
+的集合[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea)对象； `无效的`如果不支持条形码提取.
 
 ### 例子
 
-以下示例显示如何从右上角提取条形码。
+下面的例子展示了如何从右上角提取条形码。
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using (Parser parser = new Parser(filePath))
 {
-    // 创建用于条码提取的选项
+    // 创建用于条形码提取的选项
     PageAreaOptions options = new PageAreaOptions(new Rectangle(new Point(590, 80), new Size(150, 150)));
     // 从右上角提取条形码。
     IEnumerable<PageBarcodeArea> barcodes = parser.GetBarcodes(options);
 
-    // 遍历条码
+    // 遍历条形码
     foreach (PageBarcodeArea barcode in barcodes)
     {
         // 打印页面索引
         Console.WriteLine("Page: " + barcode.Page.Index.ToString());
-        // 打印条码值
+        // 打印条形码值
         Console.WriteLine("Value: " + barcode.Value);
     }
 }
@@ -148,7 +148,7 @@ using (Parser parser = new Parser(filePath))
 
 ## GetBarcodes(int, PageAreaOptions) {#getbarcodes_3}
 
-使用自定义选项 （设置包含条形码的矩形区域）从文档页面中提取条形码。
+使用自定义选项从文档页面中提取条形码 （设置包含条形码的矩形区域）。
 
 ```csharp
 public IEnumerable<PageBarcodeArea> GetBarcodes(int pageIndex, PageAreaOptions options)
@@ -157,11 +157,11 @@ public IEnumerable<PageBarcodeArea> GetBarcodes(int pageIndex, PageAreaOptions o
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pageIndex | Int32 | 从零开始的页面索引。 |
-| options | PageAreaOptions | 条码提取的选项。 |
+| options | PageAreaOptions | 条形码提取的选项。 |
 
 ### 返回值
 
-集合[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea)对象; `无效的`如果不支持条形码提取。
+的集合[`PageBarcodeArea`](../../../groupdocs.parser.data/pagebarcodearea)对象； `无效的`如果不支持条形码提取.
 
 ### 也可以看看
 

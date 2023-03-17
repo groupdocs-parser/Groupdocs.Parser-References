@@ -20,22 +20,22 @@ public FileType DetectFileType(FileTypeDetectionMode detectionMode)
 
 ### 返回值
 
-一个实例[`FileType`](../../../groupdocs.parser.options/filetype)班级;[`Unknown`](../../../groupdocs.parser.options/filetype/unknown)如果未检测到文件类型。
+的实例[`FileType`](../../../groupdocs.parser.options/filetype)班级;[`Unknown`](../../../groupdocs.parser.options/filetype/unknown)如果未检测到文件类型。
 
 ### 评论
 
 *detectionMode*参数提供了控制文件类型检测的能力：
 
-* **默认** .文件类型由文件扩展名检测；如果无法识别文件扩展名，则通过文件内容检测文件类型。
-* **扩大**.文件类型仅由文件扩展名检测。
+* **默认**.文件类型由文件扩展名检测；如果无法识别文件扩展名，则通过文件内容检测文件类型。
+* **扩大**.文件类型仅通过文件扩展名检测。
 * **内容**.文件类型仅由文件内容检测。
 
 ### 例子
 
-下面的例子展示了如何检测容器项的文件类型：
+以下示例显示如何检测容器项的文件类型：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using (Parser parser = new Parser(filePath))
 {
     // 从容器中提取附件
@@ -48,7 +48,7 @@ using (Parser parser = new Parser(filePath))
     // 遍历附件
     foreach (ContainerItem item in attachments)
     {
-        // 检测文件类型
+        //检测文件类型
         Options.FileType fileType = item.DetectFileType(Options.FileTypeDetectionMode.Default);
 
         // 打印名称和文件类型

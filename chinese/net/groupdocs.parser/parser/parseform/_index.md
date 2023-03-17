@@ -1,14 +1,14 @@
 ---
 title: ParseForm
 second_title: GroupDocs.Parser for .NET API 参考
-description: 解析文档表单
+description: 解析文档格式
 type: docs
 weight: 190
 url: /zh/net/groupdocs.parser/parser/parseform/
 ---
 ## Parser.ParseForm method
 
-解析文档表单。
+解析文档格式。
 
 ```csharp
 public DocumentData ParseForm()
@@ -16,25 +16,25 @@ public DocumentData ParseForm()
 
 ### 返回值
 
-的一个实例[`DocumentData`](../../../groupdocs.parser.data/documentdata)包含提取数据的类； `无效的`如果不支持按模板解析。
+的实例[`DocumentData`](../../../groupdocs.parser.data/documentdata)包含提取数据的类； `无效的`如果不支持按模板解析。
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [从 PDF 表单中提取数据](https://docs.groupdocs.com/display/parsernet/Extract+data+from+PDF+forms)
-* [处理提取的数据](https://docs.groupdocs.com/display/parsernet/Working+with+data+extracted+by+template)
+* [使用提取的数据](https://docs.groupdocs.com/display/parsernet/Working+with+data+extracted+by+template)
 * [解析 PDF 文档中的数据](https://docs.groupdocs.com/display/parsernet/Parse+data+from+PDF+documents)
 
 ### 例子
 
-以下示例显示了如何解析文档的表单：
+以下示例显示了如何解析文档的一种形式：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using (Parser parser = new Parser(filePath))
 {
-    // 从 PDF 文档中提取数据
+    // 从PDF文档中提取数据
     DocumentData data = parser.ParseForm();
     // 遍历提取的数据
     for (int i = 0; i<data.Count; i++)

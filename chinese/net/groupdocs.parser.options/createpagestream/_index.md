@@ -1,14 +1,14 @@
 ---
 title: CreatePageStream
 second_title: GroupDocs.Parser for .NET API 参考
-description: 表示返回流以写入页面预览数据的方法
+description: 表示返回流写入页面预览数据的方法
 type: docs
 weight: 270
 url: /zh/net/groupdocs.parser.options/createpagestream/
 ---
 ## CreatePageStream delegate
 
-表示返回流以写入页面预览数据的方法。
+表示返回流写入页面预览数据的方法。
 
 ```csharp
 public delegate Stream CreatePageStream(int pageNumber);
