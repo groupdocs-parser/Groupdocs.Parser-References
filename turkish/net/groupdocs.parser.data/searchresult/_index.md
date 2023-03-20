@@ -26,7 +26,7 @@ public sealed class SearchResult
 
 ### Notlar
 
-Bir örneği[`SearchResult`](../searchresult) sınıf, dönüş değeri olarak kullanılır[`Search`](../../groupdocs.parser/parser/search) ve[`Search`](../../groupdocs.parser/parser/search) method. Oradaki kullanım örneklerine bakın.
+Bir örneği[`SearchResult`](../searchresult) sınıf, dönüş değeri olarak kullanılır[`Search`](../../groupdocs.parser/parser/search) Ve[`Search`](../../groupdocs.parser/parser/search) method. Oradaki kullanım örneklerine bakın.
 
 ### Ayrıca bakınız
 

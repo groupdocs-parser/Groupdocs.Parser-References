@@ -3,7 +3,7 @@ title: ImageFormat
 second_title: Referencia de API de GroupDocs.Parser para .NET
 description: Define un formato de la imagen.
 type: docs
-weight: 430
+weight: 450
 url: /es/net/groupdocs.parser.options/imageformat/
 ---
 ## ImageFormat enumeration

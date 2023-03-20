@@ -18,15 +18,15 @@ public sealed class PageTableAreaCell
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PageTableAreaCell](pagetableareacell#constructor)(int, int, PageArea) | 初始化[`PageTableAreaCell`](../pagetableareacell)类. |
-| [PageTableAreaCell](pagetableareacell#constructor_1)(int, int, PageArea, int, int) | 初始化[`PageTableAreaCell`](../pagetableareacell)类. |
+| [PageTableAreaCell](pagetableareacell#constructor)(int, int, PageArea) | 初始化一个新的实例[`PageTableAreaCell`](../pagetableareacell)类. |
+| [PageTableAreaCell](pagetableareacell#constructor_1)(int, int, PageArea, int, int) | 初始化一个新的实例[`PageTableAreaCell`](../pagetableareacell)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [ColumnIndex](../../groupdocs.parser.data/pagetableareacell/columnindex) { get; } | 获取列索引。 |
-| [ColumnSpan](../../groupdocs.parser.data/pagetableareacell/columnspan) { get; } | 获取包含表格单元格的总列数。 |
+| [ColumnSpan](../../groupdocs.parser.data/pagetableareacell/columnspan) { get; } | 获取包含表格单元格的列总数。 |
 | [PageArea](../../groupdocs.parser.data/pagetableareacell/pagearea) { get; } | 获取表格单元格值。 |
 | [RowIndex](../../groupdocs.parser.data/pagetableareacell/rowindex) { get; } | 获取行索引。 |
 | [RowSpan](../../groupdocs.parser.data/pagetableareacell/rowspan) { get; } | 获取包含表格单元格的总行数。 |

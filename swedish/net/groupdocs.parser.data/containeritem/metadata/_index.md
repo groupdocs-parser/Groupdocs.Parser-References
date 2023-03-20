@@ -16,7 +16,7 @@ public IEnumerable<MetadataItem> Metadata { get; }
 
 ### Fastighetsvärde
 
-En samling av[`MetadataItem`](../../metadataitem) objekt; tom om metadata inte är inställd.
+En samling av[`MetadataItem`](../../metadataitem) föremål; tom om metadata inte är inställd.
 
 ### Anmärkningar
 

@@ -1,14 +1,14 @@
 ---
 title: HighlightOptions
 second_title: Referencia de API de GroupDocs.Parser para .NET
-description: Inicializa una nueva instancia delHighlightOptionsgroupdocs.parser.options/highlightoptionsclase que se utiliza para extraer un resaltado de longitud fija.
+description: Inicializa una nueva instancia delHighlightOptionsgroupdocs.parser.options/highlightoptions clase que se utiliza para extraer un resaltado de longitud fija.
 type: docs
 weight: 10
 url: /es/net/groupdocs.parser.options/highlightoptions/highlightoptions/
 ---
 ## HighlightOptions(int) {#constructor}
 
-Inicializa una nueva instancia del[`HighlightOptions`](../../highlightoptions)clase que se utiliza para extraer un resaltado de longitud fija.
+Inicializa una nueva instancia del[`HighlightOptions`](../../highlightoptions) clase que se utiliza para extraer un resaltado de longitud fija.
 
 ```csharp
 public HighlightOptions(int maxLength)

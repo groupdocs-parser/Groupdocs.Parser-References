@@ -17,7 +17,7 @@ public FieldData(string name, PageArea pageArea, FieldData linkedDataField)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | name | String | Namnet på fältet. |
-| pageArea | PageArea | Värdet på fältet. |
+| pageArea | PageArea | Fältets värde. |
 | linkedDataField | FieldData | Fältet som är kopplat till fältet. |
 
 ### Se även
@@ -40,7 +40,7 @@ public FieldData(string name, PageArea pageArea)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | name | String | Namnet på fältet. |
-| pageArea | PageArea | Värdet på fältet. |
+| pageArea | PageArea | Fältets värde. |
 
 ### Se även
 

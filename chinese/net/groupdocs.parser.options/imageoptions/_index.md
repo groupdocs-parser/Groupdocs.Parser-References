@@ -3,7 +3,7 @@ title: ImageOptions
 second_title: GroupDocs.Parser for .NET API 参考
 description: 提供用于图像提取的选项
 type: docs
-weight: 440
+weight: 460
 url: /zh/net/groupdocs.parser.options/imageoptions/
 ---
 ## ImageOptions class
@@ -18,7 +18,7 @@ public sealed class ImageOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImageOptions](imageoptions)(ImageFormat) | 初始化[`ImageOptions`](../imageoptions)类. |
+| [ImageOptions](imageoptions)(ImageFormat) | 初始化一个新的实例[`ImageOptions`](../imageoptions)类. |
 
 ## 特性
 
@@ -28,11 +28,11 @@ public sealed class ImageOptions
 
 ### 评论
 
-的一个实例[`ImageOptions`](../imageoptions)类用作 parameter in[`GetImageStream`](../../groupdocs.parser.data/pageimagearea/getimagestream)和 [`Save`](../../groupdocs.parser.data/pageimagearea/save)方法。请参阅那里的用法示例。
+的实例[`ImageOptions`](../imageoptions)类用作 parameter 中[`GetImageStream`](../../groupdocs.parser.data/pageimagearea/getimagestream)和 [`Save`](../../groupdocs.parser.data/pageimagearea/save)方法。请参阅此处的用法示例。
 
 用于指定图像提取的图像格式。
 
-**学到更多：**
+**了解更多：**
 
 * [从文档页面区域提取图像](https://docs.groupdocs.com/display/parsernet/Extract+images+from+document+page+area)
 * [将图像提取到文件](https://docs.groupdocs.com/display/parsernet/Extract+images+to+files)

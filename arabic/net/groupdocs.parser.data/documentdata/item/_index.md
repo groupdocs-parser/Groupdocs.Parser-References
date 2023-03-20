@@ -20,13 +20,13 @@ public FieldData this[int index] { get; }
 
 ### قيمة الإرجاع
 
-مثال على[`FieldData`](../../fielddata) صف دراسي.
+مثال على[`FieldData`](../../fielddata) فصل.
 
 ### أمثلة
 
 التكرار عبر جميع الحقول:
 
-[`FieldData`](../../fielddata) فئة تمثل البيانات الميدانية. حسب المجال[`PageArea`](../../fielddata/pagearea) يمكن أن تحتوي property على أي من ورثة[`PageArea`](../../pagearea) صف دراسي. فمثلا،[`ParseForm`](../../../groupdocs.parser/parser/parseform) method استخراج الحقول النصية فقط:
+[`FieldData`](../../fielddata) فئة تمثل البيانات الميدانية. حسب المجال[`PageArea`](../../fielddata/pagearea) يمكن أن تحتوي property على أي من ورثة[`PageArea`](../../pagearea) فصل. على سبيل المثال،[`ParseForm`](../../../groupdocs.parser/parser/parseform) method استخراج الحقول النصية فقط:
 
 ```csharp
 for (int i = 0; i < data.Count; i++)
@@ -43,7 +43,7 @@ using (Parser parser = new Parser(filePath))
 {
     // استخراج البيانات من نموذج PDF
     DocumentData data = parser.ParseForm();
-    // كرر على الحقول المستخرجة
+    // تكرار الحقول المستخرجة
     for (int i = 0; i < data.Count; i++)
     {
         // احصل على الحقل المستخرج

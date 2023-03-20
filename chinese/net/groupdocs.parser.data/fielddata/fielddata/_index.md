@@ -1,14 +1,14 @@
 ---
 title: FieldData
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化FieldDatagroupdocs.parser.data/fielddata类.
+description: 初始化一个新的实例FieldDatagroupdocs.parser.data/fielddata类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.data/fielddata/fielddata/
 ---
 ## FieldData(string, PageArea, FieldData) {#constructor_1}
 
-初始化[`FieldData`](../../fielddata)类.
+初始化一个新的实例[`FieldData`](../../fielddata)类.
 
 ```csharp
 public FieldData(string name, PageArea pageArea, FieldData linkedDataField)
@@ -31,7 +31,7 @@ public FieldData(string name, PageArea pageArea, FieldData linkedDataField)
 
 ## FieldData(string, PageArea) {#constructor}
 
-初始化[`FieldData`](../../fielddata)类.
+初始化一个新的实例[`FieldData`](../../fielddata)类.
 
 ```csharp
 public FieldData(string name, PageArea pageArea)

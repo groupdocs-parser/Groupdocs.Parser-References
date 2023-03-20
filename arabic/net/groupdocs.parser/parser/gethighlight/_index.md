@@ -17,12 +17,12 @@ public HighlightItem GetHighlight(int position, bool isDirect, HighlightOptions 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | position | Int32 | موضع بداية التظليل. |
-| isDirect | Boolean | القيمة التي تشير إلى ما إذا كان استخراج التمييز مباشرًا أم لا.`حقيقي` إذا تم استخراج الضوء بواسطة حق*position* ؛ خلاف ذلك،`خاطئة` . |
+| isDirect | Boolean | القيمة التي تشير إلى ما إذا كان استخراج التمييز مباشرًا أم لا.`حقيقي` إذا تم استخراج الضوء بواسطة حق*position* ؛ خلاف ذلك،`خطأ شنيع` . |
 | options | HighlightOptions | تسليط الضوء على خيارات الاستخراج. |
 
 ### قيمة الإرجاع
 
-مثيل[`HighlightItem`](../../../groupdocs.parser.data/highlightitem) الفئة التي تمثل التمييز المستخرج ؛ `لا شيء` إذا لم يتم دعم استخراج التمييز.
+مثيل[`HighlightItem`](../../../groupdocs.parser.data/highlightitem) الفئة التي تمثل التمييز المستخرج ؛ `باطل` إذا لم يتم دعم استخراج التمييز.
 
 ### ملاحظات
 

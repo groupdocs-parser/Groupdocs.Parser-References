@@ -1,14 +1,14 @@
 ---
 title: ParserSettings
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: Yeni bir örneğini başlatır.ParserSettingsgroupdocs.parser.options/parsersettings sınıf.
+description: Yeni bir örneğini başlatır.ParserSettingsgroupdocs.parser.options/parsersettings logger. ile sınıf
 type: docs
 weight: 10
 url: /tr/net/groupdocs.parser.options/parsersettings/parsersettings/
 ---
-## ParserSettings constructor
+## ParserSettings(ILogger) {#constructor_1}
 
-Yeni bir örneğini başlatır.[`ParserSettings`](../../parsersettings) sınıf.
+Yeni bir örneğini başlatır.[`ParserSettings`](../../parsersettings) logger. ile sınıf
 
 ```csharp
 public ParserSettings(ILogger logger)
@@ -21,6 +21,97 @@ public ParserSettings(ILogger logger)
 ### Ayrıca bakınız
 
 * interface [ILogger](../../ilogger)
+* class [ParserSettings](../../parsersettings)
+* ad alanı [GroupDocs.Parser.Options](../../parsersettings)
+* toplantı [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(OcrConnectorBase) {#constructor_4}
+
+Yeni bir örneğini başlatır.[`ParserSettings`](../../parsersettings) OCR Bağlayıcısı ile sınıf.
+
+```csharp
+public ParserSettings(OcrConnectorBase ocrConnector)
+```
+
+| Parametre | Tip | Tanım |
+| --- | --- | --- |
+| ocrConnector | OcrConnectorBase | Miras alan bir sınıf örneği[`OcrConnectorBase`](../../ocrconnectorbase) OCR işlevselliği sağlamak için sınıf. |
+
+### Ayrıca bakınız
+
+* class [OcrConnectorBase](../../ocrconnectorbase)
+* class [ParserSettings](../../parsersettings)
+* ad alanı [GroupDocs.Parser.Options](../../parsersettings)
+* toplantı [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(ExternalResourceHandler) {#constructor}
+
+Yeni bir örneğini başlatır.[`ParserSettings`](../../parsersettings) Harici Kaynak İşleyici ile sınıf.
+
+```csharp
+public ParserSettings(ExternalResourceHandler externalResourceHandler)
+```
+
+| Parametre | Tip | Tanım |
+| --- | --- | --- |
+| externalResourceHandler | ExternalResourceHandler | Miras alan bir sınıf örneği[`ExternalResourceHandler`](../../externalresourcehandler) sınıf load. harici kaynakların kontrolünü sağlamak için |
+
+### Ayrıca bakınız
+
+* class [ExternalResourceHandler](../../externalresourcehandler)
+* class [ParserSettings](../../parsersettings)
+* ad alanı [GroupDocs.Parser.Options](../../parsersettings)
+* toplantı [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(ILogger, OcrConnectorBase) {#constructor_2}
+
+Yeni bir örneğini başlatır.[`ParserSettings`](../../parsersettings) günlükçü ve OCR Bağlayıcılı sınıf.
+
+```csharp
+public ParserSettings(ILogger logger, OcrConnectorBase ocrConnector)
+```
+
+| Parametre | Tip | Tanım |
+| --- | --- | --- |
+| logger | ILogger | Uygulayan bir sınıf örneği[`ILogger`](../../ilogger) arayüz. |
+| ocrConnector | OcrConnectorBase | Miras alan bir sınıf örneği[`OcrConnectorBase`](../../ocrconnectorbase) OCR işlevselliği sağlamak için sınıf. |
+
+### Ayrıca bakınız
+
+* interface [ILogger](../../ilogger)
+* class [OcrConnectorBase](../../ocrconnectorbase)
+* class [ParserSettings](../../parsersettings)
+* ad alanı [GroupDocs.Parser.Options](../../parsersettings)
+* toplantı [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(ILogger, OcrConnectorBase, ExternalResourceHandler) {#constructor_3}
+
+Yeni bir örneğini başlatır.[`ParserSettings`](../../parsersettings) sınıf.
+
+```csharp
+public ParserSettings(ILogger logger, OcrConnectorBase ocrConnector, 
+    ExternalResourceHandler externalResourceHandler)
+```
+
+| Parametre | Tip | Tanım |
+| --- | --- | --- |
+| logger | ILogger | Uygulayan bir sınıf örneği[`ILogger`](../../ilogger) arayüz. |
+| ocrConnector | OcrConnectorBase | Miras alan bir sınıf örneği[`OcrConnectorBase`](../../ocrconnectorbase) OCR işlevselliği sağlamak için sınıf. |
+| externalResourceHandler | ExternalResourceHandler | Miras alan bir sınıf örneği[`ExternalResourceHandler`](../../externalresourcehandler) harici kaynak yüklemesinin kontrolünü sağlayan sınıf. |
+
+### Ayrıca bakınız
+
+* interface [ILogger](../../ilogger)
+* class [OcrConnectorBase](../../ocrconnectorbase)
+* class [ExternalResourceHandler](../../externalresourcehandler)
 * class [ParserSettings](../../parsersettings)
 * ad alanı [GroupDocs.Parser.Options](../../parsersettings)
 * toplantı [GroupDocs.Parser](../../../)

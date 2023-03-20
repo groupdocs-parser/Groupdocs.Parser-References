@@ -20,7 +20,7 @@ Eine Sammlung von Inhaltsverzeichniselementen; `Null` wenn die Extraktion des In
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Inhaltsverzeichnis extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+table+of+contents)
 * [Text nach Inhaltsverzeichniselement extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+text+by+table+of+contents+item)

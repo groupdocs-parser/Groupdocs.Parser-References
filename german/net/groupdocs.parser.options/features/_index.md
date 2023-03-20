@@ -3,7 +3,7 @@ title: Features
 second_title: GroupDocs.Parser für .NET-API-Referenz
 description: Repräsentiert die Liste der unterstützten Funktionen. Ermöglicht das Abrufen von Informationen welche Funktionen für das Dokument unterstützt werden oder nicht.
 type: docs
-weight: 330
+weight: 350
 url: /de/net/groupdocs.parser.options/features/
 ---
 ## Features class
@@ -26,8 +26,10 @@ public sealed class Features
 | [Hyperlinks](../../groupdocs.parser.options/features/hyperlinks) { get; } | Ruft den Wert ab, der angibt, ob die Extraktion von Hyperlinks unterstützt wird. |
 | [Images](../../groupdocs.parser.options/features/images) { get; } | Ruft den Wert ab, der angibt, ob die Bildextraktion unterstützt wird. |
 | [Metadata](../../groupdocs.parser.options/features/metadata) { get; } | Ruft den Wert ab, der angibt, ob die Metadatenextraktion unterstützt wird. |
+| [Ocr](../../groupdocs.parser.options/features/ocr) { get; } | Ruft den Wert ab, der angibt, ob die OCR-Funktionalität unterstützt wird. |
 | [ParseByTemplate](../../groupdocs.parser.options/features/parsebytemplate) { get; } | Ruft den Wert ab, der angibt, ob das Parsen nach Vorlage unterstützt wird. |
 | [ParseForm](../../groupdocs.parser.options/features/parseform) { get; } | Ruft den Wert ab, der angibt, ob die Formularanalyse unterstützt wird. |
+| [Preview](../../groupdocs.parser.options/features/preview) { get; } | Ruft den Wert ab, der angibt, ob die Vorschaugenerierung unterstützt wird. |
 | [Search](../../groupdocs.parser.options/features/search) { get; } | Ruft den Wert ab, der angibt, ob die Textsuche unterstützt wird. |
 | [Structure](../../groupdocs.parser.options/features/structure) { get; } | Ruft den Wert ab, der angibt, ob die Textstrukturextraktion unterstützt wird. |
 | [Tables](../../groupdocs.parser.options/features/tables) { get; } | Ruft den Wert ab, der angibt, ob die Tabellenextraktion unterstützt wird. |
@@ -44,9 +46,9 @@ public sealed class Features
 
 ### Bemerkungen
 
-Eine Instanz dieser Klasse wird als verwendet[`Features`](../../groupdocs.parser/parser/features)property. Siehe dort die Verwendungsbeispiele.
+Eine Instanz dieser Klasse wird als verwendet[`Features`](../../groupdocs.parser/parser/features) property. Siehe dort die Verwendungsbeispiele.
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Holen Sie sich unterstützte Funktionen](https://docs.groupdocs.com/display/parsernet/Get+supported+features)
 

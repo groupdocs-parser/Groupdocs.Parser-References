@@ -1,14 +1,14 @@
 ---
 title: Template
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: Fornisce il modello di documento. Esso consiste inTemplateItem./templateitem oggetti che rappresentano gli elementi del modello come il campo di testo e le definizioni della tabella.
+description: Fornisce il modello di documento. Consiste inTemplateItem./templateitem oggetti che rappresentano gli elementi del modello come il campo di testo e le definizioni della tabella.
 type: docs
-weight: 600
+weight: 650
 url: /it/net/groupdocs.parser.templates/template/
 ---
 ## Template class
 
-Fornisce il modello di documento. Esso consiste in[`TemplateItem`](../templateitem) oggetti che rappresentano gli elementi del modello come il campo di testo e le definizioni della tabella.
+Fornisce il modello di documento. Consiste in[`TemplateItem`](../templateitem) oggetti che rappresentano gli elementi del modello come il campo di testo e le definizioni della tabella.
 
 ```csharp
 public sealed class Template : IEnumerable<TemplateItem>
@@ -35,7 +35,7 @@ public sealed class Template : IEnumerable<TemplateItem>
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Lavorare con i modelli](https://docs.groupdocs.com/display/parsernet/Working+with+templates)
 

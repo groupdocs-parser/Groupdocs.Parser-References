@@ -3,7 +3,7 @@ title: Features
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Desteklenen özellikler listesini temsil eder. Belge için hangi özelliklerin desteklenip desteklenmediği hakkında bilgi alınmasını sağlar.
 type: docs
-weight: 330
+weight: 350
 url: /tr/net/groupdocs.parser.options/features/
 ---
 ## Features class
@@ -26,8 +26,10 @@ public sealed class Features
 | [Hyperlinks](../../groupdocs.parser.options/features/hyperlinks) { get; } | Köprü çıkarmanın desteklenip desteklenmediğini gösteren değeri alır. |
 | [Images](../../groupdocs.parser.options/features/images) { get; } | Görüntü çıkarmanın desteklenip desteklenmediğini gösteren değeri alır. |
 | [Metadata](../../groupdocs.parser.options/features/metadata) { get; } | Meta veri çıkarmanın desteklenip desteklenmediğini gösteren değeri alır. |
+| [Ocr](../../groupdocs.parser.options/features/ocr) { get; } | OCR işlevinin desteklenip desteklenmediğini gösteren değeri alır. |
 | [ParseByTemplate](../../groupdocs.parser.options/features/parsebytemplate) { get; } | Şablona göre ayrıştırmanın desteklenip desteklenmediğini gösteren değeri alır. |
 | [ParseForm](../../groupdocs.parser.options/features/parseform) { get; } | Form ayrıştırmanın desteklenip desteklenmediğini gösteren değeri alır. |
+| [Preview](../../groupdocs.parser.options/features/preview) { get; } | Önizleme oluşturmanın desteklenip desteklenmediğini gösteren değeri alır. |
 | [Search](../../groupdocs.parser.options/features/search) { get; } | Metin aramanın desteklenip desteklenmediğini gösteren değeri alır. |
 | [Structure](../../groupdocs.parser.options/features/structure) { get; } | Metin yapısı çıkarmanın desteklenip desteklenmediğini gösteren değeri alır. |
 | [Tables](../../groupdocs.parser.options/features/tables) { get; } | Tablo çıkarmanın desteklenip desteklenmediğini gösteren değeri alır. |
@@ -44,7 +46,7 @@ public sealed class Features
 
 ### Notlar
 
-Bu sınıfın bir örneği şu şekilde kullanılır:[`Features`](../../groupdocs.parser/parser/features)property. Oradaki kullanım örneklerine bakın.
+Bu sınıfın bir örneği şu şekilde kullanılır:[`Features`](../../groupdocs.parser/parser/features) property. Oradaki kullanım örneklerine bakın.
 
 **Daha fazla bilgi edin:**
 

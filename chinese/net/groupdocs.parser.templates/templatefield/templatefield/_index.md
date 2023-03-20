@@ -1,14 +1,14 @@
 ---
 title: TemplateField
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化TemplateFieldgroupdocs.parser.templates/templatefield类.
+description: 初始化一个新的实例TemplateFieldgroupdocs.parser.templates/templatefield类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.templates/templatefield/templatefield/
 ---
 ## TemplateField(TemplatePosition, string) {#constructor}
 
-初始化[`TemplateField`](../../templatefield)类.
+初始化一个新的实例[`TemplateField`](../../templatefield)类.
 
 ```csharp
 public TemplateField(TemplatePosition position, string name)
@@ -16,7 +16,7 @@ public TemplateField(TemplatePosition position, string name)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| position | TemplatePosition | 场位置。 |
+| position | TemplatePosition | 场上的位置。 |
 | name | String | 字段名称。 |
 
 ### 也可以看看
@@ -30,7 +30,7 @@ public TemplateField(TemplatePosition position, string name)
 
 ## TemplateField(TemplatePosition, string, int?) {#constructor_1}
 
-初始化[`TemplateField`](../../templatefield)类.
+初始化一个新的实例[`TemplateField`](../../templatefield)类.
 
 ```csharp
 public TemplateField(TemplatePosition position, string name, int? pageIndex)
@@ -38,9 +38,9 @@ public TemplateField(TemplatePosition position, string name, int? pageIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| position | TemplatePosition | 场位置。 |
+| position | TemplatePosition | 场上的位置。 |
 | name | String | 字段名称。 |
-| pageIndex | Nullable`1 | 一个整数值，代表模板项所在页面的索引； `无效的`如果模板项位于任何页面上。 |
+| pageIndex | Nullable`1 | 一个整数值，表示模板项所在页面的索引； `无效的`如果模板项目位于任何页面上。 |
 
 ### 也可以看看
 

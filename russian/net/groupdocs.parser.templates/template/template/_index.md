@@ -20,7 +20,7 @@ public Template(IEnumerable<TemplateItem> items)
 
 ### Примеры
 
-Применение:
+Использование:
 
 ```csharp
 // Создаем массив полей шаблона

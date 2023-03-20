@@ -16,7 +16,7 @@ public bool IsLineLimited { get; }
 
 ### Valore di ritorno
 
-`VERO`se l'estrazione dell'evidenziazione è limitata dall'inizio (o dalla fine) di una riga di testo; altrimenti,`falso`.
+`VERO` se l'estrazione dell'evidenziazione è limitata dall'inizio (o dalla fine) di una riga di testo; Altrimenti,`falso`.
 
 ### Guarda anche
 

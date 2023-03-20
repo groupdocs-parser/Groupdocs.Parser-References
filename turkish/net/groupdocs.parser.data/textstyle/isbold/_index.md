@@ -16,7 +16,7 @@ public bool IsBold { get; }
 
 ### Geri dönüş değeri
 
-`doğru` yazı tipi kalın ise; aksi halde,`yanlış`.
+`doğru` yazı tipi kalın ise; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

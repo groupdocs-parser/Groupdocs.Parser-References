@@ -1,14 +1,14 @@
 ---
 title: OTP
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: I file con estensione .OTP rappresentano i file modello di presentazione creati dalle applicazioni nel formato standard OASIS OpenDocument. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/presentation/otp/ .
+description: I file con estensione .OTP rappresentano i file modello di presentazione creati dalle applicazioni nel formato standard OASIS OpenDocument. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/presentation/otp/ .
 type: docs
 weight: 460
 url: /it/net/groupdocs.parser.options/filetype/otp/
 ---
 ## FileType.OTP field
 
-I file con estensione .OTP rappresentano i file modello di presentazione creati dalle applicazioni nel formato standard OASIS OpenDocument. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/presentation/otp/) .
+I file con estensione .OTP rappresentano i file modello di presentazione creati dalle applicazioni nel formato standard OASIS OpenDocument. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/presentation/otp/) .
 
 ```csharp
 public static readonly FileType OTP;

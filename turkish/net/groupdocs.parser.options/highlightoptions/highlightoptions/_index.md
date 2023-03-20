@@ -1,14 +1,14 @@
 ---
 title: HighlightOptions
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: Yeni bir örneğini başlatır.HighlightOptionsgroupdocs.parser.options/highlightoptionssabit uzunlukta bir vurguyu ayıklamak için kullanılan sınıf.
+description: Yeni bir örneğini başlatır.HighlightOptionsgroupdocs.parser.options/highlightoptions sabit uzunlukta bir vurguyu ayıklamak için kullanılan sınıf.
 type: docs
 weight: 10
 url: /tr/net/groupdocs.parser.options/highlightoptions/highlightoptions/
 ---
 ## HighlightOptions(int) {#constructor}
 
-Yeni bir örneğini başlatır.[`HighlightOptions`](../../highlightoptions)sabit uzunlukta bir vurguyu ayıklamak için kullanılan sınıf.
+Yeni bir örneğini başlatır.[`HighlightOptions`](../../highlightoptions) sabit uzunlukta bir vurguyu ayıklamak için kullanılan sınıf.
 
 ```csharp
 public HighlightOptions(int maxLength)

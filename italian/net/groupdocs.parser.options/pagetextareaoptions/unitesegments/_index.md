@@ -3,7 +3,7 @@ title: UniteSegments
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Ottiene il valore che indica se i segmenti sono uniti.
 type: docs
-weight: 50
+weight: 60
 url: /it/net/groupdocs.parser.options/pagetextareaoptions/unitesegments/
 ---
 ## PageTextAreaOptions.UniteSegments property
@@ -16,7 +16,7 @@ public bool UniteSegments { get; }
 
 ### Valore della proprietà
 
-`VERO` se i segmenti sono uniti; altrimenti,`falso`.
+`VERO` se i segmenti sono uniti; Altrimenti,`falso`.
 
 ### Guarda anche
 

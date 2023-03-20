@@ -20,7 +20,7 @@ public void SetLicense(string filePath)
 
 ### 例子
 
-以下示例演示了如何设置许可证，并传递许可证文件的路径。
+以下示例演示了如何设置许可证并传递许可证文件的路径。
 
 ```csharp
 string licensePath = "LicenseFile.lic"";

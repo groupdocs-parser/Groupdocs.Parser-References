@@ -12,7 +12,7 @@ Lo spazio dei nomi fornisce classi per la creazione di modelli per l'analisi dei
 
 | Classe | Descrizione |
 | --- | --- |
-| [Template](./template) | Fornisce il modello di documento. Esso consiste in[`TemplateItem`](../groupdocs.parser.templates/templateitem) oggetti che rappresentano gli elementi del modello come il campo di testo e le definizioni della tabella. |
+| [Template](./template) | Fornisce il modello di documento. Consiste in[`TemplateItem`](../groupdocs.parser.templates/templateitem) oggetti che rappresentano gli elementi del modello come il campo di testo e le definizioni della tabella. |
 | [TemplateBarcode](./templatebarcode) | Fornisce il campo del codice a barre del modello. |
 | [TemplateField](./templatefield) | Fornisce il campo di testo del modello. |
 | [TemplateFixedPosition](./templatefixedposition) | Fornisce una posizione del campo modello definita dall'area rettangolare. |

@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /tr/net/groupdocs.parser.options/textoptions/textoptions/
 ---
-## TextOptions constructor
+## TextOptions(bool) {#constructor}
 
 Yeni bir örneğini başlatır.[`TextOptions`](../../textoptions) sınıf.
 
@@ -20,6 +20,50 @@ public TextOptions(bool useRawModeIfPossible)
 
 ### Ayrıca bakınız
 
+* class [TextOptions](../../textoptions)
+* ad alanı [GroupDocs.Parser.Options](../../textoptions)
+* toplantı [GroupDocs.Parser](../../../)
+
+---
+
+## TextOptions(bool, bool) {#constructor_1}
+
+Yeni bir örneğini başlatır.[`TextOptions`](../../textoptions) OCR kullanım seçeneğine sahip sınıf.
+
+```csharp
+public TextOptions(bool useRawModeIfPossible, bool useOcr)
+```
+
+| Parametre | Tip | Tanım |
+| --- | --- | --- |
+| useRawModeIfPossible | Boolean | Ham modun kullanılıp kullanılmadığını gösteren değer. |
+| useOcr | Boolean | Bir metni ayıklamak için OCR işlevinin kullanılıp kullanılmadığını gösteren değer. |
+
+### Ayrıca bakınız
+
+* class [TextOptions](../../textoptions)
+* ad alanı [GroupDocs.Parser.Options](../../textoptions)
+* toplantı [GroupDocs.Parser](../../../)
+
+---
+
+## TextOptions(bool, bool, OcrOptions) {#constructor_2}
+
+Yeni bir örneğini başlatır.[`TextOptions`](../../textoptions) OCR seçeneklerini ayarlama yeteneğine sahip sınıf.
+
+```csharp
+public TextOptions(bool useRawModeIfPossible, bool useOcr, OcrOptions ocrOptions)
+```
+
+| Parametre | Tip | Tanım |
+| --- | --- | --- |
+| useRawModeIfPossible | Boolean | Ham modun kullanılıp kullanılmadığını gösteren değer. |
+| useOcr | Boolean | Bir metni ayıklamak için OCR işlevinin kullanılıp kullanılmadığını gösteren değer. |
+| ocrOptions | OcrOptions | OCR işlevi için ek seçenekler. |
+
+### Ayrıca bakınız
+
+* class [OcrOptions](../../ocroptions)
 * class [TextOptions](../../textoptions)
 * ad alanı [GroupDocs.Parser.Options](../../textoptions)
 * toplantı [GroupDocs.Parser](../../../)

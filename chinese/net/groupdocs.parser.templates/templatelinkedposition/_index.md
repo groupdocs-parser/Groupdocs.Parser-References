@@ -3,7 +3,7 @@ title: TemplateLinkedPosition
 second_title: GroupDocs.Parser for .NET API 参考
 description: 提供使用链接字段的模板字段位置
 type: docs
-weight: 650
+weight: 700
 url: /zh/net/groupdocs.parser.templates/templatelinkedposition/
 ---
 ## TemplateLinkedPosition class
@@ -18,27 +18,27 @@ public sealed class TemplateLinkedPosition : TemplatePosition
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TemplateLinkedPosition](templatelinkedposition#constructor)(string, Size, TemplateLinkedPositionEdges) | 初始化[`TemplateLinkedPosition`](../templatelinkedposition)类. |
-| [TemplateLinkedPosition](templatelinkedposition#constructor_1)(string, Size, TemplateLinkedPositionEdges, bool) | 初始化[`TemplateLinkedPosition`](../templatelinkedposition)类. |
+| [TemplateLinkedPosition](templatelinkedposition#constructor)(string, Size, TemplateLinkedPositionEdges) | 初始化一个新的实例[`TemplateLinkedPosition`](../templatelinkedposition)类. |
+| [TemplateLinkedPosition](templatelinkedposition#constructor_1)(string, Size, TemplateLinkedPositionEdges, bool) | 初始化一个新的实例[`TemplateLinkedPosition`](../templatelinkedposition)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AutoScale](../../groupdocs.parser.templates/templatelinkedposition/autoscale) { get; } | 获取指示是否[`SearchArea`](./searcharea)由链接的字段大小缩放。 |
+| [AutoScale](../../groupdocs.parser.templates/templatelinkedposition/autoscale) { get; } | 获取表示是否[`SearchArea`](./searcharea)由链接字段大小缩放。 |
 | [Edges](../../groupdocs.parser.templates/templatelinkedposition/edges) { get; } | 获取搜索字段的链接字段的边缘。 |
 | [LinkedFieldName](../../groupdocs.parser.templates/templatelinkedposition/linkedfieldname) { get; } | 获取链接字段名称。 |
-| [SearchArea](../../groupdocs.parser.templates/templatelinkedposition/searcharea) { get; } | 获取搜索字段的区域大小。 |
+| [SearchArea](../../groupdocs.parser.templates/templatelinkedposition/searcharea) { get; } | 获取字段搜索区域的大小。 |
 
 ### 例子
 
-以下示例显示了情况的代码 如果已知带有发票编号的字段位于“发票编号”字符串的右侧 ，则使用以下代码：
+以下示例显示了情况 的代码，如果已知带有发票编号的字段位于“发票编号”字符串的右侧 ，则使用以下代码：
 
 ```csharp
-// 创建一个正则表达式模板字段以查找“发票编号”文本
+// 创建一个正则表达式模板字段来查找“发票编号”文本
 TemplateField invoice = new TemplateField(new TemplateRegexPosition("Invoice Number"), "Invoice");
 
-// 创建与“发票”字段关联的相关模板字段并提取其右侧的值
+// 创建一个与“发票”字段关联的相关模板字段，并提取其右侧的值
 TemplateField invoiceNumber = new TemplateField(
     new TemplateLinkedPosition("invoice", new Size(100, 15), new TemplateLinkedPositionEdges(false, false, true, false)),
     "InvoiceNumber");

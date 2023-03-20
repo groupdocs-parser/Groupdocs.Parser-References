@@ -16,7 +16,7 @@ public bool Container { get; }
 
 ### Valor_devuelto
 
-`verdadero` si se admite la extracción de contenedores; de lo contrario,`falso`.
+`verdadero` si se admite la extracción de contenedores; de lo contrario,`FALSO`.
 
 ### Ver también
 

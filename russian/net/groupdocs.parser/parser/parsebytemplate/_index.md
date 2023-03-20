@@ -24,7 +24,7 @@ public DocumentData ParseByTemplate(Template template)
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Разобрать данные из документов](https://docs.groupdocs.com/display/parsernet/Parse+data+from+documents)
 * [Работа с шаблонами](https://docs.groupdocs.com/display/parsernet/Working+with+templates)

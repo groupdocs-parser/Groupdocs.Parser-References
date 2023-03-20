@@ -3,7 +3,7 @@ title: Logger
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Veri çıkarma sırasında olayları ve hataları günlüğe kaydetmek için kullanılan kaydediciyi alır.
 type: docs
-weight: 20
+weight: 30
 url: /tr/net/groupdocs.parser.options/parsersettings/logger/
 ---
 ## ParserSettings.Logger property

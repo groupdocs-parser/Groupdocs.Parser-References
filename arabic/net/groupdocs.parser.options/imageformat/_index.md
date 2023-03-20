@@ -3,7 +3,7 @@ title: ImageFormat
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يحدد تنسيق الصورة .
 type: docs
-weight: 430
+weight: 450
 url: /ar/net/groupdocs.parser.options/imageformat/
 ---
 ## ImageFormat enumeration

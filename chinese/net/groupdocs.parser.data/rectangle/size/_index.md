@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取大小
+description: 获取尺寸
 type: docs
 weight: 60
 url: /zh/net/groupdocs.parser.data/rectangle/size/
 ---
 ## Rectangle.Size property
 
-获取大小。
+获取尺寸。
 
 ```csharp
 public Size Size { get; }
@@ -16,7 +16,7 @@ public Size Size { get; }
 
 ### 适当的价值
 
-一个实例[`Size`](../../size)表示矩形区域大小的类。
+的实例[`Size`](../../size)表示矩形区域大小的类。
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: TemplateBarcode
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Şablon barkod alanını sağlar.
 type: docs
-weight: 610
+weight: 660
 url: /tr/net/groupdocs.parser.templates/templatebarcode/
 ---
 ## TemplateBarcode class

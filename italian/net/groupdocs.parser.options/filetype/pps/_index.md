@@ -1,14 +1,14 @@
 ---
 title: PPS
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: PPS presentazione di diapositive di PowerPoint i file vengono creati utilizzando Microsoft PowerPoint a scopo di presentazione. La lettura e la creazione di file PPS è supportata da Microsoft PowerPoint 972003. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/presentation/pps/ .
+description: PPS presentazione di diapositive di PowerPoint i file vengono creati utilizzando Microsoft PowerPoint a scopo di presentazione. La lettura e la creazione di file PPS è supportata da Microsoft PowerPoint 972003. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/presentation/pps/ .
 type: docs
 weight: 560
 url: /it/net/groupdocs.parser.options/filetype/pps/
 ---
 ## FileType.PPS field
 
-PPS, presentazione di diapositive di PowerPoint, i file vengono creati utilizzando Microsoft PowerPoint a scopo di presentazione. La lettura e la creazione di file PPS è supportata da Microsoft PowerPoint 97-2003. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/presentation/pps/) .
+PPS, presentazione di diapositive di PowerPoint, i file vengono creati utilizzando Microsoft PowerPoint a scopo di presentazione. La lettura e la creazione di file PPS è supportata da Microsoft PowerPoint 97-2003. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/presentation/pps/) .
 
 ```csharp
 public static readonly FileType PPS;

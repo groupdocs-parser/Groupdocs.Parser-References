@@ -20,16 +20,16 @@ public void Save(string filePath)
 
 ### 例子
 
-以下示例显示如何将图像保存到文件：
+以下示例显示了如何将图像保存到文件：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using (Parser parser = new Parser(filePath))
 {
     // 从文档中提取图像
     IEnumerable<PageImageArea> images = parser.GetImages();
     
-    // 检查是否支持图像提取
+    // 检查是否支持图片提取
     if (images == null)
     {
         Console.WriteLine("Page images extraction isn't supported");
@@ -39,7 +39,7 @@ using (Parser parser = new Parser(filePath))
     // 遍历图像
     foreach (PageImageArea image in images)
     {
-        // 将图片保存到文件中
+        // 保存图片到文件
         image.Save(Guid.NewGuid().ToString() + image.FileType.Extension);
     }
 }
@@ -71,26 +71,26 @@ public void Save(string filePath, ImageOptions options)
 以下示例显示了如何将图像保存到不同格式的文件中：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using (Parser parser = new Parser(filePath))
 {
     // 从文档中提取图像
     IEnumerable<PageImageArea> images = parser.GetImages();
     
-    // 检查是否支持图像提取
+    // 检查是否支持图片提取
     if (images == null)
     {
         Console.WriteLine("Page images extraction isn't supported");
         return;
     }
 
-    // 创建以PNG格式保存图像的选项
+    // 创建以 PNG 格式保存图像的选项
     ImageOptions options = new ImageOptions(ImageFormat.Png);
     
     // 遍历图像
     foreach (PageImageArea image in images)
     {
-        // 将图片保存为 png 文件
+        // 保存图片到png文件
         image.Save(Guid.NewGuid().ToString() + ".png", options);
     }
 }

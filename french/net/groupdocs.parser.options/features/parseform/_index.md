@@ -3,7 +3,7 @@ title: ParseForm
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Obtient la valeur qui indique si lanalyse de formulaire est prise en charge.
 type: docs
-weight: 100
+weight: 110
 url: /fr/net/groupdocs.parser.options/features/parseform/
 ---
 ## Features.ParseForm property
@@ -16,7 +16,7 @@ public bool ParseForm { get; }
 
 ### Return_Value
 
-`vrai` si l'analyse de formulaire est prise en charge ; Par ailleurs,`faux`.
+`vrai` si l'analyse de formulaire est prise en charge ; sinon,`FAUX`.
 
 ### Voir également
 

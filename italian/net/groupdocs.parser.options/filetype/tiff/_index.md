@@ -1,14 +1,14 @@
 ---
 title: TIFF
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: TIFF Tagged Image File Format rappresenta le immagini raster destinate allutilizzo su una varietà di dispositivi conformi a questo standard di formato file. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/image/tiff/ .
+description: TIFF Tagged Image File Format rappresenta le immagini raster destinate allutilizzo su una varietà di dispositivi conformi a questo standard di formato file. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/image/tiff/ .
 type: docs
 weight: 720
 url: /it/net/groupdocs.parser.options/filetype/tiff/
 ---
 ## FileType.TIFF field
 
-TIFF, Tagged Image File Format, rappresenta le immagini raster destinate all'utilizzo su una varietà di dispositivi conformi a questo standard di formato file. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/image/tiff/) .
+TIFF, Tagged Image File Format, rappresenta le immagini raster destinate all'utilizzo su una varietà di dispositivi conformi a questo standard di formato file. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/image/tiff/) .
 
 ```csharp
 public static readonly FileType TIFF;

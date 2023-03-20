@@ -20,7 +20,7 @@ public XmlReader GetStructure()
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечь структуру текста](https://docs.groupdocs.com/display/parsernet/Extract+text+structure)
 

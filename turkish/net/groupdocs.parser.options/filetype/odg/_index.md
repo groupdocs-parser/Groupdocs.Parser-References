@@ -1,14 +1,14 @@
 ---
 title: ODG
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: ODG dosya biçimi Apache OpenOfficein Draw uygulaması tarafından çizim öğelerini bir vektör görüntüsü olarak depolamak için kullanılır. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/image/odg/ .
+description: ODG dosya biçimi Apache OpenOfficein Draw uygulaması tarafından çizim öğelerini bir vektör görüntüsü olarak depolamak için kullanılır. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/image/odg/ .
 type: docs
 weight: 400
 url: /tr/net/groupdocs.parser.options/filetype/odg/
 ---
 ## FileType.ODG field
 
-ODG dosya biçimi, Apache OpenOffice'in Draw uygulaması tarafından çizim öğelerini bir vektör görüntüsü olarak depolamak için kullanılır. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/image/odg/) .
+ODG dosya biçimi, Apache OpenOffice'in Draw uygulaması tarafından çizim öğelerini bir vektör görüntüsü olarak depolamak için kullanılır. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/image/odg/) .
 
 ```csharp
 public static readonly FileType ODG;

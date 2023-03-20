@@ -16,7 +16,7 @@ public bool Metadata { get; }
 
 ### Rückgabewert
 
-`Stimmt`ob Metadatenextraktion unterstützt wird; Andernfalls,`FALSCH`.
+`WAHR`ob Metadatenextraktion unterstützt wird; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

@@ -16,7 +16,7 @@ public bool Metadata { get; }
 
 ### Valor_devuelto
 
-`verdadero`si se admite la extracción de metadatos; de lo contrario,`falso`.
+`verdadero`si se admite la extracción de metadatos; de lo contrario,`FALSO`.
 
 ### Ver también
 

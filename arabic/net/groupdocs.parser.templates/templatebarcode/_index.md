@@ -3,7 +3,7 @@ title: TemplateBarcode
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يوفر حقل الرمز الشريطي للقالب .
 type: docs
-weight: 610
+weight: 660
 url: /ar/net/groupdocs.parser.templates/templatebarcode/
 ---
 ## TemplateBarcode class

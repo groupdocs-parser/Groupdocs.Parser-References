@@ -1,14 +1,14 @@
 ---
 title: XLT
 second_title: GroupDocs.Parser för .NET API-referens
-description: Filer med filtillägget .XLT är mallfiler skapade med Microsoft Excel som är ett kalkylblad program som kommer som en del av Microsoft Officepaketet. Läs mer om detta filformat härhttps//wiki.fileformat.com/specification/spreadsheet/xlt/ .
+description: Filer med tillägget .XLT är mallfiler skapade med Microsoft Excel som är ett kalkylblad program som kommer som en del av Microsoft Officepaketet. Läs mer om detta filformat härhttps//wiki.fileformat.com/specification/spreadsheet/xlt/ .
 type: docs
 weight: 850
 url: /sv/net/groupdocs.parser.options/filetype/xlt/
 ---
 ## FileType.XLT field
 
-Filer med filtillägget .XLT är mallfiler skapade med Microsoft Excel som är ett kalkylblad -program som kommer som en del av Microsoft Office-paketet. Läs mer om detta filformat [här](https://wiki.fileformat.com/specification/spreadsheet/xlt/) .
+Filer med tillägget .XLT är mallfiler skapade med Microsoft Excel som är ett kalkylblad -program som kommer som en del av Microsoft Office-paketet. Läs mer om detta filformat [här](https://wiki.fileformat.com/specification/spreadsheet/xlt/) .
 
 ```csharp
 public static readonly FileType XLT;

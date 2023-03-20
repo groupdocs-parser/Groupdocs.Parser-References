@@ -18,7 +18,7 @@ public TemplateTable(TemplateTableLayout layout, string name, int? pageIndex)
 | --- | --- | --- |
 | layout | TemplateTableLayout | تخطيط الجدول. |
 | name | String | اسم الجدول. |
-| pageIndex | Nullable`1 | فهرس الصفحة حيث يوجد جدول القالب ؛ `لا شيء` إذا كان جدول النموذج موجودًا في أي صفحة. |
+| pageIndex | Nullable`1 | فهرس الصفحة حيث يوجد جدول القالب ؛ `باطل` إذا كان جدول النموذج موجودًا في أي صفحة. |
 
 ### أمثلة
 
@@ -56,7 +56,7 @@ public TemplateTable(TemplateTableParameters parameters, string name, int? pageI
 | --- | --- | --- |
 | parameters | TemplateTableParameters | المعلمات لاكتشاف الجدول في الوضع التلقائي. |
 | name | String | اسم الجدول. |
-| pageIndex | Nullable`1 | فهرس الصفحة حيث يوجد جدول القالب ؛ `لا شيء` إذا كان جدول النموذج موجودًا في أي صفحة. |
+| pageIndex | Nullable`1 | فهرس الصفحة حيث يوجد جدول القالب ؛ `باطل` إذا كان جدول النموذج موجودًا في أي صفحة. |
 
 ### أمثلة
 

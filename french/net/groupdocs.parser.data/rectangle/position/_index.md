@@ -16,7 +16,7 @@ public Point Position { get; }
 
 ### Valeur de la propriété
 
-Un exemple de[`Point`](../../point) classe qui représente les coordonnées du coin supérieur gauche de la zone rectangulaire.
+Un exemple de[`Point`](../../point)classe qui représente les coordonnées du coin supérieur gauche de la zone rectangulaire.
 
 ### Voir également
 

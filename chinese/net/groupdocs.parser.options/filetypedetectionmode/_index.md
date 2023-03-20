@@ -1,14 +1,14 @@
 ---
 title: FileTypeDetectionMode
 second_title: GroupDocs.Parser for .NET API 参考
-description: 定义文件类型检测的模式
+description: 定义文件类型检测模式
 type: docs
-weight: 370
+weight: 390
 url: /zh/net/groupdocs.parser.options/filetypedetectionmode/
 ---
 ## FileTypeDetectionMode enumeration
 
-定义文件类型检测的模式。
+定义文件类型检测模式。
 
 ```csharp
 public enum FileTypeDetectionMode
@@ -18,9 +18,9 @@ public enum FileTypeDetectionMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Default | `0` | 通过文件扩展名检测文件类型；如果文件扩展名无法识别， 文件类型由文件内容检测到。 |
+| Default | `0` | 通过文件扩展名检测文件类型；如果无法识别文件扩展名， 文件类型由文件内容检测到。 |
 | Extension | `1` | 仅通过文件扩展名检测文件类型。 |
-| Content | `2` | 文件类型仅由文件内容检测。 |
+| Content | `2` | 仅通过文件内容检测文件类型。 |
 
 ### 也可以看看
 

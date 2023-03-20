@@ -1,14 +1,14 @@
 ---
 title: LoadOptions
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: Initialisiert eine neue Instanz vonLoadOptionsgroupdocs.parser.options/loadoptions Klasse mit leerPasswordgroupdocs.parser.options/loadoptions/password FileFormatgroupdocs.parser.options/loadoptions/fileformat gleichtUnknown und Standardkodierungen.
+description: Initialisiert eine neue Instanz vonLoadOptionsgroupdocs.parser.options/loadoptions Klasse mit leerPasswordgroupdocs.parser.options/loadoptions/password FileFormatgroupdocs.parser.options/loadoptions/fileformat gleichUnknown und Standardkodierungen.
 type: docs
 weight: 10
 url: /de/net/groupdocs.parser.options/loadoptions/loadoptions/
 ---
 ## LoadOptions() {#constructor}
 
-Initialisiert eine neue Instanz von[`LoadOptions`](../../loadoptions) Klasse mit leer[`Password`](../password) ,[`FileFormat`](../fileformat) gleichtUnknown und Standardkodierungen.
+Initialisiert eine neue Instanz von[`LoadOptions`](../../loadoptions) Klasse mit leer[`Password`](../password) ,[`FileFormat`](../fileformat) gleichUnknown und Standardkodierungen.
 
 ```csharp
 public LoadOptions()
@@ -24,7 +24,7 @@ public LoadOptions()
 
 ## LoadOptions(string) {#constructor_4}
 
-Initialisiert eine neue Instanz von[`LoadOptions`](../../loadoptions)class mit[`FileFormat`](../fileformat) gleichtUnknown und Standardkodierungen.
+Initialisiert eine neue Instanz von[`LoadOptions`](../../loadoptions) class mit[`FileFormat`](../fileformat) gleichUnknown und Standardkodierungen.
 
 ```csharp
 public LoadOptions(string password)
@@ -44,7 +44,7 @@ public LoadOptions(string password)
 
 ## LoadOptions(FileFormat) {#constructor_1}
 
-Initialisiert eine neue Instanz von[`LoadOptions`](../../loadoptions) class mit leer[`Password`](../password) und Standardcodierungen.
+Initialisiert eine neue Instanz von[`LoadOptions`](../../loadoptions) class mit leer[`Password`](../password)und Standardcodierungen.
 
 ```csharp
 public LoadOptions(FileFormat fileFormat)

@@ -16,14 +16,14 @@ public IEnumerable<PageHyperlinkArea> GetHyperlinks()
 
 ### 返回值
 
-集合[`PageHyperlinkArea`](../../../groupdocs.parser.data/pagehyperlinkarea)对象; `无效的`如果不支持超链接提取。
+的集合[`PageHyperlinkArea`](../../../groupdocs.parser.data/pagehyperlinkarea)对象； `无效的`如果不支持超链接提取.
 
 ### 例子
 
-以下示例展示了如何从整个文档中提取所有超链接：
+以下示例显示如何从整个文档中提取所有超链接：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using (Parser parser = new Parser(filePath))
 {
     // 检查文档是否支持超链接提取
@@ -69,14 +69,14 @@ public IEnumerable<PageHyperlinkArea> GetHyperlinks(int pageIndex)
 
 ### 返回值
 
-集合[`PageHyperlinkArea`](../../../groupdocs.parser.data/pagehyperlinkarea)对象; `无效的`如果不支持超链接提取。
+的集合[`PageHyperlinkArea`](../../../groupdocs.parser.data/pagehyperlinkarea)对象； `无效的`如果不支持超链接提取.
 
 ### 例子
 
-下面的例子展示了如何从文档页面中提取超链接：
+以下示例显示了如何从文档页面中提取超链接：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using (Parser parser = new Parser(filePath))
 {
     // 检查文档是否支持超链接提取
@@ -96,7 +96,7 @@ using (Parser parser = new Parser(filePath))
     // 遍历页面
     for (int pageIndex = 0; pageIndex < documentInfo.PageCount; pageIndex++)
     {
-        //打印页码 
+        // 打印页码 
         Console.WriteLine(string.Format("Page {0}/{1}", pageIndex + 1, documentInfo.PageCount));
         // 从文档页面中提取超链接
         IEnumerable<PageHyperlinkArea> hyperlinks = parser.GetHyperlinks(pageIndex);
@@ -124,7 +124,7 @@ using (Parser parser = new Parser(filePath))
 
 ## GetHyperlinks(PageAreaOptions) {#gethyperlinks_1}
 
-使用自定义选项 （设置包含超链接的矩形区域）从文档中提取超链接。
+使用自定义选项从文档中提取超链接 （设置包含超链接的矩形区域）。
 
 ```csharp
 public IEnumerable<PageHyperlinkArea> GetHyperlinks(PageAreaOptions options)
@@ -136,14 +136,14 @@ public IEnumerable<PageHyperlinkArea> GetHyperlinks(PageAreaOptions options)
 
 ### 返回值
 
-集合[`PageHyperlinkArea`](../../../groupdocs.parser.data/pagehyperlinkarea)对象; `无效的`如果不支持超链接提取。
+的集合[`PageHyperlinkArea`](../../../groupdocs.parser.data/pagehyperlinkarea)对象； `无效的`如果不支持超链接提取.
 
 ### 例子
 
-下面的例子展示了如何从文档页面区域中提取超链接：
+以下示例显示如何从文档页面区域中提取超链接：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using (Parser parser = new Parser(filePath))
 {
     // 检查文档是否支持超链接提取
@@ -154,7 +154,7 @@ using (Parser parser = new Parser(filePath))
     }
     // 创建用于超链接提取的选项
     PageAreaOptions options = new PageAreaOptions(new Rectangle(new Point(380, 90), new Size(150, 50)));
-    // 从文档页面区域提取超链接
+    // 从文档页面区域中提取超链接
     IEnumerable<PageHyperlinkArea> hyperlinks = parser.GetHyperlinks(options);
     // 遍历超链接
     foreach (PageHyperlinkArea h in hyperlinks)
@@ -180,7 +180,7 @@ using (Parser parser = new Parser(filePath))
 
 ## GetHyperlinks(int, PageAreaOptions) {#gethyperlinks_3}
 
-使用自定义选项 （设置包含超链接的矩形区域）从文档页面中提取超链接。
+使用自定义选项从文档页面中提取超链接 （设置包含超链接的矩形区域）。
 
 ```csharp
 public IEnumerable<PageHyperlinkArea> GetHyperlinks(int pageIndex, PageAreaOptions options)
@@ -193,14 +193,14 @@ public IEnumerable<PageHyperlinkArea> GetHyperlinks(int pageIndex, PageAreaOptio
 
 ### 返回值
 
-集合[`PageHyperlinkArea`](../../../groupdocs.parser.data/pagehyperlinkarea)对象; `无效的`如果不支持超链接提取。
+的集合[`PageHyperlinkArea`](../../../groupdocs.parser.data/pagehyperlinkarea)对象； `无效的`如果不支持超链接提取.
 
 ### 例子
 
 以下示例显示如何使用自定义选项从文档页面区域提取超链接：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using (Parser parser = new Parser(filePath))
 {
     // 检查文档是否支持超链接提取
@@ -224,9 +224,9 @@ using (Parser parser = new Parser(filePath))
     // 遍历页面
     for (int pageIndex = 0; pageIndex < documentInfo.PageCount; pageIndex++)
     {
-        //打印页码 
+        // 打印页码 
         Console.WriteLine(string.Format("Page {0}/{1}", pageIndex + 1, documentInfo.PageCount));         
-        // 从文档页面区域提取超链接
+        // 从文档页面区域中提取超链接
         IEnumerable<PageHyperlinkArea> hyperlinks = parser.GetHyperlinks(pageIndex, options);
         // 遍历超链接
         foreach (PageHyperlinkArea h in hyperlinks)

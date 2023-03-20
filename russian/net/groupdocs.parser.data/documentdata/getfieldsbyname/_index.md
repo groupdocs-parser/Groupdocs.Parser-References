@@ -26,7 +26,7 @@ public IList<FieldData> GetFieldsByName(string fieldName)
 
 Найти поля по имени поля:
 
-[`FieldData`](../../fielddata) класс представляет данные поля. В зависимости от поля[`PageArea`](../../fielddata/pagearea) property может содержать любого из наследников[`PageArea`](../../pagearea) учебный класс. Например,[`ParseForm`](../../../groupdocs.parser/parser/parseform) method извлекает только текстовые поля.
+[`FieldData`](../../fielddata) класс представляет данные поля. В зависимости от поля[`PageArea`](../../fielddata/pagearea) property может содержать любого из наследников[`PageArea`](../../pagearea) сорт. Например,[`ParseForm`](../../../groupdocs.parser/parser/parseform) method извлекает только текстовые поля.
 
 ```csharp
 // Получаем все поля с именем "Адрес"

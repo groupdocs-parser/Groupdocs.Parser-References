@@ -18,6 +18,8 @@ L'espace de noms fournit des classes pour spécifier des options supplémentaire
 | [EmailEwsConnection](./emailewsconnection) | Représente les informations de connexion de messagerie pour le protocole EWS. |
 | [EmailImapConnection](./emailimapconnection) | Représente les informations de connexion de messagerie pour le protocole IMAP. |
 | [EmailPopConnection](./emailpopconnection) | Représente les informations de connexion de messagerie pour le protocole POP. |
+| [ExternalResourceHandler](./externalresourcehandler) | Fournit un gestionnaire pour le chargement des ressources externes. |
+| [ExternalResourceLoadingArgs](./externalresourceloadingargs) | Fournit les données pour[`OnLoading`](../groupdocs.parser.options/externalresourcehandler/onloading) méthode. |
 | [Features](./features) | Représente la liste des fonctionnalités prises en charge. Permet d'obtenir des informations sur les fonctionnalités prises en charge ou non pour le document. |
 | [FileInfo](./fileinfo) | Représente les informations du fichier. |
 | [FileType](./filetype) | Représente le type de fichier. Fournit des méthodes pour obtenir la liste de tous les types de fichiers pris en charge par**GroupDocs.ParserGroupDocs.Parser** . |
@@ -25,6 +27,9 @@ L'espace de noms fournit des classes pour spécifier des options supplémentaire
 | [HighlightOptions](./highlightoptions) | Fournit les options utilisées pour extraire une surbrillance (un bloc de texte autour du texte trouvé dans les scénarios de recherche). |
 | [ImageOptions](./imageoptions) | Fournit les options utilisées pour l'extraction d'image. |
 | [LoadOptions](./loadoptions) | Fournit les options utilisées pour ouvrir un fichier. |
+| [OcrConnectorBase](./ocrconnectorbase) | Fournit la fonctionnalité OCR. |
+| [OcrEventHandler](./ocreventhandler) | Fournit un gestionnaire pour les événements OCR. |
+| [OcrOptions](./ocroptions) | Fournit les options utilisées pour OCR Connector. |
 | [PageAreaOptions](./pageareaoptions) | Fournit les options utilisées pour l'extraction des zones de page. |
 | [PageInfo](./pageinfo) | Représente les informations de la page du document. |
 | [PageRenderInfo](./pagerenderinfo) | Représente les informations sur le rendu d'une page. |

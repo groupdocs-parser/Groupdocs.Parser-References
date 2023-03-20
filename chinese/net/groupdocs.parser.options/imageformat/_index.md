@@ -1,14 +1,14 @@
 ---
 title: ImageFormat
 second_title: GroupDocs.Parser for .NET API 参考
-description: 定义图像的格式
+description: 定义图像格式
 type: docs
-weight: 430
+weight: 450
 url: /zh/net/groupdocs.parser.options/imageformat/
 ---
 ## ImageFormat enumeration
 
-定义图像的格式。
+定义图像格式。
 
 ```csharp
 public enum ImageFormat
@@ -18,11 +18,11 @@ public enum ImageFormat
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Bmp | `0` | 位图图像。 |
-| Gif | `1` | 图形交换格式. |
-| Jpeg | `2` | JPEG 图像。 |
-| Png | `3` | 便携式网络图形。 |
-| WebP | `4` | WebP 图像. |
+| Bmp | `0` | 位图图像. |
+| Gif | `1` | 图形交换格式。 |
+| Jpeg | `2` | JPEG 图像. |
+| Png | `3` | 便携式网络图形. |
+| WebP | `4` | WebP 图片. |
 
 ### 也可以看看
 

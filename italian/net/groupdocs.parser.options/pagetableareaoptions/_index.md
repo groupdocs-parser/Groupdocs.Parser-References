@@ -3,7 +3,7 @@ title: PageTableAreaOptions
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Fornisce le opzioni utilizzate per lestrazione delle aree della tabella delle pagine.
 type: docs
-weight: 490
+weight: 540
 url: /it/net/groupdocs.parser.options/pagetableareaoptions/
 ---
 ## PageTableAreaOptions class
@@ -29,7 +29,7 @@ public sealed class PageTableAreaOptions : PageAreaOptions
 
 ### Osservazioni
 
-Un'istanza di[`PageTableAreaOptions`](../pagetableareaoptions) la classe viene utilizzata come parametro in[`GetTables`](../../groupdocs.parser/parser/gettables) e[`GetTables`](../../groupdocs.parser/parser/gettables) metodi. Vedi gli esempi di utilizzo qui.
+Un'istanza di[`PageTableAreaOptions`](../pagetableareaoptions) la classe viene utilizzata come parametro in[`GetTables`](../../groupdocs.parser/parser/gettables) E[`GetTables`](../../groupdocs.parser/parser/gettables) metodi. Vedi gli esempi di utilizzo qui.
 
 ### Guarda anche
 

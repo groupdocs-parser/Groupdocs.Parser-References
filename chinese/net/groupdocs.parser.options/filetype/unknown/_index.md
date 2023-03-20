@@ -1,14 +1,14 @@
 ---
 title: Unknown
 second_title: GroupDocs.Parser for .NET API 参考
-description: 表示未知文件类型
+description: 代表未知文件类型
 type: docs
 weight: 750
 url: /zh/net/groupdocs.parser.options/filetype/unknown/
 ---
 ## FileType.Unknown field
 
-表示未知文件类型。
+代表未知文件类型。
 
 ```csharp
 public static readonly FileType Unknown;

@@ -109,7 +109,7 @@ public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpress
 
 ## SearchOptions(bool, bool, bool, bool) {#constructor_2}
 
-Инициализирует новый экземпляр[`SearchOptions`](../../searchoptions) класс, который используется для поиска по страницам и без извлечения выделения.
+Инициализирует новый экземпляр[`SearchOptions`](../../searchoptions)класс, который используется для поиска по страницам и без извлечения выделения.
 
 ```csharp
 public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpression, 

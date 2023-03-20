@@ -26,7 +26,7 @@ Ett exempel på[`FileType`](../../../groupdocs.parser.options/filetype) klass;[`
 
 *detectionMode* parameter ger möjlighet att kontrollera filtypsdetektering:
 
-* **Standard** . Filtypen identifieras av filtillägget; om filtillägget inte känns igen, identifieras filtypen av filinnehållet.
+* **Standard** Filtypen identifieras av filtillägget; om filtillägget inte känns igen, identifieras filtypen av filinnehållet.
 * **Förlängning** .Filtypen upptäcks endast av filtillägget.
 * **Innehåll** . Filtypen upptäcks endast av filinnehållet.
 

@@ -3,7 +3,7 @@ title: Template
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Fournit le modèle de document. Cela consiste enTemplateItem./templateitem objects qui représentent les éléments du modèle tels que les définitions de champ de texte et de table.
 type: docs
-weight: 600
+weight: 650
 url: /fr/net/groupdocs.parser.templates/template/
 ---
 ## Template class

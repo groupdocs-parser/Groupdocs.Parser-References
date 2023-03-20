@@ -3,7 +3,7 @@ title: ReleasePageStream
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Представляет метод который освобождает поток созданныйCreatePageStream./createpagestream делегировать.
 type: docs
-weight: 550
+weight: 600
 url: /ru/net/groupdocs.parser.options/releasepagestream/
 ---
 ## ReleasePageStream delegate

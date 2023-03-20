@@ -16,8 +16,8 @@ public static bool operator ==(FileType left, FileType right)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| left | FileType | اليسار[`FileType`](../../filetype) هدف. |
-| right | FileType | الصحيح[`FileType`](../../filetype) هدف. |
+| left | FileType | غادر[`FileType`](../../filetype) هدف. |
+| right | FileType | يمين[`FileType`](../../filetype) هدف. |
 
 ### قيمة الإرجاع
 

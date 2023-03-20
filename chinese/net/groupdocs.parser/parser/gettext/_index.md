@@ -16,28 +16,28 @@ public TextReader GetText()
 
 ### 返回值
 
-的一个实例TextReader提取文本的类； `无效的`如果不支持文本提取。
+的实例TextReader用提取的文本上课； `无效的`如果不支持文本提取.
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [从文档中提取文本](https://docs.groupdocs.com/display/parsernet/Extract+text+from+documents)
-* [以准确模式提取文本](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
+* [以精确模式提取文本](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
 
 ### 例子
 
 以下示例显示了如何从文档中提取文本：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using(Parser parser = new Parser(filePath))
 {
     // 将文本提取到阅读器中
     using(TextReader reader = parser.GetText())
     {
         // 打印文档中的文本
-        // 如果不支持文本提取，则 reader 为 null
+        // 如果不支持文本提取，则读取器为空
         Console.WriteLine(reader == null ? "Text extraction isn't supported" : reader.ReadToEnd());
     }
 }
@@ -65,28 +65,28 @@ public TextReader GetText(TextOptions options)
 
 ### 返回值
 
-的一个实例TextReader提取文本的类； `无效的`如果不支持文本提取。
+的实例TextReader用提取的文本上课； `无效的`如果不支持文本提取.
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
-* [以准确模式提取文本](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
-* [以原始模式提取文本](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Raw+mode)
+* [以精确模式提取文本](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
+* [在 Raw 模式下提取文本](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Raw+mode)
 
 ### 例子
 
-以下示例显示如何从文档中提取原始文本：
+以下示例显示了如何从文档中提取原始文本：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using(Parser parser = new Parser(filePath))
 {
     // 将原始文本提取到阅读器中
     using(TextReader reader = parser.GetText(new TextOptions(true)))
     {
         // 打印文档中的文本
-        // 如果不支持文本提取，则 reader 为 null
+        // 如果不支持文本提取，则读取器为空
         Console.WriteLine(reader == null ? "Text extraction isn't supported" : reader.ReadToEnd());
     }
 }
@@ -115,20 +115,20 @@ public TextReader GetText(int pageIndex)
 
 ### 返回值
 
-的一个实例TextReader提取文本的类； `无效的`如果不支持文本页面提取。
+的实例TextReader用提取的文本上课； `无效的`如果不支持文本页面提取。
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
-* [以准确模式提取文本](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
+* [以精确模式提取文本](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
 
 ### 例子
 
 以下示例显示如何从文档页面中提取文本：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using(Parser parser = new Parser(filePath))
 {
     // 检查文档是否支持文本提取
@@ -150,14 +150,14 @@ using(Parser parser = new Parser(filePath))
     // 遍历页面
     for(int p = 0; p<documentInfo.PageCount; p++)
     {
-        //打印页码 
+        // 打印页码 
         Console.WriteLine(string.Format("Page {0}/{1}", p + 1, documentInfo.PageCount));
  
         // 将文本提取到阅读器中
         using(TextReader reader = parser.GetText(p))
         {
             // 打印文档中的文本
-            // 我们忽略空值检查，因为我们之前检查过文本提取功能支持
+            // 我们忽略空值检查，因为我们之前已经检查过文本提取功能支持
             Console.WriteLine(reader.ReadToEnd());
         }
     }
@@ -187,21 +187,21 @@ public TextReader GetText(int pageIndex, TextOptions options)
 
 ### 返回值
 
-的一个实例TextReader提取文本的类； `无效的`如果不支持文本页面提取。
+的实例TextReader用提取的文本上课； `无效的`如果不支持文本页面提取。
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
-* [以准确模式提取文本](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
-* [以原始模式提取文本](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Raw+mode)
+* [以精确模式提取文本](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
+* [在 Raw 模式下提取文本](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Raw+mode)
 
 ### 例子
 
-以下示例显示如何从文档页面中提取原始文本：
+以下示例显示了如何从文档页面中提取原始文本：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using(Parser parser = new Parser(filePath))
 {
     // 检查文档是否支持文本提取
@@ -223,14 +223,14 @@ using(Parser parser = new Parser(filePath))
     // 遍历页面
     for(int p = 0; p<documentInfo.RawPageCount; p++)
     {
-        //打印页码 
+        // 打印页码 
         Console.WriteLine(string.Format("Page {0}/{1}", p + 1, documentInfo.RawPageCount));
  
         // 将文本提取到阅读器中
         using(TextReader reader = parser.GetText(p, new TextOptions(true)))
         {
             // 打印文档中的文本
-            // 我们忽略空值检查，因为我们之前检查过文本提取功能支持
+            // 我们忽略空值检查，因为我们之前已经检查过文本提取功能支持
             Console.WriteLine(reader.ReadToEnd());
         }
     }

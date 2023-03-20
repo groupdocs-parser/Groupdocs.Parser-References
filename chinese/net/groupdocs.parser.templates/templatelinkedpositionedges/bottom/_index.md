@@ -1,14 +1,14 @@
 ---
 title: Bottom
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取表示是否从链接字段中按底部搜索字段的值
+description: 获取一个字段是否从链接字段底部搜索的值
 type: docs
 weight: 20
 url: /zh/net/groupdocs.parser.templates/templatelinkedpositionedges/bottom/
 ---
 ## TemplateLinkedPositionEdges.Bottom property
 
-获取表示是否从链接字段中按底部搜索字段的值。
+获取一个字段是否从链接字段底部搜索的值。
 
 ```csharp
 public bool Bottom { get; }
@@ -16,7 +16,7 @@ public bool Bottom { get; }
 
 ### 适当的价值
 
-`真的`如果从链接字段的底部搜索字段；否则，`错误的`.
+`真的`如果一个字段是从链接字段的底部搜索的；否则，`错误的`.
 
 ### 也可以看看
 

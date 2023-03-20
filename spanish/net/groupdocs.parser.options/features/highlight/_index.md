@@ -16,7 +16,7 @@ public bool Highlight { get; }
 
 ### Valor_devuelto
 
-`verdadero` si se admite la extracción de resaltado; de lo contrario,`falso`.
+`verdadero` si se admite la extracción de resaltado; de lo contrario,`FALSO`.
 
 ### Ver también
 

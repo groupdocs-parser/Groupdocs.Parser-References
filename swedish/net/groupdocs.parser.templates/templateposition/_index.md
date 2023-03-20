@@ -3,7 +3,7 @@ title: TemplatePosition
 second_title: GroupDocs.Parser för .NET API-referens
 description: Ger en abstrakt basklass för mallpositioner.
 type: docs
-weight: 670
+weight: 720
 url: /sv/net/groupdocs.parser.templates/templateposition/
 ---
 ## TemplatePosition class

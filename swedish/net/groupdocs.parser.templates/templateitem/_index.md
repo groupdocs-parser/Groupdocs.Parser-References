@@ -3,7 +3,7 @@ title: TemplateItem
 second_title: GroupDocs.Parser för .NET API-referens
 description: Ger en abstrakt basklass för mallobjekt.
 type: docs
-weight: 640
+weight: 690
 url: /sv/net/groupdocs.parser.templates/templateitem/
 ---
 ## TemplateItem class

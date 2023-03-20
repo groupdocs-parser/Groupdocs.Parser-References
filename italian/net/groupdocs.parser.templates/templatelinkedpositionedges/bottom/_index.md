@@ -16,7 +16,7 @@ public bool Bottom { get; }
 
 ### Valore della proprietà
 
-`VERO` se un campo viene cercato in basso dal campo collegato; altrimenti,`falso`.
+`VERO` se un campo viene cercato in basso dal campo collegato; Altrimenti,`falso`.
 
 ### Guarda anche
 

@@ -16,7 +16,7 @@ public bool SearchByPages { get; }
 
 ### Property_Value
 
-`حقيقي` إذا تم إجراء البحث بواسطة الصفحات ؛ خلاف ذلك،`خاطئة` ويتم إجراء البحث على المستند بأكمله دون تضمين[`PageIndex`](../../../groupdocs.parser.data/searchresult/pageindex) قيمة العقار in[`SearchResult`](../../../groupdocs.parser.data/searchresult) فئة .
+`حقيقي` إذا تم إجراء البحث بواسطة الصفحات ؛ خلاف ذلك،`خطأ شنيع` ويتم إجراء البحث على المستند بأكمله دون تضمين[`PageIndex`](../../../groupdocs.parser.data/searchresult/pageindex) قيمة العقار in[`SearchResult`](../../../groupdocs.parser.data/searchresult) فئة .
 
 ### أنظر أيضا
 

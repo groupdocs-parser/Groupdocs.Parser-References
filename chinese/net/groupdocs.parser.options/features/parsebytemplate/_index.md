@@ -3,12 +3,12 @@ title: ParseByTemplate
 second_title: GroupDocs.Parser for .NET API 参考
 description: 获取是否支持模板解析的值
 type: docs
-weight: 90
+weight: 100
 url: /zh/net/groupdocs.parser.options/features/parsebytemplate/
 ---
 ## Features.ParseByTemplate property
 
-获取是否支持模板解析的值
+获取是否支持模板解析的值。
 
 ```csharp
 public bool ParseByTemplate { get; }

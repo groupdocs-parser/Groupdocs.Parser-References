@@ -3,7 +3,7 @@ title: ParseByTemplate
 second_title: GroupDocs.Parser für .NET-API-Referenz
 description: Ruft den Wert ab der angibt ob das Parsen nach Vorlage unterstützt wird.
 type: docs
-weight: 90
+weight: 100
 url: /de/net/groupdocs.parser.options/features/parsebytemplate/
 ---
 ## Features.ParseByTemplate property
@@ -16,7 +16,7 @@ public bool ParseByTemplate { get; }
 
 ### Rückgabewert
 
-`Stimmt` wenn das Parsen nach Vorlage unterstützt wird; Andernfalls,`FALSCH`.
+`WAHR` wenn das Parsen nach Vorlage unterstützt wird; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

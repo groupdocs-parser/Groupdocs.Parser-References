@@ -16,7 +16,7 @@ public bool AutoScale { get; }
 
 ### Mülk değeri
 
-`doğru` eğer[`SearchArea`](../searcharea) bağlantılı alan boyutuna göre ölçeklenir; aksi halde,`yanlış`
+`doğru` eğer[`SearchArea`](../searcharea) bağlantılı alan boyutuna göre ölçeklenir; aksi takdirde,`YANLIŞ`
 
 ### Ayrıca bakınız
 

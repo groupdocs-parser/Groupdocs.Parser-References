@@ -3,7 +3,7 @@ title: TemplateLinkedPosition
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Bağlantılı alanı kullanan bir şablon alan konumu sağlar.
 type: docs
-weight: 650
+weight: 700
 url: /tr/net/groupdocs.parser.templates/templatelinkedposition/
 ---
 ## TemplateLinkedPosition class

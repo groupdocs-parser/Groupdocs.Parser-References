@@ -3,7 +3,7 @@ title: IDocumentInfo
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Belge bilgilerini temsil eder.
 type: docs
-weight: 410
+weight: 430
 url: /tr/net/groupdocs.parser.options/idocumentinfo/
 ---
 ## IDocumentInfo interface

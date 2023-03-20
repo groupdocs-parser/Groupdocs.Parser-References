@@ -21,7 +21,7 @@ public PageTableAreaCell this[int rowIndex, int columnIndex] { get; }
 
 ### Return_Value
 
-Un exemple de[`PageTableAreaCell`](../../pagetableareacell) classer;`nul` si aucune cellule n'est trouvée.
+Un exemple de[`PageTableAreaCell`](../../pagetableareacell) classe;`nul` si aucune cellule n'est trouvée.
 
 ### Voir également
 

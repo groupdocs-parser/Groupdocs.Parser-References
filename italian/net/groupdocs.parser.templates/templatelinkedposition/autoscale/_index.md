@@ -16,7 +16,7 @@ public bool AutoScale { get; }
 
 ### Valore della proprietà
 
-`VERO` Se[`SearchArea`](../searcharea) viene ridimensionato in base alla dimensione del campo collegato; altrimenti,`falso`
+`VERO` Se[`SearchArea`](../searcharea) viene ridimensionato in base alla dimensione del campo collegato; Altrimenti,`falso`
 
 ### Guarda anche
 

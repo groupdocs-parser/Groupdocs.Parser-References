@@ -3,7 +3,7 @@ title: PreviewOptions.PreviewFormats
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Représente les formats daperçu pris en charge.
 type: docs
-weight: 530
+weight: 580
 url: /fr/net/groupdocs.parser.options/previewoptions.previewformats/
 ---
 ## PreviewOptions.PreviewFormats enumeration

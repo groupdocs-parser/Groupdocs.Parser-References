@@ -1,14 +1,14 @@
 ---
 title: MD
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: I file di testo creati con i dialetti della lingua Markdown vengono salvati con estensione file .MD o .MARKDOWN. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/wordprocessing/md/ .
+description: I file di testo creati con i dialetti della lingua Markdown vengono salvati con estensione file .MD o .MARKDOWN. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/wordprocessing/md/ .
 type: docs
 weight: 350
 url: /it/net/groupdocs.parser.options/filetype/md/
 ---
 ## FileType.MD field
 
-I file di testo creati con i dialetti della lingua Markdown vengono salvati con estensione file .MD o .MARKDOWN. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/word-processing/md/) .
+I file di testo creati con i dialetti della lingua Markdown vengono salvati con estensione file .MD o .MARKDOWN. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/word-processing/md/) .
 
 ```csharp
 public static readonly FileType MD;

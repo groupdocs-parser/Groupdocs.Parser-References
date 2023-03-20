@@ -20,7 +20,7 @@ public static FileInfo GetFileInfo(string filePath)
 
 ### Return_Value
 
-Un exemple de[`FileInfo`](../../../groupdocs.parser.options/fileinfo) classer.
+Un exemple de[`FileInfo`](../../../groupdocs.parser.options/fileinfo) classe.
 
 ### Exemples
 
@@ -57,7 +57,7 @@ public static FileInfo GetFileInfo(string filePath, LoadOptions loadOptions)
 
 ### Return_Value
 
-Un exemple de[`FileInfo`](../../../groupdocs.parser.options/fileinfo) classer.
+Un exemple de[`FileInfo`](../../../groupdocs.parser.options/fileinfo) classe.
 
 ### Exemples
 
@@ -96,7 +96,7 @@ public static FileInfo GetFileInfo(Stream document)
 
 ### Return_Value
 
-Un exemple de[`FileInfo`](../../../groupdocs.parser.options/fileinfo) classer.
+Un exemple de[`FileInfo`](../../../groupdocs.parser.options/fileinfo) classe.
 
 ### Exemples
 
@@ -133,7 +133,7 @@ public static FileInfo GetFileInfo(Stream document, LoadOptions loadOptions)
 
 ### Return_Value
 
-Un exemple de[`FileInfo`](../../../groupdocs.parser.options/fileinfo) classer.
+Un exemple de[`FileInfo`](../../../groupdocs.parser.options/fileinfo) classe.
 
 ### Exemples
 

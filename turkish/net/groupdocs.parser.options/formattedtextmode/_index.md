@@ -3,7 +3,7 @@ title: FormattedTextMode
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Biçimlendirilmiş bir metin modu tanımlar.
 type: docs
-weight: 380
+weight: 400
 url: /tr/net/groupdocs.parser.options/formattedtextmode/
 ---
 ## FormattedTextMode enumeration

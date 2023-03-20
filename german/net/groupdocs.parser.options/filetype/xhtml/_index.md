@@ -1,14 +1,14 @@
 ---
 title: XHTML
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: XHTML ist ein textbasiertes Dateiformat mit Markup im XML das eine Neuformulierung von HTML 4.0 verwendet. Erfahren Sie mehr über dieses Dateiformat hierhttps//wiki.fileformat.com/web/xhtml/ .
+description: XHTML ist ein textbasiertes Dateiformat mit Markup im XML das eine Neuformulierung von HTML 4.0 verwendet. Erfahren Sie mehr über dieses Dateiformat Hierhttps//wiki.fileformat.com/web/xhtml/ .
 type: docs
 weight: 780
 url: /de/net/groupdocs.parser.options/filetype/xhtml/
 ---
 ## FileType.XHTML field
 
-XHTML ist ein textbasiertes Dateiformat mit Markup im XML, das eine Neuformulierung von HTML 4.0 verwendet. Erfahren Sie mehr über dieses Dateiformat [hier](https://wiki.fileformat.com/web/xhtml/) .
+XHTML ist ein textbasiertes Dateiformat mit Markup im XML, das eine Neuformulierung von HTML 4.0 verwendet. Erfahren Sie mehr über dieses Dateiformat [Hier](https://wiki.fileformat.com/web/xhtml/) .
 
 ```csharp
 public static readonly FileType XHTML;

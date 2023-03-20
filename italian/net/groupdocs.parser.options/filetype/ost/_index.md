@@ -1,14 +1,14 @@
 ---
 title: OST
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: OST o Offline Storage Files rappresentano i dati della cassetta postale dellutente in modalità offline sulla macchina locale al momento della registrazione con Exchange Server utilizzando Microsoft Outlook. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/email/ost/
+description: OST o Offline Storage Files rappresentano i dati della cassetta postale dellutente in modalità offline sulla macchina locale al momento della registrazione con Exchange Server utilizzando Microsoft Outlook. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/email/ost/
 type: docs
 weight: 450
 url: /it/net/groupdocs.parser.options/filetype/ost/
 ---
 ## FileType.OST field
 
-OST o Offline Storage Files rappresentano i dati della cassetta postale dell'utente in modalità offline sulla macchina locale al momento della registrazione con Exchange Server utilizzando Microsoft Outlook. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/email/ost/)
+OST o Offline Storage Files rappresentano i dati della cassetta postale dell'utente in modalità offline sulla macchina locale al momento della registrazione con Exchange Server utilizzando Microsoft Outlook. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/email/ost/)
 
 ```csharp
 public static readonly FileType OST;

@@ -20,7 +20,7 @@ public IEnumerable<PageTableArea> GetTables(PageTableAreaOptions options)
 
 ### قيمة الإرجاع
 
-مجموعة من[`PageTableArea`](../../../groupdocs.parser.data/pagetablearea) كائنات ؛ `لا شيء` إذا كان استخراج الجداول غير مدعوم.
+مجموعة من[`PageTableArea`](../../../groupdocs.parser.data/pagetablearea) كائنات ؛ `باطل` إذا كان استخراج الجداول غير مدعوم.
 
 ### أمثلة
 
@@ -94,7 +94,7 @@ public IEnumerable<PageTableArea> GetTables(int pageIndex, PageTableAreaOptions 
 
 ### قيمة الإرجاع
 
-مجموعة من[`PageTableArea`](../../../groupdocs.parser.data/pagetablearea) كائنات ؛ `لا شيء` إذا كان استخراج الجداول غير مدعوم.
+مجموعة من[`PageTableArea`](../../../groupdocs.parser.data/pagetablearea) كائنات ؛ `باطل` إذا كان استخراج الجداول غير مدعوم.
 
 ### أمثلة
 

@@ -3,7 +3,7 @@ title: Text
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Ottiene il valore che indica se lestrazione del testo è supportata.
 type: docs
-weight: 140
+weight: 160
 url: /it/net/groupdocs.parser.options/features/text/
 ---
 ## Features.Text property
@@ -16,7 +16,7 @@ public bool Text { get; }
 
 ### Valore di ritorno
 
-`VERO` se l'estrazione del testo è supportata; altrimenti,`falso`.
+`VERO` se l'estrazione del testo è supportata; Altrimenti,`falso`.
 
 ### Guarda anche
 

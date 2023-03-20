@@ -1,12 +1,54 @@
 ---
 title: PageTextAreaOptions
 second_title: Referencia de API de GroupDocs.Parser para .NET
-description: Inicializa una nueva instancia delPageTextAreaOptionsgroupdocs.parser.options/pagetextareaoptions clase con la expresión regular. Otras opciones están configuradas de forma predeterminada ver comentarios para más detalles.
+description: Inicializa una nueva instancia delPageTextAreaOptionsgroupdocs.parser.options/pagetextareaoptions clase con la opción de uso de OCR.
 type: docs
 weight: 10
 url: /es/net/groupdocs.parser.options/pagetextareaoptions/pagetextareaoptions/
 ---
-## PageTextAreaOptions(string) {#constructor}
+## PageTextAreaOptions(bool) {#constructor}
+
+Inicializa una nueva instancia del[`PageTextAreaOptions`](../../pagetextareaoptions) clase con la opción de uso de OCR.
+
+```csharp
+public PageTextAreaOptions(bool useOcr)
+```
+
+| Parámetro | Escribe | Descripción |
+| --- | --- | --- |
+| useOcr | Boolean | El valor que indica si se utiliza la función OCR para extraer áreas de texto. |
+
+### Ver también
+
+* class [PageTextAreaOptions](../../pagetextareaoptions)
+* espacio de nombres [GroupDocs.Parser.Options](../../pagetextareaoptions)
+* asamblea [GroupDocs.Parser](../../../)
+
+---
+
+## PageTextAreaOptions(bool, OcrOptions) {#constructor_1}
+
+Inicializa una nueva instancia del[`PageTextAreaOptions`](../../pagetextareaoptions) clase con la capacidad de establecer opciones de OCR.
+
+```csharp
+public PageTextAreaOptions(bool useOcr, OcrOptions ocrOptions)
+```
+
+| Parámetro | Escribe | Descripción |
+| --- | --- | --- |
+| useOcr | Boolean | El valor que indica si se utiliza la función OCR para extraer áreas de texto. |
+| ocrOptions | OcrOptions | Las opciones adicionales para la funcionalidad OCR. |
+
+### Ver también
+
+* class [OcrOptions](../../ocroptions)
+* class [PageTextAreaOptions](../../pagetextareaoptions)
+* espacio de nombres [GroupDocs.Parser.Options](../../pagetextareaoptions)
+* asamblea [GroupDocs.Parser](../../../)
+
+---
+
+## PageTextAreaOptions(string) {#constructor_2}
 
 Inicializa una nueva instancia del[`PageTextAreaOptions`](../../pagetextareaoptions) clase con la expresión regular. Otras opciones están configuradas de forma predeterminada (ver comentarios para más detalles).
 
@@ -24,15 +66,15 @@ Las siguientes propiedades tienen valores predeterminados:
 
 **[`MatchCase`](../matchcase)**
 
-`falso`
+`FALSO`
 
 **[`UniteSegments`](../unitesegments)**
 
-`falso`
+`FALSO`
 
 **[`IgnoreFormatting`](../ignoreformatting)**
 
-`falso`
+`FALSO`
 
 **[`Rectangle`](../../pageareaoptions/rectangle)**
 
@@ -46,7 +88,7 @@ Las siguientes propiedades tienen valores predeterminados:
 
 ---
 
-## PageTextAreaOptions(string, Rectangle) {#constructor_2}
+## PageTextAreaOptions(string, Rectangle) {#constructor_4}
 
 Inicializa una nueva instancia del[`PageTextAreaOptions`](../../pagetextareaoptions) class con la expresión regular y el área rectangular. Otras opciones están configuradas de forma predeterminada (ver comentarios para más detalles).
 
@@ -65,15 +107,15 @@ Las siguientes propiedades tienen valores predeterminados:
 
 **[`MatchCase`](../matchcase)**
 
-`falso`
+`FALSO`
 
 **[`UniteSegments`](../unitesegments)**
 
-`falso`
+`FALSO`
 
 **[`IgnoreFormatting`](../ignoreformatting)**
 
-`falso`
+`FALSO`
 
 ### Ver también
 
@@ -84,7 +126,7 @@ Las siguientes propiedades tienen valores predeterminados:
 
 ---
 
-## PageTextAreaOptions(string, bool, bool, bool, Rectangle) {#constructor_1}
+## PageTextAreaOptions(string, bool, bool, bool, Rectangle) {#constructor_3}
 
 Inicializa una nueva instancia del[`PageTextAreaOptions`](../../pagetextareaoptions) clase.
 

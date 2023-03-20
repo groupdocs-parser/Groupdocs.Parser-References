@@ -1,14 +1,14 @@
 ---
 title: License
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: Stellt Methoden zur Lizenzierung der Komponente bereit. Erfahren Sie mehr über die Lizenzierunghierhttps//purchase.groupdocs.com/faqs/licensing .
+description: Stellt Methoden zur Lizenzierung der Komponente bereit. Erfahren Sie mehr über die LizenzierungHierhttps//purchase.groupdocs.com/faqs/licensing .
 type: docs
 weight: 250
 url: /de/net/groupdocs.parser/license/
 ---
 ## License class
 
-Stellt Methoden zur Lizenzierung der Komponente bereit. Erfahren Sie mehr über die Lizenzierung[hier](https://purchase.groupdocs.com/faqs/licensing) .
+Stellt Methoden zur Lizenzierung der Komponente bereit. Erfahren Sie mehr über die Lizenzierung[Hier](https://purchase.groupdocs.com/faqs/licensing) .
 
 ```csharp
 public sealed class License

@@ -1,14 +1,14 @@
 ---
 title: DocumentData
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: Belgenin verilerini temsil eder. Bu oluşmaktadırFieldData./fielddata Document. den alan verilerini içeren object
+description: Belgenin verilerini temsil eder. Bu oluşmaktadırFieldData./fielddataDocument. den alan verilerini içeren object
 type: docs
 weight: 20
 url: /tr/net/groupdocs.parser.data/documentdata/
 ---
 ## DocumentData class
 
-Belgenin verilerini temsil eder. Bu oluşmaktadır[`FieldData`](../fielddata) Document. 'den alan verilerini içeren object
+Belgenin verilerini temsil eder. Bu oluşmaktadır[`FieldData`](../fielddata)Document. 'den alan verilerini içeren object
 
 ```csharp
 public class DocumentData : IEnumerable<FieldData>
@@ -36,7 +36,7 @@ public class DocumentData : IEnumerable<FieldData>
 
 ### Notlar
 
-Bir örneği[`DocumentData`](../documentdata) sınıf, dönüş değeri olarak kullanılır[`ParseByTemplate`](../../groupdocs.parser/parser/parsebytemplate) ve[`ParseForm`](../../groupdocs.parser/parser/parseform) method. Oradaki kullanım örneklerine bakın.
+Bir örneği[`DocumentData`](../documentdata) sınıf, dönüş değeri olarak kullanılır[`ParseByTemplate`](../../groupdocs.parser/parser/parsebytemplate) Ve[`ParseForm`](../../groupdocs.parser/parser/parseform) method. Oradaki kullanım örneklerine bakın.
 
 ### Ayrıca bakınız
 

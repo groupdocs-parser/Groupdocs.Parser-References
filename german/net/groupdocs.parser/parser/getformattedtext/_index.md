@@ -24,7 +24,7 @@ Eine Instanz vonTextReader Klasse mit dem extrahierten Text; `Null` wenn die Ext
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Formatierten Text aus Dokument extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+formatted+text+from+document)
 * Extrahieren Sie einen Dokumenttext als[HTML](https://docs.groupdocs.com/display/parsernet/HTML)
@@ -77,7 +77,7 @@ Eine Instanz vonTextReaderKlasse mit dem extrahierten Text; `Null` wenn die Extr
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Extrahieren Sie formatierten Text von der Dokumentseite](https://docs.groupdocs.com/display/parsernet/Extract+formatted+text+from+document+page)
 * Extrahieren Sie einen Dokumenttext als[HTML](https://docs.groupdocs.com/display/parsernet/HTML)
@@ -117,7 +117,7 @@ using (Parser parser = new Parser(filePath))
         using (TextReader reader = parser.GetFormattedText(p, new FormattedTextOptions(FormattedTextMode.Markdown)))
         {
             // Einen formatierten Text aus dem Dokument drucken
-            // Wir ignorieren die Nullprüfung, da wir zuvor die Unterstützung für formatierte Textextraktionsfunktionen überprüft haben
+            // Wir ignorieren die Nullprüfung, da wir zuvor die Unterstützung für die Funktion zum Extrahieren von formatiertem Text überprüft haben
             Console.WriteLine(reader.ReadToEnd());
         }
     }

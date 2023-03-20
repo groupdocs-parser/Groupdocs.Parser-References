@@ -3,7 +3,7 @@ title: PreviewOptions.PreviewFormats
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Desteklenen önizleme biçimlerini temsil eder.
 type: docs
-weight: 530
+weight: 580
 url: /tr/net/groupdocs.parser.options/previewoptions.previewformats/
 ---
 ## PreviewOptions.PreviewFormats enumeration

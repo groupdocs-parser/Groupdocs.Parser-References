@@ -1,14 +1,14 @@
 ---
 title: ReleasePageStream
 second_title: GroupDocs.Parser for .NET API 参考
-description: 表示释放由CreatePageStream./createpagestream代表
+description: 表示释放由创建的流的方法CreatePageStream./createpagestream代表
 type: docs
-weight: 550
+weight: 600
 url: /zh/net/groupdocs.parser.options/releasepagestream/
 ---
 ## ReleasePageStream delegate
 
-表示释放由[`CreatePageStream`](../createpagestream)代表。
+表示释放由创建的流的方法[`CreatePageStream`](../createpagestream)代表。
 
 ```csharp
 public delegate void ReleasePageStream(int pageNumber, Stream pageStream);

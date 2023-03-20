@@ -3,7 +3,7 @@ title: Features
 second_title: GroupDocs.Parser för .NET API-referens
 description: Representerar listan över funktioner som stöds. Tillåter att få information om vilka funktioner som stöds eller inte för dokumentet.
 type: docs
-weight: 330
+weight: 350
 url: /sv/net/groupdocs.parser.options/features/
 ---
 ## Features class
@@ -26,8 +26,10 @@ public sealed class Features
 | [Hyperlinks](../../groupdocs.parser.options/features/hyperlinks) { get; } | Hämtar värdet som indikerar om extrahering av hyperlänkar stöds. |
 | [Images](../../groupdocs.parser.options/features/images) { get; } | Hämtar värdet som indikerar om bildextraktion stöds. |
 | [Metadata](../../groupdocs.parser.options/features/metadata) { get; } | Hämtar värdet som indikerar om extrahering av metadata stöds. |
+| [Ocr](../../groupdocs.parser.options/features/ocr) { get; } | Hämtar värdet som indikerar om OCR-funktionalitet stöds. |
 | [ParseByTemplate](../../groupdocs.parser.options/features/parsebytemplate) { get; } | Hämtar värdet som indikerar om analys med mall stöds. |
 | [ParseForm](../../groupdocs.parser.options/features/parseform) { get; } | Hämtar värdet som indikerar om formulärtolkning stöds. |
+| [Preview](../../groupdocs.parser.options/features/preview) { get; } | Hämtar värdet som indikerar om generering av förhandsgranskning stöds. |
 | [Search](../../groupdocs.parser.options/features/search) { get; } | Får värdet som anger om textsökning stöds. |
 | [Structure](../../groupdocs.parser.options/features/structure) { get; } | Hämtar värdet som anger om textstrukturextraktion stöds. |
 | [Tables](../../groupdocs.parser.options/features/tables) { get; } | Hämtar värdet som anger om tabellextraktion stöds. |
@@ -44,7 +46,7 @@ public sealed class Features
 
 ### Anmärkningar
 
-En instans av denna klass används som[`Features`](../../groupdocs.parser/parser/features)property. Se användningsexemplen där.
+En instans av denna klass används som[`Features`](../../groupdocs.parser/parser/features) property. Se användningsexemplen där.
 
 **Läs mer:**
 

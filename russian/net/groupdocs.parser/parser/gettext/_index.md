@@ -20,7 +20,7 @@ public TextReader GetText()
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечение текста из документов](https://docs.groupdocs.com/display/parsernet/Extract+text+from+documents)
 * [Извлечь текст в точном режиме](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
@@ -69,7 +69,7 @@ public TextReader GetText(TextOptions options)
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечь текст в точном режиме](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
 * [Извлечение текста в режиме Raw](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Raw+mode)
@@ -119,7 +119,7 @@ public TextReader GetText(int pageIndex)
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечь текст в точном режиме](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
 
@@ -191,7 +191,7 @@ public TextReader GetText(int pageIndex, TextOptions options)
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечь текст в точном режиме](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
 * [Извлечение текста в режиме Raw](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Raw+mode)

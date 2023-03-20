@@ -1,14 +1,14 @@
 ---
 title: SetMeteredKey
 second_title: GroupDocs.Parser for .NET API 参考
-description: 使用计量键激活产品
+description: 使用计量密钥激活产品
 type: docs
 weight: 20
 url: /zh/net/groupdocs.parser/metered/setmeteredkey/
 ---
 ## Metered.SetMeteredKey method
 
-使用计量键激活产品。
+使用计量密钥激活产品。
 
 ```csharp
 public void SetMeteredKey(string publicKey, string privateKey)
@@ -16,8 +16,8 @@ public void SetMeteredKey(string publicKey, string privateKey)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| publicKey | String | 一个公钥。 |
-| privateKey | String | 一个私钥 |
+| publicKey | String | 公钥。 |
+| privateKey | String | 私钥 |
 
 ### 例子
 

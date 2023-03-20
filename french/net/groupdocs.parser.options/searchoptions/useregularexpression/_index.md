@@ -16,7 +16,7 @@ public bool UseRegularExpression { get; }
 
 ### Valeur de la propriété
 
-`vrai` si une expression régulière est utilisée ; Par ailleurs,`faux`.
+`vrai` si une expression régulière est utilisée ; sinon,`FAUX`.
 
 ### Voir également
 

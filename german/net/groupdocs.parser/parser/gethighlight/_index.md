@@ -17,7 +17,7 @@ public HighlightItem GetHighlight(int position, bool isDirect, HighlightOptions 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | position | Int32 | Die Startposition der Markierung. |
-| isDirect | Boolean | Der Wert, der angibt, ob die Highlight-Extraktion direkt ist. `Stimmt` wenn das Highlight von rechts extrahiert wird*position* ; Andernfalls,`FALSCH` . |
+| isDirect | Boolean | Der Wert, der angibt, ob die Highlight-Extraktion direkt ist. `WAHR` wenn das Highlight von rechts extrahiert wird*position* ; ansonsten,`FALSCH` . |
 | options | HighlightOptions | Die Highlight-Extraktionsoptionen. |
 
 ### Rückgabewert
@@ -26,7 +26,7 @@ Eine Instanz von[`HighlightItem`](../../../groupdocs.parser.data/highlightitem) 
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Highlights extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+highlights)
 

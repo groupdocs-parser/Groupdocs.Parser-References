@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Fournit les options utilisées pour ouvrir un fichier.
 type: docs
-weight: 450
+weight: 470
 url: /fr/net/groupdocs.parser.options/loadoptions/
 ---
 ## LoadOptions class
@@ -19,8 +19,8 @@ public sealed class LoadOptions
 | Nom | La description |
 | --- | --- |
 | [LoadOptions](loadoptions#constructor)() | Initialise une nouvelle instance du[`LoadOptions`](../loadoptions) classe avec vide[`Password`](./password) ,[`FileFormat`](./fileformat) égal àUnknown et encodages par défaut. |
-| [LoadOptions](loadoptions#constructor_1)(FileFormat) | Initialise une nouvelle instance du[`LoadOptions`](../loadoptions) class avec vide[`Password`](./password) et encodages par défaut. |
-| [LoadOptions](loadoptions#constructor_4)(string) | Initialise une nouvelle instance du[`LoadOptions`](../loadoptions)classe avec[`FileFormat`](./fileformat) égal àUnknown et encodages par défaut. |
+| [LoadOptions](loadoptions#constructor_1)(FileFormat) | Initialise une nouvelle instance du[`LoadOptions`](../loadoptions) class avec vide[`Password`](./password)et encodages par défaut. |
+| [LoadOptions](loadoptions#constructor_4)(string) | Initialise une nouvelle instance du[`LoadOptions`](../loadoptions) classe avec[`FileFormat`](./fileformat) égal àUnknown et encodages par défaut. |
 | [LoadOptions](loadoptions#constructor_2)(FileFormat, string) | Initialise une nouvelle instance du[`LoadOptions`](../loadoptions) classe avec le mot de passe et les encodages par défaut. |
 | [LoadOptions](loadoptions#constructor_3)(FileFormat, string, Encoding, Encoding) | Initialise une nouvelle instance du[`LoadOptions`](../loadoptions) classe avec des encodages personnalisés. |
 

@@ -3,7 +3,7 @@ title: TemplateTableLayout
 second_title: GroupDocs.Parser för .NET API-referens
 description: Tillhandahåller malltabelllayouten som används avTemplateTable./templatetable klass för att definiera tabellposition.
 type: docs
-weight: 700
+weight: 750
 url: /sv/net/groupdocs.parser.templates/templatetablelayout/
 ---
 ## TemplateTableLayout class

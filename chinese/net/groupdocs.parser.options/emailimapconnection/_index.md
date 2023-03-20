@@ -1,14 +1,14 @@
 ---
 title: EmailImapConnection
 second_title: GroupDocs.Parser for .NET API 参考
-description: 表示 IMAP 协议的电子邮件连接信息
+description: 表示IMAP协议的邮件连接信息
 type: docs
 weight: 310
 url: /zh/net/groupdocs.parser.options/emailimapconnection/
 ---
 ## EmailImapConnection class
 
-表示 IMAP 协议的电子邮件连接信息。
+表示IMAP协议的邮件连接信息。
 
 ```csharp
 public sealed class EmailImapConnection : EmailConnection
@@ -18,7 +18,7 @@ public sealed class EmailImapConnection : EmailConnection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmailImapConnection](emailimapconnection)(string, int, string, string) | 初始化[`EmailImapConnection`](../emailimapconnection)类. |
+| [EmailImapConnection](emailimapconnection)(string, int, string, string) | 初始化一个新的实例[`EmailImapConnection`](../emailimapconnection)类. |
 
 ## 特性
 

@@ -16,7 +16,7 @@ public bool Highlight { get; }
 
 ### Geri dönüş değeri
 
-`doğru` vurgu çıkarma destekleniyorsa; aksi halde,`yanlış`.
+`doğru` vurgu çıkarma destekleniyorsa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

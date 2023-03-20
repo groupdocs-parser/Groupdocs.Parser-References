@@ -8,7 +8,7 @@ url: /zh/net/groupdocs.parser.templates/templatetable/parameters/
 ---
 ## TemplateTable.Parameters property
 
-获取自动模式检测表的参数
+获取自动模式检测表的参数。
 
 ```csharp
 public TemplateTableParameters Parameters { get; }
@@ -16,7 +16,7 @@ public TemplateTableParameters Parameters { get; }
 
 ### 适当的价值
 
-的一个实例[`TemplateTableParameters`](../../templatetableparameters)表示自动模式下检测表的参数的类； `无效的`如果没有设置。
+的实例[`TemplateTableParameters`](../../templatetableparameters)表示在自动模式下检测表的参数的类； `无效的`如果没有设置.
 
 ### 也可以看看
 

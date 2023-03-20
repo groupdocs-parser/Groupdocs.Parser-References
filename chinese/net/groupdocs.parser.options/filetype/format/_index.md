@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: GroupDocs.Parser for .NET API 参考
-description: 文件的格式例如WordProcessing
+description: 文件格式例如WordProcessing.
 type: docs
 weight: 930
 url: /zh/net/groupdocs.parser.options/filetype/format/
 ---
 ## FileType.Format property
 
-文件的格式，例如“WordProcessing”。
+文件格式，例如“WordProcessing”.
 
 ```csharp
 public FileFormat Format { get; }

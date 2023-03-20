@@ -1,14 +1,14 @@
 ---
 title: EMF
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: Gelişmiş meta dosyası biçimi EMF grafik görüntüleri cihazdan bağımsız olarak depolar. Bu dosya biçimi hakkında daha fazla bilgi edinin buradahttps//wiki.fileformat.com/image/emf/ .
+description: Gelişmiş meta dosyası biçimi EMF grafik görüntüleri cihazdan bağımsız olarak depolar. Bu dosya biçimi hakkında daha fazla bilgi edinin Buradahttps//wiki.fileformat.com/image/emf/ .
 type: docs
 weight: 150
 url: /tr/net/groupdocs.parser.options/filetype/emf/
 ---
 ## FileType.EMF field
 
-Gelişmiş meta dosyası biçimi (EMF), grafik görüntüleri cihazdan bağımsız olarak depolar. Bu dosya biçimi hakkında daha fazla bilgi edinin [burada](https://wiki.fileformat.com/image/emf/) .
+Gelişmiş meta dosyası biçimi (EMF), grafik görüntüleri cihazdan bağımsız olarak depolar. Bu dosya biçimi hakkında daha fazla bilgi edinin [Burada](https://wiki.fileformat.com/image/emf/) .
 
 ```csharp
 public static readonly FileType EMF;

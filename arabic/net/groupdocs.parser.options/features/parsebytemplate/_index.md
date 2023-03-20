@@ -3,7 +3,7 @@ title: ParseByTemplate
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يحصل على القيمة التي تشير إلى ما إذا كان التحليل حسب القالب مدعومًا.
 type: docs
-weight: 90
+weight: 100
 url: /ar/net/groupdocs.parser.options/features/parsebytemplate/
 ---
 ## Features.ParseByTemplate property
@@ -16,7 +16,7 @@ public bool ParseByTemplate { get; }
 
 ### قيمة الإرجاع
 
-`حقيقي` إذا كان التحليل حسب النموذج مدعومًا ؛ خلاف ذلك،`خاطئة`.
+`حقيقي` إذا كان التحليل حسب النموذج مدعومًا ؛ خلاف ذلك،`خطأ شنيع`.
 
 ### أنظر أيضا
 

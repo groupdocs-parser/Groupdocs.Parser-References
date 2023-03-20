@@ -26,7 +26,7 @@ Cuando el tipo de archivo es compatible, lo devuelve; de lo contrario, devuelve 
 
 | excepción | condición |
 | --- | --- |
-| ArgumentException | arrojado cuando*extension*es una cadena nula o vacía. |
+| ArgumentException | arrojado cuando*extension* es una cadena nula o vacía. |
 
 ### Ver también
 

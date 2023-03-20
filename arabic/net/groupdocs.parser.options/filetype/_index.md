@@ -3,7 +3,7 @@ title: FileType
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يمثل نوع الملف. يوفر طرقًا للحصول على قائمة بجميع أنواع الملفات التي يدعمهاGroupDocs.Parser .
 type: docs
-weight: 360
+weight: 380
 url: /ar/net/groupdocs.parser.options/filetype/
 ---
 ## FileType class
@@ -105,9 +105,9 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [PST](../../groupdocs.parser.options/filetype/pst) | تمثل الملفات ذات الامتداد .PST ملفات التخزين الشخصية في Outlook (تسمى أيضًا جدول التخزين الشخصي) التي تخزن مجموعة متنوعة من معلومات المستخدم. تعرف على المزيد حول هذا الملف format [هنا](https://wiki.fileformat.com/email/pst/) |
 | static readonly [RAR](../../groupdocs.parser.options/filetype/rar) | تمثل الملفات ذات الامتداد .rar ملفات الأرشيف التي تم إنشاؤها لتخزين المعلومات في شكل مضغوط أو عادي . تعرف على المزيد حول تنسيق الملف هذا [هنا](https://wiki.fileformat.com/compression/rar/) . |
 | static readonly [RTF](../../groupdocs.parser.options/filetype/rtf) | تم تقديمه وتوثيقه بواسطة Microsoft ، يمثل Rich Text Format (RTF) طريقة لتشفير النص والرسومات المنسقة لاستخدامها في التطبيقات. يسهل التنسيق تبادل document عبر الأنظمة الأساسية مع منتجات Microsoft الأخرى ، وبالتالي يخدم الغرض من قابلية التشغيل البيني. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/word-processing/rtf/) . |
-| static readonly [SEVENZ](../../groupdocs.parser.options/filetype/sevenz) | 7z هو تنسيق أرشفة لضغط الملفات والمجلدات بنسبة ضغط عالية. تعرف على المزيد حول تنسيق الملف هذا [هنا](https://wiki.fileformat.com/compression/7z/) . |
+| static readonly [SEVENZ](../../groupdocs.parser.options/filetype/sevenz) | 7z هو تنسيق أرشفة لضغط الملفات والمجلدات بنسبة ضغط عالية . تعرف على المزيد حول تنسيق الملف هذا [هنا](https://wiki.fileformat.com/compression/7z/) . |
 | static readonly [SVG](../../groupdocs.parser.options/filetype/svg) | ملف SVG هو ملف Scalar Vector Graphics يستخدم تنسيق نص يستند إلى XML لوصف مظهر الصورة. تعرف على المزيد حول هذا الملف format [هنا](https://wiki.fileformat.com/page-description-language/svg/) . |
-| static readonly [TAR](../../groupdocs.parser.options/filetype/tar) | الملفات ذات الامتداد .tar هي أرشيفات تم إنشاؤها باستخدام أداة مساعدة تستند إلى Unix لتجميع ملف واحد أو أكثر . تعرف على المزيد حول تنسيق الملف هذا [هنا](https://wiki.fileformat.com/compression/tar/) . |
+| static readonly [TAR](../../groupdocs.parser.options/filetype/tar) | الملفات ذات الامتداد .tar هي أرشيفات تم إنشاؤها باستخدام الأداة المساعدة المستندة إلى Unix لتجميع ملف واحد أو أكثر . تعرف على المزيد حول تنسيق الملف هذا [هنا](https://wiki.fileformat.com/compression/tar/) . |
 | static readonly [TEXT](../../groupdocs.parser.options/filetype/text) | يمثل ملف بامتداد .TEXT مستندًا نصيًا يحتوي على نص عادي في شكل أسطر . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/word-processing/txt/) . |
 | static readonly [TIF](../../groupdocs.parser.options/filetype/tif) | TIF ، تنسيق ملف الصورة ذي العلامات ، يمثل الصور النقطية المخصصة للاستخدام على مجموعة متنوعة من الأجهزة التي تتوافق مع معيار تنسيق الملف هذا. تعرف على المزيد حول هذا الملف format [هنا](https://wiki.fileformat.com/image/tiff/) . |
 | static readonly [TIFF](../../groupdocs.parser.options/filetype/tiff) | TIFF ، تنسيق ملف الصورة ذي العلامات ، يمثل الصور النقطية المخصصة للاستخدام على مجموعة متنوعة من الأجهزة التي تتوافق مع معيار تنسيق الملف هذا. تعرف على المزيد حول هذا الملف format [هنا](https://wiki.fileformat.com/image/tiff/) . |
@@ -118,7 +118,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [WMF](../../groupdocs.parser.options/filetype/wmf) | الملفات ذات الامتداد WMF تمثل Microsoft Windows Metafile (WMF) لتخزين بيانات المتجهات وكذلك بيانات الصور ذات التنسيق النقطي. تعرف على المزيد حول تنسيق الملف هذا [هنا](https://wiki.fileformat.com/image/wmf/) . |
 | static readonly [XHTML](../../groupdocs.parser.options/filetype/xhtml) | XHTML هو تنسيق ملف نصي مع ترميز في XML ، باستخدام إعادة صياغة HTML 4.0. تعرف على المزيد حول تنسيق الملف هذا [هنا](https://wiki.fileformat.com/web/xhtml/) . |
 | static readonly [XLA](../../groupdocs.parser.options/filetype/xla) | برنامج Excel 97-2003 الإضافي ، وهو برنامج تكميلي مصمم لتشغيل تعليمات برمجية إضافية. يدعم استخدام مشاريع VBA . |
-| static readonly [XLAM](../../groupdocs.parser.options/filetype/xlam) | تنسيق الوظيفة الإضافية المستند إلى XML والممكّن بماكرو ماكرو لبرنامجي Excel 2010 و Excel 2007. الوظيفة الإضافية هي برنامج تكميلي مصمم لتشغيل تعليمات برمجية إضافية. يدعم استخدام مشاريع VBA وأوراق ماكرو Excel 4.0 (.xlm). |
+| static readonly [XLAM](../../groupdocs.parser.options/filetype/xlam) | تنسيق الوظيفة الإضافية المستند إلى XML والممكّن بماكرو ماكرو لبرنامج Excel 2010 و Excel 2007. الوظيفة الإضافية هي برنامج تكميلي مصمم لتشغيل تعليمات برمجية إضافية. يدعم استخدام مشاريع VBA وأوراق ماكرو Excel 4.0 (.xlm). |
 | static readonly [XLS](../../groupdocs.parser.options/filetype/xls) | تمثل الملفات ذات الامتداد XLS تنسيق ملف Excel الثنائي. يمكن إنشاء مثل هذه الملفات بواسطة Microsoft Excel بالإضافة إلى برامج جداول البيانات المماثلة الأخرى مثل OpenOffice Calc أو Apple Numbers. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/specification/spreadsheet/xls/) . |
 | static readonly [XLSB](../../groupdocs.parser.options/filetype/xlsb) | يحدد تنسيق ملف XLSB تنسيق ملف Excel الثنائي ، وهو عبارة عن مجموعة من السجلات والبنى التي تحدد محتوى مصنف Excel. تعرف على المزيد حول هذا الملف format [هنا](https://wiki.fileformat.com/specification/spreadsheet/xlsb/) . |
 | static readonly [XLSM](../../groupdocs.parser.options/filetype/xlsm) | الملفات ذات الامتداد XLSM هي نوع من ملفات Spreasheet التي تدعم وحدات الماكرو. تعرف على المزيد حول هذا الملف format [هنا](https://wiki.fileformat.com/specification/spreadsheet/xlsm/) . |

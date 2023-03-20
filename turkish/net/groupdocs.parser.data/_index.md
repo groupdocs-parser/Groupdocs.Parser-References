@@ -13,16 +13,16 @@ Ad alanı, ayrıştırma sonuçlarını temsil eden sınıflar sağlar.
 | Sınıf | Tanım |
 | --- | --- |
 | [ContainerItem](./containeritem) | Zip arşiv varlığı, e-posta eki, PDF Portföy öğesi vb. gibi bir kapsayıcı öğeyi temsil eder. |
-| [DocumentData](./documentdata) | Belgenin verilerini temsil eder. Bu oluşmaktadır[`FieldData`](../groupdocs.parser.data/fielddata) Document. 'den alan verilerini içeren object |
+| [DocumentData](./documentdata) | Belgenin verilerini temsil eder. Bu oluşmaktadır[`FieldData`](../groupdocs.parser.data/fielddata)Document. 'den alan verilerini içeren object |
 | [FieldData](./fielddata) | Ad, sayfa dizini, alan değeri vb. alan verilerini temsil eder. Alana bağlı olarak değer bir metin, resim, tablo vb. olabilir. |
 | [HighlightItem](./highlightitem) | Genellikle arama işlevinde bulunan metnin bağlamını açıklamak için kullanılan metnin bir bölümü olan vurgulamayı temsil eder. |
 | [MetadataItem](./metadataitem) | Kapsayıcı öğelerde ve meta veri çıkarma işlevinde kullanılan bir meta veri öğesini temsil eder. |
-| [Page](./page) | Sayfa dizini ve sayfa boyutu gibi belge sayfası bilgilerini temsil eder. mirasçılarını içeren sayfayı temsil etmek için kullanılır.[`PageArea`](../groupdocs.parser.data/pagearea) class şablon işlevine göre ayrıştırmada. |
+| [Page](./page) | Sayfa dizini ve sayfa boyutu gibi belge sayfası bilgilerini temsil eder. mirasçılarını içeren sayfayı temsil etmek için kullanılır.[`PageArea`](../groupdocs.parser.data/pagearea)class şablon işlevine göre ayrıştırmada. |
 | [PageArea](./pagearea) | Şablona göre ayrıştırma işlevinde belge sayfasındaki blokları temsil etmek için kullanılan alanlar sayfası için soyut bir temel sınıfı temsil eder. |
 | [PageBarcodeArea](./pagebarcodearea) | Şablon işlevine göre ayrıştırmada bir barkod değerini temsil etmek için kullanılan bir sayfa barkod alanını temsil eder. |
 | [PageGroupArea](./pagegrouparea) | Şablona göre ayrıştırma işlevinde belge sayfasının farklı blok türlerini gruplandırmak için kullanılan bir sayfa alanları grubunu temsil eder. |
 | [PageHyperlinkArea](./pagehyperlinkarea) | Sayfadaki bir köprüyü temsil etmek için kullanılan bir sayfa alanını temsil eder. |
-| [PageImageArea](./pageimagearea) | Şablon işlevine göre ayrıştırmada sayfadaki bir görüntüyü temsil etmek için kullanılan bir sayfa görüntü alanını temsil eder veya görüntüler e-postalardan veya Zip arşivlerinden çıkarılmışsa bir görüntü eki. |
+| [PageImageArea](./pageimagearea) | Şablon işlevine göre ayrıştırmada sayfadaki bir görüntüyü temsil etmek için kullanılan bir sayfa görüntü alanını veya görüntüler e-postalardan veya Zip arşivlerinden çıkarılmışsa bir görüntü ekini temsil eder. |
 | [PageTableArea](./pagetablearea) | Şablon işlevine göre ayrıştırmada bir tabloyu temsil etmek için kullanılan bir tablo sayfası alanını temsil eder. |
 | [PageTableAreaCell](./pagetableareacell) | Kullanılan bir tablo hücresini temsil eder.[`PageTableArea`](../groupdocs.parser.data/pagetablearea) sınıf. |
 | [PageTextArea](./pagetextarea) | Şablona göre ayrıştırma veya form ayrıştırma işlevinde bir metin değerini temsil etmek için kullanılan bir sayfa metin alanını temsil eder. |

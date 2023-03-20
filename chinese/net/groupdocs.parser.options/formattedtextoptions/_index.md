@@ -3,7 +3,7 @@ title: FormattedTextOptions
 second_title: GroupDocs.Parser for .NET API 参考
 description: 提供用于格式化文本提取的选项
 type: docs
-weight: 390
+weight: 410
 url: /zh/net/groupdocs.parser.options/formattedtextoptions/
 ---
 ## FormattedTextOptions class
@@ -18,7 +18,7 @@ public sealed class FormattedTextOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FormattedTextOptions](formattedtextoptions)(FormattedTextMode) | 初始化[`FormattedTextOptions`](../formattedtextoptions)类. |
+| [FormattedTextOptions](formattedtextoptions)(FormattedTextMode) | 初始化一个新的实例[`FormattedTextOptions`](../formattedtextoptions)类. |
 
 ## 特性
 
@@ -28,14 +28,14 @@ public sealed class FormattedTextOptions
 
 ### 评论
 
-一个实例[`FormattedTextOptions`](../formattedtextoptions)类用作 parameter in[`GetFormattedText`](../../groupdocs.parser/parser/getformattedtext)和[`GetFormattedText`](../../groupdocs.parser/parser/getformattedtext)methods. 请参阅那里的用法示例。
+的实例[`FormattedTextOptions`](../formattedtextoptions)类用作 parameter 中[`GetFormattedText`](../../groupdocs.parser/parser/getformattedtext)和[`GetFormattedText`](../../groupdocs.parser/parser/getformattedtext)methods. 请参阅此处的用法示例。
 
-**学到更多：**
+**了解更多：**
 
 * [从文档中提取格式化文本](https://docs.groupdocs.com/display/parsernet/Extract+formatted+text+from+document)
-* 提取文档文本为[HTML](https://docs.groupdocs.com/display/parsernet/HTML)
-* 提取文档文本为[降价](https://docs.groupdocs.com/display/parsernet/Markdown)
-* 提取文档文本为[纯文本](https://docs.groupdocs.com/display/parsernet/Plain+text)
+* 将文档文本提取为[HTML](https://docs.groupdocs.com/display/parsernet/HTML)
+* 将文档文本提取为[降价](https://docs.groupdocs.com/display/parsernet/Markdown)
+* 将文档文本提取为[纯文本](https://docs.groupdocs.com/display/parsernet/Plain+text)
 
 ### 也可以看看
 

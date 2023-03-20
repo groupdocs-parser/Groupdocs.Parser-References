@@ -20,7 +20,7 @@ public IEnumerable<MetadataItem> GetMetadata()
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [从文档中提取元数据](https://docs.groupdocs.com/display/parsernet/Extract+metadata+from+documents)
 * [从 Microsoft Office Word 文档中提取元数据](https://docs.groupdocs.com/display/parsernet/Extract+metadata+from+Microsoft+Office+Word+documents)
@@ -34,7 +34,7 @@ public IEnumerable<MetadataItem> GetMetadata()
 以下示例显示了如何从文档中提取元数据：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using(Parser parser = new Parser(filePath))
 {
     // 从文档中提取元数据

@@ -16,7 +16,7 @@ public bool IsItalic { get; }
 
 ### Valore di ritorno
 
-`VERO` se il carattere è corsivo; altrimenti,`falso`.
+`VERO` se il carattere è corsivo; Altrimenti,`falso`.
 
 ### Guarda anche
 

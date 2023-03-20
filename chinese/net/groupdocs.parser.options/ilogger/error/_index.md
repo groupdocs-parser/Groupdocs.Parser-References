@@ -16,7 +16,7 @@ public void Error(string message, Exception exception)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | String | 错误消息。 |
+| message | String | 错误信息。 |
 | exception | Exception | 发生异常的实例。 |
 
 ### 也可以看看

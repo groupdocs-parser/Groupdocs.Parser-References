@@ -20,7 +20,7 @@ public IEnumerable<PageTextArea> GetTextAreas()
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечь текстовые области](https://docs.groupdocs.com/display/parsernet/Extract+text+areas)
 
@@ -77,7 +77,7 @@ public IEnumerable<PageTextArea> GetTextAreas(PageTextAreaOptions options)
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечь текстовые области](https://docs.groupdocs.com/display/parsernet/Extract+text+areas)
 
@@ -138,7 +138,7 @@ public IEnumerable<PageTextArea> GetTextAreas(int pageIndex)
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечь текстовые области](https://docs.groupdocs.com/display/parsernet/Extract+text+areas)
 
@@ -211,7 +211,7 @@ public IEnumerable<PageTextArea> GetTextAreas(int pageIndex, PageTextAreaOptions
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечь текстовые области](https://docs.groupdocs.com/display/parsernet/Extract+text+areas)
 

@@ -1,14 +1,14 @@
 ---
 title: J2C
 second_title: GroupDocs.Parser for .NET API 参考
-description: JPEG 2000 J2C 是一种图像编码系统和最先进的图像压缩标准设计 使用小波技术 JPEG 2000 可以一次编码任何质量的无损内容详细了解 这种文件格式这里https//wiki.fileformat.com/image/jp2/.
+description: JPEG 2000 J2C 是图像编码系统和最先进的图像压缩标准 使用小波技术设计的 JPEG 2000 可以一次对任何质量的无损内容进行编码详细了解 此文件格式这里https//wiki.fileformat.com/image/jp2/.
 type: docs
 weight: 260
 url: /zh/net/groupdocs.parser.options/filetype/j2c/
 ---
 ## FileType.J2C field
 
-JPEG 2000 (J2C) 是一种图像编码系统和最先进的图像压缩标准。设计， 使用小波技术 JPEG 2000 可以一次编码任何质量的无损内容。详细了解 这种文件格式[这里](https://wiki.fileformat.com/image/jp2/).
+JPEG 2000 (J2C) 是图像编码系统和最先进的图像压缩标准。 使用小波技术设计的 JPEG 2000 可以一次对任何质量的无损内容进行编码。详细了解 此文件格式[这里](https://wiki.fileformat.com/image/jp2/).
 
 ```csharp
 public static readonly FileType J2C;

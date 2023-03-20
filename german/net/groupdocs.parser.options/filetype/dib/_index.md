@@ -1,14 +1,14 @@
 ---
 title: DIB
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: Eine DIBDatei Device Independent Bitmap ist eine Rasterbilddatei die in ihrer Struktur den StandardBitmapDateien BMP ähnelt aber einen anderen Header hat. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/image/dib/ .
+description: Eine DIBDatei Device Independent Bitmap ist eine Rasterbilddatei die in ihrer Struktur den StandardBitmapDateien BMP ähnelt aber einen anderen Header hat. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/image/dib/ .
 type: docs
 weight: 70
 url: /de/net/groupdocs.parser.options/filetype/dib/
 ---
 ## FileType.DIB field
 
-Eine DIB-Datei (Device Independent Bitmap) ist eine Rasterbilddatei, die in ihrer Struktur den Standard-Bitmap-Dateien (BMP) ähnelt, aber einen anderen Header hat. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/image/dib/) .
+Eine DIB-Datei (Device Independent Bitmap) ist eine Rasterbilddatei, die in ihrer Struktur den Standard-Bitmap-Dateien (BMP) ähnelt, aber einen anderen Header hat. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/image/dib/) .
 
 ```csharp
 public static readonly FileType DIB;

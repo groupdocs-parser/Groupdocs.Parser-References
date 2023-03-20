@@ -1,14 +1,14 @@
 ---
 title: OpenParser
 second_title: GroupDocs.Parser for .NET API 参考
-description: 创建Parsergroupdocs.parser/parser项目内容的对象
+description: 创建Parsergroupdocs.parser/parser项目内容的对象.
 type: docs
 weight: 70
 url: /zh/net/groupdocs.parser.data/containeritem/openparser/
 ---
 ## OpenParser() {#openparser}
 
-创建[`Parser`](../../../groupdocs.parser/parser)项目内容的对象。
+创建[`Parser`](../../../groupdocs.parser/parser)项目内容的对象.
 
 ```csharp
 public Parser OpenParser()
@@ -16,7 +16,7 @@ public Parser OpenParser()
 
 ### 返回值
 
-一个实例[`Parser`](../../../groupdocs.parser/parser)项目内容的类别。
+的实例[`Parser`](../../../groupdocs.parser/parser)项目内容的类别。
 
 ### 也可以看看
 
@@ -41,7 +41,7 @@ public Parser OpenParser(LoadOptions loadOptions)
 
 ### 返回值
 
-一个实例[`Parser`](../../../groupdocs.parser/parser)项目内容的类别。
+的实例[`Parser`](../../../groupdocs.parser/parser)项目内容的类别。
 
 ### 也可以看看
 
@@ -68,7 +68,7 @@ public Parser OpenParser(LoadOptions loadOptions, ParserSettings parserSettings)
 
 ### 返回值
 
-一个实例[`Parser`](../../../groupdocs.parser/parser)项目内容的类别。
+的实例[`Parser`](../../../groupdocs.parser/parser)项目内容的类别。
 
 ### 也可以看看
 

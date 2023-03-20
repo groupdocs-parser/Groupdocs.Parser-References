@@ -1,14 +1,14 @@
 ---
 title: TocItem
 second_title: GroupDocs.Parser for .NET API 参考
-description: 表示在目录提取功能中使用的项目
+description: 表示目录提取功能中使用的项目
 type: docs
 weight: 200
 url: /zh/net/groupdocs.parser.data/tocitem/
 ---
 ## TocItem class
 
-表示在目录提取功能中使用的项目。
+表示目录提取功能中使用的项目。
 
 ```csharp
 public class TocItem
@@ -18,7 +18,7 @@ public class TocItem
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TocItem](tocitem)(int, string, int?) | 初始化[`TocItem`](../tocitem)类. |
+| [TocItem](tocitem)(int, string, int?) | 初始化一个新的实例[`TocItem`](../tocitem)类. |
 
 ## 特性
 
@@ -32,11 +32,11 @@ public class TocItem
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [ExtractText](../../groupdocs.parser.data/tocitem/extracttext)() | 从文档中提取文本[`TocItem`](../tocitem)对象指的是. |
+| virtual [ExtractText](../../groupdocs.parser.data/tocitem/extracttext)() | 从文档中提取文本[`TocItem`](../tocitem)对象引用. |
 
 ### 评论
 
-的一个实例[`TocItem`](../tocitem)类被用作返回值 的[`GetToc`](../../groupdocs.parser/parser/gettoc)方法。请参阅那里的用法示例。
+的实例[`TocItem`](../tocitem)类用作返回值 的[`GetToc`](../../groupdocs.parser/parser/gettoc)方法。请参阅此处的用法示例。
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: TemplateBarcode
 second_title: GroupDocs.Parser for .NET API 参考
 description: 提供模板条码字段
 type: docs
-weight: 610
+weight: 660
 url: /zh/net/groupdocs.parser.templates/templatebarcode/
 ---
 ## TemplateBarcode class
@@ -18,8 +18,8 @@ public sealed class TemplateBarcode : TemplateItem
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TemplateBarcode](templatebarcode#constructor)(Rectangle, string) | 初始化[`TemplateBarcode`](../templatebarcode)类. |
-| [TemplateBarcode](templatebarcode#constructor_1)(Rectangle, string, int?) | 初始化[`TemplateBarcode`](../templatebarcode)类. |
+| [TemplateBarcode](templatebarcode#constructor)(Rectangle, string) | 初始化一个新的实例[`TemplateBarcode`](../templatebarcode)类. |
+| [TemplateBarcode](templatebarcode#constructor_1)(Rectangle, string, int?) | 初始化一个新的实例[`TemplateBarcode`](../templatebarcode)类. |
 
 ## 特性
 

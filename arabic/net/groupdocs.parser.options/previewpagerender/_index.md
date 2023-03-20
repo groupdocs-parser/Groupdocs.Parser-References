@@ -3,7 +3,7 @@ title: PreviewPageRender
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يمثل طريقة يتم استدعاؤها قبل تقديم صفحة المستند.
 type: docs
-weight: 540
+weight: 590
 url: /ar/net/groupdocs.parser.options/previewpagerender/
 ---
 ## PreviewPageRender delegate

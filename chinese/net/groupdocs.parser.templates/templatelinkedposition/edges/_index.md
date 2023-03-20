@@ -16,7 +16,7 @@ public TemplateLinkedPositionEdges Edges { get; }
 
 ### 适当的价值
 
-一个实例[`TemplateLinkedPositionEdges`](../../templatelinkedpositionedges)表示在其中搜索字段的链接字段的边缘的类。
+的实例[`TemplateLinkedPositionEdges`](../../templatelinkedpositionedges)表示搜索字段的链接字段边缘的类。
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: ParseByTemplate
 second_title: GroupDocs.Parser för .NET API-referens
 description: Hämtar värdet som indikerar om analys med mall stöds.
 type: docs
-weight: 90
+weight: 100
 url: /sv/net/groupdocs.parser.options/features/parsebytemplate/
 ---
 ## Features.ParseByTemplate property

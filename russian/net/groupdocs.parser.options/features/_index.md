@@ -3,7 +3,7 @@ title: Features
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Представляет список поддерживаемых функций. Позволяет получить информацию о том какие функции поддерживаются или нет для документа.
 type: docs
-weight: 330
+weight: 350
 url: /ru/net/groupdocs.parser.options/features/
 ---
 ## Features class
@@ -26,8 +26,10 @@ public sealed class Features
 | [Hyperlinks](../../groupdocs.parser.options/features/hyperlinks) { get; } | Получает значение, указывающее, поддерживается ли извлечение гиперссылок. |
 | [Images](../../groupdocs.parser.options/features/images) { get; } | Получает значение, указывающее, поддерживается ли извлечение изображений. |
 | [Metadata](../../groupdocs.parser.options/features/metadata) { get; } | Получает значение, указывающее, поддерживается ли извлечение метаданных. |
+| [Ocr](../../groupdocs.parser.options/features/ocr) { get; } | Получает значение, указывающее, поддерживаются ли функции OCR. |
 | [ParseByTemplate](../../groupdocs.parser.options/features/parsebytemplate) { get; } | Получает значение, указывающее, поддерживается ли синтаксический анализ по шаблону. |
 | [ParseForm](../../groupdocs.parser.options/features/parseform) { get; } | Получает значение, указывающее, поддерживается ли синтаксический анализ формы. |
+| [Preview](../../groupdocs.parser.options/features/preview) { get; } | Получает значение, указывающее, поддерживается ли создание предварительного просмотра. |
 | [Search](../../groupdocs.parser.options/features/search) { get; } | Получает значение, указывающее, поддерживается ли текстовый поиск. |
 | [Structure](../../groupdocs.parser.options/features/structure) { get; } | Получает значение, указывающее, поддерживается ли извлечение структуры текста. |
 | [Tables](../../groupdocs.parser.options/features/tables) { get; } | Получает значение, указывающее, поддерживается ли извлечение таблиц. |
@@ -44,9 +46,9 @@ public sealed class Features
 
 ### Примечания
 
-Экземпляр этого класса используется как[`Features`](../../groupdocs.parser/parser/features)property. См. там примеры использования.
+Экземпляр этого класса используется как[`Features`](../../groupdocs.parser/parser/features) property. См. там примеры использования.
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Получите поддерживаемые функции](https://docs.groupdocs.com/display/parsernet/Get+supported+features)
 

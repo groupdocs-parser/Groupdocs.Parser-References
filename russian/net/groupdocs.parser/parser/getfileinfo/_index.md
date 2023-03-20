@@ -20,7 +20,7 @@ public static FileInfo GetFileInfo(string filePath)
 
 ### Возвращаемое значение
 
-Экземпляр[`FileInfo`](../../../groupdocs.parser.options/fileinfo) учебный класс.
+Экземпляр[`FileInfo`](../../../groupdocs.parser.options/fileinfo) сорт.
 
 ### Примеры
 
@@ -57,7 +57,7 @@ public static FileInfo GetFileInfo(string filePath, LoadOptions loadOptions)
 
 ### Возвращаемое значение
 
-Экземпляр[`FileInfo`](../../../groupdocs.parser.options/fileinfo) учебный класс.
+Экземпляр[`FileInfo`](../../../groupdocs.parser.options/fileinfo) сорт.
 
 ### Примеры
 
@@ -96,7 +96,7 @@ public static FileInfo GetFileInfo(Stream document)
 
 ### Возвращаемое значение
 
-Экземпляр[`FileInfo`](../../../groupdocs.parser.options/fileinfo) учебный класс.
+Экземпляр[`FileInfo`](../../../groupdocs.parser.options/fileinfo) сорт.
 
 ### Примеры
 
@@ -133,7 +133,7 @@ public static FileInfo GetFileInfo(Stream document, LoadOptions loadOptions)
 
 ### Возвращаемое значение
 
-Экземпляр[`FileInfo`](../../../groupdocs.parser.options/fileinfo) учебный класс.
+Экземпляр[`FileInfo`](../../../groupdocs.parser.options/fileinfo) сорт.
 
 ### Примеры
 

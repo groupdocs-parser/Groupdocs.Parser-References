@@ -12,7 +12,7 @@ Ad alanı, belgelerden veri ayrıştırmak için sınıflar sağlar. Ana sınıf
 
 | Sınıf | Tanım |
 | --- | --- |
-| [License](./license) | Bileşeni lisanslamak için yöntemler sağlar. Lisanslama hakkında daha fazla bilgi edinin[burada](https://purchase.groupdocs.com/faqs/licensing) . |
+| [License](./license) | Bileşeni lisanslamak için yöntemler sağlar. Lisanslama hakkında daha fazla bilgi edinin[Burada](https://purchase.groupdocs.com/faqs/licensing) . |
 | [Metered](./metered) | Uygulama için yöntemler sağlar[ölçülü](https://purchase.groupdocs.com/faqs/licensing/metered) lisans. |
 | [Parser](./parser) | Metin, resimler, kapsayıcı çıkarma ve ayrıştırma işlevselliğini kontrol eden ana sınıfı temsil eder. |
 

@@ -1,14 +1,14 @@
 ---
 title: ODP
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: ODP uzantılı dosyalar OASISOpen standardında OpenOffice.org tarafından kullanılan sunum dosyası biçimini temsil eder. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/presentation/odp/ .
+description: ODP uzantılı dosyalar OASISOpen standardında OpenOffice.org tarafından kullanılan sunum dosyası biçimini temsil eder. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/presentation/odp/ .
 type: docs
 weight: 410
 url: /tr/net/groupdocs.parser.options/filetype/odp/
 ---
 ## FileType.ODP field
 
-ODP uzantılı dosyalar, OASISOpen standardında OpenOffice.org tarafından kullanılan sunum dosyası biçimini temsil eder. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/presentation/odp/) .
+ODP uzantılı dosyalar, OASISOpen standardında OpenOffice.org tarafından kullanılan sunum dosyası biçimini temsil eder. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/presentation/odp/) .
 
 ```csharp
 public static readonly FileType ODP;

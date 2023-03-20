@@ -1,14 +1,14 @@
 ---
 title: EPS
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: Dateien mit der Erweiterung EPS beschreiben im Wesentlichen ein Encapsulated PostScriptSprachprogramm  das das Erscheinungsbild einer einzelnen Seite beschreibt. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/pagedescriptionlanguage/eps/ .
+description: Dateien mit der Erweiterung EPS beschreiben im Wesentlichen ein Encapsulated PostScriptSprachprogramm  das das Erscheinungsbild einer einzelnen Seite beschreibt. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/pagedescriptionlanguage/eps/ .
 type: docs
 weight: 180
 url: /de/net/groupdocs.parser.options/filetype/eps/
 ---
 ## FileType.EPS field
 
-Dateien mit der Erweiterung EPS beschreiben im Wesentlichen ein Encapsulated PostScript-Sprachprogramm , das das Erscheinungsbild einer einzelnen Seite beschreibt. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/page-description-language/eps/) .
+Dateien mit der Erweiterung EPS beschreiben im Wesentlichen ein Encapsulated PostScript-Sprachprogramm , das das Erscheinungsbild einer einzelnen Seite beschreibt. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/page-description-language/eps/) .
 
 ```csharp
 public static readonly FileType EPS;

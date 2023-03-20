@@ -16,7 +16,7 @@ public bool Container { get; }
 
 ### Valore di ritorno
 
-`VERO` se l'estrazione del contenitore è supportata; altrimenti,`falso`.
+`VERO` se l'estrazione del contenitore è supportata; Altrimenti,`falso`.
 
 ### Guarda anche
 

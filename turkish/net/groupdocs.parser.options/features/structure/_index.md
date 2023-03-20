@@ -3,7 +3,7 @@ title: Structure
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Metin yapısı çıkarmanın desteklenip desteklenmediğini gösteren değeri alır.
 type: docs
-weight: 120
+weight: 140
 url: /tr/net/groupdocs.parser.options/features/structure/
 ---
 ## Features.Structure property
@@ -16,7 +16,7 @@ public bool Structure { get; }
 
 ### Geri dönüş değeri
 
-`doğru` metin yapısı çıkarma destekleniyorsa; aksi halde,`yanlış`.
+`doğru` metin yapısı çıkarma destekleniyorsa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

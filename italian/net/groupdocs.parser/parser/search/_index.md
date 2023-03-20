@@ -24,7 +24,7 @@ Una raccolta di[`SearchResult`](../../../groupdocs.parser.data/searchresult) ogg
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Cerca testo](https://docs.groupdocs.com/display/parsernet/Search+text)
 * [Cerca testo nei documenti di Microsoft Office Word](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+Word+documents)
@@ -90,7 +90,7 @@ Una raccolta di[`SearchResult`](../../../groupdocs.parser.data/searchresult) ogg
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Cerca testo](https://docs.groupdocs.com/display/parsernet/Search+text)
 * [Cerca testo nei documenti di Microsoft Office Word](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+Word+documents)

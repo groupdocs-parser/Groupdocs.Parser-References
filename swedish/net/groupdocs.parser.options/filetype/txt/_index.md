@@ -1,14 +1,14 @@
 ---
 title: TXT
 second_title: GroupDocs.Parser för .NET API-referens
-description: En fil med filtillägget .TXT representerar ett textdokument som innehåller vanlig text i form av rader. Läs mer om detta filformathärhttps//wiki.fileformat.com/wordprocessing/txt/ .
+description: En fil med tillägget .TXT representerar ett textdokument som innehåller ren text i form av rader. Läs mer om detta filformathärhttps//wiki.fileformat.com/wordprocessing/txt/ .
 type: docs
 weight: 740
 url: /sv/net/groupdocs.parser.options/filetype/txt/
 ---
 ## FileType.TXT field
 
-En fil med filtillägget .TXT representerar ett textdokument som innehåller vanlig text i form av rader. Läs mer om detta filformat[här](https://wiki.fileformat.com/word-processing/txt/) .
+En fil med tillägget .TXT representerar ett textdokument som innehåller ren text i form av rader. Läs mer om detta filformat[här](https://wiki.fileformat.com/word-processing/txt/) .
 
 ```csharp
 public static readonly FileType TXT;

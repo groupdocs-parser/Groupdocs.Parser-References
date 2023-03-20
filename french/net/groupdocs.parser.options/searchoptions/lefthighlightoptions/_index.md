@@ -16,7 +16,7 @@ public HighlightOptions LeftHighlightOptions { get; }
 
 ### Valeur de la propriété
 
-Un exemple de[`HighlightOptions`](../../highlightoptions) classer;`nul` s'il n'est pas défini.
+Un exemple de[`HighlightOptions`](../../highlightoptions) classe;`nul` s'il n'est pas défini.
 
 ### Voir également
 

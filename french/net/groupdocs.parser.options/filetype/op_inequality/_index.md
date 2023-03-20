@@ -16,12 +16,12 @@ public static bool operator !=(FileType left, FileType right)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| left | FileType | La gauche[`FileType`](../../filetype) objet. |
-| right | FileType | Droit[`FileType`](../../filetype) objet. |
+| left | FileType | Gauche[`FileType`](../../filetype) objet. |
+| right | FileType | Droite[`FileType`](../../filetype) objet. |
 
 ### Return_Value
 
-si les deux[`FileType`](../../filetype) les objets ne sont pas les mêmes ; Par ailleurs,
+si les deux[`FileType`](../../filetype) les objets ne sont pas les mêmes ; sinon,
 
 ```csharp
 true

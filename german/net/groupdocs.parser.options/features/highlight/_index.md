@@ -16,7 +16,7 @@ public bool Highlight { get; }
 
 ### Rückgabewert
 
-`Stimmt` ob Highlight-Extraktion unterstützt wird; Andernfalls,`FALSCH`.
+`WAHR` ob Highlight-Extraktion unterstützt wird; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

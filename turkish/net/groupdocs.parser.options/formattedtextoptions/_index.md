@@ -3,7 +3,7 @@ title: FormattedTextOptions
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Biçimlendirilmiş metin çıkarma için kullanılan seçenekleri sağlar.
 type: docs
-weight: 390
+weight: 410
 url: /tr/net/groupdocs.parser.options/formattedtextoptions/
 ---
 ## FormattedTextOptions class
@@ -28,7 +28,7 @@ public sealed class FormattedTextOptions
 
 ### Notlar
 
-bir örneği[`FormattedTextOptions`](../formattedtextoptions) sınıf içinde parameter olarak kullanılır[`GetFormattedText`](../../groupdocs.parser/parser/getformattedtext) ve[`GetFormattedText`](../../groupdocs.parser/parser/getformattedtext) method. Oradaki kullanım örneklerine bakın.
+bir örneği[`FormattedTextOptions`](../formattedtextoptions) sınıf içinde parameter olarak kullanılır[`GetFormattedText`](../../groupdocs.parser/parser/getformattedtext) Ve[`GetFormattedText`](../../groupdocs.parser/parser/getformattedtext) method. Oradaki kullanım örneklerine bakın.
 
 **Daha fazla bilgi edin:**
 

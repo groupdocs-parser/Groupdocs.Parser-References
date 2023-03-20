@@ -3,7 +3,7 @@ title: TemplateTableParameters
 second_title: GroupDocs.Parser för .NET API-referens
 description: Tillhandahåller parametrar för tabelldetekteringsalgoritmerna.
 type: docs
-weight: 710
+weight: 760
 url: /sv/net/groupdocs.parser.templates/templatetableparameters/
 ---
 ## TemplateTableParameters class
@@ -36,7 +36,7 @@ public sealed class TemplateTableParameters
 
 Det finns två algoritmer för att upptäcka en tabell:
 
-* Gör det möjligt att detektera en tabell i det rektangulära området med inställda kolumner. Denna algoritm är användbar för enkla tabeller (utan sammanslagna kolumner) och ger mer exakt detektering.
+* Tillåter att detektera en tabell i det rektangulära området med inställda kolumner. Denna algoritm är användbar för enkla tabeller (utan sammanslagna kolumner) och ger mer exakt detektering.
 * Tillåter att upptäcka en tabell var som helst på sidan. Detta är en mer komplex algoritm. Den kan upptäcka tabeller var som helst på sidan. Ytterligare parametrar hjälper till att upptäcka en tabell mer korrekt.
 
 I vissa fall när algoritmer inte kan upptäcka en tabell eller göra det på ett icke-exakt sätt [`TemplateTableLayout`](../templatetablelayout) klass används.

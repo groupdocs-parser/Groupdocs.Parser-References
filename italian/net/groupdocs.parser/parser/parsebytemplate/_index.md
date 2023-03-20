@@ -24,7 +24,7 @@ Un'istanza di[`DocumentData`](../../../groupdocs.parser.data/documentdata) class
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Analizzare i dati dai documenti](https://docs.groupdocs.com/display/parsernet/Parse+data+from+documents)
 * [Lavorare con i modelli](https://docs.groupdocs.com/display/parsernet/Working+with+templates)

@@ -3,7 +3,7 @@ title: PreviewOptions.PreviewFormats
 second_title: GroupDocs.Parser for .NET API 参考
 description: 表示支持的预览格式
 type: docs
-weight: 530
+weight: 580
 url: /zh/net/groupdocs.parser.options/previewoptions.previewformats/
 ---
 ## PreviewOptions.PreviewFormats enumeration

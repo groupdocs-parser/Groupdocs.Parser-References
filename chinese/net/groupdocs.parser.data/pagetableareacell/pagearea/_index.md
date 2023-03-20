@@ -16,11 +16,11 @@ public PageArea PageArea { get; }
 
 ### 适当的价值
 
-一个实例[`PageArea`](../../pagearea)表示表格单元格值的类。
+的实例[`PageArea`](../../pagearea)表示表格单元格值的类。
 
 ### 评论
 
-取决于单元格`PageArea`property 可以包含任何继承者[`PageArea`](../../pagearea)类.
+取决于单元格`PageArea`property 可以包含的任何继承者[`PageArea`](../../pagearea)类.
 
 ### 也可以看看
 

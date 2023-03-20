@@ -1,14 +1,14 @@
 ---
 title: TemplateTable
 second_title: Référence de l'API GroupDocs.Parser pour .NET
-description: Fournit la table de modèle.
+description: Fournit la table de modèles.
 type: docs
-weight: 690
+weight: 740
 url: /fr/net/groupdocs.parser.templates/templatetable/
 ---
 ## TemplateTable class
 
-Fournit la table de modèle.
+Fournit la table de modèles.
 
 ```csharp
 public sealed class TemplateTable : TemplateItem
@@ -34,7 +34,7 @@ public sealed class TemplateTable : TemplateItem
 
 Il existe deux manières de définir une table :
 
-* Utilisation[`TemplateTableLayout`](../templatetablelayout) classer. Dans ce cas le tableau est défini par sa position sur la page : zone rectangulaire, séparateurs de colonnes et de lignes.
+* Utilisation[`TemplateTableLayout`](../templatetablelayout) classe. Dans ce cas le tableau est défini par sa position sur la page : zone rectangulaire, séparateurs de colonnes et de lignes.
 * Utilisation[`TemplateTableParameters`](../templatetableparameters) class. Dans ce cas, la table est détectée automatiquement par des algorithmes avec des paramètres définis. Voir[`TemplateTableParameters`](../templatetableparameters) classe pour plus d'informations.
 
 ### Voir également

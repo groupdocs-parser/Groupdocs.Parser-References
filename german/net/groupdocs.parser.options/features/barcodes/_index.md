@@ -16,7 +16,7 @@ public bool Barcodes { get; }
 
 ### Rückgabewert
 
-`Stimmt` ob die Barcode-Extraktion unterstützt wird; Andernfalls,`FALSCH`.
+`WAHR` ob die Barcode-Extraktion unterstützt wird; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

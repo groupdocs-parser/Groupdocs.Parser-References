@@ -1,14 +1,14 @@
 ---
 title: HTM
 second_title: GroupDocs.Parser for .NET API 参考
-description: 带有 HTM 扩展名的文件代表超文本标记语言用于创建网页这里https//wiki.fileformat.com/web/htm/.
+description: 具有 HTM 扩展名的文件表示用于创建网页的超文本标记语言 用于在网络浏览器例如 Google ChromeInternet ExplorerFirefox 和其他一些浏览器中显示 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/web/htm/.
 type: docs
 weight: 230
 url: /zh/net/groupdocs.parser.options/filetype/htm/
 ---
 ## FileType.HTM field
 
-带有 HTM 扩展名的文件代表超文本标记语言，用于创建网页[这里](https://wiki.fileformat.com/web/htm/).
+具有 HTM 扩展名的文件表示用于创建网页的超文本标记语言 用于在网络浏览器（例如 Google Chrome、Internet Explorer、Firefox 和其他一些浏览器）中显示。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/web/htm/).
 
 ```csharp
 public static readonly FileType HTM;

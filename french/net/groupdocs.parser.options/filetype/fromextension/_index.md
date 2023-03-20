@@ -26,7 +26,7 @@ Lorsque le type de fichier est pris en charge, le renvoie, sinon renvoie la vale
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Jeté quand*extension*est une chaîne nulle ou vide. |
+| ArgumentException | Jeté quand*extension* est une chaîne nulle ou vide. |
 
 ### Voir également
 

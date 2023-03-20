@@ -13,11 +13,11 @@ L'espace de noms fournit des classes qui représentent les résultats d'analyse.
 | Classer | La description |
 | --- | --- |
 | [ContainerItem](./containeritem) | Représente un élément de conteneur tel qu'une entité d'archive Zip, une pièce jointe d'e-mail, un élément de portfolio PDF, etc. |
-| [DocumentData](./documentdata) | Représente les données du document. Cela consiste en[`FieldData`](../groupdocs.parser.data/fielddata) objects qui contiennent des données de champ du document. |
+| [DocumentData](./documentdata) | Représente les données du document. Cela consiste en[`FieldData`](../groupdocs.parser.data/fielddata)objects qui contiennent des données de champ du document. |
 | [FieldData](./fielddata) | Représente des données de champ telles qu'un nom, un index de page, une valeur de champ, etc. Selon le champ, la valeur peut être un texte, une image, un tableau, etc. |
 | [HighlightItem](./highlightitem) | Représente une surbrillance, une partie du texte qui est généralement utilisée pour expliquer le contexte du texte trouvé dans la fonctionnalité de recherche. |
 | [MetadataItem](./metadataitem) | Représente un élément de métadonnées utilisé dans les éléments de conteneur et la fonctionnalité d'extraction de métadonnées. |
-| [Page](./page) | Représente les informations de page du document telles que l'index de page et la taille de page. Il est utilisé pour représenter la page qui contient les héritiers de[`PageArea`](../groupdocs.parser.data/pagearea) class dans la fonctionnalité d'analyse par modèle. |
+| [Page](./page) | Représente les informations de page du document telles que l'index de page et la taille de page. Il est utilisé pour représenter la page qui contient les héritiers de[`PageArea`](../groupdocs.parser.data/pagearea)class dans la fonctionnalité d'analyse par modèle. |
 | [PageArea](./pagearea) | Représente une classe de base abstraite pour les zones de page qui sont utilisées pour représenter des blocs sur la page de document dans la fonctionnalité d'analyse par modèle. |
 | [PageBarcodeArea](./pagebarcodearea) | Représente une zone de code-barres de page utilisée pour représenter une valeur de code-barres dans la fonctionnalité d'analyse par modèle. |
 | [PageGroupArea](./pagegrouparea) | Représente un groupe de zones de page qui est utilisé pour regrouper différents types de blocs de la page de document dans la fonctionnalité d'analyse par modèle. |

@@ -3,7 +3,7 @@ title: TemplateFixedPosition
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يوفر موضع حقل القالب الذي يتم تحديده بواسطة المنطقة المستطيلة.
 type: docs
-weight: 630
+weight: 680
 url: /ar/net/groupdocs.parser.templates/templatefixedposition/
 ---
 ## TemplateFixedPosition class

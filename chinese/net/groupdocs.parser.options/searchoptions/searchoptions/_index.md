@@ -1,14 +1,14 @@
 ---
 title: SearchOptions
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化SearchOptionsgroupdocs.parser.options/searchoptions类.
+description: 初始化一个新的实例SearchOptionsgroupdocs.parser.options/searchoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.options/searchoptions/searchoptions/
 ---
 ## SearchOptions(bool, bool, bool, bool, HighlightOptions, HighlightOptions) {#constructor_3}
 
-初始化[`SearchOptions`](../../searchoptions)类.
+初始化一个新的实例[`SearchOptions`](../../searchoptions)类.
 
 ```csharp
 public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpression, 
@@ -23,7 +23,7 @@ public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpress
 | useRegularExpression | Boolean | 指示是否使用正则表达式的值。 |
 | searchByPages | Boolean | 指示搜索是否按页面执行的值。 |
 | leftHighlightOptions | HighlightOptions | 左侧突出显示的选项。 |
-| rightHighlightOptions | HighlightOptions | 右侧突出显示的选项。 |
+| rightHighlightOptions | HighlightOptions | 正确突出显示的选项。 |
 
 ### 也可以看看
 
@@ -36,7 +36,7 @@ public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpress
 
 ## SearchOptions(bool, bool, bool, HighlightOptions, HighlightOptions) {#constructor_5}
 
-初始化[`SearchOptions`](../../searchoptions)用于搜索 的类，带有用于左右高亮提取的高亮选项。
+初始化一个新的实例[`SearchOptions`](../../searchoptions)用于 search 的类，带有用于左侧和右侧高亮提取的高亮选项。
 
 ```csharp
 public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpression, 
@@ -49,7 +49,7 @@ public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpress
 | matchWholeWord | Boolean | 指示文本搜索是否受整个单词限制的值。 |
 | useRegularExpression | Boolean | 指示是否使用正则表达式的值。 |
 | leftHighlightOptions | HighlightOptions | 左侧突出显示的选项。 |
-| rightHighlightOptions | HighlightOptions | 右侧突出显示的选项。 |
+| rightHighlightOptions | HighlightOptions | 正确突出显示的选项。 |
 
 ### 也可以看看
 
@@ -62,7 +62,7 @@ public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpress
 
 ## SearchOptions(bool, bool, bool, HighlightOptions) {#constructor_4}
 
-初始化[`SearchOptions`](../../searchoptions)用于搜索 的类，具有相同的高亮选项，用于左右高亮提取。
+初始化一个新的实例[`SearchOptions`](../../searchoptions)用于 search 的类，对于左右高亮提取具有相同的高亮选项。
 
 ```csharp
 public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpression, 
@@ -87,7 +87,7 @@ public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpress
 
 ## SearchOptions(bool, bool, bool) {#constructor_1}
 
-初始化[`SearchOptions`](../../searchoptions)用于搜索 而不提取高亮的类。
+初始化一个新的实例[`SearchOptions`](../../searchoptions)用于 search 没有高亮提取的类.
 
 ```csharp
 public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpression)
@@ -109,7 +109,7 @@ public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpress
 
 ## SearchOptions(bool, bool, bool, bool) {#constructor_2}
 
-初始化[`SearchOptions`](../../searchoptions)用于按页面搜索的类和 而不提取高亮。
+初始化一个新的实例[`SearchOptions`](../../searchoptions)用于按页搜索的类和 没有突出显示.
 
 ```csharp
 public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpression, 
@@ -133,7 +133,7 @@ public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpress
 
 ## SearchOptions() {#constructor}
 
-初始化[`SearchOptions`](../../searchoptions)具有默认值的类。详情见备注。
+初始化一个新的实例[`SearchOptions`](../../searchoptions)具有默认值的类。详情见备注。
 
 ```csharp
 public SearchOptions()

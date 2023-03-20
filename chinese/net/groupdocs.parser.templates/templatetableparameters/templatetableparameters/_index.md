@@ -1,14 +1,14 @@
 ---
 title: TemplateTableParameters
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化TemplateTableParametersgroupdocs.parser.templates/templatetableparameters类.
+description: 初始化一个新的实例TemplateTableParametersgroupdocs.parser.templates/templatetableparameters类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.templates/templatetableparameters/templatetableparameters/
 ---
 ## TemplateTableParameters(Rectangle, IEnumerable&lt;double&gt;) {#constructor}
 
-初始化[`TemplateTableParameters`](../../templatetableparameters)类.
+初始化一个新的实例[`TemplateTableParameters`](../../templatetableparameters)类.
 
 ```csharp
 public TemplateTableParameters(Rectangle rectangle, IEnumerable<double> verticalSeparators)
@@ -17,7 +17,7 @@ public TemplateTableParameters(Rectangle rectangle, IEnumerable<double> vertical
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | rectangle | Rectangle | 包含表格的矩形区域。 |
-| verticalSeparators | IEnumerable`1 | 表格列分隔符。 |
+| verticalSeparators | IEnumerable`1 | 表列分隔符。 |
 
 ### 也可以看看
 
@@ -30,7 +30,7 @@ public TemplateTableParameters(Rectangle rectangle, IEnumerable<double> vertical
 
 ## TemplateTableParameters(Rectangle, IEnumerable&lt;double&gt;, bool?, int?, int?, int?) {#constructor_1}
 
-初始化[`TemplateTableParameters`](../../templatetableparameters)类.
+初始化一个新的实例[`TemplateTableParameters`](../../templatetableparameters)类.
 
 ```csharp
 public TemplateTableParameters(Rectangle rectangle, IEnumerable<double> verticalSeparators, 
@@ -40,11 +40,11 @@ public TemplateTableParameters(Rectangle rectangle, IEnumerable<double> vertical
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | rectangle | Rectangle | 包含表格的矩形区域。 |
-| verticalSeparators | IEnumerable`1 | 表格列分隔符。 |
-| hasMergedCells | Nullable`1 | 指示表格是否已合并单元格的值。 |
-| minRowCount | Nullable`1 | 表行的最小数量。 |
-| minColumnCount | Nullable`1 | 表格列的最小数量。 |
-| minVerticalSpace | Nullable`1 | 表列之间的最小间距。 |
+| verticalSeparators | IEnumerable`1 | 表列分隔符。 |
+| hasMergedCells | Nullable`1 | 指示表格是否具有合并单元格的值。 |
+| minRowCount | Nullable`1 | 表格行的最小数量。 |
+| minColumnCount | Nullable`1 | 表列的最小数量。 |
+| minVerticalSpace | Nullable`1 | 表列之间的最小空间。 |
 
 ### 也可以看看
 

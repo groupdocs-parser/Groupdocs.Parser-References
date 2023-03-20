@@ -1,14 +1,14 @@
 ---
 title: PSD
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: PSD Photoshop Belgesi Adobe Photoshopun grafik tasarımı ve geliştirmesi için kullanılan yerel dosya formatını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/image/psd/ .
+description: PSD Photoshop Belgesi Adobe Photoshopun grafik tasarımı ve geliştirmesi için kullanılan yerel dosya formatını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/image/psd/ .
 type: docs
 weight: 630
 url: /tr/net/groupdocs.parser.options/filetype/psd/
 ---
 ## FileType.PSD field
 
-PSD, Photoshop Belgesi, Adobe Photoshop'un grafik tasarımı ve geliştirmesi için kullanılan yerel dosya formatını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/image/psd/) .
+PSD, Photoshop Belgesi, Adobe Photoshop'un grafik tasarımı ve geliştirmesi için kullanılan yerel dosya formatını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/image/psd/) .
 
 ```csharp
 public static readonly FileType PSD;

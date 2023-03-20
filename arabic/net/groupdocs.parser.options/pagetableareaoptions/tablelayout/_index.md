@@ -16,7 +16,7 @@ public TemplateTableLayout TableLayout { get; }
 
 ### Property_Value
 
-غريزة من[`TemplateTableLayout`](../../../groupdocs.parser.templates/templatetablelayout) صف دراسي.
+غريزة من[`TemplateTableLayout`](../../../groupdocs.parser.templates/templatetablelayout) فصل.
 
 ### أنظر أيضا
 

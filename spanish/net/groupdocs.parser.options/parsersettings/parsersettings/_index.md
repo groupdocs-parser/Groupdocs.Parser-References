@@ -1,14 +1,14 @@
 ---
 title: ParserSettings
 second_title: Referencia de API de GroupDocs.Parser para .NET
-description: Inicializa una nueva instancia delParserSettingsgroupdocs.parser.options/parsersettings clase.
+description: Inicializa una nueva instancia delParserSettingsgroupdocs.parser.options/parsersettings clase con el logger.
 type: docs
 weight: 10
 url: /es/net/groupdocs.parser.options/parsersettings/parsersettings/
 ---
-## ParserSettings constructor
+## ParserSettings(ILogger) {#constructor_1}
 
-Inicializa una nueva instancia del[`ParserSettings`](../../parsersettings) clase.
+Inicializa una nueva instancia del[`ParserSettings`](../../parsersettings) clase con el logger.
 
 ```csharp
 public ParserSettings(ILogger logger)
@@ -21,6 +21,97 @@ public ParserSettings(ILogger logger)
 ### Ver también
 
 * interface [ILogger](../../ilogger)
+* class [ParserSettings](../../parsersettings)
+* espacio de nombres [GroupDocs.Parser.Options](../../parsersettings)
+* asamblea [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(OcrConnectorBase) {#constructor_4}
+
+Inicializa una nueva instancia del[`ParserSettings`](../../parsersettings) clase con el Conector OCR.
+
+```csharp
+public ParserSettings(OcrConnectorBase ocrConnector)
+```
+
+| Parámetro | Escribe | Descripción |
+| --- | --- | --- |
+| ocrConnector | OcrConnectorBase | Una instancia de clase que hereda[`OcrConnectorBase`](../../ocrconnectorbase) class para proporcionar la funcionalidad de OCR. |
+
+### Ver también
+
+* class [OcrConnectorBase](../../ocrconnectorbase)
+* class [ParserSettings](../../parsersettings)
+* espacio de nombres [GroupDocs.Parser.Options](../../parsersettings)
+* asamblea [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(ExternalResourceHandler) {#constructor}
+
+Inicializa una nueva instancia del[`ParserSettings`](../../parsersettings) clase con el controlador de recursos externo.
+
+```csharp
+public ParserSettings(ExternalResourceHandler externalResourceHandler)
+```
+
+| Parámetro | Escribe | Descripción |
+| --- | --- | --- |
+| externalResourceHandler | ExternalResourceHandler | Una instancia de clase que hereda[`ExternalResourceHandler`](../../externalresourcehandler) clase para proporcionar el control de los recursos externos loading. |
+
+### Ver también
+
+* class [ExternalResourceHandler](../../externalresourcehandler)
+* class [ParserSettings](../../parsersettings)
+* espacio de nombres [GroupDocs.Parser.Options](../../parsersettings)
+* asamblea [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(ILogger, OcrConnectorBase) {#constructor_2}
+
+Inicializa una nueva instancia del[`ParserSettings`](../../parsersettings) clase con registrador y OCR Connector.
+
+```csharp
+public ParserSettings(ILogger logger, OcrConnectorBase ocrConnector)
+```
+
+| Parámetro | Escribe | Descripción |
+| --- | --- | --- |
+| logger | ILogger | Una instancia de clase que implementa[`ILogger`](../../ilogger) interfaz. |
+| ocrConnector | OcrConnectorBase | Una instancia de clase que hereda[`OcrConnectorBase`](../../ocrconnectorbase) class para proporcionar la funcionalidad de OCR. |
+
+### Ver también
+
+* interface [ILogger](../../ilogger)
+* class [OcrConnectorBase](../../ocrconnectorbase)
+* class [ParserSettings](../../parsersettings)
+* espacio de nombres [GroupDocs.Parser.Options](../../parsersettings)
+* asamblea [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(ILogger, OcrConnectorBase, ExternalResourceHandler) {#constructor_3}
+
+Inicializa una nueva instancia del[`ParserSettings`](../../parsersettings) clase.
+
+```csharp
+public ParserSettings(ILogger logger, OcrConnectorBase ocrConnector, 
+    ExternalResourceHandler externalResourceHandler)
+```
+
+| Parámetro | Escribe | Descripción |
+| --- | --- | --- |
+| logger | ILogger | Una instancia de clase que implementa[`ILogger`](../../ilogger) interfaz. |
+| ocrConnector | OcrConnectorBase | Una instancia de clase que hereda[`OcrConnectorBase`](../../ocrconnectorbase) class para proporcionar la funcionalidad de OCR. |
+| externalResourceHandler | ExternalResourceHandler | Una instancia de clase que hereda[`ExternalResourceHandler`](../../externalresourcehandler) clase para proporcionar el control de la carga de recursos externos. |
+
+### Ver también
+
+* interface [ILogger](../../ilogger)
+* class [OcrConnectorBase](../../ocrconnectorbase)
+* class [ExternalResourceHandler](../../externalresourcehandler)
 * class [ParserSettings](../../parsersettings)
 * espacio de nombres [GroupDocs.Parser.Options](../../parsersettings)
 * asamblea [GroupDocs.Parser](../../../)

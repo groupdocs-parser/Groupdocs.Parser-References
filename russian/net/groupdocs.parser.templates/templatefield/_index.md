@@ -3,7 +3,7 @@ title: TemplateField
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Предоставляет текстовое поле шаблона.
 type: docs
-weight: 620
+weight: 670
 url: /ru/net/groupdocs.parser.templates/templatefield/
 ---
 ## TemplateField class

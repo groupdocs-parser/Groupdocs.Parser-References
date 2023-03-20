@@ -3,7 +3,7 @@ title: UseRawModeIfPossible
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Получает значение указывающее используется ли необработанный режим.
 type: docs
-weight: 20
+weight: 40
 url: /ru/net/groupdocs.parser.options/textoptions/userawmodeifpossible/
 ---
 ## TextOptions.UseRawModeIfPossible property

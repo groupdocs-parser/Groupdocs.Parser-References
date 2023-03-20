@@ -20,7 +20,7 @@ Eine Sammlung von[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea) O
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Textbereiche extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+text+areas)
 
@@ -77,7 +77,7 @@ Eine Sammlung von[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea) O
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Textbereiche extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+text+areas)
 
@@ -138,7 +138,7 @@ Eine Sammlung von[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea) O
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Textbereiche extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+text+areas)
 
@@ -211,7 +211,7 @@ Eine Sammlung von[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea) O
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Textbereiche extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+text+areas)
 

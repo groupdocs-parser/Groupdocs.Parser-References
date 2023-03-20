@@ -26,7 +26,7 @@ Un'istanza di[`FileType`](../../../groupdocs.parser.options/filetype) classe;[`U
 
 *detectionMode* Il parametro fornisce la possibilità di controllare il rilevamento del tipo di file:
 
-* **Predefinito** . Il tipo di file viene rilevato dall'estensione del file; se l'estensione del file non viene riconosciuta, il tipo di file viene rilevato dal contenuto del file.
+* **Predefinito** Il tipo di file viene rilevato dall'estensione del file; se l'estensione del file non viene riconosciuta, il tipo di file viene rilevato dal contenuto del file.
 * **Estensione** .Il tipo di file viene rilevato solo dall'estensione del file.
 * **Contenuto** . Il tipo di file viene rilevato solo dal contenuto del file.
 

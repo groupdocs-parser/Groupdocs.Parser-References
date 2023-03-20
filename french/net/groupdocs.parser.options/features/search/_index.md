@@ -3,7 +3,7 @@ title: Search
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Obtient la valeur qui indique si la recherche de texte est prise en charge.
 type: docs
-weight: 110
+weight: 130
 url: /fr/net/groupdocs.parser.options/features/search/
 ---
 ## Features.Search property
@@ -16,7 +16,7 @@ public bool Search { get; }
 
 ### Return_Value
 
-`vrai` si la recherche de texte est prise en charge ; Par ailleurs,`faux`.
+`vrai` si la recherche de texte est prise en charge ; sinon,`FAUX`.
 
 ### Voir également
 

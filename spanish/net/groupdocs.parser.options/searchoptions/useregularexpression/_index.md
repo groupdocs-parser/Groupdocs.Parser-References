@@ -16,7 +16,7 @@ public bool UseRegularExpression { get; }
 
 ### El valor de la propiedad
 
-`verdadero` si se utiliza una expresión regular; de lo contrario,`falso`.
+`verdadero` si se utiliza una expresión regular; de lo contrario,`FALSO`.
 
 ### Ver también
 

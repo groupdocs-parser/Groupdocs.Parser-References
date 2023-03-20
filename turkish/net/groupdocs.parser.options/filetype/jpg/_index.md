@@ -1,14 +1,14 @@
 ---
 title: JPG
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: JPG kayıplı sıkıştırma yöntemi kullanılarak kaydedilen bir resim biçimi türüdür. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/jpeg/ .
+description: JPG kayıplı sıkıştırma yöntemi kullanılarak kaydedilen bir resim biçimi türüdür. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/jpeg/ .
 type: docs
 weight: 320
 url: /tr/net/groupdocs.parser.options/filetype/jpg/
 ---
 ## FileType.JPG field
 
-JPG, kayıplı sıkıştırma yöntemi kullanılarak kaydedilen bir resim biçimi türüdür. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/jpeg/) .
+JPG, kayıplı sıkıştırma yöntemi kullanılarak kaydedilen bir resim biçimi türüdür. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/jpeg/) .
 
 ```csharp
 public static readonly FileType JPG;

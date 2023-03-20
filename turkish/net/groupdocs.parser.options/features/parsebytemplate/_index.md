@@ -3,7 +3,7 @@ title: ParseByTemplate
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Şablona göre ayrıştırmanın desteklenip desteklenmediğini gösteren değeri alır.
 type: docs
-weight: 90
+weight: 100
 url: /tr/net/groupdocs.parser.options/features/parsebytemplate/
 ---
 ## Features.ParseByTemplate property
@@ -16,7 +16,7 @@ public bool ParseByTemplate { get; }
 
 ### Geri dönüş değeri
 
-`doğru` şablona göre ayrıştırma destekleniyorsa; aksi halde,`yanlış`.
+`doğru` şablona göre ayrıştırma destekleniyorsa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

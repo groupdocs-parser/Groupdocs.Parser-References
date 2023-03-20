@@ -16,7 +16,7 @@ public bool IsLineLimited { get; }
 
 ### Geri dönüş değeri
 
-`doğru`vurgu çıkarma, bir metin satırının başlangıcı (veya sonu) ile sınırlıysa; aksi halde,`yanlış`.
+`doğru` vurgu çıkarma, bir metin satırının başlangıcı (veya sonu) ile sınırlıysa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

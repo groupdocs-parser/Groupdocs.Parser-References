@@ -3,7 +3,7 @@ title: Tables
 second_title: Referencia de API de GroupDocs.Parser para .NET
 description: Obtiene el valor que indica si se admite la extracción de tablas.
 type: docs
-weight: 130
+weight: 150
 url: /es/net/groupdocs.parser.options/features/tables/
 ---
 ## Features.Tables property
@@ -16,7 +16,7 @@ public bool Tables { get; }
 
 ### Valor_devuelto
 
-`verdadero` si se admite la extracción de tablas; de lo contrario,`falso`.
+`verdadero` si se admite la extracción de tablas; de lo contrario,`FALSO`.
 
 ### Ver también
 

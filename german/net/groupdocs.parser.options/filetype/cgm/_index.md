@@ -1,14 +1,14 @@
 ---
 title: CGM
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: Computer Graphics Metafile CGM ist ein kostenloses plattformunabhängiges Metafile Standardformat zum Speichern und Austauschen von Vektorgrafiken 2D Rastergrafiken und Text. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/pagedescriptionlanguage/cgm/ .
+description: Computer Graphics Metafile CGM ist ein kostenloses plattformunabhängiges Metafile Standardformat zum Speichern und Austauschen von Vektorgrafiken 2D Rastergrafiken und Text. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/pagedescriptionlanguage/cgm/ .
 type: docs
 weight: 30
 url: /de/net/groupdocs.parser.options/filetype/cgm/
 ---
 ## FileType.CGM field
 
-Computer Graphics Metafile (CGM) ist ein kostenloses, plattformunabhängiges Metafile -Standardformat zum Speichern und Austauschen von Vektorgrafiken (2D), Rastergrafiken und Text. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/page-description-language/cgm/) .
+Computer Graphics Metafile (CGM) ist ein kostenloses, plattformunabhängiges Metafile -Standardformat zum Speichern und Austauschen von Vektorgrafiken (2D), Rastergrafiken und Text. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/page-description-language/cgm/) .
 
 ```csharp
 public static readonly FileType CGM;

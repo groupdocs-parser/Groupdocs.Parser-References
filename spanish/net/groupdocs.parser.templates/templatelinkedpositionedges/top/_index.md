@@ -16,7 +16,7 @@ public bool Top { get; }
 
 ### El valor de la propiedad
 
-`verdadero` si se busca un campo por la parte superior del campo vinculado; de lo contrario,`falso`.
+`verdadero` si se busca un campo por la parte superior del campo vinculado; de lo contrario,`FALSO`.
 
 ### Ver también
 

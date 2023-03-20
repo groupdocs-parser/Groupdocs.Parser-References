@@ -60,7 +60,7 @@ El valor del campo "remitente".
 
 El valor del campo "a".
 
-**tema**
+**sujeto**
 
 El valor del campo "asunto".
 

@@ -3,7 +3,7 @@ title: ILogger
 second_title: GroupDocs.Parser für .NET-API-Referenz
 description: Definiert die Schnittstelle eines Loggers der zum Protokollieren von Ereignissen und Fehlern während der Datenextraktion verwendet wird.
 type: docs
-weight: 420
+weight: 440
 url: /de/net/groupdocs.parser.options/ilogger/
 ---
 ## ILogger interface
@@ -24,7 +24,7 @@ public interface ILogger
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Protokollierung](https://docs.groupdocs.com/display/parsernet/Logging)
 

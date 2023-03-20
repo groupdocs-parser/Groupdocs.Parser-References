@@ -3,7 +3,7 @@ title: IsFeatureSupported
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Özelliğin desteklenip desteklenmediğini gösteren değeri döndürür.
 type: docs
-weight: 180
+weight: 200
 url: /tr/net/groupdocs.parser.options/features/isfeaturesupported/
 ---
 ## Features.IsFeatureSupported method
@@ -20,7 +20,7 @@ public bool IsFeatureSupported(string featureName)
 
 ### Geri dönüş değeri
 
-`doğru` özellik destekleniyorsa; aksi halde,`yanlış`.
+`doğru` özellik destekleniyorsa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

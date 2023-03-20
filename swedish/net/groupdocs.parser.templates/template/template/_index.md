@@ -16,7 +16,7 @@ public Template(IEnumerable<TemplateItem> items)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| items | IEnumerable`1 | Samlingen av[`TemplateItem`](../../templateitem)objekt. |
+| items | IEnumerable`1 | Samlingen av[`TemplateItem`](../../templateitem)föremål. |
 
 ### Exempel
 

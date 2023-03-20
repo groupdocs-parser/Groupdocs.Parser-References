@@ -16,7 +16,7 @@ public bool UseRegularExpression { get; }
 
 ### Eigentumswert
 
-`Stimmt` wenn ein regulärer Ausdruck verwendet wird; Andernfalls,`FALSCH`.
+`WAHR` wenn ein regulärer Ausdruck verwendet wird; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

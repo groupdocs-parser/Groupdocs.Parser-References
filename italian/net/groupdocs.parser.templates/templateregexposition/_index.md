@@ -3,7 +3,7 @@ title: TemplateRegexPosition
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Fornisce una posizione nel campo del modello che utilizza lespressione regolare.
 type: docs
-weight: 680
+weight: 730
 url: /it/net/groupdocs.parser.templates/templateregexposition/
 ---
 ## TemplateRegexPosition class

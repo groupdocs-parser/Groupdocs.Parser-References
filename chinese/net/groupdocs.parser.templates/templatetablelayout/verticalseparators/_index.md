@@ -1,14 +1,14 @@
 ---
 title: VerticalSeparators
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取表格列分隔符
+description: 获取表列分隔符
 type: docs
 weight: 40
 url: /zh/net/groupdocs.parser.templates/templatetablelayout/verticalseparators/
 ---
 ## TemplateTableLayout.VerticalSeparators property
 
-获取表格列分隔符。
+获取表列分隔符。
 
 ```csharp
 public IList<double> VerticalSeparators { get; }
@@ -16,7 +16,7 @@ public IList<double> VerticalSeparators { get; }
 
 ### 适当的价值
 
-表示表格列分隔符的 x 坐标的 double 值的集合。
+表示表列分隔符的 x 坐标的双精度值的集合。
 
 ### 也可以看看
 

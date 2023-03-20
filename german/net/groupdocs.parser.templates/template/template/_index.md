@@ -20,7 +20,7 @@ public Template(IEnumerable<TemplateItem> items)
 
 ### Beispiele
 
-Verwendungszweck:
+Verwendung:
 
 ```csharp
 // Erstellen Sie ein Array von Vorlagenfeldern

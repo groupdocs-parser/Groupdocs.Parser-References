@@ -276,7 +276,7 @@ IEnumerable<ContainerItem> emails = parser.GetContainer();
 
 ---
 
-## Parser(string) {#constructor_7}
+## Parser(string) {#constructor_8}
 
 Initierar en ny instans av[`Parser`](../../parser) class.
 
@@ -320,7 +320,7 @@ using (Parser parser = new Parser(filePath))
 
 ---
 
-## Parser(string, LoadOptions) {#constructor_8}
+## Parser(string, LoadOptions) {#constructor_9}
 
 Initierar en ny instans av[`Parser`](../../parser) klass med[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) .
 
@@ -380,7 +380,29 @@ catch (InvalidPasswordException)
 
 ---
 
-## Parser(string, LoadOptions, ParserSettings) {#constructor_9}
+## Parser(string, ParserSettings) {#constructor_11}
+
+Initierar en ny instans av[`Parser`](../../parser) klass med[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
+
+```csharp
+public Parser(string filePath, ParserSettings parserSettings)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| filePath | String | Sökvägen till filen. |
+| parserSettings | ParserSettings | Parserinställningarna som används för att anpassa dataextraktion. |
+
+### Se även
+
+* class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
+* class [Parser](../../parser)
+* namnutrymme [GroupDocs.Parser](../../parser)
+* hopsättning [GroupDocs.Parser](../../../)
+
+---
+
+## Parser(string, LoadOptions, ParserSettings) {#constructor_10}
 
 Initierar en ny instans av[`Parser`](../../parser) klass med[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) och[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
 
@@ -582,6 +604,28 @@ catch (InvalidPasswordException)
 ### Se även
 
 * class [LoadOptions](../../../groupdocs.parser.options/loadoptions)
+* class [Parser](../../parser)
+* namnutrymme [GroupDocs.Parser](../../parser)
+* hopsättning [GroupDocs.Parser](../../../)
+
+---
+
+## Parser(Stream, ParserSettings) {#constructor_7}
+
+Initierar en ny instans av[`Parser`](../../parser) klass med[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
+
+```csharp
+public Parser(Stream document, ParserSettings parserSettings)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| document | Stream | Källindataströmmen. |
+| parserSettings | ParserSettings | Parserinställningarna som används för att anpassa dataextraktion. |
+
+### Se även
+
+* class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
 * class [Parser](../../parser)
 * namnutrymme [GroupDocs.Parser](../../parser)
 * hopsättning [GroupDocs.Parser](../../../)

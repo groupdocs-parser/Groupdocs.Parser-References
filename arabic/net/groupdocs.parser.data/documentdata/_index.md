@@ -1,14 +1,14 @@
 ---
 title: DocumentData
 second_title: GroupDocs.Parser لمرجع .NET API
-description: يمثل بيانات المستند. إنها تتكون منFieldData./fielddata الكائنات التي تحتوي على بيانات الحقل من المستند .
+description: يمثل بيانات المستند. إنها تتكون منFieldData./fielddataالكائنات التي تحتوي على بيانات الحقل من المستند .
 type: docs
 weight: 20
 url: /ar/net/groupdocs.parser.data/documentdata/
 ---
 ## DocumentData class
 
-يمثل بيانات المستند. إنها تتكون من[`FieldData`](../fielddata) الكائنات التي تحتوي على بيانات الحقل من المستند .
+يمثل بيانات المستند. إنها تتكون من[`FieldData`](../fielddata)الكائنات التي تحتوي على بيانات الحقل من المستند .
 
 ```csharp
 public class DocumentData : IEnumerable<FieldData>

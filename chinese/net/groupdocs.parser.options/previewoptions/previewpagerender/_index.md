@@ -1,14 +1,14 @@
 ---
 title: PreviewPageRender
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取或设置页面预览渲染信息委托的实例
+description: 获取或设置页面预览呈现信息委托的实例
 type: docs
 weight: 70
 url: /zh/net/groupdocs.parser.options/previewoptions/previewpagerender/
 ---
 ## PreviewOptions.PreviewPageRender property
 
-获取或设置页面预览渲染信息委托的实例。
+获取或设置页面预览呈现信息委托的实例。
 
 ```csharp
 public PreviewPageRender PreviewPageRender { get; set; }

@@ -3,7 +3,7 @@ title: PageAreaOptions
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Sayfa alanlarının çıkarılması için kullanılan seçenekleri sağlar.
 type: docs
-weight: 460
+weight: 510
 url: /tr/net/groupdocs.parser.options/pageareaoptions/
 ---
 ## PageAreaOptions class
@@ -28,7 +28,7 @@ public class PageAreaOptions
 
 ### Notlar
 
-bir örneği[`PageAreaOptions`](../pageareaoptions) sınıf, aşağıdaki yöntemlerde parametresi olarak kullanılır:
+bir örneği[`PageAreaOptions`](../pageareaoptions)sınıf, aşağıdaki yöntemlerde parametresi olarak kullanılır:
 
 * [`GetImages`](../../groupdocs.parser/parser/getimages)
 * [`GetImages`](../../groupdocs.parser/parser/getimages)

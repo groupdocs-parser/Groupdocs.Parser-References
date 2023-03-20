@@ -1,14 +1,14 @@
 ---
 title: XLAM
 second_title: GroupDocs.Parser for .NET API 参考
-description: Excel 2010 和 Excel 2007 的基于 XML 且启用宏的加载项格式 加载项是旨在运行附加代码的补充程序 支持使用 VBA 项目和 Excel 4.0 宏表 .xlm
+description: Excel 2010 和 Excel 2007 的基于 XML 和启用宏的加载项格式 加载项是一种补充程序旨在运行其他代码 支持使用 VBA 项目和 Excel 4.0 宏表 .xlm
 type: docs
 weight: 800
 url: /zh/net/groupdocs.parser.options/filetype/xlam/
 ---
 ## FileType.XLAM field
 
-Excel 2010 和 Excel 2007 的基于 XML 且启用宏的加载项格式。 加载项是旨在运行附加代码的补充程序。 支持使用 VBA 项目和 Excel 4.0 宏表 (.xlm)。
+Excel 2010 和 Excel 2007 的基于 XML 和启用宏的加载项格式。 加载项是一种补充程序，旨在运行其他代码。 支持使用 VBA 项目和 Excel 4.0 宏表 (.xlm)。
 
 ```csharp
 public static readonly FileType XLAM;

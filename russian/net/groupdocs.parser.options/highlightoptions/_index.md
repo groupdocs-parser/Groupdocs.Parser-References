@@ -3,7 +3,7 @@ title: HighlightOptions
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Предоставляет параметры используемые для выделения выделения блок текста вокруг найденного текста в сценариях поиска.
 type: docs
-weight: 400
+weight: 420
 url: /ru/net/groupdocs.parser.options/highlightoptions/
 ---
 ## HighlightOptions class
@@ -18,7 +18,7 @@ public sealed class HighlightOptions
 
 | Имя | Описание |
 | --- | --- |
-| [HighlightOptions](highlightoptions#constructor)(int) | Инициализирует новый экземпляр[`HighlightOptions`](../highlightoptions)class, который используется для извлечения выделения фиксированной длины. |
+| [HighlightOptions](highlightoptions#constructor)(int) | Инициализирует новый экземпляр[`HighlightOptions`](../highlightoptions) class, который используется для извлечения выделения фиксированной длины. |
 | [HighlightOptions](highlightoptions#constructor_1)(int?, bool) | Инициализирует новый экземпляр[`HighlightOptions`](../highlightoptions) класс, который используется для выделения ограниченного строки выделения. |
 | [HighlightOptions](highlightoptions#constructor_2)(int?, int) | Инициализирует новый экземпляр[`HighlightOptions`](../highlightoptions) класс, который используется для выделения выделения с фиксированным количеством слов. |
 | [HighlightOptions](highlightoptions#constructor_3)(int?, int?, bool) | Инициализирует новый экземпляр[`HighlightOptions`](../highlightoptions) класс. |
@@ -35,7 +35,7 @@ public sealed class HighlightOptions
 
 Экземпляр[`HighlightOptions`](../highlightoptions) класс используется как параметр в[`GetHighlight`](../../groupdocs.parser/parser/gethighlight) method. См. примеры использования здесь.
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечение основных моментов](https://docs.groupdocs.com/display/parsernet/Extract+highlights)
 

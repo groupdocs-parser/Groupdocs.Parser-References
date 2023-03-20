@@ -18,16 +18,16 @@ public sealed class PageBarcodeArea : PageArea
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PageBarcodeArea](pagebarcodearea)(string, string, Page, Rectangle) | 初始化[`PageBarcodeArea`](../pagebarcodearea)类. |
+| [PageBarcodeArea](pagebarcodearea)(string, string, Page, Rectangle) | 初始化一个新的实例[`PageBarcodeArea`](../pagebarcodearea)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CodeTypeName](../../groupdocs.parser.data/pagebarcodearea/codetypename) { get; } | 获取条形码类型的名称。 |
+| [CodeTypeName](../../groupdocs.parser.data/pagebarcodearea/codetypename) { get; } | 获取条码类型的名称。 |
 | [Page](../../groupdocs.parser.data/pagearea/page) { get; } | 获取页面索引、页面大小等文档页面信息。 |
 | [Rectangle](../../groupdocs.parser.data/pagearea/rectangle) { get; } | 获取矩形区域。 |
-| [Value](../../groupdocs.parser.data/pagebarcodearea/value) { get; } | 获取条形码值。 |
+| [Value](../../groupdocs.parser.data/pagebarcodearea/value) { get; } | 获取条码值。 |
 
 ### 也可以看看
 

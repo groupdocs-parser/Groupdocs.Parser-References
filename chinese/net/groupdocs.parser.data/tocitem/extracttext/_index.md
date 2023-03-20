@@ -1,14 +1,14 @@
 ---
 title: ExtractText
 second_title: GroupDocs.Parser for .NET API 参考
-description: 从文档中提取文本TocItemgroupdocs.parser.data/tocitem对象指的是.
+description: 从文档中提取文本TocItemgroupdocs.parser.data/tocitem对象引用.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.parser.data/tocitem/extracttext/
 ---
 ## TocItem.ExtractText method
 
-从文档中提取文本[`TocItem`](../../tocitem)对象指的是.
+从文档中提取文本[`TocItem`](../../tocitem)对象引用.
 
 ```csharp
 public virtual TextReader ExtractText()
@@ -16,14 +16,14 @@ public virtual TextReader ExtractText()
 
 ### 返回值
 
-一个实例TextReader类与提取的文本。
+的实例TextReader类与提取的文本。
 
 ### 例子
 
-以下示例如何通过目录项提取文本：
+以下示例如何通过目录中的一项提取文本：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using (Parser parser = new Parser(Constants.SampleDocxWithToc))
 {
     // 获取目录
@@ -36,7 +36,7 @@ using (Parser parser = new Parser(Constants.SampleDocxWithToc))
     // 遍历项目
     foreach (TocItem tocItem in tocItems)
     {
-        // 打印章节文本
+        // 打印章节的文本
         using (TextReader reader = tocItem.ExtractText())
         {
             Console.WriteLine("----");

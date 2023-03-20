@@ -16,7 +16,7 @@ public Point Position { get; }
 
 ### Mülk değeri
 
-bir örneği[`Point`](../../point) dikdörtgen alanın sol üst köşesinin koordinatlarını temsil eden sınıf.
+bir örneği[`Point`](../../point)dikdörtgen alanın sol üst köşesinin koordinatlarını temsil eden sınıf.
 
 ### Ayrıca bakınız
 

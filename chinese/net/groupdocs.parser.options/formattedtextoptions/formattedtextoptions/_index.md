@@ -1,14 +1,14 @@
 ---
 title: FormattedTextOptions
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化FormattedTextOptionsgroupdocs.parser.options/formattedtextoptions类.
+description: 初始化一个新的实例FormattedTextOptionsgroupdocs.parser.options/formattedtextoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.options/formattedtextoptions/formattedtextoptions/
 ---
 ## FormattedTextOptions constructor
 
-初始化[`FormattedTextOptions`](../../formattedtextoptions)类.
+初始化一个新的实例[`FormattedTextOptions`](../../formattedtextoptions)类.
 
 ```csharp
 public FormattedTextOptions(FormattedTextMode mode)
@@ -16,7 +16,7 @@ public FormattedTextOptions(FormattedTextMode mode)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mode | FormattedTextMode | 格式化文本提取模式。 |
+| mode | FormattedTextMode | 格式化文本提取的模式。 |
 
 ### 也可以看看
 

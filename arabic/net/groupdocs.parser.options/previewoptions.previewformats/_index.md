@@ -3,7 +3,7 @@ title: PreviewOptions.PreviewFormats
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يمثل تنسيقات المعاينة المدعومة.
 type: docs
-weight: 530
+weight: 580
 url: /ar/net/groupdocs.parser.options/previewoptions.previewformats/
 ---
 ## PreviewOptions.PreviewFormats enumeration

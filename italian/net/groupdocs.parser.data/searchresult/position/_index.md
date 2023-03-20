@@ -16,7 +16,7 @@ public int Position { get; }
 
 ### Valore della proprietà
 
-Un indice in base zero della posizione iniziale del risultato della ricerca. A seconda di[`SearchByPages`](../../../groupdocs.parser.options/searchoptions/searchbypages)valore della proprietà questo indice parte da l'inizio del documento o l'inizio della pagina del documento.
+Un indice in base zero della posizione iniziale del risultato della ricerca. A seconda di[`SearchByPages`](../../../groupdocs.parser.options/searchoptions/searchbypages) valore della proprietà questo indice parte da l'inizio del documento o l'inizio della pagina del documento.
 
 ### Guarda anche
 

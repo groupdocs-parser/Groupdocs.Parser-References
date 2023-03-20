@@ -3,7 +3,7 @@ title: TemplateItem
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Предоставляет базовый абстрактный класс для элементов шаблона.
 type: docs
-weight: 640
+weight: 690
 url: /ru/net/groupdocs.parser.templates/templateitem/
 ---
 ## TemplateItem class

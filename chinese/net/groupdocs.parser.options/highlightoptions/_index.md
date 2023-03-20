@@ -1,14 +1,14 @@
 ---
 title: HighlightOptions
 second_title: GroupDocs.Parser for .NET API 参考
-description: 提供用于提取突出显示的选项在搜索场景中找到的文本块
+description: 提供用于提取突出显示在搜索场景中找到的文本周围的文本块的选项
 type: docs
-weight: 400
+weight: 420
 url: /zh/net/groupdocs.parser.options/highlightoptions/
 ---
 ## HighlightOptions class
 
-提供用于提取突出显示的选项（在搜索场景中找到的文本块）。
+提供用于提取突出显示（在搜索场景中找到的文本周围的文本块）的选项。
 
 ```csharp
 public sealed class HighlightOptions
@@ -18,24 +18,24 @@ public sealed class HighlightOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [HighlightOptions](highlightoptions#constructor)(int) | 初始化[`HighlightOptions`](../highlightoptions)用于提取固定长度突出显示的类。 |
-| [HighlightOptions](highlightoptions#constructor_1)(int?, bool) | 初始化[`HighlightOptions`](../highlightoptions)用于提取行限制突出显示的类。 |
-| [HighlightOptions](highlightoptions#constructor_2)(int?, int) | 初始化[`HighlightOptions`](../highlightoptions)用于提取具有固定字数的亮点的类。 |
-| [HighlightOptions](highlightoptions#constructor_3)(int?, int?, bool) | 初始化[`HighlightOptions`](../highlightoptions)类. |
+| [HighlightOptions](highlightoptions#constructor)(int) | 初始化一个新的实例[`HighlightOptions`](../highlightoptions)用于提取定长高亮的类. |
+| [HighlightOptions](highlightoptions#constructor_1)(int?, bool) | 初始化一个新的实例[`HighlightOptions`](../highlightoptions)用于提取行限制高亮的类. |
+| [HighlightOptions](highlightoptions#constructor_2)(int?, int) | 初始化一个新的实例[`HighlightOptions`](../highlightoptions)用于提取具有固定字数的突出显示的类。 |
+| [HighlightOptions](highlightoptions#constructor_3)(int?, int?, bool) | 初始化一个新的实例[`HighlightOptions`](../highlightoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsLineLimited](../../groupdocs.parser.options/highlightoptions/islinelimited) { get; } | 获取指示高亮提取是否受文本行开头（或结尾）限制的值。 |
+| [IsLineLimited](../../groupdocs.parser.options/highlightoptions/islinelimited) { get; } | 获取指示突出显示提取是否受文本行的开头（或结尾）限制的值。 |
 | [MaxLength](../../groupdocs.parser.options/highlightoptions/maxlength) { get; } | 获取最大文本长度。 |
 | [WordCount](../../groupdocs.parser.options/highlightoptions/wordcount) { get; } | 获取最大字数。 |
 
 ### 评论
 
-的一个实例[`HighlightOptions`](../highlightoptions)类用作参数 [`GetHighlight`](../../groupdocs.parser/parser/gethighlight)方法. 见那里的用法示例。
+的实例[`HighlightOptions`](../highlightoptions)类在中用作参数 [`GetHighlight`](../../groupdocs.parser/parser/gethighlight) method. 请参阅此处的用法示例。
 
-**学到更多：**
+**了解更多：**
 
 * [提取亮点](https://docs.groupdocs.com/display/parsernet/Extract+highlights)
 

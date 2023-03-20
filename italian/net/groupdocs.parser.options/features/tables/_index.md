@@ -3,7 +3,7 @@ title: Tables
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Ottiene il valore che indica se lestrazione delle tabelle è supportata.
 type: docs
-weight: 130
+weight: 150
 url: /it/net/groupdocs.parser.options/features/tables/
 ---
 ## Features.Tables property
@@ -16,7 +16,7 @@ public bool Tables { get; }
 
 ### Valore di ritorno
 
-`VERO` se l'estrazione delle tabelle è supportata; altrimenti,`falso`.
+`VERO` se l'estrazione delle tabelle è supportata; Altrimenti,`falso`.
 
 ### Guarda anche
 

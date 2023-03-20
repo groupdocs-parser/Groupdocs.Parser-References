@@ -23,7 +23,7 @@ public sealed class HighlightItem
 
 ### Bemerkungen
 
-Eine Instanz von[`HighlightItem`](../highlightitem) Klasse wird als Rückgabewert von verwendet[`GetHighlight`](../../groupdocs.parser/parser/gethighlight) Methode, [`LeftHighlightItem`](../searchresult/lefthighlightitem) und[`RightHighlightItem`](../searchresult/righthighlightitem) properties. Siehe dort die Anwendungsbeispiele.
+Eine Instanz von[`HighlightItem`](../highlightitem) Klasse wird als Rückgabewert von verwendet[`GetHighlight`](../../groupdocs.parser/parser/gethighlight) Methode, [`LeftHighlightItem`](../searchresult/lefthighlightitem) Und[`RightHighlightItem`](../searchresult/righthighlightitem) properties. Siehe dort die Anwendungsbeispiele.
 
 ### Siehe auch
 

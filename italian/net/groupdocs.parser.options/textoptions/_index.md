@@ -3,7 +3,7 @@ title: TextOptions
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Fornisce le opzioni utilizzate per lestrazione del testo.
 type: docs
-weight: 580
+weight: 630
 url: /it/net/groupdocs.parser.options/textoptions/
 ---
 ## TextOptions class
@@ -18,21 +18,25 @@ public sealed class TextOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [TextOptions](textoptions)(bool) | Inizializza una nuova istanza di[`TextOptions`](../textoptions) classe. |
+| [TextOptions](textoptions#constructor)(bool) | Inizializza una nuova istanza di[`TextOptions`](../textoptions) classe. |
+| [TextOptions](textoptions#constructor_1)(bool, bool) | Inizializza una nuova istanza di[`TextOptions`](../textoptions) classe con l'opzione di utilizzo OCR. |
+| [TextOptions](textoptions#constructor_2)(bool, bool, OcrOptions) | Inizializza una nuova istanza di[`TextOptions`](../textoptions) classe con la possibilità di impostare le opzioni OCR. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
+| [OcrOptions](../../groupdocs.parser.options/textoptions/ocroptions) { get; } | Ottiene le opzioni aggiuntive per la funzionalità OCR. |
+| [UseOcr](../../groupdocs.parser.options/textoptions/useocr) { get; } | Ottiene il valore che indica se il connettore OCR viene utilizzato per estrarre un testo. |
 | [UseRawModeIfPossible](../../groupdocs.parser.options/textoptions/userawmodeifpossible) { get; } | Ottiene il valore che indica se viene utilizzata la modalità raw. |
 
 ### Osservazioni
 
-Un'istanza di[`TextOptions`](../textoptions) la classe viene utilizzata come parametro in[`GetText`](../../groupdocs.parser/parser/gettext) e[`GetText`](../../groupdocs.parser/parser/gettext) metodi. Guarda gli esempi di utilizzo qui.
+Un'istanza di[`TextOptions`](../textoptions) la classe viene utilizzata come parametro in[`GetText`](../../groupdocs.parser/parser/gettext) E[`GetText`](../../groupdocs.parser/parser/gettext) metodi. Guarda gli esempi di utilizzo qui.
 
 Viene utilizzato per specificare la modalità raw di estrazione del testo. Un testo in questa modalità viene estratto in modo non accurato ma più veloce rispetto alla modalità standard. Se la modalità raw non supporta il formato del documento, questo parametro viene ignorato e viene utilizzata la modalità standard.
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Estrai il testo in modalità Accurata](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
 * [Estrai il testo in modalità Raw](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Raw+mode)

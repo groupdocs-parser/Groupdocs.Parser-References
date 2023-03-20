@@ -1,14 +1,14 @@
 ---
 title: TAR
 second_title: GroupDocs.Parser لمرجع .NET API
-description: الملفات ذات الامتداد .tar هي أرشيفات تم إنشاؤها باستخدام أداة مساعدة تستند إلى Unix لتجميع ملف واحد أو أكثر . تعرف على المزيد حول تنسيق الملف هذا هناhttps//wiki.fileformat.com/compression/tar/ .
+description: الملفات ذات الامتداد .tar هي أرشيفات تم إنشاؤها باستخدام الأداة المساعدة المستندة إلى Unix لتجميع ملف واحد أو أكثر . تعرف على المزيد حول تنسيق الملف هذا هناhttps//wiki.fileformat.com/compression/tar/ .
 type: docs
 weight: 690
 url: /ar/net/groupdocs.parser.options/filetype/tar/
 ---
 ## FileType.TAR field
 
-الملفات ذات الامتداد .tar هي أرشيفات تم إنشاؤها باستخدام أداة مساعدة تستند إلى Unix لتجميع ملف واحد أو أكثر . تعرف على المزيد حول تنسيق الملف هذا [هنا](https://wiki.fileformat.com/compression/tar/) .
+الملفات ذات الامتداد .tar هي أرشيفات تم إنشاؤها باستخدام الأداة المساعدة المستندة إلى Unix لتجميع ملف واحد أو أكثر . تعرف على المزيد حول تنسيق الملف هذا [هنا](https://wiki.fileformat.com/compression/tar/) .
 
 ```csharp
 public static readonly FileType TAR;

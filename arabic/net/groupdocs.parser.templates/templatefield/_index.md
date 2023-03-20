@@ -3,7 +3,7 @@ title: TemplateField
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يوفر حقل نص النموذج .
 type: docs
-weight: 620
+weight: 670
 url: /ar/net/groupdocs.parser.templates/templatefield/
 ---
 ## TemplateField class

@@ -16,7 +16,7 @@ public bool? HasMergedCells { get; }
 
 ### El valor de la propiedad
 
-`verdadero` si la tabla tiene celdas combinadas; de lo contrario,`falso` .`nulo` si no está configurado.
+`verdadero` si la tabla tiene celdas combinadas; de lo contrario,`FALSO` .`nulo` si no está configurado.
 
 ### Ver también
 

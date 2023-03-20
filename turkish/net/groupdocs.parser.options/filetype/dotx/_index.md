@@ -1,14 +1,14 @@
 ---
 title: DOTX
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: DOTX uzantılı dosyalar daha fazla DOCX dosyası oluşturmak için önceden biçimlendirilmiş ayarlara sahip olmak üzere Microsoft Word tarafından oluşturulan şablon dosyalarıdır. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/wordprocessing/dotx/ .
+description: DOTX uzantılı dosyalar daha fazla DOCX dosyası oluşturmak için önceden biçimlendirilmiş ayarlara sahip olmak üzere Microsoft Word tarafından oluşturulan şablon dosyalarıdır. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/wordprocessing/dotx/ .
 type: docs
 weight: 140
 url: /tr/net/groupdocs.parser.options/filetype/dotx/
 ---
 ## FileType.DOTX field
 
-DOTX uzantılı dosyalar, daha fazla DOCX dosyası oluşturmak için önceden biçimlendirilmiş ayarlara sahip olmak üzere Microsoft Word tarafından oluşturulan şablon dosyalarıdır. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/word-processing/dotx/) .
+DOTX uzantılı dosyalar, daha fazla DOCX dosyası oluşturmak için önceden biçimlendirilmiş ayarlara sahip olmak üzere Microsoft Word tarafından oluşturulan şablon dosyalarıdır. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/word-processing/dotx/) .
 
 ```csharp
 public static readonly FileType DOTX;

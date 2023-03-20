@@ -276,7 +276,7 @@ IEnumerable<ContainerItem> emails = parser.GetContainer();
 
 ---
 
-## Parser(string) {#constructor_7}
+## Parser(string) {#constructor_8}
 
 يقوم بتهيئة مثيل جديد لملف[`Parser`](../../parser) فئة .
 
@@ -320,7 +320,7 @@ using (Parser parser = new Parser(filePath))
 
 ---
 
-## Parser(string, LoadOptions) {#constructor_8}
+## Parser(string, LoadOptions) {#constructor_9}
 
 يقوم بتهيئة مثيل جديد لملف[`Parser`](../../parser) فئة مع[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) .
 
@@ -380,7 +380,29 @@ catch (InvalidPasswordException)
 
 ---
 
-## Parser(string, LoadOptions, ParserSettings) {#constructor_9}
+## Parser(string, ParserSettings) {#constructor_11}
+
+يقوم بتهيئة مثيل جديد لملف[`Parser`](../../parser) فئة مع[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
+
+```csharp
+public Parser(string filePath, ParserSettings parserSettings)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| filePath | String | مسار الملف. |
+| parserSettings | ParserSettings | إعدادات المحلل اللغوي المستخدمة لتخصيص استخراج البيانات. |
+
+### أنظر أيضا
+
+* class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
+* class [Parser](../../parser)
+* مساحة الاسم [GroupDocs.Parser](../../parser)
+* المجسم [GroupDocs.Parser](../../../)
+
+---
+
+## Parser(string, LoadOptions, ParserSettings) {#constructor_10}
 
 يقوم بتهيئة مثيل جديد لملف[`Parser`](../../parser) فئة مع[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) و[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
 
@@ -408,7 +430,7 @@ public Parser(string filePath, LoadOptions loadOptions, ParserSettings parserSet
 يوضح المثال التالي كيفية تلقي المعلومات عبر[`ILogger`](../../../groupdocs.parser.options/ilogger) واجهه المستخدم:
 
 ```csharp
-// محاولة
+// يحاول
 {
     // إنشاء مثيل لفئة المسجل
     Logger logger = new Logger();
@@ -532,7 +554,7 @@ public Parser(Stream document, LoadOptions loadOptions)
 
 في بعض الحالات ، من الضروري تحديد[`FileFormat`](../../../groupdocs.parser.options/fileformat). لكل من الحالات الخاصة (قواعد البيانات وخادم البريد الإلكتروني) وللكشف عن أنواع الملفات حسب المحتوى:
 
-تم تمرير كلمة مرور المستند[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) صف دراسي:
+تم تمرير كلمة مرور المستند[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) فصل:
 
 ```csharp
 // إنشاء مثيل لفئة Parser لمستند markdown
@@ -588,6 +610,28 @@ catch (InvalidPasswordException)
 
 ---
 
+## Parser(Stream, ParserSettings) {#constructor_7}
+
+يقوم بتهيئة مثيل جديد لملف[`Parser`](../../parser) فئة مع[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
+
+```csharp
+public Parser(Stream document, ParserSettings parserSettings)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| document | Stream | دفق إدخال المصدر. |
+| parserSettings | ParserSettings | إعدادات المحلل اللغوي المستخدمة لتخصيص استخراج البيانات. |
+
+### أنظر أيضا
+
+* class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
+* class [Parser](../../parser)
+* مساحة الاسم [GroupDocs.Parser](../../parser)
+* المجسم [GroupDocs.Parser](../../../)
+
+---
+
 ## Parser(Stream, LoadOptions, ParserSettings) {#constructor_6}
 
 يقوم بتهيئة مثيل جديد لملف[`Parser`](../../parser) فئة مع[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) و[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
@@ -616,7 +660,7 @@ public Parser(Stream document, LoadOptions loadOptions, ParserSettings parserSet
 يوضح المثال التالي كيفية تلقي المعلومات عبر[`ILogger`](../../../groupdocs.parser.options/ilogger) واجهه المستخدم:
 
 ```csharp
-// محاولة
+// يحاول
 {
     // إنشاء مثيل لفئة المسجل
     Logger logger = new Logger();

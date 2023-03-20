@@ -26,7 +26,7 @@ Une collection de[`FieldData`](../../fielddata) objets; collection vide si aucun
 
 Rechercher des champs par nom de champ :
 
-[`FieldData`](../../fielddata) la classe représente les données de champ. Selon le domaine[`PageArea`](../../fielddata/pagearea) propriété peut contenir n'importe lequel des héritiers de[`PageArea`](../../pagearea) classer. Par exemple,[`ParseForm`](../../../groupdocs.parser/parser/parseform) method extrait uniquement les champs de texte.
+[`FieldData`](../../fielddata) la classe représente les données de champ. Selon le domaine[`PageArea`](../../fielddata/pagearea) propriété peut contenir n'importe lequel des héritiers de[`PageArea`](../../pagearea) classe. Par exemple,[`ParseForm`](../../../groupdocs.parser/parser/parseform) method extrait uniquement les champs de texte.
 
 ```csharp
 // Récupère tous les champs avec le nom "Adresse"

@@ -50,7 +50,7 @@ Un'istanza di[`PageTextArea`](../pagetextarea) class viene utilizzata come valor
 
 Anche un'istanza di[`PageTextArea`](../pagetextarea) la classe viene utilizzata come valore di[`PageArea`](../fielddata/pagearea) proprietà.
 
-Vedi gli esempi di utilizzo qui.
+Vedi gli esempi di utilizzo lì.
 
 L'area di testo può essere singola o composita. Nel primo caso contiene un testo delimitato da un'area rettangolare. Nel secondo caso contiene altre aree di testo; le proprietà del testo e della tabella sono calcolate dalle aree di testo figlio.
 

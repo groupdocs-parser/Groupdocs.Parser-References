@@ -3,7 +3,7 @@ title: PageTextAreaOptions
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Fornisce le opzioni utilizzate per lestrazione delle aree di testo della pagina.
 type: docs
-weight: 500
+weight: 550
 url: /it/net/groupdocs.parser.options/pagetextareaoptions/
 ---
 ## PageTextAreaOptions class
@@ -18,9 +18,11 @@ public sealed class PageTextAreaOptions : PageAreaOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [PageTextAreaOptions](pagetextareaoptions#constructor)(string) | Inizializza una nuova istanza di[`PageTextAreaOptions`](../pagetextareaoptions) class con l'espressione regolare. Altre opzioni sono impostate per impostazione predefinita (vedere le note per i dettagli). |
-| [PageTextAreaOptions](pagetextareaoptions#constructor_2)(string, Rectangle) | Inizializza una nuova istanza di[`PageTextAreaOptions`](../pagetextareaoptions) class con l'espressione regolare e l'area rettangolare. Altre opzioni sono impostate per impostazione predefinita (vedere le note per i dettagli). |
-| [PageTextAreaOptions](pagetextareaoptions#constructor_1)(string, bool, bool, bool, Rectangle) | Inizializza una nuova istanza di[`PageTextAreaOptions`](../pagetextareaoptions) classe. |
+| [PageTextAreaOptions](pagetextareaoptions#constructor)(bool) | Inizializza una nuova istanza di[`PageTextAreaOptions`](../pagetextareaoptions) classe con l'opzione di utilizzo OCR. |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_2)(string) | Inizializza una nuova istanza di[`PageTextAreaOptions`](../pagetextareaoptions) class con l'espressione regolare. Altre opzioni sono impostate per impostazione predefinita (vedere le note per i dettagli). |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_1)(bool, OcrOptions) | Inizializza una nuova istanza di[`PageTextAreaOptions`](../pagetextareaoptions) classe con la possibilità di impostare le opzioni OCR. |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_4)(string, Rectangle) | Inizializza una nuova istanza di[`PageTextAreaOptions`](../pagetextareaoptions) class con l'espressione regolare e l'area rettangolare. Altre opzioni sono impostate per impostazione predefinita (vedere le note per i dettagli). |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_3)(string, bool, bool, bool, Rectangle) | Inizializza una nuova istanza di[`PageTextAreaOptions`](../pagetextareaoptions) classe. |
 
 ## Proprietà
 
@@ -29,12 +31,14 @@ public sealed class PageTextAreaOptions : PageAreaOptions
 | [Expression](../../groupdocs.parser.options/pagetextareaoptions/expression) { get; } | Ottiene l'espressione regolare. |
 | [IgnoreFormatting](../../groupdocs.parser.options/pagetextareaoptions/ignoreformatting) { get; } | Ottiene il valore che indica se la formattazione del testo viene ignorata. |
 | [MatchCase](../../groupdocs.parser.options/pagetextareaoptions/matchcase) { get; } | Ottiene il valore che indica se un caso di testo non viene ignorato. |
+| [OcrOptions](../../groupdocs.parser.options/pagetextareaoptions/ocroptions) { get; } | Ottiene le opzioni aggiuntive per la funzionalità OCR. |
 | [Rectangle](../../groupdocs.parser.options/pageareaoptions/rectangle) { get; } | Ottiene l'area rettangolare che contiene le aree della pagina. |
 | [UniteSegments](../../groupdocs.parser.options/pagetextareaoptions/unitesegments) { get; } | Ottiene il valore che indica se i segmenti sono uniti. |
+| [UseOcr](../../groupdocs.parser.options/pagetextareaoptions/useocr) { get; } | Ottiene il valore che indica se la funzionalità OCR viene utilizzata per estrarre le aree di testo. |
 
 ### Osservazioni
 
-Un'istanza di[`PageTextAreaOptions`](../pagetextareaoptions) la classe viene utilizzata come parametro in[`GetTextAreas`](../../groupdocs.parser/parser/gettextareas) e[`GetTextAreas`](../../groupdocs.parser/parser/gettextareas) metodi. Vedi gli esempi di utilizzo qui. **Scopri di più:**
+Un'istanza di[`PageTextAreaOptions`](../pagetextareaoptions) la classe viene utilizzata come parametro in[`GetTextAreas`](../../groupdocs.parser/parser/gettextareas) E[`GetTextAreas`](../../groupdocs.parser/parser/gettextareas) metodi. Vedi gli esempi di utilizzo qui. **Saperne di più:**
 
 * [Estrai aree di testo](https://docs.groupdocs.com/display/parsernet/Extract+text+areas)
 

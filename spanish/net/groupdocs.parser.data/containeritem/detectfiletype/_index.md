@@ -26,7 +26,7 @@ una instancia de[`FileType`](../../../groupdocs.parser.options/filetype) clase;[
 
 *detectionMode* El parámetro proporciona la capacidad de controlar la detección del tipo de archivo:
 
-* **Defecto** . El tipo de archivo se detecta por la extensión del archivo; si no se reconoce la extensión del archivo, el contenido del archivo detecta el tipo de archivo.
+* **Por defecto** El tipo de archivo se detecta por la extensión del archivo; si no se reconoce la extensión del archivo, el contenido del archivo detecta el tipo de archivo.
 * **Extensión** .El tipo de archivo solo se detecta por la extensión del archivo.
 * **Contenido** . El tipo de archivo se detecta solo por el contenido del archivo.
 

@@ -3,7 +3,7 @@ title: SearchOptions
 second_title: GroupDocs.Parser für .NET-API-Referenz
 description: Stellt die Optionen bereit die für die Textsuche verwendet werden.
 type: docs
-weight: 560
+weight: 610
 url: /de/net/groupdocs.parser.options/searchoptions/
 ---
 ## SearchOptions class
@@ -20,7 +20,7 @@ public sealed class SearchOptions
 | --- | --- |
 | [SearchOptions](searchoptions#constructor)() | Initialisiert eine neue Instanz von[`SearchOptions`](../searchoptions) Klasse mit Standardwerten. Siehe Bemerkungen für Details. |
 | [SearchOptions](searchoptions#constructor_1)(bool, bool, bool) | Initialisiert eine neue Instanz von[`SearchOptions`](../searchoptions) Klasse, die verwendet wird, um ohne Highlight-Extraktion zu suchen. |
-| [SearchOptions](searchoptions#constructor_2)(bool, bool, bool, bool) | Initialisiert eine neue Instanz von[`SearchOptions`](../searchoptions) Klasse, die verwendet wird, um nach Seiten und ohne Highlight-Extraktion zu suchen. |
+| [SearchOptions](searchoptions#constructor_2)(bool, bool, bool, bool) | Initialisiert eine neue Instanz von[`SearchOptions`](../searchoptions)Klasse, die verwendet wird, um nach Seiten und ohne Highlight-Extraktion zu suchen. |
 | [SearchOptions](searchoptions#constructor_4)(bool, bool, bool, HighlightOptions) | Initialisiert eine neue Instanz von[`SearchOptions`](../searchoptions) Klasse, die verwendet wird, um mit denselben Hervorhebungsoptionen für die linke und rechte Hervorhebungsextraktion zu suchen. |
 | [SearchOptions](searchoptions#constructor_5)(bool, bool, bool, HighlightOptions, HighlightOptions) | Initialisiert eine neue Instanz von[`SearchOptions`](../searchoptions) Klasse, die verwendet wird, um mit den Hervorhebungsoptionen für die linke und rechte Hervorhebungsextraktion zu suchen. |
 | [SearchOptions](searchoptions#constructor_3)(bool, bool, bool, bool, HighlightOptions, HighlightOptions) | Initialisiert eine neue Instanz von[`SearchOptions`](../searchoptions) Klasse. |
@@ -40,7 +40,7 @@ public sealed class SearchOptions
 
 Eine Instanz von[`SearchOptions`](../searchoptions) Klasse wird als Parameter in verwendet[`Search`](../../groupdocs.parser/parser/search) Methode. Siehe dort die Anwendungsbeispiele.
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Suchtext](https://docs.groupdocs.com/display/parsernet/Search+text)
 * [Durchsuchen Sie Text in Microsoft Office Word-Dokumenten](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+Word+documents)

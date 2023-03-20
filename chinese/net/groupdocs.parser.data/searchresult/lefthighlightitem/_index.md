@@ -16,7 +16,7 @@ public HighlightItem LeftHighlightItem { get; }
 
 ### 适当的价值
 
-一个实例[`HighlightItem`](../../highlightitem)班级;`无效的`如果没有设置。
+的实例[`HighlightItem`](../../highlightitem)班级;`无效的`如果没有设置。
 
 ### 也可以看看
 

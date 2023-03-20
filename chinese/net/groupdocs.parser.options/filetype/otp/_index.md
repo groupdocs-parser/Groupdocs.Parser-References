@@ -1,14 +1,14 @@
 ---
 title: OTP
 second_title: GroupDocs.Parser for .NET API 参考
-description: 带有 .OTP 扩展名的文件表示由应用程序 以 OASIS OpenDocument 标准格式创建的演示模板文件了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/presentation/otp/.
+description: 扩展名为 .OTP 的文件表示由应用程序 创建的 OASIS OpenDocument 标准格式的演示文稿模板文件详细了解此文件格式 这里https//wiki.fileformat.com/presentation/otp/.
 type: docs
 weight: 460
 url: /zh/net/groupdocs.parser.options/filetype/otp/
 ---
 ## FileType.OTP field
 
-带有 .OTP 扩展名的文件表示由应用程序 以 OASIS OpenDocument 标准格式创建的演示模板文件。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/presentation/otp/).
+扩展名为 .OTP 的文件表示由应用程序 创建的 OASIS OpenDocument 标准格式的演示文稿模板文件。详细了解此文件格式 [这里](https://wiki.fileformat.com/presentation/otp/).
 
 ```csharp
 public static readonly FileType OTP;

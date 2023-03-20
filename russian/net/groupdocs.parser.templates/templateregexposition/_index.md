@@ -3,7 +3,7 @@ title: TemplateRegexPosition
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Предоставляет позицию поля шаблона которая использует регулярное выражение.
 type: docs
-weight: 680
+weight: 730
 url: /ru/net/groupdocs.parser.templates/templateregexposition/
 ---
 ## TemplateRegexPosition class

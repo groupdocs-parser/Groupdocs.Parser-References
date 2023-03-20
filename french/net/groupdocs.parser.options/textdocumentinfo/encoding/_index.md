@@ -16,7 +16,7 @@ public Encoding Encoding { get; }
 
 ### Valeur de la propriété
 
-Un exemple deEncoding classer.
+Un exemple deEncoding classe.
 
 ### Voir également
 

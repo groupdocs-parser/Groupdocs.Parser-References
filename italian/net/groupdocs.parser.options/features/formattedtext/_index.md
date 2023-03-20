@@ -16,7 +16,7 @@ public bool FormattedText { get; }
 
 ### Valore di ritorno
 
-`VERO` se l'estrazione del testo formattato è supportata; altrimenti,`falso`.
+`VERO` se l'estrazione del testo formattato è supportata; Altrimenti,`falso`.
 
 ### Guarda anche
 

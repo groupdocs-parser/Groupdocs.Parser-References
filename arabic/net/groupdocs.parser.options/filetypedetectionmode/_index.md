@@ -3,7 +3,7 @@ title: FileTypeDetectionMode
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يحدد وضع الكشف عن نوع الملف.
 type: docs
-weight: 370
+weight: 390
 url: /ar/net/groupdocs.parser.options/filetypedetectionmode/
 ---
 ## FileTypeDetectionMode enumeration

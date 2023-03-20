@@ -3,7 +3,7 @@ title: TemplateRegexPosition
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Normal ifadeyi kullanan bir şablon alanı konumu sağlar.
 type: docs
-weight: 680
+weight: 730
 url: /tr/net/groupdocs.parser.templates/templateregexposition/
 ---
 ## TemplateRegexPosition class

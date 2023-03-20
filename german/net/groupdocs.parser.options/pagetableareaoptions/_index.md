@@ -3,7 +3,7 @@ title: PageTableAreaOptions
 second_title: GroupDocs.Parser für .NET-API-Referenz
 description: Stellt die Optionen bereit die zum Extrahieren von Seitentabellenbereichen verwendet werden.
 type: docs
-weight: 490
+weight: 540
 url: /de/net/groupdocs.parser.options/pagetableareaoptions/
 ---
 ## PageTableAreaOptions class
@@ -29,7 +29,7 @@ public sealed class PageTableAreaOptions : PageAreaOptions
 
 ### Bemerkungen
 
-Eine Instanz von[`PageTableAreaOptions`](../pagetableareaoptions) Klasse wird als Parameter in verwendet[`GetTables`](../../groupdocs.parser/parser/gettables) und[`GetTables`](../../groupdocs.parser/parser/gettables) Methoden. Siehe dort die Anwendungsbeispiele.
+Eine Instanz von[`PageTableAreaOptions`](../pagetableareaoptions) Klasse wird als Parameter in verwendet[`GetTables`](../../groupdocs.parser/parser/gettables) Und[`GetTables`](../../groupdocs.parser/parser/gettables) Methoden. Siehe dort die Anwendungsbeispiele.
 
 ### Siehe auch
 

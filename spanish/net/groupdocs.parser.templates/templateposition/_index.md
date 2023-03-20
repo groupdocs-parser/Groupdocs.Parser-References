@@ -3,7 +3,7 @@ title: TemplatePosition
 second_title: Referencia de API de GroupDocs.Parser para .NET
 description: Proporciona una clase abstracta base para posiciones de plantilla.
 type: docs
-weight: 670
+weight: 720
 url: /es/net/groupdocs.parser.templates/templateposition/
 ---
 ## TemplatePosition class

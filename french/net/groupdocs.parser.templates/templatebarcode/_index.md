@@ -3,7 +3,7 @@ title: TemplateBarcode
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Fournit le champ du modèle de codebarres.
 type: docs
-weight: 610
+weight: 660
 url: /fr/net/groupdocs.parser.templates/templatebarcode/
 ---
 ## TemplateBarcode class

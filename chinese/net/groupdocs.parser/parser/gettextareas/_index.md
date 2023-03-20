@@ -16,11 +16,11 @@ public IEnumerable<PageTextArea> GetTextAreas()
 
 ### 返回值
 
-集合[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea)对象; `无效的`如果不支持文本区域提取。
+的集合[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea)对象； `无效的`如果不支持文本区域提取。
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [提取文本区域](https://docs.groupdocs.com/display/parsernet/Extract+text+areas)
 
@@ -29,7 +29,7 @@ public IEnumerable<PageTextArea> GetTextAreas()
 以下示例显示如何从整个文档中提取所有文本区域：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using(Parser parser = new Parser(filePath))
 {
     // 提取文本区域
@@ -73,11 +73,11 @@ public IEnumerable<PageTextArea> GetTextAreas(PageTextAreaOptions options)
 
 ### 返回值
 
-集合[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea)对象; `无效的`如果不支持文本区域提取。
+的集合[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea)对象； `无效的`如果不支持文本区域提取。
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [提取文本区域](https://docs.groupdocs.com/display/parsernet/Extract+text+areas)
 
@@ -86,7 +86,7 @@ public IEnumerable<PageTextArea> GetTextAreas(PageTextAreaOptions options)
 以下示例显示如何仅从左上角提取带有数字的文本区域：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using(Parser parser = new Parser(filePath))
 {
     // 创建用于文本区域提取的选项
@@ -134,20 +134,20 @@ public IEnumerable<PageTextArea> GetTextAreas(int pageIndex)
 
 ### 返回值
 
-集合[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea)对象; `无效的`如果不支持文本区域提取。
+的集合[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea)对象； `无效的`如果不支持文本区域提取。
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [提取文本区域](https://docs.groupdocs.com/display/parsernet/Extract+text+areas)
 
 ### 例子
 
-要从文档页面中提取文本区域，请使用以下方法：
+要从文档页面中提取文本区域，使用以下方法：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using(Parser parser = new Parser(filePath))
 {
     // 检查文档是否支持文本区域提取
@@ -169,14 +169,14 @@ using(Parser parser = new Parser(filePath))
     // 遍历页面
     for(int pageIndex = 0; pageIndex<documentInfo.PageCount; pageIndex++)
     {
-        //打印页码 
+        // 打印页码 
         Console.WriteLine(string.Format("Page {0}/{1}", pageIndex + 1, documentInfo.PageCount));
  
         // 遍历页面文本区域
         // 我们忽略空值检查，因为我们之前已经检查过文本区域提取功能支持
         foreach(PageTextArea a in parser.GetTextAreas(pageIndex))
         {
-            // 打印一个矩形和文本区域的值：
+            // 打印矩形和文本区域值：
             Console.WriteLine(string.Format("R: {0}, Text: {1}", a.Rectangle, a.Text));
         }
     }
@@ -207,11 +207,11 @@ public IEnumerable<PageTextArea> GetTextAreas(int pageIndex, PageTextAreaOptions
 
 ### 返回值
 
-集合[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea)对象; `无效的`如果不支持文本区域提取。
+的集合[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea)对象； `无效的`如果不支持文本区域提取。
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [提取文本区域](https://docs.groupdocs.com/display/parsernet/Extract+text+areas)
 

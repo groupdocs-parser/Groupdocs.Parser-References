@@ -3,7 +3,7 @@ title: Structure
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Obtient la valeur qui indique si lextraction de la structure du texte est prise en charge.
 type: docs
-weight: 120
+weight: 140
 url: /fr/net/groupdocs.parser.options/features/structure/
 ---
 ## Features.Structure property
@@ -16,7 +16,7 @@ public bool Structure { get; }
 
 ### Return_Value
 
-`vrai` si l'extraction de la structure du texte est prise en charge ; Par ailleurs,`faux`.
+`vrai` si l'extraction de la structure du texte est prise en charge ; sinon,`FAUX`.
 
 ### Voir également
 

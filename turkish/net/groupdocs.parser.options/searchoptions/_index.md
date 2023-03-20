@@ -3,7 +3,7 @@ title: SearchOptions
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Metin arama için kullanılan seçenekleri sağlar.
 type: docs
-weight: 560
+weight: 610
 url: /tr/net/groupdocs.parser.options/searchoptions/
 ---
 ## SearchOptions class
@@ -20,7 +20,7 @@ public sealed class SearchOptions
 | --- | --- |
 | [SearchOptions](searchoptions#constructor)() | Yeni bir örneğini başlatır.[`SearchOptions`](../searchoptions) varsayılan değerlere sahip sınıf. Ayrıntılar için açıklamalara bakın. |
 | [SearchOptions](searchoptions#constructor_1)(bool, bool, bool) | Yeni bir örneğini başlatır.[`SearchOptions`](../searchoptions) vurgu çıkarma olmadan aramak için kullanılan sınıf. |
-| [SearchOptions](searchoptions#constructor_2)(bool, bool, bool, bool) | Yeni bir örneğini başlatır.[`SearchOptions`](../searchoptions) vurgu çıkarma olmadan and sayfalarına göre arama yapmak için kullanılan sınıf. |
+| [SearchOptions](searchoptions#constructor_2)(bool, bool, bool, bool) | Yeni bir örneğini başlatır.[`SearchOptions`](../searchoptions)vurgu çıkarma olmadan and sayfalarına göre arama yapmak için kullanılan sınıf. |
 | [SearchOptions](searchoptions#constructor_4)(bool, bool, bool, HighlightOptions) | Yeni bir örneğini başlatır.[`SearchOptions`](../searchoptions) sol ve sağ vurgu çıkarma için aynı vurgulama seçenekleri ile search için kullanılan sınıf. |
 | [SearchOptions](searchoptions#constructor_5)(bool, bool, bool, HighlightOptions, HighlightOptions) | Yeni bir örneğini başlatır.[`SearchOptions`](../searchoptions) sol ve sağ vurgu çıkarma için vurgulama seçenekleriyle öğesini aramak için kullanılan sınıf. |
 | [SearchOptions](searchoptions#constructor_3)(bool, bool, bool, bool, HighlightOptions, HighlightOptions) | Yeni bir örneğini başlatır.[`SearchOptions`](../searchoptions) sınıf. |

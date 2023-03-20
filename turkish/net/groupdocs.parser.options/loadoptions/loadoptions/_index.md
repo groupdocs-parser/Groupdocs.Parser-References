@@ -24,7 +24,7 @@ public LoadOptions()
 
 ## LoadOptions(string) {#constructor_4}
 
-Yeni bir örneğini başlatır.[`LoadOptions`](../../loadoptions)class ile[`FileFormat`](../fileformat) eşittirUnknown ve varsayılan kodlamalar.
+Yeni bir örneğini başlatır.[`LoadOptions`](../../loadoptions) class ile[`FileFormat`](../fileformat) eşittirUnknown ve varsayılan kodlamalar.
 
 ```csharp
 public LoadOptions(string password)
@@ -44,7 +44,7 @@ public LoadOptions(string password)
 
 ## LoadOptions(FileFormat) {#constructor_1}
 
-Yeni bir örneğini başlatır.[`LoadOptions`](../../loadoptions) class ile boş[`Password`](../password) ve varsayılan kodlamalar.
+Yeni bir örneğini başlatır.[`LoadOptions`](../../loadoptions) class ile boş[`Password`](../password)ve varsayılan kodlamalar.
 
 ```csharp
 public LoadOptions(FileFormat fileFormat)

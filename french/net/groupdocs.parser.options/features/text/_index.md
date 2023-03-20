@@ -3,7 +3,7 @@ title: Text
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Obtient la valeur qui indique si lextraction de texte est prise en charge.
 type: docs
-weight: 140
+weight: 160
 url: /fr/net/groupdocs.parser.options/features/text/
 ---
 ## Features.Text property
@@ -16,7 +16,7 @@ public bool Text { get; }
 
 ### Return_Value
 
-`vrai` si l'extraction de texte est prise en charge ; Par ailleurs,`faux`.
+`vrai` si l'extraction de texte est prise en charge ; sinon,`FAUX`.
 
 ### Voir également
 

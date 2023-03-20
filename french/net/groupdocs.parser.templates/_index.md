@@ -21,7 +21,7 @@ L'espace de noms fournit des classes pour créer des modèles pour l'analyse des
 | [TemplateLinkedPositionEdges](./templatelinkedpositionedges) | Fournit les bords du champ lié où le champ de texte est recherché. [`TemplateLinkedPositionEdges`](../groupdocs.parser.templates/templatelinkedpositionedges) est utilisé dans[`TemplateLinkedPosition`](../groupdocs.parser.templates/templatelinkedposition) classe. |
 | [TemplatePosition](./templateposition) | Fournit une classe abstraite de base pour les positions de modèle. |
 | [TemplateRegexPosition](./templateregexposition) | Fournit une position de champ de modèle qui utilise l'expression régulière. |
-| [TemplateTable](./templatetable) | Fournit la table de modèle. |
+| [TemplateTable](./templatetable) | Fournit la table de modèles. |
 | [TemplateTableLayout](./templatetablelayout) | Fournit le modèle de disposition de tableau utilisé par[`TemplateTable`](../groupdocs.parser.templates/templatetable) classe pour définir la position de la table. |
 | [TemplateTableParameters](./templatetableparameters) | Fournit des paramètres pour les algorithmes de détection de table. |
 

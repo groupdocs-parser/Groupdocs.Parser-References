@@ -16,7 +16,7 @@ public bool AutoScale { get; }
 
 ### Valeur de la propriété
 
-`vrai` si[`SearchArea`](../searcharea) est mis à l'échelle par la taille du champ lié ; Par ailleurs,`faux`
+`vrai` si[`SearchArea`](../searcharea) est mis à l'échelle par la taille du champ lié ; sinon,`FAUX`
 
 ### Voir également
 

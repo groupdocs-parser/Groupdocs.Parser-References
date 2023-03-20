@@ -22,7 +22,7 @@ Una raccolta di elementi contenitore; `nullo`se l'estrazione del contenitore non
 
 Per verificare se il formato supporta l'estrazione degli allegati vedere[Formati di documenti supportati](https://docs.groupdocs.com/parser/net/supported-document-formats/) (**Estrarre contenitori e allegati** colonna).
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Estrai dati da allegati e archivi ZIP](https://docs.groupdocs.com/display/parsernet/Extract+data+from+attachments+and+ZIP+archives)
 * [Scorri gli elementi del contenitore](https://docs.groupdocs.com/display/parsernet/Iterate+through+container+items)

@@ -3,7 +3,7 @@ title: FileTypeDetectionMode
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Dosya türü algılama modunu tanımlar.
 type: docs
-weight: 370
+weight: 390
 url: /tr/net/groupdocs.parser.options/filetypedetectionmode/
 ---
 ## FileTypeDetectionMode enumeration

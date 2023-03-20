@@ -26,7 +26,7 @@ Dosya türü desteklendiğinde onu döndürür, aksi takdirde varsayılanı dön
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | Ne zaman atıldı*extension*null veya boş dizedir. |
+| ArgumentException | Ne zaman atıldı*extension* null veya boş dizedir. |
 
 ### Ayrıca bakınız
 

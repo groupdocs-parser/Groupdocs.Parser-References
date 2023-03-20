@@ -16,7 +16,7 @@ public bool FormattedTextPage { get; }
 
 ### Return_Value
 
-`vrai` si l'extraction de page de texte formatée est prise en charge ; Par ailleurs,`faux`.
+`vrai` si l'extraction de page de texte formatée est prise en charge ; sinon,`FAUX`.
 
 ### Voir également
 

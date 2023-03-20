@@ -16,7 +16,7 @@ public bool Barcodes { get; }
 
 ### Return_Value
 
-`vrai` si l'extraction des codes-barres est prise en charge ; Par ailleurs,`faux`.
+`vrai` si l'extraction des codes-barres est prise en charge ; sinon,`FAUX`.
 
 ### Voir également
 

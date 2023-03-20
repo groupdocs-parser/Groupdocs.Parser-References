@@ -3,7 +3,7 @@ title: PageRenderInfo
 second_title: GroupDocs.Parser für .NET-API-Referenz
 description: Stellt die Information dar wie eine Seite gerendert wird.
 type: docs
-weight: 480
+weight: 530
 url: /de/net/groupdocs.parser.options/pagerenderinfo/
 ---
 ## PageRenderInfo class
@@ -39,7 +39,7 @@ public sealed class PageRenderInfo
 
 Einige Dokumente (z. B. Tabellenkalkulationen) können eine Seite nicht als einzelnes Bild wiedergeben. Für diese Dokumente wird eine Seite als Kachelsatz gerendert. Diese Plättchen werden in den rechteckigen Tisch gelegt.
 
-[`RowCount`](./rowcount) und[`ColumnCount`](./columncount) stehen für die Gesamtzahl der Zeilen und Spalten dieser Tabelle. Wenn die Dokumentseite zum Einzelbild gerendert wird, sind diese Eigenschaften gleich 1.
+[`RowCount`](./rowcount) Und[`ColumnCount`](./columncount) stehen für die Gesamtzahl der Zeilen und Spalten dieser Tabelle. Wenn die Dokumentseite zum Einzelbild gerendert wird, sind diese Eigenschaften gleich 1.
 
 ### Siehe auch
 

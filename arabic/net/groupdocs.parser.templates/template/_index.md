@@ -3,7 +3,7 @@ title: Template
 second_title: GroupDocs.Parser لمرجع .NET API
 description: توفير قالب المستند. إنها تتكون منTemplateItem./templateitem الكائنات التي تمثل عناصر القالب مثل حقل النص وتعريفات الجدول.
 type: docs
-weight: 600
+weight: 650
 url: /ar/net/groupdocs.parser.templates/template/
 ---
 ## Template class

@@ -3,7 +3,7 @@ title: TemplateRegexPosition
 second_title: GroupDocs.Parser för .NET API-referens
 description: Tillhandahåller en mallfältposition som använder det reguljära uttrycket.
 type: docs
-weight: 680
+weight: 730
 url: /sv/net/groupdocs.parser.templates/templateregexposition/
 ---
 ## TemplateRegexPosition class

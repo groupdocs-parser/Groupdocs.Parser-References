@@ -3,7 +3,7 @@ title: UniteSegments
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يحصل على القيمة التي تشير إلى ما إذا كانت المقاطع متحدة.
 type: docs
-weight: 50
+weight: 60
 url: /ar/net/groupdocs.parser.options/pagetextareaoptions/unitesegments/
 ---
 ## PageTextAreaOptions.UniteSegments property
@@ -16,7 +16,7 @@ public bool UniteSegments { get; }
 
 ### Property_Value
 
-`حقيقي` إذا كانت الشرائح متحدة ؛ خلاف ذلك،`خاطئة`.
+`حقيقي` إذا كانت الشرائح متحدة ؛ خلاف ذلك،`خطأ شنيع`.
 
 ### أنظر أيضا
 

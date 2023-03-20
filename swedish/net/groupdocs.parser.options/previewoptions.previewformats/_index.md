@@ -3,7 +3,7 @@ title: PreviewOptions.PreviewFormats
 second_title: GroupDocs.Parser för .NET API-referens
 description: Representerar förhandsgranskningsformat som stöds.
 type: docs
-weight: 530
+weight: 580
 url: /sv/net/groupdocs.parser.options/previewoptions.previewformats/
 ---
 ## PreviewOptions.PreviewFormats enumeration

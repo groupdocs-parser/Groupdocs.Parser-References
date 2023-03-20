@@ -29,7 +29,7 @@ public sealed class ContainerItem
 | Nombre | Descripción |
 | --- | --- |
 | [DetectFileType](../../groupdocs.parser.data/containeritem/detectfiletype)(FileTypeDetectionMode) | Detecta un tipo de archivo del elemento contenedor. |
-| [OpenParser](../../groupdocs.parser.data/containeritem/openparser#openparser)() | Crea el[`Parser`](../../groupdocs.parser/parser) objeto para el contenido del artículo. |
+| [OpenParser](../../groupdocs.parser.data/containeritem/openparser#openparser)() | Crea el[`Parser`](../../groupdocs.parser/parser) objeto para el contenido del elemento. |
 | [OpenParser](../../groupdocs.parser.data/containeritem/openparser#openparser_1)(LoadOptions) | Crea el[`Parser`](../../groupdocs.parser/parser) objeto para el contenido del elemento con[`LoadOptions`](../../groupdocs.parser.options/loadoptions) . |
 | [OpenParser](../../groupdocs.parser.data/containeritem/openparser#openparser_2)(LoadOptions, ParserSettings) | Crea el[`Parser`](../../groupdocs.parser/parser) objeto para el contenido del elemento con[`LoadOptions`](../../groupdocs.parser.options/loadoptions) y[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
 | [OpenStream](../../groupdocs.parser.data/containeritem/openstream)() | Abre el flujo del contenido del elemento. |

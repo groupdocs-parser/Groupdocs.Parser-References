@@ -1,14 +1,14 @@
 ---
 title: SEVENZ
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: 7z ist ein Archivierungsformat zum Komprimieren von Dateien und Ordnern mit hoher Komprimierungsrate. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/compression/7z/ .
+description: 7z ist ein Archivierungsformat zum Komprimieren von Dateien und Ordnern mit hoher Komprimierungsrate. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/compression/7z/ .
 type: docs
 weight: 670
 url: /de/net/groupdocs.parser.options/filetype/sevenz/
 ---
 ## FileType.SEVENZ field
 
-7z ist ein Archivierungsformat zum Komprimieren von Dateien und Ordnern mit hoher Komprimierungsrate. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/compression/7z/) .
+7z ist ein Archivierungsformat zum Komprimieren von Dateien und Ordnern mit hoher Komprimierungsrate. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/compression/7z/) .
 
 ```csharp
 public static readonly FileType SEVENZ;

@@ -1,14 +1,14 @@
 ---
 title: Template
 second_title: GroupDocs.Parser for .NET API 参考
-description: 提供文档模板它包括TemplateItem./templateitemobjects 代表模板的项目例如文本字段和表定义
+description: 提供文档模板它包括TemplateItem./templateitemobjects 表示模板的项目例如文本字段和表格定义
 type: docs
-weight: 600
+weight: 650
 url: /zh/net/groupdocs.parser.templates/template/
 ---
 ## Template class
 
-提供文档模板。它包括[`TemplateItem`](../templateitem)objects 代表模板的项目，例如文本字段和表定义。
+提供文档模板。它包括[`TemplateItem`](../templateitem)objects 表示模板的项目，例如文本字段和表格定义。
 
 ```csharp
 public sealed class Template : IEnumerable<TemplateItem>
@@ -18,13 +18,13 @@ public sealed class Template : IEnumerable<TemplateItem>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Template](template)(IEnumerable&lt;TemplateItem&gt;) | 初始化[`Template`](../template)类. |
+| [Template](template)(IEnumerable&lt;TemplateItem&gt;) | 初始化一个新的实例[`Template`](../template)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../groupdocs.parser.templates/template/count) { get; } | 获取模板项的总数。 |
+| [Count](../../groupdocs.parser.templates/template/count) { get; } | 获取模板项总数。 |
 | [Item](../../groupdocs.parser.templates/template/item) { get; } | 通过索引获取模板项。 |
 
 ## 方法
@@ -35,7 +35,7 @@ public sealed class Template : IEnumerable<TemplateItem>
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [使用模板](https://docs.groupdocs.com/display/parsernet/Working+with+templates)
 

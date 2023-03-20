@@ -1,14 +1,14 @@
 ---
 title: ICO
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: I file con estensione ICO sono tipi di file immagine utilizzati come icona per la rappresentazione di unapplicazione su Microsoft Windows. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/image/ico/ .
+description: I file con estensione ICO sono tipi di file immagine utilizzati come icona per la rappresentazione di unapplicazione su Microsoft Windows. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/image/ico/ .
 type: docs
 weight: 250
 url: /it/net/groupdocs.parser.options/filetype/ico/
 ---
 ## FileType.ICO field
 
-I file con estensione ICO sono tipi di file immagine utilizzati come icona per la rappresentazione di un'applicazione su Microsoft Windows. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/image/ico/) .
+I file con estensione ICO sono tipi di file immagine utilizzati come icona per la rappresentazione di un'applicazione su Microsoft Windows. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/image/ico/) .
 
 ```csharp
 public static readonly FileType ICO;

@@ -20,14 +20,14 @@ public IEnumerable<PageTableArea> GetTables(PageTableAreaOptions options)
 
 ### 返回值
 
-集合[`PageTableArea`](../../../groupdocs.parser.data/pagetablearea)对象; `无效的`如果不支持表提取。
+的集合[`PageTableArea`](../../../groupdocs.parser.data/pagetablearea)对象； `无效的`如果不支持表提取.
 
 ### 例子
 
-以下示例展示了如何从整个文档中提取表格：
+以下示例显示如何从整个文档中提取表格：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using (Parser parser = new Parser(filePath))
 {
     // 检查文档是否支持表格提取
@@ -36,11 +36,11 @@ using (Parser parser = new Parser(filePath))
         Console.WriteLine("Document isn't supports tables extraction.");
         return;
     }
-    // 创建表格布局
+    // 创建表的布局
     TemplateTableLayout layout = new TemplateTableLayout(
         new double[] { 50, 95, 275, 415, 485, 545 },
         new double[] { 325, 340, 365, 395 });
-    // 创建表格提取的选项
+    // 创建用于表提取的选项
     PageTableAreaOptions options = new PageTableAreaOptions(layout);
     // 从文档中提取表格
     IEnumerable<PageTableArea> tables = parser.GetTables(options);
@@ -57,7 +57,7 @@ using (Parser parser = new Parser(filePath))
                 PageTableAreaCell cell = t[row, column];
                 if (cell != null)
                 {
-                    //打印表格单元格文本
+                    // 打印表格单元格文本
                     Console.Write(cell.Text);
                     Console.Write(" | ");
                 }
@@ -94,14 +94,14 @@ public IEnumerable<PageTableArea> GetTables(int pageIndex, PageTableAreaOptions 
 
 ### 返回值
 
-集合[`PageTableArea`](../../../groupdocs.parser.data/pagetablearea)对象; `无效的`如果不支持表提取。
+的集合[`PageTableArea`](../../../groupdocs.parser.data/pagetablearea)对象； `无效的`如果不支持表提取.
 
 ### 例子
 
 以下示例显示如何从文档页面中提取表格：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using (Parser parser = new Parser(filePath))
 {
     // 检查文档是否支持表格提取
@@ -110,11 +110,11 @@ using (Parser parser = new Parser(filePath))
         Console.WriteLine("Document isn't supports tables extraction.");
         return;
     }
-    // 创建表格布局
+    // 创建表的布局
     TemplateTableLayout layout = new TemplateTableLayout(
         new double[] { 50, 95, 275, 415, 485, 545 },
         new double[] { 325, 340, 365, 395 });
-    // 创建表格提取的选项
+    // 创建用于表提取的选项
     PageTableAreaOptions options = new PageTableAreaOptions(layout);
     // 获取文档信息
     IDocumentInfo documentInfo = parser.GetDocumentInfo();
@@ -127,7 +127,7 @@ using (Parser parser = new Parser(filePath))
     // 遍历页面
     for (int pageIndex = 0; pageIndex < documentInfo.PageCount; pageIndex++)
     {
-        //打印页码 
+        // 打印页码 
         Console.WriteLine(string.Format("Page {0}/{1}", pageIndex + 1, documentInfo.PageCount));
         // 从文档页面中提取表格
         IEnumerable<PageTableArea> tables = parser.GetTables(pageIndex, options);
@@ -144,7 +144,7 @@ using (Parser parser = new Parser(filePath))
                     PageTableAreaCell cell = t[row, column];
                     if (cell != null)
                     {
-                        //打印表格单元格文本
+                        // 打印表格单元格文本
                         Console.Write(cell.Text);
                         Console.Write(" | ");
                     }

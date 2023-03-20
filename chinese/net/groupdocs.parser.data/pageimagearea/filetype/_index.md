@@ -1,14 +1,14 @@
 ---
 title: FileType
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取图片的格式
+description: 获取图像的格式
 type: docs
 weight: 20
 url: /zh/net/groupdocs.parser.data/pageimagearea/filetype/
 ---
 ## PageImageArea.FileType property
 
-获取图片的格式
+获取图像的格式。
 
 ```csharp
 public FileType FileType { get; }
@@ -16,7 +16,7 @@ public FileType FileType { get; }
 
 ### 适当的价值
 
-一个实例[`FileType`](../../../groupdocs.parser.options/filetype)表示图像格式的类。
+的实例[`FileType`](../../../groupdocs.parser.options/filetype)表示图像格式的类。
 
 ### 也可以看看
 

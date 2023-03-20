@@ -16,7 +16,7 @@ public bool AutoScale { get; }
 
 ### Eigentumswert
 
-`Stimmt` wenn[`SearchArea`](../searcharea) wird durch die verknüpfte Feldgröße skaliert; Andernfalls,`FALSCH`
+`WAHR` Wenn[`SearchArea`](../searcharea) wird durch die verknüpfte Feldgröße skaliert; ansonsten,`FALSCH`
 
 ### Siehe auch
 

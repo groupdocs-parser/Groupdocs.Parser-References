@@ -3,7 +3,7 @@ title: ParserSettings
 second_title: Referencia de API de GroupDocs.Parser para .NET
 description: Proporciona la configuración que se utiliza para personalizar la extracción de datos.
 type: docs
-weight: 510
+weight: 560
 url: /es/net/groupdocs.parser.options/parsersettings/
 ---
 ## ParserSettings class
@@ -18,13 +18,19 @@ public sealed class ParserSettings
 
 | Nombre | Descripción |
 | --- | --- |
-| [ParserSettings](parsersettings)(ILogger) | Inicializa una nueva instancia del[`ParserSettings`](../parsersettings) clase. |
+| [ParserSettings](parsersettings#constructor)(ExternalResourceHandler) | Inicializa una nueva instancia del[`ParserSettings`](../parsersettings) clase con el controlador de recursos externo. |
+| [ParserSettings](parsersettings#constructor_1)(ILogger) | Inicializa una nueva instancia del[`ParserSettings`](../parsersettings) clase con el logger. |
+| [ParserSettings](parsersettings#constructor_4)(OcrConnectorBase) | Inicializa una nueva instancia del[`ParserSettings`](../parsersettings) clase con el Conector OCR. |
+| [ParserSettings](parsersettings#constructor_2)(ILogger, OcrConnectorBase) | Inicializa una nueva instancia del[`ParserSettings`](../parsersettings) clase con registrador y OCR Connector. |
+| [ParserSettings](parsersettings#constructor_3)(ILogger, OcrConnectorBase, ExternalResourceHandler) | Inicializa una nueva instancia del[`ParserSettings`](../parsersettings) clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
+| [ExternalResourceHandler](../../groupdocs.parser.options/parsersettings/externalresourcehandler) { get; } | Obtiene el controlador de recursos externos. |
 | [Logger](../../groupdocs.parser.options/parsersettings/logger) { get; } | Obtiene el registrador que se utiliza para registrar eventos y errores durante la extracción de datos. |
+| [OcrConnector](../../groupdocs.parser.options/parsersettings/ocrconnector) { get; } | Obtiene el Conector OCR que se utiliza para proporcionar la funcionalidad OCR. |
 
 ### Observaciones
 

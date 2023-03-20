@@ -16,11 +16,11 @@ public PageArea PageArea { get; }
 
 ### 适当的价值
 
-一个实例[`PageArea`](../../pagearea)表示字段值的类。
+的实例[`PageArea`](../../pagearea)表示字段值的类。
 
 ### 例子
 
-取决于字段`PageArea`property 可以包含任何继承者[`PageArea`](../../pagearea)班级。 例如，[`ParseForm`](../../../groupdocs.parser/parser/parseform)方法仅提取文本字段。
+取决于字段`PageArea`property 可以包含的任何继承者[`PageArea`](../../pagearea)班级。 例如，[`ParseForm`](../../../groupdocs.parser/parser/parseform)方法仅提取文本字段。
 
 ```csharp
 // 获取字段数据

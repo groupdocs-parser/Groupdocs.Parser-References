@@ -3,7 +3,7 @@ title: TemplateFixedPosition
 second_title: GroupDocs.Parser für .NET-API-Referenz
 description: Stellt eine Vorlagenfeldposition bereit die durch den rechteckigen Bereich definiert wird.
 type: docs
-weight: 630
+weight: 680
 url: /de/net/groupdocs.parser.templates/templatefixedposition/
 ---
 ## TemplateFixedPosition class

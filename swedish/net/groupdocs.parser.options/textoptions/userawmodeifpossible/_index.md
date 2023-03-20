@@ -3,7 +3,7 @@ title: UseRawModeIfPossible
 second_title: GroupDocs.Parser för .NET API-referens
 description: Får värdet som indikerar om råläget används.
 type: docs
-weight: 20
+weight: 40
 url: /sv/net/groupdocs.parser.options/textoptions/userawmodeifpossible/
 ---
 ## TextOptions.UseRawModeIfPossible property

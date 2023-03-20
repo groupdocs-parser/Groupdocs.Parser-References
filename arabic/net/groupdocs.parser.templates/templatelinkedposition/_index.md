@@ -3,7 +3,7 @@ title: TemplateLinkedPosition
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يوفر موضع حقل نموذج يستخدم الحقل المرتبط.
 type: docs
-weight: 650
+weight: 700
 url: /ar/net/groupdocs.parser.templates/templatelinkedposition/
 ---
 ## TemplateLinkedPosition class

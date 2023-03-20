@@ -3,7 +3,7 @@ title: ReleasePageStream
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: tarafından oluşturulan akışı serbest bırakan bir yöntemi temsil eder.CreatePageStream./createpagestream temsilci.
 type: docs
-weight: 550
+weight: 600
 url: /tr/net/groupdocs.parser.options/releasepagestream/
 ---
 ## ReleasePageStream delegate

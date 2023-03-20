@@ -16,7 +16,7 @@ public bool IsLineLimited { get; }
 
 ### Returvärde
 
-`Sann`om extrahering av markering begränsas av början (eller slutet) av en textrad; annat,`falsk`.
+`Sann` om extrahering av markering begränsas av början (eller slutet) av en textrad; annat,`falsk`.
 
 ### Se även
 

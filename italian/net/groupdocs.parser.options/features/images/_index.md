@@ -16,7 +16,7 @@ public bool Images { get; }
 
 ### Valore di ritorno
 
-`VERO` se l'estrazione delle immagini è supportata; altrimenti,`falso`.
+`VERO` se l'estrazione delle immagini è supportata; Altrimenti,`falso`.
 
 ### Guarda anche
 

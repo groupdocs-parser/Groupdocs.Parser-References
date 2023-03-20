@@ -23,7 +23,7 @@ public sealed class HighlightItem
 
 ### Osservazioni
 
-Un'istanza di[`HighlightItem`](../highlightitem) la classe viene utilizzata come valore di ritorno di[`GetHighlight`](../../groupdocs.parser/parser/gethighlight) metodo, [`LeftHighlightItem`](../searchresult/lefthighlightitem) e[`RightHighlightItem`](../searchresult/righthighlightitem) properties. Vedi gli esempi di utilizzo qui.
+Un'istanza di[`HighlightItem`](../highlightitem) la classe viene utilizzata come valore di ritorno di[`GetHighlight`](../../groupdocs.parser/parser/gethighlight) metodo, [`LeftHighlightItem`](../searchresult/lefthighlightitem) E[`RightHighlightItem`](../searchresult/righthighlightitem) properties. Vedi gli esempi di utilizzo qui.
 
 ### Guarda anche
 

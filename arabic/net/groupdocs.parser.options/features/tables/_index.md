@@ -3,7 +3,7 @@ title: Tables
 second_title: GroupDocs.Parser لمرجع .NET API
 description: الحصول على القيمة التي تشير إلى ما إذا كان استخراج الجداول مدعومًا.
 type: docs
-weight: 130
+weight: 150
 url: /ar/net/groupdocs.parser.options/features/tables/
 ---
 ## Features.Tables property
@@ -16,7 +16,7 @@ public bool Tables { get; }
 
 ### قيمة الإرجاع
 
-`حقيقي` إذا تم دعم استخراج الجداول ؛ خلاف ذلك،`خاطئة`.
+`حقيقي` إذا تم دعم استخراج الجداول ؛ خلاف ذلك،`خطأ شنيع`.
 
 ### أنظر أيضا
 

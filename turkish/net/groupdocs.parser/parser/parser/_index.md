@@ -276,7 +276,7 @@ IEnumerable<ContainerItem> emails = parser.GetContainer();
 
 ---
 
-## Parser(string) {#constructor_7}
+## Parser(string) {#constructor_8}
 
 Yeni bir örneğini başlatır.[`Parser`](../../parser) sınıf.
 
@@ -320,7 +320,7 @@ using (Parser parser = new Parser(filePath))
 
 ---
 
-## Parser(string, LoadOptions) {#constructor_8}
+## Parser(string, LoadOptions) {#constructor_9}
 
 Yeni bir örneğini başlatır.[`Parser`](../../parser) ile sınıf[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) .
 
@@ -380,7 +380,29 @@ catch (InvalidPasswordException)
 
 ---
 
-## Parser(string, LoadOptions, ParserSettings) {#constructor_9}
+## Parser(string, ParserSettings) {#constructor_11}
+
+Yeni bir örneğini başlatır.[`Parser`](../../parser) ile sınıf[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
+
+```csharp
+public Parser(string filePath, ParserSettings parserSettings)
+```
+
+| Parametre | Tip | Tanım |
+| --- | --- | --- |
+| filePath | String | Dosyanın yolu. |
+| parserSettings | ParserSettings | Veri ayıklamayı özelleştirmek için kullanılan ayrıştırıcı ayarları. |
+
+### Ayrıca bakınız
+
+* class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
+* class [Parser](../../parser)
+* ad alanı [GroupDocs.Parser](../../parser)
+* toplantı [GroupDocs.Parser](../../../)
+
+---
+
+## Parser(string, LoadOptions, ParserSettings) {#constructor_10}
 
 Yeni bir örneğini başlatır.[`Parser`](../../parser) ile sınıf[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) ve[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
 
@@ -582,6 +604,28 @@ catch (InvalidPasswordException)
 ### Ayrıca bakınız
 
 * class [LoadOptions](../../../groupdocs.parser.options/loadoptions)
+* class [Parser](../../parser)
+* ad alanı [GroupDocs.Parser](../../parser)
+* toplantı [GroupDocs.Parser](../../../)
+
+---
+
+## Parser(Stream, ParserSettings) {#constructor_7}
+
+Yeni bir örneğini başlatır.[`Parser`](../../parser) ile sınıf[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
+
+```csharp
+public Parser(Stream document, ParserSettings parserSettings)
+```
+
+| Parametre | Tip | Tanım |
+| --- | --- | --- |
+| document | Stream | Kaynak giriş akışı. |
+| parserSettings | ParserSettings | Veri ayıklamayı özelleştirmek için kullanılan ayrıştırıcı ayarları. |
+
+### Ayrıca bakınız
+
+* class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
 * class [Parser](../../parser)
 * ad alanı [GroupDocs.Parser](../../parser)
 * toplantı [GroupDocs.Parser](../../../)

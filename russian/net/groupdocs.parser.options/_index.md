@@ -18,6 +18,8 @@ url: /ru/net/groupdocs.parser.options/
 | [EmailEwsConnection](./emailewsconnection) | Представляет информацию о подключении электронной почты для протокола EWS. |
 | [EmailImapConnection](./emailimapconnection) | Представляет информацию о подключении к электронной почте для протокола IMAP. |
 | [EmailPopConnection](./emailpopconnection) | Представляет информацию о подключении электронной почты для протокола POP. |
+| [ExternalResourceHandler](./externalresourcehandler) | Предоставляет обработчик загрузки внешних ресурсов. |
+| [ExternalResourceLoadingArgs](./externalresourceloadingargs) | Предоставляет данные для[`OnLoading`](../groupdocs.parser.options/externalresourcehandler/onloading) метод. |
 | [Features](./features) | Представляет список поддерживаемых функций. Позволяет получить информацию о том, какие функции поддерживаются или нет для документа. |
 | [FileInfo](./fileinfo) | Представляет информацию о файле. |
 | [FileType](./filetype) | Представляет тип файла. Предоставляет методы для получения списка всех типов файлов, поддерживаемых**GroupDocs.Парсер** . |
@@ -25,6 +27,9 @@ url: /ru/net/groupdocs.parser.options/
 | [HighlightOptions](./highlightoptions) | Предоставляет параметры, используемые для выделения выделения (блок текста вокруг найденного текста в сценариях поиска). |
 | [ImageOptions](./imageoptions) | Предоставляет параметры, используемые для извлечения изображения. |
 | [LoadOptions](./loadoptions) | Предоставляет параметры, используемые для открытия файла. |
+| [OcrConnectorBase](./ocrconnectorbase) | Обеспечивает функциональность OCR. |
+| [OcrEventHandler](./ocreventhandler) | Предоставляет обработчик событий OCR. |
+| [OcrOptions](./ocroptions) | Предоставляет параметры, используемые для OCR Connector. |
 | [PageAreaOptions](./pageareaoptions) | Предоставляет параметры, используемые для извлечения областей страницы. |
 | [PageInfo](./pageinfo) | Представляет информацию о странице документа. |
 | [PageRenderInfo](./pagerenderinfo) | Представляет информацию о том, как отображается страница. |

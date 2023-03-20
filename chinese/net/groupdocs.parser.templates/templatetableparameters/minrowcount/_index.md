@@ -1,14 +1,14 @@
 ---
 title: MinRowCount
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取表行的最小数量
+description: 获取表格行数的最小值
 type: docs
 weight: 40
 url: /zh/net/groupdocs.parser.templates/templatetableparameters/minrowcount/
 ---
 ## TemplateTableParameters.MinRowCount property
 
-获取表行的最小数量。
+获取表格行数的最小值。
 
 ```csharp
 public int? MinRowCount { get; }
@@ -16,7 +16,7 @@ public int? MinRowCount { get; }
 
 ### 适当的价值
 
-一个整数值，表示表格行的最小数量；`无效的`如果没有设置。
+一个整数值，表示表的最小行数；`无效的`如果没有设置。
 
 ### 也可以看看
 

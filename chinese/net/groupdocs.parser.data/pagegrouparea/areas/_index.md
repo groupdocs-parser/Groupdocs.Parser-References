@@ -16,7 +16,7 @@ public IEnumerable<PageArea> Areas { get; }
 
 ### 适当的价值
 
-一个集合[`PageArea`](../../pagearea)对象。
+的集合[`PageArea`](../../pagearea)对象。
 
 ### 也可以看看
 

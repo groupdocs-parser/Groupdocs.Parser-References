@@ -3,7 +3,7 @@ title: TextAreas
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Metin alanları çıkarmanın desteklenip desteklenmediğini gösteren değeri alır.
 type: docs
-weight: 150
+weight: 170
 url: /tr/net/groupdocs.parser.options/features/textareas/
 ---
 ## Features.TextAreas property
@@ -16,7 +16,7 @@ public bool TextAreas { get; }
 
 ### Geri dönüş değeri
 
-`doğru` metin alanları çıkarma destekleniyorsa; aksi halde,`yanlış`.
+`doğru` metin alanları çıkarma destekleniyorsa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

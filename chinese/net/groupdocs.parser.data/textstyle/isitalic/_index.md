@@ -1,14 +1,14 @@
 ---
 title: IsItalic
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取指示字体是否为斜体的值
+description: 获取一个值该值指示字体是否为斜体
 type: docs
 weight: 50
 url: /zh/net/groupdocs.parser.data/textstyle/isitalic/
 ---
 ## TextStyle.IsItalic property
 
-获取指示字体是否为斜体的值。
+获取一个值，该值指示字体是否为斜体。
 
 ```csharp
 public bool IsItalic { get; }

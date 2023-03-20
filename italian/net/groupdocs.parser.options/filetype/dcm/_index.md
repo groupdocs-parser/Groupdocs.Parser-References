@@ -1,14 +1,14 @@
 ---
 title: DCM
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: I file con estensione .DCM rappresentano unimmagine digitale che memorizza informazioni mediche di pazienti come risonanze magnetiche scansioni TC e immagini ecografiche. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/image/dcm/ .
+description: I file con estensione .DCM rappresentano unimmagine digitale che memorizza informazioni mediche di pazienti come risonanze magnetiche scansioni TC e immagini ecografiche. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/image/dcm/ .
 type: docs
 weight: 60
 url: /it/net/groupdocs.parser.options/filetype/dcm/
 ---
 ## FileType.DCM field
 
-I file con estensione .DCM rappresentano un'immagine digitale che memorizza informazioni mediche di pazienti come risonanze magnetiche, scansioni TC e immagini ecografiche. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/image/dcm/) .
+I file con estensione .DCM rappresentano un'immagine digitale che memorizza informazioni mediche di pazienti come risonanze magnetiche, scansioni TC e immagini ecografiche. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/image/dcm/) .
 
 ```csharp
 public static readonly FileType DCM;

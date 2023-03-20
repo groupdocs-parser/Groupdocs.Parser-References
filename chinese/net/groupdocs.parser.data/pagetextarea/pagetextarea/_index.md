@@ -1,14 +1,14 @@
 ---
 title: PageTextArea
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化PageTextAreagroupdocs.parser.data/pagetextarea类.
+description: 初始化一个新的实例PageTextAreagroupdocs.parser.data/pagetextarea类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.data/pagetextarea/pagetextarea/
 ---
 ## PageTextArea(string, Page, Rectangle) {#constructor_1}
 
-初始化[`PageTextArea`](../../pagetextarea)类.
+初始化一个新的实例[`PageTextArea`](../../pagetextarea)类.
 
 ```csharp
 public PageTextArea(string text, Page page, Rectangle rectangle)
@@ -16,7 +16,7 @@ public PageTextArea(string text, Page page, Rectangle rectangle)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| text | String | 文本的值。 |
+| text | String | 文字的价值。 |
 | page | Page | 包含文本区域的页面。 |
 | rectangle | Rectangle | 包含文本区域的矩形区域。 |
 
@@ -32,7 +32,7 @@ public PageTextArea(string text, Page page, Rectangle rectangle)
 
 ## PageTextArea(string, double?, TextStyle, Page, Rectangle) {#constructor_2}
 
-初始化[`PageTextArea`](../../pagetextarea)类.
+初始化一个新的实例[`PageTextArea`](../../pagetextarea)类.
 
 ```csharp
 public PageTextArea(string text, double? baseLine, TextStyle textStyle, Page page, 
@@ -41,7 +41,7 @@ public PageTextArea(string text, double? baseLine, TextStyle textStyle, Page pag
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| text | String | 文本的值。 |
+| text | String | 文字的价值。 |
 | baseLine | Nullable`1 | 文本的基线。 |
 | textStyle | TextStyle | 文本的样式。 |
 | page | Page | 包含文本区域的页面。 |
@@ -60,7 +60,7 @@ public PageTextArea(string text, double? baseLine, TextStyle textStyle, Page pag
 
 ## PageTextArea(IEnumerable&lt;PageTextArea&gt;, Page) {#constructor}
 
-初始化[`PageTextArea`](../../pagetextarea)类.
+初始化一个新的实例[`PageTextArea`](../../pagetextarea)类.
 
 ```csharp
 public PageTextArea(IEnumerable<PageTextArea> areas, Page page)

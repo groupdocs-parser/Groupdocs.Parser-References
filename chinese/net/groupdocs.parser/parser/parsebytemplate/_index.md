@@ -20,11 +20,11 @@ public DocumentData ParseByTemplate(Template template)
 
 ### 返回值
 
-的一个实例[`DocumentData`](../../../groupdocs.parser.data/documentdata)包含提取数据的类； `无效的`如果不支持按模板解析。
+的实例[`DocumentData`](../../../groupdocs.parser.data/documentdata)包含提取数据的类； `无效的`如果不支持按模板解析。
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [从文档中解析数据](https://docs.groupdocs.com/display/parsernet/Parse+data+from+documents)
 * [使用模板](https://docs.groupdocs.com/display/parsernet/Working+with+templates)

@@ -16,7 +16,7 @@ public bool IsBold { get; }
 
 ### Return_Value
 
-`vrai` si la police est en gras ; Par ailleurs,`faux`.
+`vrai` si la police est en gras ; sinon,`FAUX`.
 
 ### Voir également
 

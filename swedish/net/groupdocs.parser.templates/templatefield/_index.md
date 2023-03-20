@@ -3,7 +3,7 @@ title: TemplateField
 second_title: GroupDocs.Parser för .NET API-referens
 description: Tillhandahåller malltextfältet.
 type: docs
-weight: 620
+weight: 670
 url: /sv/net/groupdocs.parser.templates/templatefield/
 ---
 ## TemplateField class

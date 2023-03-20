@@ -3,7 +3,7 @@ title: Text
 second_title: GroupDocs.Parser für .NET-API-Referenz
 description: Ruft den Wert ab der angibt ob Textextraktion unterstützt wird.
 type: docs
-weight: 140
+weight: 160
 url: /de/net/groupdocs.parser.options/features/text/
 ---
 ## Features.Text property
@@ -16,7 +16,7 @@ public bool Text { get; }
 
 ### Rückgabewert
 
-`Stimmt` ob Textextraktion unterstützt wird; Andernfalls,`FALSCH`.
+`WAHR` ob Textextraktion unterstützt wird; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

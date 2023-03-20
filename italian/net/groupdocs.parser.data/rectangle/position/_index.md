@@ -16,7 +16,7 @@ public Point Position { get; }
 
 ### Valore della proprietà
 
-Un'istanza di[`Point`](../../point) classe che rappresenta le coordinate dell'angolo superiore sinistro dell'area rettangolare.
+Un'istanza di[`Point`](../../point)classe che rappresenta le coordinate dell'angolo superiore sinistro dell'area rettangolare.
 
 ### Guarda anche
 

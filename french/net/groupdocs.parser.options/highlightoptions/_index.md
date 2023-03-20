@@ -3,7 +3,7 @@ title: HighlightOptions
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Fournit les options utilisées pour extraire une surbrillance un bloc de texte autour du texte trouvé dans les scénarios de recherche.
 type: docs
-weight: 400
+weight: 420
 url: /fr/net/groupdocs.parser.options/highlightoptions/
 ---
 ## HighlightOptions class
@@ -18,7 +18,7 @@ public sealed class HighlightOptions
 
 | Nom | La description |
 | --- | --- |
-| [HighlightOptions](highlightoptions#constructor)(int) | Initialise une nouvelle instance du[`HighlightOptions`](../highlightoptions)classe qui est utilisée pour extraire un surlignage de longueur fixe. |
+| [HighlightOptions](highlightoptions#constructor)(int) | Initialise une nouvelle instance du[`HighlightOptions`](../highlightoptions) classe qui est utilisée pour extraire un surlignage de longueur fixe. |
 | [HighlightOptions](highlightoptions#constructor_1)(int?, bool) | Initialise une nouvelle instance du[`HighlightOptions`](../highlightoptions) classe qui est utilisée pour extraire un surlignage limité en ligne. |
 | [HighlightOptions](highlightoptions#constructor_2)(int?, int) | Initialise une nouvelle instance du[`HighlightOptions`](../highlightoptions) classe qui est utilisée pour extraire un surlignage avec le nombre de mots fixe. |
 | [HighlightOptions](highlightoptions#constructor_3)(int?, int?, bool) | Initialise une nouvelle instance du[`HighlightOptions`](../highlightoptions) classe. |

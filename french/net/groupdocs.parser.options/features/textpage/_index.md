@@ -3,7 +3,7 @@ title: TextPage
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Obtient la valeur qui indique si lextraction de page de texte est prise en charge.
 type: docs
-weight: 160
+weight: 180
 url: /fr/net/groupdocs.parser.options/features/textpage/
 ---
 ## Features.TextPage property
@@ -16,7 +16,7 @@ public bool TextPage { get; }
 
 ### Return_Value
 
-`vrai` si l'extraction de page de texte est prise en charge ; Par ailleurs,`faux`.
+`vrai` si l'extraction de page de texte est prise en charge ; sinon,`FAUX`.
 
 ### Voir également
 

@@ -1,14 +1,14 @@
 ---
 title: DIB
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: Bir DIB Aygıttan Bağımsız Bit Eşlem dosyası yapısında standart Bit eşlem dosyalarına BMP benzer ancak farklı bir başlığa sahip bir raster görüntü dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin buradahttps//wiki.fileformat.com/image/dib/ .
+description: Bir DIB Aygıttan Bağımsız Bit Eşlem dosyası yapısında standart Bit Eşlem dosyalarına BMP benzer ancak farklı bir başlığa sahip bir raster görüntü dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin Buradahttps//wiki.fileformat.com/image/dib/ .
 type: docs
 weight: 70
 url: /tr/net/groupdocs.parser.options/filetype/dib/
 ---
 ## FileType.DIB field
 
-Bir DIB (Aygıttan Bağımsız Bit Eşlem) dosyası, yapısında standart Bit eşlem dosyalarına (BMP) benzer, ancak farklı bir başlığa sahip bir raster görüntü dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin [burada](https://wiki.fileformat.com/image/dib/) .
+Bir DIB (Aygıttan Bağımsız Bit Eşlem) dosyası, yapısında standart Bit Eşlem dosyalarına (BMP) benzer, ancak farklı bir başlığa sahip bir raster görüntü dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin [Burada](https://wiki.fileformat.com/image/dib/) .
 
 ```csharp
 public static readonly FileType DIB;

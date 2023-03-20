@@ -1,14 +1,14 @@
 ---
 title: HighlightOptions
 second_title: GroupDocs.Parser لمرجع .NET API
-description: يقوم بتهيئة مثيل جديد لملفHighlightOptionsgroupdocs.parser.options/highlightoptionsفئة تُستخدم لاستخراج تمييز بطول ثابت.
+description: يقوم بتهيئة مثيل جديد لملفHighlightOptionsgroupdocs.parser.options/highlightoptions فئة تُستخدم لاستخراج تمييز بطول ثابت.
 type: docs
 weight: 10
 url: /ar/net/groupdocs.parser.options/highlightoptions/highlightoptions/
 ---
 ## HighlightOptions(int) {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`HighlightOptions`](../../highlightoptions)فئة تُستخدم لاستخراج تمييز بطول ثابت.
+يقوم بتهيئة مثيل جديد لملف[`HighlightOptions`](../../highlightoptions) فئة تُستخدم لاستخراج تمييز بطول ثابت.
 
 ```csharp
 public HighlightOptions(int maxLength)

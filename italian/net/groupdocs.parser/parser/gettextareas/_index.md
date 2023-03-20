@@ -20,7 +20,7 @@ Una raccolta di[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea) ogg
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Estrai aree di testo](https://docs.groupdocs.com/display/parsernet/Extract+text+areas)
 
@@ -77,7 +77,7 @@ Una raccolta di[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea) ogg
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Estrai aree di testo](https://docs.groupdocs.com/display/parsernet/Extract+text+areas)
 
@@ -138,7 +138,7 @@ Una raccolta di[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea) ogg
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Estrai aree di testo](https://docs.groupdocs.com/display/parsernet/Extract+text+areas)
 
@@ -211,7 +211,7 @@ Una raccolta di[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea) ogg
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Estrai aree di testo](https://docs.groupdocs.com/display/parsernet/Extract+text+areas)
 

@@ -13,11 +13,11 @@ El espacio de nombres proporciona clases que representan los resultados del aná
 | Clase | Descripción |
 | --- | --- |
 | [ContainerItem](./containeritem) | Representa un elemento contenedor como entidad de archivo Zip, archivo adjunto de correo electrónico, elemento de cartera PDF, etc. |
-| [DocumentData](./documentdata) | Representa datos del documento. Consiste en[`FieldData`](../groupdocs.parser.data/fielddata) objects que contienen datos de campo de document. |
+| [DocumentData](./documentdata) | Representa datos del documento. Consiste en[`FieldData`](../groupdocs.parser.data/fielddata)objects que contienen datos de campo de document. |
 | [FieldData](./fielddata) | Representa datos de campo como un nombre, un índice de página, un valor de campo, etc. Según el campo, el valor puede ser un texto, una imagen, una tabla, etc. |
 | [HighlightItem](./highlightitem) | Representa un resaltado, una parte del texto que generalmente se usa para explicar el contexto del texto encontrado en la funcionalidad de búsqueda. |
 | [MetadataItem](./metadataitem) | Representa un elemento de metadatos que se utiliza en los elementos de contenedor y la funcionalidad de extracción de metadatos. |
-| [Page](./page) | Representa la información de la página del documento, como el índice de página y el tamaño de página. Se usa para representar la página que contiene herederos de[`PageArea`](../groupdocs.parser.data/pagearea) class en la función de análisis por plantilla. |
+| [Page](./page) | Representa la información de la página del documento, como el índice de página y el tamaño de página. Se usa para representar la página que contiene herederos de[`PageArea`](../groupdocs.parser.data/pagearea)class en la funcionalidad de análisis por plantilla. |
 | [PageArea](./pagearea) | Representa una clase base abstracta para áreas de página que se utilizan para representar bloques en la página del documento en la funcionalidad de análisis por plantilla. |
 | [PageBarcodeArea](./pagebarcodearea) | Representa un área de código de barras de página que se utiliza para representar un valor de código de barras en la funcionalidad de análisis por plantilla. |
 | [PageGroupArea](./pagegrouparea) | Representa un grupo de áreas de página que se utiliza para agrupar diferentes tipos de bloques de la página del documento en la funcionalidad de análisis por plantilla. |

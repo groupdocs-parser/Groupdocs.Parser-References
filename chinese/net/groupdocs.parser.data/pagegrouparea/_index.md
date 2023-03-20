@@ -1,14 +1,14 @@
 ---
 title: PageGroupArea
 second_title: GroupDocs.Parser for .NET API 参考
-description: 表示一组页面区域 用于在模板解析功能中对文档页面的不同类型的块进行分组
+description: 表示一组页面区域 用于在模板解析功能中对文档页面的不同类型块进行分组
 type: docs
 weight: 90
 url: /zh/net/groupdocs.parser.data/pagegrouparea/
 ---
 ## PageGroupArea class
 
-表示一组页面区域 ，用于在模板解析功能中对文档页面的不同类型的块进行分组。
+表示一组页面区域 ，用于在模板解析功能中对文档页面的不同类型块进行分组。
 
 ```csharp
 public sealed class PageGroupArea : PageArea
@@ -18,7 +18,7 @@ public sealed class PageGroupArea : PageArea
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PageGroupArea](pagegrouparea)(IEnumerable&lt;PageArea&gt;, Page) | 初始化[`PageGroupArea`](../pagegrouparea)类. |
+| [PageGroupArea](pagegrouparea)(IEnumerable&lt;PageArea&gt;, Page) | 初始化一个新的实例[`PageGroupArea`](../pagegrouparea)类. |
 
 ## 特性
 

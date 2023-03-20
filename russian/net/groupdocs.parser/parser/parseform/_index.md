@@ -20,7 +20,7 @@ public DocumentData ParseForm()
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечение данных из форм PDF](https://docs.groupdocs.com/display/parsernet/Extract+data+from+PDF+forms)
 * [Работа с извлеченными данными](https://docs.groupdocs.com/display/parsernet/Working+with+data+extracted+by+template)

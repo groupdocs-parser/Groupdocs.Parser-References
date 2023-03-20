@@ -38,7 +38,7 @@ Un'istanza di[`PageHyperlinkArea`](../pagehyperlinkarea) class viene utilizzata 
 * [`GetHyperlinks`](../../groupdocs.parser/parser/gethyperlinks)
 * [`GetHyperlinks`](../../groupdocs.parser/parser/gethyperlinks)
 
-Vedi gli esempi di utilizzo qui.
+Vedi gli esempi di utilizzo lì.
 
 ### Guarda anche
 

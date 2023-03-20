@@ -1,14 +1,14 @@
 ---
 title: HTM
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: HTM uzantılı dosyalar Google Chrome Internet Explorer Firefox ve diğerleri gibi web tarayıcılarında görüntülenmek üzere web sayfaları oluşturmak için Köprü Metni Biçimlendirme Dilini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin buradahttps//wiki.fileformat.com/web/htm/ .
+description: HTM uzantılı dosyalar Google Chrome Internet Explorer Firefox ve diğerleri gibi web tarayıcılarında görüntülenmek üzere web sayfaları oluşturmak için Köprü Metni Biçimlendirme Dilini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin Buradahttps//wiki.fileformat.com/web/htm/ .
 type: docs
 weight: 230
 url: /tr/net/groupdocs.parser.options/filetype/htm/
 ---
 ## FileType.HTM field
 
-HTM uzantılı dosyalar, Google Chrome, Internet Explorer, Firefox ve diğerleri gibi web tarayıcılarında görüntülenmek üzere web sayfaları oluşturmak için Köprü Metni Biçimlendirme Dilini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin [burada](https://wiki.fileformat.com/web/htm/) .
+HTM uzantılı dosyalar, Google Chrome, Internet Explorer, Firefox ve diğerleri gibi web tarayıcılarında görüntülenmek üzere web sayfaları oluşturmak için Köprü Metni Biçimlendirme Dilini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin [Burada](https://wiki.fileformat.com/web/htm/) .
 
 ```csharp
 public static readonly FileType HTM;

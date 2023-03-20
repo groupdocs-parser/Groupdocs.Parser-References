@@ -24,7 +24,7 @@ public IEnumerable<SearchResult> Search(string keyword)
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Поиск текста](https://docs.groupdocs.com/display/parsernet/Search+text)
 * [Поиск текста в документах Microsoft Office Word](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+Word+documents)
@@ -90,7 +90,7 @@ public IEnumerable<SearchResult> Search(string keyword, SearchOptions options)
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Поиск текста](https://docs.groupdocs.com/display/parsernet/Search+text)
 * [Поиск текста в документах Microsoft Office Word](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+Word+documents)

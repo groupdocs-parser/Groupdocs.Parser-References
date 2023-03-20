@@ -16,7 +16,7 @@ public string Text { get; }
 
 ### Eigentumswert
 
-Ein Zeichenfolgenwert, der einen Wert des Feldtexts darstellt;`Null` wenn[`PageArea`](../pagearea)Eigentum ist es nicht[`PageTextArea`](../../pagetextarea).
+Ein Zeichenfolgenwert, der einen Wert des Feldtexts darstellt;`Null` Wenn[`PageArea`](../pagearea) Eigentum ist es nicht[`PageTextArea`](../../pagetextarea).
 
 ### Siehe auch
 

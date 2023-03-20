@@ -16,7 +16,7 @@ public bool UseRegularExpression { get; }
 
 ### Mülk değeri
 
-`doğru` düzenli bir ifade kullanılıyorsa; aksi halde,`yanlış`.
+`doğru` düzenli bir ifade kullanılıyorsa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

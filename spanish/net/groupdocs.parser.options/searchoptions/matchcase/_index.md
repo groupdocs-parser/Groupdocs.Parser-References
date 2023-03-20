@@ -16,7 +16,7 @@ public bool MatchCase { get; }
 
 ### El valor de la propiedad
 
-`verdadero` si no se ignora un caso de texto; de lo contrario,`falso`.
+`verdadero` si no se ignora un caso de texto; de lo contrario,`FALSO`.
 
 ### Ver también
 

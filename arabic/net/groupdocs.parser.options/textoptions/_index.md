@@ -3,7 +3,7 @@ title: TextOptions
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يوفر الخيارات المستخدمة لاستخراج النص.
 type: docs
-weight: 580
+weight: 630
 url: /ar/net/groupdocs.parser.options/textoptions/
 ---
 ## TextOptions class
@@ -18,12 +18,16 @@ public sealed class TextOptions
 
 | اسم | وصف |
 | --- | --- |
-| [TextOptions](textoptions)(bool) | يقوم بتهيئة مثيل جديد لملف[`TextOptions`](../textoptions) فئة . |
+| [TextOptions](textoptions#constructor)(bool) | يقوم بتهيئة مثيل جديد لملف[`TextOptions`](../textoptions) فئة . |
+| [TextOptions](textoptions#constructor_1)(bool, bool) | يقوم بتهيئة مثيل جديد لملف[`TextOptions`](../textoptions) فئة مع خيار استخدام OCR. |
+| [TextOptions](textoptions#constructor_2)(bool, bool, OcrOptions) | يقوم بتهيئة مثيل جديد لملف[`TextOptions`](../textoptions) فئة مع القدرة على تعيين خيارات OCR. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
+| [OcrOptions](../../groupdocs.parser.options/textoptions/ocroptions) { get; } | يحصل على الخيارات الإضافية لوظيفة OCR . |
+| [UseOcr](../../groupdocs.parser.options/textoptions/useocr) { get; } | الحصول على القيمة التي تشير إلى ما إذا كان موصل OCR يُستخدم لاستخراج نص. |
 | [UseRawModeIfPossible](../../groupdocs.parser.options/textoptions/userawmodeifpossible) { get; } | الحصول على القيمة التي تشير إلى ما إذا كان الوضع الأولي مستخدمًا أم لا. |
 
 ### ملاحظات

@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取条形码值
+description: 获取条码值
 type: docs
 weight: 30
 url: /zh/net/groupdocs.parser.data/pagebarcodearea/value/
 ---
 ## PageBarcodeArea.Value property
 
-获取条形码值。
+获取条码值。
 
 ```csharp
 public string Value { get; }
@@ -16,7 +16,7 @@ public string Value { get; }
 
 ### 适当的价值
 
-一个字符串值，表示条形码页面区域的值。
+表示条形码页面区域值的字符串值。
 
 ### 也可以看看
 

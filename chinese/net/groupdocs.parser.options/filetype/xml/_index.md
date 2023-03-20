@@ -1,14 +1,14 @@
 ---
 title: XML
 second_title: GroupDocs.Parser for .NET API 参考
-description: XML 代表可扩展标记语言它类似于 HTML 但在使用标签定义对象方面有所不同了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/web/xml/.
+description: XML 是Extensible Markup Language 的缩写与HTML 类似但不同的是使用标签来定义对象详细了解此文件格式 这里https//wiki.fileformat.com/web/xml/.
 type: docs
 weight: 880
 url: /zh/net/groupdocs.parser.options/filetype/xml/
 ---
 ## FileType.XML field
 
-XML 代表可扩展标记语言，它类似于 HTML ，但在使用标签定义对象方面有所不同。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/web/xml/).
+XML 是Extensible Markup Language 的缩写，与HTML 类似，但不同的是使用标签来定义对象。详细了解此文件格式 [这里](https://wiki.fileformat.com/web/xml/).
 
 ```csharp
 public static readonly FileType XML;

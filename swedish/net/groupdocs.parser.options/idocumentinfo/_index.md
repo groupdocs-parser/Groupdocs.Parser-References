@@ -3,7 +3,7 @@ title: IDocumentInfo
 second_title: GroupDocs.Parser för .NET API-referens
 description: Representerar dokumentinformationen.
 type: docs
-weight: 410
+weight: 430
 url: /sv/net/groupdocs.parser.options/idocumentinfo/
 ---
 ## IDocumentInfo interface

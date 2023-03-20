@@ -16,7 +16,7 @@ public static IEnumerable<FileType> GetSupportedFileTypes()
 
 ### 返回值
 
-返回支持的文件类型的序列
+返回支持的文件类型序列
 
 ### 也可以看看
 

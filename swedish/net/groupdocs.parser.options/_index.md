@@ -18,6 +18,8 @@ Namnutrymmet tillhandahåller klasser för att ange ytterligare alternativ vid a
 | [EmailEwsConnection](./emailewsconnection) | Representerar e-postanslutningsinformationen för EWS-protokollet. |
 | [EmailImapConnection](./emailimapconnection) | Representerar e-postanslutningsinformationen för IMAP-protokoll. |
 | [EmailPopConnection](./emailpopconnection) | Representerar e-postanslutningsinformationen för POP-protokoll. |
+| [ExternalResourceHandler](./externalresourcehandler) | Tillhandahåller en hanterare för laddning av externa resurser. |
+| [ExternalResourceLoadingArgs](./externalresourceloadingargs) | Tillhandahåller data för[`OnLoading`](../groupdocs.parser.options/externalresourcehandler/onloading) metod. |
 | [Features](./features) | Representerar listan över funktioner som stöds. Tillåter att få information om vilka funktioner som stöds eller inte för dokumentet. |
 | [FileInfo](./fileinfo) | Representerar filinformationen. |
 | [FileType](./filetype) | Representerar filtypen. Ger metoder för att få en lista över alla filtyper som stöds av**GroupDocs.Parser** . |
@@ -25,6 +27,9 @@ Namnutrymmet tillhandahåller klasser för att ange ytterligare alternativ vid a
 | [HighlightOptions](./highlightoptions) | Tillhandahåller alternativen som används för att extrahera en markering (ett block med text med hittad text i sökscenarier). |
 | [ImageOptions](./imageoptions) | Ger alternativen som används för bildextrahering. |
 | [LoadOptions](./loadoptions) | Ger alternativen som används för att öppna en fil. |
+| [OcrConnectorBase](./ocrconnectorbase) | Tillhandahåller OCR-funktionalitet. |
+| [OcrEventHandler](./ocreventhandler) | Tillhandahåller en hanterare för OCR-händelser. |
+| [OcrOptions](./ocroptions) | Ger alternativen som används för OCR Connector. |
 | [PageAreaOptions](./pageareaoptions) | Ger alternativen som används för extrahering av sidområden. |
 | [PageInfo](./pageinfo) | Representerar dokumentsidans information. |
 | [PageRenderInfo](./pagerenderinfo) | Representerar informationen om hur en sida renderas. |

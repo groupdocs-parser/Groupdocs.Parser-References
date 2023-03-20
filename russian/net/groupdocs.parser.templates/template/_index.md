@@ -3,7 +3,7 @@ title: Template
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Предоставляет шаблон документа. Это состоит изTemplateItem./templateitem objects  которые представляют элементы шаблона такие как определения текстового поля и таблицы.
 type: docs
-weight: 600
+weight: 650
 url: /ru/net/groupdocs.parser.templates/template/
 ---
 ## Template class
@@ -35,7 +35,7 @@ public sealed class Template : IEnumerable<TemplateItem>
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Работа с шаблонами](https://docs.groupdocs.com/display/parsernet/Working+with+templates)
 

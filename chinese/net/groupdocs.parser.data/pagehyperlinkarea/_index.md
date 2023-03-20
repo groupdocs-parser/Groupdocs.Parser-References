@@ -18,7 +18,7 @@ public sealed class PageHyperlinkArea : PageArea
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PageHyperlinkArea](pagehyperlinkarea)(string, string, Page, Rectangle) | 初始化[`PageHyperlinkArea`](../pagehyperlinkarea)类. |
+| [PageHyperlinkArea](pagehyperlinkarea)(string, string, Page, Rectangle) | 初始化一个新的实例[`PageHyperlinkArea`](../pagehyperlinkarea)类. |
 
 ## 特性
 
@@ -31,14 +31,14 @@ public sealed class PageHyperlinkArea : PageArea
 
 ### 评论
 
-一个实例[`PageHyperlinkArea`](../pagehyperlinkarea)类用作以下方法的返回值 ：
+的实例[`PageHyperlinkArea`](../pagehyperlinkarea)类用作以下方法的返回值 ：
 
 * [`GetHyperlinks`](../../groupdocs.parser/parser/gethyperlinks)
 * [`GetHyperlinks`](../../groupdocs.parser/parser/gethyperlinks)
 * [`GetHyperlinks`](../../groupdocs.parser/parser/gethyperlinks)
 * [`GetHyperlinks`](../../groupdocs.parser/parser/gethyperlinks)
 
-请参阅那里的用法示例。
+请参阅此处的用法示例。
 
 ### 也可以看看
 

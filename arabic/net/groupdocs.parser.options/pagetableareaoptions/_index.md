@@ -3,7 +3,7 @@ title: PageTableAreaOptions
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يوفر الخيارات المستخدمة لاستخراج مناطق جدول الصفحات.
 type: docs
-weight: 490
+weight: 540
 url: /ar/net/groupdocs.parser.options/pagetableareaoptions/
 ---
 ## PageTableAreaOptions class

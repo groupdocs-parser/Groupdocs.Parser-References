@@ -16,7 +16,7 @@ public bool Images { get; }
 
 ### Valor_devuelto
 
-`verdadero` si se admite la extracción de imágenes; de lo contrario,`falso`.
+`verdadero` si se admite la extracción de imágenes; de lo contrario,`FALSO`.
 
 ### Ver también
 

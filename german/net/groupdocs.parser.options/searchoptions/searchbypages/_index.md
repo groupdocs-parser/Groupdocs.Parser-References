@@ -16,7 +16,7 @@ public bool SearchByPages { get; }
 
 ### Eigentumswert
 
-`Stimmt` wenn die Suche seitenweise durchgeführt wird; Andernfalls,`FALSCH` und die Suche wird im gesamten Dokument ohne Einbeziehung durchgeführt[`PageIndex`](../../../groupdocs.parser.data/searchresult/pageindex) Eigenschaftswert in[`SearchResult`](../../../groupdocs.parser.data/searchresult) Klasse.
+`WAHR` wenn die Suche seitenweise durchgeführt wird; ansonsten,`FALSCH` und die Suche wird im gesamten Dokument ohne Einbeziehung durchgeführt[`PageIndex`](../../../groupdocs.parser.data/searchresult/pageindex) Eigenschaftswert in[`SearchResult`](../../../groupdocs.parser.data/searchresult) Klasse.
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: PreviewOptions
 second_title: GroupDocs.Parser for .NET API 参考
-description: 提供选项来设置预览生成的要求和流代理
+description: 提供选项来设置预览生成的要求和流委托
 type: docs
-weight: 520
+weight: 570
 url: /zh/net/groupdocs.parser.options/previewoptions/
 ---
 ## PreviewOptions class
 
-提供选项来设置预览生成的要求和流代理。
+提供选项来设置预览生成的要求和流委托。
 
 ```csharp
 public class PreviewOptions
@@ -18,8 +18,8 @@ public class PreviewOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PreviewOptions](previewoptions#constructor)(CreatePageStream) | 初始化[`PreviewOptions`](../previewoptions)导致输出流关闭的类。 |
-| [PreviewOptions](previewoptions#constructor_1)(CreatePageStream, ReleasePageStream) | 初始化一个新的实例[`PreviewOptions`](../previewoptions)导致输出流返回到客户端以供进一步使用的类。 |
+| [PreviewOptions](previewoptions#constructor)(CreatePageStream) | 初始化一个新的实例[`PreviewOptions`](../previewoptions)导致输出流关闭的类。 |
+| [PreviewOptions](previewoptions#constructor_1)(CreatePageStream, ReleasePageStream) | 初始化一个新实例[`PreviewOptions`](../previewoptions)导致输出流返回给客户端以供进一步使用的类。 |
 
 ## 特性
 
@@ -30,7 +30,7 @@ public class PreviewOptions
 | [Height](../../groupdocs.parser.options/previewoptions/height) { get; set; } | 获取或设置页面预览高度。 |
 | [PageNumbers](../../groupdocs.parser.options/previewoptions/pagenumbers) { get; set; } | 获取或设置页码数组以生成预览。 |
 | [PreviewFormat](../../groupdocs.parser.options/previewoptions/previewformat) { get; set; } | 获取或设置预览图像格式。 |
-| [PreviewPageRender](../../groupdocs.parser.options/previewoptions/previewpagerender) { get; set; } | 获取或设置页面预览渲染信息委托的实例。 |
+| [PreviewPageRender](../../groupdocs.parser.options/previewoptions/previewpagerender) { get; set; } | 获取或设置页面预览呈现信息委托的实例。 |
 | [ReleasePageStream](../../groupdocs.parser.options/previewoptions/releasepagestream) { get; set; } | 获取或设置页面预览完成委托的实例。 |
 | [Width](../../groupdocs.parser.options/previewoptions/width) { get; set; } | 获取或设置页面预览宽度。 |
 

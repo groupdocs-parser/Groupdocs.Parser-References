@@ -20,7 +20,7 @@ Eine Sammlung von Metadatenelementen; `Null` wenn die Metadatenextraktion nicht 
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Metadaten aus Dokumenten extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+metadata+from+documents)
 * [Extrahieren Sie Metadaten aus Microsoft Office Word-Dokumenten](https://docs.groupdocs.com/display/parsernet/Extract+metadata+from+Microsoft+Office+Word+documents)

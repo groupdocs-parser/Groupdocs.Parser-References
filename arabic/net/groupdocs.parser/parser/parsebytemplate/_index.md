@@ -20,7 +20,7 @@ public DocumentData ParseByTemplate(Template template)
 
 ### قيمة الإرجاع
 
-مثيل[`DocumentData`](../../../groupdocs.parser.data/documentdata) فئة تحتوي على البيانات المستخرجة ؛ `لا شيء` إذا كان التحليل حسب النموذج غير مدعوم.
+مثيل[`DocumentData`](../../../groupdocs.parser.data/documentdata) فئة تحتوي على البيانات المستخرجة ؛ `باطل` إذا كان التحليل حسب النموذج غير مدعوم.
 
 ### ملاحظات
 

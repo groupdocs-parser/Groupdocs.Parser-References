@@ -26,7 +26,7 @@ public sealed class SearchResult
 
 ### Примечания
 
-Экземпляр[`SearchResult`](../searchresult) класс используется как возвращаемое значение из[`Search`](../../groupdocs.parser/parser/search) а также[`Search`](../../groupdocs.parser/parser/search) методы. См. примеры использования здесь.
+Экземпляр[`SearchResult`](../searchresult) класс используется как возвращаемое значение из[`Search`](../../groupdocs.parser/parser/search) и[`Search`](../../groupdocs.parser/parser/search) методы. См. примеры использования здесь.
 
 ### Смотрите также
 

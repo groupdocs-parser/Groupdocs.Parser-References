@@ -16,7 +16,7 @@ public bool Right { get; }
 
 ### Valeur de la propriété
 
-`vrai` si un champ est recherché par la droite à partir du champ lié ; Par ailleurs,`faux`.
+`vrai` si un champ est recherché par la droite à partir du champ lié ; sinon,`FAUX`.
 
 ### Voir également
 

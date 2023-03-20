@@ -18,6 +18,8 @@ Der Namespace stellt Klassen bereit, um zusätzliche Optionen beim Analysieren v
 | [EmailEwsConnection](./emailewsconnection) | Stellt die E-Mail-Verbindungsinformationen für das EWS-Protokoll dar. |
 | [EmailImapConnection](./emailimapconnection) | Stellt die E-Mail-Verbindungsinformationen für das IMAP-Protokoll dar. |
 | [EmailPopConnection](./emailpopconnection) | Stellt die E-Mail-Verbindungsinformationen für das POP-Protokoll dar. |
+| [ExternalResourceHandler](./externalresourcehandler) | Stellt einen Handler für das Laden externer Ressourcen bereit. |
+| [ExternalResourceLoadingArgs](./externalresourceloadingargs) | Liefert die Daten für[`OnLoading`](../groupdocs.parser.options/externalresourcehandler/onloading) Methode. |
 | [Features](./features) | Repräsentiert die Liste der unterstützten Funktionen. Ermöglicht das Abrufen von Informationen, welche Funktionen für das Dokument unterstützt werden oder nicht. |
 | [FileInfo](./fileinfo) | Stellt die Dateiinformationen dar. |
 | [FileType](./filetype) | steht für den Dateityp. Stellt Methoden bereit, um eine Liste aller unterstützten Dateitypen zu erhalten**GroupDocs.Parser** . |
@@ -25,6 +27,9 @@ Der Namespace stellt Klassen bereit, um zusätzliche Optionen beim Analysieren v
 | [HighlightOptions](./highlightoptions) | Stellt die Optionen bereit, die verwendet werden, um eine Hervorhebung (ein Textblock um gefundenen Text in Suchszenarien) zu extrahieren. |
 | [ImageOptions](./imageoptions) | Stellt die Optionen bereit, die für die Bildextraktion verwendet werden. |
 | [LoadOptions](./loadoptions) | Stellt die Optionen bereit, die zum Öffnen einer Datei verwendet werden. |
+| [OcrConnectorBase](./ocrconnectorbase) | Stellt die OCR-Funktion bereit. |
+| [OcrEventHandler](./ocreventhandler) | Stellt einen Handler für OCR-Ereignisse bereit. |
+| [OcrOptions](./ocroptions) | Stellt die Optionen bereit, die für OCR Connector verwendet werden. |
 | [PageAreaOptions](./pageareaoptions) | Stellt die Optionen bereit, die zum Extrahieren von Seitenbereichen verwendet werden. |
 | [PageInfo](./pageinfo) | Stellt die Seiteninformationen des Dokuments dar. |
 | [PageRenderInfo](./pagerenderinfo) | Stellt die Information dar, wie eine Seite gerendert wird. |

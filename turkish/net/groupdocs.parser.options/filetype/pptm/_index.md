@@ -1,14 +1,14 @@
 ---
 title: PPTM
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: PPTM uzantılı dosyalar Microsoft PowerPoint 2007 veya daha yüksek sürümlerle oluşturulan Makro özellikli Sunum dosyalarıdır. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/presentation/pptm/ .
+description: PPTM uzantılı dosyalar Microsoft PowerPoint 2007 veya daha yüksek sürümlerle oluşturulan Makro özellikli Sunum dosyalarıdır. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/presentation/pptm/ .
 type: docs
 weight: 600
 url: /tr/net/groupdocs.parser.options/filetype/pptm/
 ---
 ## FileType.PPTM field
 
-PPTM uzantılı dosyalar, Microsoft PowerPoint 2007 veya daha yüksek sürümlerle oluşturulan Makro özellikli Sunum dosyalarıdır. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/presentation/pptm/) .
+PPTM uzantılı dosyalar, Microsoft PowerPoint 2007 veya daha yüksek sürümlerle oluşturulan Makro özellikli Sunum dosyalarıdır. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/presentation/pptm/) .
 
 ```csharp
 public static readonly FileType PPTM;

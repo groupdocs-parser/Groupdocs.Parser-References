@@ -3,7 +3,7 @@ title: Toc
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Obtient la valeur qui indique si lextraction de la table des matières est prise en charge.
 type: docs
-weight: 170
+weight: 190
 url: /fr/net/groupdocs.parser.options/features/toc/
 ---
 ## Features.Toc property
@@ -16,7 +16,7 @@ public bool Toc { get; }
 
 ### Return_Value
 
-`vrai` si l'extraction de la table des matières est prise en charge ; Par ailleurs,`faux`.
+`vrai` si l'extraction de la table des matières est prise en charge ; sinon,`FAUX`.
 
 ### Voir également
 

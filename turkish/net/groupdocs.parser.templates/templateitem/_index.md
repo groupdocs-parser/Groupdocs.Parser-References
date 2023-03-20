@@ -3,7 +3,7 @@ title: TemplateItem
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Şablon öğeleri için bir temel soyut sınıf sağlar.
 type: docs
-weight: 640
+weight: 690
 url: /tr/net/groupdocs.parser.templates/templateitem/
 ---
 ## TemplateItem class

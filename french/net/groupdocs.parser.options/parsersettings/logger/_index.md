@@ -3,7 +3,7 @@ title: Logger
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Obtient lenregistreur utilisé pour consigner les événements et les erreurs lors de lextraction des données.
 type: docs
-weight: 20
+weight: 30
 url: /fr/net/groupdocs.parser.options/parsersettings/logger/
 ---
 ## ParserSettings.Logger property

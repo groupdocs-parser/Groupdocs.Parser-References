@@ -18,6 +18,8 @@ Lo spazio dei nomi fornisce classi per specificare opzioni aggiuntive durante l'
 | [EmailEwsConnection](./emailewsconnection) | Rappresenta le informazioni sulla connessione e-mail per il protocollo EWS. |
 | [EmailImapConnection](./emailimapconnection) | Rappresenta le informazioni sulla connessione e-mail per il protocollo IMAP. |
 | [EmailPopConnection](./emailpopconnection) | Rappresenta le informazioni sulla connessione e-mail per il protocollo POP. |
+| [ExternalResourceHandler](./externalresourcehandler) | Fornisce un gestore per il caricamento delle risorse esterne. |
+| [ExternalResourceLoadingArgs](./externalresourceloadingargs) | Fornisce i dati per[`OnLoading`](../groupdocs.parser.options/externalresourcehandler/onloading) metodo. |
 | [Features](./features) | Rappresenta l'elenco delle funzionalità supportate. Consente di ottenere informazioni sulle funzionalità supportate o meno per il documento. |
 | [FileInfo](./fileinfo) | Rappresenta le informazioni sul file. |
 | [FileType](./filetype) | Rappresenta il tipo di file. Fornisce metodi per ottenere l'elenco di tutti i tipi di file supportati da**GroupDocs.Parser** . |
@@ -25,6 +27,9 @@ Lo spazio dei nomi fornisce classi per specificare opzioni aggiuntive durante l'
 | [HighlightOptions](./highlightoptions) | Fornisce le opzioni utilizzate per estrarre un evidenziato (un blocco di testo attorno al testo trovato negli scenari di ricerca). |
 | [ImageOptions](./imageoptions) | Fornisce le opzioni utilizzate per l'estrazione dell'immagine. |
 | [LoadOptions](./loadoptions) | Fornisce le opzioni utilizzate per aprire un file. |
+| [OcrConnectorBase](./ocrconnectorbase) | Fornisce la funzionalità OCR. |
+| [OcrEventHandler](./ocreventhandler) | Fornisce un gestore per gli eventi OCR. |
+| [OcrOptions](./ocroptions) | Fornisce le opzioni utilizzate per OCR Connector. |
 | [PageAreaOptions](./pageareaoptions) | Fornisce le opzioni utilizzate per l'estrazione delle aree della pagina. |
 | [PageInfo](./pageinfo) | Rappresenta le informazioni sulla pagina del documento. |
 | [PageRenderInfo](./pagerenderinfo) | Rappresenta le informazioni su come viene visualizzata una pagina. |

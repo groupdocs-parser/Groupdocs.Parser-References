@@ -20,16 +20,16 @@ public Stream GetImageStream()
 
 ### 例子
 
-以下示例显示如何将图像保存到文件：
+以下示例显示了如何将图像保存到文件：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using (Parser parser = new Parser(filePath))
 {
     // 从文档中提取图像
     IEnumerable<PageImageArea> images = parser.GetImages();
     
-    // 检查是否支持图像提取
+    // 检查是否支持图片提取
     if (images == null)
     {
         Console.WriteLine("Page images extraction isn't supported");
@@ -39,10 +39,10 @@ using (Parser parser = new Parser(filePath))
     // 遍历图像
     foreach (PageImageArea image in images)
     {
-        // 打开图片流
+        // 打开图像流
         using (Stream imageStream = image.GetImageStream())
         {
-            // 创建保存图片的文件
+            // 创建文件保存图片
             using (Stream destStream = File.Create(Guid.NewGuid().ToString() + image.FileType.Extension))
             {
                 byte[] buffer = new byte[4096];
@@ -55,7 +55,7 @@ using (Parser parser = new Parser(filePath))
 
                     if (readed > 0)
                     {
-                        // 将数据写入文件流
+                        // 向文件流中写入数据
                         destStream.Write(buffer, 0, readed);
                     }
                 }
@@ -95,29 +95,29 @@ public Stream GetImageStream(ImageOptions options)
 以下示例显示了如何将图像保存到不同格式的文件中：
 
 ```csharp
-// 创建 Parser 类的实例
+// 创建解析器类的实例
 using (Parser parser = new Parser(filePath))
 {
     // 从文档中提取图像
     IEnumerable<PageImageArea> images = parser.GetImages();
     
-    // 检查是否支持图像提取
+    // 检查是否支持图片提取
     if (images == null)
     {
         Console.WriteLine("Page images extraction isn't supported");
         return;
     }
 
-    // 创建以PNG格式保存图像的选项
+    // 创建以 PNG 格式保存图像的选项
     ImageOptions options = new ImageOptions(ImageFormat.Png);
     
     // 遍历图像
     foreach (PageImageArea image in images)
     {
-        // 打开图片流
+        // 打开图像流
         using (Stream imageStream = image.GetImageStream(options))
         {
-            // 创建保存图片的文件
+            // 创建文件保存图片
             using (Stream destStream = File.Create(Guid.NewGuid().ToString() + ".png"))
             {
                 byte[] buffer = new byte[4096];
@@ -130,7 +130,7 @@ using (Parser parser = new Parser(filePath))
 
                     if (readed > 0)
                     {
-                        // 将数据写入文件流
+                        // 向文件流中写入数据
                         destStream.Write(buffer, 0, readed);
                     }
                 }

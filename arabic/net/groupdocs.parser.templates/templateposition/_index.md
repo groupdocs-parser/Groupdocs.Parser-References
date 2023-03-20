@@ -3,7 +3,7 @@ title: TemplatePosition
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يوفر فئة مجردة أساسية لمواضع القوالب.
 type: docs
-weight: 670
+weight: 720
 url: /ar/net/groupdocs.parser.templates/templateposition/
 ---
 ## TemplatePosition class

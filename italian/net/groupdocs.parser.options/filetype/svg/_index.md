@@ -1,14 +1,14 @@
 ---
 title: SVG
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: Un file SVG è un file di grafica vettoriale scalare che utilizza il formato di testo basato su XML per descrivere laspetto di unimmagine. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/pagedescriptionlanguage/svg/ .
+description: Un file SVG è un file di grafica vettoriale scalare che utilizza il formato di testo basato su XML per descrivere laspetto di unimmagine. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/pagedescriptionlanguage/svg/ .
 type: docs
 weight: 680
 url: /it/net/groupdocs.parser.options/filetype/svg/
 ---
 ## FileType.SVG field
 
-Un file SVG è un file di grafica vettoriale scalare che utilizza il formato di testo basato su XML per descrivere l'aspetto di un'immagine. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/page-description-language/svg/) .
+Un file SVG è un file di grafica vettoriale scalare che utilizza il formato di testo basato su XML per descrivere l'aspetto di un'immagine. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/page-description-language/svg/) .
 
 ```csharp
 public static readonly FileType SVG;

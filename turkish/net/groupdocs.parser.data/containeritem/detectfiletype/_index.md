@@ -26,7 +26,7 @@ bir örneği[`FileType`](../../../groupdocs.parser.options/filetype) sınıf;[`U
 
 *detectionMode* parametresi, dosya tipi algılamayı kontrol etme yeteneği sağlar:
 
-* **Varsayılan** . Dosya türü, dosya uzantısı tarafından algılanır; dosya uzantısı tanınmazsa, dosya türü dosya içeriği tarafından algılanır.
+* **Varsayılan** Dosya türü, dosya uzantısı tarafından algılanır; dosya uzantısı tanınmazsa, dosya türü dosya içeriği tarafından algılanır.
 * **Eklenti** .Dosya türü yalnızca dosya uzantısı tarafından algılanır.
 * **İçerik** . Dosya türü yalnızca dosya içeriği tarafından algılanır.
 

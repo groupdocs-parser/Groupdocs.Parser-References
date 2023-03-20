@@ -3,7 +3,7 @@ title: ILogger
 second_title: GroupDocs.Parser för .NET API-referens
 description: Definierar gränssnittet för en logger som används för att logga händelser och fel under dataextraktion.
 type: docs
-weight: 420
+weight: 440
 url: /sv/net/groupdocs.parser.options/ilogger/
 ---
 ## ILogger interface

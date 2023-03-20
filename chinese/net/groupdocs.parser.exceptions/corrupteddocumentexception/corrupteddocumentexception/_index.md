@@ -1,14 +1,14 @@
 ---
 title: CorruptedDocumentException
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化CorruptedDocumentExceptiongroupdocs.parser.exceptions/corrupteddocumentexception类.
+description: 初始化一个新的实例CorruptedDocumentExceptiongroupdocs.parser.exceptions/corrupteddocumentexception类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.exceptions/corrupteddocumentexception/corrupteddocumentexception/
 ---
 ## CorruptedDocumentException() {#constructor}
 
-初始化[`CorruptedDocumentException`](../../corrupteddocumentexception)类.
+初始化一个新的实例[`CorruptedDocumentException`](../../corrupteddocumentexception)类.
 
 ```csharp
 public CorruptedDocumentException()
@@ -24,7 +24,7 @@ public CorruptedDocumentException()
 
 ## CorruptedDocumentException(string) {#constructor_1}
 
-初始化[`CorruptedDocumentException`](../../corrupteddocumentexception)带有消息的类.
+初始化一个新的实例[`CorruptedDocumentException`](../../corrupteddocumentexception)类与消息.
 
 ```csharp
 public CorruptedDocumentException(string message)

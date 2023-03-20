@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: GroupDocs.Parser for .NET API 参考
-description: 表示大小
+description: 代表一个尺寸
 type: docs
 weight: 180
 url: /zh/net/groupdocs.parser.data/size/
 ---
 ## Size class
 
-表示大小。
+代表一个尺寸。
 
 ```csharp
 public sealed class Size
@@ -18,7 +18,7 @@ public sealed class Size
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Size](size)(double, double) | 初始化[`Size`](../size)类. |
+| [Size](size)(double, double) | 初始化一个新的实例[`Size`](../size)类. |
 
 ## 特性
 

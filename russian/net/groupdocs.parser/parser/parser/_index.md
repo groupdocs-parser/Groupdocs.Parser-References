@@ -20,7 +20,7 @@ public Parser(DbConnection connection)
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлекать данные из баз данных](https://docs.groupdocs.com/display/parsernet/Extract+data+from+databases)
 
@@ -85,10 +85,10 @@ public Parser(DbConnection connection, ParserSettings parserSettings)
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлекать данные из баз данных](https://docs.groupdocs.com/display/parsernet/Extract+data+from+databases)
-* [логирование](https://docs.groupdocs.com/display/parsernet/Logging)
+* [Ведение журнала](https://docs.groupdocs.com/display/parsernet/Logging)
 
 ### Примеры
 
@@ -151,7 +151,7 @@ public Parser(EmailConnection connection)
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечение электронных писем с удаленного сервера по протоколам POP, IMAP или Exchange Web Services.](https://docs.groupdocs.com/display/parsernet/Extract+emails+from+remote+server+via+POP%2C+IMAP+or+Exchange+Web+Services+protocols)
 
@@ -162,7 +162,7 @@ public Parser(EmailConnection connection)
 ```csharp
 // Создаем объект соединения для протокола Exchange Web Services 
 EmailConnection connection = new EmailEwsConnection(
-    "https://outlook.office365.com/ews/exchange.asmx»,
+    "https://outlook.office365.com/ews/exchange.asmx",
     "email@server",
     "password");
  
@@ -220,10 +220,10 @@ public Parser(EmailConnection connection, ParserSettings parserSettings)
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечение электронных писем с удаленного сервера по протоколам POP, IMAP или Exchange Web Services.](https://docs.groupdocs.com/display/parsernet/Extract+emails+from+remote+server+via+POP%2C+IMAP+or+Exchange+Web+Services+protocols)
-* [логирование](https://docs.groupdocs.com/display/parsernet/Logging)
+* [Ведение журнала](https://docs.groupdocs.com/display/parsernet/Logging)
 
 ### Примеры
 
@@ -232,7 +232,7 @@ public Parser(EmailConnection connection, ParserSettings parserSettings)
 ```csharp
 // Создаем объект соединения для протокола Exchange Web Services 
 EmailConnection connection = new EmailEwsConnection(
-    "https://outlook.office365.com/ews/exchange.asmx»,
+    "https://outlook.office365.com/ews/exchange.asmx",
     "email@server",
     "password");
  
@@ -276,7 +276,7 @@ IEnumerable<ContainerItem> emails = parser.GetContainer();
 
 ---
 
-## Parser(string) {#constructor_7}
+## Parser(string) {#constructor_8}
 
 Инициализирует новый экземпляр[`Parser`](../../parser) класс.
 
@@ -290,7 +290,7 @@ public Parser(string filePath)
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Загрузить документ с локального диска](https://docs.groupdocs.com/display/parsernet/Load+document+from+local+disk)
 
@@ -320,7 +320,7 @@ using (Parser parser = new Parser(filePath))
 
 ---
 
-## Parser(string, LoadOptions) {#constructor_8}
+## Parser(string, LoadOptions) {#constructor_9}
 
 Инициализирует новый экземпляр[`Parser`](../../parser) класс с[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) .
 
@@ -335,7 +335,7 @@ public Parser(string filePath, LoadOptions loadOptions)
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Загрузка определенных форматов файлов](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
 * [Загрузка защищенных паролем документов](https://docs.groupdocs.com/display/parsernet/Password-protected+documents)
@@ -380,7 +380,29 @@ catch (InvalidPasswordException)
 
 ---
 
-## Parser(string, LoadOptions, ParserSettings) {#constructor_9}
+## Parser(string, ParserSettings) {#constructor_11}
+
+Инициализирует новый экземпляр[`Parser`](../../parser) класс с[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
+
+```csharp
+public Parser(string filePath, ParserSettings parserSettings)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| filePath | String | Путь к файлу. |
+| parserSettings | ParserSettings | Настройки парсера, которые используются для настройки извлечения данных. |
+
+### Смотрите также
+
+* class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
+* class [Parser](../../parser)
+* пространство имен [GroupDocs.Parser](../../parser)
+* сборка [GroupDocs.Parser](../../../)
+
+---
+
+## Parser(string, LoadOptions, ParserSettings) {#constructor_10}
 
 Инициализирует новый экземпляр[`Parser`](../../parser) класс с[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) и[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
 
@@ -396,11 +418,11 @@ public Parser(string filePath, LoadOptions loadOptions, ParserSettings parserSet
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Загрузка определенных форматов файлов](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
 * [Загрузка защищенных паролем документов](https://docs.groupdocs.com/display/parsernet/Password-protected+documents)
-* [логирование](https://docs.groupdocs.com/display/parsernet/Logging)
+* [Ведение журнала](https://docs.groupdocs.com/display/parsernet/Logging)
 * [Загрузить документ с локального диска](https://docs.groupdocs.com/display/parsernet/Load+document+from+local+disk)
 
 ### Примеры
@@ -477,7 +499,7 @@ public Parser(Stream document)
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Загрузить документ из потока](https://docs.groupdocs.com/display/parsernet/Load+document+from+stream)
 
@@ -522,7 +544,7 @@ public Parser(Stream document, LoadOptions loadOptions)
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Загрузка определенных форматов файлов](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
 * [Загрузка защищенных паролем документов](https://docs.groupdocs.com/display/parsernet/Password-protected+documents)
@@ -532,7 +554,7 @@ public Parser(Stream document, LoadOptions loadOptions)
 
 В некоторых случаях необходимо определить[`FileFormat`](../../../groupdocs.parser.options/fileformat). Как для частных случаев (базы данных, почтовый сервер), так и для определения типов файлов по содержимому:
 
-Пароль документа передается[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) учебный класс:
+Пароль документа передается[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) сорт:
 
 ```csharp
 // Создаем экземпляр класса Parser для документа уценки
@@ -588,6 +610,28 @@ catch (InvalidPasswordException)
 
 ---
 
+## Parser(Stream, ParserSettings) {#constructor_7}
+
+Инициализирует новый экземпляр[`Parser`](../../parser) класс с[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
+
+```csharp
+public Parser(Stream document, ParserSettings parserSettings)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| document | Stream | Исходный входной поток. |
+| parserSettings | ParserSettings | Настройки парсера, которые используются для настройки извлечения данных. |
+
+### Смотрите также
+
+* class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
+* class [Parser](../../parser)
+* пространство имен [GroupDocs.Parser](../../parser)
+* сборка [GroupDocs.Parser](../../../)
+
+---
+
 ## Parser(Stream, LoadOptions, ParserSettings) {#constructor_6}
 
 Инициализирует новый экземпляр[`Parser`](../../parser) класс с[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) и[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
@@ -604,12 +648,12 @@ public Parser(Stream document, LoadOptions loadOptions, ParserSettings parserSet
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Загрузка определенных форматов файлов](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
 * [Загрузка защищенных паролем документов](https://docs.groupdocs.com/display/parsernet/Password-protected+documents)
 * [Загрузить документ из потока](https://docs.groupdocs.com/display/parsernet/Load+document+from+stream)
-* [логирование](https://docs.groupdocs.com/display/parsernet/Logging)
+* [Ведение журнала](https://docs.groupdocs.com/display/parsernet/Logging)
 
 ### Примеры
 

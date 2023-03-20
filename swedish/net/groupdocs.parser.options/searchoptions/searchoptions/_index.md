@@ -109,7 +109,7 @@ public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpress
 
 ## SearchOptions(bool, bool, bool, bool) {#constructor_2}
 
-Initierar en ny instans av[`SearchOptions`](../../searchoptions) klass som används för att söka efter sidor och utan markering.
+Initierar en ny instans av[`SearchOptions`](../../searchoptions)klass som används för att söka efter sidor och utan markering.
 
 ```csharp
 public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpression, 

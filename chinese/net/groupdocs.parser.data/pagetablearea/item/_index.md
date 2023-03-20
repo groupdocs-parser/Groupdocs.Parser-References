@@ -21,7 +21,7 @@ public PageTableAreaCell this[int rowIndex, int columnIndex] { get; }
 
 ### 返回值
 
-一个实例[`PageTableAreaCell`](../../pagetableareacell)班级;`无效的`如果没有找到单元格。
+的实例[`PageTableAreaCell`](../../pagetableareacell)班级;`无效的`如果没有找到单元格。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: RowCount
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取瓦片行的总数
+description: 获取瓦片总行数
 type: docs
 weight: 40
 url: /zh/net/groupdocs.parser.options/pagerenderinfo/rowcount/
 ---
 ## PageRenderInfo.RowCount property
 
-获取瓦片行的总数。
+获取瓦片总行数。
 
 ```csharp
 public int RowCount { get; }

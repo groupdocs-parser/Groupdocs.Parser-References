@@ -16,7 +16,7 @@ public bool FormattedTextPage { get; }
 
 ### Valor_devuelto
 
-`verdadero` si se admite la extracción de páginas de texto con formato; de lo contrario,`falso`.
+`verdadero` si se admite la extracción de páginas de texto con formato; de lo contrario,`FALSO`.
 
 ### Ver también
 

@@ -1,14 +1,14 @@
 ---
 title: TemplateBarcode
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化TemplateBarcodegroupdocs.parser.templates/templatebarcode类.
+description: 初始化一个新的实例TemplateBarcodegroupdocs.parser.templates/templatebarcode类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.templates/templatebarcode/templatebarcode/
 ---
 ## TemplateBarcode(Rectangle, string) {#constructor}
 
-初始化[`TemplateBarcode`](../../templatebarcode)类.
+初始化一个新的实例[`TemplateBarcode`](../../templatebarcode)类.
 
 ```csharp
 public TemplateBarcode(Rectangle rectangle, string name)
@@ -16,7 +16,7 @@ public TemplateBarcode(Rectangle rectangle, string name)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rectangle | Rectangle | 包含模板条形码字段的矩形区域。 |
+| rectangle | Rectangle | 包含模板条码字段的矩形区域。 |
 | name | String | 条形码字段名称。 |
 
 ### 也可以看看
@@ -30,7 +30,7 @@ public TemplateBarcode(Rectangle rectangle, string name)
 
 ## TemplateBarcode(Rectangle, string, int?) {#constructor_1}
 
-初始化[`TemplateBarcode`](../../templatebarcode)类.
+初始化一个新的实例[`TemplateBarcode`](../../templatebarcode)类.
 
 ```csharp
 public TemplateBarcode(Rectangle rectangle, string name, int? pageIndex)
@@ -38,9 +38,9 @@ public TemplateBarcode(Rectangle rectangle, string name, int? pageIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rectangle | Rectangle | 包含模板条形码字段的矩形区域。 |
+| rectangle | Rectangle | 包含模板条码字段的矩形区域。 |
 | name | String | 条形码字段名称。 |
-| pageIndex | Nullable`1 | 一个整数值，代表模板项所在页面的索引； `无效的`如果模板项位于任何页面上。 |
+| pageIndex | Nullable`1 | 一个整数值，表示模板项所在页面的索引； `无效的`如果模板项目位于任何页面上。 |
 
 ### 也可以看看
 

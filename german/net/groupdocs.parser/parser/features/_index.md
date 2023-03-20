@@ -20,7 +20,7 @@ Eine Instanz von[`Features`](../../../groupdocs.parser.options/features) Klasse,
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Holen Sie sich unterstützte Funktionen](https://docs.groupdocs.com/display/parsernet/Get+supported+features)
 

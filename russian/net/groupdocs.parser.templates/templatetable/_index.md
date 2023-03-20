@@ -3,7 +3,7 @@ title: TemplateTable
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Предоставляет таблицу шаблонов.
 type: docs
-weight: 690
+weight: 740
 url: /ru/net/groupdocs.parser.templates/templatetable/
 ---
 ## TemplateTable class
@@ -34,7 +34,7 @@ public sealed class TemplateTable : TemplateItem
 
 Существует два способа определения таблицы:
 
-* Использование[`TemplateTableLayout`](../templatetablelayout) учебный класс. В этом случае таблица определяется своим положением на странице: прямоугольная область, разделители столбцов и строк.
+* Использование[`TemplateTableLayout`](../templatetablelayout) сорт. В этом случае таблица определяется своим положением на странице: прямоугольная область, разделители столбцов и строк.
 * Использование[`TemplateTableParameters`](../templatetableparameters) class. В этом случае таблица определяется автоматически алгоритмами с заданными параметрами. См.[`TemplateTableParameters`](../templatetableparameters) класс для получения дополнительной информации.
 
 ### Смотрите также

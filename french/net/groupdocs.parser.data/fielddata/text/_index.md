@@ -16,7 +16,7 @@ public string Text { get; }
 
 ### Valeur de la propriété
 
-Une valeur de chaîne qui représente une valeur du texte du champ ;`nul` si[`PageArea`](../pagearea)la propriété n'est pas[`PageTextArea`](../../pagetextarea).
+Une valeur de chaîne qui représente une valeur du texte du champ ;`nul` si[`PageArea`](../pagearea) la propriété n'est pas[`PageTextArea`](../../pagetextarea).
 
 ### Voir également
 

@@ -3,7 +3,7 @@ title: TemplateLinkedPosition
 second_title: GroupDocs.Parser för .NET API-referens
 description: Tillhandahåller en mallfältposition som använder det länkade fältet.
 type: docs
-weight: 650
+weight: 700
 url: /sv/net/groupdocs.parser.templates/templatelinkedposition/
 ---
 ## TemplateLinkedPosition class

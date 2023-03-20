@@ -3,7 +3,7 @@ title: TemplateFixedPosition
 second_title: GroupDocs.Parser for .NET API 参考
 description: 提供由矩形区域定义的模板字段位置
 type: docs
-weight: 630
+weight: 680
 url: /zh/net/groupdocs.parser.templates/templatefixedposition/
 ---
 ## TemplateFixedPosition class
@@ -18,7 +18,7 @@ public sealed class TemplateFixedPosition : TemplatePosition
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TemplateFixedPosition](templatefixedposition)(Rectangle) | 初始化[`TemplateFixedPosition`](../templatefixedposition)类. |
+| [TemplateFixedPosition](templatefixedposition)(Rectangle) | 初始化一个新的实例[`TemplateFixedPosition`](../templatefixedposition)类. |
 
 ## 特性
 
@@ -28,10 +28,10 @@ public sealed class TemplateFixedPosition : TemplatePosition
 
 ### 例子
 
-这是定义字段位置的最简单方法。 它需要在页面上设置一个矩形区域来限制字段值。 包含（甚至部分）到矩形区域中的所有文本都将被提取为一个值：
+这是定义字段位置的最简单方法。 它需要在页面上设置一个矩形区域来限制字段值。 包含（甚至部分）包含在矩形区域中的所有文本将被提取为一个值：
 
 ```csharp
-// 创建一个固定模板字段，其名称为“地址”，其边界为位置 (35, 160) 的矩形，大小为 (110, 20)
+// 创建一个名称为“Address”的固定模板字段，该字段在位置 (35, 160) 处由一个矩形包围，大小为 (110, 20)
 TemplateField templateField = new TemplateField(
     new TemplateFixedPosition(new Rectangle(new Point(35, 160), new Size(110, 20))),
     "Address");

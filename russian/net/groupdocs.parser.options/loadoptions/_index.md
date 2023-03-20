@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Предоставляет параметры используемые для открытия файла.
 type: docs
-weight: 450
+weight: 470
 url: /ru/net/groupdocs.parser.options/loadoptions/
 ---
 ## LoadOptions class
@@ -19,8 +19,8 @@ public sealed class LoadOptions
 | Имя | Описание |
 | --- | --- |
 | [LoadOptions](loadoptions#constructor)() | Инициализирует новый экземпляр[`LoadOptions`](../loadoptions) класс с пустым[`Password`](./password) ,[`FileFormat`](./fileformat) равноUnknown и кодировки по умолчанию. |
-| [LoadOptions](loadoptions#constructor_1)(FileFormat) | Инициализирует новый экземпляр[`LoadOptions`](../loadoptions) class с пустым[`Password`](./password) и кодировки по умолчанию. |
-| [LoadOptions](loadoptions#constructor_4)(string) | Инициализирует новый экземпляр[`LoadOptions`](../loadoptions)class с[`FileFormat`](./fileformat) равноUnknown и кодировки по умолчанию. |
+| [LoadOptions](loadoptions#constructor_1)(FileFormat) | Инициализирует новый экземпляр[`LoadOptions`](../loadoptions) class с пустым[`Password`](./password)и кодировки по умолчанию. |
+| [LoadOptions](loadoptions#constructor_4)(string) | Инициализирует новый экземпляр[`LoadOptions`](../loadoptions) class с[`FileFormat`](./fileformat) равноUnknown и кодировки по умолчанию. |
 | [LoadOptions](loadoptions#constructor_2)(FileFormat, string) | Инициализирует новый экземпляр[`LoadOptions`](../loadoptions) класс с паролем и кодировками по умолчанию. |
 | [LoadOptions](loadoptions#constructor_3)(FileFormat, string, Encoding, Encoding) | Инициализирует новый экземпляр[`LoadOptions`](../loadoptions) класс с пользовательскими кодировками. |
 
@@ -42,7 +42,7 @@ public sealed class LoadOptions
 
 См. примеры использования там.
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Загрузка определенных форматов файлов](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
 * [Загрузка защищенных паролем документов](https://docs.groupdocs.com/display/parsernet/Password-protected+documents)

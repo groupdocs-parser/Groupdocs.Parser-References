@@ -3,7 +3,7 @@ title: TextAreas
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Ottiene il valore che indica se lestrazione delle aree di testo è supportata.
 type: docs
-weight: 150
+weight: 170
 url: /it/net/groupdocs.parser.options/features/textareas/
 ---
 ## Features.TextAreas property
@@ -16,7 +16,7 @@ public bool TextAreas { get; }
 
 ### Valore di ritorno
 
-`VERO` se l'estrazione delle aree di testo è supportata; altrimenti,`falso`.
+`VERO` se l'estrazione delle aree di testo è supportata; Altrimenti,`falso`.
 
 ### Guarda anche
 

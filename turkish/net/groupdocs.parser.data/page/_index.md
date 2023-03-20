@@ -1,14 +1,14 @@
 ---
 title: Page
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: Sayfa dizini ve sayfa boyutu gibi belge sayfası bilgilerini temsil eder. mirasçılarını içeren sayfayı temsil etmek için kullanılır.PageArea./pagearea class şablon işlevine göre ayrıştırmada.
+description: Sayfa dizini ve sayfa boyutu gibi belge sayfası bilgilerini temsil eder. mirasçılarını içeren sayfayı temsil etmek için kullanılır.PageArea./pageareaclass şablon işlevine göre ayrıştırmada.
 type: docs
 weight: 60
 url: /tr/net/groupdocs.parser.data/page/
 ---
 ## Page class
 
-Sayfa dizini ve sayfa boyutu gibi belge sayfası bilgilerini temsil eder. mirasçılarını içeren sayfayı temsil etmek için kullanılır.[`PageArea`](../pagearea) class şablon işlevine göre ayrıştırmada.
+Sayfa dizini ve sayfa boyutu gibi belge sayfası bilgilerini temsil eder. mirasçılarını içeren sayfayı temsil etmek için kullanılır.[`PageArea`](../pagearea)class şablon işlevine göre ayrıştırmada.
 
 ```csharp
 public sealed class Page

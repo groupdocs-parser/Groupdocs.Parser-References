@@ -1,14 +1,14 @@
 ---
 title: MatchWholeWord
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取指示文本搜索是否被整个单词限制的值
+description: 获取文本搜索是否受限于整个单词的值
 type: docs
 weight: 40
 url: /zh/net/groupdocs.parser.options/searchoptions/matchwholeword/
 ---
 ## SearchOptions.MatchWholeWord property
 
-获取指示文本搜索是否被整个单词限制的值。
+获取文本搜索是否受限于整个单词的值。
 
 ```csharp
 public bool MatchWholeWord { get; }

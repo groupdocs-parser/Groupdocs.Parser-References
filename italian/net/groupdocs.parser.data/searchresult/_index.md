@@ -26,7 +26,7 @@ public sealed class SearchResult
 
 ### Osservazioni
 
-Un'istanza di[`SearchResult`](../searchresult) class viene utilizzata come valore di ritorno di[`Search`](../../groupdocs.parser/parser/search) e[`Search`](../../groupdocs.parser/parser/search) metodi. Vedi gli esempi di utilizzo qui.
+Un'istanza di[`SearchResult`](../searchresult) class viene utilizzata come valore di ritorno di[`Search`](../../groupdocs.parser/parser/search) E[`Search`](../../groupdocs.parser/parser/search) metodi. Vedi gli esempi di utilizzo qui.
 
 ### Guarda anche
 

@@ -16,7 +16,7 @@ public Point Position { get; }
 
 ### Fastighetsvärde
 
-Ett exempel på[`Point`](../../point) klass som representerar koordinaterna för det övre vänstra hörnet av det rektangulära området.
+Ett exempel på[`Point`](../../point)klass som representerar koordinaterna för det övre vänstra hörnet av det rektangulära området.
 
 ### Se även
 

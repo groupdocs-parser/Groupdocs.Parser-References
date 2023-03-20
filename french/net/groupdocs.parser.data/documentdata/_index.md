@@ -1,14 +1,14 @@
 ---
 title: DocumentData
 second_title: Référence de l'API GroupDocs.Parser pour .NET
-description: Représente les données du document. Cela consiste enFieldData./fielddata objects qui contiennent des données de champ du document.
+description: Représente les données du document. Cela consiste enFieldData./fielddataobjects qui contiennent des données de champ du document.
 type: docs
 weight: 20
 url: /fr/net/groupdocs.parser.data/documentdata/
 ---
 ## DocumentData class
 
-Représente les données du document. Cela consiste en[`FieldData`](../fielddata) objects qui contiennent des données de champ du document.
+Représente les données du document. Cela consiste en[`FieldData`](../fielddata)objects qui contiennent des données de champ du document.
 
 ```csharp
 public class DocumentData : IEnumerable<FieldData>

@@ -16,7 +16,7 @@ public bool Bottom { get; }
 
 ### Eigentumswert
 
-`Stimmt` wenn ein Feld von unten nach dem verknüpften Feld durchsucht wird; Andernfalls,`FALSCH`.
+`WAHR` wenn ein Feld von unten nach dem verknüpften Feld durchsucht wird; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

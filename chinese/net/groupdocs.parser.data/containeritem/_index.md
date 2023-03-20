@@ -29,14 +29,14 @@ public sealed class ContainerItem
 | 姓名 | 描述 |
 | --- | --- |
 | [DetectFileType](../../groupdocs.parser.data/containeritem/detectfiletype)(FileTypeDetectionMode) | 检测容器项的文件类型。 |
-| [OpenParser](../../groupdocs.parser.data/containeritem/openparser#openparser)() | 创建[`Parser`](../../groupdocs.parser/parser)项目内容的对象。 |
+| [OpenParser](../../groupdocs.parser.data/containeritem/openparser#openparser)() | 创建[`Parser`](../../groupdocs.parser/parser)项目内容的对象. |
 | [OpenParser](../../groupdocs.parser.data/containeritem/openparser#openparser_1)(LoadOptions) | 创建[`Parser`](../../groupdocs.parser/parser)项目内容的对象[`LoadOptions`](../../groupdocs.parser.options/loadoptions). |
 | [OpenParser](../../groupdocs.parser.data/containeritem/openparser#openparser_2)(LoadOptions, ParserSettings) | 创建[`Parser`](../../groupdocs.parser/parser)项目内容的对象[`LoadOptions`](../../groupdocs.parser.options/loadoptions) 和[`ParserSettings`](../../groupdocs.parser.options/parsersettings). |
-| [OpenStream](../../groupdocs.parser.data/containeritem/openstream)() | 打开项目内容的流。 |
+| [OpenStream](../../groupdocs.parser.data/containeritem/openstream)() | 打开项目内容流。 |
 
 ### 评论
 
-的一个实例[`ContainerItem`](../containeritem)类被用作返回值 的[`GetContainer`](../../groupdocs.parser/parser/getcontainer)方法。请参阅那里的用法示例。
+的实例[`ContainerItem`](../containeritem)类用作返回值 的[`GetContainer`](../../groupdocs.parser/parser/getcontainer)方法。请参阅此处的用法示例。
 
 ### 也可以看看
 

@@ -24,7 +24,7 @@ public LoadOptions()
 
 ## LoadOptions(string) {#constructor_4}
 
-يقوم بتهيئة مثيل جديد لملف[`LoadOptions`](../../loadoptions)class مع[`FileFormat`](../fileformat) يساويUnknown والتشفير الافتراضي .
+يقوم بتهيئة مثيل جديد لملف[`LoadOptions`](../../loadoptions) class مع[`FileFormat`](../fileformat) يساويUnknown والتشفير الافتراضي .
 
 ```csharp
 public LoadOptions(string password)
@@ -44,7 +44,7 @@ public LoadOptions(string password)
 
 ## LoadOptions(FileFormat) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`LoadOptions`](../../loadoptions) class فارغة[`Password`](../password) والتشفير الافتراضي.
+يقوم بتهيئة مثيل جديد لملف[`LoadOptions`](../../loadoptions) class فارغة[`Password`](../password)والتشفير الافتراضي.
 
 ```csharp
 public LoadOptions(FileFormat fileFormat)

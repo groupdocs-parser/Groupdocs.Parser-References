@@ -1,14 +1,14 @@
 ---
 title: JPF
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: JPEG 2000 JPF ist ein Bildkodierungssystem und modernster Bildkomprimierungsstandard. Entworfen mit WaveletTechnologie JPEG 2000 kann verlustfreie Inhalte in jeder Qualität auf einmal codieren. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/jp2/ .
+description: JPEG 2000 JPF ist ein Bildkodierungssystem und modernster Bildkompressionsstandard. Entworfen mit WaveletTechnologie JPEG 2000 kann verlustfreie Inhalte in jeder Qualität auf einmal codieren. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/jp2/ .
 type: docs
 weight: 310
 url: /de/net/groupdocs.parser.options/filetype/jpf/
 ---
 ## FileType.JPF field
 
-JPEG 2000 (JPF) ist ein Bildkodierungssystem und modernster Bildkomprimierungsstandard. Entworfen, mit Wavelet-Technologie JPEG 2000 kann verlustfreie Inhalte in jeder Qualität auf einmal codieren. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/jp2/) .
+JPEG 2000 (JPF) ist ein Bildkodierungssystem und modernster Bildkompressionsstandard. Entworfen, mit Wavelet-Technologie JPEG 2000 kann verlustfreie Inhalte in jeder Qualität auf einmal codieren. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/jp2/) .
 
 ```csharp
 public static readonly FileType JPF;

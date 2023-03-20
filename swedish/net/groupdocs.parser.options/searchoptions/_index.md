@@ -3,7 +3,7 @@ title: SearchOptions
 second_title: GroupDocs.Parser för .NET API-referens
 description: Ger alternativen som används för textsökning.
 type: docs
-weight: 560
+weight: 610
 url: /sv/net/groupdocs.parser.options/searchoptions/
 ---
 ## SearchOptions class
@@ -20,7 +20,7 @@ public sealed class SearchOptions
 | --- | --- |
 | [SearchOptions](searchoptions#constructor)() | Initierar en ny instans av[`SearchOptions`](../searchoptions) klass med standardvärden. Se kommentarer för detaljer. |
 | [SearchOptions](searchoptions#constructor_1)(bool, bool, bool) | Initierar en ny instans av[`SearchOptions`](../searchoptions) klass som används för att söka utan markering. |
-| [SearchOptions](searchoptions#constructor_2)(bool, bool, bool, bool) | Initierar en ny instans av[`SearchOptions`](../searchoptions) klass som används för att söka efter sidor och utan markering. |
+| [SearchOptions](searchoptions#constructor_2)(bool, bool, bool, bool) | Initierar en ny instans av[`SearchOptions`](../searchoptions)klass som används för att söka efter sidor och utan markering. |
 | [SearchOptions](searchoptions#constructor_4)(bool, bool, bool, HighlightOptions) | Initierar en ny instans av[`SearchOptions`](../searchoptions) klass som används för att söka med samma markeringsalternativ för vänster- och högermarkeringsextraktion. |
 | [SearchOptions](searchoptions#constructor_5)(bool, bool, bool, HighlightOptions, HighlightOptions) | Initierar en ny instans av[`SearchOptions`](../searchoptions) klass som används för att söka med markeringsalternativen för vänster och höger högdagerextraktion. |
 | [SearchOptions](searchoptions#constructor_3)(bool, bool, bool, bool, HighlightOptions, HighlightOptions) | Initierar en ny instans av[`SearchOptions`](../searchoptions) class. |

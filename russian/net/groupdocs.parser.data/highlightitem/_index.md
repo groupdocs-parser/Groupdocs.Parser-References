@@ -23,7 +23,7 @@ public sealed class HighlightItem
 
 ### Примечания
 
-Экземпляр[`HighlightItem`](../highlightitem) класс используется как возвращаемое значение из[`GetHighlight`](../../groupdocs.parser/parser/gethighlight) метод, [`LeftHighlightItem`](../searchresult/lefthighlightitem) а также[`RightHighlightItem`](../searchresult/righthighlightitem) properties. См. примеры использования здесь.
+Экземпляр[`HighlightItem`](../highlightitem) класс используется как возвращаемое значение из[`GetHighlight`](../../groupdocs.parser/parser/gethighlight) метод, [`LeftHighlightItem`](../searchresult/lefthighlightitem) и[`RightHighlightItem`](../searchresult/righthighlightitem) properties. См. примеры использования здесь.
 
 ### Смотрите также
 

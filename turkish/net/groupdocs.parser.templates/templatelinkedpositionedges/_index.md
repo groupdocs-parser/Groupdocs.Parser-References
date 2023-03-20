@@ -3,7 +3,7 @@ title: TemplateLinkedPositionEdges
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Bağlantılı alanın metin alanının arandığı kenarlarını sağlar. TemplateLinkedPositionEdges./templatelinkedpositionedges kullanılırTemplateLinkedPosition./templatelinkedposition sınıf.
 type: docs
-weight: 660
+weight: 710
 url: /tr/net/groupdocs.parser.templates/templatelinkedpositionedges/
 ---
 ## TemplateLinkedPositionEdges class

@@ -20,7 +20,7 @@ public static FileInfo GetFileInfo(string filePath)
 
 ### قيمة الإرجاع
 
-مثال على[`FileInfo`](../../../groupdocs.parser.options/fileinfo) صف دراسي.
+مثال على[`FileInfo`](../../../groupdocs.parser.options/fileinfo) فصل.
 
 ### أمثلة
 
@@ -57,7 +57,7 @@ public static FileInfo GetFileInfo(string filePath, LoadOptions loadOptions)
 
 ### قيمة الإرجاع
 
-مثال على[`FileInfo`](../../../groupdocs.parser.options/fileinfo) صف دراسي.
+مثال على[`FileInfo`](../../../groupdocs.parser.options/fileinfo) فصل.
 
 ### أمثلة
 
@@ -96,7 +96,7 @@ public static FileInfo GetFileInfo(Stream document)
 
 ### قيمة الإرجاع
 
-مثال على[`FileInfo`](../../../groupdocs.parser.options/fileinfo) صف دراسي.
+مثال على[`FileInfo`](../../../groupdocs.parser.options/fileinfo) فصل.
 
 ### أمثلة
 
@@ -133,7 +133,7 @@ public static FileInfo GetFileInfo(Stream document, LoadOptions loadOptions)
 
 ### قيمة الإرجاع
 
-مثال على[`FileInfo`](../../../groupdocs.parser.options/fileinfo) صف دراسي.
+مثال على[`FileInfo`](../../../groupdocs.parser.options/fileinfo) فصل.
 
 ### أمثلة
 

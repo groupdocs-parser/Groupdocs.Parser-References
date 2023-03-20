@@ -1,14 +1,14 @@
 ---
 title: EPUB
 second_title: GroupDocs.Parser for .NET API 参考
-description: 带有 .EPUB 扩展名的文件是一种电子书文件格式它为出版商和消费者提供 一种标准的数字出版格式 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/ebook/epub/.
+description: 扩展名为 .EPUB 的文件是一种电子书文件格式它为出版商和消费者提供 标准数字出版物格式 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/ebook/epub/.
 type: docs
 weight: 190
 url: /zh/net/groupdocs.parser.options/filetype/epub/
 ---
 ## FileType.EPUB field
 
-带有 .EPUB 扩展名的文件是一种电子书文件格式，它为出版商和消费者提供 一种标准的数字出版格式。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/ebook/epub/).
+扩展名为 .EPUB 的文件是一种电子书文件格式，它为出版商和消费者提供 标准数字出版物格式。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/ebook/epub/).
 
 ```csharp
 public static readonly FileType EPUB;

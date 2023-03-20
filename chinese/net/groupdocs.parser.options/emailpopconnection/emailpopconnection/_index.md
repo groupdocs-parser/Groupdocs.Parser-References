@@ -1,14 +1,14 @@
 ---
 title: EmailPopConnection
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化EmailPopConnectiongroupdocs.parser.options/emailpopconnection类.
+description: 初始化一个新的实例EmailPopConnectiongroupdocs.parser.options/emailpopconnection类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.options/emailpopconnection/emailpopconnection/
 ---
 ## EmailPopConnection constructor
 
-初始化[`EmailPopConnection`](../../emailpopconnection)类.
+初始化一个新的实例[`EmailPopConnection`](../../emailpopconnection)类.
 
 ```csharp
 public EmailPopConnection(string host, int port, string userName, string password)

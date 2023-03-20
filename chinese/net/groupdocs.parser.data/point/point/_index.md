@@ -1,14 +1,14 @@
 ---
 title: Point
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化Pointgroupdocs.parser.data/point类.
+description: 初始化一个新的实例Pointgroupdocs.parser.data/point类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.data/point/point/
 ---
 ## Point constructor
 
-初始化[`Point`](../../point)类.
+初始化一个新的实例[`Point`](../../point)类.
 
 ```csharp
 public Point(double x, double y)

@@ -3,7 +3,7 @@ title: ParserSettings
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Veri ayıklamayı özelleştirmek için kullanılan ayarları sağlar.
 type: docs
-weight: 510
+weight: 560
 url: /tr/net/groupdocs.parser.options/parsersettings/
 ---
 ## ParserSettings class
@@ -18,13 +18,19 @@ public sealed class ParserSettings
 
 | İsim | Tanım |
 | --- | --- |
-| [ParserSettings](parsersettings)(ILogger) | Yeni bir örneğini başlatır.[`ParserSettings`](../parsersettings) sınıf. |
+| [ParserSettings](parsersettings#constructor)(ExternalResourceHandler) | Yeni bir örneğini başlatır.[`ParserSettings`](../parsersettings) Harici Kaynak İşleyici ile sınıf. |
+| [ParserSettings](parsersettings#constructor_1)(ILogger) | Yeni bir örneğini başlatır.[`ParserSettings`](../parsersettings) logger. ile sınıf |
+| [ParserSettings](parsersettings#constructor_4)(OcrConnectorBase) | Yeni bir örneğini başlatır.[`ParserSettings`](../parsersettings) OCR Bağlayıcısı ile sınıf. |
+| [ParserSettings](parsersettings#constructor_2)(ILogger, OcrConnectorBase) | Yeni bir örneğini başlatır.[`ParserSettings`](../parsersettings) günlükçü ve OCR Bağlayıcılı sınıf. |
+| [ParserSettings](parsersettings#constructor_3)(ILogger, OcrConnectorBase, ExternalResourceHandler) | Yeni bir örneğini başlatır.[`ParserSettings`](../parsersettings) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
+| [ExternalResourceHandler](../../groupdocs.parser.options/parsersettings/externalresourcehandler) { get; } | Dış kaynaklar için işleyiciyi alır. |
 | [Logger](../../groupdocs.parser.options/parsersettings/logger) { get; } | Veri çıkarma sırasında olayları ve hataları günlüğe kaydetmek için kullanılan kaydediciyi alır. |
+| [OcrConnector](../../groupdocs.parser.options/parsersettings/ocrconnector) { get; } | OCR işlevselliği sağlamak için kullanılan OCR Bağlayıcısını alır. |
 
 ### Notlar
 

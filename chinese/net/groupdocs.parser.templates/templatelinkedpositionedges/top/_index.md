@@ -1,14 +1,14 @@
 ---
 title: Top
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取一个字段是否被链接字段的顶部搜索到的值
+description: 获取一个字段是否从链接字段顶部搜索的值
 type: docs
 weight: 60
 url: /zh/net/groupdocs.parser.templates/templatelinkedpositionedges/top/
 ---
 ## TemplateLinkedPositionEdges.Top property
 
-获取一个字段是否被链接字段的顶部搜索到的值。
+获取一个字段是否从链接字段顶部搜索的值。
 
 ```csharp
 public bool Top { get; }
@@ -16,7 +16,7 @@ public bool Top { get; }
 
 ### 适当的价值
 
-`真的`如果从链接字段的顶部搜索字段；否则，`错误的`.
+`真的`如果一个字段是从链接字段的顶部搜索的；否则，`错误的`.
 
 ### 也可以看看
 

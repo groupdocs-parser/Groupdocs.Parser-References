@@ -29,7 +29,7 @@ public sealed class MetadataItem
 
 ### ملاحظات
 
-مثيل[`MetadataItem`](../metadataitem) يتم استخدام الفئة كقيمة إرجاع من[`GetMetadata`](../../groupdocs.parser/parser/getmetadata) طريقة وكعنصر في[`Metadata`](../containeritem/metadata)collection. انظر أمثلة الاستخدام هناك.
+مثيل[`MetadataItem`](../metadataitem) يتم استخدام الفئة كقيمة إرجاع من[`GetMetadata`](../../groupdocs.parser/parser/getmetadata) طريقة وكعنصر في[`Metadata`](../containeritem/metadata) collection. انظر أمثلة الاستخدام هناك.
 
 ### أنظر أيضا
 

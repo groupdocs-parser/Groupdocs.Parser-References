@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取一个值该值表示文件是否受密码保护
+description: 获取表示文件是否受密码保护的值
 type: docs
 weight: 20
 url: /zh/net/groupdocs.parser.options/fileinfo/isencrypted/
 ---
 ## FileInfo.IsEncrypted property
 
-获取一个值，该值表示文件是否受密码保护。
+获取表示文件是否受密码保护的值。
 
 ```csharp
 public bool IsEncrypted { get; }

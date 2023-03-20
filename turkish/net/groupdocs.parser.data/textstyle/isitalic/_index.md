@@ -16,7 +16,7 @@ public bool IsItalic { get; }
 
 ### Geri dönüş değeri
 
-`doğru` yazı italik ise; aksi halde,`yanlış`.
+`doğru` yazı italik ise; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

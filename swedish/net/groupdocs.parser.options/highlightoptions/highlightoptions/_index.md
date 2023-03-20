@@ -1,14 +1,14 @@
 ---
 title: HighlightOptions
 second_title: GroupDocs.Parser för .NET API-referens
-description: Initierar en ny instans avHighlightOptionsgroupdocs.parser.options/highlightoptionsklass som används för att extrahera en markering med fast längd.
+description: Initierar en ny instans avHighlightOptionsgroupdocs.parser.options/highlightoptions klass som används för att extrahera en markering med fast längd.
 type: docs
 weight: 10
 url: /sv/net/groupdocs.parser.options/highlightoptions/highlightoptions/
 ---
 ## HighlightOptions(int) {#constructor}
 
-Initierar en ny instans av[`HighlightOptions`](../../highlightoptions)klass som används för att extrahera en markering med fast längd.
+Initierar en ny instans av[`HighlightOptions`](../../highlightoptions) klass som används för att extrahera en markering med fast längd.
 
 ```csharp
 public HighlightOptions(int maxLength)

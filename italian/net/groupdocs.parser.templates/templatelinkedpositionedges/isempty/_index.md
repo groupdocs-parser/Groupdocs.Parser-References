@@ -16,7 +16,7 @@ public bool IsEmpty { get; }
 
 ### Valore della proprietà
 
-`VERO` se l'istanza è vuota (tutti i campi sono`falso` ); altrimenti,`falso`.
+`VERO` se l'istanza è vuota (tutti i campi sono`falso` ); Altrimenti,`falso`.
 
 ### Guarda anche
 

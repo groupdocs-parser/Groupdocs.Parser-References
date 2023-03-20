@@ -16,7 +16,7 @@ public HighlightItem RightHighlightItem { get; }
 
 ### Valeur de la propriété
 
-Un exemple de[`HighlightItem`](../../highlightitem) classer;`nul` s'il n'est pas défini.
+Un exemple de[`HighlightItem`](../../highlightitem) classe;`nul` s'il n'est pas défini.
 
 ### Voir également
 

@@ -3,7 +3,7 @@ title: FormattedTextMode
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يحدد وضع نص منسق.
 type: docs
-weight: 380
+weight: 400
 url: /ar/net/groupdocs.parser.options/formattedtextmode/
 ---
 ## FormattedTextMode enumeration

@@ -3,7 +3,7 @@ title: PreviewPageRender
 second_title: GroupDocs.Parser for .NET API 参考
 description: 表示在呈现文档页面之前调用的方法
 type: docs
-weight: 540
+weight: 590
 url: /zh/net/groupdocs.parser.options/previewpagerender/
 ---
 ## PreviewPageRender delegate
@@ -16,7 +16,7 @@ public delegate void PreviewPageRender(PageRenderInfo info);
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| info | PageRenderInfo | 有关如何呈现页面的信息。 |
+| info | PageRenderInfo | 有关页面呈现方式的信息。 |
 
 ### 也可以看看
 

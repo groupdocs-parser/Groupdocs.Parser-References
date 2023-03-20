@@ -1,14 +1,14 @@
 ---
 title: CorruptedDocumentException
 second_title: GroupDocs.Parser for .NET API 参考
-description: 在文档加载过程中当文档损坏时抛出
+description: 在文档加载期间当文档损坏时抛出
 type: docs
 weight: 210
 url: /zh/net/groupdocs.parser.exceptions/corrupteddocumentexception/
 ---
 ## CorruptedDocumentException class
 
-在文档加载过程中，当文档损坏时抛出。
+在文档加载期间，当文档损坏时抛出。
 
 ```csharp
 public sealed class CorruptedDocumentException : GroupDocsParserException
@@ -18,8 +18,8 @@ public sealed class CorruptedDocumentException : GroupDocsParserException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CorruptedDocumentException](corrupteddocumentexception#constructor)() | 初始化[`CorruptedDocumentException`](../corrupteddocumentexception)类. |
-| [CorruptedDocumentException](corrupteddocumentexception#constructor_1)(string) | 初始化[`CorruptedDocumentException`](../corrupteddocumentexception)带有消息的类. |
+| [CorruptedDocumentException](corrupteddocumentexception#constructor)() | 初始化一个新的实例[`CorruptedDocumentException`](../corrupteddocumentexception)类. |
+| [CorruptedDocumentException](corrupteddocumentexception#constructor_1)(string) | 初始化一个新的实例[`CorruptedDocumentException`](../corrupteddocumentexception)类与消息. |
 
 ### 也可以看看
 

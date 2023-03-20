@@ -3,7 +3,7 @@ title: Logger
 second_title: GroupDocs.Parser för .NET API-referens
 description: Hämtar loggern som används för att logga händelser och fel under datautvinning.
 type: docs
-weight: 20
+weight: 30
 url: /sv/net/groupdocs.parser.options/parsersettings/logger/
 ---
 ## ParserSettings.Logger property

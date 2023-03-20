@@ -1,14 +1,14 @@
 ---
 title: SearchArea
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取搜索字段的区域大小
+description: 获取字段搜索区域的大小
 type: docs
 weight: 50
 url: /zh/net/groupdocs.parser.templates/templatelinkedposition/searcharea/
 ---
 ## TemplateLinkedPosition.SearchArea property
 
-获取搜索字段的区域大小。
+获取字段搜索区域的大小。
 
 ```csharp
 public Size SearchArea { get; }
@@ -16,7 +16,7 @@ public Size SearchArea { get; }
 
 ### 适当的价值
 
-一个实例[`Size`](../../../groupdocs.parser.data/size)表示搜索字段的区域大小的类。
+的实例[`Size`](../../../groupdocs.parser.data/size)表示搜索字段的区域大小的类。
 
 ### 也可以看看
 

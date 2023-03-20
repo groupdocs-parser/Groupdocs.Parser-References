@@ -16,7 +16,7 @@ public IEnumerable<PageTextArea> GetTextAreas()
 
 ### قيمة الإرجاع
 
-مجموعة من[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea) كائنات ؛ `لا شيء` إذا لم يتم دعم استخراج مناطق النص.
+مجموعة من[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea) كائنات ؛ `باطل` إذا لم يتم دعم استخراج مناطق النص.
 
 ### ملاحظات
 
@@ -73,7 +73,7 @@ public IEnumerable<PageTextArea> GetTextAreas(PageTextAreaOptions options)
 
 ### قيمة الإرجاع
 
-مجموعة من[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea) كائنات ؛ `لا شيء` إذا لم يتم دعم استخراج مناطق النص.
+مجموعة من[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea) كائنات ؛ `باطل` إذا لم يتم دعم استخراج مناطق النص.
 
 ### ملاحظات
 
@@ -134,7 +134,7 @@ public IEnumerable<PageTextArea> GetTextAreas(int pageIndex)
 
 ### قيمة الإرجاع
 
-مجموعة من[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea) كائنات ؛ `لا شيء` إذا لم يتم دعم استخراج مناطق النص.
+مجموعة من[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea) كائنات ؛ `باطل` إذا لم يتم دعم استخراج مناطق النص.
 
 ### ملاحظات
 
@@ -207,7 +207,7 @@ public IEnumerable<PageTextArea> GetTextAreas(int pageIndex, PageTextAreaOptions
 
 ### قيمة الإرجاع
 
-مجموعة من[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea) كائنات ؛ `لا شيء` إذا لم يتم دعم استخراج مناطق النص.
+مجموعة من[`PageTextArea`](../../../groupdocs.parser.data/pagetextarea) كائنات ؛ `باطل` إذا لم يتم دعم استخراج مناطق النص.
 
 ### ملاحظات
 

@@ -3,7 +3,7 @@ title: TextDocumentInfo
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Rappresenta le informazioni del documento di testo.
 type: docs
-weight: 570
+weight: 620
 url: /it/net/groupdocs.parser.options/textdocumentinfo/
 ---
 ## TextDocumentInfo class
@@ -27,7 +27,7 @@ public class TextDocumentInfo : DocumentInfo
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Ottieni informazioni sul documento](https://docs.groupdocs.com/display/parsernet/Get+document+info)
 * [Rileva la codifica](https://docs.groupdocs.com/display/parsernet/Detect+encoding)

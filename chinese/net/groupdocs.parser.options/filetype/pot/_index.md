@@ -1,14 +1,14 @@
 ---
 title: POT
 second_title: GroupDocs.Parser for .NET API 参考
-description: 带有 .POT 扩展名的文件代表由 PowerPoint 972003 版本创建的 的 Microsoft PowerPoint 模板文件了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/presentation/pot/.
+description: 带有 .POT 扩展名的文件代表由 PowerPoint 972003 版本创建的 Microsoft PowerPoint 模板文件 详细了解此文件格式 这里https//wiki.fileformat.com/presentation/pot/.
 type: docs
 weight: 530
 url: /zh/net/groupdocs.parser.options/filetype/pot/
 ---
 ## FileType.POT field
 
-带有 .POT 扩展名的文件代表由 PowerPoint 97-2003 版本创建的 的 Microsoft PowerPoint 模板文件。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/presentation/pot/).
+带有 .POT 扩展名的文件代表由 PowerPoint 97-2003 版本创建的 Microsoft PowerPoint 模板文件 。详细了解此文件格式 [这里](https://wiki.fileformat.com/presentation/pot/).
 
 ```csharp
 public static readonly FileType POT;

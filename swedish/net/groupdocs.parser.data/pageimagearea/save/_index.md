@@ -90,7 +90,7 @@ using (Parser parser = new Parser(filePath))
     // Iterera över bilder
     foreach (PageImageArea image in images)
     {
-        // Spara bilden i png-filen
+        // Spara bilden till png-filen
         image.Save(Guid.NewGuid().ToString() + ".png", options);
     }
 }

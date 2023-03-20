@@ -18,7 +18,7 @@ public sealed class Point
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Point](point)(double, double) | 初始化[`Point`](../point)类. |
+| [Point](point)(double, double) | 初始化一个新的实例[`Point`](../point)类. |
 
 ## 特性
 

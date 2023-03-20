@@ -3,7 +3,7 @@ title: Search
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يحصل على القيمة التي تشير إلى ما إذا كان البحث عن النص مدعومًا.
 type: docs
-weight: 110
+weight: 130
 url: /ar/net/groupdocs.parser.options/features/search/
 ---
 ## Features.Search property
@@ -16,7 +16,7 @@ public bool Search { get; }
 
 ### قيمة الإرجاع
 
-`حقيقي` إذا كان البحث عن النص مدعومًا ؛ خلاف ذلك،`خاطئة`.
+`حقيقي` إذا كان البحث عن النص مدعومًا ؛ خلاف ذلك،`خطأ شنيع`.
 
 ### أنظر أيضا
 

@@ -1,14 +1,14 @@
 ---
 title: InvalidPasswordException
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化InvalidPasswordExceptiongroupdocs.parser.exceptions/invalidpasswordexception类.
+description: 初始化一个新的实例InvalidPasswordExceptiongroupdocs.parser.exceptions/invalidpasswordexception类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.exceptions/invalidpasswordexception/invalidpasswordexception/
 ---
 ## InvalidPasswordException() {#constructor}
 
-初始化[`InvalidPasswordException`](../../invalidpasswordexception)类.
+初始化一个新的实例[`InvalidPasswordException`](../../invalidpasswordexception)类.
 
 ```csharp
 public InvalidPasswordException()
@@ -24,7 +24,7 @@ public InvalidPasswordException()
 
 ## InvalidPasswordException(string) {#constructor_1}
 
-初始化[`InvalidPasswordException`](../../invalidpasswordexception)类.
+初始化一个新的实例[`InvalidPasswordException`](../../invalidpasswordexception)类.
 
 ```csharp
 public InvalidPasswordException(string message)

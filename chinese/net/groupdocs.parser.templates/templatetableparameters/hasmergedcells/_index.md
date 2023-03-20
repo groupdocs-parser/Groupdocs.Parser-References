@@ -1,14 +1,14 @@
 ---
 title: HasMergedCells
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取表格是否有合并单元格的值
+description: 获取表示表格是否有合并单元格的值
 type: docs
 weight: 20
 url: /zh/net/groupdocs.parser.templates/templatetableparameters/hasmergedcells/
 ---
 ## TemplateTableParameters.HasMergedCells property
 
-获取表格是否有合并单元格的值。
+获取表示表格是否有合并单元格的值。
 
 ```csharp
 public bool? HasMergedCells { get; }

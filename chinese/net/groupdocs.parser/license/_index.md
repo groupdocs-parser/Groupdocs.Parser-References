@@ -18,7 +18,7 @@ public sealed class License
 
 | 姓名 | 描述 |
 | --- | --- |
-| [License](license)() | 初始化[`License`](../license)类. |
+| [License](license)() | 初始化一个新的实例[`License`](../license)类. |
 
 ## 方法
 

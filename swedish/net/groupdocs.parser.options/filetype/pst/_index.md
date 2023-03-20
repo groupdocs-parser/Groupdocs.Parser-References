@@ -1,14 +1,14 @@
 ---
 title: PST
 second_title: GroupDocs.Parser för .NET API-referens
-description: Filer med tillägget .PST representerar Outlook Personal Storage Files även kallad Personal Storage Table som lagrar en mängd olika användarinformation. Läs mer om detta filformat härhttps//wiki.fileformat.com/email/pst/
+description: Filer med tillägget .PST representerar Outlook Personal Storage Files även kallad Personal Storage Table som lagrar olika användarinformation. Läs mer om detta filformat härhttps//wiki.fileformat.com/email/pst/
 type: docs
 weight: 640
 url: /sv/net/groupdocs.parser.options/filetype/pst/
 ---
 ## FileType.PST field
 
-Filer med tillägget .PST representerar Outlook Personal Storage Files (även kallad Personal Storage Table) som lagrar en mängd olika användarinformation. Läs mer om detta filformat [här](https://wiki.fileformat.com/email/pst/)
+Filer med tillägget .PST representerar Outlook Personal Storage Files (även kallad Personal Storage Table) som lagrar olika användarinformation. Läs mer om detta filformat [här](https://wiki.fileformat.com/email/pst/)
 
 ```csharp
 public static readonly FileType PST;

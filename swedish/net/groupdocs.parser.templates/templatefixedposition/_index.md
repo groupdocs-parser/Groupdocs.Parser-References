@@ -3,7 +3,7 @@ title: TemplateFixedPosition
 second_title: GroupDocs.Parser för .NET API-referens
 description: Ger en mallfältposition som definieras av det rektangulära området.
 type: docs
-weight: 630
+weight: 680
 url: /sv/net/groupdocs.parser.templates/templatefixedposition/
 ---
 ## TemplateFixedPosition class

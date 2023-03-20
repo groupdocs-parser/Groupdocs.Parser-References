@@ -20,7 +20,7 @@ public TemplateItem this[int index] { get; }
 
 ### Return_Value
 
-Un exemple de[`TemplateItem`](../../templateitem) classer.
+Un exemple de[`TemplateItem`](../../templateitem) classe.
 
 ### Voir également
 

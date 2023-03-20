@@ -1,14 +1,14 @@
 ---
 title: DJVU
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: DjVu ausgesprochen als déjà vu ist ein Grafikdateiformat für gescannte Dokumente und Bücher insbesondere solche die eine Kombination aus Text Zeichnungen Bildern und Fotografien enthalten. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/djvu/ .
+description: DjVu ausgesprochen als déjà vu ist ein Grafikdateiformat für gescannte Dokumente und Bücher insbesondere solche die eine Kombination aus Text Zeichnungen Bildern und Fotografien enthalten. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/djvu/ .
 type: docs
 weight: 80
 url: /de/net/groupdocs.parser.options/filetype/djvu/
 ---
 ## FileType.DJVU field
 
-DjVu, ausgesprochen als „déjà vu“, ist ein Grafikdateiformat für gescannte Dokumente und Bücher, insbesondere solche, die eine Kombination aus Text, Zeichnungen, Bildern und Fotografien enthalten. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/djvu/) .
+DjVu, ausgesprochen als „déjà vu“, ist ein Grafikdateiformat für gescannte Dokumente und Bücher, insbesondere solche, die eine Kombination aus Text, Zeichnungen, Bildern und Fotografien enthalten. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/djvu/) .
 
 ```csharp
 public static readonly FileType DJVU;

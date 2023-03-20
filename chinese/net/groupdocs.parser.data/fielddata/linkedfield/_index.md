@@ -16,7 +16,7 @@ public FieldData LinkedField { get; }
 
 ### 适当的价值
 
-一个实例[`FieldData`](../../fielddata)表示链接到该字段的字段的类；`无效的`如果没有设置。
+的实例[`FieldData`](../../fielddata)表示链接到该字段的字段的类；`无效的`如果没有设置。
 
 ### 也可以看看
 

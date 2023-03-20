@@ -1,14 +1,14 @@
 ---
 title: Template
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化Templategroupdocs.parser.templates/template类.
+description: 初始化一个新的实例Templategroupdocs.parser.templates/template类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.templates/template/template/
 ---
 ## Template constructor
 
-初始化[`Template`](../../template)类.
+初始化一个新的实例[`Template`](../../template)类.
 
 ```csharp
 public Template(IEnumerable<TemplateItem> items)
@@ -23,7 +23,7 @@ public Template(IEnumerable<TemplateItem> items)
 用法：
 
 ```csharp
-// 创建一个模板字段数组
+// 创建模板字段数组
 TemplateItem[] fields = new TemplateItem[]
 {
    new TemplateField(new TemplateRegexPosition("From"), "From", 0),

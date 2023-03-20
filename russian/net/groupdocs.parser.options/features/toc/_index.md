@@ -3,7 +3,7 @@ title: Toc
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Получает значение указывающее поддерживается ли извлечение оглавления.
 type: docs
-weight: 170
+weight: 190
 url: /ru/net/groupdocs.parser.options/features/toc/
 ---
 ## Features.Toc property

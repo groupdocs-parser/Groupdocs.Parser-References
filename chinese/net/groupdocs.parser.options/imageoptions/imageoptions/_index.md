@@ -1,14 +1,14 @@
 ---
 title: ImageOptions
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化ImageOptionsgroupdocs.parser.options/imageoptions类.
+description: 初始化一个新的实例ImageOptionsgroupdocs.parser.options/imageoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.options/imageoptions/imageoptions/
 ---
 ## ImageOptions constructor
 
-初始化[`ImageOptions`](../../imageoptions)类.
+初始化一个新的实例[`ImageOptions`](../../imageoptions)类.
 
 ```csharp
 public ImageOptions(ImageFormat imageFormat)
@@ -16,7 +16,7 @@ public ImageOptions(ImageFormat imageFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| imageFormat | ImageFormat | 图像的格式。 |
+| imageFormat | ImageFormat | 图片的格式。 |
 
 ### 也可以看看
 

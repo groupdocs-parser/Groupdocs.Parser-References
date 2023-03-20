@@ -16,7 +16,7 @@ public bool Hyperlinks { get; }
 
 ### Valor_devuelto
 
-`verdadero` si se admite la extracción de hipervínculos; de lo contrario,`falso`.
+`verdadero` si se admite la extracción de hipervínculos; de lo contrario,`FALSO`.
 
 ### Ver también
 

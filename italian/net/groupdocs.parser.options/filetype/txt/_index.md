@@ -1,14 +1,14 @@
 ---
 title: TXT
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: Un file con estensione .TXT rappresenta un documento di testo che contiene testo normale sotto forma di linee. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/wordprocessing/txt/ .
+description: Un file con estensione .TXT rappresenta un documento di testo che contiene testo normale sotto forma di linee. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/wordprocessing/txt/ .
 type: docs
 weight: 740
 url: /it/net/groupdocs.parser.options/filetype/txt/
 ---
 ## FileType.TXT field
 
-Un file con estensione .TXT rappresenta un documento di testo che contiene testo normale sotto forma di linee. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/word-processing/txt/) .
+Un file con estensione .TXT rappresenta un documento di testo che contiene testo normale sotto forma di linee. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/word-processing/txt/) .
 
 ```csharp
 public static readonly FileType TXT;

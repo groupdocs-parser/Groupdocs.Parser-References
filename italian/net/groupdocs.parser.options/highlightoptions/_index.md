@@ -3,7 +3,7 @@ title: HighlightOptions
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Fornisce le opzioni utilizzate per estrarre un evidenziato un blocco di testo attorno al testo trovato negli scenari di ricerca.
 type: docs
-weight: 400
+weight: 420
 url: /it/net/groupdocs.parser.options/highlightoptions/
 ---
 ## HighlightOptions class
@@ -18,7 +18,7 @@ public sealed class HighlightOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [HighlightOptions](highlightoptions#constructor)(int) | Inizializza una nuova istanza di[`HighlightOptions`](../highlightoptions)class che viene utilizzata per estrarre un'evidenziazione di lunghezza fissa. |
+| [HighlightOptions](highlightoptions#constructor)(int) | Inizializza una nuova istanza di[`HighlightOptions`](../highlightoptions) class che viene utilizzata per estrarre un'evidenziazione di lunghezza fissa. |
 | [HighlightOptions](highlightoptions#constructor_1)(int?, bool) | Inizializza una nuova istanza di[`HighlightOptions`](../highlightoptions) classe che viene utilizzata per estrarre un'evidenziazione limitata alla riga. |
 | [HighlightOptions](highlightoptions#constructor_2)(int?, int) | Inizializza una nuova istanza di[`HighlightOptions`](../highlightoptions) classe che viene utilizzata per estrarre un evidenziatore con il conteggio delle parole fisso. |
 | [HighlightOptions](highlightoptions#constructor_3)(int?, int?, bool) | Inizializza una nuova istanza di[`HighlightOptions`](../highlightoptions) classe. |
@@ -35,7 +35,7 @@ public sealed class HighlightOptions
 
 Un'istanza di[`HighlightOptions`](../highlightoptions) la classe viene utilizzata come parametro in[`GetHighlight`](../../groupdocs.parser/parser/gethighlight) method. Vedi gli esempi di utilizzo qui.
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Estrai punti salienti](https://docs.groupdocs.com/display/parsernet/Extract+highlights)
 

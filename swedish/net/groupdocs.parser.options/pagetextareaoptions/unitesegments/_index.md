@@ -3,7 +3,7 @@ title: UniteSegments
 second_title: GroupDocs.Parser för .NET API-referens
 description: Får värdet som indikerar om segment är förenade.
 type: docs
-weight: 50
+weight: 60
 url: /sv/net/groupdocs.parser.options/pagetextareaoptions/unitesegments/
 ---
 ## PageTextAreaOptions.UniteSegments property

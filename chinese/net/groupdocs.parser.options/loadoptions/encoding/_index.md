@@ -16,7 +16,7 @@ public Encoding Encoding { get; }
 
 ### 适当的价值
 
-的一个实例Encoding表示文档编码的类；`无效的`如果没有设置。
+的实例Encoding表示文档编码的类；`无效的`如果没有设置.
 
 ### 也可以看看
 

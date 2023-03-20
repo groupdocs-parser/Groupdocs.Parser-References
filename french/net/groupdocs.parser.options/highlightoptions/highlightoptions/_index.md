@@ -1,14 +1,14 @@
 ---
 title: HighlightOptions
 second_title: Référence de l'API GroupDocs.Parser pour .NET
-description: Initialise une nouvelle instance duHighlightOptionsgroupdocs.parser.options/highlightoptionsclasse qui est utilisée pour extraire un surlignage de longueur fixe.
+description: Initialise une nouvelle instance duHighlightOptionsgroupdocs.parser.options/highlightoptions classe qui est utilisée pour extraire un surlignage de longueur fixe.
 type: docs
 weight: 10
 url: /fr/net/groupdocs.parser.options/highlightoptions/highlightoptions/
 ---
 ## HighlightOptions(int) {#constructor}
 
-Initialise une nouvelle instance du[`HighlightOptions`](../../highlightoptions)classe qui est utilisée pour extraire un surlignage de longueur fixe.
+Initialise une nouvelle instance du[`HighlightOptions`](../../highlightoptions) classe qui est utilisée pour extraire un surlignage de longueur fixe.
 
 ```csharp
 public HighlightOptions(int maxLength)

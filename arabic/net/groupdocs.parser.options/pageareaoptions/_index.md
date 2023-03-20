@@ -3,7 +3,7 @@ title: PageAreaOptions
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يوفر الخيارات المستخدمة لاستخراج مناطق الصفحات.
 type: docs
-weight: 460
+weight: 510
 url: /ar/net/groupdocs.parser.options/pageareaoptions/
 ---
 ## PageAreaOptions class
@@ -28,7 +28,7 @@ public class PageAreaOptions
 
 ### ملاحظات
 
-مثال على[`PageAreaOptions`](../pageareaoptions) يتم استخدام class كمعلمة في الطرق التالية:
+مثال على[`PageAreaOptions`](../pageareaoptions)يتم استخدام class كمعلمة في الطرق التالية:
 
 * [`GetImages`](../../groupdocs.parser/parser/getimages)
 * [`GetImages`](../../groupdocs.parser/parser/getimages)

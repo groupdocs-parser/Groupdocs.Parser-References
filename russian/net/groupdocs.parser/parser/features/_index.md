@@ -20,7 +20,7 @@ public Features Features { get; }
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Получите поддерживаемые функции](https://docs.groupdocs.com/display/parsernet/Get+supported+features)
 

@@ -1,14 +1,14 @@
 ---
 title: TemplateTableLayout
 second_title: GroupDocs.Parser for .NET API 参考
-description: 提供模板表格布局供以下人员使用TemplateTable./templatetable定义表位置的类
+description: 提供使用的模板表格布局TemplateTable./templatetable定义表位置的类.
 type: docs
-weight: 700
+weight: 750
 url: /zh/net/groupdocs.parser.templates/templatetablelayout/
 ---
 ## TemplateTableLayout class
 
-提供模板表格布局，供以下人员使用[`TemplateTable`](../templatetable)定义表位置的类。
+提供使用的模板表格布局[`TemplateTable`](../templatetable)定义表位置的类.
 
 ```csharp
 public sealed class TemplateTableLayout
@@ -18,15 +18,15 @@ public sealed class TemplateTableLayout
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TemplateTableLayout](templatetablelayout)(IEnumerable&lt;double&gt;, IEnumerable&lt;double&gt;) | 初始化[`TemplateTableLayout`](../templatetablelayout)类. |
+| [TemplateTableLayout](templatetablelayout)(IEnumerable&lt;double&gt;, IEnumerable&lt;double&gt;) | 初始化一个新的实例[`TemplateTableLayout`](../templatetablelayout)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [HorizontalSeparators](../../groupdocs.parser.templates/templatetablelayout/horizontalseparators) { get; } | 获取表格行分隔符。 |
+| [HorizontalSeparators](../../groupdocs.parser.templates/templatetablelayout/horizontalseparators) { get; } | 获取表行分隔符。 |
 | [Rectangle](../../groupdocs.parser.templates/templatetablelayout/rectangle) { get; } | 获取包含表格的矩形区域。 |
-| [VerticalSeparators](../../groupdocs.parser.templates/templatetablelayout/verticalseparators) { get; } | 获取表格列分隔符。 |
+| [VerticalSeparators](../../groupdocs.parser.templates/templatetablelayout/verticalseparators) { get; } | 获取表列分隔符。 |
 
 ## 方法
 

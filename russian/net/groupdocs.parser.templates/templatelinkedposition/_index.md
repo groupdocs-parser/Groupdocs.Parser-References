@@ -3,7 +3,7 @@ title: TemplateLinkedPosition
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Предоставляет позицию поля шаблона которая использует связанное поле.
 type: docs
-weight: 650
+weight: 700
 url: /ru/net/groupdocs.parser.templates/templatelinkedposition/
 ---
 ## TemplateLinkedPosition class

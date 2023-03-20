@@ -3,7 +3,7 @@ title: TemplateTableLayout
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: tarafından kullanılan şablon tablo düzenini sağlar.TemplateTable./templatetable tablo pozisyonunu tanımlamak için sınıf.
 type: docs
-weight: 700
+weight: 750
 url: /tr/net/groupdocs.parser.templates/templatetablelayout/
 ---
 ## TemplateTableLayout class

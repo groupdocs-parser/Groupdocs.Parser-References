@@ -3,7 +3,7 @@ title: TemplateRegexPosition
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يوفر موضع حقل نموذج يستخدم التعبير العادي.
 type: docs
-weight: 680
+weight: 730
 url: /ar/net/groupdocs.parser.templates/templateregexposition/
 ---
 ## TemplateRegexPosition class

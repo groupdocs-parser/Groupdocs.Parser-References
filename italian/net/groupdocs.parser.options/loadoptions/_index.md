@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Fornisce le opzioni utilizzate per aprire un file.
 type: docs
-weight: 450
+weight: 470
 url: /it/net/groupdocs.parser.options/loadoptions/
 ---
 ## LoadOptions class
@@ -19,8 +19,8 @@ public sealed class LoadOptions
 | Nome | Descrizione |
 | --- | --- |
 | [LoadOptions](loadoptions#constructor)() | Inizializza una nuova istanza di[`LoadOptions`](../loadoptions) class con vuoto[`Password`](./password) ,[`FileFormat`](./fileformat) uguale aUnknown e codifiche predefinite. |
-| [LoadOptions](loadoptions#constructor_1)(FileFormat) | Inizializza una nuova istanza di[`LoadOptions`](../loadoptions) class con vuoto[`Password`](./password) e codifiche predefinite. |
-| [LoadOptions](loadoptions#constructor_4)(string) | Inizializza una nuova istanza di[`LoadOptions`](../loadoptions)class con[`FileFormat`](./fileformat) uguale aUnknown e codifiche predefinite. |
+| [LoadOptions](loadoptions#constructor_1)(FileFormat) | Inizializza una nuova istanza di[`LoadOptions`](../loadoptions) class con vuoto[`Password`](./password) codifiche predefinite. |
+| [LoadOptions](loadoptions#constructor_4)(string) | Inizializza una nuova istanza di[`LoadOptions`](../loadoptions) class con[`FileFormat`](./fileformat) uguale aUnknown e codifiche predefinite. |
 | [LoadOptions](loadoptions#constructor_2)(FileFormat, string) | Inizializza una nuova istanza di[`LoadOptions`](../loadoptions) class con la password e le codifiche predefinite. |
 | [LoadOptions](loadoptions#constructor_3)(FileFormat, string, Encoding, Encoding) | Inizializza una nuova istanza di[`LoadOptions`](../loadoptions) classe con codifiche personalizzate. |
 
@@ -40,9 +40,9 @@ Un'istanza di questa classe viene utilizzata come parametro in[`Parser`](../../g
 * [`Parser`](../../groupdocs.parser/parser/parser)
 * [`Parser`](../../groupdocs.parser/parser/parser)
 
-Vedi gli esempi di utilizzo qui.
+Vedi gli esempi di utilizzo lì.
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Caricamento di formati di file specifici](https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats)
 * [Caricamento di documenti protetti da password](https://docs.groupdocs.com/display/parsernet/Password-protected+documents)

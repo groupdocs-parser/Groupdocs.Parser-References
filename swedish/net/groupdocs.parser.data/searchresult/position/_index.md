@@ -16,7 +16,7 @@ public int Position { get; }
 
 ### Fastighetsvärde
 
-Ett nollbaserat index för startpositionen för sökresultatet. Beroende på[`SearchByPages`](../../../groupdocs.parser.options/searchoptions/searchbypages)egenskapsvärde detta index börjar från dokumentets start eller dokumentsidans start.
+Ett nollbaserat index för startpositionen för sökresultatet. Beroende på[`SearchByPages`](../../../groupdocs.parser.options/searchoptions/searchbypages) egenskapsvärde detta index börjar från dokumentets start eller dokumentsidans start.
 
 ### Se även
 

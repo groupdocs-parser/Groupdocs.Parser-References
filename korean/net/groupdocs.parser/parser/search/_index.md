@@ -1,0 +1,163 @@
+---
+title: Search
+second_title: .NET API 참조용 GroupDocs.Parser
+description: 검색keyword 문서에서.
+type: docs
+weight: 200
+url: /ko/net/groupdocs.parser/parser/search/
+---
+## Search(string) {#search}
+
+검색*keyword* 문서에서.
+
+```csharp
+public IEnumerable<SearchResult> Search(string keyword)
+```
+
+| 모수 | 유형 | 설명 |
+| --- | --- | --- |
+| keyword | String | 검색할 키워드입니다. |
+
+### 반환 값
+
+컬렉션[`SearchResult`](../../../groupdocs.parser.data/searchresult) 사물; `없는` 검색이 지원되지 않는 경우.
+
+### 비고
+
+**더 알아보기:**
+
+* [검색 텍스트](https://docs.groupdocs.com/display/parsernet/Search+text)
+* [Microsoft Office Word 문서에서 텍스트 검색](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+Word+documents)
+* [Microsoft Office Excel 스프레드시트에서 텍스트 검색](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+Excel+spreadsheets)
+* [Microsoft Office PowerPoint 프레젠테이션에서 텍스트 검색](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+PowerPoint+presentations)
+* [PDF 문서에서 텍스트 검색](https://docs.groupdocs.com/display/parsernet/Search+text+in+PDF+documents)
+* [이메일에서 텍스트 검색](https://docs.groupdocs.com/display/parsernet/Search+text+in+Emails)
+* [EPUB eBook에서 텍스트 검색](https://docs.groupdocs.com/display/parsernet/Search+text+in+EPUB+eBooks)
+* [HTML 문서에서 텍스트 검색](https://docs.groupdocs.com/display/parsernet/Search+text+in+HTML+documents)
+* [Microsoft OneNote 섹션에서 텍스트 검색](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+OneNote+sections)
+
+### 예
+
+다음 예에서는 문서에서 키워드를 찾는 방법을 보여줍니다.
+
+```csharp
+// Parser 클래스의 인스턴스 생성
+using(Parser parser = new Parser(filePath))
+{
+    // 키워드 검색:
+    IEnumerable<SearchResult> sr = parser.Search("page number");
+    // 검색 지원 여부 확인
+    if(sr == null)
+    {
+        Console.WriteLine("Search isn't supported");
+        return;
+    }
+ 
+    // 검색 결과를 반복합니다.
+    foreach(SearchResult s in sr)
+    {
+        // 색인과 찾은 텍스트를 인쇄합니다.
+        Console.WriteLine(string.Format("At {0}: {1}", s.Position, s.Text));
+    }
+}
+```
+
+### 또한보십시오
+
+* class [SearchResult](../../../groupdocs.parser.data/searchresult)
+* class [Parser](../../parser)
+* 네임스페이스 [GroupDocs.Parser](../../parser)
+* 집회 [GroupDocs.Parser](../../../)
+
+---
+
+## Search(string, SearchOptions) {#search_1}
+
+검색*keyword*검색 옵션(정규식, 대/소문자 구분 등)을 사용하여 문서에서.
+
+```csharp
+public IEnumerable<SearchResult> Search(string keyword, SearchOptions options)
+```
+
+| 모수 | 유형 | 설명 |
+| --- | --- | --- |
+| keyword | String | 검색할 키워드입니다. |
+| options | SearchOptions | 검색 옵션. |
+
+### 반환 값
+
+컬렉션[`SearchResult`](../../../groupdocs.parser.data/searchresult) 객체; `없는` 검색이 지원되지 않는 경우.
+
+### 비고
+
+**더 알아보기:**
+
+* [검색 텍스트](https://docs.groupdocs.com/display/parsernet/Search+text)
+* [Microsoft Office Word 문서에서 텍스트 검색](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+Word+documents)
+* [Microsoft Office Excel 스프레드시트에서 텍스트 검색](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+Excel+spreadsheets)
+* [Microsoft Office PowerPoint 프레젠테이션에서 텍스트 검색](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+PowerPoint+presentations)
+* [PDF 문서에서 텍스트 검색](https://docs.groupdocs.com/display/parsernet/Search+text+in+PDF+documents)
+* [이메일에서 텍스트 검색](https://docs.groupdocs.com/display/parsernet/Search+text+in+Emails)
+* [EPUB eBook에서 텍스트 검색](https://docs.groupdocs.com/display/parsernet/Search+text+in+EPUB+eBooks)
+* [HTML 문서에서 텍스트 검색](https://docs.groupdocs.com/display/parsernet/Search+text+in+HTML+documents)
+* [Microsoft OneNote 섹션에서 텍스트 검색](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+OneNote+sections)
+
+### 예
+
+다음 예에서는 문서에서 정규식을 사용하여 검색하는 방법을 보여줍니다.
+
+다음 예는 페이지에서 텍스트를 검색하는 방법을 보여줍니다.
+
+```csharp
+// Parser 클래스의 인스턴스 생성
+using(Parser parser = new Parser(filePath))
+{
+    // 대소문자 일치 정규 표현식으로 검색
+    IEnumerable<SearchResult> sr = parser.Search("page number: [0-9]+", new SearchOptions(true, false, true));
+    // 검색 지원 여부 확인
+    if(sr == null)
+    {
+        Console.WriteLine("Search isn't supported");
+        return;
+    }
+ 
+    // 검색 결과를 반복합니다.
+    foreach(SearchResult s in sr)
+    {
+        // 색인과 찾은 텍스트를 인쇄합니다.
+        Console.WriteLine(string.Format("At {0}: {1}", s.Position, s.Text));
+    }
+}
+```
+
+```csharp
+// Parser 클래스의 인스턴스 생성
+using(Parser parser = new Parser(filePath))
+{
+    // 페이지 번호로 키워드 검색
+    IEnumerable<SearchResult> sr = parser.Search("line", new SearchOptions(false, false, false, true));
+    // 검색 지원 여부 확인
+    if(sr == null)
+    {
+        Console.WriteLine("Search isn't supported");
+        return;
+    }
+ 
+    // 검색 결과를 반복합니다.
+    foreach(SearchResult s in sr)
+    {
+        // 색인, 페이지 번호 및 찾은 텍스트를 인쇄합니다.
+        Console.WriteLine(string.Format("At {0} (page {1}): {2}", s.Position, s.PageIndex, s.Text));
+    }
+}
+```
+
+### 또한보십시오
+
+* class [SearchResult](../../../groupdocs.parser.data/searchresult)
+* class [SearchOptions](../../../groupdocs.parser.options/searchoptions)
+* class [Parser](../../parser)
+* 네임스페이스 [GroupDocs.Parser](../../parser)
+* 집회 [GroupDocs.Parser](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Parser.dll -->

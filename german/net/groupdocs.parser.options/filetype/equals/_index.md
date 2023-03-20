@@ -20,7 +20,7 @@ public bool Equals(FileType other)
 
 ### Rückgabewert
 
-wenn beides[`FileType`](../../filetype) Objekte sind gleich; Andernfalls,
+wenn beides[`FileType`](../../filetype) Objekte sind gleich; ansonsten,
 
 ```csharp
 true
@@ -52,7 +52,7 @@ public override bool Equals(object obj)
 
 ### Rückgabewert
 
-wenn Parameter ist[`FileType`](../../filetype) und ist das gleiche wie Strom[`FileType`](../../filetype) Objekt; Andernfalls,
+Wenn Parameter ist[`FileType`](../../filetype) und ist das gleiche wie Strom[`FileType`](../../filetype) Objekt; ansonsten,
 
 ```csharp
 true

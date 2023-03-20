@@ -3,7 +3,7 @@ title: ParserSettings
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Предоставляет параметры используемые для настройки извлечения данных.
 type: docs
-weight: 510
+weight: 560
 url: /ru/net/groupdocs.parser.options/parsersettings/
 ---
 ## ParserSettings class
@@ -18,19 +18,25 @@ public sealed class ParserSettings
 
 | Имя | Описание |
 | --- | --- |
-| [ParserSettings](parsersettings)(ILogger) | Инициализирует новый экземпляр[`ParserSettings`](../parsersettings) класс. |
+| [ParserSettings](parsersettings#constructor)(ExternalResourceHandler) | Инициализирует новый экземпляр[`ParserSettings`](../parsersettings) класс с обработчиком внешних ресурсов. |
+| [ParserSettings](parsersettings#constructor_1)(ILogger) | Инициализирует новый экземпляр[`ParserSettings`](../parsersettings) класс с регистратором. |
+| [ParserSettings](parsersettings#constructor_4)(OcrConnectorBase) | Инициализирует новый экземпляр[`ParserSettings`](../parsersettings) класс с соединителем OCR. |
+| [ParserSettings](parsersettings#constructor_2)(ILogger, OcrConnectorBase) | Инициализирует новый экземпляр[`ParserSettings`](../parsersettings) класс с регистратором и соединителем OCR. |
+| [ParserSettings](parsersettings#constructor_3)(ILogger, OcrConnectorBase, ExternalResourceHandler) | Инициализирует новый экземпляр[`ParserSettings`](../parsersettings) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
+| [ExternalResourceHandler](../../groupdocs.parser.options/parsersettings/externalresourcehandler) { get; } | Получает обработчик внешних ресурсов. |
 | [Logger](../../groupdocs.parser.options/parsersettings/logger) { get; } | Получает регистратор, который используется для регистрации событий и ошибок во время извлечения данных. |
+| [OcrConnector](../../groupdocs.parser.options/parsersettings/ocrconnector) { get; } | Получает OCR Connector, который используется для предоставления функций OCR. |
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
-* [логирование](https://docs.groupdocs.com/display/parsernet/Logging)
+* [Ведение журнала](https://docs.groupdocs.com/display/parsernet/Logging)
 
 ### Смотрите также
 

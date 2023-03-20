@@ -17,7 +17,7 @@ public HighlightItem GetHighlight(int position, bool isDirect, HighlightOptions 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | position | Int32 | La posición inicial del resaltado. |
-| isDirect | Boolean | El valor que indica si la extracción de resaltado es directa. `verdadero` si el resaltado se extrae por el derecho de*position* ; de lo contrario,`falso` . |
+| isDirect | Boolean | El valor que indica si la extracción de resaltado es directa. `verdadero` si el resaltado se extrae por el derecho de*position* ; de lo contrario,`FALSO` . |
 | options | HighlightOptions | Las opciones de extracción de resaltado. |
 
 ### Valor_devuelto

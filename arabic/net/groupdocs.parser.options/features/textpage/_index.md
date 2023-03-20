@@ -3,7 +3,7 @@ title: TextPage
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يحصل على القيمة التي تشير إلى ما إذا كان استخراج صفحة النص مدعومًا.
 type: docs
-weight: 160
+weight: 180
 url: /ar/net/groupdocs.parser.options/features/textpage/
 ---
 ## Features.TextPage property
@@ -16,7 +16,7 @@ public bool TextPage { get; }
 
 ### قيمة الإرجاع
 
-`حقيقي` إذا كان استخراج صفحة النص مدعومًا ؛ خلاف ذلك،`خاطئة`.
+`حقيقي` إذا كان استخراج صفحة النص مدعومًا ؛ خلاف ذلك،`خطأ شنيع`.
 
 ### أنظر أيضا
 

@@ -21,7 +21,7 @@ public PageTableAreaCell this[int rowIndex, int columnIndex] { get; }
 
 ### Возвращаемое значение
 
-Экземпляр[`PageTableAreaCell`](../../pagetableareacell) учебный класс;`нулевой` если ячейка не найдена.
+Экземпляр[`PageTableAreaCell`](../../pagetableareacell) сорт;`нулевой` если ячейка не найдена.
 
 ### Смотрите также
 

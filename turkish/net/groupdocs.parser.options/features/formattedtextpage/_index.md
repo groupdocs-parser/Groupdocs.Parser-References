@@ -16,7 +16,7 @@ public bool FormattedTextPage { get; }
 
 ### Geri dönüş değeri
 
-`doğru` biçimlendirilmiş metin sayfası çıkarma destekleniyorsa; aksi halde,`yanlış`.
+`doğru` biçimlendirilmiş metin sayfası çıkarma destekleniyorsa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

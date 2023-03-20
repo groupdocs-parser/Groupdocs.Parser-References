@@ -1,14 +1,14 @@
 ---
 title: EPUB
 second_title: GroupDocs.Parser för .NET API-referens
-description: Filer med filtillägget .EPUB är ett eboksfilformat som tillhandahåller ett standardformat digitalt publikationsformat för förlag och konsumenter. Läs mer om detta filformat härhttps//wiki.fileformat.com/ebook/epub/ .
+description: Filer med filtillägget .EPUB är ett eboksfilformat som tillhandahåller ett digitalt standardformat för publicister och konsumenter. Läs mer om detta filformat härhttps//wiki.fileformat.com/ebook/epub/ .
 type: docs
 weight: 190
 url: /sv/net/groupdocs.parser.options/filetype/epub/
 ---
 ## FileType.EPUB field
 
-Filer med filtillägget .EPUB är ett e-boksfilformat som tillhandahåller ett standardformat digitalt publikationsformat för förlag och konsumenter. Läs mer om detta filformat [här](https://wiki.fileformat.com/ebook/epub/) .
+Filer med filtillägget .EPUB är ett e-boksfilformat som tillhandahåller ett digitalt standardformat för publicister och konsumenter. Läs mer om detta filformat [här](https://wiki.fileformat.com/ebook/epub/) .
 
 ```csharp
 public static readonly FileType EPUB;

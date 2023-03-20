@@ -1,14 +1,14 @@
 ---
 title: DCM
 second_title: GroupDocs.Parser for .NET API 参考
-description: 带有 .DCM 扩展名的文件代表数字图像其中存储了患者的医学 信息例如 MRICT 扫描和超声图像 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/image/dcm/.
+description: 扩展名为 .DCM 的文件代表数字图像它存储患者的医学 信息例如 MRICT 扫描和超声图像 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/image/dcm/.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.parser.options/filetype/dcm/
 ---
 ## FileType.DCM field
 
-带有 .DCM 扩展名的文件代表数字图像，其中存储了患者的医学 信息，例如 MRI、CT 扫描和超声图像。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/image/dcm/).
+扩展名为 .DCM 的文件代表数字图像，它存储患者的医学 信息，例如 MRI、CT 扫描和超声图像。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/image/dcm/).
 
 ```csharp
 public static readonly FileType DCM;

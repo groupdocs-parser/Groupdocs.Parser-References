@@ -23,7 +23,7 @@ public sealed class HighlightItem
 
 ### Notlar
 
-Bir örneği[`HighlightItem`](../highlightitem) sınıf, dönüş değeri olarak kullanılır[`GetHighlight`](../../groupdocs.parser/parser/gethighlight) yöntem, [`LeftHighlightItem`](../searchresult/lefthighlightitem) ve[`RightHighlightItem`](../searchresult/righthighlightitem) property. Oradaki kullanım örneklerine bakın.
+Bir örneği[`HighlightItem`](../highlightitem) sınıf, dönüş değeri olarak kullanılır[`GetHighlight`](../../groupdocs.parser/parser/gethighlight) yöntem, [`LeftHighlightItem`](../searchresult/lefthighlightitem) Ve[`RightHighlightItem`](../searchresult/righthighlightitem) property. Oradaki kullanım örneklerine bakın.
 
 ### Ayrıca bakınız
 

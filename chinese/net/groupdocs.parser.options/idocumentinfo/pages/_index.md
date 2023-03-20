@@ -1,14 +1,14 @@
 ---
 title: Pages
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取页面的索引页面大小等信息
+description: 获取索引页面大小等页面信息
 type: docs
 weight: 30
 url: /zh/net/groupdocs.parser.options/idocumentinfo/pages/
 ---
 ## IDocumentInfo.Pages property
 
-获取页面的索引、页面大小等信息。
+获取索引、页面大小等页面信息。
 
 ```csharp
 public IList<PageInfo> Pages { get; }
@@ -16,7 +16,7 @@ public IList<PageInfo> Pages { get; }
 
 ### 适当的价值
 
-具有实例的集合[`PageInfo`](../../pageinfo)类。
+包含实例的集合[`PageInfo`](../../pageinfo)类。
 
 ### 也可以看看
 

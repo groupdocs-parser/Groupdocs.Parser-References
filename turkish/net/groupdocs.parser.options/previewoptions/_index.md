@@ -3,7 +3,7 @@ title: PreviewOptions
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Önizleme oluşturma için gereksinimleri ayarlamak ve delegeleri akışa almak için seçenekler sağlar.
 type: docs
-weight: 520
+weight: 570
 url: /tr/net/groupdocs.parser.options/previewoptions/
 ---
 ## PreviewOptions class

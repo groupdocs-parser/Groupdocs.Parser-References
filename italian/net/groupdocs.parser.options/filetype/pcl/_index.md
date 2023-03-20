@@ -1,14 +1,14 @@
 ---
 title: PCL
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: PCL è lacronimo di Printer Command Language un linguaggio di descrizione della pagina introdotto da Hewlett Packard HP. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/pagedescriptionlanguage/pcl/ .
+description: PCL è lacronimo di Printer Command Language un linguaggio di descrizione della pagina introdotto da Hewlett Packard HP. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/pagedescriptionlanguage/pcl/ .
 type: docs
 weight: 490
 url: /it/net/groupdocs.parser.options/filetype/pcl/
 ---
 ## FileType.PCL field
 
-PCL è l'acronimo di Printer Command Language, un linguaggio di descrizione della pagina introdotto da Hewlett Packard (HP). Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/page-description-language/pcl/) .
+PCL è l'acronimo di Printer Command Language, un linguaggio di descrizione della pagina introdotto da Hewlett Packard (HP). Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/page-description-language/pcl/) .
 
 ```csharp
 public static readonly FileType PCL;

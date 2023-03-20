@@ -1,14 +1,14 @@
 ---
 title: Toc
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取指示是否支持目录提取的值
+description: 获取是否支持目录提取的值
 type: docs
-weight: 170
+weight: 190
 url: /zh/net/groupdocs.parser.options/features/toc/
 ---
 ## Features.Toc property
 
-获取指示是否支持目录提取的值。
+获取是否支持目录提取的值。
 
 ```csharp
 public bool Toc { get; }

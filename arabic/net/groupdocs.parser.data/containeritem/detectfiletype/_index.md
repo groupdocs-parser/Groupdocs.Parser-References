@@ -20,13 +20,13 @@ public FileType DetectFileType(FileTypeDetectionMode detectionMode)
 
 ### قيمة الإرجاع
 
-مثال على[`FileType`](../../../groupdocs.parser.options/filetype) صف دراسي؛[`Unknown`](../../../groupdocs.parser.options/filetype/unknown) إذا لم يتم الكشف عن نوع الملف.
+مثال على[`FileType`](../../../groupdocs.parser.options/filetype) فصل؛[`Unknown`](../../../groupdocs.parser.options/filetype/unknown) إذا لم يتم الكشف عن نوع الملف.
 
 ### ملاحظات
 
 *detectionMode* توفر المعلمة القدرة على التحكم في اكتشاف نوع الملف:
 
-* **تقصير** . يتم الكشف عن نوع الملف بواسطة امتداد الملف ؛ إذا لم يتم التعرف على امتداد الملف ، يتم اكتشاف نوع الملف بواسطة محتوى الملف.
+* **تقصير** يتم الكشف عن نوع الملف بواسطة امتداد الملف ؛ إذا لم يتم التعرف على امتداد الملف ، يتم اكتشاف نوع الملف بواسطة محتوى الملف.
 * **امتداد** يتم الكشف عن نوع الملف فقط من خلال امتداد الملف.
 * **محتوى** . يتم اكتشاف نوع الملف فقط من خلال محتوى الملف.
 

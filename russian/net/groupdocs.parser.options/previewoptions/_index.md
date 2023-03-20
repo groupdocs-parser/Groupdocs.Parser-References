@@ -3,7 +3,7 @@ title: PreviewOptions
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Предоставляет параметры для установки требований и потоковой передачи делегатов для создания предварительного просмотра.
 type: docs
-weight: 520
+weight: 570
 url: /ru/net/groupdocs.parser.options/previewoptions/
 ---
 ## PreviewOptions class

@@ -1,14 +1,14 @@
 ---
 title: TemplateTable
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化TemplateTablegroupdocs.parser.templates/templatetable类.
+description: 初始化一个新的实例TemplateTablegroupdocs.parser.templates/templatetable类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.templates/templatetable/templatetable/
 ---
 ## TemplateTable(TemplateTableLayout, string, int?) {#constructor}
 
-初始化[`TemplateTable`](../../templatetable)类.
+初始化一个新的实例[`TemplateTable`](../../templatetable)类.
 
 ```csharp
 public TemplateTable(TemplateTableLayout layout, string name, int? pageIndex)
@@ -18,7 +18,7 @@ public TemplateTable(TemplateTableLayout layout, string name, int? pageIndex)
 | --- | --- | --- |
 | layout | TemplateTableLayout | 表布局。 |
 | name | String | 表名。 |
-| pageIndex | Nullable`1 | 模板表所在页面的索引； `无效的`如果模板表位于任何页面上。 |
+| pageIndex | Nullable`1 | 模板表所在页的索引； `无效的`如果模板表位于任何页面上。 |
 
 ### 例子
 
@@ -46,7 +46,7 @@ Template template = new Template(new TemplateItem[] { table });
 
 ## TemplateTable(TemplateTableParameters, string, int?) {#constructor_1}
 
-初始化[`TemplateTable`](../../templatetable)类.
+初始化一个新的实例[`TemplateTable`](../../templatetable)类.
 
 ```csharp
 public TemplateTable(TemplateTableParameters parameters, string name, int? pageIndex)
@@ -54,13 +54,13 @@ public TemplateTable(TemplateTableParameters parameters, string name, int? pageI
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parameters | TemplateTableParameters | 在自动模式下检测表格的参数。 |
+| parameters | TemplateTableParameters | 自动模式下检测表的参数。 |
 | name | String | 表名。 |
-| pageIndex | Nullable`1 | 模板表所在页面的索引； `无效的`如果模板表位于任何页面上。 |
+| pageIndex | Nullable`1 | 模板表所在页的索引； `无效的`如果模板表位于任何页面上。 |
 
 ### 例子
 
-如果通过检测器参数设置模板表，则自动检测该表：
+如果检测器参数设置了模板表，则自动检测该表：
 
 ```csharp
 TemplateTableParameters parameters = new TemplateTableParameters(

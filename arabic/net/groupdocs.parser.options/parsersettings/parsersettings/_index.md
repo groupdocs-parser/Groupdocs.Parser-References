@@ -1,14 +1,14 @@
 ---
 title: ParserSettings
 second_title: GroupDocs.Parser لمرجع .NET API
-description: يقوم بتهيئة مثيل جديد لملفParserSettingsgroupdocs.parser.options/parsersettings فئة .
+description: يقوم بتهيئة مثيل جديد لملفParserSettingsgroupdocs.parser.options/parsersettings فئة مع المسجل .
 type: docs
 weight: 10
 url: /ar/net/groupdocs.parser.options/parsersettings/parsersettings/
 ---
-## ParserSettings constructor
+## ParserSettings(ILogger) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`ParserSettings`](../../parsersettings) فئة .
+يقوم بتهيئة مثيل جديد لملف[`ParserSettings`](../../parsersettings) فئة مع المسجل .
 
 ```csharp
 public ParserSettings(ILogger logger)
@@ -21,6 +21,97 @@ public ParserSettings(ILogger logger)
 ### أنظر أيضا
 
 * interface [ILogger](../../ilogger)
+* class [ParserSettings](../../parsersettings)
+* مساحة الاسم [GroupDocs.Parser.Options](../../parsersettings)
+* المجسم [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(OcrConnectorBase) {#constructor_4}
+
+يقوم بتهيئة مثيل جديد لملف[`ParserSettings`](../../parsersettings) فئة مع موصل OCR.
+
+```csharp
+public ParserSettings(OcrConnectorBase ocrConnector)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| ocrConnector | OcrConnectorBase | مثيل الطبقة التي ترث[`OcrConnectorBase`](../../ocrconnectorbase) فئة لتوفير وظيفة التعرف الضوئي على الحروف. |
+
+### أنظر أيضا
+
+* class [OcrConnectorBase](../../ocrconnectorbase)
+* class [ParserSettings](../../parsersettings)
+* مساحة الاسم [GroupDocs.Parser.Options](../../parsersettings)
+* المجسم [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(ExternalResourceHandler) {#constructor}
+
+يقوم بتهيئة مثيل جديد لملف[`ParserSettings`](../../parsersettings) فئة مع معالج الموارد الخارجية.
+
+```csharp
+public ParserSettings(ExternalResourceHandler externalResourceHandler)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| externalResourceHandler | ExternalResourceHandler | مثيل للفئة التي ترث[`ExternalResourceHandler`](../../externalresourcehandler) فئة لتوفير التحكم في تحميل الموارد الخارجية. |
+
+### أنظر أيضا
+
+* class [ExternalResourceHandler](../../externalresourcehandler)
+* class [ParserSettings](../../parsersettings)
+* مساحة الاسم [GroupDocs.Parser.Options](../../parsersettings)
+* المجسم [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(ILogger, OcrConnectorBase) {#constructor_2}
+
+يقوم بتهيئة مثيل جديد لملف[`ParserSettings`](../../parsersettings) فئة مع المسجل وموصل OCR.
+
+```csharp
+public ParserSettings(ILogger logger, OcrConnectorBase ocrConnector)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| logger | ILogger | مثيل للفئة التي تنفذ[`ILogger`](../../ilogger) واجهه المستخدم. |
+| ocrConnector | OcrConnectorBase | مثيل الطبقة التي ترث[`OcrConnectorBase`](../../ocrconnectorbase) فئة لتوفير وظيفة التعرف الضوئي على الحروف. |
+
+### أنظر أيضا
+
+* interface [ILogger](../../ilogger)
+* class [OcrConnectorBase](../../ocrconnectorbase)
+* class [ParserSettings](../../parsersettings)
+* مساحة الاسم [GroupDocs.Parser.Options](../../parsersettings)
+* المجسم [GroupDocs.Parser](../../../)
+
+---
+
+## ParserSettings(ILogger, OcrConnectorBase, ExternalResourceHandler) {#constructor_3}
+
+يقوم بتهيئة مثيل جديد لملف[`ParserSettings`](../../parsersettings) فئة .
+
+```csharp
+public ParserSettings(ILogger logger, OcrConnectorBase ocrConnector, 
+    ExternalResourceHandler externalResourceHandler)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| logger | ILogger | مثيل للفئة التي تنفذ[`ILogger`](../../ilogger) واجهه المستخدم. |
+| ocrConnector | OcrConnectorBase | مثيل الطبقة التي ترث[`OcrConnectorBase`](../../ocrconnectorbase) فئة لتوفير وظيفة التعرف الضوئي على الحروف. |
+| externalResourceHandler | ExternalResourceHandler | مثيل للفئة التي ترث[`ExternalResourceHandler`](../../externalresourcehandler) فئة لتوفير التحكم في تحميل الموارد الخارجية. |
+
+### أنظر أيضا
+
+* interface [ILogger](../../ilogger)
+* class [OcrConnectorBase](../../ocrconnectorbase)
+* class [ExternalResourceHandler](../../externalresourcehandler)
 * class [ParserSettings](../../parsersettings)
 * مساحة الاسم [GroupDocs.Parser.Options](../../parsersettings)
 * المجسم [GroupDocs.Parser](../../../)

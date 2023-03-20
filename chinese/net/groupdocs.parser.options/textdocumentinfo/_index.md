@@ -1,14 +1,14 @@
 ---
 title: TextDocumentInfo
 second_title: GroupDocs.Parser for .NET API 参考
-description: 表示文本文档信息
+description: 代表文本文档信息
 type: docs
-weight: 570
+weight: 620
 url: /zh/net/groupdocs.parser.options/textdocumentinfo/
 ---
 ## TextDocumentInfo class
 
-表示文本文档信息。
+代表文本文档信息。
 
 ```csharp
 public class TextDocumentInfo : DocumentInfo
@@ -18,16 +18,16 @@ public class TextDocumentInfo : DocumentInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Encoding](../../groupdocs.parser.options/textdocumentinfo/encoding) { get; } | 获取检测到的文本文档编码。 |
+| [Encoding](../../groupdocs.parser.options/textdocumentinfo/encoding) { get; } | 获取文本文档的检测编码。 |
 | [FileType](../../groupdocs.parser.options/documentinfo/filetype) { get; } | 获取文档类型。 |
 | [PageCount](../../groupdocs.parser.options/documentinfo/pagecount) { get; } | 获取文档总页数。 |
-| [Pages](../../groupdocs.parser.options/documentinfo/pages) { get; } | 获取页面的索引、页面大小等信息。 |
+| [Pages](../../groupdocs.parser.options/documentinfo/pages) { get; } | 获取索引、页面大小等页面信息。 |
 | [RawPageCount](../../groupdocs.parser.options/documentinfo/rawpagecount) { get; } | 获取文档原始页面的总数。 |
-| [Size](../../groupdocs.parser.options/documentinfo/size) { get; } | 获取文档的大小（以字节为单位）。 |
+| [Size](../../groupdocs.parser.options/documentinfo/size) { get; } | 获取文档的字节大小。 |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [获取文档信息](https://docs.groupdocs.com/display/parsernet/Get+document+info)
 * [检测编码](https://docs.groupdocs.com/display/parsernet/Detect+encoding)

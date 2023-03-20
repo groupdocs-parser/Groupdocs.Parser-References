@@ -26,7 +26,7 @@ public HighlightItem GetHighlight(int position, bool isDirect, HighlightOptions 
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Извлечение основных моментов](https://docs.groupdocs.com/display/parsernet/Extract+highlights)
 

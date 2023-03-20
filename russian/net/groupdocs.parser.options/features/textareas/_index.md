@@ -3,7 +3,7 @@ title: TextAreas
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Получает значение указывающее поддерживается ли извлечение текстовых областей.
 type: docs
-weight: 150
+weight: 170
 url: /ru/net/groupdocs.parser.options/features/textareas/
 ---
 ## Features.TextAreas property

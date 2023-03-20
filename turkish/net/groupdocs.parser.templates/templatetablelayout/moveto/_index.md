@@ -56,7 +56,7 @@ Rectangle movedRect = movedLayout.Rectangle;
 // Baskılar: konum: (315, 250) boyut: (230, 75)
 Console.WriteLine(string.Format("pos: ({0}, {1}) size: ({2}, {3})", movedRect.Left, movedRect.Top, movedRect.Size.Width, movedRect.Size.Height));
 
-// moveLayout nesnesi, layout nesnesinin bir kopyasıdır, bu nedenle ayırıcıları, orijinal layout'u etkilemeden ayarlayabiliriz:
+// moveLayout nesnesi, layout nesnesinin bir kopyasıdır, dolayısıyla ayırıcıları, orijinal layout üzerinde bir etkisi olmadan ayarlayabiliriz:
 movedLayout.HorizontalSeparators.Add(90);
 
 Console.WriteLine(movedLayout.HorizontalSeparators.Count); // yazdırır: 7

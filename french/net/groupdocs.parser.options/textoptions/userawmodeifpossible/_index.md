@@ -3,7 +3,7 @@ title: UseRawModeIfPossible
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Obtient la valeur qui indique si le mode brut est utilisé.
 type: docs
-weight: 20
+weight: 40
 url: /fr/net/groupdocs.parser.options/textoptions/userawmodeifpossible/
 ---
 ## TextOptions.UseRawModeIfPossible property
@@ -16,7 +16,7 @@ public bool UseRawModeIfPossible { get; }
 
 ### Valeur de la propriété
 
-`vrai` si le mode brut est utilisé ; Par ailleurs,`faux`.
+`vrai` si le mode brut est utilisé ; sinon,`FAUX`.
 
 ### Voir également
 

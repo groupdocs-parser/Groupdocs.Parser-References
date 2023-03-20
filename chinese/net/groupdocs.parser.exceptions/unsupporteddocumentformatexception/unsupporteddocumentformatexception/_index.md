@@ -1,14 +1,14 @@
 ---
 title: UnsupportedDocumentFormatException
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化UnsupportedDocumentFormatExceptiongroupdocs.parser.exceptions/unsupporteddocumentformatexception类.
+description: 初始化一个新的实例UnsupportedDocumentFormatExceptiongroupdocs.parser.exceptions/unsupporteddocumentformatexception类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.exceptions/unsupporteddocumentformatexception/unsupporteddocumentformatexception/
 ---
 ## UnsupportedDocumentFormatException() {#constructor}
 
-初始化[`UnsupportedDocumentFormatException`](../../unsupporteddocumentformatexception)类.
+初始化一个新的实例[`UnsupportedDocumentFormatException`](../../unsupporteddocumentformatexception)类.
 
 ```csharp
 public UnsupportedDocumentFormatException()
@@ -24,7 +24,7 @@ public UnsupportedDocumentFormatException()
 
 ## UnsupportedDocumentFormatException(string) {#constructor_1}
 
-初始化[`UnsupportedDocumentFormatException`](../../unsupporteddocumentformatexception)类.
+初始化一个新的实例[`UnsupportedDocumentFormatException`](../../unsupporteddocumentformatexception)类.
 
 ```csharp
 public UnsupportedDocumentFormatException(string message)

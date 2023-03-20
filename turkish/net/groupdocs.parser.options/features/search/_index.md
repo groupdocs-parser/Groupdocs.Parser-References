@@ -3,7 +3,7 @@ title: Search
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Metin aramanın desteklenip desteklenmediğini gösteren değeri alır.
 type: docs
-weight: 110
+weight: 130
 url: /tr/net/groupdocs.parser.options/features/search/
 ---
 ## Features.Search property
@@ -16,7 +16,7 @@ public bool Search { get; }
 
 ### Geri dönüş değeri
 
-`doğru` metin araması destekleniyorsa; aksi halde,`yanlış`.
+`doğru` metin araması destekleniyorsa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

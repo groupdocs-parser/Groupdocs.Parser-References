@@ -1,14 +1,14 @@
 ---
 title: UseRawModeIfPossible
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取指示是否使用原始模式的值
+description: 获取是否使用raw模式的值
 type: docs
-weight: 20
+weight: 40
 url: /zh/net/groupdocs.parser.options/textoptions/userawmodeifpossible/
 ---
 ## TextOptions.UseRawModeIfPossible property
 
-获取指示是否使用原始模式的值。
+获取是否使用raw模式的值。
 
 ```csharp
 public bool UseRawModeIfPossible { get; }

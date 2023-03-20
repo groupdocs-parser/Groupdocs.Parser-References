@@ -3,7 +3,7 @@ title: Features
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يمثل قائمة الميزات المدعومة. يسمح بالحصول على المعلومات التي يتم دعمها أو عدم دعمها للمستند.
 type: docs
-weight: 330
+weight: 350
 url: /ar/net/groupdocs.parser.options/features/
 ---
 ## Features class
@@ -26,8 +26,10 @@ public sealed class Features
 | [Hyperlinks](../../groupdocs.parser.options/features/hyperlinks) { get; } | الحصول على القيمة التي تشير إلى ما إذا كان استخراج الارتباطات التشعبية مدعومًا أم لا. |
 | [Images](../../groupdocs.parser.options/features/images) { get; } | يحصل على القيمة التي تشير إلى ما إذا كان استخراج الصور مدعومًا. |
 | [Metadata](../../groupdocs.parser.options/features/metadata) { get; } | الحصول على القيمة التي تشير إلى ما إذا كان استخراج البيانات الوصفية مدعومًا. |
+| [Ocr](../../groupdocs.parser.options/features/ocr) { get; } | يحصل على القيمة التي تشير إلى ما إذا كانت وظيفة OCR مدعومة. |
 | [ParseByTemplate](../../groupdocs.parser.options/features/parsebytemplate) { get; } | يحصل على القيمة التي تشير إلى ما إذا كان التحليل حسب القالب مدعومًا. |
 | [ParseForm](../../groupdocs.parser.options/features/parseform) { get; } | يحصل على القيمة التي تشير إلى ما إذا كان تحليل النموذج مدعومًا. |
+| [Preview](../../groupdocs.parser.options/features/preview) { get; } | يحصل على القيمة التي تشير إلى ما إذا كان إنشاء المعاينة مدعومًا. |
 | [Search](../../groupdocs.parser.options/features/search) { get; } | يحصل على القيمة التي تشير إلى ما إذا كان البحث عن النص مدعومًا. |
 | [Structure](../../groupdocs.parser.options/features/structure) { get; } | الحصول على القيمة التي تشير إلى ما إذا كان استخراج بنية النص مدعومًا. |
 | [Tables](../../groupdocs.parser.options/features/tables) { get; } | الحصول على القيمة التي تشير إلى ما إذا كان استخراج الجداول مدعومًا. |
@@ -44,7 +46,7 @@ public sealed class Features
 
 ### ملاحظات
 
-يتم استخدام مثيل من هذه الفئة كـ[`Features`](../../groupdocs.parser/parser/features)property. راجع أمثلة الاستخدام هناك.
+يتم استخدام مثيل من هذه الفئة كـ[`Features`](../../groupdocs.parser/parser/features) property. راجع أمثلة الاستخدام هناك.
 
 **يتعلم أكثر:**
 

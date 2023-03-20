@@ -16,7 +16,7 @@ public bool Hyperlinks { get; }
 
 ### Valore di ritorno
 
-`VERO` se l'estrazione di collegamenti ipertestuali è supportata; altrimenti,`falso`.
+`VERO` se l'estrazione di collegamenti ipertestuali è supportata; Altrimenti,`falso`.
 
 ### Guarda anche
 

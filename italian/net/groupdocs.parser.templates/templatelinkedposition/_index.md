@@ -3,7 +3,7 @@ title: TemplateLinkedPosition
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Fornisce una posizione nel campo del modello che utilizza il campo collegato.
 type: docs
-weight: 650
+weight: 700
 url: /it/net/groupdocs.parser.templates/templatelinkedposition/
 ---
 ## TemplateLinkedPosition class

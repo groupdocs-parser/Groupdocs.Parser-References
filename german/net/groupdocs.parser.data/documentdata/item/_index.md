@@ -50,7 +50,7 @@ using (Parser parser = new Parser(filePath))
         FieldData field = data[i];
         // Den Feldnamen drucken
         Console.Write(field.Name + ": ");
-        // Prüfe, ob der Feldwert ein Text ist und drucke ihn aus
+        // Prüfe, ob der Feldwert ein Text ist und drucke ihn
         PageTextArea area = field.PageArea as PageTextArea;
         Console.WriteLine(area == null ? "Not a template field" : area.Text);
     }

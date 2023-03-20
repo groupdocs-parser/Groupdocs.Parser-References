@@ -16,7 +16,7 @@ public HighlightOptions LeftHighlightOptions { get; }
 
 ### Стоимость имущества
 
-Экземпляр[`HighlightOptions`](../../highlightoptions) учебный класс;`нулевой` если он не установлен.
+Экземпляр[`HighlightOptions`](../../highlightoptions) сорт;`нулевой` если он не установлен.
 
 ### Смотрите также
 

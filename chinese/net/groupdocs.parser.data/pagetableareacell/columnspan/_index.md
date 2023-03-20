@@ -1,14 +1,14 @@
 ---
 title: ColumnSpan
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取包含表格单元格的总列数
+description: 获取包含表格单元格的列总数
 type: docs
 weight: 30
 url: /zh/net/groupdocs.parser.data/pagetableareacell/columnspan/
 ---
 ## PageTableAreaCell.ColumnSpan property
 
-获取包含表格单元格的总列数。
+获取包含表格单元格的列总数。
 
 ```csharp
 public int ColumnSpan { get; }

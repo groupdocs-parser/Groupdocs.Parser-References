@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取模板项的总数
+description: 获取模板项总数
 type: docs
 weight: 20
 url: /zh/net/groupdocs.parser.templates/template/count/
 ---
 ## Template.Count property
 
-获取模板项的总数。
+获取模板项总数。
 
 ```csharp
 public int Count { get; }

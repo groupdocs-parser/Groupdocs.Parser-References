@@ -1,14 +1,14 @@
 ---
 title: CGM
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: Bilgisayar Grafikleri Meta Dosyası CGM ücretsiz platformdan bağımsız uluslararası standart metafile formatıdır ve vektör grafikleri 2D raster grafikler ve metin alışverişi içindir. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/pagedescriptionlanguage/cgm/ .
+description: Bilgisayar Grafikleri Meta Dosyası CGM ücretsiz platformdan bağımsız uluslararası standart metafile formatıdır ve vektör grafikleri 2D raster grafikler ve metin alışverişi içindir. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/pagedescriptionlanguage/cgm/ .
 type: docs
 weight: 30
 url: /tr/net/groupdocs.parser.options/filetype/cgm/
 ---
 ## FileType.CGM field
 
-Bilgisayar Grafikleri Meta Dosyası (CGM) ücretsiz, platformdan bağımsız, uluslararası standart metafile formatıdır ve vektör grafikleri (2D), raster grafikler ve metin alışverişi içindir. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/page-description-language/cgm/) .
+Bilgisayar Grafikleri Meta Dosyası (CGM) ücretsiz, platformdan bağımsız, uluslararası standart metafile formatıdır ve vektör grafikleri (2D), raster grafikler ve metin alışverişi içindir. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/page-description-language/cgm/) .
 
 ```csharp
 public static readonly FileType CGM;

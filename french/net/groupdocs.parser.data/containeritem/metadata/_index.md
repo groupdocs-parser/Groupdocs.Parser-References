@@ -26,7 +26,7 @@ Ces métadonnées font référence à un élément de conteneur lui-même, pas �
 
 **Nom**
 
-**La description**
+**Description**
 
 **type de contenu**
 
@@ -36,9 +36,9 @@ Le type MIME du contenu de la pièce jointe.
 
 **Nom**
 
-**La description**
+**Description**
 
-**Date**
+**date**
 
 L'heure et la date auxquelles le fichier indiqué par l'entrée Zip a été modifié pour la dernière fois.
 
@@ -46,9 +46,9 @@ L'heure et la date auxquelles le fichier indiqué par l'entrée Zip a été modi
 
 **Nom**
 
-**La description**
+**Description**
 
-**Date**
+**date**
 
 L'heure et la date auxquelles l'élément de stockage Outlook a été modifié pour la dernière fois.
 
@@ -60,7 +60,7 @@ La valeur du champ "expéditeur".
 
 La valeur du champ "à".
 
-**matière**
+**sujet**
 
 La valeur du champ "sujet".
 

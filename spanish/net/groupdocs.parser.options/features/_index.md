@@ -3,7 +3,7 @@ title: Features
 second_title: Referencia de API de GroupDocs.Parser para .NET
 description: Representa la lista de funciones admitidas. Permite obtener información de qué funcionalidades soporta o no el documento.
 type: docs
-weight: 330
+weight: 350
 url: /es/net/groupdocs.parser.options/features/
 ---
 ## Features class
@@ -26,8 +26,10 @@ public sealed class Features
 | [Hyperlinks](../../groupdocs.parser.options/features/hyperlinks) { get; } | Obtiene el valor que indica si se admite la extracción de hipervínculos. |
 | [Images](../../groupdocs.parser.options/features/images) { get; } | Obtiene el valor que indica si se admite la extracción de imágenes. |
 | [Metadata](../../groupdocs.parser.options/features/metadata) { get; } | Obtiene el valor que indica si se admite la extracción de metadatos. |
+| [Ocr](../../groupdocs.parser.options/features/ocr) { get; } | Obtiene el valor que indica si se admite la función OCR. |
 | [ParseByTemplate](../../groupdocs.parser.options/features/parsebytemplate) { get; } | Obtiene el valor que indica si se admite el análisis por plantilla. |
 | [ParseForm](../../groupdocs.parser.options/features/parseform) { get; } | Obtiene el valor que indica si se admite el análisis de formularios. |
+| [Preview](../../groupdocs.parser.options/features/preview) { get; } | Obtiene el valor que indica si se admite la generación de vistas previas. |
 | [Search](../../groupdocs.parser.options/features/search) { get; } | Obtiene el valor que indica si se admite la búsqueda de texto. |
 | [Structure](../../groupdocs.parser.options/features/structure) { get; } | Obtiene el valor que indica si se admite la extracción de estructuras de texto. |
 | [Tables](../../groupdocs.parser.options/features/tables) { get; } | Obtiene el valor que indica si se admite la extracción de tablas. |
@@ -44,7 +46,7 @@ public sealed class Features
 
 ### Observaciones
 
-Una instancia de esta clase se utiliza como[`Features`](../../groupdocs.parser/parser/features)property. Vea los ejemplos de uso allí.
+Una instancia de esta clase se utiliza como[`Features`](../../groupdocs.parser/parser/features) property. Vea los ejemplos de uso allí.
 
 **Aprende más:**
 

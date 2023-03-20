@@ -3,7 +3,7 @@ title: FileInfo
 second_title: Referencia de API de GroupDocs.Parser para .NET
 description: Representa la información del archivo.
 type: docs
-weight: 350
+weight: 370
 url: /es/net/groupdocs.parser.options/fileinfo/
 ---
 ## FileInfo class

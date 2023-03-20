@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /sv/net/groupdocs.parser.options/textoptions/textoptions/
 ---
-## TextOptions constructor
+## TextOptions(bool) {#constructor}
 
 Initierar en ny instans av[`TextOptions`](../../textoptions) class.
 
@@ -20,6 +20,50 @@ public TextOptions(bool useRawModeIfPossible)
 
 ### Se även
 
+* class [TextOptions](../../textoptions)
+* namnutrymme [GroupDocs.Parser.Options](../../textoptions)
+* hopsättning [GroupDocs.Parser](../../../)
+
+---
+
+## TextOptions(bool, bool) {#constructor_1}
+
+Initierar en ny instans av[`TextOptions`](../../textoptions) klass med OCR-användningsalternativet.
+
+```csharp
+public TextOptions(bool useRawModeIfPossible, bool useOcr)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| useRawModeIfPossible | Boolean | Värdet som indikerar om råläget används. |
+| useOcr | Boolean | Värdet som indikerar om OCR-funktionen används för att extrahera en text. |
+
+### Se även
+
+* class [TextOptions](../../textoptions)
+* namnutrymme [GroupDocs.Parser.Options](../../textoptions)
+* hopsättning [GroupDocs.Parser](../../../)
+
+---
+
+## TextOptions(bool, bool, OcrOptions) {#constructor_2}
+
+Initierar en ny instans av[`TextOptions`](../../textoptions) klass med möjlighet att ställa in OCR-alternativ.
+
+```csharp
+public TextOptions(bool useRawModeIfPossible, bool useOcr, OcrOptions ocrOptions)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| useRawModeIfPossible | Boolean | Värdet som indikerar om råläget används. |
+| useOcr | Boolean | Värdet som indikerar om OCR-funktionen används för att extrahera en text. |
+| ocrOptions | OcrOptions | De ytterligare alternativen för OCR-funktionalitet. |
+
+### Se även
+
+* class [OcrOptions](../../ocroptions)
 * class [TextOptions](../../textoptions)
 * namnutrymme [GroupDocs.Parser.Options](../../textoptions)
 * hopsättning [GroupDocs.Parser](../../../)

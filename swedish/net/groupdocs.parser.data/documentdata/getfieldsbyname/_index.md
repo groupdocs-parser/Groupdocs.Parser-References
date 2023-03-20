@@ -20,7 +20,7 @@ public IList<FieldData> GetFieldsByName(string fieldName)
 
 ### Returvärde
 
-En samling av[`FieldData`](../../fielddata) objekt; tom samling om inga fältdata hittas.
+En samling av[`FieldData`](../../fielddata) föremål; tom samling om inga fältdata hittas.
 
 ### Exempel
 

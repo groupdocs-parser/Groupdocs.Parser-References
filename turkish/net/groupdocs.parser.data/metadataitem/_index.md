@@ -29,7 +29,7 @@ public sealed class MetadataItem
 
 ### Notlar
 
-Bir örneği[`MetadataItem`](../metadataitem) sınıf, dönüş değeri olarak kullanılır[`GetMetadata`](../../groupdocs.parser/parser/getmetadata) yöntem ve bir öğe olarak[`Metadata`](../containeritem/metadata)collection. Oradaki kullanım örneklerine bakın.
+Bir örneği[`MetadataItem`](../metadataitem) sınıf, dönüş değeri olarak kullanılır[`GetMetadata`](../../groupdocs.parser/parser/getmetadata) yöntem ve bir öğe olarak[`Metadata`](../containeritem/metadata) collection. Oradaki kullanım örneklerine bakın.
 
 ### Ayrıca bakınız
 

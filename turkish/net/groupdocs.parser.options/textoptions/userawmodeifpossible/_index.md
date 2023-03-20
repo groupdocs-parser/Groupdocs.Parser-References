@@ -3,7 +3,7 @@ title: UseRawModeIfPossible
 second_title: .NET API Başvurusu için GroupDocs.Parser
 description: Ham modun kullanılıp kullanılmadığını gösteren değeri alır.
 type: docs
-weight: 20
+weight: 40
 url: /tr/net/groupdocs.parser.options/textoptions/userawmodeifpossible/
 ---
 ## TextOptions.UseRawModeIfPossible property
@@ -16,7 +16,7 @@ public bool UseRawModeIfPossible { get; }
 
 ### Mülk değeri
 
-`doğru` ham mod kullanılıyorsa; aksi halde,`yanlış`.
+`doğru` ham mod kullanılıyorsa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

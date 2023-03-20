@@ -20,7 +20,7 @@ public bool Equals(FileType other)
 
 ### Geri dönüş değeri
 
-ikisi de olursa[`FileType`](../../filetype) nesneler aynıdır; aksi halde,
+ikisi de olursa[`FileType`](../../filetype) nesneler aynıdır; aksi takdirde,
 
 ```csharp
 true
@@ -52,7 +52,7 @@ public override bool Equals(object obj)
 
 ### Geri dönüş değeri
 
-eğer parametre[`FileType`](../../filetype) ve şu anki ile aynı[`FileType`](../../filetype) nesne; aksi halde,
+eğer parametre[`FileType`](../../filetype) ve şu anki ile aynı[`FileType`](../../filetype) nesne; aksi takdirde,
 
 ```csharp
 true

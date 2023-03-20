@@ -26,7 +26,7 @@ Wenn der Dateityp unterstützt wird, wird er zurückgegeben, andernfalls wird de
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentException | Wann geworfen*extension*ist null oder eine leere Zeichenfolge. |
+| ArgumentException | Wann geworfen*extension* ist null oder eine leere Zeichenfolge. |
 
 ### Siehe auch
 

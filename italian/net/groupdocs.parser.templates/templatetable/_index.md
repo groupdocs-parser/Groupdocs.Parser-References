@@ -3,7 +3,7 @@ title: TemplateTable
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Fornisce la tabella modello.
 type: docs
-weight: 690
+weight: 740
 url: /it/net/groupdocs.parser.templates/templatetable/
 ---
 ## TemplateTable class

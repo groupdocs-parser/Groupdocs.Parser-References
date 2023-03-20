@@ -3,7 +3,7 @@ title: Parser
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Rappresenta la classe principale che controlla il testo le immagini lestrazione del contenitore e la funzionalità di analisi.
 type: docs
-weight: 590
+weight: 640
 url: /it/net/groupdocs.parser/parser/
 ---
 ## Parser class
@@ -21,13 +21,15 @@ public sealed class Parser : IDisposable
 | [Parser](parser#constructor_2)(DbConnection) | Inizializza una nuova istanza di[`Parser`](../parser) classe per estrarre i dati da un database. |
 | [Parser](parser#constructor)(EmailConnection) | Inizializza una nuova istanza di[`Parser`](../parser) classe per estrarre i dati da un server di posta remoto. |
 | [Parser](parser#constructor_4)(Stream) | Inizializza una nuova istanza di[`Parser`](../parser) classe. |
-| [Parser](parser#constructor_7)(string) | Inizializza una nuova istanza di[`Parser`](../parser) classe. |
+| [Parser](parser#constructor_8)(string) | Inizializza una nuova istanza di[`Parser`](../parser) classe. |
 | [Parser](parser#constructor_3)(DbConnection, ParserSettings) | Inizializza una nuova istanza di[`Parser`](../parser) classe per estrarre i dati da un database. |
 | [Parser](parser#constructor_1)(EmailConnection, ParserSettings) | Inizializza una nuova istanza di[`Parser`](../parser) classe per estrarre i dati da un server di posta remoto. |
 | [Parser](parser#constructor_5)(Stream, LoadOptions) | Inizializza una nuova istanza di[`Parser`](../parser) classe con[`LoadOptions`](../../groupdocs.parser.options/loadoptions) . |
-| [Parser](parser#constructor_8)(string, LoadOptions) | Inizializza una nuova istanza di[`Parser`](../parser) classe con[`LoadOptions`](../../groupdocs.parser.options/loadoptions) . |
+| [Parser](parser#constructor_7)(Stream, ParserSettings) | Inizializza una nuova istanza di[`Parser`](../parser) classe con[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
+| [Parser](parser#constructor_9)(string, LoadOptions) | Inizializza una nuova istanza di[`Parser`](../parser) classe con[`LoadOptions`](../../groupdocs.parser.options/loadoptions) . |
+| [Parser](parser#constructor_11)(string, ParserSettings) | Inizializza una nuova istanza di[`Parser`](../parser) classe con[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
 | [Parser](parser#constructor_6)(Stream, LoadOptions, ParserSettings) | Inizializza una nuova istanza di[`Parser`](../parser) classe con[`LoadOptions`](../../groupdocs.parser.options/loadoptions) e[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
-| [Parser](parser#constructor_9)(string, LoadOptions, ParserSettings) | Inizializza una nuova istanza di[`Parser`](../parser) classe con[`LoadOptions`](../../groupdocs.parser.options/loadoptions) e[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
+| [Parser](parser#constructor_10)(string, LoadOptions, ParserSettings) | Inizializza una nuova istanza di[`Parser`](../parser) classe con[`LoadOptions`](../../groupdocs.parser.options/loadoptions) e[`ParserSettings`](../../groupdocs.parser.options/parsersettings) . |
 
 ## Proprietà
 

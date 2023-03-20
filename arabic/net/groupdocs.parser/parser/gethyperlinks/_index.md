@@ -16,7 +16,7 @@ public IEnumerable<PageHyperlinkArea> GetHyperlinks()
 
 ### قيمة الإرجاع
 
-مجموعة من[`PageHyperlinkArea`](../../../groupdocs.parser.data/pagehyperlinkarea) كائنات ؛ `لا شيء` إذا كان استخراج الارتباطات التشعبية غير مدعوم.
+مجموعة من[`PageHyperlinkArea`](../../../groupdocs.parser.data/pagehyperlinkarea) كائنات ؛ `باطل` إذا كان استخراج الارتباطات التشعبية غير مدعوم.
 
 ### أمثلة
 
@@ -69,7 +69,7 @@ public IEnumerable<PageHyperlinkArea> GetHyperlinks(int pageIndex)
 
 ### قيمة الإرجاع
 
-مجموعة من[`PageHyperlinkArea`](../../../groupdocs.parser.data/pagehyperlinkarea) كائنات ؛ `لا شيء` إذا كان استخراج الارتباطات التشعبية غير مدعوم.
+مجموعة من[`PageHyperlinkArea`](../../../groupdocs.parser.data/pagehyperlinkarea) كائنات ؛ `باطل` إذا كان استخراج الارتباطات التشعبية غير مدعوم.
 
 ### أمثلة
 
@@ -136,7 +136,7 @@ public IEnumerable<PageHyperlinkArea> GetHyperlinks(PageAreaOptions options)
 
 ### قيمة الإرجاع
 
-مجموعة من[`PageHyperlinkArea`](../../../groupdocs.parser.data/pagehyperlinkarea) كائنات ؛ `لا شيء` إذا كان استخراج الارتباطات التشعبية غير مدعوم.
+مجموعة من[`PageHyperlinkArea`](../../../groupdocs.parser.data/pagehyperlinkarea) كائنات ؛ `باطل` إذا كان استخراج الارتباطات التشعبية غير مدعوم.
 
 ### أمثلة
 
@@ -193,7 +193,7 @@ public IEnumerable<PageHyperlinkArea> GetHyperlinks(int pageIndex, PageAreaOptio
 
 ### قيمة الإرجاع
 
-مجموعة من[`PageHyperlinkArea`](../../../groupdocs.parser.data/pagehyperlinkarea) كائنات ؛ `لا شيء` إذا كان استخراج الارتباطات التشعبية غير مدعوم.
+مجموعة من[`PageHyperlinkArea`](../../../groupdocs.parser.data/pagehyperlinkarea) كائنات ؛ `باطل` إذا كان استخراج الارتباطات التشعبية غير مدعوم.
 
 ### أمثلة
 

@@ -3,7 +3,7 @@ title: TextOptions
 second_title: GroupDocs.Parser für .NET-API-Referenz
 description: Stellt die Optionen bereit die für die Textextraktion verwendet werden.
 type: docs
-weight: 580
+weight: 630
 url: /de/net/groupdocs.parser.options/textoptions/
 ---
 ## TextOptions class
@@ -18,21 +18,25 @@ public sealed class TextOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [TextOptions](textoptions)(bool) | Initialisiert eine neue Instanz von[`TextOptions`](../textoptions) Klasse. |
+| [TextOptions](textoptions#constructor)(bool) | Initialisiert eine neue Instanz von[`TextOptions`](../textoptions) Klasse. |
+| [TextOptions](textoptions#constructor_1)(bool, bool) | Initialisiert eine neue Instanz von[`TextOptions`](../textoptions) Klasse mit der OCR-Nutzungsoption. |
+| [TextOptions](textoptions#constructor_2)(bool, bool, OcrOptions) | Initialisiert eine neue Instanz von[`TextOptions`](../textoptions) Klasse mit der Möglichkeit, OCR-Optionen festzulegen. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
+| [OcrOptions](../../groupdocs.parser.options/textoptions/ocroptions) { get; } | Ruft die zusätzlichen Optionen für die OCR-Funktionalität ab. |
+| [UseOcr](../../groupdocs.parser.options/textoptions/useocr) { get; } | Ruft den Wert ab, der angibt, ob der OCR Connector zum Extrahieren eines Textes verwendet wird. |
 | [UseRawModeIfPossible](../../groupdocs.parser.options/textoptions/userawmodeifpossible) { get; } | Ruft den Wert ab, der angibt, ob der Raw-Modus verwendet wird. |
 
 ### Bemerkungen
 
-Eine Instanz von[`TextOptions`](../textoptions) class wird als parameter in verwendet[`GetText`](../../groupdocs.parser/parser/gettext) und[`GetText`](../../groupdocs.parser/parser/gettext) Methoden. Siehe dort die Anwendungsbeispiele.
+Eine Instanz von[`TextOptions`](../textoptions) class wird als parameter in verwendet[`GetText`](../../groupdocs.parser/parser/gettext) Und[`GetText`](../../groupdocs.parser/parser/gettext) Methoden. Siehe dort die Anwendungsbeispiele.
 
 Es wird verwendet, um den Rohmodus der Textextraktion anzugeben. Ein Text in diesem Modus wird ungenau, aber schneller als im Standardmodus extrahiert. Wenn der Rohmodus das Dokumentformat nicht unterstützt, wird dieser Parameter ignoriert und der Standardmodus verwendet.
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Extrahieren Sie Text im genauen Modus](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
 * [Text im Raw-Modus extrahieren](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Raw+mode)

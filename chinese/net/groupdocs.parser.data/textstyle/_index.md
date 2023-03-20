@@ -18,7 +18,7 @@ public sealed class TextStyle
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TextStyle](textstyle)(string, string, double, bool, bool) | 初始化[`TextStyle`](../textstyle)类. |
+| [TextStyle](textstyle)(string, string, double, bool, bool) | 初始化一个新的实例[`TextStyle`](../textstyle)类. |
 
 ## 特性
 
@@ -26,8 +26,8 @@ public sealed class TextStyle
 | --- | --- |
 | [FontName](../../groupdocs.parser.data/textstyle/fontname) { get; } | 获取字体名称。 |
 | [FontSize](../../groupdocs.parser.data/textstyle/fontsize) { get; } | 获取字体大小。 |
-| [IsBold](../../groupdocs.parser.data/textstyle/isbold) { get; } | 获取指示字体是否为粗体的值。 |
-| [IsItalic](../../groupdocs.parser.data/textstyle/isitalic) { get; } | 获取指示字体是否为斜体的值。 |
+| [IsBold](../../groupdocs.parser.data/textstyle/isbold) { get; } | 获取字体是否为粗体的值。 |
+| [IsItalic](../../groupdocs.parser.data/textstyle/isitalic) { get; } | 获取一个值，该值指示字体是否为斜体。 |
 | [Name](../../groupdocs.parser.data/textstyle/name) { get; } | 获取样式名称。 |
 
 ### 也可以看看

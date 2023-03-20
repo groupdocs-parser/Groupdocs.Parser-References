@@ -1,14 +1,14 @@
 ---
 title: IsBold
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取指示字体是否为粗体的值
+description: 获取字体是否为粗体的值
 type: docs
 weight: 40
 url: /zh/net/groupdocs.parser.data/textstyle/isbold/
 ---
 ## TextStyle.IsBold property
 
-获取指示字体是否为粗体的值。
+获取字体是否为粗体的值。
 
 ```csharp
 public bool IsBold { get; }

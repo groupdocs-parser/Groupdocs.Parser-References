@@ -1,14 +1,14 @@
 ---
 title: XML
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: XML sta per Extensible Markup Language che è simile a HTML ma diverso nelluso dei tag per definire gli oggetti. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/web/xml/ .
+description: XML sta per Extensible Markup Language che è simile a HTML ma diverso nelluso dei tag per definire gli oggetti. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/web/xml/ .
 type: docs
 weight: 880
 url: /it/net/groupdocs.parser.options/filetype/xml/
 ---
 ## FileType.XML field
 
-XML sta per Extensible Markup Language che è simile a HTML ma diverso nell'uso dei tag per definire gli oggetti. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/web/xml/) .
+XML sta per Extensible Markup Language che è simile a HTML ma diverso nell'uso dei tag per definire gli oggetti. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/web/xml/) .
 
 ```csharp
 public static readonly FileType XML;

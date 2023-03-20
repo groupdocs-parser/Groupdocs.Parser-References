@@ -1,14 +1,14 @@
 ---
 title: InvalidPasswordException
 second_title: GroupDocs.Parser for .NET API 参考
-description: 如果文档使用密码加密并且打开文档时指定的密码 不正确或丢失则抛出此错误
+description: 如果文档是用密码加密的打开文档时指定的密码 不正确或丢失时抛出
 type: docs
 weight: 230
 url: /zh/net/groupdocs.parser.exceptions/invalidpasswordexception/
 ---
 ## InvalidPasswordException class
 
-如果文档使用密码加密并且打开文档时指定的密码 不正确或丢失，则抛出此错误。
+如果文档是用密码加密的，打开文档时指定的密码 不正确或丢失时抛出。
 
 ```csharp
 public sealed class InvalidPasswordException : GroupDocsParserException
@@ -18,8 +18,8 @@ public sealed class InvalidPasswordException : GroupDocsParserException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [InvalidPasswordException](invalidpasswordexception#constructor)() | 初始化[`InvalidPasswordException`](../invalidpasswordexception)类. |
-| [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | 初始化[`InvalidPasswordException`](../invalidpasswordexception)类. |
+| [InvalidPasswordException](invalidpasswordexception#constructor)() | 初始化一个新的实例[`InvalidPasswordException`](../invalidpasswordexception)类. |
+| [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | 初始化一个新的实例[`InvalidPasswordException`](../invalidpasswordexception)类. |
 
 ### 也可以看看
 

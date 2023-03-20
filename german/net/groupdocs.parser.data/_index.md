@@ -13,11 +13,11 @@ Der Namensraum stellt Klassen bereit, die Parsing-Ergebnisse darstellen.
 | Klasse | Beschreibung |
 | --- | --- |
 | [ContainerItem](./containeritem) | Repräsentiert ein Containerelement wie Zip-Archiventität, E-Mail-Anhang, PDF-Portfolioelement usw. |
-| [DocumentData](./documentdata) | Repräsentiert Daten des Dokuments. Es besteht aus[`FieldData`](../groupdocs.parser.data/fielddata) objects , die Felddaten aus document. enthalten |
+| [DocumentData](./documentdata) | Repräsentiert Daten des Dokuments. Es besteht aus[`FieldData`](../groupdocs.parser.data/fielddata)objects , die Felddaten aus document. enthalten |
 | [FieldData](./fielddata) | Repräsentiert Felddaten wie einen Namen, einen Seitenindex, einen Feldwert usw. Je nach Feld kann der Wert ein Text, ein Bild, eine Tabelle usw. sein. |
 | [HighlightItem](./highlightitem) | Stellt eine Hervorhebung dar, einen Teil des Textes, der normalerweise verwendet wird, um den Kontext des gefundenen Textes in der Suchfunktion zu erläutern. |
 | [MetadataItem](./metadataitem) | Stellt ein Metadatenelement dar, das in Containerelementen und Metadatenextraktionsfunktionen verwendet wird. |
-| [Page](./page) | Repräsentiert die Dokumentseiteninformationen wie Seitenindex und Seitengröße. Es wird verwendet, um die Seite darzustellen, die Erben von enthält[`PageArea`](../groupdocs.parser.data/pagearea) class in der Parsing-by-Template-Funktionalität. |
+| [Page](./page) | Repräsentiert die Dokumentseiteninformationen wie Seitenindex und Seitengröße. Es wird verwendet, um die Seite darzustellen, die Erben von enthält[`PageArea`](../groupdocs.parser.data/pagearea)class in der Parsing-by-Template-Funktionalität. |
 | [PageArea](./pagearea) | Repräsentiert eine abstrakte Basisklasse für Seitenbereiche , die verwendet werden, um Blöcke auf der Dokumentseite in der Funktion „Parsing by Template“ darzustellen. |
 | [PageBarcodeArea](./pagebarcodearea) | Stellt einen Seitenbarcodebereich dar, der verwendet wird, um einen Barcodewert in der Funktion zum Analysieren nach Vorlage darzustellen. |
 | [PageGroupArea](./pagegrouparea) | Stellt eine Gruppe von Seitenbereichen dar, die verwendet wird, um verschiedene Arten von Blöcken der Dokumentseite in der Funktion zum Analysieren nach Vorlage zu gruppieren. |

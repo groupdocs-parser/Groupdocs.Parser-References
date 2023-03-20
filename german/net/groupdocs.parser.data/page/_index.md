@@ -1,14 +1,14 @@
 ---
 title: Page
 second_title: GroupDocs.Parser für .NET-API-Referenz
-description: Repräsentiert die Dokumentseiteninformationen wie Seitenindex und Seitengröße. Es wird verwendet um die Seite darzustellen die Erben von enthältPageArea./pagearea class in der ParsingbyTemplateFunktionalität.
+description: Repräsentiert die Dokumentseiteninformationen wie Seitenindex und Seitengröße. Es wird verwendet um die Seite darzustellen die Erben von enthältPageArea./pageareaclass in der ParsingbyTemplateFunktionalität.
 type: docs
 weight: 60
 url: /de/net/groupdocs.parser.data/page/
 ---
 ## Page class
 
-Repräsentiert die Dokumentseiteninformationen wie Seitenindex und Seitengröße. Es wird verwendet, um die Seite darzustellen, die Erben von enthält[`PageArea`](../pagearea) class in der Parsing-by-Template-Funktionalität.
+Repräsentiert die Dokumentseiteninformationen wie Seitenindex und Seitengröße. Es wird verwendet, um die Seite darzustellen, die Erben von enthält[`PageArea`](../pagearea)class in der Parsing-by-Template-Funktionalität.
 
 ```csharp
 public sealed class Page

@@ -3,7 +3,7 @@ title: TemplateField
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Fornisce il campo di testo del modello.
 type: docs
-weight: 620
+weight: 670
 url: /it/net/groupdocs.parser.templates/templatefield/
 ---
 ## TemplateField class

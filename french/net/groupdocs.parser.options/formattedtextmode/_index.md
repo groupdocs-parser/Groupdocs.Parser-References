@@ -3,7 +3,7 @@ title: FormattedTextMode
 second_title: Référence de l'API GroupDocs.Parser pour .NET
 description: Définit un mode texte formaté.
 type: docs
-weight: 380
+weight: 400
 url: /fr/net/groupdocs.parser.options/formattedtextmode/
 ---
 ## FormattedTextMode enumeration

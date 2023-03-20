@@ -3,7 +3,7 @@ title: TemplateLinkedPositionEdges
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يوفر حواف الحقل المرتبط حيث يتم البحث عن حقل النص. TemplateLinkedPositionEdges./templatelinkedpositionedges يستخدم فيTemplateLinkedPosition./templatelinkedposition فئة .
 type: docs
-weight: 660
+weight: 710
 url: /ar/net/groupdocs.parser.templates/templatelinkedpositionedges/
 ---
 ## TemplateLinkedPositionEdges class

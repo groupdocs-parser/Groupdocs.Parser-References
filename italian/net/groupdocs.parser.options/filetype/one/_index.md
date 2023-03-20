@@ -1,14 +1,14 @@
 ---
 title: ONE
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: Il file rappresentato dallestensione .ONE viene creato dallapplicazione Microsoft OneNote. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/notetaking/one/ .
+description: Il file rappresentato dallestensione .ONE viene creato dallapplicazione Microsoft OneNote. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/notetaking/one/ .
 type: docs
 weight: 440
 url: /it/net/groupdocs.parser.options/filetype/one/
 ---
 ## FileType.ONE field
 
-Il file rappresentato dall'estensione .ONE viene creato dall'applicazione Microsoft OneNote. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/note-taking/one/) .
+Il file rappresentato dall'estensione .ONE viene creato dall'applicazione Microsoft OneNote. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/note-taking/one/) .
 
 ```csharp
 public static readonly FileType ONE;

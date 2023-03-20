@@ -3,7 +3,7 @@ title: HighlightOptions
 second_title: Referencia de API de GroupDocs.Parser para .NET
 description: Proporciona las opciones que se utilizan para extraer un resaltado un bloque de texto alrededor del texto encontrado en escenarios de búsqueda.
 type: docs
-weight: 400
+weight: 420
 url: /es/net/groupdocs.parser.options/highlightoptions/
 ---
 ## HighlightOptions class
@@ -18,7 +18,7 @@ public sealed class HighlightOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [HighlightOptions](highlightoptions#constructor)(int) | Inicializa una nueva instancia del[`HighlightOptions`](../highlightoptions)clase que se utiliza para extraer un resaltado de longitud fija. |
+| [HighlightOptions](highlightoptions#constructor)(int) | Inicializa una nueva instancia del[`HighlightOptions`](../highlightoptions) clase que se utiliza para extraer un resaltado de longitud fija. |
 | [HighlightOptions](highlightoptions#constructor_1)(int?, bool) | Inicializa una nueva instancia del[`HighlightOptions`](../highlightoptions) clase que se utiliza para extraer un resaltado de línea limitada. |
 | [HighlightOptions](highlightoptions#constructor_2)(int?, int) | Inicializa una nueva instancia del[`HighlightOptions`](../highlightoptions) clase que se utiliza para extraer un resaltado con el recuento de palabras fijo. |
 | [HighlightOptions](highlightoptions#constructor_3)(int?, int?, bool) | Inicializa una nueva instancia del[`HighlightOptions`](../highlightoptions) clase. |

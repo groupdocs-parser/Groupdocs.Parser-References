@@ -16,7 +16,7 @@ public Rectangle Rectangle { get; }
 
 ### 适当的价值
 
-一个实例[`Rectangle`](../../../groupdocs.parser.data/rectangle)表示包含表格的矩形区域的类。
+的实例[`Rectangle`](../../../groupdocs.parser.data/rectangle)表示包含表格的矩形区域的类。
 
 ### 也可以看看
 

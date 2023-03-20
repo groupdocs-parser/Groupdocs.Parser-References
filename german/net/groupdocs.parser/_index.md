@@ -12,7 +12,7 @@ Der Namensraum stellt Klassen zum Analysieren von Daten aus Dokumenten bereit. M
 
 | Klasse | Beschreibung |
 | --- | --- |
-| [License](./license) | Stellt Methoden zur Lizenzierung der Komponente bereit. Erfahren Sie mehr über die Lizenzierung[hier](https://purchase.groupdocs.com/faqs/licensing) . |
+| [License](./license) | Stellt Methoden zur Lizenzierung der Komponente bereit. Erfahren Sie mehr über die Lizenzierung[Hier](https://purchase.groupdocs.com/faqs/licensing) . |
 | [Metered](./metered) | Bietet Methoden zum Anwenden[Gemessen](https://purchase.groupdocs.com/faqs/licensing/metered) Lizenz. |
 | [Parser](./parser) | Stellt die Hauptklasse dar, die Text, Bilder, Containerextraktion und Parsing-Funktionalität steuert. |
 

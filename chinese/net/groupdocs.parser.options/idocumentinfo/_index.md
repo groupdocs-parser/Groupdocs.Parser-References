@@ -3,7 +3,7 @@ title: IDocumentInfo
 second_title: GroupDocs.Parser for .NET API 参考
 description: 表示文档信息
 type: docs
-weight: 410
+weight: 430
 url: /zh/net/groupdocs.parser.options/idocumentinfo/
 ---
 ## IDocumentInfo interface
@@ -20,13 +20,13 @@ public interface IDocumentInfo
 | --- | --- |
 | [FileType](../../groupdocs.parser.options/idocumentinfo/filetype) { get; } | 获取文档类型。 |
 | [PageCount](../../groupdocs.parser.options/idocumentinfo/pagecount) { get; } | 获取文档总页数。 |
-| [Pages](../../groupdocs.parser.options/idocumentinfo/pages) { get; } | 获取页面的索引、页面大小等信息。 |
+| [Pages](../../groupdocs.parser.options/idocumentinfo/pages) { get; } | 获取索引、页面大小等页面信息。 |
 | [RawPageCount](../../groupdocs.parser.options/idocumentinfo/rawpagecount) { get; } | 获取文档原始页面的总数。 |
-| [Size](../../groupdocs.parser.options/idocumentinfo/size) { get; } | 获取文档的大小（以字节为单位）。 |
+| [Size](../../groupdocs.parser.options/idocumentinfo/size) { get; } | 获取文档的字节大小。 |
 
 ### 评论
 
-实现此接口的对象由[`GetDocumentInfo`](../../groupdocs.parser/parser/getdocumentinfo)方法. 见那里的用法示例。 **学到更多：**
+实现此接口的对象由[`GetDocumentInfo`](../../groupdocs.parser/parser/getdocumentinfo) method. 请参阅此处的用法示例。 **了解更多：**
 
 * [获取文档信息](https://docs.groupdocs.com/display/parsernet/Get+document+info)
 * [检测编码](https://docs.groupdocs.com/display/parsernet/Detect+encoding)

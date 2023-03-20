@@ -16,7 +16,7 @@ public bool Images { get; }
 
 ### Return_Value
 
-`vrai` si l'extraction d'images est prise en charge ; Par ailleurs,`faux`.
+`vrai` si l'extraction d'images est prise en charge ; sinon,`FAUX`.
 
 ### Voir également
 

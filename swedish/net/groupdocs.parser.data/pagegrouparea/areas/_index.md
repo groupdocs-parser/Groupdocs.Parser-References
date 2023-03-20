@@ -16,7 +16,7 @@ public IEnumerable<PageArea> Areas { get; }
 
 ### Fastighetsvärde
 
-En samling av[`PageArea`](../../pagearea)objekt.
+En samling av[`PageArea`](../../pagearea)föremål.
 
 ### Se även
 

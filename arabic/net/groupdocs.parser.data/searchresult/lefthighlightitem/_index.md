@@ -16,7 +16,7 @@ public HighlightItem LeftHighlightItem { get; }
 
 ### Property_Value
 
-مثال على[`HighlightItem`](../../highlightitem) صف دراسي؛`لا شيء` إذا لم يتم تعيينه.
+مثال على[`HighlightItem`](../../highlightitem) فصل؛`باطل` إذا لم يتم تعيينه.
 
 ### أنظر أيضا
 

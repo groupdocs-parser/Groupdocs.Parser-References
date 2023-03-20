@@ -3,7 +3,7 @@ title: PageTableAreaOptions
 second_title: Referencia de API de GroupDocs.Parser para .NET
 description: Proporciona las opciones que se utilizan para la extracción de áreas de tablas de páginas.
 type: docs
-weight: 490
+weight: 540
 url: /es/net/groupdocs.parser.options/pagetableareaoptions/
 ---
 ## PageTableAreaOptions class

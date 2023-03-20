@@ -1,14 +1,14 @@
 ---
 title: ODG
 second_title: GroupDocs.Parser for .NET API 参考
-description: Apache OpenOffice 的 Draw 应用程序使用 ODG 文件格式将 绘图元素存储为矢量图像了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/image/odg/.
+description: Apache OpenOffice 的 Draw 应用程序使用 ODG 文件格式将 绘图元素存储为矢量图像详细了解此文件格式 这里https//wiki.fileformat.com/image/odg/.
 type: docs
 weight: 400
 url: /zh/net/groupdocs.parser.options/filetype/odg/
 ---
 ## FileType.ODG field
 
-Apache OpenOffice 的 Draw 应用程序使用 ODG 文件格式将 绘图元素存储为矢量图像。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/image/odg/).
+Apache OpenOffice 的 Draw 应用程序使用 ODG 文件格式将 绘图元素存储为矢量图像。详细了解此文件格式 [这里](https://wiki.fileformat.com/image/odg/).
 
 ```csharp
 public static readonly FileType ODG;

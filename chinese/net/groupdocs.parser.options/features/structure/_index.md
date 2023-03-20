@@ -1,14 +1,14 @@
 ---
 title: Structure
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取指示是否支持文本结构提取的值
+description: 获取是否支持提取文本结构的值
 type: docs
-weight: 120
+weight: 140
 url: /zh/net/groupdocs.parser.options/features/structure/
 ---
 ## Features.Structure property
 
-获取指示是否支持文本结构提取的值。
+获取是否支持提取文本结构的值。
 
 ```csharp
 public bool Structure { get; }

@@ -3,7 +3,7 @@ title: TemplateFixedPosition
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Fornisce una posizione del campo modello definita dallarea rettangolare.
 type: docs
-weight: 630
+weight: 680
 url: /it/net/groupdocs.parser.templates/templatefixedposition/
 ---
 ## TemplateFixedPosition class

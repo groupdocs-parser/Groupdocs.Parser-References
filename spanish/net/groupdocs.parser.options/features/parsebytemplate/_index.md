@@ -3,7 +3,7 @@ title: ParseByTemplate
 second_title: Referencia de API de GroupDocs.Parser para .NET
 description: Obtiene el valor que indica si se admite el análisis por plantilla.
 type: docs
-weight: 90
+weight: 100
 url: /es/net/groupdocs.parser.options/features/parsebytemplate/
 ---
 ## Features.ParseByTemplate property
@@ -16,7 +16,7 @@ public bool ParseByTemplate { get; }
 
 ### Valor_devuelto
 
-`verdadero` si se admite el análisis por plantilla; de lo contrario,`falso`.
+`verdadero` si se admite el análisis por plantilla; de lo contrario,`FALSO`.
 
 ### Ver también
 

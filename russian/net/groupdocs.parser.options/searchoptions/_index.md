@@ -3,7 +3,7 @@ title: SearchOptions
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Предоставляет параметры используемые для текстового поиска.
 type: docs
-weight: 560
+weight: 610
 url: /ru/net/groupdocs.parser.options/searchoptions/
 ---
 ## SearchOptions class
@@ -20,7 +20,7 @@ public sealed class SearchOptions
 | --- | --- |
 | [SearchOptions](searchoptions#constructor)() | Инициализирует новый экземпляр[`SearchOptions`](../searchoptions) класс со значениями по умолчанию. Подробнее см. в примечаниях. |
 | [SearchOptions](searchoptions#constructor_1)(bool, bool, bool) | Инициализирует новый экземпляр[`SearchOptions`](../searchoptions) класс, который используется для search без извлечения выделения. |
-| [SearchOptions](searchoptions#constructor_2)(bool, bool, bool, bool) | Инициализирует новый экземпляр[`SearchOptions`](../searchoptions) класс, который используется для поиска по страницам и без извлечения выделения. |
+| [SearchOptions](searchoptions#constructor_2)(bool, bool, bool, bool) | Инициализирует новый экземпляр[`SearchOptions`](../searchoptions)класс, который используется для поиска по страницам и без извлечения выделения. |
 | [SearchOptions](searchoptions#constructor_4)(bool, bool, bool, HighlightOptions) | Инициализирует новый экземпляр[`SearchOptions`](../searchoptions) класс, который используется для search с одинаковыми параметрами выделения для выделения левого и правого выделения. |
 | [SearchOptions](searchoptions#constructor_5)(bool, bool, bool, HighlightOptions, HighlightOptions) | Инициализирует новый экземпляр[`SearchOptions`](../searchoptions) класс, который используется для search с параметрами выделения для выделения левого и правого выделения. |
 | [SearchOptions](searchoptions#constructor_3)(bool, bool, bool, bool, HighlightOptions, HighlightOptions) | Инициализирует новый экземпляр[`SearchOptions`](../searchoptions) класс. |
@@ -40,7 +40,7 @@ public sealed class SearchOptions
 
 Экземпляр[`SearchOptions`](../searchoptions) класс используется как параметр в[`Search`](../../groupdocs.parser/parser/search) метод. См. примеры использования там.
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Поиск текста](https://docs.groupdocs.com/display/parsernet/Search+text)
 * [Поиск текста в документах Microsoft Office Word](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+Word+documents)

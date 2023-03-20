@@ -1,14 +1,14 @@
 ---
 title: TAR
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: I file con estensione .tar sono archivi creati con unutilità basata su Unix per la raccolta di uno o più file. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/compression/tar/ .
+description: I file con estensione .tar sono archivi creati con unutilità basata su Unix per la raccolta di uno o più file. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/compression/tar/ .
 type: docs
 weight: 690
 url: /it/net/groupdocs.parser.options/filetype/tar/
 ---
 ## FileType.TAR field
 
-I file con estensione .tar sono archivi creati con un'utilità basata su Unix per la raccolta di uno o più file. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/compression/tar/) .
+I file con estensione .tar sono archivi creati con un'utilità basata su Unix per la raccolta di uno o più file. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/compression/tar/) .
 
 ```csharp
 public static readonly FileType TAR;

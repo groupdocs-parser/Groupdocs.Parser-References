@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取实例是否为空的值
+description: 获取表示实例是否为空的值
 type: docs
 weight: 30
 url: /zh/net/groupdocs.parser.templates/templatelinkedpositionedges/isempty/
 ---
 ## TemplateLinkedPositionEdges.IsEmpty property
 
-获取实例是否为空的值。
+获取表示实例是否为空的值。
 
 ```csharp
 public bool IsEmpty { get; }

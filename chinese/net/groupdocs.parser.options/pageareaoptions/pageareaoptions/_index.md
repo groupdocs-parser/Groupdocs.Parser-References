@@ -1,14 +1,14 @@
 ---
 title: PageAreaOptions
 second_title: GroupDocs.Parser for .NET API 参考
-description: 初始化PageAreaOptionsgroupdocs.parser.options/pageareaoptions类.
+description: 初始化一个新的实例PageAreaOptionsgroupdocs.parser.options/pageareaoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.parser.options/pageareaoptions/pageareaoptions/
 ---
 ## PageAreaOptions constructor
 
-初始化[`PageAreaOptions`](../../pageareaoptions)类.
+初始化一个新的实例[`PageAreaOptions`](../../pageareaoptions)类.
 
 ```csharp
 public PageAreaOptions(Rectangle rectangle)

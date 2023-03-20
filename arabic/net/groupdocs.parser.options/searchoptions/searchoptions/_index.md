@@ -109,7 +109,7 @@ public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpress
 
 ## SearchOptions(bool, bool, bool, bool) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد لملف[`SearchOptions`](../../searchoptions) الفئة التي يتم استخدامها للبحث عن طريق الصفحات و دون تمييز الاستخراج.
+يقوم بتهيئة مثيل جديد لملف[`SearchOptions`](../../searchoptions)الفئة التي يتم استخدامها للبحث عن طريق الصفحات و دون تمييز الاستخراج.
 
 ```csharp
 public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpression, 
@@ -145,23 +145,23 @@ public SearchOptions()
 
 **[`MatchCase`](../matchcase)**
 
-`خاطئة`
+`خطأ شنيع`
 
 **[`MatchWholeWord`](../matchwholeword)**
 
-`خاطئة`
+`خطأ شنيع`
 
 **[`UseRegularExpression`](../useregularexpression)**
 
-`خاطئة`
+`خطأ شنيع`
 
 **[`LeftHighlightOptions`](../lefthighlightoptions)**
 
-`لا شيء`
+`باطل`
 
 **[`RightHighlightOptions`](../righthighlightoptions)**
 
-`لا شيء`
+`باطل`
 
 ### أنظر أيضا
 

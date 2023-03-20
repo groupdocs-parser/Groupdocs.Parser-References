@@ -1,14 +1,14 @@
 ---
 title: Warning
 second_title: GroupDocs.Parser for .NET API 参考
-description: 记录在数据提取期间发生的警告
+description: 记录数据提取期间发生的警告
 type: docs
 weight: 30
 url: /zh/net/groupdocs.parser.options/ilogger/warning/
 ---
 ## ILogger.Warning method
 
-记录在数据提取期间发生的警告。
+记录数据提取期间发生的警告。
 
 ```csharp
 public void Warning(string message)

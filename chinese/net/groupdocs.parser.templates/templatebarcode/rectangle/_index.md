@@ -16,7 +16,7 @@ public Rectangle Rectangle { get; }
 
 ### 适当的价值
 
-的一个实例[`Rectangle`](../../../groupdocs.parser.data/rectangle)表示包含模板条形码字段的矩形区域的类。
+的实例[`Rectangle`](../../../groupdocs.parser.data/rectangle)表示包含模板条码字段的矩形区域的类。
 
 ### 也可以看看
 

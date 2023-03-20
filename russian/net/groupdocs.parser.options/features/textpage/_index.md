@@ -3,7 +3,7 @@ title: TextPage
 second_title: Справочник по API GroupDocs.Parser для .NET
 description: Получает значение указывающее поддерживается ли извлечение текстовой страницы.
 type: docs
-weight: 160
+weight: 180
 url: /ru/net/groupdocs.parser.options/features/textpage/
 ---
 ## Features.TextPage property

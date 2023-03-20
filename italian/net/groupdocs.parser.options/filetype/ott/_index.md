@@ -1,14 +1,14 @@
 ---
 title: OTT
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: I file con estensione OTT rappresentano i documenti modello generati dalle applicazioni in conformità con il formato standard OpenDocument di OASIS. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/wordprocessing/ott/ .
+description: I file con estensione OTT rappresentano i documenti modello generati dalle applicazioni in conformità con il formato standard OpenDocument di OASIS. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/wordprocessing/ott/ .
 type: docs
 weight: 480
 url: /it/net/groupdocs.parser.options/filetype/ott/
 ---
 ## FileType.OTT field
 
-I file con estensione OTT rappresentano i documenti modello generati dalle applicazioni in conformità con il formato standard OpenDocument di OASIS. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/word-processing/ott/) .
+I file con estensione OTT rappresentano i documenti modello generati dalle applicazioni in conformità con il formato standard OpenDocument di OASIS. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/word-processing/ott/) .
 
 ```csharp
 public static readonly FileType OTT;

@@ -33,7 +33,7 @@ public sealed class FieldData
 
 ### Remarques
 
-Les instances de[`FieldData`](../fielddata) classe sont utilisés dans[`DocumentData`](../documentdata) le recueil.
+Les instances de[`FieldData`](../fielddata) classe sont utilisés dans[`DocumentData`](../documentdata) collection.
 
 ### Voir également
 

@@ -18,6 +18,8 @@ url: /ar/net/groupdocs.parser.options/
 | [EmailEwsConnection](./emailewsconnection) | يمثل معلومات اتصال البريد الإلكتروني لبروتوكول EWS. |
 | [EmailImapConnection](./emailimapconnection) | يمثل معلومات اتصال البريد الإلكتروني لبروتوكول IMAP. |
 | [EmailPopConnection](./emailpopconnection) | يمثل معلومات اتصال البريد الإلكتروني لبروتوكول POP . |
+| [ExternalResourceHandler](./externalresourcehandler) | يوفر معالجًا لتحميل الموارد الخارجية. |
+| [ExternalResourceLoadingArgs](./externalresourceloadingargs) | توفير البيانات الخاصة بـ[`OnLoading`](../groupdocs.parser.options/externalresourcehandler/onloading) طريقة . |
 | [Features](./features) | يمثل قائمة الميزات المدعومة. يسمح بالحصول على المعلومات التي يتم دعمها أو عدم دعمها للمستند. |
 | [FileInfo](./fileinfo) | يمثل معلومات الملف. |
 | [FileType](./filetype) | يمثل نوع الملف. يوفر طرقًا للحصول على قائمة بجميع أنواع الملفات التي يدعمها**GroupDocs.Parser** . |
@@ -25,6 +27,9 @@ url: /ar/net/groupdocs.parser.options/
 | [HighlightOptions](./highlightoptions) | يوفر الخيارات التي تُستخدم لاستخراج تمييز (جزء من نص تم العثور عليه في سيناريوهات البحث) . |
 | [ImageOptions](./imageoptions) | يوفر الخيارات المستخدمة لاستخراج الصور. |
 | [LoadOptions](./loadoptions) | يوفر الخيارات التي يتم استخدامها لفتح ملف. |
+| [OcrConnectorBase](./ocrconnectorbase) | يوفر وظيفة التعرف الضوئي على الحروف. |
+| [OcrEventHandler](./ocreventhandler) | يوفر معالجًا لأحداث التعرف الضوئي على الحروف . |
+| [OcrOptions](./ocroptions) | يوفر الخيارات التي تُستخدم لموصل OCR . |
 | [PageAreaOptions](./pageareaoptions) | يوفر الخيارات المستخدمة لاستخراج مناطق الصفحات. |
 | [PageInfo](./pageinfo) | يمثل معلومات صفحة المستند. |
 | [PageRenderInfo](./pagerenderinfo) | يمثل المعلومات الخاصة بكيفية عرض الصفحة. |

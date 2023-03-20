@@ -3,7 +3,7 @@ title: TemplateTableParameters
 second_title: Riferimento API GroupDocs.Parser per .NET
 description: Fornisce i parametri per gli algoritmi di rilevamento della tabella.
 type: docs
-weight: 710
+weight: 760
 url: /it/net/groupdocs.parser.templates/templatetableparameters/
 ---
 ## TemplateTableParameters class

@@ -3,7 +3,7 @@ title: Structure
 second_title: GroupDocs.Parser لمرجع .NET API
 description: الحصول على القيمة التي تشير إلى ما إذا كان استخراج بنية النص مدعومًا.
 type: docs
-weight: 120
+weight: 140
 url: /ar/net/groupdocs.parser.options/features/structure/
 ---
 ## Features.Structure property
@@ -16,7 +16,7 @@ public bool Structure { get; }
 
 ### قيمة الإرجاع
 
-`حقيقي` إذا تم دعم استخراج بنية النص ؛ خلاف ذلك،`خاطئة`.
+`حقيقي` إذا تم دعم استخراج بنية النص ؛ خلاف ذلك،`خطأ شنيع`.
 
 ### أنظر أيضا
 

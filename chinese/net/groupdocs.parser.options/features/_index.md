@@ -3,7 +3,7 @@ title: Features
 second_title: GroupDocs.Parser for .NET API 参考
 description: 表示支持的功能列表允许获取文档支持或不支持哪些功能的信息
 type: docs
-weight: 330
+weight: 350
 url: /zh/net/groupdocs.parser.options/features/
 ---
 ## Features class
@@ -18,23 +18,25 @@ public sealed class Features
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Barcodes](../../groupdocs.parser.options/features/barcodes) { get; } | 获取指示是否支持条码提取的值。 |
-| [Container](../../groupdocs.parser.options/features/container) { get; } | 获取指示是否支持容器提取的值。 |
-| [FormattedText](../../groupdocs.parser.options/features/formattedtext) { get; } | 获取指示是否支持格式化文本提取的值。 |
-| [FormattedTextPage](../../groupdocs.parser.options/features/formattedtextpage) { get; } | 获取是否支持格式化文本页面提取的值。 |
-| [Highlight](../../groupdocs.parser.options/features/highlight) { get; } | 获取指示是否支持高亮提取的值。 |
-| [Hyperlinks](../../groupdocs.parser.options/features/hyperlinks) { get; } | 获取指示是否支持超链接提取的值。 |
-| [Images](../../groupdocs.parser.options/features/images) { get; } | 获取指示是否支持图像提取的值。 |
-| [Metadata](../../groupdocs.parser.options/features/metadata) { get; } | 获取指示是否支持元数据提取的值。 |
-| [ParseByTemplate](../../groupdocs.parser.options/features/parsebytemplate) { get; } | 获取是否支持模板解析的值 |
+| [Barcodes](../../groupdocs.parser.options/features/barcodes) { get; } | 获取是否支持提取条码的值。 |
+| [Container](../../groupdocs.parser.options/features/container) { get; } | 获取是否支持容器提取的值。 |
+| [FormattedText](../../groupdocs.parser.options/features/formattedtext) { get; } | 获取是否支持格式化文本提取的值。 |
+| [FormattedTextPage](../../groupdocs.parser.options/features/formattedtextpage) { get; } | 获取是否支持格式化文本页提取的值。 |
+| [Highlight](../../groupdocs.parser.options/features/highlight) { get; } | 获取是否支持高亮提取的值。 |
+| [Hyperlinks](../../groupdocs.parser.options/features/hyperlinks) { get; } | 获取是否支持超链接提取的值。 |
+| [Images](../../groupdocs.parser.options/features/images) { get; } | 获取是否支持图片提取的值。 |
+| [Metadata](../../groupdocs.parser.options/features/metadata) { get; } | 获取是否支持元数据提取的值。 |
+| [Ocr](../../groupdocs.parser.options/features/ocr) { get; } | 获取指示是否支持 OCR 功能的值。 |
+| [ParseByTemplate](../../groupdocs.parser.options/features/parsebytemplate) { get; } | 获取是否支持模板解析的值。 |
 | [ParseForm](../../groupdocs.parser.options/features/parseform) { get; } | 获取是否支持表单解析的值。 |
-| [Search](../../groupdocs.parser.options/features/search) { get; } | 获取指示是否支持文本搜索的值。 |
-| [Structure](../../groupdocs.parser.options/features/structure) { get; } | 获取指示是否支持文本结构提取的值。 |
-| [Tables](../../groupdocs.parser.options/features/tables) { get; } | 获取指示是否支持表提取的值。 |
-| [Text](../../groupdocs.parser.options/features/text) { get; } | 获取指示是否支持文本提取的值。 |
-| [TextAreas](../../groupdocs.parser.options/features/textareas) { get; } | 获取指示是否支持文本区域提取的值。 |
-| [TextPage](../../groupdocs.parser.options/features/textpage) { get; } | 获取指示是否支持文本页面提取的值。 |
-| [Toc](../../groupdocs.parser.options/features/toc) { get; } | 获取指示是否支持目录提取的值。 |
+| [Preview](../../groupdocs.parser.options/features/preview) { get; } | 获取是否支持预览生成的值。 |
+| [Search](../../groupdocs.parser.options/features/search) { get; } | 获取是否支持文本搜索的值。 |
+| [Structure](../../groupdocs.parser.options/features/structure) { get; } | 获取是否支持提取文本结构的值。 |
+| [Tables](../../groupdocs.parser.options/features/tables) { get; } | 获取是否支持表提取的值。 |
+| [Text](../../groupdocs.parser.options/features/text) { get; } | 获取是否支持文本提取的值。 |
+| [TextAreas](../../groupdocs.parser.options/features/textareas) { get; } | 获取是否支持提取文本区域的值。 |
+| [TextPage](../../groupdocs.parser.options/features/textpage) { get; } | 获取是否支持文本页提取的值。 |
+| [Toc](../../groupdocs.parser.options/features/toc) { get; } | 获取是否支持目录提取的值。 |
 
 ## 方法
 
@@ -44,9 +46,9 @@ public sealed class Features
 
 ### 评论
 
-此类的一个实例用作[`Features`](../../groupdocs.parser/parser/features)property. 请参阅那里的用法示例。
+此类的实例用作[`Features`](../../groupdocs.parser/parser/features)property. 请参阅那里的用法示例。
 
-**学到更多：**
+**了解更多：**
 
 * [获取支持的功能](https://docs.groupdocs.com/display/parsernet/Get+supported+features)
 

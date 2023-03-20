@@ -1,14 +1,14 @@
 ---
 title: Page
 second_title: Riferimento API GroupDocs.Parser per .NET
-description: Rappresenta le informazioni sulla pagina del documento come lindice della pagina e le dimensioni della pagina. È usato per rappresentare la pagina che contiene gli eredi diPageArea./pagearea class nella funzionalità di analisi per modello.
+description: Rappresenta le informazioni sulla pagina del documento come lindice della pagina e le dimensioni della pagina. È usato per rappresentare la pagina che contiene gli eredi diPageArea./pageareaclass nella funzionalità di analisi per modello.
 type: docs
 weight: 60
 url: /it/net/groupdocs.parser.data/page/
 ---
 ## Page class
 
-Rappresenta le informazioni sulla pagina del documento come l'indice della pagina e le dimensioni della pagina. È usato per rappresentare la pagina che contiene gli eredi di[`PageArea`](../pagearea) class nella funzionalità di analisi per modello.
+Rappresenta le informazioni sulla pagina del documento come l'indice della pagina e le dimensioni della pagina. È usato per rappresentare la pagina che contiene gli eredi di[`PageArea`](../pagearea)class nella funzionalità di analisi per modello.
 
 ```csharp
 public sealed class Page

@@ -16,11 +16,11 @@ public XmlReader GetStructure()
 
 ### 返回值
 
-的一个实例XmlReader具有 XML 文本结构的类； `无效的`如果不支持文本结构提取。
+的实例XmlReader具有 XML 文本结构的类； `无效的`如果不支持文本结构提取。
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [提取文本结构](https://docs.groupdocs.com/display/parsernet/Extract+text+structure)
 

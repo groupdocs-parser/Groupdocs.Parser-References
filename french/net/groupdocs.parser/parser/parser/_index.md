@@ -276,7 +276,7 @@ IEnumerable<ContainerItem> emails = parser.GetContainer();
 
 ---
 
-## Parser(string) {#constructor_7}
+## Parser(string) {#constructor_8}
 
 Initialise une nouvelle instance du[`Parser`](../../parser) classe.
 
@@ -320,7 +320,7 @@ using (Parser parser = new Parser(filePath))
 
 ---
 
-## Parser(string, LoadOptions) {#constructor_8}
+## Parser(string, LoadOptions) {#constructor_9}
 
 Initialise une nouvelle instance du[`Parser`](../../parser) classe avec[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) .
 
@@ -380,7 +380,29 @@ catch (InvalidPasswordException)
 
 ---
 
-## Parser(string, LoadOptions, ParserSettings) {#constructor_9}
+## Parser(string, ParserSettings) {#constructor_11}
+
+Initialise une nouvelle instance du[`Parser`](../../parser) classe avec[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
+
+```csharp
+public Parser(string filePath, ParserSettings parserSettings)
+```
+
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| filePath | String | Le chemin d'accès au fichier. |
+| parserSettings | ParserSettings | Les paramètres de l'analyseur qui sont utilisés pour personnaliser l'extraction des données. |
+
+### Voir également
+
+* class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
+* class [Parser](../../parser)
+* espace de noms [GroupDocs.Parser](../../parser)
+* Assemblée [GroupDocs.Parser](../../../)
+
+---
+
+## Parser(string, LoadOptions, ParserSettings) {#constructor_10}
 
 Initialise une nouvelle instance du[`Parser`](../../parser) classe avec[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) et[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
 
@@ -532,7 +554,7 @@ public Parser(Stream document, LoadOptions loadOptions)
 
 Dans certains cas, il est nécessaire de définir[`FileFormat`](../../../groupdocs.parser.options/fileformat). Tant pour les cas particuliers (bases de données, serveur de messagerie) que pour détecter les types de fichiers par le contenu :
 
-Le mot de passe du document est transmis par[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) classer:
+Le mot de passe du document est transmis par[`LoadOptions`](../../../groupdocs.parser.options/loadoptions) classe:
 
 ```csharp
 // Crée une instance de la classe Parser pour le document Markdown
@@ -582,6 +604,28 @@ catch (InvalidPasswordException)
 ### Voir également
 
 * class [LoadOptions](../../../groupdocs.parser.options/loadoptions)
+* class [Parser](../../parser)
+* espace de noms [GroupDocs.Parser](../../parser)
+* Assemblée [GroupDocs.Parser](../../../)
+
+---
+
+## Parser(Stream, ParserSettings) {#constructor_7}
+
+Initialise une nouvelle instance du[`Parser`](../../parser) classe avec[`ParserSettings`](../../../groupdocs.parser.options/parsersettings) .
+
+```csharp
+public Parser(Stream document, ParserSettings parserSettings)
+```
+
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| document | Stream | Le flux d'entrée source. |
+| parserSettings | ParserSettings | Les paramètres de l'analyseur qui sont utilisés pour personnaliser l'extraction des données. |
+
+### Voir également
+
+* class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
 * class [Parser](../../parser)
 * espace de noms [GroupDocs.Parser](../../parser)
 * Assemblée [GroupDocs.Parser](../../../)

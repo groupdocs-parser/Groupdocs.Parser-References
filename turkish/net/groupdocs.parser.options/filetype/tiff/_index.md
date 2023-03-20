@@ -1,14 +1,14 @@
 ---
 title: TIFF
 second_title: .NET API Başvurusu için GroupDocs.Parser
-description: TIFF Etiketli Görüntü Dosyası Biçimi bu dosya biçimi standardına uyan çeşitli aygıtlarda kullanım amaçlı raster görüntüleri temsil eder. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/image/tiff/ .
+description: TIFF Etiketli Görüntü Dosyası Biçimi bu dosya biçimi standardına uyan çeşitli aygıtlarda kullanım amaçlı raster görüntüleri temsil eder. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/image/tiff/ .
 type: docs
 weight: 720
 url: /tr/net/groupdocs.parser.options/filetype/tiff/
 ---
 ## FileType.TIFF field
 
-TIFF, Etiketli Görüntü Dosyası Biçimi, bu dosya biçimi standardına uyan çeşitli aygıtlarda kullanım amaçlı raster görüntüleri temsil eder. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/image/tiff/) .
+TIFF, Etiketli Görüntü Dosyası Biçimi, bu dosya biçimi standardına uyan çeşitli aygıtlarda kullanım amaçlı raster görüntüleri temsil eder. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/image/tiff/) .
 
 ```csharp
 public static readonly FileType TIFF;

@@ -3,7 +3,7 @@ title: ParserSettings
 second_title: GroupDocs.Parser لمرجع .NET API
 description: يوفر الإعدادات المستخدمة لتخصيص استخراج البيانات.
 type: docs
-weight: 510
+weight: 560
 url: /ar/net/groupdocs.parser.options/parsersettings/
 ---
 ## ParserSettings class
@@ -18,13 +18,19 @@ public sealed class ParserSettings
 
 | اسم | وصف |
 | --- | --- |
-| [ParserSettings](parsersettings)(ILogger) | يقوم بتهيئة مثيل جديد لملف[`ParserSettings`](../parsersettings) فئة . |
+| [ParserSettings](parsersettings#constructor)(ExternalResourceHandler) | يقوم بتهيئة مثيل جديد لملف[`ParserSettings`](../parsersettings) فئة مع معالج الموارد الخارجية. |
+| [ParserSettings](parsersettings#constructor_1)(ILogger) | يقوم بتهيئة مثيل جديد لملف[`ParserSettings`](../parsersettings) فئة مع المسجل . |
+| [ParserSettings](parsersettings#constructor_4)(OcrConnectorBase) | يقوم بتهيئة مثيل جديد لملف[`ParserSettings`](../parsersettings) فئة مع موصل OCR. |
+| [ParserSettings](parsersettings#constructor_2)(ILogger, OcrConnectorBase) | يقوم بتهيئة مثيل جديد لملف[`ParserSettings`](../parsersettings) فئة مع المسجل وموصل OCR. |
+| [ParserSettings](parsersettings#constructor_3)(ILogger, OcrConnectorBase, ExternalResourceHandler) | يقوم بتهيئة مثيل جديد لملف[`ParserSettings`](../parsersettings) فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
+| [ExternalResourceHandler](../../groupdocs.parser.options/parsersettings/externalresourcehandler) { get; } | الحصول على معالج الموارد الخارجية . |
 | [Logger](../../groupdocs.parser.options/parsersettings/logger) { get; } | يحصل على المسجل الذي يتم استخدامه لتسجيل الأحداث والأخطاء أثناء استخراج البيانات. |
+| [OcrConnector](../../groupdocs.parser.options/parsersettings/ocrconnector) { get; } | يحصل على موصل OCR الذي يستخدم لتوفير وظيفة التعرف الضوئي على الحروف. |
 
 ### ملاحظات
 

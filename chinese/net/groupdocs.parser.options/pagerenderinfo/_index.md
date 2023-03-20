@@ -1,14 +1,14 @@
 ---
 title: PageRenderInfo
 second_title: GroupDocs.Parser for .NET API 参考
-description: 表示页面如何渲染的信息
+description: 表示一个页面如何渲染的信息
 type: docs
-weight: 480
+weight: 530
 url: /zh/net/groupdocs.parser.options/pagerenderinfo/
 ---
 ## PageRenderInfo class
 
-表示页面如何渲染的信息。
+表示一个页面如何渲染的信息。
 
 ```csharp
 public sealed class PageRenderInfo
@@ -18,7 +18,7 @@ public sealed class PageRenderInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PageRenderInfo](pagerenderinfo)(int, int, int) | 初始化[`PageRenderInfo`](../pagerenderinfo)类. |
+| [PageRenderInfo](pagerenderinfo)(int, int, int) | 初始化一个新的实例[`PageRenderInfo`](../pagerenderinfo)类. |
 
 ## 特性
 
@@ -26,20 +26,20 @@ public sealed class PageRenderInfo
 | --- | --- |
 | [ColumnCount](../../groupdocs.parser.options/pagerenderinfo/columncount) { get; } | 获取瓦片列的总数。 |
 | [PageNumber](../../groupdocs.parser.options/pagerenderinfo/pagenumber) { get; } | 获取页码。 |
-| [RowCount](../../groupdocs.parser.options/pagerenderinfo/rowcount) { get; } | 获取瓦片行的总数。 |
+| [RowCount](../../groupdocs.parser.options/pagerenderinfo/rowcount) { get; } | 获取瓦片总行数。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetColumn](../../groupdocs.parser.options/pagerenderinfo/getcolumn)(int) | 返回图块所在列的索引*tileIndex*放置。 |
-| [GetRow](../../groupdocs.parser.options/pagerenderinfo/getrow)(int) | 返回平铺所在行的索引*tileIndex*放置。 |
+| [GetColumn](../../groupdocs.parser.options/pagerenderinfo/getcolumn)(int) | 返回瓦片所在列的索引*tileIndex*被放置. |
+| [GetRow](../../groupdocs.parser.options/pagerenderinfo/getrow)(int) | 返回瓦片所在行的索引*tileIndex*被放置. |
 
 ### 评论
 
-某些文档（例如电子表格）无法将页面 呈现为单个图像。对于这些文档，页面呈现为一组图块。 这些瓷砖放置在矩形表中。
+某些文档（例如电子表格）无法将页面 呈现为单个图像。对于这些文档，页面呈现为一组图块。 这些瓷砖被放置在矩形桌子上。
 
-[`RowCount`](./rowcount)和[`ColumnCount`](./columncount) 表示此表的总行数和列数。如果文档页面渲染 到单个图像，则这些属性等于 1。
+[`RowCount`](./rowcount)和[`ColumnCount`](./columncount) 表示该表的总行数和列数。如果文档页面被 rendered 到单个图像，这些属性等于 1。
 
 ### 也可以看看
 

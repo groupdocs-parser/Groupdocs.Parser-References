@@ -1,14 +1,14 @@
 ---
 title: Container
 second_title: GroupDocs.Parser for .NET API 参考
-description: 获取指示是否支持容器提取的值
+description: 获取是否支持容器提取的值
 type: docs
 weight: 20
 url: /zh/net/groupdocs.parser.options/features/container/
 ---
 ## Features.Container property
 
-获取指示是否支持容器提取的值。
+获取是否支持容器提取的值。
 
 ```csharp
 public bool Container { get; }
