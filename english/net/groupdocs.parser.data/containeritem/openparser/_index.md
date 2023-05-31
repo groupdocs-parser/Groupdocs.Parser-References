@@ -3,7 +3,7 @@ title: OpenParser
 second_title: GroupDocs.Parser for .NET API Reference
 description: Creates the Parsergroupdocs.parser/parser object for the item content.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.parser.data/containeritem/openparser/
 ---
 ## OpenParser() {#openparser}
