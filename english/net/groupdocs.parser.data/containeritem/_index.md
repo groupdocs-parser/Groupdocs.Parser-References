@@ -29,6 +29,7 @@ public sealed class ContainerItem
 | Name | Description |
 | --- | --- |
 | [DetectFileType](../../groupdocs.parser.data/containeritem/detectfiletype)(FileTypeDetectionMode) | Detects a file type of the container item. |
+| [GetMetadataValue](../../groupdocs.parser.data/containeritem/getmetadatavalue)(string) | Gets the metadata value. |
 | [OpenParser](../../groupdocs.parser.data/containeritem/openparser#openparser)() | Creates the [`Parser`](../../groupdocs.parser/parser) object for the item content. |
 | [OpenParser](../../groupdocs.parser.data/containeritem/openparser#openparser_1)(LoadOptions) | Creates the [`Parser`](../../groupdocs.parser/parser) object for the item content with [`LoadOptions`](../../groupdocs.parser.options/loadoptions). |
 | [OpenParser](../../groupdocs.parser.data/containeritem/openparser#openparser_2)(LoadOptions, ParserSettings) | Creates the [`Parser`](../../groupdocs.parser/parser) object for the item content with [`LoadOptions`](../../groupdocs.parser.options/loadoptions) and [`ParserSettings`](../../groupdocs.parser.options/parsersettings). |

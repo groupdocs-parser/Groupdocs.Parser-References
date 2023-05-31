@@ -3,7 +3,7 @@ title: OpenStream
 second_title: GroupDocs.Parser for .NET API Reference
 description: Opens the stream of the item content.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.parser.data/containeritem/openstream/
 ---
 ## ContainerItem.OpenStream method
