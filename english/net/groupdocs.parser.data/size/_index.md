@@ -3,7 +3,7 @@ title: Size
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents a size.
 type: docs
-weight: 180
+weight: 190
 url: /net/groupdocs.parser.data/size/
 ---
 ## Size class

@@ -3,7 +3,7 @@ title: Point
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents a point.
 type: docs
-weight: 150
+weight: 160
 url: /net/groupdocs.parser.data/point/
 ---
 ## Point class

@@ -42,6 +42,10 @@ The MIME type of the attachment content.
 
 The time and date at which the file indicated by the Zip Entry was last modified.
 
+**disposition**
+
+To detect if image attachment is inline 'disposition' metadata is used. If it's present, it can take 'inline' or 'attachment' values.
+
 **Outlook Storage**
 
 **Name**

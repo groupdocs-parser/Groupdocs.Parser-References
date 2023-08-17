@@ -1,14 +1,14 @@
 ---
 title: DocumentData
 second_title: GroupDocs.Parser for .NET API Reference
-description: Initializes a new instance of the FieldDatagroupdocs.parser.data/fielddata class.
+description: Initializes a new instance of the DocumentDatagroupdocs.parser.data/documentdata class.
 type: docs
 weight: 10
 url: /net/groupdocs.parser.data/documentdata/documentdata/
 ---
 ## DocumentData constructor
 
-Initializes a new instance of the [`FieldData`](../../fielddata) class.
+Initializes a new instance of the [`DocumentData`](../../documentdata) class.
 
 ```csharp
 public DocumentData(IEnumerable<FieldData> fields)

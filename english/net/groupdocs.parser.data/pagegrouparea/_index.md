@@ -3,7 +3,7 @@ title: PageGroupArea
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents a group of page areas which is used to group different types of blocks of the document page in the parsing by template functionality.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.parser.data/pagegrouparea/
 ---
 ## PageGroupArea class

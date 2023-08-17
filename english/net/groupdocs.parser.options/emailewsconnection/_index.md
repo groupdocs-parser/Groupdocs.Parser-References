@@ -3,7 +3,7 @@ title: EmailEwsConnection
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents the email connection information for EWS protocol.
 type: docs
-weight: 300
+weight: 310
 url: /net/groupdocs.parser.options/emailewsconnection/
 ---
 ## EmailEwsConnection class

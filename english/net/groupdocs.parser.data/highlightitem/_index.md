@@ -3,7 +3,7 @@ title: HighlightItem
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents a highlight a part of the text which is usually used to explain the context of the found text in the search functionality.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.parser.data/highlightitem/
 ---
 ## HighlightItem class

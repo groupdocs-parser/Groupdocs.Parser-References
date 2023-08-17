@@ -3,7 +3,7 @@ title: Rectangle
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents a rectangular area.
 type: docs
-weight: 160
+weight: 170
 url: /net/groupdocs.parser.data/rectangle/
 ---
 ## Rectangle class

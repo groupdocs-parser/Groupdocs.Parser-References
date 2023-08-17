@@ -3,7 +3,7 @@ title: PageBarcodeArea
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents a page barcode area which is used to represent a barcode value in the parsing by template functionality.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.parser.data/pagebarcodearea/
 ---
 ## PageBarcodeArea class
