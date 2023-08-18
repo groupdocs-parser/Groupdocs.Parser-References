@@ -3,7 +3,7 @@ title: HighlightOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used to extract a highlight a block of text aroud found text in search scenarios.
 type: docs
-weight: 420
+weight: 430
 url: /net/groupdocs.parser.options/highlightoptions/
 ---
 ## HighlightOptions class

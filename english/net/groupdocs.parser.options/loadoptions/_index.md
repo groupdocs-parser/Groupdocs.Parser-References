@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used to open a file.
 type: docs
-weight: 470
+weight: 480
 url: /net/groupdocs.parser.options/loadoptions/
 ---
 ## LoadOptions class

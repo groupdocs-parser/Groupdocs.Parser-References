@@ -3,7 +3,7 @@ title: PageTextArea
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents a page text area which is used to represent a text value in the parsing by template or parsing form functionality.
 type: docs
-weight: 140
+weight: 150
 url: /net/groupdocs.parser.data/pagetextarea/
 ---
 ## PageTextArea class

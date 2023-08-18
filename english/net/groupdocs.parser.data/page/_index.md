@@ -3,7 +3,7 @@ title: Page
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents the document page information such as page index and page size. Its used to represent the page that contains inheritors of PageArea./pagearea class in the parsing by template functionality.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.parser.data/page/
 ---
 ## Page class

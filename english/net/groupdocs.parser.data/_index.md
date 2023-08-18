@@ -14,6 +14,7 @@ The namespace provides classes which represent parsing results.
 | --- | --- |
 | [ContainerItem](./containeritem) | Represents a container item like Zip archive entity, email attachment, PDF Portfolio item and so on. |
 | [DocumentData](./documentdata) | Represents data of the document. It consists of [`FieldData`](../groupdocs.parser.data/fielddata) objects which contain field data from document. |
+| [DocumentPageData](./documentpagedata) | Represents data of the document page. It consists of [`FieldData`](../groupdocs.parser.data/fielddata) objects which contain field data from the document page. |
 | [FieldData](./fielddata) | Represents field data such as a name, a page index, a field value and so on. Depending on the field the value can be a text, an image, a table and so on. |
 | [HighlightItem](./highlightitem) | Represents a highlight, a part of the text which is usually used to explain the context of the found text in the search functionality. |
 | [MetadataItem](./metadataitem) | Represents a metadata item which is used in container items and metadata extraction functionality. |

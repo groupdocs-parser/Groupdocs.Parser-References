@@ -1,24 +1,24 @@
 ---
-title: DocumentData
+title: DocumentPageData
 second_title: GroupDocs.Parser for .NET API Reference
-description: Represents data of the document. It consists of FieldData./fielddata objects which contain field data from document.
+description: Represents data of the document page. It consists of FieldData./fielddata objects which contain field data from the document page.
 type: docs
-weight: 20
-url: /net/groupdocs.parser.data/documentdata/
+weight: 30
+url: /net/groupdocs.parser.data/documentpagedata/
 ---
-## DocumentData class
+## DocumentPageData class
 
-Represents data of the document. It consists of [`FieldData`](../fielddata) objects which contain field data from document.
+Represents data of the document page. It consists of [`FieldData`](../fielddata) objects which contain field data from the document page.
 
 ```csharp
-public class DocumentData : IEnumerable<FieldData>
+public sealed class DocumentPageData : DocumentData
 ```
 
 ## Constructors
 
 | Name | Description |
 | --- | --- |
-| [DocumentData](documentdata)(IEnumerable&lt;FieldData&gt;) | Initializes a new instance of the [`DocumentData`](../documentdata) class. |
+| [DocumentPageData](documentpagedata)(IEnumerable&lt;FieldData&gt;, int) | Initializes a new instance of the [`DocumentPageData`](../documentpagedata) class. |
 
 ## Properties
 
@@ -26,6 +26,7 @@ public class DocumentData : IEnumerable<FieldData>
 | --- | --- |
 | [Count](../../groupdocs.parser.data/documentdata/count) { get; } | Gets the total number of the fields data. |
 | [Item](../../groupdocs.parser.data/documentdata/item) { get; } | Gets the field data by an index. |
+| [PageIndex](../../groupdocs.parser.data/documentpagedata/pageindex) { get; } | Gets the page index. |
 
 ## Methods
 
@@ -34,13 +35,9 @@ public class DocumentData : IEnumerable<FieldData>
 | [GetEnumerator](../../groupdocs.parser.data/documentdata/getenumerator)() | Returns an enumerator for the fields data. |
 | [GetFieldsByName](../../groupdocs.parser.data/documentdata/getfieldsbyname)(string) | Returns the collection of field data where the name is equal to *fieldName*. |
 
-### Remarks
-
-An instance of [`DocumentData`](../documentdata) class is used as return value of [`ParseByTemplate`](../../groupdocs.parser/parser/parsebytemplate) and [`ParseForm`](../../groupdocs.parser/parser/parseform) methods. See the usage examples there.
-
 ### See Also
 
-* class [FieldData](../fielddata)
+* class [DocumentData](../documentdata)
 * namespace [GroupDocs.Parser.Data](../../groupdocs.parser.data)
 * assembly [GroupDocs.Parser](../../)
 

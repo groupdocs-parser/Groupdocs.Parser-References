@@ -3,7 +3,7 @@ title: Parser
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents the main class that controls text images container extraction and parsing functionality.
 type: docs
-weight: 640
+weight: 650
 url: /net/groupdocs.parser/parser/
 ---
 ## Parser class
@@ -75,6 +75,7 @@ public sealed class Parser : IDisposable
 | [GetToc](../../groupdocs.parser/parser/gettoc)() | Extracts a table of contents from the document. |
 | [ParseByTemplate](../../groupdocs.parser/parser/parsebytemplate)(Template) | Parses the document by the user-generated template. |
 | [ParseForm](../../groupdocs.parser/parser/parseform)() | Parses the document form. |
+| [ParsePagesByTemplate](../../groupdocs.parser/parser/parsepagesbytemplate)(Template) | Parses the document pages by the user-generated template. |
 | [Search](../../groupdocs.parser/parser/search#search)(string) | Searches a *keyword* in the document. |
 | [Search](../../groupdocs.parser/parser/search#search_1)(string, SearchOptions) | Searches a *keyword* in the document using search options (regular expression, match case, etc.). |
 | static [GetFileInfo](../../groupdocs.parser/parser/getfileinfo#getfileinfo)(Stream) | Returns the general information about a file. |

@@ -3,7 +3,7 @@ title: PageTableArea
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents a table page area which is used to represent a table in the parsing by template functionality.
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.parser.data/pagetablearea/
 ---
 ## PageTableArea class

@@ -3,7 +3,7 @@ title: License
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides methods to license the component. Learn more about licensing herehttps//purchase.groupdocs.com/faqs/licensing.
 type: docs
-weight: 250
+weight: 260
 url: /net/groupdocs.parser/license/
 ---
 ## License class

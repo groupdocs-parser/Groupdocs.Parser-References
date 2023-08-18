@@ -3,7 +3,7 @@ title: FieldData
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents field data such as a name a page index a field value and so on. Depending on the field the value can be a text an image a table and so on.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.parser.data/fielddata/
 ---
 ## FieldData class
