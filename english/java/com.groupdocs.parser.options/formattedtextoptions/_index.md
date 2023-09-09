@@ -3,7 +3,7 @@ title: FormattedTextOptions
 second_title: GroupDocs.Parser for Java API Reference
 description: Provides the options which are used for formatted text extraction.
 type: docs
-weight: 18
+weight: 20
 url: /java/com.groupdocs.parser.options/formattedtextoptions/
 ---
 **Inheritance:**

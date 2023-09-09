@@ -3,7 +3,7 @@ title: HighlightOptions
 second_title: GroupDocs.Parser for Java API Reference
 description: Provides the options which are used to extract a highlight a block of text aroud found text in search scenarios.
 type: docs
-weight: 19
+weight: 21
 url: /java/com.groupdocs.parser.options/highlightoptions/
 ---
 **Inheritance:**

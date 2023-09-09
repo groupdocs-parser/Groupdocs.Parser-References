@@ -3,7 +3,7 @@ title: FileTypeDetectionMode
 second_title: GroupDocs.Parser for Java API Reference
 description: Defines a mode of the file type detection.
 type: docs
-weight: 41
+weight: 43
 url: /java/com.groupdocs.parser.options/filetypedetectionmode/
 ---
 **Inheritance:**

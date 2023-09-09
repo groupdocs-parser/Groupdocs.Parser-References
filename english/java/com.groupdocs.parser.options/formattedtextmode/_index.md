@@ -3,7 +3,7 @@ title: FormattedTextMode
 second_title: GroupDocs.Parser for Java API Reference
 description: Defines a formatted text mode.
 type: docs
-weight: 42
+weight: 44
 url: /java/com.groupdocs.parser.options/formattedtextmode/
 ---
 **Inheritance:**

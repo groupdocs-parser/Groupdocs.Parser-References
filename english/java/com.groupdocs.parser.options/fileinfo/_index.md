@@ -3,7 +3,7 @@ title: FileInfo
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents the file information.
 type: docs
-weight: 16
+weight: 18
 url: /java/com.groupdocs.parser.options/fileinfo/
 ---
 **Inheritance:**

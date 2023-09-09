@@ -30,6 +30,7 @@ An instance of [ContainerItem](../../com.groupdocs.parser.data/containeritem) cl
 | [getFilePath()](#getFilePath--) | Gets the full path of the item. |
 | [getSize()](#getSize--) | Gets the size of the item. |
 | [getMetadata()](#getMetadata--) | Gets the collection of metadata items. |
+| [getMetadataValue(String name)](#getMetadataValue-java.lang.String-) | Gets the metadata value. |
 | [openStream()](#openStream--) | Opens the stream of the item content. |
 | [openParser()](#openParser--) | Creates the [Parser](../../com.groupdocs.parser/parser) object for the item content. |
 | [openParser(LoadOptions loadOptions)](#openParser-com.groupdocs.parser.options.LoadOptions-) | Creates the [Parser](../../com.groupdocs.parser/parser) object for the item content with [LoadOptions](../../com.groupdocs.parser.options/loadoptions). |
@@ -116,6 +117,21 @@ Gets the collection of metadata items.
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.MetadataItem> - A collection of [MetadataItem](../../com.groupdocs.parser.data/metadataitem) objects; empty if metadata isn't set.
+### getMetadataValue(String name) {#getMetadataValue-java.lang.String-}
+```
+public String getMetadataValue(String name)
+```
+
+
+Gets the metadata value.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of the metadata. |
+
+**Returns:**
+java.lang.String - A string value that represents the value of the metadata item;  null  if the metadata with this name isn't found.
 ### openStream() {#openStream--}
 ```
 public abstract InputStream openStream()

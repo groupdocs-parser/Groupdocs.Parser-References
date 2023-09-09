@@ -72,6 +72,7 @@ Represents the main class that controls text, images, container extraction and p
 | [getTables(PageTableAreaOptions options)](#getTables-com.groupdocs.parser.options.PageTableAreaOptions-) | Extracts tables from the document. |
 | [getTables(int pageIndex, PageTableAreaOptions options)](#getTables-int-com.groupdocs.parser.options.PageTableAreaOptions-) | Extracts tables from the document page. |
 | [parseByTemplate(Template template)](#parseByTemplate-com.groupdocs.parser.templates.Template-) | Parses the document by the user-generated template. |
+| [parsePagesByTemplate(Template template)](#parsePagesByTemplate-com.groupdocs.parser.templates.Template-) | Parses the document pages by the user-generated template. |
 | [parseForm()](#parseForm--) | Parses the document form. |
 | [getStructure()](#getStructure--) | Extracts a structured text from the document. |
 | [close()](#close--) | Closes this resource, relinquishing any underlying resources. |
@@ -2154,6 +2155,21 @@ Parses the document by the user-generated template.
 
 **Returns:**
 [DocumentData](../../com.groupdocs.parser.data/documentdata) - An instance of [DocumentData](../../com.groupdocs.parser.data/documentdata) class that contains the extracted data;  null  if parsing by template isn't supported.
+### parsePagesByTemplate(Template template) {#parsePagesByTemplate-com.groupdocs.parser.templates.Template-}
+```
+public Iterable<DocumentPageData> parsePagesByTemplate(Template template)
+```
+
+
+Parses the document pages by the user-generated template.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| template | [Template](../../com.groupdocs.parser.templates/template) | The user-generated template. |
+
+**Returns:**
+java.lang.Iterable<com.groupdocs.parser.data.DocumentPageData> - A collection of [DocumentPageData](../../com.groupdocs.parser.data/documentpagedata) objects that contains the extracted data;  null  if parsing by template isn't supported.
 ### parseForm() {#parseForm--}
 ```
 public DocumentData parseForm()

@@ -19,6 +19,8 @@ The package provides classes to specify additional options when parsing data fro
 | [EmailEwsConnection](../com.groupdocs.parser.options/emailewsconnection) | Represents the email connection information for EWS protocol. |
 | [EmailImapConnection](../com.groupdocs.parser.options/emailimapconnection) | Represents the email connection information for IMAP protocol. |
 | [EmailPopConnection](../com.groupdocs.parser.options/emailpopconnection) | Represents the email connection information for POP protocol. |
+| [ExternalResourceHandler](../com.groupdocs.parser.options/externalresourcehandler) | Provides a handler for external resources loading. |
+| [ExternalResourceLoadingArgs](../com.groupdocs.parser.options/externalresourceloadingargs) | Provides the data for [ExternalResourceHandler.\#onLoading(ExternalResourceLoadingArgs)](../com.groupdocs.parser.options/externalresourcehandler\#onLoading-ExternalResourceLoadingArgs-) method. |
 | [Features](../com.groupdocs.parser.options/features) | Represents the supported features list. |
 | [FileInfo](../com.groupdocs.parser.options/fileinfo) | Represents the file information. |
 | [FileType](../com.groupdocs.parser.options/filetype) | Represents the file type. |

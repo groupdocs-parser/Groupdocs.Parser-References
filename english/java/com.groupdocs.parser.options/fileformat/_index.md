@@ -3,7 +3,7 @@ title: FileFormat
 second_title: GroupDocs.Parser for Java API Reference
 description: Defines a type of the file.
 type: docs
-weight: 40
+weight: 42
 url: /java/com.groupdocs.parser.options/fileformat/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: FileType
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents the file type.
 type: docs
-weight: 17
+weight: 19
 url: /java/com.groupdocs.parser.options/filetype/
 ---
 **Inheritance:**
