@@ -3,7 +3,7 @@ title: ParserSettings
 second_title: GroupDocs.Parser for Java API Reference
 description: Provides the settings which are used to customize data extraction.
 type: docs
-weight: 30
+weight: 32
 url: /java/com.groupdocs.parser.options/parsersettings/
 ---
 **Inheritance:**

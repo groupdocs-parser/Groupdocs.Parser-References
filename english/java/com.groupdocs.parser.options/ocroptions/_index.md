@@ -3,7 +3,7 @@ title: OcrOptions
 second_title: GroupDocs.Parser for Java API Reference
 description: Provides the options which are used for OCR Connector.
 type: docs
-weight: 24
+weight: 26
 url: /java/com.groupdocs.parser.options/ocroptions/
 ---
 **Inheritance:**
