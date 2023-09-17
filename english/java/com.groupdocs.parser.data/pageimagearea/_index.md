@@ -3,7 +3,7 @@ title: PageImageArea
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents a page image area which is used to represent an image on the page in the parsing by template functionality or an image attachment if images are extracted from emails or Zip archives.
 type: docs
-weight: 20
+weight: 21
 url: /java/com.groupdocs.parser.data/pageimagearea/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: FieldData
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents field data such as a name a page index a field value and so on.
 type: docs
-weight: 12
+weight: 13
 url: /java/com.groupdocs.parser.data/fielddata/
 ---
 **Inheritance:**

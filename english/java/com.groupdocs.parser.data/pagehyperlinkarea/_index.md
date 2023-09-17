@@ -3,7 +3,7 @@ title: PageHyperlinkArea
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents a page area which is used to represent a hyperlink on the page.
 type: docs
-weight: 19
+weight: 20
 url: /java/com.groupdocs.parser.data/pagehyperlinkarea/
 ---
 **Inheritance:**

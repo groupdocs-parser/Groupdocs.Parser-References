@@ -3,7 +3,7 @@ title: Page
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents the document page information such as page index and page size.
 type: docs
-weight: 15
+weight: 16
 url: /java/com.groupdocs.parser.data/page/
 ---
 **Inheritance:**

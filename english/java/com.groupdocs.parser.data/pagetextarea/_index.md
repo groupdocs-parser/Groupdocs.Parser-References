@@ -3,7 +3,7 @@ title: PageTextArea
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents a page text area which is used to represent a text value in the parsing by template or parsing form functionality.
 type: docs
-weight: 23
+weight: 24
 url: /java/com.groupdocs.parser.data/pagetextarea/
 ---
 **Inheritance:**

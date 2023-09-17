@@ -3,7 +3,7 @@ title: PageTableArea
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents a table page area which is used to represent a table in the parsing by template functionality.
 type: docs
-weight: 21
+weight: 22
 url: /java/com.groupdocs.parser.data/pagetablearea/
 ---
 **Inheritance:**

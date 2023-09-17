@@ -3,7 +3,7 @@ title: TocItem
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents the item which is used in the table of contents extraction functionality.
 type: docs
-weight: 30
+weight: 31
 url: /java/com.groupdocs.parser.data/tocitem/
 ---
 **Inheritance:**

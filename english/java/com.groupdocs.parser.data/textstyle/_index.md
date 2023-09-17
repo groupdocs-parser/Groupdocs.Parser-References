@@ -3,7 +3,7 @@ title: TextStyle
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents the style of the text such as a font name a font size and so on.
 type: docs
-weight: 29
+weight: 30
 url: /java/com.groupdocs.parser.data/textstyle/
 ---
 **Inheritance:**

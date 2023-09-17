@@ -3,7 +3,7 @@ title: PageBarcodeArea
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents a page barcode area which is used to represent a barcode value in the parsing by template functionality.
 type: docs
-weight: 17
+weight: 18
 url: /java/com.groupdocs.parser.data/pagebarcodearea/
 ---
 **Inheritance:**
