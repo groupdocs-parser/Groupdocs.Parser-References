@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/groupdocs.parser.templates/template/template/
 ---
-## Template constructor
+## Template(IEnumerable&lt;TemplateItem&gt;) {#constructor}
 
 Initializes a new instance of the [`Template`](../../template) class.
 
@@ -44,6 +44,29 @@ Template template = new Template(fields);
 ### See Also
 
 * class [TemplateItem](../../templateitem)
+* class [Template](../../template)
+* namespace [GroupDocs.Parser.Templates](../../template)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## Template(IEnumerable&lt;TemplateItem&gt;, TemplateOptions) {#constructor_1}
+
+Initializes a new instance of the [`Template`](../../template) class with template options.
+
+```csharp
+public Template(IEnumerable<TemplateItem> items, TemplateOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| items | IEnumerable`1 | The collection of [`TemplateItem`](../../templateitem) objects. |
+| options | TemplateOptions | The template options. |
+
+### See Also
+
+* class [TemplateItem](../../templateitem)
+* class [TemplateOptions](../../templateoptions)
 * class [Template](../../template)
 * namespace [GroupDocs.Parser.Templates](../../template)
 * assembly [GroupDocs.Parser](../../../)

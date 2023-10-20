@@ -18,7 +18,8 @@ public sealed class Template : IEnumerable<TemplateItem>
 
 | Name | Description |
 | --- | --- |
-| [Template](template)(IEnumerable&lt;TemplateItem&gt;) | Initializes a new instance of the [`Template`](../template) class. |
+| [Template](template#constructor)(IEnumerable&lt;TemplateItem&gt;) | Initializes a new instance of the [`Template`](../template) class. |
+| [Template](template#constructor_1)(IEnumerable&lt;TemplateItem&gt;, TemplateOptions) | Initializes a new instance of the [`Template`](../template) class with template options. |
 
 ## Properties
 
@@ -26,6 +27,7 @@ public sealed class Template : IEnumerable<TemplateItem>
 | --- | --- |
 | [Count](../../groupdocs.parser.templates/template/count) { get; } | Gets the total number of template items. |
 | [Item](../../groupdocs.parser.templates/template/item) { get; } | Gets the template item by an index. |
+| [Options](../../groupdocs.parser.templates/template/options) { get; } | Gets the template options. |
 
 ## Methods
 

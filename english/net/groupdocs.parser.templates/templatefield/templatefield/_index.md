@@ -30,7 +30,7 @@ public TemplateField(TemplatePosition position, string name)
 
 ## TemplateField(TemplatePosition, string, int?) {#constructor_1}
 
-Initializes a new instance of the [`TemplateField`](../../templatefield) class.
+Initializes a new instance of the [`TemplateField`](../../templatefield) class with the UPPER CASE name.
 
 ```csharp
 public TemplateField(TemplatePosition position, string name, int? pageIndex)
@@ -41,6 +41,30 @@ public TemplateField(TemplatePosition position, string name, int? pageIndex)
 | position | TemplatePosition | The field position. |
 | name | String | The field name. |
 | pageIndex | Nullable`1 | An integer value that represents the index of the page where the template item is located; `null` if the template item is located on any page. |
+
+### See Also
+
+* class [TemplatePosition](../../templateposition)
+* class [TemplateField](../../templatefield)
+* namespace [GroupDocs.Parser.Templates](../../templatefield)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## TemplateField(TemplatePosition, string, int?, bool) {#constructor_2}
+
+Initializes a new instance of the [`TemplateField`](../../templatefield) class.
+
+```csharp
+public TemplateField(TemplatePosition position, string name, int? pageIndex, bool useUpperCaseName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| position | TemplatePosition | The field position. |
+| name | String | The field name. |
+| pageIndex | Nullable`1 | An integer value that represents the index of the page where the template item is located; `null` if the template item is located on any page. |
+| useUpperCaseName | Boolean | The value that indicates whether a `name` is converted to UPPER CASE. |
 
 ### See Also
 

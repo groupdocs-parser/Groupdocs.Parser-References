@@ -19,6 +19,7 @@ The namespace provides classes for creating templates for parsing document data.
 | [TemplateItem](./templateitem) | Provides a base abstract class for template items. |
 | [TemplateLinkedPosition](./templatelinkedposition) | Provides a template field position which uses the linked field. |
 | [TemplateLinkedPositionEdges](./templatelinkedpositionedges) | Provides the edges of the linked field where the text field is seached. [`TemplateLinkedPositionEdges`](../groupdocs.parser.templates/templatelinkedpositionedges) is used in [`TemplateLinkedPosition`](../groupdocs.parser.templates/templatelinkedposition) class. |
+| [TemplateOptions](./templateoptions) | Provides the options which are used for parsing by template functionality. |
 | [TemplatePosition](./templateposition) | Provides a base abstract class for template positions. |
 | [TemplateRegexPosition](./templateregexposition) | Provides a template field position which uses the regular expression. |
 | [TemplateTable](./templatetable) | Provides the template table. |

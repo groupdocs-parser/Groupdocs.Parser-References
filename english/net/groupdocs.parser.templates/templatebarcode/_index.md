@@ -19,7 +19,8 @@ public sealed class TemplateBarcode : TemplateItem
 | Name | Description |
 | --- | --- |
 | [TemplateBarcode](templatebarcode#constructor)(Rectangle, string) | Initializes a new instance of the [`TemplateBarcode`](../templatebarcode) class. |
-| [TemplateBarcode](templatebarcode#constructor_1)(Rectangle, string, int?) | Initializes a new instance of the [`TemplateBarcode`](../templatebarcode) class. |
+| [TemplateBarcode](templatebarcode#constructor_1)(Rectangle, string, int?) | Initializes a new instance of the [`TemplateBarcode`](../templatebarcode) class with the UPPER CASE name. |
+| [TemplateBarcode](templatebarcode#constructor_2)(Rectangle, string, int?, bool) | Initializes a new instance of the [`TemplateBarcode`](../templatebarcode) class. |
 
 ## Properties
 

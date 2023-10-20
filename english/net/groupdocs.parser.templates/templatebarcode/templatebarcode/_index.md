@@ -30,7 +30,7 @@ public TemplateBarcode(Rectangle rectangle, string name)
 
 ## TemplateBarcode(Rectangle, string, int?) {#constructor_1}
 
-Initializes a new instance of the [`TemplateBarcode`](../../templatebarcode) class.
+Initializes a new instance of the [`TemplateBarcode`](../../templatebarcode) class with the UPPER CASE name.
 
 ```csharp
 public TemplateBarcode(Rectangle rectangle, string name, int? pageIndex)
@@ -41,6 +41,30 @@ public TemplateBarcode(Rectangle rectangle, string name, int? pageIndex)
 | rectangle | Rectangle | The rectangular area that contains the template barcode field. |
 | name | String | The barcode field name. |
 | pageIndex | Nullable`1 | An integer value that represents the index of the page where the template item is located; `null` if the template item is located on any page. |
+
+### See Also
+
+* class [Rectangle](../../../groupdocs.parser.data/rectangle)
+* class [TemplateBarcode](../../templatebarcode)
+* namespace [GroupDocs.Parser.Templates](../../templatebarcode)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## TemplateBarcode(Rectangle, string, int?, bool) {#constructor_2}
+
+Initializes a new instance of the [`TemplateBarcode`](../../templatebarcode) class.
+
+```csharp
+public TemplateBarcode(Rectangle rectangle, string name, int? pageIndex, bool useUpperCaseName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rectangle | Rectangle | The rectangular area that contains the template barcode field. |
+| name | String | The barcode field name. |
+| pageIndex | Nullable`1 | An integer value that represents the index of the page where the template item is located; `null` if the template item is located on any page. |
+| useUpperCaseName | Boolean | The value that indicates whether a `name` is converted to UPPER CASE. |
 
 ### See Also
 
