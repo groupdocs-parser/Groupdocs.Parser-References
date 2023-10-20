@@ -3,7 +3,7 @@ title: Point
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents a point.
 type: docs
-weight: 24
+weight: 25
 url: /java/com.groupdocs.parser.data/point/
 ---
 **Inheritance:**

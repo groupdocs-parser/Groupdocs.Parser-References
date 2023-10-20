@@ -30,7 +30,9 @@ An instance of [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetext
 | [PageTextAreaOptions(boolean useOcr, OcrOptions ocrOptions)](#PageTextAreaOptions-boolean-com.groupdocs.parser.options.OcrOptions-) | Initializes a new instance of the [TextOptions](../../com.groupdocs.parser.options/textoptions) class with the ability to set OCR options. |
 | [PageTextAreaOptions(String expression)](#PageTextAreaOptions-java.lang.String-) | Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class with the regular expression. |
 | [PageTextAreaOptions(String expression, Rectangle rectangle)](#PageTextAreaOptions-java.lang.String-com.groupdocs.parser.data.Rectangle-) | Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class with the regular expression and rectangular area. |
+| [PageTextAreaOptions(String expression, Rectangle rectangle, double rectangleTolerance)](#PageTextAreaOptions-java.lang.String-com.groupdocs.parser.data.Rectangle-double-) | Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class with the regular expression, rectangular area and the size of the ignored border. |
 | [PageTextAreaOptions(String expression, boolean matchCase, boolean uniteSegments, boolean ignoreFormatting, Rectangle rectangle)](#PageTextAreaOptions-java.lang.String-boolean-boolean-boolean-com.groupdocs.parser.data.Rectangle-) | Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class. |
+| [PageTextAreaOptions(String expression, boolean matchCase, boolean uniteSegments, boolean ignoreFormatting, Rectangle rectangle, double rectangleTolerance)](#PageTextAreaOptions-java.lang.String-boolean-boolean-boolean-com.groupdocs.parser.data.Rectangle-double-) | Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class with the size of the ignored border. |
 ## Methods
 
 | Method | Description |
@@ -108,6 +110,21 @@ The following properties have default values:
 | expression | java.lang.String | The regular expression. |
 | rectangle | [Rectangle](../../com.groupdocs.parser.data/rectangle) | The rectangular area that contains page areas. |
 
+### PageTextAreaOptions(String expression, Rectangle rectangle, double rectangleTolerance) {#PageTextAreaOptions-java.lang.String-com.groupdocs.parser.data.Rectangle-double-}
+```
+public PageTextAreaOptions(String expression, Rectangle rectangle, double rectangleTolerance)
+```
+
+
+Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class with the regular expression, rectangular area and the size of the ignored border. Other options are set by default (see remarks for details).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| expression | java.lang.String | The regular expression. |
+| rectangle | [Rectangle](../../com.groupdocs.parser.data/rectangle) | The rectangular area that contains page areas. |
+| rectangleTolerance | double | The size of the border that is ignored when captured by the rectangular area. It's measured by the fraction of a text item height. |
+
 ### PageTextAreaOptions(String expression, boolean matchCase, boolean uniteSegments, boolean ignoreFormatting, Rectangle rectangle) {#PageTextAreaOptions-java.lang.String-boolean-boolean-boolean-com.groupdocs.parser.data.Rectangle-}
 ```
 public PageTextAreaOptions(String expression, boolean matchCase, boolean uniteSegments, boolean ignoreFormatting, Rectangle rectangle)
@@ -124,6 +141,24 @@ Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.pars
 | uniteSegments | boolean | The value that indicates whether segments are united. |
 | ignoreFormatting | boolean | The value that indicates whether text formatting is ignored. |
 | rectangle | [Rectangle](../../com.groupdocs.parser.data/rectangle) | The rectangular area that contains page areas. |
+
+### PageTextAreaOptions(String expression, boolean matchCase, boolean uniteSegments, boolean ignoreFormatting, Rectangle rectangle, double rectangleTolerance) {#PageTextAreaOptions-java.lang.String-boolean-boolean-boolean-com.groupdocs.parser.data.Rectangle-double-}
+```
+public PageTextAreaOptions(String expression, boolean matchCase, boolean uniteSegments, boolean ignoreFormatting, Rectangle rectangle, double rectangleTolerance)
+```
+
+
+Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class with the size of the ignored border.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| expression | java.lang.String | The regular expression. |
+| matchCase | boolean | The value that indicates whether a text case isn't ignored. |
+| uniteSegments | boolean | The value that indicates whether segments are united. |
+| ignoreFormatting | boolean | The value that indicates whether text formatting is ignored. |
+| rectangle | [Rectangle](../../com.groupdocs.parser.data/rectangle) | The rectangular area that contains page areas. |
+| rectangleTolerance | double | The size of the border that is ignored when captured by the rectangular area. It's measured by the fraction of a text item height. |
 
 ### getExpression() {#getExpression--}
 ```

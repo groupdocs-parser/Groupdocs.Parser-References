@@ -3,7 +3,7 @@ title: PageTableAreaCell
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents a table cell which is used in  class.
 type: docs
-weight: 22
+weight: 23
 url: /java/com.groupdocs.parser.data/pagetableareacell/
 ---
 **Inheritance:**

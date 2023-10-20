@@ -3,7 +3,7 @@ title: HighlightItem
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents a highlight a part of the text which is usually used to explain the context of the found text in the search functionality.
 type: docs
-weight: 13
+weight: 14
 url: /java/com.groupdocs.parser.data/highlightitem/
 ---
 **Inheritance:**

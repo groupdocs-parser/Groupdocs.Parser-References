@@ -16,6 +16,7 @@ The package provides classes which represent parsing results.
 | --- | --- |
 | [ContainerItem](../com.groupdocs.parser.data/containeritem) | Represents a container item like Zip archive entity, email attachment, PDF Portfolio item and so on. |
 | [DocumentData](../com.groupdocs.parser.data/documentdata) | Represents data of the document. |
+| [DocumentPageData](../com.groupdocs.parser.data/documentpagedata) | Represents data of the document page. |
 | [FieldData](../com.groupdocs.parser.data/fielddata) | Represents field data such as a name, a page index, a field value and so on. |
 | [HighlightItem](../com.groupdocs.parser.data/highlightitem) | Represents a highlight, a part of the text which is usually used to explain the context of the found text in the search functionality. |
 | [MetadataItem](../com.groupdocs.parser.data/metadataitem) | Represents a metadata item which is used in container items and metadata extraction functionality. |

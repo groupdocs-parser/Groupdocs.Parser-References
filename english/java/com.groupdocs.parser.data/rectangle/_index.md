@@ -3,7 +3,7 @@ title: Rectangle
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents a rectangular area.
 type: docs
-weight: 25
+weight: 26
 url: /java/com.groupdocs.parser.data/rectangle/
 ---
 **Inheritance:**

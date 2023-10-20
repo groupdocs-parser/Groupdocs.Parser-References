@@ -3,7 +3,7 @@ title: MetadataItem
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents a metadata item which is used in container items and metadata extraction functionality.
 type: docs
-weight: 14
+weight: 15
 url: /java/com.groupdocs.parser.data/metadataitem/
 ---
 **Inheritance:**

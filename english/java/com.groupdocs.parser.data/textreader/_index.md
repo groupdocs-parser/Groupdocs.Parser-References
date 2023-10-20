@@ -3,7 +3,7 @@ title: TextReader
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents a reader that can read a sequential series of characters.
 type: docs
-weight: 28
+weight: 29
 url: /java/com.groupdocs.parser.data/textreader/
 ---
 **Inheritance:**
