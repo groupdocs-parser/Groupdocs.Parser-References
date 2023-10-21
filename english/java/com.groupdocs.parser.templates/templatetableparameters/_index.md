@@ -3,7 +3,7 @@ title: TemplateTableParameters
 second_title: GroupDocs.Parser for Java API Reference
 description: Provides parameters for the table detection algorithms.
 type: docs
-weight: 21
+weight: 22
 url: /java/com.groupdocs.parser.templates/templatetableparameters/
 ---
 **Inheritance:**
