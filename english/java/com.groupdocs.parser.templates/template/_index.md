@@ -28,12 +28,14 @@ Provides the document template. It consists of [TemplateItem](../../com.groupdoc
 | Constructor | Description |
 | --- | --- |
 | [Template(Iterable<? extends TemplateItem> items)](#Template-java.lang.Iterable---extends-com.groupdocs.parser.templates.TemplateItem--) | Initializes a new instance of the [Template](../../com.groupdocs.parser.templates/template) class. |
+| [Template(Iterable<? extends TemplateItem> items, TemplateOptions options)](#Template-java.lang.Iterable---extends-com.groupdocs.parser.templates.TemplateItem--com.groupdocs.parser.templates.TemplateOptions-) | Initializes a new instance of the [Template](../../com.groupdocs.parser.templates/template) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getCount()](#getCount--) | Gets the total number of template items. |
 | [get(int index)](#get-int-) | Gets the template item by an index. |
+| [getOptions()](#getOptions--) | Gets the template options. |
 | [iterator()](#iterator--) |  |
 ### Template(Iterable<? extends TemplateItem> items) {#Template-java.lang.Iterable---extends-com.groupdocs.parser.templates.TemplateItem--}
 ```
@@ -69,6 +71,20 @@ Usage:
 | --- | --- | --- |
 | items | java.lang.Iterable<? extends com.groupdocs.parser.templates.TemplateItem> | The collection of [TemplateItem](../../com.groupdocs.parser.templates/templateitem) objects. |
 
+### Template(Iterable<? extends TemplateItem> items, TemplateOptions options) {#Template-java.lang.Iterable---extends-com.groupdocs.parser.templates.TemplateItem--com.groupdocs.parser.templates.TemplateOptions-}
+```
+public Template(Iterable<? extends TemplateItem> items, TemplateOptions options)
+```
+
+
+Initializes a new instance of the [Template](../../com.groupdocs.parser.templates/template) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| items | java.lang.Iterable<? extends com.groupdocs.parser.templates.TemplateItem> | The collection of [TemplateItem](../../com.groupdocs.parser.templates/templateitem) objects. |
+| options | [TemplateOptions](../../com.groupdocs.parser.templates/templateoptions) | The template options. |
+
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -94,6 +110,16 @@ Gets the template item by an index.
 
 **Returns:**
 [TemplateItem](../../com.groupdocs.parser.templates/templateitem) - An instance of [TemplateItem](../../com.groupdocs.parser.templates/templateitem) class.
+### getOptions() {#getOptions--}
+```
+public TemplateOptions getOptions()
+```
+
+
+Gets the template options.
+
+**Returns:**
+[TemplateOptions](../../com.groupdocs.parser.templates/templateoptions) - An instance of [TemplateOptions](../../com.groupdocs.parser.templates/templateoptions) class.
 ### iterator() {#iterator--}
 ```
 public Iterator<TemplateItem> iterator()

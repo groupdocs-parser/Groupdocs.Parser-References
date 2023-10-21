@@ -18,7 +18,8 @@ Provides the template barcode field.
 | Constructor | Description |
 | --- | --- |
 | [TemplateBarcode(Rectangle rectangle, String name)](#TemplateBarcode-com.groupdocs.parser.data.Rectangle-java.lang.String-) | Initializes a new instance of the [TemplateBarcode](../../com.groupdocs.parser.templates/templatebarcode) class. |
-| [TemplateBarcode(Rectangle rectangle, String name, Integer pageIndex)](#TemplateBarcode-com.groupdocs.parser.data.Rectangle-java.lang.String-java.lang.Integer-) | Initializes a new instance of the [TemplateBarcode](../../com.groupdocs.parser.templates/templatebarcode) class. |
+| [TemplateBarcode(Rectangle rectangle, String name, Integer pageIndex)](#TemplateBarcode-com.groupdocs.parser.data.Rectangle-java.lang.String-java.lang.Integer-) | Initializes a new instance of the [TemplateBarcode](../../com.groupdocs.parser.templates/templatebarcode) clas with the UPPER CASE name. |
+| [TemplateBarcode(Rectangle rectangle, String name, Integer pageIndex, boolean useUpperCaseName)](#TemplateBarcode-com.groupdocs.parser.data.Rectangle-java.lang.String-java.lang.Integer-boolean-) | Initializes a new instance of the [TemplateBarcode](../../com.groupdocs.parser.templates/templatebarcode) class. |
 ## Methods
 
 | Method | Description |
@@ -44,6 +45,21 @@ public TemplateBarcode(Rectangle rectangle, String name, Integer pageIndex)
 ```
 
 
+Initializes a new instance of the [TemplateBarcode](../../com.groupdocs.parser.templates/templatebarcode) clas with the UPPER CASE name.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rectangle | [Rectangle](../../com.groupdocs.parser.data/rectangle) | The rectangular area that contains the template barcode field. |
+| name | java.lang.String | The barcode field name. |
+| pageIndex | java.lang.Integer | An integer value that represents the index of the page where the template item is located;  null  if the template item is located on any page. |
+
+### TemplateBarcode(Rectangle rectangle, String name, Integer pageIndex, boolean useUpperCaseName) {#TemplateBarcode-com.groupdocs.parser.data.Rectangle-java.lang.String-java.lang.Integer-boolean-}
+```
+public TemplateBarcode(Rectangle rectangle, String name, Integer pageIndex, boolean useUpperCaseName)
+```
+
+
 Initializes a new instance of the [TemplateBarcode](../../com.groupdocs.parser.templates/templatebarcode) class.
 
 **Parameters:**
@@ -52,6 +68,7 @@ Initializes a new instance of the [TemplateBarcode](../../com.groupdocs.parser.t
 | rectangle | [Rectangle](../../com.groupdocs.parser.data/rectangle) | The rectangular area that contains the template barcode field. |
 | name | java.lang.String | The barcode field name. |
 | pageIndex | java.lang.Integer | An integer value that represents the index of the page where the template item is located;  null  if the template item is located on any page. |
+| useUpperCaseName | boolean | The value that indicates whether a  name  is converted to UPPER CASE. |
 
 ### getRectangle() {#getRectangle--}
 ```
