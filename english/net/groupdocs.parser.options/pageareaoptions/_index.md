@@ -18,13 +18,15 @@ public class PageAreaOptions
 
 | Name | Description |
 | --- | --- |
-| [PageAreaOptions](pageareaoptions)(Rectangle) | Initializes a new instance of the [`PageAreaOptions`](../pageareaoptions) class. |
+| [PageAreaOptions](pageareaoptions#constructor)(Rectangle) | Initializes a new instance of the [`PageAreaOptions`](../pageareaoptions) class. |
+| [PageAreaOptions](pageareaoptions#constructor_1)(Rectangle, double) | Initializes a new instance of the [`PageAreaOptions`](../pageareaoptions) class with the size of the ignored border. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
 | [Rectangle](../../groupdocs.parser.options/pageareaoptions/rectangle) { get; } | Gets the rectangular area that contains page areas. |
+| [RectangleTolerance](../../groupdocs.parser.options/pageareaoptions/rectangletolerance) { get; } | Gets the size of the border that is ignored when captured by the rectangular area. It's measured by the fraction of a text item height. |
 
 ### Remarks
 

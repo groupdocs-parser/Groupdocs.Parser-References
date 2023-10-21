@@ -88,7 +88,7 @@ The following properties have default values:
 
 ---
 
-## PageTextAreaOptions(string, Rectangle) {#constructor_4}
+## PageTextAreaOptions(string, Rectangle) {#constructor_5}
 
 Initializes a new instance of the [`PageTextAreaOptions`](../../pagetextareaoptions) class with the regular expression and rectangular area. Other options are set by default (see remarks for details).
 
@@ -126,6 +126,29 @@ The following properties have default values:
 
 ---
 
+## PageTextAreaOptions(string, Rectangle, double) {#constructor_6}
+
+Initializes a new instance of the [`PageTextAreaOptions`](../../pagetextareaoptions) class with the regular expression, rectangular area and the size of the ignored border. Other options are set by default (see remarks for details).
+
+```csharp
+public PageTextAreaOptions(string expression, Rectangle rectangle, double rectangleTolerance)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| expression | String | The regular expression. |
+| rectangle | Rectangle | The rectangular area that contains page areas. |
+| rectangleTolerance | Double | The size of the border that is ignored when captured by the rectangular area. It's measured by the fraction of a text item height. |
+
+### See Also
+
+* class [Rectangle](../../../groupdocs.parser.data/rectangle)
+* class [PageTextAreaOptions](../../pagetextareaoptions)
+* namespace [GroupDocs.Parser.Options](../../pagetextareaoptions)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
 ## PageTextAreaOptions(string, bool, bool, bool, Rectangle) {#constructor_3}
 
 Initializes a new instance of the [`PageTextAreaOptions`](../../pagetextareaoptions) class.
@@ -142,6 +165,33 @@ public PageTextAreaOptions(string expression, bool matchCase, bool uniteSegments
 | uniteSegments | Boolean | The value that indicates whether segments are united. |
 | ignoreFormatting | Boolean | The value that indicates whether text formatting is ignored. |
 | rectangle | Rectangle | The rectangular area that contains page areas. |
+
+### See Also
+
+* class [Rectangle](../../../groupdocs.parser.data/rectangle)
+* class [PageTextAreaOptions](../../pagetextareaoptions)
+* namespace [GroupDocs.Parser.Options](../../pagetextareaoptions)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## PageTextAreaOptions(string, bool, bool, bool, Rectangle, double) {#constructor_4}
+
+Initializes a new instance of the [`PageTextAreaOptions`](../../pagetextareaoptions) class with the size of the ignored border.
+
+```csharp
+public PageTextAreaOptions(string expression, bool matchCase, bool uniteSegments, 
+    bool ignoreFormatting, Rectangle rectangle, double rectangleTolerance)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| expression | String | The regular expression. |
+| matchCase | Boolean | The value that indicates whether a text case isn't ignored. |
+| uniteSegments | Boolean | The value that indicates whether segments are united. |
+| ignoreFormatting | Boolean | The value that indicates whether text formatting is ignored. |
+| rectangle | Rectangle | The rectangular area that contains page areas. |
+| rectangleTolerance | Double | The size of the border that is ignored when captured by the rectangular area. It's measured by the fraction of a text item height. |
 
 ### See Also
 

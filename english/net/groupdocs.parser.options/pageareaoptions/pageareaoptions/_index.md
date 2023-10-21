@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/groupdocs.parser.options/pageareaoptions/pageareaoptions/
 ---
-## PageAreaOptions constructor
+## PageAreaOptions(Rectangle) {#constructor}
 
 Initializes a new instance of the [`PageAreaOptions`](../../pageareaoptions) class.
 
@@ -17,6 +17,28 @@ public PageAreaOptions(Rectangle rectangle)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | rectangle | Rectangle | The rectangular area that contains page areas. |
+
+### See Also
+
+* class [Rectangle](../../../groupdocs.parser.data/rectangle)
+* class [PageAreaOptions](../../pageareaoptions)
+* namespace [GroupDocs.Parser.Options](../../pageareaoptions)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## PageAreaOptions(Rectangle, double) {#constructor_1}
+
+Initializes a new instance of the [`PageAreaOptions`](../../pageareaoptions) class with the size of the ignored border.
+
+```csharp
+public PageAreaOptions(Rectangle rectangle, double rectangleTolerance)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rectangle | Rectangle | The rectangular area that contains page areas. |
+| rectangleTolerance | Double | The size of the border that is ignored when captured by the rectangular area. It's measured by the fraction of a text item height. |
 
 ### See Also
 

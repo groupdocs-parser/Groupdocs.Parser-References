@@ -19,7 +19,8 @@ public sealed class TemplateField : TemplateItem
 | Name | Description |
 | --- | --- |
 | [TemplateField](templatefield#constructor)(TemplatePosition, string) | Initializes a new instance of the [`TemplateField`](../templatefield) class. |
-| [TemplateField](templatefield#constructor_1)(TemplatePosition, string, int?) | Initializes a new instance of the [`TemplateField`](../templatefield) class. |
+| [TemplateField](templatefield#constructor_1)(TemplatePosition, string, int?) | Initializes a new instance of the [`TemplateField`](../templatefield) class with the UPPER CASE name. |
+| [TemplateField](templatefield#constructor_2)(TemplatePosition, string, int?, bool) | Initializes a new instance of the [`TemplateField`](../templatefield) class. |
 
 ## Properties
 

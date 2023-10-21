@@ -25,6 +25,7 @@ public sealed class PageTableAreaOptions : PageAreaOptions
 | Name | Description |
 | --- | --- |
 | [Rectangle](../../groupdocs.parser.options/pageareaoptions/rectangle) { get; } | Gets the rectangular area that contains page areas. |
+| [RectangleTolerance](../../groupdocs.parser.options/pageareaoptions/rectangletolerance) { get; } | Gets the size of the border that is ignored when captured by the rectangular area. It's measured by the fraction of a text item height. |
 | [TableLayout](../../groupdocs.parser.options/pagetableareaoptions/tablelayout) { get; } | Gets the table layout which defines the table on a page. |
 
 ### Remarks

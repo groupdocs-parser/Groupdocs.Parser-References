@@ -3,7 +3,7 @@ title: TemplateTable
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the template table.
 type: docs
-weight: 750
+weight: 760
 url: /net/groupdocs.parser.templates/templatetable/
 ---
 ## TemplateTable class
@@ -18,8 +18,10 @@ public sealed class TemplateTable : TemplateItem
 
 | Name | Description |
 | --- | --- |
-| [TemplateTable](templatetable#constructor)(TemplateTableLayout, string, int?) | Initializes a new instance of the [`TemplateTable`](../templatetable) class. |
-| [TemplateTable](templatetable#constructor_1)(TemplateTableParameters, string, int?) | Initializes a new instance of the [`TemplateTable`](../templatetable) class. |
+| [TemplateTable](templatetable#constructor)(TemplateTableLayout, string, int?) | Initializes a new instance of the [`TemplateTable`](../templatetable) class with the UPPER CASE name. |
+| [TemplateTable](templatetable#constructor_2)(TemplateTableParameters, string, int?) | Initializes a new instance of the [`TemplateTable`](../templatetable) class. |
+| [TemplateTable](templatetable#constructor_1)(TemplateTableLayout, string, int?, bool) | Initializes a new instance of the [`TemplateTable`](../templatetable) class. |
+| [TemplateTable](templatetable#constructor_3)(TemplateTableParameters, string, int?, bool) | Initializes a new instance of the [`TemplateTable`](../templatetable) class. |
 
 ## Properties
 
