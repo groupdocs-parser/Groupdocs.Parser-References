@@ -3,7 +3,7 @@ title: TemplateTableLayout
 second_title: GroupDocs.Parser for Java API Reference
 description: Provides the template table layout which is used by  class to define table position.
 type: docs
-weight: 20
+weight: 21
 url: /java/com.groupdocs.parser.templates/templatetablelayout/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: TemplateTable
 second_title: GroupDocs.Parser for Java API Reference
 description: Provides the template table.
 type: docs
-weight: 19
+weight: 20
 url: /java/com.groupdocs.parser.templates/templatetable/
 ---
 **Inheritance:**

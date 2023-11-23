@@ -3,7 +3,7 @@ title: TemplatePosition
 second_title: GroupDocs.Parser for Java API Reference
 description: Provides a base abstract class for template positions.
 type: docs
-weight: 17
+weight: 18
 url: /java/com.groupdocs.parser.templates/templateposition/
 ---
 **Inheritance:**

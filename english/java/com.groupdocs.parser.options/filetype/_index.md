@@ -51,6 +51,8 @@ Represents the file type. Provides methods to obtain list of all file types supp
 | [FB2](#FB2) | Files with FB2 extension are FictionBook 2.0 eBook files that contains the structure of the eBook. |
 | [CHM](#CHM) | The CHM file format represents Microsoft HTML help file that consists of a collection of HTML pages. |
 | [EPUB](#EPUB) | Files with .EPUB extension are an e-book file format that provide a standard digital publication format for publishers and consumers. |
+| [AZW3](#AZW3) | AZW3, also known as Kindle Format 8 (KF8), is the modified version of the AZW ebook digital file format developed for Amazon Kindle devices. |
+| [MOBI](#MOBI) | The Mobipocket file format (originally with extension .prc and later .mobi) is a proprietary, partially documented, binary format for ebooks. |
 | [XLS](#XLS) | Files with XLS extension represent Excel Binary File Format. |
 | [XLSX](#XLSX) | XLSX is well-known format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007. |
 | [XLSM](#XLSM) | Files with XLSM extension is a type of Spreasheet files that support Macros. |
@@ -372,6 +374,28 @@ Files with .EPUB extension are an e-book file format that provide a standard dig
 
 
 [here]: https://wiki.fileformat.com/ebook/epub/
+
+### AZW3 {#AZW3}
+```
+public static final FileType AZW3
+```
+
+
+AZW3, also known as Kindle Format 8 (KF8), is the modified version of the AZW ebook digital file format developed for Amazon Kindle devices. Learn more about this file format [here][].
+
+
+[here]: https://wiki.fileformat.com/ebook/azw3/
+
+### MOBI {#MOBI}
+```
+public static final FileType MOBI
+```
+
+
+The Mobipocket file format (originally with extension .prc and later .mobi) is a proprietary, partially documented, binary format for ebooks. Learn more about this file format [here][].
+
+
+[here]: https://wiki.fileformat.com/ebook/mobi/
 
 ### XLS {#XLS}
 ```
