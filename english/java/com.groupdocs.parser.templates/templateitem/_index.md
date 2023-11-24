@@ -21,6 +21,7 @@ The inheritors of [TemplateItem](../../com.groupdocs.parser.templates/templateit
 | --- | --- |
 | [getName()](#getName--) | Gets the name of the template item. |
 | [getPageIndex()](#getPageIndex--) | Gets the page index of the template item. |
+| [getUseUpperCaseName()](#getUseUpperCaseName--) | Gets a value that indicates whether a  Name  was converted to UPPER CASE. |
 ### getName() {#getName--}
 ```
 public String getName()
@@ -41,3 +42,13 @@ Gets the page index of the template item.
 
 **Returns:**
 java.lang.Integer - An integer value that represents the index of the page where the template item is located;  null  if the template item is located on any page.
+### getUseUpperCaseName() {#getUseUpperCaseName--}
+```
+public boolean getUseUpperCaseName()
+```
+
+
+Gets a value that indicates whether a  Name  was converted to UPPER CASE.
+
+**Returns:**
+boolean - A boolean value that indicates whether a  Name  was converted to UPPER CASE.

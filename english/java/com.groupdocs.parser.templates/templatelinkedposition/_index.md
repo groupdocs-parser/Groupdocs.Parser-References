@@ -31,7 +31,8 @@ The following example shows the code for the situation if it's known that the fi
 | Constructor | Description |
 | --- | --- |
 | [TemplateLinkedPosition(String linkedFieldName, Size searchArea, TemplateLinkedPositionEdges edges)](#TemplateLinkedPosition-java.lang.String-com.groupdocs.parser.data.Size-com.groupdocs.parser.templates.TemplateLinkedPositionEdges-) | Initializes a new instance of the [TemplateLinkedPosition](../../com.groupdocs.parser.templates/templatelinkedposition) class. |
-| [TemplateLinkedPosition(String linkedFieldName, Size searchArea, TemplateLinkedPositionEdges edges, boolean autoScale)](#TemplateLinkedPosition-java.lang.String-com.groupdocs.parser.data.Size-com.groupdocs.parser.templates.TemplateLinkedPositionEdges-boolean-) | Initializes a new instance of the [TemplateLinkedPosition](../../com.groupdocs.parser.templates/templatelinkedposition) class. |
+| [TemplateLinkedPosition(String linkedFieldName, Size searchArea, TemplateLinkedPositionEdges edges, boolean autoScale)](#TemplateLinkedPosition-java.lang.String-com.groupdocs.parser.data.Size-com.groupdocs.parser.templates.TemplateLinkedPositionEdges-boolean-) | Initializes a new instance of the [TemplateLinkedPosition](../../com.groupdocs.parser.templates/templatelinkedposition) class with UPPER CASE name. |
+| [TemplateLinkedPosition(String linkedFieldName, Size searchArea, TemplateLinkedPositionEdges edges, boolean autoScale, boolean useUpperCaseName)](#TemplateLinkedPosition-java.lang.String-com.groupdocs.parser.data.Size-com.groupdocs.parser.templates.TemplateLinkedPositionEdges-boolean-boolean-) | Initializes a new instance of the [TemplateLinkedPosition](../../com.groupdocs.parser.templates/templatelinkedposition) class. |
 ## Methods
 
 | Method | Description |
@@ -61,7 +62,7 @@ public TemplateLinkedPosition(String linkedFieldName, Size searchArea, TemplateL
 ```
 
 
-Initializes a new instance of the [TemplateLinkedPosition](../../com.groupdocs.parser.templates/templatelinkedposition) class.
+Initializes a new instance of the [TemplateLinkedPosition](../../com.groupdocs.parser.templates/templatelinkedposition) class with UPPER CASE name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -70,6 +71,23 @@ Initializes a new instance of the [TemplateLinkedPosition](../../com.groupdocs.p
 | searchArea | [Size](../../com.groupdocs.parser.data/size) | The size of the area where a field is searched. |
 | edges | [TemplateLinkedPositionEdges](../../com.groupdocs.parser.templates/templatelinkedpositionedges) | The edges of the linked field where a field is searched. |
 | autoScale | boolean | The value that indicates whether searchArea is scaled by the linked field size. |
+
+### TemplateLinkedPosition(String linkedFieldName, Size searchArea, TemplateLinkedPositionEdges edges, boolean autoScale, boolean useUpperCaseName) {#TemplateLinkedPosition-java.lang.String-com.groupdocs.parser.data.Size-com.groupdocs.parser.templates.TemplateLinkedPositionEdges-boolean-boolean-}
+```
+public TemplateLinkedPosition(String linkedFieldName, Size searchArea, TemplateLinkedPositionEdges edges, boolean autoScale, boolean useUpperCaseName)
+```
+
+
+Initializes a new instance of the [TemplateLinkedPosition](../../com.groupdocs.parser.templates/templatelinkedposition) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| linkedFieldName | java.lang.String | The name of the linked field. |
+| searchArea | [Size](../../com.groupdocs.parser.data/size) | The size of the area where a field is searched. |
+| edges | [TemplateLinkedPositionEdges](../../com.groupdocs.parser.templates/templatelinkedpositionedges) | The edges of the linked field where a field is searched. |
+| autoScale | boolean | The value that indicates whether searchArea is scaled by the linked field size.\\ |
+| useUpperCaseName | boolean | The value that indicates whether a  name  is converted to UPPER CASE. |
 
 ### getLinkedFieldName() {#getLinkedFieldName--}
 ```
