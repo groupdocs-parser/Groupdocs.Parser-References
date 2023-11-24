@@ -66,12 +66,13 @@ public TemplateLinkedPosition(string linkedFieldName, Size searchArea,
     TemplateLinkedPositionEdges edges, bool autoScale, bool useUpperCase)
 ```
 
-| Parameter | Description |
-| --- | --- |
-| linkedFieldName | The name of the linked field. |
-| searchArea | The size of the area where a field is searched. |
-| edges | The edges of the linked field where a field is searched. |
-| autoScale | The value that indicates whether *searchArea* is scaled by the linked field size. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| linkedFieldName | String | The name of the linked field. |
+| searchArea | Size | The size of the area where a field is searched. |
+| edges | TemplateLinkedPositionEdges | The edges of the linked field where a field is searched. |
+| autoScale | Boolean | The value that indicates whether *searchArea* is scaled by the linked field size. |
+| useUpperCaseName | Boolean | The value that indicates whether a `name` is converted to UPPER CASE. |
 
 ### See Also
 

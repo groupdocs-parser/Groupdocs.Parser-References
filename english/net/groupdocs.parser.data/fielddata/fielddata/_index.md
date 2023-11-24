@@ -83,10 +83,11 @@ Initializes a new instance of the [`FieldData`](../../fielddata) class.
 public FieldData(string name, PageArea pageArea, bool useUpperCaseName)
 ```
 
-| Parameter | Description |
-| --- | --- |
-| name | The name of the field. |
-| pageArea | The value of the field. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | The name of the field. |
+| pageArea | PageArea | The value of the field. |
+| useUpperCaseName | Boolean | The value that indicates whether a `name` is converted to UPPER CASE. |
 
 ### See Also
 
