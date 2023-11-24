@@ -3,7 +3,7 @@ title: CHM
 second_title: GroupDocs.Parser for .NET API Reference
 description: The CHM file format represents Microsoft HTML help file that consists of a collection of HTML pages. Learn more about this file format herehttps//wiki.fileformat.com/web/chm/.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.parser.options/filetype/chm/
 ---
 ## FileType.CHM field

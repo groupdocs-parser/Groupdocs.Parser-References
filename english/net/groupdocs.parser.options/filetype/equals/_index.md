@@ -3,7 +3,7 @@ title: Equals
 second_title: GroupDocs.Parser for .NET API Reference
 description: Determines whether the current FileTypegroupdocs.parser.options/filetype is the same as specified FileTypegroupdocs.parser.options/filetype object.
 type: docs
-weight: 940
+weight: 960
 url: /net/groupdocs.parser.options/filetype/equals/
 ---
 ## Equals(FileType) {#equals}

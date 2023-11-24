@@ -3,7 +3,7 @@ title: FileFormat
 second_title: GroupDocs.Parser for .NET API Reference
 description: File type name e.g. Microsoft Word Document.
 type: docs
-weight: 920
+weight: 940
 url: /net/groupdocs.parser.options/filetype/fileformat/
 ---
 ## FileType.FileFormat property

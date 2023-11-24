@@ -3,7 +3,7 @@ title: TEXT
 second_title: GroupDocs.Parser for .NET API Reference
 description: A file with .TEXT extension represents a text document that contains plain text in the form of lines. Learn more about this file format herehttps//wiki.fileformat.com/wordprocessing/txt/.
 type: docs
-weight: 700
+weight: 720
 url: /net/groupdocs.parser.options/filetype/text/
 ---
 ## FileType.TEXT field

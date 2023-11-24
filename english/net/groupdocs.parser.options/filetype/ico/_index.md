@@ -3,7 +3,7 @@ title: ICO
 second_title: GroupDocs.Parser for .NET API Reference
 description: Files with ICO extension are image file types used as icon for representation of an application on Microsoft Windows. Learn more about this file format herehttps//wiki.fileformat.com/image/ico/.
 type: docs
-weight: 250
+weight: 260
 url: /net/groupdocs.parser.options/filetype/ico/
 ---
 ## FileType.ICO field

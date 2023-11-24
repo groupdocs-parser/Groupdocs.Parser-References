@@ -3,7 +3,7 @@ title: PSD
 second_title: GroupDocs.Parser for .NET API Reference
 description: PSD Photoshop Document represents Adobe Photoshops native file format used for graphics designing and development. Learn more about this file format herehttps//wiki.fileformat.com/image/psd/.
 type: docs
-weight: 630
+weight: 650
 url: /net/groupdocs.parser.options/filetype/psd/
 ---
 ## FileType.PSD field

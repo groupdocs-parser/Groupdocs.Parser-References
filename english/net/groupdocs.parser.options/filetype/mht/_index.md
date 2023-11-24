@@ -3,7 +3,7 @@ title: MHT
 second_title: GroupDocs.Parser for .NET API Reference
 description: Files with MHT extension represent a web page archive format that can be created by a number of different applications. Learn more about this file format herehttps//wiki.fileformat.com/web/mhtml/.
 type: docs
-weight: 360
+weight: 370
 url: /net/groupdocs.parser.options/filetype/mht/
 ---
 ## FileType.MHT field

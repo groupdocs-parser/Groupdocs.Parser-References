@@ -3,7 +3,7 @@ title: DIB
 second_title: GroupDocs.Parser for .NET API Reference
 description: A DIB Device Independent Bitmap file is a raster image file that is similar in structure to the standard Bitmap files BMP but has a different header. Learn more about this file format herehttps//wiki.fileformat.com/image/dib/.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.parser.options/filetype/dib/
 ---
 ## FileType.DIB field

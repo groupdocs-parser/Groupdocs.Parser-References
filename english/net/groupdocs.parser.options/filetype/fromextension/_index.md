@@ -3,7 +3,7 @@ title: FromExtension
 second_title: GroupDocs.Parser for .NET API Reference
 description: Maps file extension to file type.
 type: docs
-weight: 900
+weight: 920
 url: /net/groupdocs.parser.options/filetype/fromextension/
 ---
 ## FileType.FromExtension method

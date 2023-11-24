@@ -3,7 +3,7 @@ title: GZ
 second_title: GroupDocs.Parser for .NET API Reference
 description: Files with .gz extension are compressed files created with gzip compression application. Learn more about this file format herehttps//wiki.fileformat.com/compression/gz/.
 type: docs
-weight: 220
+weight: 230
 url: /net/groupdocs.parser.options/filetype/gz/
 ---
 ## FileType.GZ field

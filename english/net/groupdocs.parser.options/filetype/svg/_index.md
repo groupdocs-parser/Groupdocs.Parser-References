@@ -3,7 +3,7 @@ title: SVG
 second_title: GroupDocs.Parser for .NET API Reference
 description: An SVG file is a Scalar Vector Graphics file that uses XML based text format for describing the appearance of an image. Learn more about this file format herehttps//wiki.fileformat.com/pagedescriptionlanguage/svg/.
 type: docs
-weight: 680
+weight: 700
 url: /net/groupdocs.parser.options/filetype/svg/
 ---
 ## FileType.SVG field

@@ -3,7 +3,7 @@ title: CGM
 second_title: GroupDocs.Parser for .NET API Reference
 description: Computer Graphics Metafile CGM is free platformindependent international standard metafile format for storing and exchanging of vector graphics 2D raster graphics and text. Learn more about this file format herehttps//wiki.fileformat.com/pagedescriptionlanguage/cgm/.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.parser.options/filetype/cgm/
 ---
 ## FileType.CGM field

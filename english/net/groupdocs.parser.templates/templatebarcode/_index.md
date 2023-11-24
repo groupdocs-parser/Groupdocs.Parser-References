@@ -29,6 +29,7 @@ public sealed class TemplateBarcode : TemplateItem
 | [Name](../../groupdocs.parser.templates/templateitem/name) { get; } | Gets the name of the template item. |
 | [PageIndex](../../groupdocs.parser.templates/templateitem/pageindex) { get; } | Gets the page index of the template item. |
 | [Rectangle](../../groupdocs.parser.templates/templatebarcode/rectangle) { get; } | Gets the rectangular area that contains the template barcode field. |
+| [UseUpperCaseName](../../groupdocs.parser.templates/templateitem/useuppercasename) { get; } | Gets a boolean value that indicates whether a `Name` was converted to UPPER CASE. |
 
 ### See Also
 

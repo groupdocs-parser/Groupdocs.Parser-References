@@ -3,7 +3,7 @@ title: JP2
 second_title: GroupDocs.Parser for .NET API Reference
 description: JPEG 2000 JP2 is an image coding system and stateoftheart image compression standard. Learn more about this file format herehttps//wiki.fileformat.com/image/jp2/.
 type: docs
-weight: 280
+weight: 290
 url: /net/groupdocs.parser.options/filetype/jp2/
 ---
 ## FileType.JP2 field

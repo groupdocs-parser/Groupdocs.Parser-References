@@ -3,7 +3,7 @@ title: NUMBERS
 second_title: GroupDocs.Parser for .NET API Reference
 description: Files that contain the .numbers file extension are files that are created by the Apple iWork Numbers spreadsheet application.
 type: docs
-weight: 390
+weight: 410
 url: /net/groupdocs.parser.options/filetype/numbers/
 ---
 ## FileType.NUMBERS field

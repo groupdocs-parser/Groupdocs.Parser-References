@@ -3,7 +3,7 @@ title: BMP
 second_title: GroupDocs.Parser for .NET API Reference
 description: Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap DIB file format. Learn more about this file format herehttps//wiki.fileformat.com/image/bmp/.
 type: docs
-weight: 10
+weight: 20
 url: /net/groupdocs.parser.options/filetype/bmp/
 ---
 ## FileType.BMP field

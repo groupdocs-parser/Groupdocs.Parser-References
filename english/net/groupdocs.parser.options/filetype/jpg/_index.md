@@ -3,7 +3,7 @@ title: JPG
 second_title: GroupDocs.Parser for .NET API Reference
 description: A JPG is a type of image format that is saved using the method of lossy compression. Learn more about this file format herehttps//wiki.fileformat.com/image/jpeg/.
 type: docs
-weight: 320
+weight: 330
 url: /net/groupdocs.parser.options/filetype/jpg/
 ---
 ## FileType.JPG field

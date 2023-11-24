@@ -3,7 +3,7 @@ title: OTP
 second_title: GroupDocs.Parser for .NET API Reference
 description: Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. Learn more about this file format herehttps//wiki.fileformat.com/presentation/otp/.
 type: docs
-weight: 460
+weight: 480
 url: /net/groupdocs.parser.options/filetype/otp/
 ---
 ## FileType.OTP field

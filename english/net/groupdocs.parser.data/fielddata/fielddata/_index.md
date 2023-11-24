@@ -1,14 +1,14 @@
 ---
 title: FieldData
 second_title: GroupDocs.Parser for .NET API Reference
-description: Initializes a new instance of the FieldDatagroupdocs.parser.data/fielddata class.
+description: Initializes a new instance of the FieldDatagroupdocs.parser.data/fielddata class with UPPER CASE name.
 type: docs
 weight: 10
 url: /net/groupdocs.parser.data/fielddata/fielddata/
 ---
-## FieldData(string, PageArea, FieldData) {#constructor_1}
+## FieldData(string, PageArea, FieldData) {#constructor_2}
 
-Initializes a new instance of the [`FieldData`](../../fielddata) class.
+Initializes a new instance of the [`FieldData`](../../fielddata) class with UPPER CASE name.
 
 ```csharp
 public FieldData(string name, PageArea pageArea, FieldData linkedDataField)
@@ -29,9 +29,33 @@ public FieldData(string name, PageArea pageArea, FieldData linkedDataField)
 
 ---
 
-## FieldData(string, PageArea) {#constructor}
+## FieldData(string, PageArea, FieldData, bool) {#constructor_3}
 
 Initializes a new instance of the [`FieldData`](../../fielddata) class.
+
+```csharp
+public FieldData(string name, PageArea pageArea, FieldData linkedDataField, bool useUpperCaseName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | The name of the field. |
+| pageArea | PageArea | The value of the field. |
+| linkedDataField | FieldData | The field which is linked to the field. |
+| useUpperCaseName | Boolean | The value that indicates whether a `name` is converted to UPPER CASE. |
+
+### See Also
+
+* class [PageArea](../../pagearea)
+* class [FieldData](../../fielddata)
+* namespace [GroupDocs.Parser.Data](../../fielddata)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## FieldData(string, PageArea) {#constructor}
+
+Initializes a new instance of the [`FieldData`](../../fielddata) class with UPPER CASE name.
 
 ```csharp
 public FieldData(string name, PageArea pageArea)
@@ -41,6 +65,28 @@ public FieldData(string name, PageArea pageArea)
 | --- | --- | --- |
 | name | String | The name of the field. |
 | pageArea | PageArea | The value of the field. |
+
+### See Also
+
+* class [PageArea](../../pagearea)
+* class [FieldData](../../fielddata)
+* namespace [GroupDocs.Parser.Data](../../fielddata)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## FieldData(string, PageArea, bool) {#constructor_1}
+
+Initializes a new instance of the [`FieldData`](../../fielddata) class.
+
+```csharp
+public FieldData(string name, PageArea pageArea, bool useUpperCaseName)
+```
+
+| Parameter | Description |
+| --- | --- |
+| name | The name of the field. |
+| pageArea | The value of the field. |
 
 ### See Also
 

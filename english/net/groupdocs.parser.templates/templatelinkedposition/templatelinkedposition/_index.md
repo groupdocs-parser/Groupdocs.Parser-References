@@ -33,7 +33,7 @@ public TemplateLinkedPosition(string linkedFieldName, Size searchArea,
 
 ## TemplateLinkedPosition(string, Size, TemplateLinkedPositionEdges, bool) {#constructor_1}
 
-Initializes a new instance of the [`TemplateLinkedPosition`](../../templatelinkedposition) class.
+Initializes a new instance of the [`TemplateLinkedPosition`](../../templatelinkedposition) class with UPPER CASE linked field name.
 
 ```csharp
 public TemplateLinkedPosition(string linkedFieldName, Size searchArea, 
@@ -46,6 +46,32 @@ public TemplateLinkedPosition(string linkedFieldName, Size searchArea,
 | searchArea | Size | The size of the area where a field is searched. |
 | edges | TemplateLinkedPositionEdges | The edges of the linked field where a field is searched. |
 | autoScale | Boolean | The value that indicates whether *searchArea* is scaled by the linked field size. |
+
+### See Also
+
+* class [Size](../../../groupdocs.parser.data/size)
+* class [TemplateLinkedPositionEdges](../../templatelinkedpositionedges)
+* class [TemplateLinkedPosition](../../templatelinkedposition)
+* namespace [GroupDocs.Parser.Templates](../../templatelinkedposition)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## TemplateLinkedPosition(string, Size, TemplateLinkedPositionEdges, bool, bool) {#constructor_2}
+
+Initializes a new instance of the [`TemplateLinkedPosition`](../../templatelinkedposition) class.
+
+```csharp
+public TemplateLinkedPosition(string linkedFieldName, Size searchArea, 
+    TemplateLinkedPositionEdges edges, bool autoScale, bool useUpperCase)
+```
+
+| Parameter | Description |
+| --- | --- |
+| linkedFieldName | The name of the linked field. |
+| searchArea | The size of the area where a field is searched. |
+| edges | The edges of the linked field where a field is searched. |
+| autoScale | The value that indicates whether *searchArea* is scaled by the linked field size. |
 
 ### See Also
 

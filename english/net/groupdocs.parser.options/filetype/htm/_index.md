@@ -3,7 +3,7 @@ title: HTM
 second_title: GroupDocs.Parser for .NET API Reference
 description: Files with HTM extension represent Hypertext Markup Language for creating web pages for display in web browsers such as Google Chrome Internet Explorer Firefox and a number of others. Learn more about this file format herehttps//wiki.fileformat.com/web/htm/.
 type: docs
-weight: 230
+weight: 240
 url: /net/groupdocs.parser.options/filetype/htm/
 ---
 ## FileType.HTM field

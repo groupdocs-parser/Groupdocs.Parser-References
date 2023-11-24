@@ -3,7 +3,7 @@ title: HTML
 second_title: GroupDocs.Parser for .NET API Reference
 description: HTML Hyper Text Markup Language is the extension for web pages created for display in browsers. Learn more about this file format herehttps//wiki.fileformat.com/web/html/.
 type: docs
-weight: 240
+weight: 250
 url: /net/groupdocs.parser.options/filetype/html/
 ---
 ## FileType.HTML field

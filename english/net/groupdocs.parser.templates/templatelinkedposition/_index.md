@@ -19,7 +19,8 @@ public sealed class TemplateLinkedPosition : TemplatePosition
 | Name | Description |
 | --- | --- |
 | [TemplateLinkedPosition](templatelinkedposition#constructor)(string, Size, TemplateLinkedPositionEdges) | Initializes a new instance of the [`TemplateLinkedPosition`](../templatelinkedposition) class. |
-| [TemplateLinkedPosition](templatelinkedposition#constructor_1)(string, Size, TemplateLinkedPositionEdges, bool) | Initializes a new instance of the [`TemplateLinkedPosition`](../templatelinkedposition) class. |
+| [TemplateLinkedPosition](templatelinkedposition#constructor_1)(string, Size, TemplateLinkedPositionEdges, bool) | Initializes a new instance of the [`TemplateLinkedPosition`](../templatelinkedposition) class with UPPER CASE linked field name. |
+| [TemplateLinkedPosition](templatelinkedposition#constructor_2)(string, Size, TemplateLinkedPositionEdges, bool, bool) | Initializes a new instance of the [`TemplateLinkedPosition`](../templatelinkedposition) class. |
 
 ## Properties
 

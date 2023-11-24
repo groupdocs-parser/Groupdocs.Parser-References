@@ -3,7 +3,7 @@ title: PS
 second_title: GroupDocs.Parser for .NET API Reference
 description: PostScript PS is a generalpurpose page description language used in the business of desktop and electronic publishing. Learn more about this file format herehttps//wiki.fileformat.com/pagedescriptionlanguage/ps/.
 type: docs
-weight: 620
+weight: 640
 url: /net/groupdocs.parser.options/filetype/ps/
 ---
 ## FileType.PS field

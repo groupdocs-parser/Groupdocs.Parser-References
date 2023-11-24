@@ -3,7 +3,7 @@ title: PICT
 second_title: GroupDocs.Parser for .NET API Reference
 description: The PICT file format is a metaformat that can be used for both bitmap images and vector images.
 type: docs
-weight: 510
+weight: 530
 url: /net/groupdocs.parser.options/filetype/pict/
 ---
 ## FileType.PICT field
