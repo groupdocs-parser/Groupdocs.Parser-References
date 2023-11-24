@@ -3,7 +3,7 @@ title: XHTML
 second_title: GroupDocs.Parser for .NET API Reference
 description: The XHTML is a text based file format with markup in the XML using a reformulation of HTML 4.0. Learn more about this file format herehttps//wiki.fileformat.com/web/xhtml/.
 type: docs
-weight: 780
+weight: 800
 url: /net/groupdocs.parser.options/filetype/xhtml/
 ---
 ## FileType.XHTML field

@@ -3,7 +3,7 @@ title: DOCX
 second_title: GroupDocs.Parser for .NET API Reference
 description: DOCX is a wellknown format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007 the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Learn more about this file format herehttps//wiki.fileformat.com/wordprocessing/docx/.
 type: docs
-weight: 110
+weight: 120
 url: /net/groupdocs.parser.options/filetype/docx/
 ---
 ## FileType.DOCX field

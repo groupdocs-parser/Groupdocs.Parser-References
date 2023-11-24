@@ -3,7 +3,7 @@ title: PPSX
 second_title: GroupDocs.Parser for .NET API Reference
 description: PPSX Power Point Slide Show file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. Learn more about this file format herehttps//wiki.fileformat.com/presentation/ppsx/.
 type: docs
-weight: 580
+weight: 600
 url: /net/groupdocs.parser.options/filetype/ppsx/
 ---
 ## FileType.PPSX field

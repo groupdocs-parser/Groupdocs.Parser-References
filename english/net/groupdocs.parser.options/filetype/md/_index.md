@@ -3,7 +3,7 @@ title: MD
 second_title: GroupDocs.Parser for .NET API Reference
 description: Text files created with Markdown language dialects is saved with .MD or .MARKDOWN file extension. Learn more about this file format herehttps//wiki.fileformat.com/wordprocessing/md/.
 type: docs
-weight: 350
+weight: 360
 url: /net/groupdocs.parser.options/filetype/md/
 ---
 ## FileType.MD field

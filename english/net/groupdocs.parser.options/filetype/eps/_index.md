@@ -3,7 +3,7 @@ title: EPS
 second_title: GroupDocs.Parser for .NET API Reference
 description: Files with EPS extension essentially describe an Encapsulated PostScript language program that describes the appearance of a single page. Learn more about this file format herehttps//wiki.fileformat.com/pagedescriptionlanguage/eps/.
 type: docs
-weight: 180
+weight: 190
 url: /net/groupdocs.parser.options/filetype/eps/
 ---
 ## FileType.EPS field

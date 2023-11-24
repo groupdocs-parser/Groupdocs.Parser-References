@@ -3,7 +3,7 @@ title: J2C
 second_title: GroupDocs.Parser for .NET API Reference
 description: JPEG 2000 J2C is an image coding system and stateoftheart image compression standard. Designed using wavelet technology JPEG 2000 can code lossless content in any quality at once. Learn more about this file format herehttps//wiki.fileformat.com/image/jp2/.
 type: docs
-weight: 260
+weight: 270
 url: /net/groupdocs.parser.options/filetype/j2c/
 ---
 ## FileType.J2C field

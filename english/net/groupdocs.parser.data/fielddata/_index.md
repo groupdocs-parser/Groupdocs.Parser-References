@@ -18,8 +18,10 @@ public sealed class FieldData
 
 | Name | Description |
 | --- | --- |
-| [FieldData](fielddata#constructor)(string, PageArea) | Initializes a new instance of the [`FieldData`](../fielddata) class. |
-| [FieldData](fielddata#constructor_1)(string, PageArea, FieldData) | Initializes a new instance of the [`FieldData`](../fielddata) class. |
+| [FieldData](fielddata#constructor)(string, PageArea) | Initializes a new instance of the [`FieldData`](../fielddata) class with UPPER CASE name. |
+| [FieldData](fielddata#constructor_1)(string, PageArea, bool) | Initializes a new instance of the [`FieldData`](../fielddata) class. |
+| [FieldData](fielddata#constructor_2)(string, PageArea, FieldData) | Initializes a new instance of the [`FieldData`](../fielddata) class with UPPER CASE name. |
+| [FieldData](fielddata#constructor_3)(string, PageArea, FieldData, bool) | Initializes a new instance of the [`FieldData`](../fielddata) class. |
 
 ## Properties
 
@@ -30,6 +32,7 @@ public sealed class FieldData
 | [PageArea](../../groupdocs.parser.data/fielddata/pagearea) { get; } | Gets the value of the field. |
 | [PageIndex](../../groupdocs.parser.data/fielddata/pageindex) { get; } | Gets the page index. |
 | [Text](../../groupdocs.parser.data/fielddata/text) { get; } | Gets the text. |
+| [UseUpperCaseName](../../groupdocs.parser.data/fielddata/useuppercasename) { get; } | Gets a boolean value that indicates whether a `Name` was converted to UPPER CASE. |
 
 ### Remarks
 

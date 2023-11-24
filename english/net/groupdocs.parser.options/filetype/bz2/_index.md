@@ -3,7 +3,7 @@ title: BZ2
 second_title: GroupDocs.Parser for .NET API Reference
 description: Compressed file using Bzip2 algorithm.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.parser.options/filetype/bz2/
 ---
 ## FileType.BZ2 field

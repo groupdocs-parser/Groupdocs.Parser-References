@@ -3,7 +3,7 @@ title: OTS
 second_title: GroupDocs.Parser for .NET API Reference
 description: The OTS files contain template files used by the OpenOffice spreadsheet application.
 type: docs
-weight: 470
+weight: 490
 url: /net/groupdocs.parser.options/filetype/ots/
 ---
 ## FileType.OTS field

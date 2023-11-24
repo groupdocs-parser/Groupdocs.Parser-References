@@ -3,7 +3,7 @@ title: ODG
 second_title: GroupDocs.Parser for .NET API Reference
 description: The ODG file format is used by Apache OpenOffices Draw application to store drawing elements as a vector image. Learn more about this file format herehttps//wiki.fileformat.com/image/odg/.
 type: docs
-weight: 400
+weight: 420
 url: /net/groupdocs.parser.options/filetype/odg/
 ---
 ## FileType.ODG field

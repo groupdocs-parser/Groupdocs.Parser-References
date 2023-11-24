@@ -3,7 +3,7 @@ title: POT
 second_title: GroupDocs.Parser for .NET API Reference
 description: Files with .POT extension represent Microsoft PowerPoint template files created by PowerPoint 972003 versions. Learn more about this file format herehttps//wiki.fileformat.com/presentation/pot/.
 type: docs
-weight: 530
+weight: 550
 url: /net/groupdocs.parser.options/filetype/pot/
 ---
 ## FileType.POT field

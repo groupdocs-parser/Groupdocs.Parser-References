@@ -3,7 +3,7 @@ title: XLSX
 second_title: GroupDocs.Parser for .NET API Reference
 description: XLSX is wellknown format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007. Learn more about this file format herehttps//wiki.fileformat.com/specification/spreadsheet/xlsx/.
 type: docs
-weight: 840
+weight: 860
 url: /net/groupdocs.parser.options/filetype/xlsx/
 ---
 ## FileType.XLSX field

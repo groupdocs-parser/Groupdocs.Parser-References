@@ -3,7 +3,7 @@ title: FB2
 second_title: GroupDocs.Parser for .NET API Reference
 description: Files with FB2 extension are FictionBook 2.0 eBook files that contains the structure of the eBook. Learn more about this file format herehttps//wiki.fileformat.com/ebook/fb2/.
 type: docs
-weight: 200
+weight: 210
 url: /net/groupdocs.parser.options/filetype/fb2/
 ---
 ## FileType.FB2 field

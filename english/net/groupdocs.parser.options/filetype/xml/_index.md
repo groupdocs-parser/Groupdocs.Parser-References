@@ -3,7 +3,7 @@ title: XML
 second_title: GroupDocs.Parser for .NET API Reference
 description: XML stands for Extensible Markup Language that is similar to HTML but different in using tags for defining objects. Learn more about this file format herehttps//wiki.fileformat.com/web/xml/.
 type: docs
-weight: 880
+weight: 900
 url: /net/groupdocs.parser.options/filetype/xml/
 ---
 ## FileType.XML field

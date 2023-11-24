@@ -3,7 +3,7 @@ title: ONE
 second_title: GroupDocs.Parser for .NET API Reference
 description: File represented by .ONE extension are created by Microsoft OneNote application. Learn more about this file format herehttps//wiki.fileformat.com/notetaking/one/.
 type: docs
-weight: 440
+weight: 460
 url: /net/groupdocs.parser.options/filetype/one/
 ---
 ## FileType.ONE field

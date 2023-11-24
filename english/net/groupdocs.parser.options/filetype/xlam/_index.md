@@ -3,7 +3,7 @@ title: XLAM
 second_title: GroupDocs.Parser for .NET API Reference
 description: The XMLbased and macroenabled AddIn format for Excel 2010 and Excel 2007. An AddIn is a supplemental program that is designed to run additional code. Supports the use of VBA projects and Excel 4.0 macro sheets .xlm.
 type: docs
-weight: 800
+weight: 820
 url: /net/groupdocs.parser.options/filetype/xlam/
 ---
 ## FileType.XLAM field

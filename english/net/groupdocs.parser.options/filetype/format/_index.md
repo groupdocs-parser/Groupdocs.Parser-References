@@ -3,7 +3,7 @@ title: Format
 second_title: GroupDocs.Parser for .NET API Reference
 description: Format of the file e.g. WordProcessing.
 type: docs
-weight: 930
+weight: 950
 url: /net/groupdocs.parser.options/filetype/format/
 ---
 ## FileType.Format property

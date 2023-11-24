@@ -3,7 +3,7 @@ title: op_Equality
 second_title: GroupDocs.Parser for .NET API Reference
 description: Determines whether two FileTypegroupdocs.parser.options/filetype objects are the same.
 type: docs
-weight: 980
+weight: 1000
 url: /net/groupdocs.parser.options/filetype/op_equality/
 ---
 ## FileType Equality operator

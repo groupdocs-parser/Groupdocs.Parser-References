@@ -31,6 +31,7 @@ public sealed class TemplateTable : TemplateItem
 | [Name](../../groupdocs.parser.templates/templateitem/name) { get; } | Gets the name of the template item. |
 | [PageIndex](../../groupdocs.parser.templates/templateitem/pageindex) { get; } | Gets the page index of the template item. |
 | [Parameters](../../groupdocs.parser.templates/templatetable/parameters) { get; } | Gets the parameters to detect the table in the automatic mode. |
+| [UseUpperCaseName](../../groupdocs.parser.templates/templateitem/useuppercasename) { get; } | Gets a boolean value that indicates whether a `Name` was converted to UPPER CASE. |
 
 ### Remarks
 

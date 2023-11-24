@@ -3,7 +3,7 @@ title: PCL
 second_title: GroupDocs.Parser for .NET API Reference
 description: PCL stands for Printer Command Language which is a Page Description Language introduced by Hewlett Packard HP. Learn more about this file format herehttps//wiki.fileformat.com/pagedescriptionlanguage/pcl/.
 type: docs
-weight: 490
+weight: 510
 url: /net/groupdocs.parser.options/filetype/pcl/
 ---
 ## FileType.PCL field

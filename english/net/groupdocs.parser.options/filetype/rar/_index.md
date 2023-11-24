@@ -3,7 +3,7 @@ title: RAR
 second_title: GroupDocs.Parser for .NET API Reference
 description: Files with .rar extension represent archive files that are created for storing information in compressed or normal form. Learn more about this file format herehttps//wiki.fileformat.com/compression/rar/.
 type: docs
-weight: 650
+weight: 670
 url: /net/groupdocs.parser.options/filetype/rar/
 ---
 ## FileType.RAR field
