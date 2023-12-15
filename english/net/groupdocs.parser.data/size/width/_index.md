@@ -3,7 +3,7 @@ title: Width
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the width.
 type: docs
-weight: 30
+weight: 50
 url: /net/groupdocs.parser.data/size/width/
 ---
 ## Size.Width property

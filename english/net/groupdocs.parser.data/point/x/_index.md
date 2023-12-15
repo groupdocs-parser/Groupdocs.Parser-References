@@ -3,7 +3,7 @@ title: X
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the xcoordinate.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.parser.data/point/x/
 ---
 ## Point.X property

@@ -3,7 +3,7 @@ title: Y
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the ycoordinate.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.parser.data/point/y/
 ---
 ## Point.Y property

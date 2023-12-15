@@ -25,13 +25,16 @@ public sealed class Size
 | Name | Description |
 | --- | --- |
 | [Height](../../groupdocs.parser.data/size/height) { get; } | Gets the height. |
+| [IsEmpty](../../groupdocs.parser.data/size/isempty) { get; } | Gets a value that indicates whether the size is empty. |
 | [Width](../../groupdocs.parser.data/size/width) { get; } | Gets the width. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
+| static [Parse](../../groupdocs.parser.data/size/parse)(string) | Converts the string representation of a size to its class equivalent. |
 | override [ToString](../../groupdocs.parser.data/size/tostring)() | Converts the value of this instance to String. |
+| static [TryParse](../../groupdocs.parser.data/size/tryparse)(string, out Size) | Converts the string representation of a size to its class equivalent. A return value indicates whether the conversion is succeeded or failed. |
 
 ### See Also
 

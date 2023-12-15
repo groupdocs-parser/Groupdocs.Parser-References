@@ -3,7 +3,7 @@ title: Count
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the total number of template items.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.parser.templates/template/count/
 ---
 ## Template.Count property

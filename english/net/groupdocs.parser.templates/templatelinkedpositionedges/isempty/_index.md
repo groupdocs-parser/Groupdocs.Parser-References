@@ -3,7 +3,7 @@ title: IsEmpty
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether the instance is empty.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.parser.templates/templatelinkedpositionedges/isempty/
 ---
 ## TemplateLinkedPositionEdges.IsEmpty property

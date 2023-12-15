@@ -3,7 +3,7 @@ title: Bottom
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether a field is searched by the bottom from the linked field.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.parser.templates/templatelinkedpositionedges/bottom/
 ---
 ## TemplateLinkedPositionEdges.Bottom property
