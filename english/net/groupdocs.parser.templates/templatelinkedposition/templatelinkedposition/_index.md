@@ -63,7 +63,7 @@ Initializes a new instance of the [`TemplateLinkedPosition`](../../templatelinke
 
 ```csharp
 public TemplateLinkedPosition(string linkedFieldName, Size searchArea, 
-    TemplateLinkedPositionEdges edges, bool autoScale, bool useUpperCase)
+    TemplateLinkedPositionEdges edges, bool autoScale, bool useUpperCaseName)
 ```
 
 | Parameter | Type | Description |

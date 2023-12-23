@@ -33,7 +33,11 @@ public sealed class Template : IEnumerable<TemplateItem>
 
 | Name | Description |
 | --- | --- |
+| static [Load](../../groupdocs.parser.templates/template/load#load)(Stream) | Loads a template from a stream. |
+| static [Load](../../groupdocs.parser.templates/template/load#load_1)(string) | Loads a template from a file. |
 | [GetEnumerator](../../groupdocs.parser.templates/template/getenumerator)() | Returns an enumerator for template items. |
+| [Save](../../groupdocs.parser.templates/template/save#save)(Stream) | Saves a template to a stream. |
+| [Save](../../groupdocs.parser.templates/template/save#save_1)(string) | Saves a template to a file. |
 
 ### Remarks
 

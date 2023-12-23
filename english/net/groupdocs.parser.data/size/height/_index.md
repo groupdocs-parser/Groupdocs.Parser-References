@@ -3,7 +3,7 @@ title: Height
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the height.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.parser.data/size/height/
 ---
 ## Size.Height property

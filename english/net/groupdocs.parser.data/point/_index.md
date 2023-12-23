@@ -31,7 +31,9 @@ public sealed class Point
 
 | Name | Description |
 | --- | --- |
+| static [Parse](../../groupdocs.parser.data/point/parse)(string) | Converts the string representation of a point to its class equivalent. |
 | override [ToString](../../groupdocs.parser.data/point/tostring)() | Converts the value of this instance to String. |
+| static [TryParse](../../groupdocs.parser.data/point/tryparse)(string, out Point) | Converts the string representation of a point to its class equivalent. A return value indicates whether the conversion is succeeded or failed. |
 
 ### See Also
 

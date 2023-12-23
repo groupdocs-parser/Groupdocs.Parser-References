@@ -30,6 +30,14 @@ public sealed class TemplateLinkedPositionEdges
 | [Right](../../groupdocs.parser.templates/templatelinkedpositionedges/right) { get; } | Gets the value that indicates whether a field is searched by the right from the linked field. |
 | [Top](../../groupdocs.parser.templates/templatelinkedpositionedges/top) { get; } | Gets the value that indicates whether a field is searched by the top from the linked field. |
 
+## Methods
+
+| Name | Description |
+| --- | --- |
+| static [Parse](../../groupdocs.parser.templates/templatelinkedpositionedges/parse)(string) | Converts the string representation of edges to its class equivalent. |
+| override [ToString](../../groupdocs.parser.templates/templatelinkedpositionedges/tostring)() | Converts the value of this instance to String. |
+| static [TryParse](../../groupdocs.parser.templates/templatelinkedpositionedges/tryparse)(string, out TemplateLinkedPositionEdges) | Converts the string representation of edges to its class equivalent. A return value indicates whether the conversion is succeeded or failed. |
+
 ### See Also
 
 * namespace [GroupDocs.Parser.Templates](../../groupdocs.parser.templates)

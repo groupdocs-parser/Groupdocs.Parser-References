@@ -3,7 +3,7 @@ title: Item
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the template item by an index.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.parser.templates/template/item/
 ---
 ## Template indexer

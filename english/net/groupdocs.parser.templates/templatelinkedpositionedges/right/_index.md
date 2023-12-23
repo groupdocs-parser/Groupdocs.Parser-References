@@ -3,7 +3,7 @@ title: Right
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether a field is searched by the right from the linked field.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.parser.templates/templatelinkedpositionedges/right/
 ---
 ## TemplateLinkedPositionEdges.Right property
