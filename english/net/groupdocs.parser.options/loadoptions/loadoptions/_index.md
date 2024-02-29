@@ -22,7 +22,27 @@ public LoadOptions()
 
 ---
 
-## LoadOptions(string) {#constructor_4}
+## LoadOptions(TimeSpan) {#constructor_6}
+
+Initializes a new instance of the [`LoadOptions`](../../loadoptions) class with *timeout*.
+
+```csharp
+public LoadOptions(TimeSpan timeout)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| timeout | TimeSpan | The TimeSpan that represents the number of milliseconds to wait. |
+
+### See Also
+
+* class [LoadOptions](../../loadoptions)
+* namespace [GroupDocs.Parser.Options](../../loadoptions)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## LoadOptions(string) {#constructor_5}
 
 Initializes a new instance of the [`LoadOptions`](../../loadoptions) class with [`FileFormat`](../fileformat) equal to Unknown and default encodings.
 
@@ -100,6 +120,32 @@ public LoadOptions(FileFormat fileFormat, string password, Encoding encoding,
 | password | String | The password to open the password-protected file. |
 | encoding | Encoding | The encoding of the document. |
 | defaultAnsiEncoding | Encoding | The default ANSI encoding which is used for encoding detection. |
+
+### See Also
+
+* enum [FileFormat](../../fileformat)
+* class [LoadOptions](../../loadoptions)
+* namespace [GroupDocs.Parser.Options](../../loadoptions)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## LoadOptions(FileFormat, string, Encoding, Encoding, TimeSpan) {#constructor_4}
+
+Initializes a new instance of the [`LoadOptions`](../../loadoptions) fully customized class.
+
+```csharp
+public LoadOptions(FileFormat fileFormat, string password, Encoding encoding, 
+    Encoding defaultAnsiEncoding, TimeSpan timeout)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileFormat | FileFormat | The format of the file. |
+| password | String | The password to open the password-protected file. |
+| encoding | Encoding | The encoding of the document. |
+| defaultAnsiEncoding | Encoding | The default ANSI encoding which is used for encoding detection. |
+| timeout | TimeSpan | The TimeSpan that represents the number of milliseconds to wait. |
 
 ### See Also
 
