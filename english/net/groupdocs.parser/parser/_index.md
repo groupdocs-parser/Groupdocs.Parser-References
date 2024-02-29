@@ -22,14 +22,18 @@ public sealed class Parser : IDisposable
 | [Parser](parser#constructor)(EmailConnection) | Initializes a new instance of the [`Parser`](../parser) class to extract data from a remote email server. |
 | [Parser](parser#constructor_4)(Stream) | Initializes a new instance of the [`Parser`](../parser) class. |
 | [Parser](parser#constructor_8)(string) | Initializes a new instance of the [`Parser`](../parser) class. |
+| [Parser](parser#constructor_12)(Uri) | Initializes a new instance of the [`Parser`](../parser) class to extract data from an URI. |
 | [Parser](parser#constructor_3)(DbConnection, ParserSettings) | Initializes a new instance of the [`Parser`](../parser) class to extract data from a database. |
 | [Parser](parser#constructor_1)(EmailConnection, ParserSettings) | Initializes a new instance of the [`Parser`](../parser) class to extract data from a remote email server. |
 | [Parser](parser#constructor_5)(Stream, LoadOptions) | Initializes a new instance of the [`Parser`](../parser) class with [`LoadOptions`](../../groupdocs.parser.options/loadoptions). |
 | [Parser](parser#constructor_7)(Stream, ParserSettings) | Initializes a new instance of the [`Parser`](../parser) class with [`ParserSettings`](../../groupdocs.parser.options/parsersettings). |
 | [Parser](parser#constructor_9)(string, LoadOptions) | Initializes a new instance of the [`Parser`](../parser) class with [`LoadOptions`](../../groupdocs.parser.options/loadoptions). |
 | [Parser](parser#constructor_11)(string, ParserSettings) | Initializes a new instance of the [`Parser`](../parser) class with [`ParserSettings`](../../groupdocs.parser.options/parsersettings). |
+| [Parser](parser#constructor_13)(Uri, LoadOptions) | Initializes a new instance of the [`Parser`](../parser) class to extract data from an URI with *loadOptions*. |
+| [Parser](parser#constructor_15)(Uri, ParserSettings) | Initializes a new instance of the [`Parser`](../parser) class to extract data from an URI with *parserSettings*. |
 | [Parser](parser#constructor_6)(Stream, LoadOptions, ParserSettings) | Initializes a new instance of the [`Parser`](../parser) class with [`LoadOptions`](../../groupdocs.parser.options/loadoptions) and [`ParserSettings`](../../groupdocs.parser.options/parsersettings). |
 | [Parser](parser#constructor_10)(string, LoadOptions, ParserSettings) | Initializes a new instance of the [`Parser`](../parser) class with [`LoadOptions`](../../groupdocs.parser.options/loadoptions) and [`ParserSettings`](../../groupdocs.parser.options/parsersettings). |
+| [Parser](parser#constructor_14)(Uri, LoadOptions, ParserSettings) | Initializes a new instance of the [`Parser`](../parser) class to extract data from an URI with *loadOptions* and *parserSettings*. |
 
 ## Properties
 

@@ -1,11 +1,99 @@
 ---
 title: Parser
 second_title: GroupDocs.Parser for .NET API Reference
-description: Initializes a new instance of the Parsergroupdocs.parser/parser class to extract data from a database.
+description: Initializes a new instance of the Parsergroupdocs.parser/parser class to extract data from an URI.
 type: docs
 weight: 10
 url: /net/groupdocs.parser/parser/parser/
 ---
+## Parser(Uri) {#constructor_12}
+
+Initializes a new instance of the [`Parser`](../../parser) class to extract data from an URI.
+
+```csharp
+public Parser(Uri uri)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uri | Uri | The Uri the request is sent to. |
+
+### See Also
+
+* class [Parser](../../parser)
+* namespace [GroupDocs.Parser](../../parser)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## Parser(Uri, LoadOptions) {#constructor_13}
+
+Initializes a new instance of the [`Parser`](../../parser) class to extract data from an URI with *loadOptions*.
+
+```csharp
+public Parser(Uri uri, LoadOptions loadOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uri | Uri | The Uri the request is sent to. |
+| loadOptions | LoadOptions | The options to open the file. |
+
+### See Also
+
+* class [LoadOptions](../../../groupdocs.parser.options/loadoptions)
+* class [Parser](../../parser)
+* namespace [GroupDocs.Parser](../../parser)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## Parser(Uri, ParserSettings) {#constructor_15}
+
+Initializes a new instance of the [`Parser`](../../parser) class to extract data from an URI with *parserSettings*.
+
+```csharp
+public Parser(Uri uri, ParserSettings parserSettings)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uri | Uri | The Uri the request is sent to. |
+| parserSettings | ParserSettings | The parser settings which are used to customize data extraction. |
+
+### See Also
+
+* class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
+* class [Parser](../../parser)
+* namespace [GroupDocs.Parser](../../parser)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## Parser(Uri, LoadOptions, ParserSettings) {#constructor_14}
+
+Initializes a new instance of the [`Parser`](../../parser) class to extract data from an URI with *loadOptions* and *parserSettings*.
+
+```csharp
+public Parser(Uri uri, LoadOptions loadOptions, ParserSettings parserSettings)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uri | Uri | The Uri the request is sent to. |
+| loadOptions | LoadOptions | The options to open the file. |
+| parserSettings | ParserSettings | The parser settings which are used to customize data extraction. |
+
+### See Also
+
+* class [LoadOptions](../../../groupdocs.parser.options/loadoptions)
+* class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
+* class [Parser](../../parser)
+* namespace [GroupDocs.Parser](../../parser)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
 ## Parser(DbConnection) {#constructor_2}
 
 Initializes a new instance of the [`Parser`](../../parser) class to extract data from a database.
