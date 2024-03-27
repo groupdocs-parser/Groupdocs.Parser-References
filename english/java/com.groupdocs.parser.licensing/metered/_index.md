@@ -58,21 +58,21 @@ Sets metered public and private key.
 
 ### getConsumptionQuantity() {#getConsumptionQuantity--}
 ```
-public static double getConsumptionQuantity()
+public static BigDecimal getConsumptionQuantity()
 ```
 
 
 Retrieves amount of MBs processed.
 
 **Returns:**
-double - A double value that represents the consumption quantity.
+java.math.BigDecimal - A double value that represents the consumption quantity.
 ### getConsumptionCredit() {#getConsumptionCredit--}
 ```
-public static double getConsumptionCredit()
+public static BigDecimal getConsumptionCredit()
 ```
 
 
 Retrieves count of credits consumed.
 
 **Returns:**
-double - A double value that represents the consumption credit.
+java.math.BigDecimal - A double value that represents the consumption credit.

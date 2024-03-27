@@ -37,6 +37,10 @@ Provides the document template. It consists of [TemplateItem](../../com.groupdoc
 | [get(int index)](#get-int-) | Gets the template item by an index. |
 | [getOptions()](#getOptions--) | Gets the template options. |
 | [iterator()](#iterator--) |  |
+| [load(String filePath)](#load-java.lang.String-) | Loads a template from a file. |
+| [load(InputStream stream)](#load-java.io.InputStream-) | Loads a template from a stream. |
+| [save(String filePath)](#save-java.lang.String-) | Saves a template to a file. |
+| [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves a template to a stream. |
 ### Template(Iterable<? extends TemplateItem> items) {#Template-java.lang.Iterable---extends-com.groupdocs.parser.templates.TemplateItem--}
 ```
 public Template(Iterable<? extends TemplateItem> items)
@@ -130,3 +134,59 @@ public Iterator<TemplateItem> iterator()
 
 **Returns:**
 java.util.Iterator<com.groupdocs.parser.templates.TemplateItem>
+### load(String filePath) {#load-java.lang.String-}
+```
+public static Template load(String filePath)
+```
+
+
+Loads a template from a file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | The path to the file. |
+
+**Returns:**
+[Template](../../com.groupdocs.parser.templates/template) - An instance of [Template](../../com.groupdocs.parser.templates/template) class with loaded template.
+### load(InputStream stream) {#load-java.io.InputStream-}
+```
+public static Template load(InputStream stream)
+```
+
+
+Loads a template from a stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | The input stream. |
+
+**Returns:**
+[Template](../../com.groupdocs.parser.templates/template) - An instance of [Template](../../com.groupdocs.parser.templates/template) class with loaded template.
+### save(String filePath) {#save-java.lang.String-}
+```
+public void save(String filePath)
+```
+
+
+Saves a template to a file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | The path to the file. |
+
+### save(OutputStream stream) {#save-java.io.OutputStream-}
+```
+public void save(OutputStream stream)
+```
+
+
+Saves a template to a stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.OutputStream | The output stream. |
+
