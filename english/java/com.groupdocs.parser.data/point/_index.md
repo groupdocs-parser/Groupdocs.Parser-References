@@ -24,6 +24,7 @@ Represents a point.
 | --- | --- |
 | [getX()](#getX--) | Gets the x-coordinate. |
 | [getY()](#getY--) | Gets the y-coordinate. |
+| [parse(String s)](#parse-java.lang.String-) | Converts the string representation of a point to its class equivalent. |
 | [toString()](#toString--) |  |
 ### Point(double x, double y) {#Point-double-double-}
 ```
@@ -59,6 +60,21 @@ Gets the y-coordinate.
 
 **Returns:**
 double - A double value that represents the y-coordinate.
+### parse(String s) {#parse-java.lang.String-}
+```
+public static Point parse(String s)
+```
+
+
+Converts the string representation of a point to its class equivalent. A return value indicates whether the conversion is succeeded or failed.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| s | java.lang.String | A string containing a point to convert. |
+
+**Returns:**
+[Point](../../com.groupdocs.parser.data/point) - The instance of [Point](../../com.groupdocs.parser.data/point) class that is equivalent to the value specified in  s  parameter.
 ### toString() {#toString--}
 ```
 public String toString()

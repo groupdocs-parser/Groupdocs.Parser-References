@@ -27,6 +27,8 @@ Provides the edges of the linked field where the text field is seached. [Templat
 | [isTop()](#isTop--) | Gets the value that indicates whether a field is searched by the top from the linked field. |
 | [isRight()](#isRight--) | Gets the value that indicates whether a field is searched by the right from the linked field. |
 | [isBottom()](#isBottom--) | Gets the value that indicates whether a field is searched by the bottom from the linked field. |
+| [parse(String s)](#parse-java.lang.String-) | Converts the string representation of edges to its class equivalent. |
+| [toString()](#toString--) |  |
 ### TemplateLinkedPositionEdges(boolean left, boolean top, boolean right, boolean bottom) {#TemplateLinkedPositionEdges-boolean-boolean-boolean-boolean-}
 ```
 public TemplateLinkedPositionEdges(boolean left, boolean top, boolean right, boolean bottom)
@@ -93,3 +95,28 @@ Gets the value that indicates whether a field is searched by the bottom from the
 
 **Returns:**
 boolean -  true  if a field is searched by the bottom from the linked field; otherwise,  false .
+### parse(String s) {#parse-java.lang.String-}
+```
+public static TemplateLinkedPositionEdges parse(String s)
+```
+
+
+Converts the string representation of edges to its class equivalent.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| s | java.lang.String | A string that contains edges to convert. |
+
+**Returns:**
+[TemplateLinkedPositionEdges](../../com.groupdocs.parser.templates/templatelinkedpositionedges) - An instance of [TemplateLinkedPositionEdges](../../com.groupdocs.parser.templates/templatelinkedpositionedges) class that is equivalent to the value specified in  s  parameter.
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String

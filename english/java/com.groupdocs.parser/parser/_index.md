@@ -20,6 +20,10 @@ Represents the main class that controls text, images, container extraction and p
 
 | Constructor | Description |
 | --- | --- |
+| [Parser(URL url)](#Parser-java.net.URL-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from an URL. |
+| [Parser(URL url, LoadOptions loadOptions)](#Parser-java.net.URL-com.groupdocs.parser.options.LoadOptions-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from an URL with  loadOptions . |
+| [Parser(URL url, ParserSettings parserSettings)](#Parser-java.net.URL-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from an URL with  parserSettings . |
+| [Parser(URL url, LoadOptions loadOptions, ParserSettings parserSettings)](#Parser-java.net.URL-com.groupdocs.parser.options.LoadOptions-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from an URL with  loadOptions  and  parserSettings . |
 | [Parser(Connection connection)](#Parser-java.sql.Connection-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from a database. |
 | [Parser(Connection connection, ParserSettings parserSettings)](#Parser-java.sql.Connection-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from a database. |
 | [Parser(EmailConnection connection)](#Parser-com.groupdocs.parser.options.EmailConnection-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class. |
@@ -76,6 +80,62 @@ Represents the main class that controls text, images, container extraction and p
 | [parseForm()](#parseForm--) | Parses the document form. |
 | [getStructure()](#getStructure--) | Extracts a structured text from the document. |
 | [close()](#close--) | Closes this resource, relinquishing any underlying resources. |
+### Parser(URL url) {#Parser-java.net.URL-}
+```
+public Parser(URL url)
+```
+
+
+Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from an URL.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| url | java.net.URL | The URL the request is sent to |
+
+### Parser(URL url, LoadOptions loadOptions) {#Parser-java.net.URL-com.groupdocs.parser.options.LoadOptions-}
+```
+public Parser(URL url, LoadOptions loadOptions)
+```
+
+
+Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from an URL with  loadOptions .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| url | java.net.URL | The URL the request is sent to. |
+| loadOptions | [LoadOptions](../../com.groupdocs.parser.options/loadoptions) | The options to open the file. |
+
+### Parser(URL url, ParserSettings parserSettings) {#Parser-java.net.URL-com.groupdocs.parser.options.ParserSettings-}
+```
+public Parser(URL url, ParserSettings parserSettings)
+```
+
+
+Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from an URL with  parserSettings .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| url | java.net.URL | The URL the request is sent to. |
+| parserSettings | [ParserSettings](../../com.groupdocs.parser.options/parsersettings) | The parser settings which are used to customize data extraction. |
+
+### Parser(URL url, LoadOptions loadOptions, ParserSettings parserSettings) {#Parser-java.net.URL-com.groupdocs.parser.options.LoadOptions-com.groupdocs.parser.options.ParserSettings-}
+```
+public Parser(URL url, LoadOptions loadOptions, ParserSettings parserSettings)
+```
+
+
+Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from an URL with  loadOptions  and  parserSettings .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| url | java.net.URL | The URL the request is sent to. |
+| loadOptions | [LoadOptions](../../com.groupdocs.parser.options/loadoptions) | The options to open the file. |
+| parserSettings | [ParserSettings](../../com.groupdocs.parser.options/parsersettings) | The parser settings which are used to customize data extraction. |
+
 ### Parser(Connection connection) {#Parser-java.sql.Connection-}
 ```
 public Parser(Connection connection)

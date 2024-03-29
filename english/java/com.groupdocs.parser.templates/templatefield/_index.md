@@ -58,7 +58,7 @@ Initializes a new instance of the [TemplateField](../../com.groupdocs.parser.tem
 | --- | --- | --- |
 | position | [TemplatePosition](../../com.groupdocs.parser.templates/templateposition) | The field position. |
 | name | java.lang.String | The field name. |
-| pageIndex | java.lang.Integer |  |
+| pageIndex | java.lang.Integer | An integer value that represents the index of the page where the template item is located;  null  if the template item is located on any page. |
 
 ### TemplateField(TemplatePosition position, String name, Integer pageIndex, boolean useUpperCaseName) {#TemplateField-com.groupdocs.parser.templates.TemplatePosition-java.lang.String-java.lang.Integer-boolean-}
 ```
