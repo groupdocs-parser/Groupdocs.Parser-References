@@ -3,7 +3,7 @@ title: PreviewOptions.PreviewFormats
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents supported preview formats.
 type: docs
-weight: 590
+weight: 600
 url: /net/groupdocs.parser.options/previewoptions.previewformats/
 ---
 ## PreviewOptions.PreviewFormats enumeration

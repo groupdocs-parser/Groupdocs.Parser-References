@@ -3,7 +3,7 @@ title: Parser
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents the main class that controls text images container extraction and parsing functionality.
 type: docs
-weight: 650
+weight: 670
 url: /net/groupdocs.parser/parser/
 ---
 ## Parser class
@@ -48,9 +48,9 @@ public sealed class Parser : IDisposable
 | [Dispose](../../groupdocs.parser/parser/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [GeneratePreview](../../groupdocs.parser/parser/generatepreview)(PreviewOptions) | Get pages preview. |
 | [GetBarcodes](../../groupdocs.parser/parser/getbarcodes#getbarcodes)() | Extracts barcodes from the document. |
-| [GetBarcodes](../../groupdocs.parser/parser/getbarcodes#getbarcodes_2)(int) | Extracts barcodes from the document page. |
-| [GetBarcodes](../../groupdocs.parser/parser/getbarcodes#getbarcodes_1)(PageAreaOptions) | Extracts barcodes from the document using customization options (to set the rectangular area that contains barcodes). |
-| [GetBarcodes](../../groupdocs.parser/parser/getbarcodes#getbarcodes_3)(int, PageAreaOptions) | Extracts barcodes from the document page using customization options (to set the rectangular area that contains barcodes). |
+| [GetBarcodes](../../groupdocs.parser/parser/getbarcodes#getbarcodes_1)(BarcodeOptions) | Extracts barcodes from the document using customization options. |
+| [GetBarcodes](../../groupdocs.parser/parser/getbarcodes#getbarcodes_3)(int) | Extracts barcodes from the document page. |
+| [GetBarcodes](../../groupdocs.parser/parser/getbarcodes#getbarcodes_4)(int, BarcodeOptions) | Extracts barcodes from the document page using customization options. |
 | [GetContainer](../../groupdocs.parser/parser/getcontainer)() | Extracts a container object from the document to work with formats that contain attachments, ZIP archives etc. |
 | [GetDocumentInfo](../../groupdocs.parser/parser/getdocumentinfo)() | Returns the general information about the document. |
 | [GetFormattedText](../../groupdocs.parser/parser/getformattedtext#getformattedtext)(FormattedTextOptions) | Extracts a formatted text from the document. |

@@ -3,7 +3,7 @@ title: PageRenderInfo
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents the information of how a page is rendered.
 type: docs
-weight: 540
+weight: 550
 url: /net/groupdocs.parser.options/pagerenderinfo/
 ---
 ## PageRenderInfo class

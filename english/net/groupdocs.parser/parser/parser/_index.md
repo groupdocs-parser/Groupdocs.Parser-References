@@ -21,7 +21,7 @@ public Parser(Uri uri)
 ### See Also
 
 * class [Parser](../../parser)
-* namespace [GroupDocs.Parser](../../parser)
+* namespace [GroupDocs.Parser](../../../groupdocs.parser)
 * assembly [GroupDocs.Parser](../../../)
 
 ---
@@ -43,7 +43,7 @@ public Parser(Uri uri, LoadOptions loadOptions)
 
 * class [LoadOptions](../../../groupdocs.parser.options/loadoptions)
 * class [Parser](../../parser)
-* namespace [GroupDocs.Parser](../../parser)
+* namespace [GroupDocs.Parser](../../../groupdocs.parser)
 * assembly [GroupDocs.Parser](../../../)
 
 ---
@@ -65,7 +65,7 @@ public Parser(Uri uri, ParserSettings parserSettings)
 
 * class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
 * class [Parser](../../parser)
-* namespace [GroupDocs.Parser](../../parser)
+* namespace [GroupDocs.Parser](../../../groupdocs.parser)
 * assembly [GroupDocs.Parser](../../../)
 
 ---
@@ -89,7 +89,7 @@ public Parser(Uri uri, LoadOptions loadOptions, ParserSettings parserSettings)
 * class [LoadOptions](../../../groupdocs.parser.options/loadoptions)
 * class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
 * class [Parser](../../parser)
-* namespace [GroupDocs.Parser](../../parser)
+* namespace [GroupDocs.Parser](../../../groupdocs.parser)
 * assembly [GroupDocs.Parser](../../../)
 
 ---
@@ -153,7 +153,7 @@ using (Parser parser = new Parser(connection))
 ### See Also
 
 * class [Parser](../../parser)
-* namespace [GroupDocs.Parser](../../parser)
+* namespace [GroupDocs.Parser](../../../groupdocs.parser)
 * assembly [GroupDocs.Parser](../../../)
 
 ---
@@ -220,7 +220,7 @@ using (Parser parser = new Parser(connection))
 
 * class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
 * class [Parser](../../parser)
-* namespace [GroupDocs.Parser](../../parser)
+* namespace [GroupDocs.Parser](../../../groupdocs.parser)
 * assembly [GroupDocs.Parser](../../../)
 
 ---
@@ -288,7 +288,7 @@ IEnumerable<ContainerItem> emails = parser.GetContainer();
 
 * class [EmailConnection](../../../groupdocs.parser.options/emailconnection)
 * class [Parser](../../parser)
-* namespace [GroupDocs.Parser](../../parser)
+* namespace [GroupDocs.Parser](../../../groupdocs.parser)
 * assembly [GroupDocs.Parser](../../../)
 
 ---
@@ -359,7 +359,7 @@ IEnumerable<ContainerItem> emails = parser.GetContainer();
 * class [EmailConnection](../../../groupdocs.parser.options/emailconnection)
 * class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
 * class [Parser](../../parser)
-* namespace [GroupDocs.Parser](../../parser)
+* namespace [GroupDocs.Parser](../../../groupdocs.parser)
 * assembly [GroupDocs.Parser](../../../)
 
 ---
@@ -403,7 +403,7 @@ using (Parser parser = new Parser(filePath))
 ### See Also
 
 * class [Parser](../../parser)
-* namespace [GroupDocs.Parser](../../parser)
+* namespace [GroupDocs.Parser](../../../groupdocs.parser)
 * assembly [GroupDocs.Parser](../../../)
 
 ---
@@ -463,7 +463,7 @@ catch (InvalidPasswordException)
 
 * class [LoadOptions](../../../groupdocs.parser.options/loadoptions)
 * class [Parser](../../parser)
-* namespace [GroupDocs.Parser](../../parser)
+* namespace [GroupDocs.Parser](../../../groupdocs.parser)
 * assembly [GroupDocs.Parser](../../../)
 
 ---
@@ -485,7 +485,7 @@ public Parser(string filePath, ParserSettings parserSettings)
 
 * class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
 * class [Parser](../../parser)
-* namespace [GroupDocs.Parser](../../parser)
+* namespace [GroupDocs.Parser](../../../groupdocs.parser)
 * assembly [GroupDocs.Parser](../../../)
 
 ---
@@ -568,7 +568,7 @@ private class Logger : ILogger
 * class [LoadOptions](../../../groupdocs.parser.options/loadoptions)
 * class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
 * class [Parser](../../parser)
-* namespace [GroupDocs.Parser](../../parser)
+* namespace [GroupDocs.Parser](../../../groupdocs.parser)
 * assembly [GroupDocs.Parser](../../../)
 
 ---
@@ -612,7 +612,7 @@ using (Parser parser = new Parser(stream))
 ### See Also
 
 * class [Parser](../../parser)
-* namespace [GroupDocs.Parser](../../parser)
+* namespace [GroupDocs.Parser](../../../groupdocs.parser)
 * assembly [GroupDocs.Parser](../../../)
 
 ---
@@ -693,7 +693,7 @@ catch (InvalidPasswordException)
 
 * class [LoadOptions](../../../groupdocs.parser.options/loadoptions)
 * class [Parser](../../parser)
-* namespace [GroupDocs.Parser](../../parser)
+* namespace [GroupDocs.Parser](../../../groupdocs.parser)
 * assembly [GroupDocs.Parser](../../../)
 
 ---
@@ -715,7 +715,7 @@ public Parser(Stream document, ParserSettings parserSettings)
 
 * class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
 * class [Parser](../../parser)
-* namespace [GroupDocs.Parser](../../parser)
+* namespace [GroupDocs.Parser](../../../groupdocs.parser)
 * assembly [GroupDocs.Parser](../../../)
 
 ---
@@ -798,7 +798,7 @@ private class Logger : ILogger
 * class [LoadOptions](../../../groupdocs.parser.options/loadoptions)
 * class [ParserSettings](../../../groupdocs.parser.options/parsersettings)
 * class [Parser](../../parser)
-* namespace [GroupDocs.Parser](../../parser)
+* namespace [GroupDocs.Parser](../../../groupdocs.parser)
 * assembly [GroupDocs.Parser](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.parser.dll -->
