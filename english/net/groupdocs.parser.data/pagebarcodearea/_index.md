@@ -18,13 +18,15 @@ public sealed class PageBarcodeArea : PageArea
 
 | Name | Description |
 | --- | --- |
-| [PageBarcodeArea](pagebarcodearea)(string, string, Page, Rectangle) | Initializes a new instance of the [`PageBarcodeArea`](../pagebarcodearea) class. |
+| [PageBarcodeArea](pagebarcodearea#constructor_1)(string, string, int, double, Page, Rectangle) | Initializes a new instance of the [`PageBarcodeArea`](../pagebarcodearea) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
+| [Angle](../../groupdocs.parser.data/pagebarcodearea/angle) { get; } | Gets the angle of the barcode. |
 | [CodeTypeName](../../groupdocs.parser.data/pagebarcodearea/codetypename) { get; } | Gets the name of the barcode type. |
+| [Confidence](../../groupdocs.parser.data/pagebarcodearea/confidence) { get; } | Gets the level of confidence of the parsered barcode. |
 | [Page](../../groupdocs.parser.data/pagearea/page) { get; } | Gets the document page information such as page index and page size. |
 | [Rectangle](../../groupdocs.parser.data/pagearea/rectangle) { get; } | Gets the rectangular area. |
 | [Value](../../groupdocs.parser.data/pagebarcodearea/value) { get; } | Gets the barcode value. |

@@ -3,7 +3,7 @@ title: SearchOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used for text search.
 type: docs
-weight: 620
+weight: 640
 url: /net/groupdocs.parser.options/searchoptions/
 ---
 ## SearchOptions class

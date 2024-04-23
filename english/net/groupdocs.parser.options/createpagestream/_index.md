@@ -3,7 +3,7 @@ title: CreatePageStream
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents a method that returns a stream to write page preview data.
 type: docs
-weight: 280
+weight: 290
 url: /net/groupdocs.parser.options/createpagestream/
 ---
 ## CreatePageStream delegate

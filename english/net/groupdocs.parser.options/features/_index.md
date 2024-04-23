@@ -3,7 +3,7 @@ title: Features
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents the supported features list. Allows to obtain information which features are supported or not for the document.
 type: docs
-weight: 360
+weight: 370
 url: /net/groupdocs.parser.options/features/
 ---
 ## Features class
