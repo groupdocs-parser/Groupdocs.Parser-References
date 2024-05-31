@@ -3,7 +3,7 @@ title: ColumnCount
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the total number of the table colums.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.parser.data/pagetablearea/columncount/
 ---
 ## PageTableArea.ColumnCount property

@@ -3,7 +3,7 @@ title: GroupDocs.Parser.Options
 second_title: GroupDocs.Parser for .NET API Reference
 description: The namespace provides classes to specify additional options when parsing data from documents.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.parser.options/
 ---
 The namespace provides classes to specify additional options when parsing data from documents.

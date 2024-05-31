@@ -3,7 +3,7 @@ title: GetRowHeight
 second_title: GroupDocs.Parser for .NET API Reference
 description: Returns the row height.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.parser.data/pagetablearea/getrowheight/
 ---
 ## PageTableArea.GetRowHeight method

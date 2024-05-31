@@ -3,7 +3,7 @@ title: Item
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the table cell by row and column indexes.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.parser.data/pagetablearea/item/
 ---
 ## PageTableArea indexer
