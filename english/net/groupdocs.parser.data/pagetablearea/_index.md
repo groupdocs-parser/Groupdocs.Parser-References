@@ -24,6 +24,7 @@ public sealed class PageTableArea : PageArea
 
 | Name | Description |
 | --- | --- |
+| [Cells](../../groupdocs.parser.data/pagetablearea/cells) { get; } | Gets the collection of cells. |
 | [ColumnCount](../../groupdocs.parser.data/pagetablearea/columncount) { get; } | Gets the total number of the table colums. |
 | [Item](../../groupdocs.parser.data/pagetablearea/item) { get; } | Gets the table cell by row and column indexes. |
 | [Page](../../groupdocs.parser.data/pagearea/page) { get; } | Gets the document page information such as page index and page size. |

@@ -3,7 +3,7 @@ title: EmailImapConnection
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents the email connection information for IMAP protocol.
 type: docs
-weight: 330
+weight: 370
 url: /net/groupdocs.parser.options/emailimapconnection/
 ---
 ## EmailImapConnection class

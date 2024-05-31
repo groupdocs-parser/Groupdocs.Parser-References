@@ -3,7 +3,7 @@ title: EmailPopConnection
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents the email connection information for POP protocol.
 type: docs
-weight: 340
+weight: 380
 url: /net/groupdocs.parser.options/emailpopconnection/
 ---
 ## EmailPopConnection class

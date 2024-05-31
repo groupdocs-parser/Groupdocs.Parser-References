@@ -3,7 +3,7 @@ title: ExternalResourceHandler
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides a handler for external resources loading.
 type: docs
-weight: 350
+weight: 390
 url: /net/groupdocs.parser.options/externalresourcehandler/
 ---
 ## ExternalResourceHandler class

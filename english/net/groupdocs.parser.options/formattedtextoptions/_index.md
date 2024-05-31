@@ -3,7 +3,7 @@ title: FormattedTextOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used for formatted text extraction.
 type: docs
-weight: 430
+weight: 470
 url: /net/groupdocs.parser.options/formattedtextoptions/
 ---
 ## FormattedTextOptions class

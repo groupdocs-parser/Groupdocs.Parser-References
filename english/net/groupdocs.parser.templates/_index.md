@@ -3,7 +3,7 @@ title: GroupDocs.Parser.Templates
 second_title: GroupDocs.Parser for .NET API Reference
 description: The namespace provides classes for creating templates for parsing document data.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.parser.templates/
 ---
 The namespace provides classes for creating templates for parsing document data.

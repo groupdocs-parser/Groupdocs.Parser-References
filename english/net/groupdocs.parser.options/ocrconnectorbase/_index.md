@@ -3,7 +3,7 @@ title: OcrConnectorBase
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the OCR functionality.
 type: docs
-weight: 500
+weight: 540
 url: /net/groupdocs.parser.options/ocrconnectorbase/
 ---
 ## OcrConnectorBase class
