@@ -29,7 +29,7 @@ public abstract class ExporterBase
 | abstract [Export](../../groupdocs.parser.export/exporterbase/export#export_8)(IEnumerable&lt;PageTableArea&gt;, Stream) | Exports the collection of tables to the stream. |
 | [Export](../../groupdocs.parser.export/exporterbase/export#export_9)(IEnumerable&lt;PageTableArea&gt;, string) | Exports the collection of tables to the file. |
 | abstract [Export](../../groupdocs.parser.export/exporterbase/export#export_10)(IEnumerable&lt;PageTextArea&gt;, Stream) | Exports the collection of text areas to the stream. |
-| [Export](../../groupdocs.parser.export/exporterbase/export#export_11)(IEnumerable&lt;PageTextArea&gt;, string) | Exports the collectiob of text areas to the file. |
+| [Export](../../groupdocs.parser.export/exporterbase/export#export_11)(IEnumerable&lt;PageTextArea&gt;, string) | Exports the collection of text areas to the file. |
 
 ### See Also
 

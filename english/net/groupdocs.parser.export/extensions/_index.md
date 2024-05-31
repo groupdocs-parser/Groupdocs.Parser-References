@@ -1,14 +1,14 @@
 ---
 title: Extensions
 second_title: GroupDocs.Parser for .NET API Reference
-description: This class provides extensions methods for the data export functionality.
+description: Provides extensions methods for the data export functionality.
 type: docs
 weight: 270
 url: /net/groupdocs.parser.export/extensions/
 ---
 ## Extensions class
 
-This class provides extensions methods for the data export functionality.
+Provides extensions methods for the data export functionality.
 
 ```csharp
 public static class Extensions

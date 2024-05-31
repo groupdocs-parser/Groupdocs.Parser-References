@@ -118,7 +118,7 @@ public abstract void Export(IEnumerable<PageTextArea> textAreas, Stream stream)
 
 ## Export(IEnumerable&lt;PageTextArea&gt;, string) {#export_11}
 
-Exports the collectiob of text areas to the file.
+Exports the collection of text areas to the file.
 
 ```csharp
 public void Export(IEnumerable<PageTextArea> textAreas, string fileName)

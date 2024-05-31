@@ -14,6 +14,11 @@ Exports the collection of metadata to the stream.
 public override void Export(IEnumerable<MetadataItem> metadata, Stream stream)
 ```
 
+| Parameter | Type | Description |
+| --- | --- | --- |
+| metadata | IEnumerable`1 | The collection of metadata. |
+| stream | Stream | The output stream. |
+
 ### See Also
 
 * class [MetadataItem](../../../groupdocs.parser.data/metadataitem)
@@ -25,11 +30,16 @@ public override void Export(IEnumerable<MetadataItem> metadata, Stream stream)
 
 ## Export(IDocumentInfo, Stream) {#export_2}
 
-Exports the collection of metadata to the stream.
+Exports the document information to the stream.
 
 ```csharp
 public override void Export(IDocumentInfo documentInfo, Stream stream)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| documentInfo | IDocumentInfo | The document information. |
+| stream | Stream | The output stream. |
 
 ### See Also
 
@@ -42,11 +52,16 @@ public override void Export(IDocumentInfo documentInfo, Stream stream)
 
 ## Export(IEnumerable&lt;PageTextArea&gt;, Stream) {#export_10}
 
-Exports the collection of metadata to the stream.
+Exports the collection of text areas to the stream.
 
 ```csharp
 public override void Export(IEnumerable<PageTextArea> textAreas, Stream stream)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| textAreas | IEnumerable`1 | The collection of the text areas. |
+| stream | Stream | The output stream. |
 
 ### See Also
 
@@ -59,11 +74,16 @@ public override void Export(IEnumerable<PageTextArea> textAreas, Stream stream)
 
 ## Export(IEnumerable&lt;PageTableArea&gt;, Stream) {#export_8}
 
-Exports the collection of metadata to the stream.
+Exports the collection of tables to the stream.
 
 ```csharp
 public override void Export(IEnumerable<PageTableArea> tables, Stream stream)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tables | IEnumerable`1 | The collecton of tables. |
+| stream | Stream | The output stream. |
 
 ### See Also
 
@@ -76,11 +96,16 @@ public override void Export(IEnumerable<PageTableArea> tables, Stream stream)
 
 ## Export(IEnumerable&lt;PageBarcodeArea&gt;, Stream) {#export_6}
 
-Exports the collection of metadata to the stream.
+Exports the collection of barcodes to the stream.
 
 ```csharp
 public override void Export(IEnumerable<PageBarcodeArea> barcodes, Stream stream)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| barcodes | IEnumerable`1 | The collection of barcodes. |
+| stream | Stream | The output stream. |
 
 ### See Also
 
@@ -93,11 +118,16 @@ public override void Export(IEnumerable<PageBarcodeArea> barcodes, Stream stream
 
 ## Export(DocumentData, Stream) {#export}
 
-Exports the collection of metadata to the stream.
+Exports document data to the stream.
 
 ```csharp
 public override void Export(DocumentData documentData, Stream stream)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| documentData | DocumentData | Document data. |
+| stream | Stream | The output stream. |
 
 ### See Also
 

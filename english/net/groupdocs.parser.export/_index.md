@@ -1,19 +1,19 @@
 ---
 title: GroupDocs.Parser.Export
 second_title: GroupDocs.Parser for .NET API Reference
-description: The namespace contains classes that allow users to export data to different formats.
+description: The namespace provides classes that allow users to export data to different formats.
 type: docs
 weight: 40
 url: /net/groupdocs.parser.export/
 ---
-The namespace contains classes that allow users to export data to different formats.
+The namespace provides classes that allow users to export data to different formats.
 
 ## Classes
 
 | Class | Description |
 | --- | --- |
 | [ExporterBase](./exporterbase) | Provides the base class for the data export functionality. |
-| [Extensions](./extensions) | This class provides extensions methods for the data export functionality. |
+| [Extensions](./extensions) | Provides extensions methods for the data export functionality. |
 | [JsonExporter](./jsonexporter) | Provides the functionality to export data in JSON format. |
 | [XmlExporter](./xmlexporter) | Provides the functionality to export data in XML format. |
 
