@@ -94,7 +94,7 @@ public boolean isAllowIncorrectBarcodes()
 Gets the value that indicates whether the incorrect barcodes are allowed.
 
 **Returns:**
-boolean
+boolean -  true  if the incorrect barcodes are allowed; otherwise,  false .
 ### getDimension() {#getDimension--}
 ```
 public Float getDimension()
@@ -104,7 +104,7 @@ public Float getDimension()
 Gets the minimal size of the barcode minimal element.
 
 **Returns:**
-java.lang.Float
+java.lang.Float - The float value that represents the barcode minimal element;  null  if auto mode is used.
 ### getImageQuality() {#getImageQuality--}
 ```
 public QualityMode getImageQuality()
@@ -114,7 +114,7 @@ public QualityMode getImageQuality()
 Gets the quality of a source image.
 
 **Returns:**
-[QualityMode](../../com.groupdocs.parser.options/qualitymode)
+[QualityMode](../../com.groupdocs.parser.options/qualitymode) - The mode which defines the level of the source image quality.
 ### getBarcodeQuality() {#getBarcodeQuality--}
 ```
 public QualityMode getBarcodeQuality()
@@ -124,7 +124,7 @@ public QualityMode getBarcodeQuality()
 Gets the quality of a source barcode.
 
 **Returns:**
-[QualityMode](../../com.groupdocs.parser.options/qualitymode)
+[QualityMode](../../com.groupdocs.parser.options/qualitymode) - The mode which defines the level of the source barcode quality.
 ### getRectangle() {#getRectangle--}
 ```
 public Rectangle getRectangle()
@@ -134,7 +134,7 @@ public Rectangle getRectangle()
 Gets the rectangular area that contains page areas.
 
 **Returns:**
-[Rectangle](../../com.groupdocs.parser.data/rectangle)
+[Rectangle](../../com.groupdocs.parser.data/rectangle) - An instance of [Rectangle](../../com.groupdocs.parser.data/rectangle) class that represents the rectangular area that contains page areas;  null  if it isn't set.
 ### getCodeTypes() {#getCodeTypes--}
 ```
 public List<String> getCodeTypes()
@@ -144,4 +144,4 @@ public List<String> getCodeTypes()
 Gets the types of barcodes to read.
 
 **Returns:**
-java.util.List<java.lang.String>
+java.util.List<java.lang.String> - The readonly collection that contains a types of barcodes to read; empty collection if isn't set.
