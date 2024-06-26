@@ -28,7 +28,7 @@ Represents data of the document. It consists of [FieldData](../../com.groupdocs.
 | [getCount()](#getCount--) | Gets the total number of the fields data. |
 | [get(int index)](#get-int-) | Gets the field data by an index. |
 | [getFieldsByName(String fieldName)](#getFieldsByName-java.lang.String-) | Returns the collection of field data where the name is equal to  fieldName . |
-| [iterator()](#iterator--) |  |
+| [iterator()](#iterator--) | Returns an iterator over the elements in this list in proper sequence. |
 ### DocumentData(Iterable<FieldData> fields) {#DocumentData-java.lang.Iterable-com.groupdocs.parser.data.FieldData--}
 ```
 public DocumentData(Iterable<FieldData> fields)
@@ -145,7 +145,7 @@ public Iterator<FieldData> iterator()
 ```
 
 
-
+Returns an iterator over the elements in this list in proper sequence.
 
 **Returns:**
-java.util.Iterator<com.groupdocs.parser.data.FieldData>
+java.util.Iterator<com.groupdocs.parser.data.FieldData> - an iterator over the elements in this list in proper sequence.
