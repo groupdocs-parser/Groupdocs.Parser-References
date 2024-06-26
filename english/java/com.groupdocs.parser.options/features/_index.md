@@ -3,7 +3,7 @@ title: Features
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents the supported features list.
 type: docs
-weight: 17
+weight: 18
 url: /java/com.groupdocs.parser.options/features/
 ---
 **Inheritance:**

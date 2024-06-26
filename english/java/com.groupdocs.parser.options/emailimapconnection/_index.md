@@ -3,7 +3,7 @@ title: EmailImapConnection
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents the email connection information for IMAP protocol.
 type: docs
-weight: 13
+weight: 14
 url: /java/com.groupdocs.parser.options/emailimapconnection/
 ---
 **Inheritance:**

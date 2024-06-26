@@ -3,7 +3,7 @@ title: ImageOptions
 second_title: GroupDocs.Parser for Java API Reference
 description: Provides the options which are used for image extraction.
 type: docs
-weight: 22
+weight: 23
 url: /java/com.groupdocs.parser.options/imageoptions/
 ---
 **Inheritance:**

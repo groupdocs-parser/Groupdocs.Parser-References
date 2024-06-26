@@ -8,8 +8,11 @@ url: /java/com.groupdocs.parser.data/documentdata/
 ---
 **Inheritance:**
 java.lang.Object
+
+**All Implemented Interfaces:**
+java.lang.Iterable
 ```
-public class DocumentData
+public class DocumentData implements Iterable<FieldData>
 ```
 
 Represents data of the document. It consists of [FieldData](../../com.groupdocs.parser.data/fielddata) objects which contain field data from document. An instance of [DocumentData](../../com.groupdocs.parser.data/documentdata) class is used as return value of [Parser.parseByTemplate(Template)](../../com.groupdocs.parser/parser\#parseByTemplate-Template-) and [Parser.parseForm()](../../com.groupdocs.parser/parser\#parseForm--) methods. See the usage examples there.
@@ -25,6 +28,7 @@ Represents data of the document. It consists of [FieldData](../../com.groupdocs.
 | [getCount()](#getCount--) | Gets the total number of the fields data. |
 | [get(int index)](#get-int-) | Gets the field data by an index. |
 | [getFieldsByName(String fieldName)](#getFieldsByName-java.lang.String-) | Returns the collection of field data where the name is equal to  fieldName . |
+| [iterator()](#iterator--) |  |
 ### DocumentData(Iterable<FieldData> fields) {#DocumentData-java.lang.Iterable-com.groupdocs.parser.data.FieldData--}
 ```
 public DocumentData(Iterable<FieldData> fields)
@@ -135,3 +139,13 @@ Find fields by a field name:
 
 **Returns:**
 java.util.List<com.groupdocs.parser.data.FieldData> - A collection of [FieldData](../../com.groupdocs.parser.data/fielddata) objects; empty collection if no field data is found.
+### iterator() {#iterator--}
+```
+public Iterator<FieldData> iterator()
+```
+
+
+
+
+**Returns:**
+java.util.Iterator<com.groupdocs.parser.data.FieldData>

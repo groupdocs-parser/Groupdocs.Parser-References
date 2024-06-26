@@ -71,8 +71,7 @@ Represents the main class that controls text, images, container extraction and p
 | [getHyperlinks(int pageIndex, PageAreaOptions options)](#getHyperlinks-int-com.groupdocs.parser.options.PageAreaOptions-) | Extracts hyperlinks from the document page using customization options (to set the rectangular area that contains hyperlinks). |
 | [getBarcodes()](#getBarcodes--) | Extracts barcodes from the document. |
 | [getBarcodes(int pageIndex)](#getBarcodes-int-) | Extracts barcodes from the document page. |
-| [getBarcodes(PageAreaOptions options)](#getBarcodes-com.groupdocs.parser.options.PageAreaOptions-) | Extracts barcodes from the document using customization options (to set the rectangular area that contains barcodes). |
-| [getBarcodes(int pageIndex, PageAreaOptions options)](#getBarcodes-int-com.groupdocs.parser.options.PageAreaOptions-) | Extracts barcodes from the document page using customization options (to set the rectangular area that contains barcodes). |
+| [getBarcodes(int pageIndex, BarcodeOptions options)](#getBarcodes-int-com.groupdocs.parser.options.BarcodeOptions-) | Extracts barcodes from the document page using customization options (to set the rectangular area that contains barcodes). |
 | [getTables(PageTableAreaOptions options)](#getTables-com.groupdocs.parser.options.PageTableAreaOptions-) | Extracts tables from the document. |
 | [getTables(int pageIndex, PageTableAreaOptions options)](#getTables-int-com.groupdocs.parser.options.PageTableAreaOptions-) | Extracts tables from the document page. |
 | [parseByTemplate(Template template)](#parseByTemplate-com.groupdocs.parser.templates.Template-) | Parses the document by the user-generated template. |
@@ -2033,24 +2032,9 @@ Extracts barcodes from the document page.
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageBarcodeArea> - A collection of [PageBarcodeArea](../../com.groupdocs.parser.data/pagebarcodearea) objects;  null  if barcodes extraction isn't supported.
-### getBarcodes(PageAreaOptions options) {#getBarcodes-com.groupdocs.parser.options.PageAreaOptions-}
+### getBarcodes(int pageIndex, BarcodeOptions options) {#getBarcodes-int-com.groupdocs.parser.options.BarcodeOptions-}
 ```
-public Iterable<PageBarcodeArea> getBarcodes(PageAreaOptions options)
-```
-
-
-Extracts barcodes from the document using customization options (to set the rectangular area that contains barcodes).
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [PageAreaOptions](../../com.groupdocs.parser.options/pageareaoptions) | The options for barcodes extraction. |
-
-**Returns:**
-java.lang.Iterable<com.groupdocs.parser.data.PageBarcodeArea> - A collection of [PageBarcodeArea](../../com.groupdocs.parser.data/pagebarcodearea) objects;  null  if barcodes extraction isn't supported.
-### getBarcodes(int pageIndex, PageAreaOptions options) {#getBarcodes-int-com.groupdocs.parser.options.PageAreaOptions-}
-```
-public Iterable<PageBarcodeArea> getBarcodes(int pageIndex, PageAreaOptions options)
+public Iterable<PageBarcodeArea> getBarcodes(int pageIndex, BarcodeOptions options)
 ```
 
 
@@ -2060,7 +2044,7 @@ Extracts barcodes from the document page using customization options (to set the
 | Parameter | Type | Description |
 | --- | --- | --- |
 | pageIndex | int | The zero-based page index. |
-| options | [PageAreaOptions](../../com.groupdocs.parser.options/pageareaoptions) | The options for barcodes extraction. |
+| options | [BarcodeOptions](../../com.groupdocs.parser.options/barcodeoptions) | The options for barcodes extraction. |
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageBarcodeArea> - A collection of [PageBarcodeArea](../../com.groupdocs.parser.data/pagebarcodearea) objects;  null  if barcodes extraction isn't supported.

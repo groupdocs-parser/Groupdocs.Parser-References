@@ -3,7 +3,7 @@ title: ExternalResourceLoadingArgs
 second_title: GroupDocs.Parser for Java API Reference
 description: Provides the data for  method.
 type: docs
-weight: 16
+weight: 17
 url: /java/com.groupdocs.parser.options/externalresourceloadingargs/
 ---
 **Inheritance:**

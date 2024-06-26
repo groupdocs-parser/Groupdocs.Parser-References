@@ -3,7 +3,7 @@ title: ExternalResourceHandler
 second_title: GroupDocs.Parser for Java API Reference
 description: Provides a handler for external resources loading.
 type: docs
-weight: 15
+weight: 16
 url: /java/com.groupdocs.parser.options/externalresourcehandler/
 ---
 **Inheritance:**

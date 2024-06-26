@@ -3,7 +3,7 @@ title: EmailPopConnection
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents the email connection information for POP protocol.
 type: docs
-weight: 14
+weight: 15
 url: /java/com.groupdocs.parser.options/emailpopconnection/
 ---
 **Inheritance:**

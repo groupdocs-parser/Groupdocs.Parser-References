@@ -3,7 +3,7 @@ title: SearchOptions
 second_title: GroupDocs.Parser for Java API Reference
 description: Provides the options which are used for text search.
 type: docs
-weight: 34
+weight: 35
 url: /java/com.groupdocs.parser.options/searchoptions/
 ---
 **Inheritance:**
