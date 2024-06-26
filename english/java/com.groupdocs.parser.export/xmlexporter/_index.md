@@ -22,12 +22,12 @@ Provides the functionality to export data in XML format.
 
 | Method | Description |
 | --- | --- |
-| [exportMetadata(Iterable<MetadataItem> metadata, OutputStream stream)](#exportMetadata-java.lang.Iterable-com.groupdocs.parser.data.MetadataItem--java.io.OutputStream-) |  |
-| [exportDocumentInfo(IDocumentInfo documentInfo, OutputStream stream)](#exportDocumentInfo-com.groupdocs.parser.options.IDocumentInfo-java.io.OutputStream-) |  |
-| [exportTextAreas(Iterable<PageTextArea> textAreas, OutputStream stream)](#exportTextAreas-java.lang.Iterable-com.groupdocs.parser.data.PageTextArea--java.io.OutputStream-) |  |
-| [exportTables(Iterable<PageTableArea> tables, OutputStream stream)](#exportTables-java.lang.Iterable-com.groupdocs.parser.data.PageTableArea--java.io.OutputStream-) |  |
-| [exportBarcodes(Iterable<PageBarcodeArea> barcodes, OutputStream stream)](#exportBarcodes-java.lang.Iterable-com.groupdocs.parser.data.PageBarcodeArea--java.io.OutputStream-) |  |
-| [exportDocumentData(DocumentData documentData, OutputStream stream)](#exportDocumentData-com.groupdocs.parser.data.DocumentData-java.io.OutputStream-) |  |
+| [exportMetadata(Iterable<MetadataItem> metadata, OutputStream stream)](#exportMetadata-java.lang.Iterable-com.groupdocs.parser.data.MetadataItem--java.io.OutputStream-) | \{@inheritDoc\} |
+| [exportDocumentInfo(IDocumentInfo documentInfo, OutputStream stream)](#exportDocumentInfo-com.groupdocs.parser.options.IDocumentInfo-java.io.OutputStream-) | \{@inheritDoc\} |
+| [exportTextAreas(Iterable<PageTextArea> textAreas, OutputStream stream)](#exportTextAreas-java.lang.Iterable-com.groupdocs.parser.data.PageTextArea--java.io.OutputStream-) | \{@inheritDoc\} |
+| [exportTables(Iterable<PageTableArea> tables, OutputStream stream)](#exportTables-java.lang.Iterable-com.groupdocs.parser.data.PageTableArea--java.io.OutputStream-) | \{@inheritDoc\} |
+| [exportBarcodes(Iterable<PageBarcodeArea> barcodes, OutputStream stream)](#exportBarcodes-java.lang.Iterable-com.groupdocs.parser.data.PageBarcodeArea--java.io.OutputStream-) | \{@inheritDoc\} |
+| [exportDocumentData(DocumentData documentData, OutputStream stream)](#exportDocumentData-com.groupdocs.parser.data.DocumentData-java.io.OutputStream-) | \{@inheritDoc\} |
 ### XmlExporter() {#XmlExporter--}
 ```
 public XmlExporter()
