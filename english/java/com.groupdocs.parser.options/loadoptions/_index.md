@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: GroupDocs.Parser for Java API Reference
 description: Provides the options which are used to open a file.
 type: docs
-weight: 23
+weight: 24
 url: /java/com.groupdocs.parser.options/loadoptions/
 ---
 **Inheritance:**

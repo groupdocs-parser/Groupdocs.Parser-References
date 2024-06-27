@@ -13,6 +13,7 @@ is_root: true
 | [com.groupdocs.parser](./com.groupdocs.parser) | The package provides classes for parsing data from documents. |
 | [com.groupdocs.parser.data](./com.groupdocs.parser.data) | The package provides classes which represent parsing results. |
 | [com.groupdocs.parser.exceptions](./com.groupdocs.parser.exceptions) | The package provides different exceptions classes. |
+| [com.groupdocs.parser.export](./com.groupdocs.parser.export) | The package provides classes that allow users to export data to different formats. |
 | [com.groupdocs.parser.licensing](./com.groupdocs.parser.licensing) | The package provides classes to set license or use Metered billing. |
 | [com.groupdocs.parser.options](./com.groupdocs.parser.options) | The package provides classes to specify additional options when parsing data from documents. |
 | [com.groupdocs.parser.templates](./com.groupdocs.parser.templates) | The package provides classes for creating templates for parsing document data. |

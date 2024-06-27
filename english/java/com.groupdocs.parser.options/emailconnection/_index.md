@@ -3,7 +3,7 @@ title: EmailConnection
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents the email connection information.
 type: docs
-weight: 11
+weight: 12
 url: /java/com.groupdocs.parser.options/emailconnection/
 ---
 **Inheritance:**

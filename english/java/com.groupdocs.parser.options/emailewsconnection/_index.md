@@ -3,7 +3,7 @@ title: EmailEwsConnection
 second_title: GroupDocs.Parser for Java API Reference
 description: Represents the email connection information for EWS protocol.
 type: docs
-weight: 12
+weight: 13
 url: /java/com.groupdocs.parser.options/emailewsconnection/
 ---
 **Inheritance:**

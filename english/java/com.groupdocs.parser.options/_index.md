@@ -3,7 +3,7 @@ title: com.groupdocs.parser.options
 second_title: GroupDocs.Parser for Java API Reference
 description: The package provides classes to specify additional options when parsing data from documents.
 type: docs
-weight: 14
+weight: 15
 url: /java/com.groupdocs.parser.options/
 ---
 
@@ -14,6 +14,7 @@ The package provides classes to specify additional options when parsing data fro
 
 | Class | Description |
 | --- | --- |
+| [BarcodeOptions](../com.groupdocs.parser.options/barcodeoptions) | Provides the options which are used for barcode extraction. |
 | [DocumentInfo](../com.groupdocs.parser.options/documentinfo) | Represents the document information. |
 | [EmailConnection](../com.groupdocs.parser.options/emailconnection) | Represents the email connection information. |
 | [EmailEwsConnection](../com.groupdocs.parser.options/emailewsconnection) | Represents the email connection information for EWS protocol. |
@@ -61,3 +62,4 @@ The package provides classes to specify additional options when parsing data fro
 | [FormattedTextMode](../com.groupdocs.parser.options/formattedtextmode) | Defines a formatted text mode. |
 | [ImageFormat](../com.groupdocs.parser.options/imageformat) | Defines a format of the image. |
 | [PreviewFormats](../com.groupdocs.parser.options/previewformats) | Represents supported preview formats. |
+| [QualityMode](../com.groupdocs.parser.options/qualitymode) | Defines a level of the quality. |

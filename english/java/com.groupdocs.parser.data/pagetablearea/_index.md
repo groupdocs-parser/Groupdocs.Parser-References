@@ -24,6 +24,7 @@ Represents a table page area which is used to represent a table in the parsing b
 
 | Method | Description |
 | --- | --- |
+| [getCells()](#getCells--) | Gets the collection of cells. |
 | [getRowCount()](#getRowCount--) | Gets the total number of the table rows. |
 | [getColumnCount()](#getColumnCount--) | Gets the total number of the table colums. |
 | [getRowHeight(int rowIndex)](#getRowHeight-int-) | Returns the row height. |
@@ -46,6 +47,16 @@ Initializes a new instance of the [PageTableArea](../../com.groupdocs.parser.dat
 | page | [Page](../../com.groupdocs.parser.data/page) | The page that contains the table. |
 | rectangle | [Rectangle](../../com.groupdocs.parser.data/rectangle) | The rectangular area that contains the table. |
 
+### getCells() {#getCells--}
+```
+public Collection<PageTableAreaCell> getCells()
+```
+
+
+Gets the collection of cells. A plain read-only collection of table cells.
+
+**Returns:**
+java.util.Collection<com.groupdocs.parser.data.PageTableAreaCell> - A collection of table cells
 ### getRowCount() {#getRowCount--}
 ```
 public int getRowCount()
