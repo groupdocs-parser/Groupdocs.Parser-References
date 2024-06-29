@@ -3,7 +3,7 @@ title: RecognizeTextAreas
 second_title: GroupDocs.Parser for .NET API Reference
 description: Recognize text areas from imageStream stream.
 type: docs
-weight: 20
+weight: 50
 url: /net/groupdocs.parser.options/ocrconnectorbase/recognizetextareas/
 ---
 ## OcrConnectorBase.RecognizeTextAreas method

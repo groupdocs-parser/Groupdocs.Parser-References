@@ -14,6 +14,14 @@ Provides the OCR functionality.
 public abstract class OcrConnectorBase
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| virtual [IsTextAreasSupported](../../groupdocs.parser.options/ocrconnectorbase/istextareassupported) { get; } | Gets the value that indicates whether the text areas extraction is supported. |
+| virtual [IsTextPageSupported](../../groupdocs.parser.options/ocrconnectorbase/istextpagesupported) { get; } | Gets the value that indicates whether the text page extraction is supported. |
+| virtual [IsTextSupported](../../groupdocs.parser.options/ocrconnectorbase/istextsupported) { get; } | Gets the value that indicates whether the text extraction is supported. |
+
 ## Methods
 
 | Name | Description |
