@@ -3,7 +3,7 @@ title: RecognizeText
 second_title: GroupDocs.Parser for .NET API Reference
 description: Recognize a text from imageStream stream.
 type: docs
-weight: 10
+weight: 40
 url: /net/groupdocs.parser.options/ocrconnectorbase/recognizetext/
 ---
 ## OcrConnectorBase.RecognizeText method
