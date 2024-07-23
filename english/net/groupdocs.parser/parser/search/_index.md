@@ -3,7 +3,7 @@ title: Search
 second_title: GroupDocs.Parser for .NET API Reference
 description: Searches a keyword in the document.
 type: docs
-weight: 210
+weight: 220
 url: /net/groupdocs.parser/parser/search/
 ---
 ## Search(string) {#search}

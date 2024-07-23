@@ -3,7 +3,7 @@ title: GetFileInfo
 second_title: GroupDocs.Parser for .NET API Reference
 description: Returns the general information about a file.
 type: docs
-weight: 220
+weight: 230
 url: /net/groupdocs.parser/parser/getfileinfo/
 ---
 ## GetFileInfo(string) {#getfileinfo_2}
