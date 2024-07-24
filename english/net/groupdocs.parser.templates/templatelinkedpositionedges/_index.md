@@ -3,7 +3,7 @@ title: TemplateLinkedPositionEdges
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the edges of the linked field where the text field is seached. TemplateLinkedPositionEdges./templatelinkedpositionedges is used in TemplateLinkedPosition./templatelinkedposition class.
 type: docs
-weight: 780
+weight: 800
 url: /net/groupdocs.parser.templates/templatelinkedpositionedges/
 ---
 ## TemplateLinkedPositionEdges class

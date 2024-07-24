@@ -3,7 +3,7 @@ title: TextOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used for text extraction.
 type: docs
-weight: 700
+weight: 720
 url: /net/groupdocs.parser.options/textoptions/
 ---
 ## TextOptions class

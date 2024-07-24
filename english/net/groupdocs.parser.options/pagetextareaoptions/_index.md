@@ -3,7 +3,7 @@ title: PageTextAreaOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used for page text areas extraction.
 type: docs
-weight: 610
+weight: 630
 url: /net/groupdocs.parser.options/pagetextareaoptions/
 ---
 ## PageTextAreaOptions class

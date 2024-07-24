@@ -1,30 +1,29 @@
 ---
-title: PreviewOptions.PreviewFormats
+title: PagePreviewFormat
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents supported preview formats.
 type: docs
-weight: 660
-url: /net/groupdocs.parser.options/previewoptions.previewformats/
+weight: 590
+url: /net/groupdocs.parser.options/pagepreviewformat/
 ---
-## PreviewOptions.PreviewFormats enumeration
+## PagePreviewFormat enumeration
 
 Represents supported preview formats.
 
 ```csharp
-public enum PreviewFormats
+public enum PagePreviewFormat
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| PNG | `0` |  |
-| JPEG | `1` |  |
-| BMP | `2` |  |
+| Png | `0` | PNG image (Portable Network Graphics). |
+| Jpeg | `1` | JPEG image (Joint Photographic Experts Group Format). |
+| Bmp | `2` | Bitmap image (Bitmap Picture Format). |
 
 ### See Also
 
-* class [PreviewOptions](../previewoptions)
 * namespace [GroupDocs.Parser.Options](../../groupdocs.parser.options)
 * assembly [GroupDocs.Parser](../../)
 

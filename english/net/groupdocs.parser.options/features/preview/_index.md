@@ -3,7 +3,7 @@ title: Preview
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether preview generation is supported.
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.parser.options/features/preview/
 ---
 ## Features.Preview property

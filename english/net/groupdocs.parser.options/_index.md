@@ -33,6 +33,7 @@ The namespace provides classes to specify additional options when parsing data f
 | [OcrOptions](./ocroptions) | Provides the options which are used for OCR Connector. |
 | [PageAreaOptions](./pageareaoptions) | Provides the options which are used for page areas extraction. |
 | [PageInfo](./pageinfo) | Represents the document page information. |
+| [PagePreviewOptions](./pagepreviewoptions) | Provides the options which are used to generate the document page preview. |
 | [PageRenderInfo](./pagerenderinfo) | Represents the information of how a page is rendered. |
 | [PageTableAreaOptions](./pagetableareaoptions) | Provides the options which are used for page table areas extraction. |
 | [PageTextAreaOptions](./pagetextareaoptions) | Provides the options which are used for page text areas extraction. |
@@ -57,6 +58,7 @@ The namespace provides classes to specify additional options when parsing data f
 | [FileTypeDetectionMode](./filetypedetectionmode) | Defines a mode of the file type detection. |
 | [FormattedTextMode](./formattedtextmode) | Defines a formatted text mode. |
 | [ImageFormat](./imageformat) | Defines a format of the image. |
+| [PagePreviewFormat](./pagepreviewformat) | Represents supported preview formats. |
 | [PreviewOptions.PreviewFormats](./previewoptions.previewformats) | Represents supported preview formats. |
 | [QualityMode](./qualitymode) | Defines a level of the quality. |
 

@@ -3,7 +3,7 @@ title: ParserSettings
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the settings which are used to customize data extraction.
 type: docs
-weight: 620
+weight: 640
 url: /net/groupdocs.parser.options/parsersettings/
 ---
 ## ParserSettings class

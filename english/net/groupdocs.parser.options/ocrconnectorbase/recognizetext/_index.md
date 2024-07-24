@@ -3,7 +3,7 @@ title: RecognizeText
 second_title: GroupDocs.Parser for .NET API Reference
 description: Recognize a text from imageStream stream.
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.parser.options/ocrconnectorbase/recognizetext/
 ---
 ## OcrConnectorBase.RecognizeText method
@@ -11,13 +11,12 @@ url: /net/groupdocs.parser.options/ocrconnectorbase/recognizetext/
 Recognize a text from *imageStream* stream.
 
 ```csharp
-public virtual string RecognizeText(Stream imageStream, int pageIndex, OcrOptions options)
+public virtual string RecognizeText(Stream imageStream, OcrOptions options)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | imageStream | Stream | The image representation of the document page. |
-| pageIndex | Int32 | The page index of the document. |
 | options | OcrOptions | The OCR options. |
 
 ### Return Value

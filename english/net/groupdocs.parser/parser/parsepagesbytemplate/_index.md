@@ -3,7 +3,7 @@ title: ParsePagesByTemplate
 second_title: GroupDocs.Parser for .NET API Reference
 description: Parses the document pages by the usergenerated template.
 type: docs
-weight: 200
+weight: 210
 url: /net/groupdocs.parser/parser/parsepagesbytemplate/
 ---
 ## Parser.ParsePagesByTemplate method

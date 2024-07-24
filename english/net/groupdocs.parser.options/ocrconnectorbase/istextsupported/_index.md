@@ -3,7 +3,7 @@ title: IsTextSupported
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether the text extraction is supported.
 type: docs
-weight: 30
+weight: 20
 url: /net/groupdocs.parser.options/ocrconnectorbase/istextsupported/
 ---
 ## OcrConnectorBase.IsTextSupported property

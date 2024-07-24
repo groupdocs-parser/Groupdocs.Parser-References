@@ -3,7 +3,7 @@ title: RecognizeTextAreas
 second_title: GroupDocs.Parser for .NET API Reference
 description: Recognize text areas from imageStream stream.
 type: docs
-weight: 50
+weight: 40
 url: /net/groupdocs.parser.options/ocrconnectorbase/recognizetextareas/
 ---
 ## OcrConnectorBase.RecognizeTextAreas method
@@ -11,14 +11,13 @@ url: /net/groupdocs.parser.options/ocrconnectorbase/recognizetextareas/
 Recognize text areas from *imageStream* stream.
 
 ```csharp
-public virtual IList<PageTextArea> RecognizeTextAreas(Stream imageStream, int pageIndex, 
-    Size pageSize, OcrOptions options)
+public virtual IList<PageTextArea> RecognizeTextAreas(Stream imageStream, Size pageSize, 
+    OcrOptions options)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | imageStream | Stream | The image representation of the document page. |
-| pageIndex | Int32 | The page index of the document. |
 | pageSize | Size | The size of the document page. |
 | options | OcrOptions | The OCR options. |
 

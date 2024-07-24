@@ -18,9 +18,10 @@ public class OcrOptions
 
 | Name | Description |
 | --- | --- |
-| [OcrOptions](ocroptions#constructor_2)(OcrEventHandler) | Initializes a new instance of the [`OcrOptions`](../ocroptions) class with [`OcrEventHandler`](../ocreventhandler) object. |
+| [OcrOptions](ocroptions#constructor_3)(OcrEventHandler) | Initializes a new instance of the [`OcrOptions`](../ocroptions) class with [`OcrEventHandler`](../ocreventhandler) object. |
 | [OcrOptions](ocroptions#constructor)(Rectangle) | Initializes a new instance of the [`OcrOptions`](../ocroptions) class with rectangular area. |
-| [OcrOptions](ocroptions#constructor_1)(Rectangle, OcrEventHandler) | Initializes a new instance of the [`OcrOptions`](../ocroptions) class. |
+| [OcrOptions](ocroptions#constructor_1)(Rectangle, OcrEventHandler) | Initializes a new instance of the [`OcrOptions`](../ocroptions) class with rectangular area and [`OcrEventHandler`](../ocreventhandler) object. |
+| [OcrOptions](ocroptions#constructor_2)(Rectangle, OcrEventHandler, bool) | Initializes a new instance of the [`OcrOptions`](../ocroptions) class. |
 
 ## Properties
 
@@ -28,6 +29,7 @@ public class OcrOptions
 | --- | --- |
 | [Handler](../../groupdocs.parser.options/ocroptions/handler) { get; } | Gets the event handler to catch OCR events. |
 | [Rectangle](../../groupdocs.parser.options/ocroptions/rectangle) { get; } | Gets the rectangular area that constraints the page area which is used for text recognizing. |
+| [UseSpellChecker](../../groupdocs.parser.options/ocroptions/usespellchecker) { get; } | Gets the value that indicates whether the spell checker is used. |
 
 ### See Also
 

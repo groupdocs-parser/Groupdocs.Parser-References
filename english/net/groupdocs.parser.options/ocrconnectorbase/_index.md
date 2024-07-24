@@ -19,15 +19,14 @@ public abstract class OcrConnectorBase
 | Name | Description |
 | --- | --- |
 | virtual [IsTextAreasSupported](../../groupdocs.parser.options/ocrconnectorbase/istextareassupported) { get; } | Gets the value that indicates whether the text areas extraction is supported. |
-| virtual [IsTextPageSupported](../../groupdocs.parser.options/ocrconnectorbase/istextpagesupported) { get; } | Gets the value that indicates whether the text page extraction is supported. |
 | virtual [IsTextSupported](../../groupdocs.parser.options/ocrconnectorbase/istextsupported) { get; } | Gets the value that indicates whether the text extraction is supported. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [RecognizeText](../../groupdocs.parser.options/ocrconnectorbase/recognizetext)(Stream, int, OcrOptions) | Recognize a text from *imageStream* stream. |
-| virtual [RecognizeTextAreas](../../groupdocs.parser.options/ocrconnectorbase/recognizetextareas)(Stream, int, Size, OcrOptions) | Recognize text areas from *imageStream* stream. |
+| virtual [RecognizeText](../../groupdocs.parser.options/ocrconnectorbase/recognizetext#recognizetext)(Stream, OcrOptions) | Recognize a text from *imageStream* stream. |
+| virtual [RecognizeTextAreas](../../groupdocs.parser.options/ocrconnectorbase/recognizetextareas#recognizetextareas)(Stream, Size, OcrOptions) | Recognize text areas from *imageStream* stream. |
 
 ### See Also
 
