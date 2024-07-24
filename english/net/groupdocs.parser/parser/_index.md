@@ -66,7 +66,7 @@ public sealed class Parser : IDisposable
 | [GetImages](../../groupdocs.parser/parser/getimages#getimages_3)(int, PageAreaOptions) | Extracts images from the document page using customization options (to set the rectangular area that contains images). |
 | [GetMetadata](../../groupdocs.parser/parser/getmetadata)() | Extracts metadata from the document. |
 | [GetPagePreview](../../groupdocs.parser/parser/getpagepreview#getpagepreview)(int) | Generates a document page preview. |
-| [GetPagePreview](../../groupdocs.parser/parser/getpagepreview#getpagepreview_1)(int, PagePreviewOptions) | Generates a document page preview with customization. |
+| [GetPagePreview](../../groupdocs.parser/parser/getpagepreview#getpagepreview_1)(int, PagePreviewOptions) | Generates a document page preview using customization options. |
 | [GetStructure](../../groupdocs.parser/parser/getstructure)() | Extracts a structured text from the document. |
 | [GetTables](../../groupdocs.parser/parser/gettables#gettables)(PageTableAreaOptions) | Extracts tables from the document. |
 | [GetTables](../../groupdocs.parser/parser/gettables#gettables_1)(int, PageTableAreaOptions) | Extracts tables from the document page. |

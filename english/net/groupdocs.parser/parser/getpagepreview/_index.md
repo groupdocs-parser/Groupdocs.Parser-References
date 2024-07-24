@@ -20,13 +20,7 @@ public Stream GetPagePreview(int pageIndex)
 
 ### Return Value
 
-An instance of Stream containing an image of the document page;
-
-```csharp
-null
-```
-
-if the feature isn't supported.
+An instance of Stream containing an image of the document page; `null` if the page preview generation isn't supported.
 
 ### See Also
 
@@ -38,7 +32,7 @@ if the feature isn't supported.
 
 ## GetPagePreview(int, PagePreviewOptions) {#getpagepreview_1}
 
-Generates a document page preview with customization.
+Generates a document page preview using customization options.
 
 ```csharp
 public Stream GetPagePreview(int pageIndex, PagePreviewOptions options)
@@ -51,13 +45,7 @@ public Stream GetPagePreview(int pageIndex, PagePreviewOptions options)
 
 ### Return Value
 
-An instance of Stream containing an image of the document page;
-
-```csharp
-null
-```
-
-if the feature isn't supported.
+An instance of Stream containing an image of the document page; `null` if the page preview generation isn't supported.
 
 ### See Also
 

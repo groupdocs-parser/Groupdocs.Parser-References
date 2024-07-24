@@ -27,7 +27,7 @@ public sealed class Features
 | [Images](../../groupdocs.parser.options/features/images) { get; } | Gets the value that indicates whether images extraction is supported. |
 | [Metadata](../../groupdocs.parser.options/features/metadata) { get; } | Gets the value that indicates whether metadata extraction is supported. |
 | [Ocr](../../groupdocs.parser.options/features/ocr) { get; } | Gets the value that indicates whether OCR functionality is supported. |
-| [PagePreview](../../groupdocs.parser.options/features/pagepreview) { get; } | Gets the value that indicates whether page preview is supported. |
+| [PagePreview](../../groupdocs.parser.options/features/pagepreview) { get; } | Gets the value that indicates whether the page preview generation is supported. |
 | [ParseByTemplate](../../groupdocs.parser.options/features/parsebytemplate) { get; } | Gets the value that indicates whether parsing by template is supported. |
 | [ParseForm](../../groupdocs.parser.options/features/parseform) { get; } | Gets the value that indicates whether form parsing is supported. |
 | [Preview](../../groupdocs.parser.options/features/preview) { get; } | Gets the value that indicates whether preview generation is supported. |
