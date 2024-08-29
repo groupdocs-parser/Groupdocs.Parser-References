@@ -3,7 +3,7 @@ title: ExternalResourceLoadingArgs
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the data for OnLoading./externalresourcehandler/onloading method.
 type: docs
-weight: 400
+weight: 430
 url: /net/groupdocs.parser.options/externalresourceloadingargs/
 ---
 ## ExternalResourceLoadingArgs class

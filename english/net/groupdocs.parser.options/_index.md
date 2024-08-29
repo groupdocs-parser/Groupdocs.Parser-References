@@ -44,6 +44,7 @@ The namespace provides classes to specify additional options when parsing data f
 | [SearchOptions](./searchoptions) | Provides the options which are used for text search. |
 | [TextDocumentInfo](./textdocumentinfo) | Represents the text document information. |
 | [TextOptions](./textoptions) | Provides the options which are used for text extraction. |
+| [WorksheetOptions](./worksheetoptions) | Provides the options which are used for the worksheet extraction. |
 ## Interfaces
 
 | Interface | Description |

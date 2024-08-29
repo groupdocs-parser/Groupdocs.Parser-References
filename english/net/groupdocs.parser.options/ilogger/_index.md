@@ -3,7 +3,7 @@ title: ILogger
 second_title: GroupDocs.Parser for .NET API Reference
 description: Defines the interface of a logger that is used for logging events and errors during data extraction.
 type: docs
-weight: 500
+weight: 530
 url: /net/groupdocs.parser.options/ilogger/
 ---
 ## ILogger interface

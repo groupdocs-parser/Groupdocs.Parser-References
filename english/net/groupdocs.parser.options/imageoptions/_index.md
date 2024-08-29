@@ -3,7 +3,7 @@ title: ImageOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used for image extraction.
 type: docs
-weight: 520
+weight: 550
 url: /net/groupdocs.parser.options/imageoptions/
 ---
 ## ImageOptions class

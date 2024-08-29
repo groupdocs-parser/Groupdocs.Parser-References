@@ -3,7 +3,7 @@ title: BarcodeOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used for barcode extraction.
 type: docs
-weight: 320
+weight: 350
 url: /net/groupdocs.parser.options/barcodeoptions/
 ---
 ## BarcodeOptions class

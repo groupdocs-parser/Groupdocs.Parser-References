@@ -6,7 +6,38 @@ type: docs
 weight: 40
 url: /net/groupdocs.parser.options/ocrconnectorbase/recognizetextareas/
 ---
-## OcrConnectorBase.RecognizeTextAreas method
+## RecognizeTextAreas(Stream, int, Size, OcrOptions) {#recognizetextareas_1}
+
+Recognize text areas from *imageStream* stream.
+
+```csharp
+public virtual IList<PageTextArea> RecognizeTextAreas(Stream imageStream, int pageIndex, 
+    Size pageSize, OcrOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageStream | Stream | The image representation of the document page. |
+| pageIndex | Int32 | The page index of the document. |
+| pageSize | Size | The size of the document page. |
+| options | OcrOptions | The OCR options. |
+
+### Return Value
+
+A collection of [`PageTextArea`](../../../groupdocs.parser.data/pagetextarea) objects; `null` if text areas recognizing isn't supported.
+
+### See Also
+
+* class [PageTextArea](../../../groupdocs.parser.data/pagetextarea)
+* class [Size](../../../groupdocs.parser.data/size)
+* class [OcrOptions](../../ocroptions)
+* class [OcrConnectorBase](../../ocrconnectorbase)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## RecognizeTextAreas(Stream, Size, OcrOptions) {#recognizetextareas}
 
 Recognize text areas from *imageStream* stream.
 
