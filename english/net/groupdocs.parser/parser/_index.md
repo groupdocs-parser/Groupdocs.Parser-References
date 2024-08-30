@@ -3,7 +3,7 @@ title: Parser
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents the main class that controls text images container extraction and parsing functionality.
 type: docs
-weight: 730
+weight: 770
 url: /net/groupdocs.parser/parser/
 ---
 ## Parser class
@@ -79,6 +79,10 @@ public sealed class Parser : IDisposable
 | [GetTextAreas](../../groupdocs.parser/parser/gettextareas#gettextareas_1)(PageTextAreaOptions) | Extracts text areas from the document using customization options (regular expression, match case, etc.). |
 | [GetTextAreas](../../groupdocs.parser/parser/gettextareas#gettextareas_3)(int, PageTextAreaOptions) | Extracts text areas from the document page using customization options (regular expression, match case, etc.). |
 | [GetToc](../../groupdocs.parser/parser/gettoc)() | Extracts a table of contents from the document. |
+| [GetWorksheetCells](../../groupdocs.parser/parser/getworksheetcells#getworksheetcells)(int) | Extracts worksheet cells. |
+| [GetWorksheetCells](../../groupdocs.parser/parser/getworksheetcells#getworksheetcells_1)(int, WorksheetOptions) | Extracts worksheet cells using customization options. |
+| [GetWorksheetInfo](../../groupdocs.parser/parser/getworksheetinfo#getworksheetinfo_1)() | Extracts the info about all worksheets in the spreadsheet. |
+| [GetWorksheetInfo](../../groupdocs.parser/parser/getworksheetinfo#getworksheetinfo)(int) | Extracts the info about the worksheet. |
 | [ParseByTemplate](../../groupdocs.parser/parser/parsebytemplate)(Template) | Parses the document by the user-generated template. |
 | [ParseForm](../../groupdocs.parser/parser/parseform)() | Parses the document form. |
 | [ParsePagesByTemplate](../../groupdocs.parser/parser/parsepagesbytemplate)(Template) | Parses the document pages by the user-generated template. |

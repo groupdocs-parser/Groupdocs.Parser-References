@@ -3,7 +3,7 @@ title: GroupDocsParserException
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents the errors that occur during application execution.
 type: docs
-weight: 230
+weight: 260
 url: /net/groupdocs.parser.exceptions/groupdocsparserexception/
 ---
 ## GroupDocsParserException class

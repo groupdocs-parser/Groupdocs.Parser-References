@@ -3,7 +3,7 @@ title: OcrConnectorBase
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the OCR functionality.
 type: docs
-weight: 540
+weight: 570
 url: /net/groupdocs.parser.options/ocrconnectorbase/
 ---
 ## OcrConnectorBase class
@@ -27,6 +27,7 @@ public abstract class OcrConnectorBase
 | --- | --- |
 | virtual [RecognizeText](../../groupdocs.parser.options/ocrconnectorbase/recognizetext#recognizetext)(Stream, OcrOptions) | Recognize a text from *imageStream* stream. |
 | virtual [RecognizeTextAreas](../../groupdocs.parser.options/ocrconnectorbase/recognizetextareas#recognizetextareas)(Stream, Size, OcrOptions) | Recognize text areas from *imageStream* stream. |
+| virtual [RecognizeTextAreas](../../groupdocs.parser.options/ocrconnectorbase/recognizetextareas#recognizetextareas_1)(Stream, int, Size, OcrOptions) | Recognize text areas from *imageStream* stream. |
 
 ### See Also
 

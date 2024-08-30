@@ -3,7 +3,7 @@ title: Features
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents the supported features list. Allows to obtain information which features are supported or not for the document.
 type: docs
-weight: 410
+weight: 440
 url: /net/groupdocs.parser.options/features/
 ---
 ## Features class
@@ -38,6 +38,7 @@ public sealed class Features
 | [TextAreas](../../groupdocs.parser.options/features/textareas) { get; } | Gets the value that indicates whether text areas extraction is supported. |
 | [TextPage](../../groupdocs.parser.options/features/textpage) { get; } | Gets the value that indicates whether text page extraction is supported. |
 | [Toc](../../groupdocs.parser.options/features/toc) { get; } | Gets the value that indicates whether table of contents extraction is supported. |
+| [Worksheet](../../groupdocs.parser.options/features/worksheet) { get; } | Gets the value that indicates whether the worksheet extraction is supported. |
 
 ## Methods
 

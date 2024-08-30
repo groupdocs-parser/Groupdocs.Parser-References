@@ -3,7 +3,7 @@ title: UnsupportedDocumentFormatException
 second_title: GroupDocs.Parser for .NET API Reference
 description: Thrown during document load when the document format is not recognized or not supported.
 type: docs
-weight: 250
+weight: 280
 url: /net/groupdocs.parser.exceptions/unsupporteddocumentformatexception/
 ---
 ## UnsupportedDocumentFormatException class

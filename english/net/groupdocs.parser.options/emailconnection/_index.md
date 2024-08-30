@@ -3,7 +3,7 @@ title: EmailConnection
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents the email connection information.
 type: docs
-weight: 350
+weight: 380
 url: /net/groupdocs.parser.options/emailconnection/
 ---
 ## EmailConnection class

@@ -3,7 +3,7 @@ title: InvalidPasswordException
 second_title: GroupDocs.Parser for .NET API Reference
 description: Thrown if a document is encrypted with a password and the password specified when opening the document is incorrect or missing.
 type: docs
-weight: 240
+weight: 270
 url: /net/groupdocs.parser.exceptions/invalidpasswordexception/
 ---
 ## InvalidPasswordException class
