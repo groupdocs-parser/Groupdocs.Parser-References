@@ -16,7 +16,7 @@ public IEnumerable<WorksheetInfo> GetWorksheetInfo()
 
 ### Return Value
 
-A list of instances of [`WorksheetInfo`](../../../groupdocs.parser.data/worksheetinfo) class that contains the info about all worksheets in the spreadsheet.
+A collection of instances of [`WorksheetInfo`](../../../groupdocs.parser.data/worksheetinfo) class that contains the info about all worksheets in the spreadsheet.
 
 ### See Also
 
@@ -41,7 +41,7 @@ public WorksheetInfo GetWorksheetInfo(int worksheetIndex)
 
 ### Return Value
 
-An instance of !:=WorksheetInfo class that contains the info about all worksheets in the spreadsheet.
+An instance of [`WorksheetInfo`](../../../groupdocs.parser.data/worksheetinfo) class that contains the info about all worksheets in the spreadsheet.
 
 ### See Also
 

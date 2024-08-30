@@ -20,7 +20,7 @@ public IEnumerable<WorksheetCell> GetWorksheetCells(int worksheetIndex)
 
 ### Return Value
 
-A collection of instances of [`WorksheetInfo`](../../../groupdocs.parser.data/worksheetinfo) class that contains the cell data.
+A collection of instances of [`WorksheetCell`](../../../groupdocs.parser.data/worksheetcell) class that contains the cell data.
 
 ### See Also
 
@@ -46,7 +46,7 @@ public IEnumerable<WorksheetCell> GetWorksheetCells(int worksheetIndex, Workshee
 
 ### Return Value
 
-A collection of instances of [`WorksheetInfo`](../../../groupdocs.parser.data/worksheetinfo) class that contains the cell data.
+A collection of instances of [`WorksheetCell`](../../../groupdocs.parser.data/worksheetcell) class that contains the cell data.
 
 ### See Also
 
