@@ -3,7 +3,7 @@ title: TIF
 second_title: GroupDocs.Parser for .NET API Reference
 description: TIF Tagged Image File Format represents raster images that are meant for usage on a variety of devices that comply with this file format standard. Learn more about this file format herehttps//wiki.fileformat.com/image/tiff/.
 type: docs
-weight: 730
+weight: 740
 url: /net/groupdocs.parser.options/filetype/tif/
 ---
 ## FileType.TIF field

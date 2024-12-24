@@ -20,9 +20,14 @@ public sealed class ParserSettings
 | --- | --- |
 | [ParserSettings](parsersettings#constructor)(ExternalResourceHandler) | Initializes a new instance of the [`ParserSettings`](../parsersettings) class with the External Resource Handler. |
 | [ParserSettings](parsersettings#constructor_1)(ILogger) | Initializes a new instance of the [`ParserSettings`](../parsersettings) class with the logger. |
-| [ParserSettings](parsersettings#constructor_4)(OcrConnectorBase) | Initializes a new instance of the [`ParserSettings`](../parsersettings) class with the OCR Connector. |
+| [ParserSettings](parsersettings#constructor_7)(OcrConnectorBase) | Initializes a new instance of the [`ParserSettings`](../parsersettings) class with the OCR Connector. |
+| [ParserSettings](parsersettings#constructor_9)(PagePreviewOptions) | Initializes a new instance of the [`ParserSettings`](../parsersettings) class with the page preview options. |
 | [ParserSettings](parsersettings#constructor_2)(ILogger, OcrConnectorBase) | Initializes a new instance of the [`ParserSettings`](../parsersettings) class with logger and OCR Connector. |
-| [ParserSettings](parsersettings#constructor_3)(ILogger, OcrConnectorBase, ExternalResourceHandler) | Initializes a new instance of the [`ParserSettings`](../parsersettings) class. |
+| [ParserSettings](parsersettings#constructor_6)(ILogger, PagePreviewOptions) | Initializes a new instance of the [`ParserSettings`](../parsersettings) class with the logger and page preview options. |
+| [ParserSettings](parsersettings#constructor_8)(OcrConnectorBase, PagePreviewOptions) | Initializes a new instance of the [`ParserSettings`](../parsersettings) class with the OCR Connector and page preview options. |
+| [ParserSettings](parsersettings#constructor_3)(ILogger, OcrConnectorBase, ExternalResourceHandler) | Initializes a new instance of the [`ParserSettings`](../parsersettings) class with logger, OCR Connector and External Resource Handler. |
+| [ParserSettings](parsersettings#constructor_5)(ILogger, OcrConnectorBase, PagePreviewOptions) | Initializes a new instance of the [`ParserSettings`](../parsersettings) class with logger, OCR Connector and page preview options. |
+| [ParserSettings](parsersettings#constructor_4)(ILogger, OcrConnectorBase, ExternalResourceHandler, PagePreviewOptions) | Initializes a new instance of the [`ParserSettings`](../parsersettings) class. |
 
 ## Properties
 
@@ -31,6 +36,7 @@ public sealed class ParserSettings
 | [ExternalResourceHandler](../../groupdocs.parser.options/parsersettings/externalresourcehandler) { get; } | Gets the handler for external resources. |
 | [Logger](../../groupdocs.parser.options/parsersettings/logger) { get; } | Gets the logger which is used for logging events and errors during data extraction. |
 | [OcrConnector](../../groupdocs.parser.options/parsersettings/ocrconnector) { get; } | Gets the OCR Connector which is used to provide OCR functionality. |
+| [PagePreviewOptions](../../groupdocs.parser.options/parsersettings/pagepreviewoptions) { get; } | Gets the document page preview options. |
 
 ### Remarks
 

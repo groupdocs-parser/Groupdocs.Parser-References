@@ -3,7 +3,7 @@ title: XLTX
 second_title: GroupDocs.Parser for .NET API Reference
 description: Files with XLTX extension represent Microsoft Excel Template files that are based on the Office OpenXML file format specifications. Learn more about this file format herehttps//wiki.fileformat.com/specification/spreadsheet/xltx/.
 type: docs
-weight: 890
+weight: 900
 url: /net/groupdocs.parser.options/filetype/xltx/
 ---
 ## FileType.XLTX field

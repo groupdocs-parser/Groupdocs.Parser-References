@@ -3,7 +3,7 @@ title: XLA
 second_title: GroupDocs.Parser for .NET API Reference
 description: The Excel 972003 AddIn a supplemental program that is designed to run additional code. Supports the use of VBA projects.
 type: docs
-weight: 810
+weight: 820
 url: /net/groupdocs.parser.options/filetype/xla/
 ---
 ## FileType.XLA field

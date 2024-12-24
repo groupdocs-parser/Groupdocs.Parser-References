@@ -3,7 +3,7 @@ title: TAR
 second_title: GroupDocs.Parser for .NET API Reference
 description: Files with .tar extension are archives created with Unixbased utility for collecting one or more files. Learn more about this file format herehttps//wiki.fileformat.com/compression/tar/.
 type: docs
-weight: 710
+weight: 720
 url: /net/groupdocs.parser.options/filetype/tar/
 ---
 ## FileType.TAR field

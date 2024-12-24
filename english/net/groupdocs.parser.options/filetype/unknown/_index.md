@@ -3,7 +3,7 @@ title: Unknown
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents unknown file type.
 type: docs
-weight: 770
+weight: 780
 url: /net/groupdocs.parser.options/filetype/unknown/
 ---
 ## FileType.Unknown field
