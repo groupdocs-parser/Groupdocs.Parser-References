@@ -1,12 +1,28 @@
 ---
 title: PagePreviewOptions
 second_title: GroupDocs.Parser for .NET API Reference
-description: Initializes a new instance of the PagePreviewOptionsgroupdocs.parser.options/pagepreviewoptions class with the preview format.
+description: Initializes a new instance of the PagePreviewOptionsgroupdocs.parser.options/pagepreviewoptions class.
 type: docs
 weight: 10
 url: /net/groupdocs.parser.options/pagepreviewoptions/pagepreviewoptions/
 ---
-## PagePreviewOptions(PagePreviewFormat) {#constructor}
+## PagePreviewOptions() {#constructor}
+
+Initializes a new instance of the [`PagePreviewOptions`](../../pagepreviewoptions) class.
+
+```csharp
+public PagePreviewOptions()
+```
+
+### See Also
+
+* class [PagePreviewOptions](../../pagepreviewoptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## PagePreviewOptions(PagePreviewFormat) {#constructor_1}
 
 Initializes a new instance of the [`PagePreviewOptions`](../../pagepreviewoptions) class with the preview format.
 
@@ -27,7 +43,7 @@ public PagePreviewOptions(PagePreviewFormat format)
 
 ---
 
-## PagePreviewOptions(int) {#constructor_2}
+## PagePreviewOptions(int) {#constructor_3}
 
 Initializes a new instance of the [`PagePreviewOptions`](../../pagepreviewoptions) class with the preview dpi.
 
@@ -47,7 +63,7 @@ public PagePreviewOptions(int dpi)
 
 ---
 
-## PagePreviewOptions(PagePreviewFormat, int) {#constructor_1}
+## PagePreviewOptions(PagePreviewFormat, int) {#constructor_2}
 
 Initializes a new instance of the [`PagePreviewOptions`](../../pagepreviewoptions) class the preview format and dpi.
 

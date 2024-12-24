@@ -3,7 +3,7 @@ title: XLS
 second_title: GroupDocs.Parser for .NET API Reference
 description: Files with XLS extension represent Excel Binary File Format. Such files can be created by Microsoft Excel as well as other similar spreadsheet programs such as OpenOffice Calc or Apple Numbers. Learn more about this file format herehttps//wiki.fileformat.com/specification/spreadsheet/xls/.
 type: docs
-weight: 830
+weight: 840
 url: /net/groupdocs.parser.options/filetype/xls/
 ---
 ## FileType.XLS field
