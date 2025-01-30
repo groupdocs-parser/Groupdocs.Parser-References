@@ -20,11 +20,15 @@ public sealed class LoadOptions
 | --- | --- |
 | [LoadOptions](loadoptions#constructor)() | Initializes a new instance of the [`LoadOptions`](../loadoptions) class with empty [`Password`](./password), [`FileFormat`](./fileformat) equal to Unknown and default encodings. |
 | [LoadOptions](loadoptions#constructor_1)(FileFormat) | Initializes a new instance of the [`LoadOptions`](../loadoptions) class with empty [`Password`](./password) and default encodings. |
-| [LoadOptions](loadoptions#constructor_5)(string) | Initializes a new instance of the [`LoadOptions`](../loadoptions) class with [`FileFormat`](./fileformat) equal to Unknown and default encodings. |
-| [LoadOptions](loadoptions#constructor_6)(TimeSpan) | Initializes a new instance of the [`LoadOptions`](../loadoptions) class with *timeout*. |
+| [LoadOptions](loadoptions#constructor_5)(FileType) | Initializes a new instance of the [`LoadOptions`](../loadoptions) class with empty [`Password`](./password) and default encodings. |
+| [LoadOptions](loadoptions#constructor_9)(string) | Initializes a new instance of the [`LoadOptions`](../loadoptions) class with [`FileFormat`](./fileformat) equal to Unknown and default encodings. |
+| [LoadOptions](loadoptions#constructor_10)(TimeSpan) | Initializes a new instance of the [`LoadOptions`](../loadoptions) class with *timeout*. |
 | [LoadOptions](loadoptions#constructor_2)(FileFormat, string) | Initializes a new instance of the [`LoadOptions`](../loadoptions) class with the password and default encodings. |
+| [LoadOptions](loadoptions#constructor_6)(FileType, string) | Initializes a new instance of the [`LoadOptions`](../loadoptions) class with the password and default encodings. |
 | [LoadOptions](loadoptions#constructor_3)(FileFormat, string, Encoding, Encoding) | Initializes a new instance of the [`LoadOptions`](../loadoptions) class with custom encodings. |
+| [LoadOptions](loadoptions#constructor_7)(FileType, string, Encoding, Encoding) | Initializes a new instance of the [`LoadOptions`](../loadoptions) class with custom encodings. |
 | [LoadOptions](loadoptions#constructor_4)(FileFormat, string, Encoding, Encoding, TimeSpan) | Initializes a new instance of the [`LoadOptions`](../loadoptions) fully customized class. |
+| [LoadOptions](loadoptions#constructor_8)(FileType, string, Encoding, Encoding, TimeSpan) | Initializes a new instance of the [`LoadOptions`](../loadoptions) fully customized class. |
 
 ## Properties
 
@@ -33,6 +37,7 @@ public sealed class LoadOptions
 | [DefaultAnsiEncoding](../../groupdocs.parser.options/loadoptions/defaultansiencoding) { get; } | Gets the default ANSI encoding which is used for encoding detection. |
 | [Encoding](../../groupdocs.parser.options/loadoptions/encoding) { get; } | Gets the encoding of the document. |
 | [FileFormat](../../groupdocs.parser.options/loadoptions/fileformat) { get; } | Gets the file format. |
+| [FileType](../../groupdocs.parser.options/loadoptions/filetype) { get; } | Gets the file type. |
 | [Password](../../groupdocs.parser.options/loadoptions/password) { get; } | Gets the password. |
 | [Timeout](../../groupdocs.parser.options/loadoptions/timeout) { get; } | Gets the value that represents the number of milliseconds to wait. |
 

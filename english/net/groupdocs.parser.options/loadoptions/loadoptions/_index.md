@@ -22,7 +22,7 @@ public LoadOptions()
 
 ---
 
-## LoadOptions(TimeSpan) {#constructor_6}
+## LoadOptions(TimeSpan) {#constructor_10}
 
 Initializes a new instance of the [`LoadOptions`](../../loadoptions) class with *timeout*.
 
@@ -42,7 +42,7 @@ public LoadOptions(TimeSpan timeout)
 
 ---
 
-## LoadOptions(string) {#constructor_5}
+## LoadOptions(string) {#constructor_9}
 
 Initializes a new instance of the [`LoadOptions`](../../loadoptions) class with [`FileFormat`](../fileformat) equal to Unknown and default encodings.
 
@@ -150,6 +150,100 @@ public LoadOptions(FileFormat fileFormat, string password, Encoding encoding,
 ### See Also
 
 * enum [FileFormat](../../fileformat)
+* class [LoadOptions](../../loadoptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## LoadOptions(FileType) {#constructor_5}
+
+Initializes a new instance of the [`LoadOptions`](../../loadoptions) class with empty [`Password`](../password) and default encodings.
+
+```csharp
+public LoadOptions(FileType fileType)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileType | FileType | The type of the file. |
+
+### See Also
+
+* class [FileType](../../filetype)
+* class [LoadOptions](../../loadoptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## LoadOptions(FileType, string) {#constructor_6}
+
+Initializes a new instance of the [`LoadOptions`](../../loadoptions) class with the password and default encodings.
+
+```csharp
+public LoadOptions(FileType fileType, string password)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileType | FileType | The type of the file. |
+| password | String | The password to open the password-protected file. |
+
+### See Also
+
+* class [FileType](../../filetype)
+* class [LoadOptions](../../loadoptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## LoadOptions(FileType, string, Encoding, Encoding) {#constructor_7}
+
+Initializes a new instance of the [`LoadOptions`](../../loadoptions) class with custom encodings.
+
+```csharp
+public LoadOptions(FileType fileType, string password, Encoding encoding, 
+    Encoding defaultAnsiEncoding)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileType | FileType | The type of the file. |
+| password | String | The password to open the password-protected file. |
+| encoding | Encoding | The encoding of the document. |
+| defaultAnsiEncoding | Encoding | The default ANSI encoding which is used for encoding detection. |
+
+### See Also
+
+* class [FileType](../../filetype)
+* class [LoadOptions](../../loadoptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## LoadOptions(FileType, string, Encoding, Encoding, TimeSpan) {#constructor_8}
+
+Initializes a new instance of the [`LoadOptions`](../../loadoptions) fully customized class.
+
+```csharp
+public LoadOptions(FileType fileType, string password, Encoding encoding, 
+    Encoding defaultAnsiEncoding, TimeSpan timeout)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileType | FileType | The type of the file. |
+| password | String | The password to open the password-protected file. |
+| encoding | Encoding | The encoding of the document. |
+| defaultAnsiEncoding | Encoding | The default ANSI encoding which is used for encoding detection. |
+| timeout | TimeSpan | The TimeSpan that represents the number of milliseconds to wait. |
+
+### See Also
+
+* class [FileType](../../filetype)
 * class [LoadOptions](../../loadoptions)
 * namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
 * assembly [GroupDocs.Parser](../../../)
