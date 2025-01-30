@@ -1,25 +1,26 @@
 ---
-title: Password
+title: FileType
 second_title: GroupDocs.Parser for .NET API Reference
-description: Gets the password.
+description: Gets the file type.
 type: docs
-weight: 60
-url: /net/groupdocs.parser.options/loadoptions/password/
+weight: 50
+url: /net/groupdocs.parser.options/loadoptions/filetype/
 ---
-## LoadOptions.Password property
+## LoadOptions.FileType property
 
-Gets the password.
+Gets the file type.
 
 ```csharp
-public string Password { get; }
+public FileType FileType { get; }
 ```
 
 ### Property Value
 
-A string value that represents a password to open the password-protected file.
+[`FileType`](../../filetype) enumeration that contains a file type.
 
 ### See Also
 
+* class [FileType](../../filetype)
 * class [LoadOptions](../../loadoptions)
 * namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
 * assembly [GroupDocs.Parser](../../../)

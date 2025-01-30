@@ -3,7 +3,7 @@ title: Timeout
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that represents the number of milliseconds to wait.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.parser.options/loadoptions/timeout/
 ---
 ## LoadOptions.Timeout property

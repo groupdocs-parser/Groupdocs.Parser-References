@@ -18,7 +18,7 @@ public enum PagePreviewFormat
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Auto | `0` | Images retain their format if no changes are required. For other cases, PNG formats are used. |
+| Auto | `0` | PNG, JPEG and BMP images retain their format if no changes are required. For other cases, PNG format is used. |
 | Png | `1` | PNG image (Portable Network Graphics). |
 | Jpeg | `2` | JPEG image (Joint Photographic Experts Group Format). |
 | Bmp | `3` | Bitmap image (Bitmap Picture Format). |
