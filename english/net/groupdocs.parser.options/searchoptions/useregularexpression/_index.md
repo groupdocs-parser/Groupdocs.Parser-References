@@ -3,7 +3,7 @@ title: UseRegularExpression
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether a regular expression is used.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.parser.options/searchoptions/useregularexpression/
 ---
 ## SearchOptions.UseRegularExpression property

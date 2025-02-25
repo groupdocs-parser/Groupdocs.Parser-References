@@ -3,7 +3,7 @@ title: Options
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the template options.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.parser.templates/template/options/
 ---
 ## Template.Options property

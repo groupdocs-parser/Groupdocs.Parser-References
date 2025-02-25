@@ -37,6 +37,7 @@ The namespace provides classes to specify additional options when parsing data f
 | [PageRenderInfo](./pagerenderinfo) | Represents the information of how a page is rendered. |
 | [PageTableAreaOptions](./pagetableareaoptions) | Provides the options which are used for page table areas extraction. |
 | [PageTextAreaOptions](./pagetextareaoptions) | Provides the options which are used for page text areas extraction. |
+| [ParseByTemplateOptions](./parsebytemplateoptions) | Provides the options which are used to parse by template. |
 | [ParserSettings](./parsersettings) | Provides the settings which are used to customize data extraction. |
 | [PreviewOptions](./previewoptions) | Provides options to sets requirements and stream delegates for preview generation. |
 | [PreviewPageRender](./previewpagerender) | Represents a method which is called before a document page is rendered. |

@@ -34,6 +34,33 @@ public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpress
 
 ---
 
+## SearchOptions(bool, bool, bool, int, HighlightOptions, HighlightOptions) {#constructor_6}
+
+Initializes a new instance of the [`SearchOptions`](../../searchoptions) class with the page limit.
+
+```csharp
+public SearchOptions(bool matchCase, bool matchWholeWord, bool useRegularExpression, 
+    int maxPageIndex, HighlightOptions leftHighlightOptions, HighlightOptions rightHighlightOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| matchCase | Boolean | The value that indicates whether a text case isn't ignored. |
+| matchWholeWord | Boolean | The value that indicates whether text search is limited by a whole word. |
+| useRegularExpression | Boolean | The value that indicates whether a regular expression is used. |
+| maxPageIndex | Int32 | he value that indicates whether the search is performed by pages. |
+| leftHighlightOptions | HighlightOptions | The options for the left highlight. |
+| rightHighlightOptions | HighlightOptions | The options for the right highlight. |
+
+### See Also
+
+* class [HighlightOptions](../../highlightoptions)
+* class [SearchOptions](../../searchoptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
 ## SearchOptions(bool, bool, bool, HighlightOptions, HighlightOptions) {#constructor_5}
 
 Initializes a new instance of the [`SearchOptions`](../../searchoptions) class which is used to search with the highlight options for the left and the right highlight extraction.

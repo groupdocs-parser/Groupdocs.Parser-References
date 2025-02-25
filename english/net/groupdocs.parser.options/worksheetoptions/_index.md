@@ -3,7 +3,7 @@ title: WorksheetOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used for the worksheet extraction.
 type: docs
-weight: 760
+weight: 770
 url: /net/groupdocs.parser.options/worksheetoptions/
 ---
 ## WorksheetOptions class

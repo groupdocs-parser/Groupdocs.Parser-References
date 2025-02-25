@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /net/groupdocs.parser.options/ocrconnectorbase/recognizetextareas/
 ---
-## RecognizeTextAreas(Stream, int, Size, OcrOptions) {#recognizetextareas_1}
+## RecognizeTextAreas(Stream, int, Size, OcrOptions) {#recognizetextareas_2}
 
 Recognize text areas from *imageStream* stream.
 
@@ -37,7 +37,7 @@ A collection of [`PageTextArea`](../../../groupdocs.parser.data/pagetextarea) ob
 
 ---
 
-## RecognizeTextAreas(Stream, Size, OcrOptions) {#recognizetextareas}
+## RecognizeTextAreas(Stream, Size, OcrOptions) {#recognizetextareas_1}
 
 Recognize text areas from *imageStream* stream.
 
@@ -60,6 +60,43 @@ A collection of [`PageTextArea`](../../../groupdocs.parser.data/pagetextarea) ob
 
 * class [PageTextArea](../../../groupdocs.parser.data/pagetextarea)
 * class [Size](../../../groupdocs.parser.data/size)
+* class [OcrOptions](../../ocroptions)
+* class [OcrConnectorBase](../../ocrconnectorbase)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## RecognizeTextAreas(Stream, Page, OcrOptions) {#recognizetextareas}
+
+```csharp
+public virtual IList<PageTextArea> RecognizeTextAreas(Stream imageStream, Page page, 
+    OcrOptions options)
+```
+
+### See Also
+
+* class [PageTextArea](../../../groupdocs.parser.data/pagetextarea)
+* class [Page](../../../groupdocs.parser.data/page)
+* class [OcrOptions](../../ocroptions)
+* class [OcrConnectorBase](../../ocrconnectorbase)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## RecognizeTextAreas(Stream, IEnumerable&lt;Rectangle&gt;, string, Page, OcrOptions) {#recognizetextareas_3}
+
+```csharp
+public virtual IList<PageTextArea> RecognizeTextAreas(Stream imageStream, 
+    IEnumerable<Rectangle> rectangles, string allowedSymbols, Page page, OcrOptions options)
+```
+
+### See Also
+
+* class [PageTextArea](../../../groupdocs.parser.data/pagetextarea)
+* class [Rectangle](../../../groupdocs.parser.data/rectangle)
+* class [Page](../../../groupdocs.parser.data/page)
 * class [OcrOptions](../../ocroptions)
 * class [OcrConnectorBase](../../ocrconnectorbase)
 * namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)

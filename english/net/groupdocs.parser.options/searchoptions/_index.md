@@ -3,7 +3,7 @@ title: SearchOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used for text search.
 type: docs
-weight: 730
+weight: 740
 url: /net/groupdocs.parser.options/searchoptions/
 ---
 ## SearchOptions class
@@ -24,6 +24,7 @@ public sealed class SearchOptions
 | [SearchOptions](searchoptions#constructor_4)(bool, bool, bool, HighlightOptions) | Initializes a new instance of the [`SearchOptions`](../searchoptions) class which is used to search with the same highlight options for the left and the right highlight extraction. |
 | [SearchOptions](searchoptions#constructor_5)(bool, bool, bool, HighlightOptions, HighlightOptions) | Initializes a new instance of the [`SearchOptions`](../searchoptions) class which is used to search with the highlight options for the left and the right highlight extraction. |
 | [SearchOptions](searchoptions#constructor_3)(bool, bool, bool, bool, HighlightOptions, HighlightOptions) | Initializes a new instance of the [`SearchOptions`](../searchoptions) class. |
+| [SearchOptions](searchoptions#constructor_6)(bool, bool, bool, int, HighlightOptions, HighlightOptions) | Initializes a new instance of the [`SearchOptions`](../searchoptions) class with the page limit. |
 
 ## Properties
 
@@ -32,6 +33,7 @@ public sealed class SearchOptions
 | [LeftHighlightOptions](../../groupdocs.parser.options/searchoptions/lefthighlightoptions) { get; } | Gets the options for the left highlight. |
 | [MatchCase](../../groupdocs.parser.options/searchoptions/matchcase) { get; } | Gets the value that indicates whether a text case isn't ignored. |
 | [MatchWholeWord](../../groupdocs.parser.options/searchoptions/matchwholeword) { get; } | Gets the value that indicates whether text search is limited by a whole word. |
+| [MaxPageIndex](../../groupdocs.parser.options/searchoptions/maxpageindex) { get; } | Gets the value that represents the max index of the page to search. |
 | [RightHighlightOptions](../../groupdocs.parser.options/searchoptions/righthighlightoptions) { get; } | Gets the options for the right highlight. |
 | [SearchByPages](../../groupdocs.parser.options/searchoptions/searchbypages) { get; } | Gets the value that indicates whether the search is performed by pages. |
 | [UseRegularExpression](../../groupdocs.parser.options/searchoptions/useregularexpression) { get; } | Gets the value that indicates whether a regular expression is used. |
