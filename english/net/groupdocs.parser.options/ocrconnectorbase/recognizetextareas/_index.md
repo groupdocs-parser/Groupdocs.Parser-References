@@ -6,73 +6,24 @@ type: docs
 weight: 40
 url: /net/groupdocs.parser.options/ocrconnectorbase/recognizetextareas/
 ---
-## RecognizeTextAreas(Stream, int, Size, OcrOptions) {#recognizetextareas_2}
-
-Recognize text areas from *imageStream* stream.
-
-```csharp
-public virtual IList<PageTextArea> RecognizeTextAreas(Stream imageStream, int pageIndex, 
-    Size pageSize, OcrOptions options)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| imageStream | Stream | The image representation of the document page. |
-| pageIndex | Int32 | The page index of the document. |
-| pageSize | Size | The size of the document page. |
-| options | OcrOptions | The OCR options. |
-
-### Return Value
-
-A collection of [`PageTextArea`](../../../groupdocs.parser.data/pagetextarea) objects; `null` if text areas recognizing isn't supported.
-
-### See Also
-
-* class [PageTextArea](../../../groupdocs.parser.data/pagetextarea)
-* class [Size](../../../groupdocs.parser.data/size)
-* class [OcrOptions](../../ocroptions)
-* class [OcrConnectorBase](../../ocrconnectorbase)
-* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
-* assembly [GroupDocs.Parser](../../../)
-
----
-
-## RecognizeTextAreas(Stream, Size, OcrOptions) {#recognizetextareas_1}
-
-Recognize text areas from *imageStream* stream.
-
-```csharp
-public virtual IList<PageTextArea> RecognizeTextAreas(Stream imageStream, Size pageSize, 
-    OcrOptions options)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| imageStream | Stream | The image representation of the document page. |
-| pageSize | Size | The size of the document page. |
-| options | OcrOptions | The OCR options. |
-
-### Return Value
-
-A collection of [`PageTextArea`](../../../groupdocs.parser.data/pagetextarea) objects; `null` if text areas recognizing isn't supported.
-
-### See Also
-
-* class [PageTextArea](../../../groupdocs.parser.data/pagetextarea)
-* class [Size](../../../groupdocs.parser.data/size)
-* class [OcrOptions](../../ocroptions)
-* class [OcrConnectorBase](../../ocrconnectorbase)
-* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
-* assembly [GroupDocs.Parser](../../../)
-
----
-
 ## RecognizeTextAreas(Stream, Page, OcrOptions) {#recognizetextareas}
+
+Recognize text areas from *imageStream* stream.
 
 ```csharp
 public virtual IList<PageTextArea> RecognizeTextAreas(Stream imageStream, Page page, 
     OcrOptions options)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageStream | Stream | The image representation of the document page. |
+| page | Page | The the document page. |
+| options | OcrOptions | The OCR options. |
+
+### Return Value
+
+A collection of [`PageTextArea`](../../../groupdocs.parser.data/pagetextarea) objects; `null` if text areas recognizing isn't supported.
 
 ### See Also
 
@@ -87,10 +38,24 @@ public virtual IList<PageTextArea> RecognizeTextAreas(Stream imageStream, Page p
 
 ## RecognizeTextAreas(Stream, IEnumerable&lt;Rectangle&gt;, string, Page, OcrOptions) {#recognizetextareas_3}
 
+Recognize text areas from *imageStream* stream.
+
 ```csharp
 public virtual IList<PageTextArea> RecognizeTextAreas(Stream imageStream, 
     IEnumerable<Rectangle> rectangles, string allowedSymbols, Page page, OcrOptions options)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageStream | Stream | The image representation of the document page. |
+| rectangles | IEnumerable`1 | The collection of rectangular areas that limits the OCR functionality. |
+| allowedSymbols | String | The filter of allowed symbols by OCR. |
+| page | Page | The the document page. |
+| options | OcrOptions | The OCR options. |
+
+### Return Value
+
+A collection of [`PageTextArea`](../../../groupdocs.parser.data/pagetextarea) objects; `null` if text areas recognizing isn't supported.
 
 ### See Also
 
