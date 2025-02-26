@@ -3,7 +3,7 @@ title: GetEnumerator
 second_title: GroupDocs.Parser for .NET API Reference
 description: Returns an enumerator for template items.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.parser.templates/template/getenumerator/
 ---
 ## Template.GetEnumerator method

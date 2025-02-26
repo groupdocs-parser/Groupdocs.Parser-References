@@ -3,7 +3,7 @@ title: Parser
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents the main class that controls text images container extraction and parsing functionality.
 type: docs
-weight: 770
+weight: 780
 url: /net/groupdocs.parser/parser/
 ---
 ## Parser class
@@ -83,9 +83,11 @@ public sealed class Parser : IDisposable
 | [GetWorksheetCells](../../groupdocs.parser/parser/getworksheetcells#getworksheetcells_1)(int, WorksheetOptions) | Extracts worksheet cells using customization options. |
 | [GetWorksheetInfo](../../groupdocs.parser/parser/getworksheetinfo#getworksheetinfo_1)() | Extracts the info about all worksheets in the spreadsheet. |
 | [GetWorksheetInfo](../../groupdocs.parser/parser/getworksheetinfo#getworksheetinfo)(int) | Extracts the info about the worksheet. |
-| [ParseByTemplate](../../groupdocs.parser/parser/parsebytemplate)(Template) | Parses the document by the user-generated template. |
+| [ParseByTemplate](../../groupdocs.parser/parser/parsebytemplate#parsebytemplate)(Template) | Parses the document by the user-generated template. |
+| [ParseByTemplate](../../groupdocs.parser/parser/parsebytemplate#parsebytemplate_1)(Template, ParseByTemplateOptions) | Parses the document by the user-generated template using customization options. |
 | [ParseForm](../../groupdocs.parser/parser/parseform)() | Parses the document form. |
-| [ParsePagesByTemplate](../../groupdocs.parser/parser/parsepagesbytemplate)(Template) | Parses the document pages by the user-generated template. |
+| [ParsePagesByTemplate](../../groupdocs.parser/parser/parsepagesbytemplate#parsepagesbytemplate)(Template) | Parses the document pages by the user-generated template. |
+| [ParsePagesByTemplate](../../groupdocs.parser/parser/parsepagesbytemplate#parsepagesbytemplate_1)(Template, ParseByTemplateOptions) | Parses the document pages by the user-generated template using customization options. |
 | [Search](../../groupdocs.parser/parser/search#search)(string) | Searches a *keyword* in the document. |
 | [Search](../../groupdocs.parser/parser/search#search_1)(string, SearchOptions) | Searches a *keyword* in the document using search options (regular expression, match case, etc.). |
 | static [GetFileInfo](../../groupdocs.parser/parser/getfileinfo#getfileinfo)(Stream) | Returns the general information about a file. |

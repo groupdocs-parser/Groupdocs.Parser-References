@@ -3,7 +3,7 @@ title: SearchByPages
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether the search is performed by pages.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.parser.options/searchoptions/searchbypages/
 ---
 ## SearchOptions.SearchByPages property

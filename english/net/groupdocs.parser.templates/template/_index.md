@@ -3,7 +3,7 @@ title: Template
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the document template. It consists of TemplateItem./templateitem objects which represent the items of the template such as text field and table definitions.
 type: docs
-weight: 780
+weight: 790
 url: /net/groupdocs.parser.templates/template/
 ---
 ## Template class
@@ -26,6 +26,7 @@ public sealed class Template : IEnumerable<TemplateItem>
 | Name | Description |
 | --- | --- |
 | [Count](../../groupdocs.parser.templates/template/count) { get; } | Gets the total number of template items. |
+| [IsOcrCompatible](../../groupdocs.parser.templates/template/isocrcompatible) { get; } | Gets the value that indicates whether the template is compatible with OCR. |
 | [Item](../../groupdocs.parser.templates/template/item) { get; } | Gets the template item by an index. |
 | [Options](../../groupdocs.parser.templates/template/options) { get; } | Gets the template options. |
 

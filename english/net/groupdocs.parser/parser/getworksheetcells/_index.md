@@ -42,7 +42,7 @@ public IEnumerable<WorksheetCell> GetWorksheetCells(int worksheetIndex, Workshee
 | Parameter | Type | Description |
 | --- | --- | --- |
 | worksheetIndex | Int32 | The zero-based index of the worksheet. |
-| options | WorksheetOptions |  |
+| options | WorksheetOptions | The customization options. |
 
 ### Return Value
 

@@ -3,7 +3,7 @@ title: TemplateBarcode
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the template barcode field.
 type: docs
-weight: 790
+weight: 800
 url: /net/groupdocs.parser.templates/templatebarcode/
 ---
 ## TemplateBarcode class

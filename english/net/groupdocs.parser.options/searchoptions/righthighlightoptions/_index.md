@@ -3,7 +3,7 @@ title: RightHighlightOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the options for the right highlight.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.parser.options/searchoptions/righthighlightoptions/
 ---
 ## SearchOptions.RightHighlightOptions property

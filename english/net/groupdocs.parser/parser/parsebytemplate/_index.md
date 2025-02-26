@@ -6,7 +6,7 @@ type: docs
 weight: 210
 url: /net/groupdocs.parser/parser/parsebytemplate/
 ---
-## Parser.ParseByTemplate method
+## ParseByTemplate(Template) {#parsebytemplate}
 
 Parses the document by the user-generated template.
 
@@ -35,6 +35,43 @@ An instance of [`DocumentData`](../../../groupdocs.parser.data/documentdata) cla
 
 * class [DocumentData](../../../groupdocs.parser.data/documentdata)
 * class [Template](../../../groupdocs.parser.templates/template)
+* class [Parser](../../parser)
+* namespace [GroupDocs.Parser](../../../groupdocs.parser)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## ParseByTemplate(Template, ParseByTemplateOptions) {#parsebytemplate_1}
+
+Parses the document by the user-generated template using customization options.
+
+```csharp
+public DocumentData ParseByTemplate(Template template, ParseByTemplateOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| template | Template | The user-generated template. |
+| options | ParseByTemplateOptions | The customization options. |
+
+### Return Value
+
+An instance of [`DocumentData`](../../../groupdocs.parser.data/documentdata) class that contains the extracted data; `null` if parsing by template isn't supported.
+
+### Remarks
+
+**Learn more:**
+
+* [Parse data from documents](https://docs.groupdocs.com/display/parsernet/Parse+data+from+documents)
+* [Working with templates](https://docs.groupdocs.com/display/parsernet/Working+with+templates)
+* [Working with data extracted by template](https://docs.groupdocs.com/display/parsernet/Working+with+data+extracted+by+template)
+* [Parse data from PDF documents](https://docs.groupdocs.com/display/parsernet/Parse+data+from+PDF+documents)
+
+### See Also
+
+* class [DocumentData](../../../groupdocs.parser.data/documentdata)
+* class [Template](../../../groupdocs.parser.templates/template)
+* class [ParseByTemplateOptions](../../../groupdocs.parser.options/parsebytemplateoptions)
 * class [Parser](../../parser)
 * namespace [GroupDocs.Parser](../../../groupdocs.parser)
 * assembly [GroupDocs.Parser](../../../)

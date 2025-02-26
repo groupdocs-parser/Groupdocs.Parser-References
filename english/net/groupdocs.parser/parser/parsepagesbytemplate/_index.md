@@ -6,7 +6,7 @@ type: docs
 weight: 230
 url: /net/groupdocs.parser/parser/parsepagesbytemplate/
 ---
-## Parser.ParsePagesByTemplate method
+## ParsePagesByTemplate(Template) {#parsepagesbytemplate}
 
 Parses the document pages by the user-generated template.
 
@@ -26,6 +26,35 @@ A collection of [`DocumentPageData`](../../../groupdocs.parser.data/documentpage
 
 * class [DocumentPageData](../../../groupdocs.parser.data/documentpagedata)
 * class [Template](../../../groupdocs.parser.templates/template)
+* class [Parser](../../parser)
+* namespace [GroupDocs.Parser](../../../groupdocs.parser)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## ParsePagesByTemplate(Template, ParseByTemplateOptions) {#parsepagesbytemplate_1}
+
+Parses the document pages by the user-generated template using customization options.
+
+```csharp
+public IEnumerable<DocumentPageData> ParsePagesByTemplate(Template template, 
+    ParseByTemplateOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| template | Template | The user-generated template. |
+| options | ParseByTemplateOptions | The customization options. |
+
+### Return Value
+
+A collection of [`DocumentPageData`](../../../groupdocs.parser.data/documentpagedata) objects that contains the extracted data; `null` if parsing by template isn't supported.
+
+### See Also
+
+* class [DocumentPageData](../../../groupdocs.parser.data/documentpagedata)
+* class [Template](../../../groupdocs.parser.templates/template)
+* class [ParseByTemplateOptions](../../../groupdocs.parser.options/parsebytemplateoptions)
 * class [Parser](../../parser)
 * namespace [GroupDocs.Parser](../../../groupdocs.parser)
 * assembly [GroupDocs.Parser](../../../)
