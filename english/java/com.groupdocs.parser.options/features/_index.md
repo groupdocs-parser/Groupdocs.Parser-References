@@ -50,7 +50,9 @@ An instance of this class is used as [Parser.getFeatures()](../../com.groupdocs.
 | [isParseByTemplate()](#isParseByTemplate--) | Gets the value that indicates whether parsing by template is supported. |
 | [isParseForm()](#isParseForm--) | Gets the value that indicates whether form parsing is supported. |
 | [isPreview()](#isPreview--) | Gets the value that indicates whether preview generation is supported. |
+| [isPagePreview()](#isPagePreview--) | Gets the value that indicates whether the page preview generation is supported. |
 | [isOcr()](#isOcr--) | Gets the value that indicates whether OCR functionality is supported. |
+| [isWorksheet()](#isWorksheet--) | Gets the value that indicates whether the worksheet extraction is supported. |
 ### Features() {#Features--}
 ```
 public Features()
@@ -252,6 +254,16 @@ Gets the value that indicates whether preview generation is supported.
 
 **Returns:**
 boolean -  true  if preview generation is supported; otherwise,  false .
+### isPagePreview() {#isPagePreview--}
+```
+public boolean isPagePreview()
+```
+
+
+Gets the value that indicates whether the page preview generation is supported.
+
+**Returns:**
+boolean -  true  if the page preview generation is supported; otherwise,  false .
 ### isOcr() {#isOcr--}
 ```
 public boolean isOcr()
@@ -262,3 +274,13 @@ Gets the value that indicates whether OCR functionality is supported.
 
 **Returns:**
 boolean -  true  if OCR functionality is supported; otherwise,  false .
+### isWorksheet() {#isWorksheet--}
+```
+public boolean isWorksheet()
+```
+
+
+Gets the value that indicates whether the worksheet extraction is supported.
+
+**Returns:**
+boolean -  true  if the worksheet extraction is supported; otherwise,  false .

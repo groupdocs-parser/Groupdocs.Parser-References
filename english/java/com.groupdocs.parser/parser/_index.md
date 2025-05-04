@@ -43,6 +43,8 @@ Represents the main class that controls text, images, container extraction and p
 | [getFileInfo(String filePath)](#getFileInfo-java.lang.String-) | Returns the general information about a file. |
 | [getFileInfo(InputStream document)](#getFileInfo-java.io.InputStream-) | Returns the general information about a file. |
 | [getFeatures()](#getFeatures--) | Gets the supported features. |
+| [getPagePreview(int pageIndex)](#getPagePreview-int-) | Generates a document page preview. |
+| [getPagePreview(int pageIndex, PagePreviewOptions options)](#getPagePreview-int-com.groupdocs.parser.options.PagePreviewOptions-) | Generates a document page preview using customization options. |
 | [generatePreview(PreviewOptions previewOptions)](#generatePreview-com.groupdocs.parser.options.PreviewOptions-) | Get pages preview. |
 | [getDocumentInfo()](#getDocumentInfo--) | Returns the general information about the document. |
 | [getText()](#getText--) | Extracts a text from the document. |
@@ -75,6 +77,10 @@ Represents the main class that controls text, images, container extraction and p
 | [getBarcodes(int pageIndex, BarcodeOptions options)](#getBarcodes-int-com.groupdocs.parser.options.BarcodeOptions-) | Extracts barcodes from the document page using customization options (to set the rectangular area that contains barcodes). |
 | [getTables(PageTableAreaOptions options)](#getTables-com.groupdocs.parser.options.PageTableAreaOptions-) | Extracts tables from the document. |
 | [getTables(int pageIndex, PageTableAreaOptions options)](#getTables-int-com.groupdocs.parser.options.PageTableAreaOptions-) | Extracts tables from the document page. |
+| [getWorksheetInfo()](#getWorksheetInfo--) | Extracts the info about all worksheets in the spreadsheet. |
+| [getWorksheetInfo(int worksheetIndex)](#getWorksheetInfo-int-) | Extracts the info about the worksheet. |
+| [getWorksheetCells(int worksheetIndex)](#getWorksheetCells-int-) | Extracts worksheet cells. |
+| [getWorksheetCells(int worksheetIndex, WorksheetOptions options)](#getWorksheetCells-int-com.groupdocs.parser.options.WorksheetOptions-) | Extracts worksheet cells using customization options. |
 | [parseByTemplate(Template template)](#parseByTemplate-com.groupdocs.parser.templates.Template-) | Parses the document by the user-generated template. |
 | [parsePagesByTemplate(Template template)](#parsePagesByTemplate-com.groupdocs.parser.templates.Template-) | Parses the document pages by the user-generated template. |
 | [parseForm()](#parseForm--) | Parses the document form. |
@@ -771,6 +777,37 @@ If the feature isn't supported, the method returns  null  instead of the value. 
 
 **Returns:**
 [Features](../../com.groupdocs.parser.options/features) - An instance of [Features](../../com.groupdocs.parser.options/features) class that represents the supported features.
+### getPagePreview(int pageIndex) {#getPagePreview-int-}
+```
+public OutputStream getPagePreview(int pageIndex)
+```
+
+
+Generates a document page preview.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pageIndex | int | The zero-based page index. |
+
+**Returns:**
+java.io.OutputStream - An instance of java.io.OutputStream containing an image of the document page;  null  if the page preview generation isn't supported.
+### getPagePreview(int pageIndex, PagePreviewOptions options) {#getPagePreview-int-com.groupdocs.parser.options.PagePreviewOptions-}
+```
+public OutputStream getPagePreview(int pageIndex, PagePreviewOptions options)
+```
+
+
+Generates a document page preview using customization options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pageIndex | int | The zero-based page index. |
+| options | [PagePreviewOptions](../../com.groupdocs.parser.options/pagepreviewoptions) | The options to customize the preview generation. |
+
+**Returns:**
+java.io.OutputStream - An instance of java.io.OutputStream containing an image of the document page;  null  if the page preview generation isn't supported.
 ### generatePreview(PreviewOptions previewOptions) {#generatePreview-com.groupdocs.parser.options.PreviewOptions-}
 ```
 public void generatePreview(PreviewOptions previewOptions)
@@ -2187,6 +2224,62 @@ The following example shows how to extract tables from the document page:
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageTableArea> - A collection of [PageTableArea](../../com.groupdocs.parser.data/pagetablearea) objects;  null  if tables extraction isn't supported.
+### getWorksheetInfo() {#getWorksheetInfo--}
+```
+public Iterable<WorksheetInfo> getWorksheetInfo()
+```
+
+
+Extracts the info about all worksheets in the spreadsheet.
+
+**Returns:**
+java.lang.Iterable<com.groupdocs.parser.data.WorksheetInfo> - A list of [WorksheetInfo](../../com.groupdocs.parser.data/worksheetinfo) instances that contains info about all worksheets in the spreadsheet.
+### getWorksheetInfo(int worksheetIndex) {#getWorksheetInfo-int-}
+```
+public WorksheetInfo getWorksheetInfo(int worksheetIndex)
+```
+
+
+Extracts the info about the worksheet.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| worksheetIndex | int | The zero-based index of the worksheet. |
+
+**Returns:**
+[WorksheetInfo](../../com.groupdocs.parser.data/worksheetinfo) - An instance of [WorksheetInfo](../../com.groupdocs.parser.data/worksheetinfo) that contains the info about the worksheet.
+### getWorksheetCells(int worksheetIndex) {#getWorksheetCells-int-}
+```
+public Iterable<WorksheetCell> getWorksheetCells(int worksheetIndex)
+```
+
+
+Extracts worksheet cells.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| worksheetIndex | int | The zero-based index of the worksheet. |
+
+**Returns:**
+java.lang.Iterable<com.groupdocs.parser.data.WorksheetCell> - A collection of [WorksheetCell](../../com.groupdocs.parser.data/worksheetcell) instances that contains the cell data.
+### getWorksheetCells(int worksheetIndex, WorksheetOptions options) {#getWorksheetCells-int-com.groupdocs.parser.options.WorksheetOptions-}
+```
+public Iterable<WorksheetCell> getWorksheetCells(int worksheetIndex, WorksheetOptions options)
+```
+
+
+Extracts worksheet cells using customization options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| worksheetIndex | int | The zero-based index of the worksheet. |
+| options | [WorksheetOptions](../../com.groupdocs.parser.options/worksheetoptions) | The worksheet extraction options. |
+
+**Returns:**
+java.lang.Iterable<com.groupdocs.parser.data.WorksheetCell> - A collection of [WorksheetCell](../../com.groupdocs.parser.data/worksheetcell) instances that contains the cell data.
 ### parseByTemplate(Template template) {#parseByTemplate-com.groupdocs.parser.templates.Template-}
 ```
 public DocumentData parseByTemplate(Template template)

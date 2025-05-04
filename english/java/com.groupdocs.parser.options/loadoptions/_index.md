@@ -40,11 +40,16 @@ See the usage examples there.
 | [LoadOptions(FileFormat fileFormat, String password)](#LoadOptions-com.groupdocs.parser.options.FileFormat-java.lang.String-) | Initializes a new instance of the [LoadOptions](../../com.groupdocs.parser.options/loadoptions) class with default encodings. |
 | [LoadOptions(FileFormat fileFormat, String password, Charset charset, Charset defaultAnsiCharset)](#LoadOptions-com.groupdocs.parser.options.FileFormat-java.lang.String-java.nio.charset.Charset-java.nio.charset.Charset-) | Initializes a new instance of the [LoadOptions](../../com.groupdocs.parser.options/loadoptions) class with custom encodings. |
 | [LoadOptions(FileFormat fileFormat, String password, Charset charset, Charset defaultAnsiCharset, Duration timeout)](#LoadOptions-com.groupdocs.parser.options.FileFormat-java.lang.String-java.nio.charset.Charset-java.nio.charset.Charset-java.time.Duration-) | Initializes a new instance of the [LoadOptions](../../com.groupdocs.parser.options/loadoptions) fully customized class. |
+| [LoadOptions(FileType fileType)](#LoadOptions-com.groupdocs.parser.options.FileType-) | Initializes a new instance of the [LoadOptions](../../com.groupdocs.parser.options/loadoptions) class with empty  Password  and default encodings. |
+| [LoadOptions(FileType fileType, String password)](#LoadOptions-com.groupdocs.parser.options.FileType-java.lang.String-) | Initializes a new instance of the [LoadOptions](../../com.groupdocs.parser.options/loadoptions) class with password and default encodings. |
+| [LoadOptions(FileType fileType, String password, Charset charset, Charset defaultAnsiCharset)](#LoadOptions-com.groupdocs.parser.options.FileType-java.lang.String-java.nio.charset.Charset-java.nio.charset.Charset-) | Initializes a new instance of the [LoadOptions](../../com.groupdocs.parser.options/loadoptions) class with custom encodings. |
+| [LoadOptions(FileType fileType, String password, Charset charset, Charset defaultAnsiCharset, Duration timeout)](#LoadOptions-com.groupdocs.parser.options.FileType-java.lang.String-java.nio.charset.Charset-java.nio.charset.Charset-java.time.Duration-) | Initializes a new instance of the [LoadOptions](../../com.groupdocs.parser.options/loadoptions) fully customized class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getFileFormat()](#getFileFormat--) | Gets the file format. |
+| [getFileType()](#getFileType--) | Gets the file type. |
 | [getPassword()](#getPassword--) | Gets the password. |
 | [getCharset()](#getCharset--) | Gets the encoding of the document. |
 | [getDefaultAnsiCharset()](#getDefaultAnsiCharset--) | Gets the default ANSI encoding which is used for encoding detection. |
@@ -143,6 +148,66 @@ Initializes a new instance of the [LoadOptions](../../com.groupdocs.parser.optio
 | defaultAnsiCharset | java.nio.charset.Charset | The default ANSI encoding which is used for encoding detection. |
 | timeout | java.time.Duration | The Duration that represents the number of milliseconds to wait. |
 
+### LoadOptions(FileType fileType) {#LoadOptions-com.groupdocs.parser.options.FileType-}
+```
+public LoadOptions(FileType fileType)
+```
+
+
+Initializes a new instance of the [LoadOptions](../../com.groupdocs.parser.options/loadoptions) class with empty  Password  and default encodings.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileType | [FileType](../../com.groupdocs.parser.options/filetype) | The type of the file. |
+
+### LoadOptions(FileType fileType, String password) {#LoadOptions-com.groupdocs.parser.options.FileType-java.lang.String-}
+```
+public LoadOptions(FileType fileType, String password)
+```
+
+
+Initializes a new instance of the [LoadOptions](../../com.groupdocs.parser.options/loadoptions) class with password and default encodings.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileType | [FileType](../../com.groupdocs.parser.options/filetype) | The type of the file. |
+| password | java.lang.String | The password to open the password-protected file. |
+
+### LoadOptions(FileType fileType, String password, Charset charset, Charset defaultAnsiCharset) {#LoadOptions-com.groupdocs.parser.options.FileType-java.lang.String-java.nio.charset.Charset-java.nio.charset.Charset-}
+```
+public LoadOptions(FileType fileType, String password, Charset charset, Charset defaultAnsiCharset)
+```
+
+
+Initializes a new instance of the [LoadOptions](../../com.groupdocs.parser.options/loadoptions) class with custom encodings.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileType | [FileType](../../com.groupdocs.parser.options/filetype) | The type of the file. |
+| password | java.lang.String | The password to open the password-protected file. |
+| charset | java.nio.charset.Charset | The encoding of the document. |
+| defaultAnsiCharset | java.nio.charset.Charset | The default ANSI encoding which is used for encoding detection. |
+
+### LoadOptions(FileType fileType, String password, Charset charset, Charset defaultAnsiCharset, Duration timeout) {#LoadOptions-com.groupdocs.parser.options.FileType-java.lang.String-java.nio.charset.Charset-java.nio.charset.Charset-java.time.Duration-}
+```
+public LoadOptions(FileType fileType, String password, Charset charset, Charset defaultAnsiCharset, Duration timeout)
+```
+
+
+Initializes a new instance of the [LoadOptions](../../com.groupdocs.parser.options/loadoptions) fully customized class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileType | [FileType](../../com.groupdocs.parser.options/filetype) | The type of the file. |
+| password | java.lang.String | The password to open the password-protected file. |
+| charset | java.nio.charset.Charset | The encoding of the document. |
+| defaultAnsiCharset | java.nio.charset.Charset | The default ANSI encoding which is used for encoding detection. |
+| timeout | java.time.Duration | The Duration that represents the number of milliseconds to wait. |
+
 ### getFileFormat() {#getFileFormat--}
 ```
 public FileFormat getFileFormat()
@@ -153,6 +218,16 @@ Gets the file format.
 
 **Returns:**
 [FileFormat](../../com.groupdocs.parser.options/fileformat) - [FileFormat](../../com.groupdocs.parser.options/fileformat) enumeration that contains a file format.
+### getFileType() {#getFileType--}
+```
+public FileType getFileType()
+```
+
+
+Gets the file type.
+
+**Returns:**
+[FileType](../../com.groupdocs.parser.options/filetype) - [FileFormat](../../com.groupdocs.parser.options/fileformat) enumeration that contains a file type.
 ### getPassword() {#getPassword--}
 ```
 public String getPassword()

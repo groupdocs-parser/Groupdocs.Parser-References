@@ -43,6 +43,7 @@ An instance of [SearchOptions](../../com.groupdocs.parser.options/searchoptions)
 | Constructor | Description |
 | --- | --- |
 | [SearchOptions(boolean matchCase, boolean matchWholeWord, boolean useRegularExpression, boolean searchByPages, HighlightOptions leftHighlightOptions, HighlightOptions rightHighlightOptions)](#SearchOptions-boolean-boolean-boolean-boolean-com.groupdocs.parser.options.HighlightOptions-com.groupdocs.parser.options.HighlightOptions-) | Initializes a new instance of the [SearchOptions](../../com.groupdocs.parser.options/searchoptions) class. |
+| [SearchOptions(boolean matchCase, boolean matchWholeWord, boolean useRegularExpression, int maxPageIndex, HighlightOptions leftHighlightOptions, HighlightOptions rightHighlightOptions)](#SearchOptions-boolean-boolean-boolean-int-com.groupdocs.parser.options.HighlightOptions-com.groupdocs.parser.options.HighlightOptions-) | Initializes a new instance of the [SearchOptions](../../com.groupdocs.parser.options/searchoptions) class. |
 | [SearchOptions(boolean matchCase, boolean matchWholeWord, boolean useRegularExpression, HighlightOptions leftHighlightOptions, HighlightOptions rightHighlightOptions)](#SearchOptions-boolean-boolean-boolean-com.groupdocs.parser.options.HighlightOptions-com.groupdocs.parser.options.HighlightOptions-) | Initializes a new instance of the [SearchOptions](../../com.groupdocs.parser.options/searchoptions) class which is used to search with the highlight options for the left and the right highlight extraction. |
 | [SearchOptions(boolean matchCase, boolean matchWholeWord, boolean useRegularExpression, HighlightOptions highlightOptions)](#SearchOptions-boolean-boolean-boolean-com.groupdocs.parser.options.HighlightOptions-) | Initializes a new instance of the [SearchOptions](../../com.groupdocs.parser.options/searchoptions) class which is used to search with the same highlight options for the left and the right highlight extraction. |
 | [SearchOptions(boolean matchCase, boolean matchWholeWord, boolean useRegularExpression)](#SearchOptions-boolean-boolean-boolean-) | Initializes a new instance of the [SearchOptions](../../com.groupdocs.parser.options/searchoptions) class which is used to search without highlight extraction. |
@@ -58,6 +59,7 @@ An instance of [SearchOptions](../../com.groupdocs.parser.options/searchoptions)
 | [isSearchByPages()](#isSearchByPages--) | Gets the value that indicates whether the search is performed by pages. |
 | [getLeftHighlightOptions()](#getLeftHighlightOptions--) | Gets the options for the left highlight. |
 | [getRightHighlightOptions()](#getRightHighlightOptions--) | Gets the options for the right highlight. |
+| [getMaxPageIndex()](#getMaxPageIndex--) | Gets the value that represents the max index of the page to search. |
 ### SearchOptions(boolean matchCase, boolean matchWholeWord, boolean useRegularExpression, boolean searchByPages, HighlightOptions leftHighlightOptions, HighlightOptions rightHighlightOptions) {#SearchOptions-boolean-boolean-boolean-boolean-com.groupdocs.parser.options.HighlightOptions-com.groupdocs.parser.options.HighlightOptions-}
 ```
 public SearchOptions(boolean matchCase, boolean matchWholeWord, boolean useRegularExpression, boolean searchByPages, HighlightOptions leftHighlightOptions, HighlightOptions rightHighlightOptions)
@@ -73,6 +75,24 @@ Initializes a new instance of the [SearchOptions](../../com.groupdocs.parser.opt
 | matchWholeWord | boolean | The value that indicates whether text search is limited by a whole word. |
 | useRegularExpression | boolean | The value that indicates whether a regular expression is used. |
 | searchByPages | boolean | The value that indicates whether the search is performed by pages. |
+| leftHighlightOptions | [HighlightOptions](../../com.groupdocs.parser.options/highlightoptions) | The options for the left highlight. |
+| rightHighlightOptions | [HighlightOptions](../../com.groupdocs.parser.options/highlightoptions) | The options for the right highlight. |
+
+### SearchOptions(boolean matchCase, boolean matchWholeWord, boolean useRegularExpression, int maxPageIndex, HighlightOptions leftHighlightOptions, HighlightOptions rightHighlightOptions) {#SearchOptions-boolean-boolean-boolean-int-com.groupdocs.parser.options.HighlightOptions-com.groupdocs.parser.options.HighlightOptions-}
+```
+public SearchOptions(boolean matchCase, boolean matchWholeWord, boolean useRegularExpression, int maxPageIndex, HighlightOptions leftHighlightOptions, HighlightOptions rightHighlightOptions)
+```
+
+
+Initializes a new instance of the [SearchOptions](../../com.groupdocs.parser.options/searchoptions) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| matchCase | boolean | The value that indicates whether a text case isn't ignored. |
+| matchWholeWord | boolean | The value that indicates whether text search is limited by a whole word. |
+| useRegularExpression | boolean | The value that indicates whether a regular expression is used. |
+| maxPageIndex | int | The value that represents the max index of the page to search |
 | leftHighlightOptions | [HighlightOptions](../../com.groupdocs.parser.options/highlightoptions) | The options for the left highlight. |
 | rightHighlightOptions | [HighlightOptions](../../com.groupdocs.parser.options/highlightoptions) | The options for the right highlight. |
 
@@ -216,3 +236,13 @@ Gets the options for the right highlight.
 
 **Returns:**
 [HighlightOptions](../../com.groupdocs.parser.options/highlightoptions) - An instance of [HighlightOptions](../../com.groupdocs.parser.options/highlightoptions) class;  nill  if it isn't set.
+### getMaxPageIndex() {#getMaxPageIndex--}
+```
+public int getMaxPageIndex()
+```
+
+
+Gets the value that represents the max index of the page to search.
+
+**Returns:**
+int - An integer value that represents the max index of the page to search; -1 if not set;
