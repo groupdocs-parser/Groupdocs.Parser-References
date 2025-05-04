@@ -85,6 +85,11 @@ Represents the file type. Provides methods to obtain list of all file types supp
 | [OST](#OST) | OST or Offline Storage Files represent user's mailbox data in offline mode on local machine upon registration with Exchange Server using Microsoft Outlook. |
 | [ONE](#ONE) | File represented by .ONE extension are created by Microsoft OneNote application. |
 | [ZIP](#ZIP) | ZIP file extension represents archives that can hold one or more files or directories. |
+| [SEVENZ](#SEVENZ) | 7z is an archiving format for compressing files and folders with a high compression ratio. |
+| [RAR](#RAR) | Files with .rar extension represent archive files that are created for storing information in compressed or normal form. |
+| [TAR](#TAR) | Files with .tar extension are archives created with Unix-based utility for collecting one or more files. |
+| [GZ](#GZ) | Files with .gz extension are compressed files created with gzip compression application. |
+| [BZ2](#BZ2) | Compressed file using Bzip2 algorithm. |
 | [TIF](#TIF) | TIF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. |
 | [TIFF](#TIFF) | TIFF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. |
 | [JPG](#JPG) | A JPG is a type of image format that is saved using the method of lossy compression. |
@@ -736,6 +741,58 @@ ZIP file extension represents archives that can hold one or more files or direct
 
 
 [here]: https://wiki.fileformat.com/compression/zip/
+
+### SEVENZ {#SEVENZ}
+```
+public static final FileType SEVENZ
+```
+
+
+7z is an archiving format for compressing files and folders with a high compression ratio. Learn more about this file format [here][].
+
+
+[here]: https://wiki.fileformat.com/compression/7z/
+
+### RAR {#RAR}
+```
+public static final FileType RAR
+```
+
+
+Files with .rar extension represent archive files that are created for storing information in compressed or normal form. Learn more about this file format [here][].
+
+
+[here]: https://wiki.fileformat.com/compression/rar/
+
+### TAR {#TAR}
+```
+public static final FileType TAR
+```
+
+
+Files with .tar extension are archives created with Unix-based utility for collecting one or more files. Learn more about this file format [here][].
+
+
+[here]: https://wiki.fileformat.com/compression/tar/
+
+### GZ {#GZ}
+```
+public static final FileType GZ
+```
+
+
+Files with .gz extension are compressed files created with gzip compression application. Learn more about this file format [here][].
+
+
+[here]: https://wiki.fileformat.com/compression/gz/
+
+### BZ2 {#BZ2}
+```
+public static final FileType BZ2
+```
+
+
+Compressed file using Bzip2 algorithm.
 
 ### TIF {#TIF}
 ```
