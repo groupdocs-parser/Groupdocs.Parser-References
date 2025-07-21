@@ -20,7 +20,8 @@ public sealed class TemplateField : TemplateItem
 | --- | --- |
 | [TemplateField](templatefield#constructor)(TemplatePosition, string) | Initializes a new instance of the [`TemplateField`](../templatefield) class. |
 | [TemplateField](templatefield#constructor_1)(TemplatePosition, string, int?) | Initializes a new instance of the [`TemplateField`](../templatefield) class with the UPPER CASE name. |
-| [TemplateField](templatefield#constructor_2)(TemplatePosition, string, int?, bool) | Initializes a new instance of the [`TemplateField`](../templatefield) class. |
+| [TemplateField](templatefield#constructor_2)(TemplatePosition, string, int?, double?) | Initializes a new instance of the [`TemplateField`](../templatefield) class. |
+| [TemplateField](templatefield#constructor_3)(TemplatePosition, string, int?, double?, bool) | Initializes a new instance of the [`TemplateField`](../templatefield) class. |
 
 ## Properties
 
@@ -28,6 +29,7 @@ public sealed class TemplateField : TemplateItem
 | --- | --- |
 | [Name](../../groupdocs.parser.templates/templateitem/name) { get; } | Gets the name of the template item. |
 | [PageIndex](../../groupdocs.parser.templates/templateitem/pageindex) { get; } | Gets the page index of the template item. |
+| [PageWidth](../../groupdocs.parser.templates/templateitem/pagewidth) { get; } | Gets the width of the page that was used to create the template item. |
 | [Position](../../groupdocs.parser.templates/templatefield/position) { get; } | Gets the value that describes how to find the template field on the document page. |
 | [UseUpperCaseName](../../groupdocs.parser.templates/templateitem/useuppercasename) { get; } | Gets a boolean value that indicates whether a `Name` was converted to UPPER CASE. |
 

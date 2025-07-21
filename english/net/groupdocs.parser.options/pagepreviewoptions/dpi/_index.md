@@ -1,14 +1,14 @@
 ---
 title: Dpi
 second_title: GroupDocs.Parser for .NET API Reference
-description: Gets a dpi of the document page image.
+description: Gets a DPI of the document page image.
 type: docs
 weight: 20
 url: /net/groupdocs.parser.options/pagepreviewoptions/dpi/
 ---
 ## PagePreviewOptions.Dpi property
 
-Gets a dpi of the document page image.
+Gets a DPI of the document page image.
 
 ```csharp
 public int Dpi { get; }
@@ -16,7 +16,7 @@ public int Dpi { get; }
 
 ### Property Value
 
-A value that sets the document page dpi. If not set, value is [`DEFAULT_DPI`](../default_dpi).
+A value that sets the document page DPI. If not set, value is [`DEFAULT_DPI`](../default_dpi).
 
 ### See Also
 

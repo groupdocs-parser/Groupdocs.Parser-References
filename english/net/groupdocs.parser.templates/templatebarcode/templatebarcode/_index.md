@@ -51,12 +51,12 @@ public TemplateBarcode(Rectangle rectangle, string name, int? pageIndex)
 
 ---
 
-## TemplateBarcode(Rectangle, string, int?, bool) {#constructor_2}
+## TemplateBarcode(Rectangle, string, int?, double?) {#constructor_2}
 
 Initializes a new instance of the [`TemplateBarcode`](../../templatebarcode) class.
 
 ```csharp
-public TemplateBarcode(Rectangle rectangle, string name, int? pageIndex, bool useUpperCaseName)
+public TemplateBarcode(Rectangle rectangle, string name, int? pageIndex, double? pageWidth)
 ```
 
 | Parameter | Type | Description |
@@ -64,6 +64,32 @@ public TemplateBarcode(Rectangle rectangle, string name, int? pageIndex, bool us
 | rectangle | Rectangle | The rectangular area that contains the template barcode field. |
 | name | String | The barcode field name. |
 | pageIndex | Nullable`1 | An integer value that represents the index of the page where the template item is located; `null` if the template item is located on any page. |
+| pageWidth | Nullable`1 | The width of the page that was used to create the template item. |
+
+### See Also
+
+* class [Rectangle](../../../groupdocs.parser.data/rectangle)
+* class [TemplateBarcode](../../templatebarcode)
+* namespace [GroupDocs.Parser.Templates](../../../groupdocs.parser.templates)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## TemplateBarcode(Rectangle, string, int?, double?, bool) {#constructor_3}
+
+Initializes a new instance of the [`TemplateBarcode`](../../templatebarcode) class.
+
+```csharp
+public TemplateBarcode(Rectangle rectangle, string name, int? pageIndex, double? pageWidth, 
+    bool useUpperCaseName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rectangle | Rectangle | The rectangular area that contains the template barcode field. |
+| name | String | The barcode field name. |
+| pageIndex | Nullable`1 | An integer value that represents the index of the page where the template item is located; `null` if the template item is located on any page. |
+| pageWidth | Nullable`1 | The width of the page that was used to create the template item. |
 | useUpperCaseName | Boolean | The value that indicates whether a `name` is converted to UPPER CASE. |
 
 ### See Also
