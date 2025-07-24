@@ -44,12 +44,12 @@ Template template = new Template(new TemplateItem[] { table });
 
 ---
 
-## TemplateTable(TemplateTableLayout, string, int?, bool) {#constructor_1}
+## TemplateTable(TemplateTableLayout, string, int?, double?) {#constructor_1}
 
-Initializes a new instance of the [`TemplateTable`](../../templatetable) class.
+Initializes a new instance of the [`TemplateTable`](../../templatetable) class with the UPPER CASE name.
 
 ```csharp
-public TemplateTable(TemplateTableLayout layout, string name, int? pageIndex, bool useUpperCaseName)
+public TemplateTable(TemplateTableLayout layout, string name, int? pageIndex, double? pageWidth)
 ```
 
 | Parameter | Type | Description |
@@ -57,6 +57,47 @@ public TemplateTable(TemplateTableLayout layout, string name, int? pageIndex, bo
 | layout | TemplateTableLayout | The table layout. |
 | name | String | The table name. |
 | pageIndex | Nullable`1 | The index of the page where the template table is located; `null` if the template table is located on any page. |
+| pageWidth | Nullable`1 | The width of the page that was used to create the template item. |
+
+### Examples
+
+Template table is set by table layout if the table can't be detected automatically:
+
+```csharp
+TemplateTableLayout layout = new TemplateTableLayout(
+    new double[] { 50, 95, 275 },
+    new double[] { 325, 340, 365 });
+ 
+TemplateTable table = new TemplateTable(layout, "Details", null);
+
+// Create a document template
+Template template = new Template(new TemplateItem[] { table });
+```
+
+### See Also
+
+* class [TemplateTableLayout](../../templatetablelayout)
+* class [TemplateTable](../../templatetable)
+* namespace [GroupDocs.Parser.Templates](../../../groupdocs.parser.templates)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## TemplateTable(TemplateTableLayout, string, int?, double?, bool) {#constructor_2}
+
+Initializes a new instance of the [`TemplateTable`](../../templatetable) class.
+
+```csharp
+public TemplateTable(TemplateTableLayout layout, string name, int? pageIndex, double? pageWidth, 
+    bool useUpperCaseName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| layout | TemplateTableLayout | The table layout. |
+| name | String | The table name. |
+| pageIndex | Nullable`1 | The index of the page where the template table is located; `null` if the template table is located on any page. |
+| pageWidth | Nullable`1 | The width of the page that was used to create the template item. |
 | useUpperCaseName | Boolean | The value that indicates whether a `name` is converted to UPPER CASE. |
 
 ### Examples
@@ -83,7 +124,7 @@ Template template = new Template(new TemplateItem[] { table });
 
 ---
 
-## TemplateTable(TemplateTableParameters, string, int?) {#constructor_2}
+## TemplateTable(TemplateTableParameters, string, int?) {#constructor_3}
 
 Initializes a new instance of the [`TemplateTable`](../../templatetable) class.
 
@@ -121,13 +162,13 @@ Template template = new Template(new TemplateItem[] { table });
 
 ---
 
-## TemplateTable(TemplateTableParameters, string, int?, bool) {#constructor_3}
+## TemplateTable(TemplateTableParameters, string, int?, double?) {#constructor_4}
 
 Initializes a new instance of the [`TemplateTable`](../../templatetable) class.
 
 ```csharp
 public TemplateTable(TemplateTableParameters parameters, string name, int? pageIndex, 
-    bool useUpperCaseName)
+    double? pageWidth)
 ```
 
 | Parameter | Type | Description |
@@ -135,6 +176,47 @@ public TemplateTable(TemplateTableParameters parameters, string name, int? pageI
 | parameters | TemplateTableParameters | The parameters to detect the table in the automatic mode. |
 | name | String | The table name. |
 | pageIndex | Nullable`1 | The index of the page where the template table is located; `null` if the template table is located on any page. |
+| pageWidth | Nullable`1 | The width of the page that was used to create the template item. |
+
+### Examples
+
+If a template table is set by detector parameters, the table is detected automatically:
+
+```csharp
+TemplateTableParameters parameters = new TemplateTableParameters(
+    new Rectangle(new Point(175, 350), new Size(400, 200)),
+    new double[] { 185, 370, 425, 485, 545 });
+
+TemplateTable table = new TemplateTable(parameters, "Details", 0, false);
+
+// Create a document template
+Template template = new Template(new TemplateItem[] { table });
+```
+
+### See Also
+
+* class [TemplateTableParameters](../../templatetableparameters)
+* class [TemplateTable](../../templatetable)
+* namespace [GroupDocs.Parser.Templates](../../../groupdocs.parser.templates)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## TemplateTable(TemplateTableParameters, string, int?, double?, bool) {#constructor_5}
+
+Initializes a new instance of the [`TemplateTable`](../../templatetable) class.
+
+```csharp
+public TemplateTable(TemplateTableParameters parameters, string name, int? pageIndex, 
+    double? pageWidth, bool useUpperCaseName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| parameters | TemplateTableParameters | The parameters to detect the table in the automatic mode. |
+| name | String | The table name. |
+| pageIndex | Nullable`1 | The index of the page where the template table is located; `null` if the template table is located on any page. |
+| pageWidth | Nullable`1 | The width of the page that was used to create the template item. |
 | useUpperCaseName | Boolean | The value that indicates whether a `name` is converted to UPPER CASE. |
 
 ### Examples

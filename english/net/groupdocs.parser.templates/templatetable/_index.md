@@ -19,9 +19,11 @@ public sealed class TemplateTable : TemplateItem
 | Name | Description |
 | --- | --- |
 | [TemplateTable](templatetable#constructor)(TemplateTableLayout, string, int?) | Initializes a new instance of the [`TemplateTable`](../templatetable) class with the UPPER CASE name. |
-| [TemplateTable](templatetable#constructor_2)(TemplateTableParameters, string, int?) | Initializes a new instance of the [`TemplateTable`](../templatetable) class. |
-| [TemplateTable](templatetable#constructor_1)(TemplateTableLayout, string, int?, bool) | Initializes a new instance of the [`TemplateTable`](../templatetable) class. |
-| [TemplateTable](templatetable#constructor_3)(TemplateTableParameters, string, int?, bool) | Initializes a new instance of the [`TemplateTable`](../templatetable) class. |
+| [TemplateTable](templatetable#constructor_3)(TemplateTableParameters, string, int?) | Initializes a new instance of the [`TemplateTable`](../templatetable) class. |
+| [TemplateTable](templatetable#constructor_1)(TemplateTableLayout, string, int?, double?) | Initializes a new instance of the [`TemplateTable`](../templatetable) class with the UPPER CASE name. |
+| [TemplateTable](templatetable#constructor_4)(TemplateTableParameters, string, int?, double?) | Initializes a new instance of the [`TemplateTable`](../templatetable) class. |
+| [TemplateTable](templatetable#constructor_2)(TemplateTableLayout, string, int?, double?, bool) | Initializes a new instance of the [`TemplateTable`](../templatetable) class. |
+| [TemplateTable](templatetable#constructor_5)(TemplateTableParameters, string, int?, double?, bool) | Initializes a new instance of the [`TemplateTable`](../templatetable) class. |
 
 ## Properties
 
@@ -30,6 +32,7 @@ public sealed class TemplateTable : TemplateItem
 | [Layout](../../groupdocs.parser.templates/templatetable/layout) { get; } | Gets the table layout. |
 | [Name](../../groupdocs.parser.templates/templateitem/name) { get; } | Gets the name of the template item. |
 | [PageIndex](../../groupdocs.parser.templates/templateitem/pageindex) { get; } | Gets the page index of the template item. |
+| [PageWidth](../../groupdocs.parser.templates/templateitem/pagewidth) { get; } | Gets the width of the page that was used to create the template item. |
 | [Parameters](../../groupdocs.parser.templates/templatetable/parameters) { get; } | Gets the parameters to detect the table in the automatic mode. |
 | [UseUpperCaseName](../../groupdocs.parser.templates/templateitem/useuppercasename) { get; } | Gets a boolean value that indicates whether a `Name` was converted to UPPER CASE. |
 

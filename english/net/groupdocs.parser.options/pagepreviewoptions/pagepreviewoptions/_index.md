@@ -53,7 +53,7 @@ public PagePreviewOptions(int dpi)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dpi | Int32 | The dpi of the document page image. |
+| dpi | Int32 | The DPI of the document page image. |
 
 ### See Also
 
@@ -74,7 +74,7 @@ public PagePreviewOptions(PagePreviewFormat format, int dpi)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | format | PagePreviewFormat | The format of the document page image. |
-| dpi | Int32 | The dpi of the document page image. |
+| dpi | Int32 | The DPI of the document page image. |
 
 ### See Also
 

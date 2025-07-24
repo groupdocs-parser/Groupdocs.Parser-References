@@ -20,7 +20,8 @@ public sealed class TemplateBarcode : TemplateItem
 | --- | --- |
 | [TemplateBarcode](templatebarcode#constructor)(Rectangle, string) | Initializes a new instance of the [`TemplateBarcode`](../templatebarcode) class. |
 | [TemplateBarcode](templatebarcode#constructor_1)(Rectangle, string, int?) | Initializes a new instance of the [`TemplateBarcode`](../templatebarcode) class with the UPPER CASE name. |
-| [TemplateBarcode](templatebarcode#constructor_2)(Rectangle, string, int?, bool) | Initializes a new instance of the [`TemplateBarcode`](../templatebarcode) class. |
+| [TemplateBarcode](templatebarcode#constructor_2)(Rectangle, string, int?, double?) | Initializes a new instance of the [`TemplateBarcode`](../templatebarcode) class. |
+| [TemplateBarcode](templatebarcode#constructor_3)(Rectangle, string, int?, double?, bool) | Initializes a new instance of the [`TemplateBarcode`](../templatebarcode) class. |
 
 ## Properties
 
@@ -28,6 +29,7 @@ public sealed class TemplateBarcode : TemplateItem
 | --- | --- |
 | [Name](../../groupdocs.parser.templates/templateitem/name) { get; } | Gets the name of the template item. |
 | [PageIndex](../../groupdocs.parser.templates/templateitem/pageindex) { get; } | Gets the page index of the template item. |
+| [PageWidth](../../groupdocs.parser.templates/templateitem/pagewidth) { get; } | Gets the width of the page that was used to create the template item. |
 | [Rectangle](../../groupdocs.parser.templates/templatebarcode/rectangle) { get; } | Gets the rectangular area that contains the template barcode field. |
 | [UseUpperCaseName](../../groupdocs.parser.templates/templateitem/useuppercasename) { get; } | Gets a boolean value that indicates whether a `Name` was converted to UPPER CASE. |
 
