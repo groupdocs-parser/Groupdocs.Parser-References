@@ -3,7 +3,7 @@ title: PagePreviewOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used to generate the document page preview.
 type: docs
-weight: 630
+weight: 640
 url: /net/groupdocs.parser.options/pagepreviewoptions/
 ---
 ## PagePreviewOptions class
@@ -27,8 +27,8 @@ public sealed class PagePreviewOptions
 
 | Name | Description |
 | --- | --- |
-| [Dpi](../../groupdocs.parser.options/pagepreviewoptions/dpi) { get; } | Gets a DPI of the document page image. |
-| [Format](../../groupdocs.parser.options/pagepreviewoptions/format) { get; } | Gets a format of the document page image. |
+| [Dpi](../../groupdocs.parser.options/pagepreviewoptions/dpi) { get; set; } | Gets a DPI of the document page image. |
+| [Format](../../groupdocs.parser.options/pagepreviewoptions/format) { get; set; } | Gets a format of the document page image. |
 | [ScaleFactor](../../groupdocs.parser.options/pagepreviewoptions/scalefactor) { get; } | Gets a scale factor. |
 
 ## Fields

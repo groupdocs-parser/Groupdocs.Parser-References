@@ -3,7 +3,7 @@ title: PageTextAreaOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used for page text areas extraction.
 type: docs
-weight: 660
+weight: 670
 url: /net/groupdocs.parser.options/pagetextareaoptions/
 ---
 ## PageTextAreaOptions class
@@ -18,26 +18,27 @@ public sealed class PageTextAreaOptions : PageAreaOptions
 
 | Name | Description |
 | --- | --- |
-| [PageTextAreaOptions](pagetextareaoptions#constructor)(bool) | Initializes a new instance of the [`PageTextAreaOptions`](../pagetextareaoptions) class with the OCR usage option. |
-| [PageTextAreaOptions](pagetextareaoptions#constructor_2)(string) | Initializes a new instance of the [`PageTextAreaOptions`](../pagetextareaoptions) class with the regular expression. Other options are set by default (see remarks for details). |
-| [PageTextAreaOptions](pagetextareaoptions#constructor_1)(bool, OcrOptions) | Initializes a new instance of the [`PageTextAreaOptions`](../pagetextareaoptions) class with the ability to set OCR options. |
-| [PageTextAreaOptions](pagetextareaoptions#constructor_5)(string, Rectangle) | Initializes a new instance of the [`PageTextAreaOptions`](../pagetextareaoptions) class with the regular expression and rectangular area. Other options are set by default (see remarks for details). |
-| [PageTextAreaOptions](pagetextareaoptions#constructor_6)(string, Rectangle, double) | Initializes a new instance of the [`PageTextAreaOptions`](../pagetextareaoptions) class with the regular expression, rectangular area and the size of the ignored border. Other options are set by default (see remarks for details). |
-| [PageTextAreaOptions](pagetextareaoptions#constructor_3)(string, bool, bool, bool, Rectangle) | Initializes a new instance of the [`PageTextAreaOptions`](../pagetextareaoptions) class. |
-| [PageTextAreaOptions](pagetextareaoptions#constructor_4)(string, bool, bool, bool, Rectangle, double) | Initializes a new instance of the [`PageTextAreaOptions`](../pagetextareaoptions) class with the size of the ignored border. |
+| [PageTextAreaOptions](pagetextareaoptions#constructor)() | Initializes a new instance of the [`PageTextAreaOptions`](../pagetextareaoptions) class with the OCR usage option. |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_1)(bool) | Initializes a new instance of the [`PageTextAreaOptions`](../pagetextareaoptions) class with the OCR usage option. |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_3)(string) | Initializes a new instance of the [`PageTextAreaOptions`](../pagetextareaoptions) class with the regular expression. Other options are set by default (see remarks for details). |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_2)(bool, OcrOptions) | Initializes a new instance of the [`PageTextAreaOptions`](../pagetextareaoptions) class with the ability to set OCR options. |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_6)(string, Rectangle) | Initializes a new instance of the [`PageTextAreaOptions`](../pagetextareaoptions) class with the regular expression and rectangular area. Other options are set by default (see remarks for details). |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_7)(string, Rectangle, double) | Initializes a new instance of the [`PageTextAreaOptions`](../pagetextareaoptions) class with the regular expression, rectangular area and the size of the ignored border. Other options are set by default (see remarks for details). |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_4)(string, bool, bool, bool, Rectangle) | Initializes a new instance of the [`PageTextAreaOptions`](../pagetextareaoptions) class. |
+| [PageTextAreaOptions](pagetextareaoptions#constructor_5)(string, bool, bool, bool, Rectangle, double) | Initializes a new instance of the [`PageTextAreaOptions`](../pagetextareaoptions) class with the size of the ignored border. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Expression](../../groupdocs.parser.options/pagetextareaoptions/expression) { get; } | Gets the regular expression. |
-| [IgnoreFormatting](../../groupdocs.parser.options/pagetextareaoptions/ignoreformatting) { get; } | Gets the value that indicates whether text formatting is ignored. |
-| [MatchCase](../../groupdocs.parser.options/pagetextareaoptions/matchcase) { get; } | Gets the value that indicates whether a text case isn't ignored. |
-| [OcrOptions](../../groupdocs.parser.options/pagetextareaoptions/ocroptions) { get; } | Gets the additional options for OCR functionality. |
-| [Rectangle](../../groupdocs.parser.options/pageareaoptions/rectangle) { get; } | Gets the rectangular area that contains page areas. |
-| [RectangleTolerance](../../groupdocs.parser.options/pageareaoptions/rectangletolerance) { get; } | Gets the size of the border that is ignored when captured by the rectangular area. It's measured by the fraction of a text item height. |
-| [UniteSegments](../../groupdocs.parser.options/pagetextareaoptions/unitesegments) { get; } | Gets the value that indicates whether segments are united. |
-| [UseOcr](../../groupdocs.parser.options/pagetextareaoptions/useocr) { get; } | Gets the value that indicates whether OCR functionality is used to extract text areas. |
+| [Expression](../../groupdocs.parser.options/pagetextareaoptions/expression) { get; set; } | Gets the regular expression. |
+| [IgnoreFormatting](../../groupdocs.parser.options/pagetextareaoptions/ignoreformatting) { get; set; } | Gets the value that indicates whether text formatting is ignored. |
+| [MatchCase](../../groupdocs.parser.options/pagetextareaoptions/matchcase) { get; set; } | Gets the value that indicates whether a text case isn't ignored. |
+| [OcrOptions](../../groupdocs.parser.options/pagetextareaoptions/ocroptions) { get; set; } | Gets the additional options for OCR functionality. |
+| [Rectangle](../../groupdocs.parser.options/pageareaoptions/rectangle) { get; set; } | Gets the rectangular area that contains page areas. |
+| [RectangleTolerance](../../groupdocs.parser.options/pageareaoptions/rectangletolerance) { get; set; } | Gets the size of the border that is ignored when captured by the rectangular area. It's measured by the fraction of a text item height. |
+| [UniteSegments](../../groupdocs.parser.options/pagetextareaoptions/unitesegments) { get; set; } | Gets the value that indicates whether segments are united. |
+| [UseOcr](../../groupdocs.parser.options/pagetextareaoptions/useocr) { get; set; } | Gets the value that indicates whether OCR functionality is used to extract text areas. |
 
 ### Remarks
 

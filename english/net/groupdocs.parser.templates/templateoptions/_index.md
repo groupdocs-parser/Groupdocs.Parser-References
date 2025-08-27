@@ -3,7 +3,7 @@ title: TemplateOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used for parsing by template functionality.
 type: docs
-weight: 860
+weight: 880
 url: /net/groupdocs.parser.templates/templateoptions/
 ---
 ## TemplateOptions class

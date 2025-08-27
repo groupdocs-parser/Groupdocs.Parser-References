@@ -3,7 +3,7 @@ title: GetToc
 second_title: GroupDocs.Parser for .NET API Reference
 description: Extracts a table of contents from the document.
 type: docs
-weight: 180
+weight: 190
 url: /net/groupdocs.parser/parser/gettoc/
 ---
 ## Parser.GetToc method

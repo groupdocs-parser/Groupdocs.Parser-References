@@ -18,7 +18,8 @@ public class DocumentData : IEnumerable<FieldData>
 
 | Name | Description |
 | --- | --- |
-| [DocumentData](documentdata)(IEnumerable&lt;FieldData&gt;) | Initializes a new instance of the [`DocumentData`](../documentdata) class. |
+| [DocumentData](documentdata#constructor_1)(IEnumerable&lt;FieldData&gt;) | Initializes a new instance of the [`DocumentData`](../documentdata) class. |
+| [DocumentData](documentdata#constructor)(Template, IEnumerable&lt;FieldData&gt;) | Initializes a new instance of the [`DocumentData`](../documentdata) class. |
 
 ## Properties
 
@@ -26,6 +27,7 @@ public class DocumentData : IEnumerable<FieldData>
 | --- | --- |
 | [Count](../../groupdocs.parser.data/documentdata/count) { get; } | Gets the total number of the fields data. |
 | [Item](../../groupdocs.parser.data/documentdata/item) { get; } | Gets the field data by an index. |
+| [Template](../../groupdocs.parser.data/documentdata/template) { get; } | Gets the template. |
 
 ## Methods
 

@@ -3,7 +3,7 @@ title: GetHyperlinks
 second_title: GroupDocs.Parser for .NET API Reference
 description: Extracts hyperlinks from the document.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.parser/parser/gethyperlinks/
 ---
 ## GetHyperlinks() {#gethyperlinks}

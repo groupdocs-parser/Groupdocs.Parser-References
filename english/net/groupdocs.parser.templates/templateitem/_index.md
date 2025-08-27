@@ -3,7 +3,7 @@ title: TemplateItem
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides a base abstract class for template items.
 type: docs
-weight: 830
+weight: 850
 url: /net/groupdocs.parser.templates/templateitem/
 ---
 ## TemplateItem class
@@ -19,9 +19,14 @@ public abstract class TemplateItem
 | Name | Description |
 | --- | --- |
 | [Name](../../groupdocs.parser.templates/templateitem/name) { get; } | Gets the name of the template item. |
-| [PageIndex](../../groupdocs.parser.templates/templateitem/pageindex) { get; } | Gets the page index of the template item. |
 | [PageWidth](../../groupdocs.parser.templates/templateitem/pagewidth) { get; } | Gets the width of the page that was used to create the template item. |
 | [UseUpperCaseName](../../groupdocs.parser.templates/templateitem/useuppercasename) { get; } | Gets a boolean value that indicates whether a `Name` was converted to UPPER CASE. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| abstract [Scale](../../groupdocs.parser.templates/templateitem/scale)(double) | Scales this template item by a given factor. |
 
 ### Remarks
 

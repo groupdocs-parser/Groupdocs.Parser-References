@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/barcodeoptions/imagequality/
 Gets the quality of a source image.
 
 ```csharp
-public QualityMode ImageQuality { get; }
+public QualityMode ImageQuality { get; set; }
 ```
 
 ### Property Value

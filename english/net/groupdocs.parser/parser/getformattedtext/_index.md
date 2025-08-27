@@ -3,7 +3,7 @@ title: GetFormattedText
 second_title: GroupDocs.Parser for .NET API Reference
 description: Extracts a formatted text from the document.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.parser/parser/getformattedtext/
 ---
 ## GetFormattedText(FormattedTextOptions) {#getformattedtext}

@@ -6,7 +6,44 @@ type: docs
 weight: 10
 url: /net/groupdocs.parser.options/ocroptions/ocroptions/
 ---
-## OcrOptions(Rectangle) {#constructor}
+## OcrOptions() {#constructor}
+
+Initializes a new instance of the [`OcrOptions`](../../ocroptions) class with rectangular area.
+
+```csharp
+public OcrOptions()
+```
+
+### See Also
+
+* class [OcrOptions](../../ocroptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## OcrOptions(PagePreviewOptions) {#constructor_5}
+
+Initializes a new instance of the [`OcrOptions`](../../ocroptions) class with rectangular area.
+
+```csharp
+public OcrOptions(PagePreviewOptions pagePreviewOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pagePreviewOptions | PagePreviewOptions | An instance of [`PagePreviewOptions`](../pagepreviewoptions) class that sets properties for the document page preview generation. |
+
+### See Also
+
+* class [PagePreviewOptions](../../pagepreviewoptions)
+* class [OcrOptions](../../ocroptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## OcrOptions(Rectangle) {#constructor_1}
 
 Initializes a new instance of the [`OcrOptions`](../../ocroptions) class with rectangular area.
 
@@ -27,7 +64,7 @@ public OcrOptions(Rectangle rectangle)
 
 ---
 
-## OcrOptions(OcrEventHandler) {#constructor_3}
+## OcrOptions(OcrEventHandler) {#constructor_4}
 
 Initializes a new instance of the [`OcrOptions`](../../ocroptions) class with [`OcrEventHandler`](../../ocreventhandler) object.
 
@@ -48,7 +85,7 @@ public OcrOptions(OcrEventHandler handler)
 
 ---
 
-## OcrOptions(Rectangle, OcrEventHandler) {#constructor_1}
+## OcrOptions(Rectangle, OcrEventHandler) {#constructor_2}
 
 Initializes a new instance of the [`OcrOptions`](../../ocroptions) class with rectangular area and [`OcrEventHandler`](../../ocreventhandler) object.
 
@@ -71,24 +108,27 @@ public OcrOptions(Rectangle rectangle, OcrEventHandler handler)
 
 ---
 
-## OcrOptions(Rectangle, OcrEventHandler, bool) {#constructor_2}
+## OcrOptions(Rectangle, OcrEventHandler, PagePreviewOptions, bool) {#constructor_3}
 
 Initializes a new instance of the [`OcrOptions`](../../ocroptions) class.
 
 ```csharp
-public OcrOptions(Rectangle rectangle, OcrEventHandler handler, bool useSpellCheker)
+public OcrOptions(Rectangle rectangle, OcrEventHandler handler, 
+    PagePreviewOptions pagePreviewOptions, bool useSpellCheker)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | rectangle | Rectangle | The rectangular area that constraints the page area which is used for text recognizing. |
 | handler | OcrEventHandler | An instance of [`OcrEventHandler`](../../ocreventhandler) to catch OCR events. |
+| pagePreviewOptions | PagePreviewOptions | An instance of [`PagePreviewOptions`](../pagepreviewoptions) class that sets properties for the document page preview generation. |
 | useSpellCheker | Boolean | The value that indicates whether the spell checker is used. |
 
 ### See Also
 
 * class [Rectangle](../../../groupdocs.parser.data/rectangle)
 * class [OcrEventHandler](../../ocreventhandler)
+* class [PagePreviewOptions](../../pagepreviewoptions)
 * class [OcrOptions](../../ocroptions)
 * namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
 * assembly [GroupDocs.Parser](../../../)

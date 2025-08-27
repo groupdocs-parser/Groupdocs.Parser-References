@@ -3,7 +3,7 @@ title: GetPagePreview
 second_title: GroupDocs.Parser for .NET API Reference
 description: Generates a document page preview.
 type: docs
-weight: 130
+weight: 140
 url: /net/groupdocs.parser/parser/getpagepreview/
 ---
 ## GetPagePreview(int) {#getpagepreview}

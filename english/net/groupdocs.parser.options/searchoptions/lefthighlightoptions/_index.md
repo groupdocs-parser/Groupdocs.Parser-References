@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/searchoptions/lefthighlightoptions/
 Gets the options for the left highlight.
 
 ```csharp
-public HighlightOptions LeftHighlightOptions { get; }
+public HighlightOptions LeftHighlightOptions { get; set; }
 ```
 
 ### Property Value

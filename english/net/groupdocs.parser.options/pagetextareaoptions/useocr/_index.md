@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/pagetextareaoptions/useocr/
 Gets the value that indicates whether OCR functionality is used to extract text areas.
 
 ```csharp
-public bool UseOcr { get; }
+public bool UseOcr { get; set; }
 ```
 
 ### Property Value

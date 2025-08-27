@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/pageareaoptions/rectangle/
 Gets the rectangular area that contains page areas.
 
 ```csharp
-public Rectangle Rectangle { get; }
+public Rectangle Rectangle { get; set; }
 ```
 
 ### Property Value

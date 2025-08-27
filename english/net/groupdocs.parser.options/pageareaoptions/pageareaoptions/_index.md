@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /net/groupdocs.parser.options/pageareaoptions/pageareaoptions/
 ---
-## PageAreaOptions(Rectangle) {#constructor}
+## PageAreaOptions() {#constructor}
+
+Initializes a new instance of the [`PageAreaOptions`](../../pageareaoptions) class.
+
+```csharp
+public PageAreaOptions()
+```
+
+### See Also
+
+* class [PageAreaOptions](../../pageareaoptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## PageAreaOptions(Rectangle) {#constructor_1}
 
 Initializes a new instance of the [`PageAreaOptions`](../../pageareaoptions) class.
 
@@ -27,7 +43,7 @@ public PageAreaOptions(Rectangle rectangle)
 
 ---
 
-## PageAreaOptions(Rectangle, double) {#constructor_1}
+## PageAreaOptions(Rectangle, double) {#constructor_2}
 
 Initializes a new instance of the [`PageAreaOptions`](../../pageareaoptions) class with the size of the ignored border.
 

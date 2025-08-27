@@ -11,16 +11,18 @@ url: /net/groupdocs.parser.data/documentpagedata/documentpagedata/
 Initializes a new instance of the [`DocumentPageData`](../../documentpagedata) class.
 
 ```csharp
-public DocumentPageData(IEnumerable<FieldData> fields, int pageIndex)
+public DocumentPageData(Template template, IEnumerable<FieldData> fields, int pageIndex)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
+| template | Template | The template. |
 | fields | IEnumerable`1 | The collection of fields data. |
 | pageIndex | Int32 | The zero-based page index. |
 
 ### See Also
 
+* class [Template](../../../groupdocs.parser.templates/template)
 * class [FieldData](../../fielddata)
 * class [DocumentPageData](../../documentpagedata)
 * namespace [GroupDocs.Parser.Data](../../../groupdocs.parser.data)

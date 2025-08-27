@@ -3,7 +3,7 @@ title: Rectangle
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the rectangular area that contains page areas.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.parser.options/barcodeoptions/rectangle/
 ---
 ## BarcodeOptions.Rectangle property
@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/barcodeoptions/rectangle/
 Gets the rectangular area that contains page areas.
 
 ```csharp
-public Rectangle Rectangle { get; }
+public Rectangle Rectangle { get; set; }
 ```
 
 ### Property Value

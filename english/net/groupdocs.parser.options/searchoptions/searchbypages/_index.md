@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/searchoptions/searchbypages/
 Gets the value that indicates whether the search is performed by pages.
 
 ```csharp
-public bool SearchByPages { get; }
+public bool SearchByPages { get; set; }
 ```
 
 ### Property Value

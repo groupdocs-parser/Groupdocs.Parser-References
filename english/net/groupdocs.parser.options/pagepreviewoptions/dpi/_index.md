@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/pagepreviewoptions/dpi/
 Gets a DPI of the document page image.
 
 ```csharp
-public int Dpi { get; }
+public int Dpi { get; set; }
 ```
 
 ### Property Value

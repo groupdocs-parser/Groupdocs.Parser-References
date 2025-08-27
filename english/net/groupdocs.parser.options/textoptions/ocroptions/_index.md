@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/textoptions/ocroptions/
 Gets the additional options for OCR functionality.
 
 ```csharp
-public OcrOptions OcrOptions { get; }
+public OcrOptions OcrOptions { get; set; }
 ```
 
 ### Property Value

@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/highlightoptions/wordcount/
 Gets a maximum word count.
 
 ```csharp
-public int? WordCount { get; }
+public int? WordCount { get; set; }
 ```
 
 ### Property Value

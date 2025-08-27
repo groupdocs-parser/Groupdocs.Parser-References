@@ -3,7 +3,7 @@ title: GetStructure
 second_title: GroupDocs.Parser for .NET API Reference
 description: Extracts a structured text from the document.
 type: docs
-weight: 140
+weight: 150
 url: /net/groupdocs.parser/parser/getstructure/
 ---
 ## Parser.GetStructure method

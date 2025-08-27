@@ -3,7 +3,7 @@ title: OcrOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used for OCR Connector.
 type: docs
-weight: 590
+weight: 600
 url: /net/groupdocs.parser.options/ocroptions/
 ---
 ## OcrOptions class
@@ -18,18 +18,21 @@ public class OcrOptions
 
 | Name | Description |
 | --- | --- |
-| [OcrOptions](ocroptions#constructor_3)(OcrEventHandler) | Initializes a new instance of the [`OcrOptions`](../ocroptions) class with [`OcrEventHandler`](../ocreventhandler) object. |
-| [OcrOptions](ocroptions#constructor)(Rectangle) | Initializes a new instance of the [`OcrOptions`](../ocroptions) class with rectangular area. |
-| [OcrOptions](ocroptions#constructor_1)(Rectangle, OcrEventHandler) | Initializes a new instance of the [`OcrOptions`](../ocroptions) class with rectangular area and [`OcrEventHandler`](../ocreventhandler) object. |
-| [OcrOptions](ocroptions#constructor_2)(Rectangle, OcrEventHandler, bool) | Initializes a new instance of the [`OcrOptions`](../ocroptions) class. |
+| [OcrOptions](ocroptions#constructor)() | Initializes a new instance of the [`OcrOptions`](../ocroptions) class with rectangular area. |
+| [OcrOptions](ocroptions#constructor_4)(OcrEventHandler) | Initializes a new instance of the [`OcrOptions`](../ocroptions) class with [`OcrEventHandler`](../ocreventhandler) object. |
+| [OcrOptions](ocroptions#constructor_5)(PagePreviewOptions) | Initializes a new instance of the [`OcrOptions`](../ocroptions) class with rectangular area. |
+| [OcrOptions](ocroptions#constructor_1)(Rectangle) | Initializes a new instance of the [`OcrOptions`](../ocroptions) class with rectangular area. |
+| [OcrOptions](ocroptions#constructor_2)(Rectangle, OcrEventHandler) | Initializes a new instance of the [`OcrOptions`](../ocroptions) class with rectangular area and [`OcrEventHandler`](../ocreventhandler) object. |
+| [OcrOptions](ocroptions#constructor_3)(Rectangle, OcrEventHandler, PagePreviewOptions, bool) | Initializes a new instance of the [`OcrOptions`](../ocroptions) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Handler](../../groupdocs.parser.options/ocroptions/handler) { get; } | Gets the event handler to catch OCR events. |
-| [Rectangle](../../groupdocs.parser.options/ocroptions/rectangle) { get; } | Gets the rectangular area that constraints the page area which is used for text recognizing. |
-| [UseSpellChecker](../../groupdocs.parser.options/ocroptions/usespellchecker) { get; } | Gets the value that indicates whether the spell checker is used. |
+| [Handler](../../groupdocs.parser.options/ocroptions/handler) { get; set; } | Gets the event handler to catch OCR events. |
+| [PagePreviewOptions](../../groupdocs.parser.options/ocroptions/pagepreviewoptions) { get; set; } | Gets the document page preview options. |
+| [Rectangle](../../groupdocs.parser.options/ocroptions/rectangle) { get; set; } | Gets the rectangular area that constraints the page area which is used for text recognizing. |
+| [UseSpellChecker](../../groupdocs.parser.options/ocroptions/usespellchecker) { get; set; } | Gets the value that indicates whether the spell checker is used. |
 
 ### See Also
 

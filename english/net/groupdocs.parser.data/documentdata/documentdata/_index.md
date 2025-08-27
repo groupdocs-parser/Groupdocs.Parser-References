@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/groupdocs.parser.data/documentdata/documentdata/
 ---
-## DocumentData constructor
+## DocumentData(IEnumerable&lt;FieldData&gt;) {#constructor_1}
 
 Initializes a new instance of the [`DocumentData`](../../documentdata) class.
 
@@ -20,6 +20,29 @@ public DocumentData(IEnumerable<FieldData> fields)
 
 ### See Also
 
+* class [FieldData](../../fielddata)
+* class [DocumentData](../../documentdata)
+* namespace [GroupDocs.Parser.Data](../../../groupdocs.parser.data)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## DocumentData(Template, IEnumerable&lt;FieldData&gt;) {#constructor}
+
+Initializes a new instance of the [`DocumentData`](../../documentdata) class.
+
+```csharp
+public DocumentData(Template template, IEnumerable<FieldData> fields)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| template | Template | The template. |
+| fields | IEnumerable`1 | The collection of fields data. |
+
+### See Also
+
+* class [Template](../../../groupdocs.parser.templates/template)
 * class [FieldData](../../fielddata)
 * class [DocumentData](../../documentdata)
 * namespace [GroupDocs.Parser.Data](../../../groupdocs.parser.data)

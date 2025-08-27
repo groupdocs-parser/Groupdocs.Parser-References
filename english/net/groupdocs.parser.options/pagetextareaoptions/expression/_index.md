@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/pagetextareaoptions/expression/
 Gets the regular expression.
 
 ```csharp
-public string Expression { get; }
+public string Expression { get; set; }
 ```
 
 ### Property Value

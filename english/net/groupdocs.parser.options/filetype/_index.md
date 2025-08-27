@@ -3,7 +3,7 @@ title: FileType
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents the file type. Provides methods to obtain list of all file types supported by GroupDocs.Parser.
 type: docs
-weight: 470
+weight: 480
 url: /net/groupdocs.parser.options/filetype/
 ---
 ## FileType class

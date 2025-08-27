@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/searchoptions/righthighlightoptions/
 Gets the options for the right highlight.
 
 ```csharp
-public HighlightOptions RightHighlightOptions { get; }
+public HighlightOptions RightHighlightOptions { get; set; }
 ```
 
 ### Property Value

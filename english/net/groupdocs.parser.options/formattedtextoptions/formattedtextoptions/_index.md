@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /net/groupdocs.parser.options/formattedtextoptions/formattedtextoptions/
 ---
-## FormattedTextOptions constructor
+## FormattedTextOptions() {#constructor}
+
+Initializes a new instance of the [`FormattedTextOptions`](../../formattedtextoptions) class.
+
+```csharp
+public FormattedTextOptions()
+```
+
+### See Also
+
+* class [FormattedTextOptions](../../formattedtextoptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## FormattedTextOptions(FormattedTextMode) {#constructor_1}
 
 Initializes a new instance of the [`FormattedTextOptions`](../../formattedtextoptions) class.
 

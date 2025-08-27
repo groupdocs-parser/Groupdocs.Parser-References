@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/barcodeoptions/dimension/
 Gets the minimal size of the barcode minimal element.
 
 ```csharp
-public float? Dimension { get; }
+public float? Dimension { get; set; }
 ```
 
 ### Property Value

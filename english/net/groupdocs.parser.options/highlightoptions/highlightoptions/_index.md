@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /net/groupdocs.parser.options/highlightoptions/highlightoptions/
 ---
-## HighlightOptions(int) {#constructor}
+## HighlightOptions() {#constructor}
+
+Initializes a new instance of the [`HighlightOptions`](../../highlightoptions) class which is used to extract a fixed-length highlight.
+
+```csharp
+public HighlightOptions()
+```
+
+### See Also
+
+* class [HighlightOptions](../../highlightoptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## HighlightOptions(int) {#constructor_1}
 
 Initializes a new instance of the [`HighlightOptions`](../../highlightoptions) class which is used to extract a fixed-length highlight.
 
@@ -26,7 +42,7 @@ public HighlightOptions(int maxLength)
 
 ---
 
-## HighlightOptions(int?, bool) {#constructor_1}
+## HighlightOptions(int?, bool) {#constructor_2}
 
 Initializes a new instance of the [`HighlightOptions`](../../highlightoptions) class which is used to extract a line-limited highlight.
 
@@ -47,7 +63,7 @@ public HighlightOptions(int? maxLength, bool isLineLimited)
 
 ---
 
-## HighlightOptions(int?, int) {#constructor_2}
+## HighlightOptions(int?, int) {#constructor_3}
 
 Initializes a new instance of the [`HighlightOptions`](../../highlightoptions) class which is used to extract a highlight with the fixed word count.
 
@@ -68,7 +84,7 @@ public HighlightOptions(int? maxLength, int wordCount)
 
 ---
 
-## HighlightOptions(int?, int?, bool) {#constructor_3}
+## HighlightOptions(int?, int?, bool) {#constructor_4}
 
 Initializes a new instance of the [`HighlightOptions`](../../highlightoptions) class.
 

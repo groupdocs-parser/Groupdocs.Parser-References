@@ -3,7 +3,7 @@ title: ParseByTemplateOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used to parse by template.
 type: docs
-weight: 670
+weight: 680
 url: /net/groupdocs.parser.options/parsebytemplateoptions/
 ---
 ## ParseByTemplateOptions class
@@ -18,15 +18,18 @@ public class ParseByTemplateOptions
 
 | Name | Description |
 | --- | --- |
-| [ParseByTemplateOptions](parsebytemplateoptions#constructor)(bool) | Initializes a new instance of the [`ParseByTemplateOptions`](../parsebytemplateoptions) class with the OCR usage option. |
-| [ParseByTemplateOptions](parsebytemplateoptions#constructor_1)(bool, OcrOptions) | Initializes a new instance of the [`ParseByTemplateOptions`](../parsebytemplateoptions) class with the ability to set OCR options. |
+| [ParseByTemplateOptions](parsebytemplateoptions#constructor)() | Initializes a new instance of the [`ParseByTemplateOptions`](../parsebytemplateoptions) class. |
+| [ParseByTemplateOptions](parsebytemplateoptions#constructor_1)(int) | Initializes a new instance of the [`ParseByTemplateOptions`](../parsebytemplateoptions) class. |
+| [ParseByTemplateOptions](parsebytemplateoptions#constructor_2)(int, bool) | Initializes a new instance of the [`ParseByTemplateOptions`](../parsebytemplateoptions) class with the OCR usage option. |
+| [ParseByTemplateOptions](parsebytemplateoptions#constructor_3)(int, bool, OcrOptions) | Initializes a new instance of the [`ParseByTemplateOptions`](../parsebytemplateoptions) class with the ability to set OCR options. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [OcrOptions](../../groupdocs.parser.options/parsebytemplateoptions/ocroptions) { get; } | Gets the additional options for OCR functionality. |
-| [UseOcr](../../groupdocs.parser.options/parsebytemplateoptions/useocr) { get; } | Gets the value that indicates whether the OCR Connector is used to parse by template. |
+| [OcrOptions](../../groupdocs.parser.options/parsebytemplateoptions/ocroptions) { get; set; } | Gets the additional options for OCR functionality. |
+| [PageIndex](../../groupdocs.parser.options/parsebytemplateoptions/pageindex) { get; set; } | Gets or sets index of the page for which the adjustment fields are to be generated. The default value is `0`. |
+| [UseOcr](../../groupdocs.parser.options/parsebytemplateoptions/useocr) { get; set; } | Gets the value that indicates whether the OCR Connector is used to parse by template. |
 
 ### See Also
 

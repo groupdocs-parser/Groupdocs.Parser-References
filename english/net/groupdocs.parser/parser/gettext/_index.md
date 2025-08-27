@@ -3,7 +3,7 @@ title: GetText
 second_title: GroupDocs.Parser for .NET API Reference
 description: Extracts a text from the document.
 type: docs
-weight: 160
+weight: 170
 url: /net/groupdocs.parser/parser/gettext/
 ---
 ## GetText() {#gettext}

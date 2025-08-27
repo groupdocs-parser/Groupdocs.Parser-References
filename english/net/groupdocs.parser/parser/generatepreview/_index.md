@@ -3,7 +3,7 @@ title: GeneratePreview
 second_title: GroupDocs.Parser for .NET API Reference
 description: Get pages preview.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.parser/parser/generatepreview/
 ---
 ## Parser.GeneratePreview method

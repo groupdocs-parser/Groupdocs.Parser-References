@@ -3,7 +3,7 @@ title: PageTableAreaOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used for page table areas extraction.
 type: docs
-weight: 650
+weight: 660
 url: /net/groupdocs.parser.options/pagetableareaoptions/
 ---
 ## PageTableAreaOptions class
@@ -24,8 +24,8 @@ public sealed class PageTableAreaOptions : PageAreaOptions
 
 | Name | Description |
 | --- | --- |
-| [Rectangle](../../groupdocs.parser.options/pageareaoptions/rectangle) { get; } | Gets the rectangular area that contains page areas. |
-| [RectangleTolerance](../../groupdocs.parser.options/pageareaoptions/rectangletolerance) { get; } | Gets the size of the border that is ignored when captured by the rectangular area. It's measured by the fraction of a text item height. |
+| [Rectangle](../../groupdocs.parser.options/pageareaoptions/rectangle) { get; set; } | Gets the rectangular area that contains page areas. |
+| [RectangleTolerance](../../groupdocs.parser.options/pageareaoptions/rectangletolerance) { get; set; } | Gets the size of the border that is ignored when captured by the rectangular area. It's measured by the fraction of a text item height. |
 | [TableLayout](../../groupdocs.parser.options/pagetableareaoptions/tablelayout) { get; } | Gets the table layout which defines the table on a page. |
 
 ### Remarks

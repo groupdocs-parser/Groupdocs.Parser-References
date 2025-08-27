@@ -3,7 +3,7 @@ title: BarcodeOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used for barcode extraction.
 type: docs
-weight: 350
+weight: 360
 url: /net/groupdocs.parser.options/barcodeoptions/
 ---
 ## BarcodeOptions class
@@ -27,12 +27,13 @@ public sealed class BarcodeOptions
 
 | Name | Description |
 | --- | --- |
-| [AllowIncorrectBarcodes](../../groupdocs.parser.options/barcodeoptions/allowincorrectbarcodes) { get; } | Gets the value that indicates whether the incorrect barcodes are allowed. |
-| [BarcodeQuality](../../groupdocs.parser.options/barcodeoptions/barcodequality) { get; } | Gets the quality of a source barcode. |
-| [CodeTypes](../../groupdocs.parser.options/barcodeoptions/codetypes) { get; } | Gets the types of barcodes to read. |
-| [Dimension](../../groupdocs.parser.options/barcodeoptions/dimension) { get; } | Gets the minimal size of the barcode minimal element. |
-| [ImageQuality](../../groupdocs.parser.options/barcodeoptions/imagequality) { get; } | Gets the quality of a source image. |
-| [Rectangle](../../groupdocs.parser.options/barcodeoptions/rectangle) { get; } | Gets the rectangular area that contains page areas. |
+| [AllowIncorrectBarcodes](../../groupdocs.parser.options/barcodeoptions/allowincorrectbarcodes) { get; set; } | Gets the value that indicates whether the incorrect barcodes are allowed. |
+| [BarcodeQuality](../../groupdocs.parser.options/barcodeoptions/barcodequality) { get; set; } | Gets the quality of a source barcode. |
+| [CodeTypes](../../groupdocs.parser.options/barcodeoptions/codetypes) { get; set; } | Gets the types of barcodes to read. |
+| [Dimension](../../groupdocs.parser.options/barcodeoptions/dimension) { get; set; } | Gets the minimal size of the barcode minimal element. |
+| [ImageQuality](../../groupdocs.parser.options/barcodeoptions/imagequality) { get; set; } | Gets the quality of a source image. |
+| [PagePreviewOptions](../../groupdocs.parser.options/barcodeoptions/pagepreviewoptions) { get; set; } | Gets or sets the document page preview options. |
+| [Rectangle](../../groupdocs.parser.options/barcodeoptions/rectangle) { get; set; } | Gets the rectangular area that contains page areas. |
 
 ### See Also
 

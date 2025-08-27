@@ -3,7 +3,7 @@ title: GetContainer
 second_title: GroupDocs.Parser for .NET API Reference
 description: Extracts a container object from the document to work with formats that contain attachments ZIP archives etc.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.parser/parser/getcontainer/
 ---
 ## Parser.GetContainer method

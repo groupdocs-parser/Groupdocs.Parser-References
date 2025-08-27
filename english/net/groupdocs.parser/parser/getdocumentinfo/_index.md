@@ -3,7 +3,7 @@ title: GetDocumentInfo
 second_title: GroupDocs.Parser for .NET API Reference
 description: Returns the general information about the document.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.parser/parser/getdocumentinfo/
 ---
 ## Parser.GetDocumentInfo method

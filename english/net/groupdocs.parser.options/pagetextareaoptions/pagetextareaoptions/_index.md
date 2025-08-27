@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /net/groupdocs.parser.options/pagetextareaoptions/pagetextareaoptions/
 ---
-## PageTextAreaOptions(bool) {#constructor}
+## PageTextAreaOptions() {#constructor}
+
+Initializes a new instance of the [`PageTextAreaOptions`](../../pagetextareaoptions) class with the OCR usage option.
+
+```csharp
+public PageTextAreaOptions()
+```
+
+### See Also
+
+* class [PageTextAreaOptions](../../pagetextareaoptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## PageTextAreaOptions(bool) {#constructor_1}
 
 Initializes a new instance of the [`PageTextAreaOptions`](../../pagetextareaoptions) class with the OCR usage option.
 
@@ -26,7 +42,7 @@ public PageTextAreaOptions(bool useOcr)
 
 ---
 
-## PageTextAreaOptions(bool, OcrOptions) {#constructor_1}
+## PageTextAreaOptions(bool, OcrOptions) {#constructor_2}
 
 Initializes a new instance of the [`PageTextAreaOptions`](../../pagetextareaoptions) class with the ability to set OCR options.
 
@@ -48,7 +64,7 @@ public PageTextAreaOptions(bool useOcr, OcrOptions ocrOptions)
 
 ---
 
-## PageTextAreaOptions(string) {#constructor_2}
+## PageTextAreaOptions(string) {#constructor_3}
 
 Initializes a new instance of the [`PageTextAreaOptions`](../../pagetextareaoptions) class with the regular expression. Other options are set by default (see remarks for details).
 
@@ -88,7 +104,7 @@ The following properties have default values:
 
 ---
 
-## PageTextAreaOptions(string, Rectangle) {#constructor_5}
+## PageTextAreaOptions(string, Rectangle) {#constructor_6}
 
 Initializes a new instance of the [`PageTextAreaOptions`](../../pagetextareaoptions) class with the regular expression and rectangular area. Other options are set by default (see remarks for details).
 
@@ -126,7 +142,7 @@ The following properties have default values:
 
 ---
 
-## PageTextAreaOptions(string, Rectangle, double) {#constructor_6}
+## PageTextAreaOptions(string, Rectangle, double) {#constructor_7}
 
 Initializes a new instance of the [`PageTextAreaOptions`](../../pagetextareaoptions) class with the regular expression, rectangular area and the size of the ignored border. Other options are set by default (see remarks for details).
 
@@ -149,7 +165,7 @@ public PageTextAreaOptions(string expression, Rectangle rectangle, double rectan
 
 ---
 
-## PageTextAreaOptions(string, bool, bool, bool, Rectangle) {#constructor_3}
+## PageTextAreaOptions(string, bool, bool, bool, Rectangle) {#constructor_4}
 
 Initializes a new instance of the [`PageTextAreaOptions`](../../pagetextareaoptions) class.
 
@@ -175,7 +191,7 @@ public PageTextAreaOptions(string expression, bool matchCase, bool uniteSegments
 
 ---
 
-## PageTextAreaOptions(string, bool, bool, bool, Rectangle, double) {#constructor_4}
+## PageTextAreaOptions(string, bool, bool, bool, Rectangle, double) {#constructor_5}
 
 Initializes a new instance of the [`PageTextAreaOptions`](../../pagetextareaoptions) class with the size of the ignored border.
 

@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/barcodeoptions/codetypes/
 Gets the types of barcodes to read.
 
 ```csharp
-public IReadOnlyList<string> CodeTypes { get; }
+public IReadOnlyList<string> CodeTypes { get; set; }
 ```
 
 ### Property Value

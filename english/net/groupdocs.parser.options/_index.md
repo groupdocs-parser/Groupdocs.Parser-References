@@ -12,6 +12,7 @@ The namespace provides classes to specify additional options when parsing data f
 
 | Class | Description |
 | --- | --- |
+| [AdjustmentFieldsOptions](./adjustmentfieldsoptions) | Provides the options which are used to generate the adjustment fields. |
 | [BarcodeOptions](./barcodeoptions) | Provides the options which are used for barcode extraction. |
 | [CreatePageStream](./createpagestream) | Represents a method that returns a stream to write page preview data. |
 | [DocumentInfo](./documentinfo) | Represents the document information. |
