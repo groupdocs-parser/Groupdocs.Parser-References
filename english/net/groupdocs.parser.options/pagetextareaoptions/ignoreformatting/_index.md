@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/pagetextareaoptions/ignoreformatting/
 Gets the value that indicates whether text formatting is ignored.
 
 ```csharp
-public bool IgnoreFormatting { get; }
+public bool IgnoreFormatting { get; set; }
 ```
 
 ### Property Value

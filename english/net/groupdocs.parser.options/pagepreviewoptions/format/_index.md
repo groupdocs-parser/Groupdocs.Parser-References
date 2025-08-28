@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/pagepreviewoptions/format/
 Gets a format of the document page image.
 
 ```csharp
-public PagePreviewFormat Format { get; }
+public PagePreviewFormat Format { get; set; }
 ```
 
 ### Property Value

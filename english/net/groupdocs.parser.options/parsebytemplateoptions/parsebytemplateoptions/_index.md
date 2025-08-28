@@ -1,21 +1,58 @@
 ---
 title: ParseByTemplateOptions
 second_title: GroupDocs.Parser for .NET API Reference
-description: Initializes a new instance of the ParseByTemplateOptionsgroupdocs.parser.options/parsebytemplateoptions class with the OCR usage option.
+description: Initializes a new instance of the ParseByTemplateOptionsgroupdocs.parser.options/parsebytemplateoptions class.
 type: docs
 weight: 10
 url: /net/groupdocs.parser.options/parsebytemplateoptions/parsebytemplateoptions/
 ---
-## ParseByTemplateOptions(bool) {#constructor}
+## ParseByTemplateOptions() {#constructor}
 
-Initializes a new instance of the [`ParseByTemplateOptions`](../../parsebytemplateoptions) class with the OCR usage option.
+Initializes a new instance of the [`ParseByTemplateOptions`](../../parsebytemplateoptions) class.
 
 ```csharp
-public ParseByTemplateOptions(bool useOcr)
+public ParseByTemplateOptions()
+```
+
+### See Also
+
+* class [ParseByTemplateOptions](../../parsebytemplateoptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## ParseByTemplateOptions(int) {#constructor_1}
+
+Initializes a new instance of the [`ParseByTemplateOptions`](../../parsebytemplateoptions) class.
+
+```csharp
+public ParseByTemplateOptions(int pageIndex)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
+| pageIndex | Int32 | The page index. |
+
+### See Also
+
+* class [ParseByTemplateOptions](../../parsebytemplateoptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## ParseByTemplateOptions(int, bool) {#constructor_2}
+
+Initializes a new instance of the [`ParseByTemplateOptions`](../../parsebytemplateoptions) class with the OCR usage option.
+
+```csharp
+public ParseByTemplateOptions(int pageIndex, bool useOcr)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pageIndex | Int32 | The page index. |
 | useOcr | Boolean | The value that indicates whether the OCR functionality is used to parse by template. |
 
 ### See Also
@@ -26,16 +63,17 @@ public ParseByTemplateOptions(bool useOcr)
 
 ---
 
-## ParseByTemplateOptions(bool, OcrOptions) {#constructor_1}
+## ParseByTemplateOptions(int, bool, OcrOptions) {#constructor_3}
 
 Initializes a new instance of the [`ParseByTemplateOptions`](../../parsebytemplateoptions) class with the ability to set OCR options.
 
 ```csharp
-public ParseByTemplateOptions(bool useOcr, OcrOptions ocrOptions)
+public ParseByTemplateOptions(int pageIndex, bool useOcr, OcrOptions ocrOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
+| pageIndex | Int32 | The page index. |
 | useOcr | Boolean | The value that indicates whether the OCR functionality is used to parse by template. |
 | ocrOptions | OcrOptions | The additional options for OCR functionality. |
 

@@ -12,8 +12,9 @@ The namespace provides classes for creating templates for parsing document data.
 
 | Class | Description |
 | --- | --- |
-| [Template](./template) | Provides the document template. It consists of [`TemplateItem`](../groupdocs.parser.templates/templateitem) objects which represent the items of the template such as text field and table definitions. |
+| [Template](./template) | Provides the document page template. It consists of [`TemplateItem`](../groupdocs.parser.templates/templateitem) objects which represent the items of the template such as text field and table definitions. |
 | [TemplateBarcode](./templatebarcode) | Provides the template barcode field. |
+| [TemplateCollection](./templatecollection) | Represents a collection of document parsing templates. |
 | [TemplateField](./templatefield) | Provides the template text field. |
 | [TemplateFixedPosition](./templatefixedposition) | Provides a template field position which is defined by the rectangular area. |
 | [TemplateItem](./templateitem) | Provides a base abstract class for template items. |

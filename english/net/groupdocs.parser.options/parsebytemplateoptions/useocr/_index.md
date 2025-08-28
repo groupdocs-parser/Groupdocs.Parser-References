@@ -3,7 +3,7 @@ title: UseOcr
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether the OCR Connector is used to parse by template.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.parser.options/parsebytemplateoptions/useocr/
 ---
 ## ParseByTemplateOptions.UseOcr property
@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/parsebytemplateoptions/useocr/
 Gets the value that indicates whether the OCR Connector is used to parse by template.
 
 ```csharp
-public bool UseOcr { get; }
+public bool UseOcr { get; set; }
 ```
 
 ### Property Value

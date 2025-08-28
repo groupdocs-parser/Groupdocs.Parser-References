@@ -3,7 +3,7 @@ title: PageWidth
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the width of the page that was used to create the template item.
 type: docs
-weight: 30
+weight: 20
 url: /net/groupdocs.parser.templates/templateitem/pagewidth/
 ---
 ## TemplateItem.PageWidth property

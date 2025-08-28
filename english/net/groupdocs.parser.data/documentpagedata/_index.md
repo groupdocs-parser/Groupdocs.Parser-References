@@ -18,7 +18,7 @@ public sealed class DocumentPageData : DocumentData
 
 | Name | Description |
 | --- | --- |
-| [DocumentPageData](documentpagedata)(IEnumerable&lt;FieldData&gt;, int) | Initializes a new instance of the [`DocumentPageData`](../documentpagedata) class. |
+| [DocumentPageData](documentpagedata)(Template, IEnumerable&lt;FieldData&gt;, int) | Initializes a new instance of the [`DocumentPageData`](../documentpagedata) class. |
 
 ## Properties
 
@@ -27,6 +27,7 @@ public sealed class DocumentPageData : DocumentData
 | [Count](../../groupdocs.parser.data/documentdata/count) { get; } | Gets the total number of the fields data. |
 | [Item](../../groupdocs.parser.data/documentdata/item) { get; } | Gets the field data by an index. |
 | [PageIndex](../../groupdocs.parser.data/documentpagedata/pageindex) { get; } | Gets the page index. |
+| [Template](../../groupdocs.parser.data/documentdata/template) { get; } | Gets the template. |
 
 ## Methods
 

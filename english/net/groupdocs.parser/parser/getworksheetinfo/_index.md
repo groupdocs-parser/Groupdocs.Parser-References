@@ -3,7 +3,7 @@ title: GetWorksheetInfo
 second_title: GroupDocs.Parser for .NET API Reference
 description: Extracts the info about all worksheets in the spreadsheet.
 type: docs
-weight: 200
+weight: 210
 url: /net/groupdocs.parser/parser/getworksheetinfo/
 ---
 ## GetWorksheetInfo() {#getworksheetinfo_1}

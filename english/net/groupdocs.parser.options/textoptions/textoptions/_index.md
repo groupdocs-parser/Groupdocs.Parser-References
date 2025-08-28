@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /net/groupdocs.parser.options/textoptions/textoptions/
 ---
-## TextOptions(bool) {#constructor}
+## TextOptions() {#constructor}
+
+Initializes a new instance of the [`TextOptions`](../../textoptions) class.
+
+```csharp
+public TextOptions()
+```
+
+### See Also
+
+* class [TextOptions](../../textoptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## TextOptions(bool) {#constructor_1}
 
 Initializes a new instance of the [`TextOptions`](../../textoptions) class.
 
@@ -26,7 +42,7 @@ public TextOptions(bool useRawModeIfPossible)
 
 ---
 
-## TextOptions(bool, bool) {#constructor_1}
+## TextOptions(bool, bool) {#constructor_2}
 
 Initializes a new instance of the [`TextOptions`](../../textoptions) class with the OCR usage option.
 
@@ -47,7 +63,7 @@ public TextOptions(bool useRawModeIfPossible, bool useOcr)
 
 ---
 
-## TextOptions(bool, bool, OcrOptions) {#constructor_2}
+## TextOptions(bool, bool, OcrOptions) {#constructor_3}
 
 Initializes a new instance of the [`TextOptions`](../../textoptions) class with the ability to set OCR options.
 

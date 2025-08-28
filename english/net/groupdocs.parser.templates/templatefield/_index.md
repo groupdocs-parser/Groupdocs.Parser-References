@@ -3,7 +3,7 @@ title: TemplateField
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the template text field.
 type: docs
-weight: 810
+weight: 830
 url: /net/groupdocs.parser.templates/templatefield/
 ---
 ## TemplateField class
@@ -19,19 +19,25 @@ public sealed class TemplateField : TemplateItem
 | Name | Description |
 | --- | --- |
 | [TemplateField](templatefield#constructor)(TemplatePosition, string) | Initializes a new instance of the [`TemplateField`](../templatefield) class. |
-| [TemplateField](templatefield#constructor_1)(TemplatePosition, string, int?) | Initializes a new instance of the [`TemplateField`](../templatefield) class with the UPPER CASE name. |
-| [TemplateField](templatefield#constructor_2)(TemplatePosition, string, int?, double?) | Initializes a new instance of the [`TemplateField`](../templatefield) class. |
-| [TemplateField](templatefield#constructor_3)(TemplatePosition, string, int?, double?, bool) | Initializes a new instance of the [`TemplateField`](../templatefield) class. |
+| [TemplateField](templatefield#constructor_1)(TemplatePosition, string, double?) | Initializes a new instance of the [`TemplateField`](../templatefield) class. |
+| [TemplateField](templatefield#constructor_2)(TemplatePosition, string, double?, bool) | Initializes a new instance of the [`TemplateField`](../templatefield) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
+| [IsHidden](../../groupdocs.parser.templates/templatefield/ishidden) { get; set; } | Gets or sets the hidden template field flag. |
 | [Name](../../groupdocs.parser.templates/templateitem/name) { get; } | Gets the name of the template item. |
-| [PageIndex](../../groupdocs.parser.templates/templateitem/pageindex) { get; } | Gets the page index of the template item. |
 | [PageWidth](../../groupdocs.parser.templates/templateitem/pagewidth) { get; } | Gets the width of the page that was used to create the template item. |
 | [Position](../../groupdocs.parser.templates/templatefield/position) { get; } | Gets the value that describes how to find the template field on the document page. |
 | [UseUpperCaseName](../../groupdocs.parser.templates/templateitem/useuppercasename) { get; } | Gets a boolean value that indicates whether a `Name` was converted to UPPER CASE. |
+| [Value](../../groupdocs.parser.templates/templatefield/value) { get; set; } | Gets or sets the value of the template field. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Scale](../../groupdocs.parser.templates/templatefield/scale)(double) | Scales this template item by a given factor. |
 
 ### Remarks
 

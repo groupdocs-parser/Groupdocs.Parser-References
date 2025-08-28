@@ -6,19 +6,18 @@ type: docs
 weight: 10
 url: /net/groupdocs.parser.templates/templatetable/templatetable/
 ---
-## TemplateTable(TemplateTableLayout, string, int?) {#constructor}
+## TemplateTable(TemplateTableLayout, string) {#constructor}
 
 Initializes a new instance of the [`TemplateTable`](../../templatetable) class with the UPPER CASE name.
 
 ```csharp
-public TemplateTable(TemplateTableLayout layout, string name, int? pageIndex)
+public TemplateTable(TemplateTableLayout layout, string name)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | layout | TemplateTableLayout | The table layout. |
 | name | String | The table name. |
-| pageIndex | Nullable`1 | The index of the page where the template table is located; `null` if the template table is located on any page. |
 
 ### Examples
 
@@ -44,19 +43,18 @@ Template template = new Template(new TemplateItem[] { table });
 
 ---
 
-## TemplateTable(TemplateTableLayout, string, int?, double?) {#constructor_1}
+## TemplateTable(TemplateTableLayout, string, double?) {#constructor_1}
 
 Initializes a new instance of the [`TemplateTable`](../../templatetable) class with the UPPER CASE name.
 
 ```csharp
-public TemplateTable(TemplateTableLayout layout, string name, int? pageIndex, double? pageWidth)
+public TemplateTable(TemplateTableLayout layout, string name, double? pageWidth)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | layout | TemplateTableLayout | The table layout. |
 | name | String | The table name. |
-| pageIndex | Nullable`1 | The index of the page where the template table is located; `null` if the template table is located on any page. |
 | pageWidth | Nullable`1 | The width of the page that was used to create the template item. |
 
 ### Examples
@@ -83,12 +81,12 @@ Template template = new Template(new TemplateItem[] { table });
 
 ---
 
-## TemplateTable(TemplateTableLayout, string, int?, double?, bool) {#constructor_2}
+## TemplateTable(TemplateTableLayout, string, double?, bool) {#constructor_2}
 
 Initializes a new instance of the [`TemplateTable`](../../templatetable) class.
 
 ```csharp
-public TemplateTable(TemplateTableLayout layout, string name, int? pageIndex, double? pageWidth, 
+public TemplateTable(TemplateTableLayout layout, string name, double? pageWidth, 
     bool useUpperCaseName)
 ```
 
@@ -96,7 +94,6 @@ public TemplateTable(TemplateTableLayout layout, string name, int? pageIndex, do
 | --- | --- | --- |
 | layout | TemplateTableLayout | The table layout. |
 | name | String | The table name. |
-| pageIndex | Nullable`1 | The index of the page where the template table is located; `null` if the template table is located on any page. |
 | pageWidth | Nullable`1 | The width of the page that was used to create the template item. |
 | useUpperCaseName | Boolean | The value that indicates whether a `name` is converted to UPPER CASE. |
 
@@ -124,19 +121,18 @@ Template template = new Template(new TemplateItem[] { table });
 
 ---
 
-## TemplateTable(TemplateTableParameters, string, int?) {#constructor_3}
+## TemplateTable(TemplateTableParameters, string) {#constructor_3}
 
 Initializes a new instance of the [`TemplateTable`](../../templatetable) class.
 
 ```csharp
-public TemplateTable(TemplateTableParameters parameters, string name, int? pageIndex)
+public TemplateTable(TemplateTableParameters parameters, string name)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | parameters | TemplateTableParameters | The parameters to detect the table in the automatic mode. |
 | name | String | The table name. |
-| pageIndex | Nullable`1 | The index of the page where the template table is located; `null` if the template table is located on any page. |
 
 ### Examples
 
@@ -162,20 +158,18 @@ Template template = new Template(new TemplateItem[] { table });
 
 ---
 
-## TemplateTable(TemplateTableParameters, string, int?, double?) {#constructor_4}
+## TemplateTable(TemplateTableParameters, string, double?) {#constructor_4}
 
 Initializes a new instance of the [`TemplateTable`](../../templatetable) class.
 
 ```csharp
-public TemplateTable(TemplateTableParameters parameters, string name, int? pageIndex, 
-    double? pageWidth)
+public TemplateTable(TemplateTableParameters parameters, string name, double? pageWidth)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | parameters | TemplateTableParameters | The parameters to detect the table in the automatic mode. |
 | name | String | The table name. |
-| pageIndex | Nullable`1 | The index of the page where the template table is located; `null` if the template table is located on any page. |
 | pageWidth | Nullable`1 | The width of the page that was used to create the template item. |
 
 ### Examples
@@ -202,20 +196,19 @@ Template template = new Template(new TemplateItem[] { table });
 
 ---
 
-## TemplateTable(TemplateTableParameters, string, int?, double?, bool) {#constructor_5}
+## TemplateTable(TemplateTableParameters, string, double?, bool) {#constructor_5}
 
 Initializes a new instance of the [`TemplateTable`](../../templatetable) class.
 
 ```csharp
-public TemplateTable(TemplateTableParameters parameters, string name, int? pageIndex, 
-    double? pageWidth, bool useUpperCaseName)
+public TemplateTable(TemplateTableParameters parameters, string name, double? pageWidth, 
+    bool useUpperCaseName)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | parameters | TemplateTableParameters | The parameters to detect the table in the automatic mode. |
 | name | String | The table name. |
-| pageIndex | Nullable`1 | The index of the page where the template table is located; `null` if the template table is located on any page. |
 | pageWidth | Nullable`1 | The width of the page that was used to create the template item. |
 | useUpperCaseName | Boolean | The value that indicates whether a `name` is converted to UPPER CASE. |
 

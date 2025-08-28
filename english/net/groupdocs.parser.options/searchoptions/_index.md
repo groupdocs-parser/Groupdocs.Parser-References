@@ -3,7 +3,7 @@ title: SearchOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used for text search.
 type: docs
-weight: 740
+weight: 750
 url: /net/groupdocs.parser.options/searchoptions/
 ---
 ## SearchOptions class
@@ -30,13 +30,13 @@ public sealed class SearchOptions
 
 | Name | Description |
 | --- | --- |
-| [LeftHighlightOptions](../../groupdocs.parser.options/searchoptions/lefthighlightoptions) { get; } | Gets the options for the left highlight. |
-| [MatchCase](../../groupdocs.parser.options/searchoptions/matchcase) { get; } | Gets the value that indicates whether a text case isn't ignored. |
-| [MatchWholeWord](../../groupdocs.parser.options/searchoptions/matchwholeword) { get; } | Gets the value that indicates whether text search is limited by a whole word. |
-| [MaxPageIndex](../../groupdocs.parser.options/searchoptions/maxpageindex) { get; } | Gets the value that represents the max index of the page to search. |
-| [RightHighlightOptions](../../groupdocs.parser.options/searchoptions/righthighlightoptions) { get; } | Gets the options for the right highlight. |
-| [SearchByPages](../../groupdocs.parser.options/searchoptions/searchbypages) { get; } | Gets the value that indicates whether the search is performed by pages. |
-| [UseRegularExpression](../../groupdocs.parser.options/searchoptions/useregularexpression) { get; } | Gets the value that indicates whether a regular expression is used. |
+| [LeftHighlightOptions](../../groupdocs.parser.options/searchoptions/lefthighlightoptions) { get; set; } | Gets the options for the left highlight. |
+| [MatchCase](../../groupdocs.parser.options/searchoptions/matchcase) { get; set; } | Gets the value that indicates whether a text case isn't ignored. |
+| [MatchWholeWord](../../groupdocs.parser.options/searchoptions/matchwholeword) { get; set; } | Gets the value that indicates whether text search is limited by a whole word. |
+| [MaxPageIndex](../../groupdocs.parser.options/searchoptions/maxpageindex) { get; set; } | Gets the value that represents the max index of the page to search. |
+| [RightHighlightOptions](../../groupdocs.parser.options/searchoptions/righthighlightoptions) { get; set; } | Gets the options for the right highlight. |
+| [SearchByPages](../../groupdocs.parser.options/searchoptions/searchbypages) { get; set; } | Gets the value that indicates whether the search is performed by pages. |
+| [UseRegularExpression](../../groupdocs.parser.options/searchoptions/useregularexpression) { get; set; } | Gets the value that indicates whether a regular expression is used. |
 
 ### Remarks
 

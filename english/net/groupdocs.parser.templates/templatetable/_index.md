@@ -3,7 +3,7 @@ title: TemplateTable
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the template table.
 type: docs
-weight: 890
+weight: 910
 url: /net/groupdocs.parser.templates/templatetable/
 ---
 ## TemplateTable class
@@ -18,12 +18,12 @@ public sealed class TemplateTable : TemplateItem
 
 | Name | Description |
 | --- | --- |
-| [TemplateTable](templatetable#constructor)(TemplateTableLayout, string, int?) | Initializes a new instance of the [`TemplateTable`](../templatetable) class with the UPPER CASE name. |
-| [TemplateTable](templatetable#constructor_3)(TemplateTableParameters, string, int?) | Initializes a new instance of the [`TemplateTable`](../templatetable) class. |
-| [TemplateTable](templatetable#constructor_1)(TemplateTableLayout, string, int?, double?) | Initializes a new instance of the [`TemplateTable`](../templatetable) class with the UPPER CASE name. |
-| [TemplateTable](templatetable#constructor_4)(TemplateTableParameters, string, int?, double?) | Initializes a new instance of the [`TemplateTable`](../templatetable) class. |
-| [TemplateTable](templatetable#constructor_2)(TemplateTableLayout, string, int?, double?, bool) | Initializes a new instance of the [`TemplateTable`](../templatetable) class. |
-| [TemplateTable](templatetable#constructor_5)(TemplateTableParameters, string, int?, double?, bool) | Initializes a new instance of the [`TemplateTable`](../templatetable) class. |
+| [TemplateTable](templatetable#constructor)(TemplateTableLayout, string) | Initializes a new instance of the [`TemplateTable`](../templatetable) class with the UPPER CASE name. |
+| [TemplateTable](templatetable#constructor_3)(TemplateTableParameters, string) | Initializes a new instance of the [`TemplateTable`](../templatetable) class. |
+| [TemplateTable](templatetable#constructor_1)(TemplateTableLayout, string, double?) | Initializes a new instance of the [`TemplateTable`](../templatetable) class with the UPPER CASE name. |
+| [TemplateTable](templatetable#constructor_4)(TemplateTableParameters, string, double?) | Initializes a new instance of the [`TemplateTable`](../templatetable) class. |
+| [TemplateTable](templatetable#constructor_2)(TemplateTableLayout, string, double?, bool) | Initializes a new instance of the [`TemplateTable`](../templatetable) class. |
+| [TemplateTable](templatetable#constructor_5)(TemplateTableParameters, string, double?, bool) | Initializes a new instance of the [`TemplateTable`](../templatetable) class. |
 
 ## Properties
 
@@ -31,10 +31,15 @@ public sealed class TemplateTable : TemplateItem
 | --- | --- |
 | [Layout](../../groupdocs.parser.templates/templatetable/layout) { get; } | Gets the table layout. |
 | [Name](../../groupdocs.parser.templates/templateitem/name) { get; } | Gets the name of the template item. |
-| [PageIndex](../../groupdocs.parser.templates/templateitem/pageindex) { get; } | Gets the page index of the template item. |
 | [PageWidth](../../groupdocs.parser.templates/templateitem/pagewidth) { get; } | Gets the width of the page that was used to create the template item. |
 | [Parameters](../../groupdocs.parser.templates/templatetable/parameters) { get; } | Gets the parameters to detect the table in the automatic mode. |
 | [UseUpperCaseName](../../groupdocs.parser.templates/templateitem/useuppercasename) { get; } | Gets a boolean value that indicates whether a `Name` was converted to UPPER CASE. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Scale](../../groupdocs.parser.templates/templatetable/scale)(double) | Scales this template item by a given factor. |
 
 ### Remarks
 

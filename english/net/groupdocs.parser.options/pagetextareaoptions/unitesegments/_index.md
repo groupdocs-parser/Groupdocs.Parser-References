@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/pagetextareaoptions/unitesegments/
 Gets the value that indicates whether segments are united.
 
 ```csharp
-public bool UniteSegments { get; }
+public bool UniteSegments { get; set; }
 ```
 
 ### Property Value

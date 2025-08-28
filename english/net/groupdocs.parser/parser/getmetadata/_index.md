@@ -3,7 +3,7 @@ title: GetMetadata
 second_title: GroupDocs.Parser for .NET API Reference
 description: Extracts metadata from the document.
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.parser/parser/getmetadata/
 ---
 ## Parser.GetMetadata method

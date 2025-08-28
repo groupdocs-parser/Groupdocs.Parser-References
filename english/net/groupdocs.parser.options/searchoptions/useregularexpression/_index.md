@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/searchoptions/useregularexpression/
 Gets the value that indicates whether a regular expression is used.
 
 ```csharp
-public bool UseRegularExpression { get; }
+public bool UseRegularExpression { get; set; }
 ```
 
 ### Property Value

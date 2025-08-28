@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/searchoptions/matchwholeword/
 Gets the value that indicates whether text search is limited by a whole word.
 
 ```csharp
-public bool MatchWholeWord { get; }
+public bool MatchWholeWord { get; set; }
 ```
 
 ### Property Value

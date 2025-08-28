@@ -3,7 +3,7 @@ title: Rectangle
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the rectangular area that constraints the page area which is used for text recognizing.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.parser.options/ocroptions/rectangle/
 ---
 ## OcrOptions.Rectangle property
@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/ocroptions/rectangle/
 Gets the rectangular area that constraints the page area which is used for text recognizing.
 
 ```csharp
-public Rectangle Rectangle { get; }
+public Rectangle Rectangle { get; set; }
 ```
 
 ### Property Value

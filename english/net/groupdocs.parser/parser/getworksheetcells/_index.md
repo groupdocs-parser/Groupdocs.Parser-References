@@ -3,7 +3,7 @@ title: GetWorksheetCells
 second_title: GroupDocs.Parser for .NET API Reference
 description: Extracts worksheet cells.
 type: docs
-weight: 190
+weight: 200
 url: /net/groupdocs.parser/parser/getworksheetcells/
 ---
 ## GetWorksheetCells(int) {#getworksheetcells}

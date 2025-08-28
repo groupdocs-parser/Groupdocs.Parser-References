@@ -3,7 +3,7 @@ title: TemplateBarcode
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the template barcode field.
 type: docs
-weight: 800
+weight: 810
 url: /net/groupdocs.parser.templates/templatebarcode/
 ---
 ## TemplateBarcode class
@@ -19,19 +19,23 @@ public sealed class TemplateBarcode : TemplateItem
 | Name | Description |
 | --- | --- |
 | [TemplateBarcode](templatebarcode#constructor)(Rectangle, string) | Initializes a new instance of the [`TemplateBarcode`](../templatebarcode) class. |
-| [TemplateBarcode](templatebarcode#constructor_1)(Rectangle, string, int?) | Initializes a new instance of the [`TemplateBarcode`](../templatebarcode) class with the UPPER CASE name. |
-| [TemplateBarcode](templatebarcode#constructor_2)(Rectangle, string, int?, double?) | Initializes a new instance of the [`TemplateBarcode`](../templatebarcode) class. |
-| [TemplateBarcode](templatebarcode#constructor_3)(Rectangle, string, int?, double?, bool) | Initializes a new instance of the [`TemplateBarcode`](../templatebarcode) class. |
+| [TemplateBarcode](templatebarcode#constructor_1)(Rectangle, string, double?) | Initializes a new instance of the [`TemplateBarcode`](../templatebarcode) class. |
+| [TemplateBarcode](templatebarcode#constructor_2)(Rectangle, string, double?, bool) | Initializes a new instance of the [`TemplateBarcode`](../templatebarcode) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
 | [Name](../../groupdocs.parser.templates/templateitem/name) { get; } | Gets the name of the template item. |
-| [PageIndex](../../groupdocs.parser.templates/templateitem/pageindex) { get; } | Gets the page index of the template item. |
 | [PageWidth](../../groupdocs.parser.templates/templateitem/pagewidth) { get; } | Gets the width of the page that was used to create the template item. |
 | [Rectangle](../../groupdocs.parser.templates/templatebarcode/rectangle) { get; } | Gets the rectangular area that contains the template barcode field. |
 | [UseUpperCaseName](../../groupdocs.parser.templates/templateitem/useuppercasename) { get; } | Gets a boolean value that indicates whether a `Name` was converted to UPPER CASE. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Scale](../../groupdocs.parser.templates/templatebarcode/scale)(double) | Scales this template item by a given factor. |
 
 ### See Also
 

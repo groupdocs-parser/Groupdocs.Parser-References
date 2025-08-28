@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/formattedtextoptions/mode/
 Gets the formatted text extraction mode.
 
 ```csharp
-public FormattedTextMode Mode { get; }
+public FormattedTextMode Mode { get; set; }
 ```
 
 ### Property Value

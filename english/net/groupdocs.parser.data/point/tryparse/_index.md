@@ -3,7 +3,7 @@ title: TryParse
 second_title: GroupDocs.Parser for .NET API Reference
 description: Converts the string representation of a point to its class equivalent. A return value indicates whether the conversion is succeeded or failed.
 type: docs
-weight: 60
+weight: 80
 url: /net/groupdocs.parser.data/point/tryparse/
 ---
 ## Point.TryParse method

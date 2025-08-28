@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/pagetextareaoptions/matchcase/
 Gets the value that indicates whether a text case isn't ignored.
 
 ```csharp
-public bool MatchCase { get; }
+public bool MatchCase { get; set; }
 ```
 
 ### Property Value

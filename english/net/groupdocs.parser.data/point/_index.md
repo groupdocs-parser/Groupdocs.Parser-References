@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.data/point/
 Represents a point.
 
 ```csharp
-public sealed class Point
+public sealed class Point : IEquatable<Point>
 ```
 
 ## Constructors
@@ -32,8 +32,13 @@ public sealed class Point
 | Name | Description |
 | --- | --- |
 | static [Parse](../../groupdocs.parser.data/point/parse)(string) | Converts the string representation of a point to its class equivalent. |
+| override [Equals](../../groupdocs.parser.data/point/equals#equals_1)(object) | Determines whether the current [`Point`](../point) is the same as specified object. |
+| [Equals](../../groupdocs.parser.data/point/equals#equals)(Point) | Determines whether the current [`Point`](../point) is the same as specified [`Point`](../point) object. |
+| override [GetHashCode](../../groupdocs.parser.data/point/gethashcode)() | Returns the hash code for the current [`Point`](../point) object. |
 | override [ToString](../../groupdocs.parser.data/point/tostring)() | Converts the value of this instance to String. |
 | static [TryParse](../../groupdocs.parser.data/point/tryparse)(string, out Point) | Converts the string representation of a point to its class equivalent. A return value indicates whether the conversion is succeeded or failed. |
+| [operator ==](../../groupdocs.parser.data/point/op_equality) | Determines whether two [`Point`](../point) objects are the same. |
+| [operator !=](../../groupdocs.parser.data/point/op_inequality) | Determines whether two [`Point`](../point) objects are not the same. |
 
 ### See Also
 

@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/textoptions/useocr/
 Gets the value that indicates whether the OCR Connector is used to extract a text.
 
 ```csharp
-public bool UseOcr { get; }
+public bool UseOcr { get; set; }
 ```
 
 ### Property Value

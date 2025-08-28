@@ -3,7 +3,7 @@ title: HighlightOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used to extract a highlight a block of text aroud found text in search scenarios.
 type: docs
-weight: 510
+weight: 520
 url: /net/groupdocs.parser.options/highlightoptions/
 ---
 ## HighlightOptions class
@@ -18,18 +18,19 @@ public sealed class HighlightOptions
 
 | Name | Description |
 | --- | --- |
-| [HighlightOptions](highlightoptions#constructor)(int) | Initializes a new instance of the [`HighlightOptions`](../highlightoptions) class which is used to extract a fixed-length highlight. |
-| [HighlightOptions](highlightoptions#constructor_1)(int?, bool) | Initializes a new instance of the [`HighlightOptions`](../highlightoptions) class which is used to extract a line-limited highlight. |
-| [HighlightOptions](highlightoptions#constructor_2)(int?, int) | Initializes a new instance of the [`HighlightOptions`](../highlightoptions) class which is used to extract a highlight with the fixed word count. |
-| [HighlightOptions](highlightoptions#constructor_3)(int?, int?, bool) | Initializes a new instance of the [`HighlightOptions`](../highlightoptions) class. |
+| [HighlightOptions](highlightoptions#constructor)() | Initializes a new instance of the [`HighlightOptions`](../highlightoptions) class which is used to extract a fixed-length highlight. |
+| [HighlightOptions](highlightoptions#constructor_1)(int) | Initializes a new instance of the [`HighlightOptions`](../highlightoptions) class which is used to extract a fixed-length highlight. |
+| [HighlightOptions](highlightoptions#constructor_2)(int?, bool) | Initializes a new instance of the [`HighlightOptions`](../highlightoptions) class which is used to extract a line-limited highlight. |
+| [HighlightOptions](highlightoptions#constructor_3)(int?, int) | Initializes a new instance of the [`HighlightOptions`](../highlightoptions) class which is used to extract a highlight with the fixed word count. |
+| [HighlightOptions](highlightoptions#constructor_4)(int?, int?, bool) | Initializes a new instance of the [`HighlightOptions`](../highlightoptions) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [IsLineLimited](../../groupdocs.parser.options/highlightoptions/islinelimited) { get; } | Gets value that indicates whether highlight extraction is limited by the start (or the end) of a text line. |
-| [MaxLength](../../groupdocs.parser.options/highlightoptions/maxlength) { get; } | Gets a maximum text length. |
-| [WordCount](../../groupdocs.parser.options/highlightoptions/wordcount) { get; } | Gets a maximum word count. |
+| [IsLineLimited](../../groupdocs.parser.options/highlightoptions/islinelimited) { get; set; } | Gets value that indicates whether highlight extraction is limited by the start (or the end) of a text line. |
+| [MaxLength](../../groupdocs.parser.options/highlightoptions/maxlength) { get; set; } | Gets a maximum text length. |
+| [WordCount](../../groupdocs.parser.options/highlightoptions/wordcount) { get; set; } | Gets a maximum word count. |
 
 ### Remarks
 

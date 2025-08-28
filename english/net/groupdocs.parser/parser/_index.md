@@ -3,7 +3,7 @@ title: Parser
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents the main class that controls text images container extraction and parsing functionality.
 type: docs
-weight: 780
+weight: 790
 url: /net/groupdocs.parser/parser/
 ---
 ## Parser class
@@ -46,6 +46,7 @@ public sealed class Parser : IDisposable
 | Name | Description |
 | --- | --- |
 | [Dispose](../../groupdocs.parser/parser/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [GenerateAdjustmentFields](../../groupdocs.parser/parser/generateadjustmentfields)(AdjustmentFieldsOptions) | Generates fields for automatic adjustment of template position and scale. |
 | [GeneratePreview](../../groupdocs.parser/parser/generatepreview)(PreviewOptions) | Get pages preview. |
 | [GetBarcodes](../../groupdocs.parser/parser/getbarcodes#getbarcodes)() | Extracts barcodes from the document. |
 | [GetBarcodes](../../groupdocs.parser/parser/getbarcodes#getbarcodes_1)(BarcodeOptions) | Extracts barcodes from the document using customization options. |
@@ -85,9 +86,8 @@ public sealed class Parser : IDisposable
 | [GetWorksheetInfo](../../groupdocs.parser/parser/getworksheetinfo#getworksheetinfo)(int) | Extracts the info about the worksheet. |
 | [ParseByTemplate](../../groupdocs.parser/parser/parsebytemplate#parsebytemplate)(Template) | Parses the document by the user-generated template. |
 | [ParseByTemplate](../../groupdocs.parser/parser/parsebytemplate#parsebytemplate_1)(Template, ParseByTemplateOptions) | Parses the document by the user-generated template using customization options. |
+| [ParseByTemplate](../../groupdocs.parser/parser/parsebytemplate#parsebytemplate_2)(TemplateCollection, ParseByTemplateOptions) | Selects the most suitable template from the provided collection and then parses the document against the selected template. |
 | [ParseForm](../../groupdocs.parser/parser/parseform)() | Parses the document form. |
-| [ParsePagesByTemplate](../../groupdocs.parser/parser/parsepagesbytemplate#parsepagesbytemplate)(Template) | Parses the document pages by the user-generated template. |
-| [ParsePagesByTemplate](../../groupdocs.parser/parser/parsepagesbytemplate#parsepagesbytemplate_1)(Template, ParseByTemplateOptions) | Parses the document pages by the user-generated template using customization options. |
 | [Search](../../groupdocs.parser/parser/search#search)(string) | Searches a *keyword* in the document. |
 | [Search](../../groupdocs.parser/parser/search#search_1)(string, SearchOptions) | Searches a *keyword* in the document using search options (regular expression, match case, etc.). |
 | static [GetFileInfo](../../groupdocs.parser/parser/getfileinfo#getfileinfo)(Stream) | Returns the general information about a file. |

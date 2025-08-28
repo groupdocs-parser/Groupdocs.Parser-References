@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/ocroptions/handler/
 Gets the event handler to catch OCR events.
 
 ```csharp
-public OcrEventHandler Handler { get; }
+public OcrEventHandler Handler { get; set; }
 ```
 
 ### Property Value

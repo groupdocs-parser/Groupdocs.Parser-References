@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/highlightoptions/maxlength/
 Gets a maximum text length.
 
 ```csharp
-public int? MaxLength { get; }
+public int? MaxLength { get; set; }
 ```
 
 ### Property Value

@@ -3,7 +3,7 @@ title: FormattedTextOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used for formatted text extraction.
 type: docs
-weight: 500
+weight: 510
 url: /net/groupdocs.parser.options/formattedtextoptions/
 ---
 ## FormattedTextOptions class
@@ -18,13 +18,14 @@ public sealed class FormattedTextOptions
 
 | Name | Description |
 | --- | --- |
-| [FormattedTextOptions](formattedtextoptions)(FormattedTextMode) | Initializes a new instance of the [`FormattedTextOptions`](../formattedtextoptions) class. |
+| [FormattedTextOptions](formattedtextoptions#constructor)() | Initializes a new instance of the [`FormattedTextOptions`](../formattedtextoptions) class. |
+| [FormattedTextOptions](formattedtextoptions#constructor_1)(FormattedTextMode) | Initializes a new instance of the [`FormattedTextOptions`](../formattedtextoptions) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Mode](../../groupdocs.parser.options/formattedtextoptions/mode) { get; } | Gets the formatted text extraction mode. |
+| [Mode](../../groupdocs.parser.options/formattedtextoptions/mode) { get; set; } | Gets the formatted text extraction mode. |
 
 ### Remarks
 

@@ -3,7 +3,7 @@ title: GetImages
 second_title: GroupDocs.Parser for .NET API Reference
 description: Extracts images from the document.
 type: docs
-weight: 110
+weight: 120
 url: /net/groupdocs.parser/parser/getimages/
 ---
 ## GetImages() {#getimages}

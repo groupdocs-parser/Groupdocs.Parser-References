@@ -28,42 +28,18 @@ public TemplateField(TemplatePosition position, string name)
 
 ---
 
-## TemplateField(TemplatePosition, string, int?) {#constructor_1}
-
-Initializes a new instance of the [`TemplateField`](../../templatefield) class with the UPPER CASE name.
-
-```csharp
-public TemplateField(TemplatePosition position, string name, int? pageIndex)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| position | TemplatePosition | The field position. |
-| name | String | The field name. |
-| pageIndex | Nullable`1 | An integer value that represents the index of the page where the template item is located; `null` if the template item is located on any page. |
-
-### See Also
-
-* class [TemplatePosition](../../templateposition)
-* class [TemplateField](../../templatefield)
-* namespace [GroupDocs.Parser.Templates](../../../groupdocs.parser.templates)
-* assembly [GroupDocs.Parser](../../../)
-
----
-
-## TemplateField(TemplatePosition, string, int?, double?) {#constructor_2}
+## TemplateField(TemplatePosition, string, double?) {#constructor_1}
 
 Initializes a new instance of the [`TemplateField`](../../templatefield) class.
 
 ```csharp
-public TemplateField(TemplatePosition position, string name, int? pageIndex, double? pageWidth)
+public TemplateField(TemplatePosition position, string name, double? pageWidth)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | position | TemplatePosition | The field position. |
 | name | String | The field name. |
-| pageIndex | Nullable`1 | An integer value that represents the index of the page where the template item is located; `null` if the template item is located on any page. |
 | pageWidth | Nullable`1 | The width of the page that was used to create the template item. |
 
 ### See Also
@@ -75,12 +51,12 @@ public TemplateField(TemplatePosition position, string name, int? pageIndex, dou
 
 ---
 
-## TemplateField(TemplatePosition, string, int?, double?, bool) {#constructor_3}
+## TemplateField(TemplatePosition, string, double?, bool) {#constructor_2}
 
 Initializes a new instance of the [`TemplateField`](../../templatefield) class.
 
 ```csharp
-public TemplateField(TemplatePosition position, string name, int? pageIndex, double? pageWidth, 
+public TemplateField(TemplatePosition position, string name, double? pageWidth, 
     bool useUpperCaseName)
 ```
 
@@ -88,7 +64,6 @@ public TemplateField(TemplatePosition position, string name, int? pageIndex, dou
 | --- | --- | --- |
 | position | TemplatePosition | The field position. |
 | name | String | The field name. |
-| pageIndex | Nullable`1 | An integer value that represents the index of the page where the template item is located; `null` if the template item is located on any page. |
 | pageWidth | Nullable`1 | The width of the page that was used to create the template item. |
 | useUpperCaseName | Boolean | The value that indicates whether a `name` is converted to UPPER CASE. |
 

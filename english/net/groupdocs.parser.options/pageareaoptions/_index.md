@@ -3,7 +3,7 @@ title: PageAreaOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used for page areas extraction.
 type: docs
-weight: 600
+weight: 610
 url: /net/groupdocs.parser.options/pageareaoptions/
 ---
 ## PageAreaOptions class
@@ -18,15 +18,16 @@ public class PageAreaOptions
 
 | Name | Description |
 | --- | --- |
-| [PageAreaOptions](pageareaoptions#constructor)(Rectangle) | Initializes a new instance of the [`PageAreaOptions`](../pageareaoptions) class. |
-| [PageAreaOptions](pageareaoptions#constructor_1)(Rectangle, double) | Initializes a new instance of the [`PageAreaOptions`](../pageareaoptions) class with the size of the ignored border. |
+| [PageAreaOptions](pageareaoptions#constructor)() | Initializes a new instance of the [`PageAreaOptions`](../pageareaoptions) class. |
+| [PageAreaOptions](pageareaoptions#constructor_1)(Rectangle) | Initializes a new instance of the [`PageAreaOptions`](../pageareaoptions) class. |
+| [PageAreaOptions](pageareaoptions#constructor_2)(Rectangle, double) | Initializes a new instance of the [`PageAreaOptions`](../pageareaoptions) class with the size of the ignored border. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Rectangle](../../groupdocs.parser.options/pageareaoptions/rectangle) { get; } | Gets the rectangular area that contains page areas. |
-| [RectangleTolerance](../../groupdocs.parser.options/pageareaoptions/rectangletolerance) { get; } | Gets the size of the border that is ignored when captured by the rectangular area. It's measured by the fraction of a text item height. |
+| [Rectangle](../../groupdocs.parser.options/pageareaoptions/rectangle) { get; set; } | Gets the rectangular area that contains page areas. |
+| [RectangleTolerance](../../groupdocs.parser.options/pageareaoptions/rectangletolerance) { get; set; } | Gets the size of the border that is ignored when captured by the rectangular area. It's measured by the fraction of a text item height. |
 
 ### Remarks
 

@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/barcodeoptions/allowincorrectbarcodes/
 Gets the value that indicates whether the incorrect barcodes are allowed.
 
 ```csharp
-public bool AllowIncorrectBarcodes { get; }
+public bool AllowIncorrectBarcodes { get; set; }
 ```
 
 ### Property Value

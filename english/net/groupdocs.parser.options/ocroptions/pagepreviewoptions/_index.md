@@ -3,25 +3,25 @@ title: PagePreviewOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the document page preview options.
 type: docs
-weight: 50
-url: /net/groupdocs.parser.options/parsersettings/pagepreviewoptions/
+weight: 30
+url: /net/groupdocs.parser.options/ocroptions/pagepreviewoptions/
 ---
-## ParserSettings.PagePreviewOptions property
+## OcrOptions.PagePreviewOptions property
 
 Gets the document page preview options.
 
 ```csharp
-public PagePreviewOptions PagePreviewOptions { get; }
+public PagePreviewOptions PagePreviewOptions { get; set; }
 ```
 
 ### Property Value
 
-An instance of `PagePreviewOptions` class that sets properties for the document page preview generation. It's used in the barcode extraction and OCR.
+An instance of `PagePreviewOptions` class that sets properties for the document page preview generation.
 
 ### See Also
 
 * class [PagePreviewOptions](../../pagepreviewoptions)
-* class [ParserSettings](../../parsersettings)
+* class [OcrOptions](../../ocroptions)
 * namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
 * assembly [GroupDocs.Parser](../../../)
 

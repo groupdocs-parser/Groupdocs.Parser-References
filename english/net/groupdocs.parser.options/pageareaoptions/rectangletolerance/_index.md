@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/pageareaoptions/rectangletolerance/
 Gets the size of the border that is ignored when captured by the rectangular area. It's measured by the fraction of a text item height.
 
 ```csharp
-public double RectangleTolerance { get; }
+public double RectangleTolerance { get; set; }
 ```
 
 ### Return Value

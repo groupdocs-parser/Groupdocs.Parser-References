@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/barcodeoptions/barcodequality/
 Gets the quality of a source barcode.
 
 ```csharp
-public QualityMode BarcodeQuality { get; }
+public QualityMode BarcodeQuality { get; set; }
 ```
 
 ### Property Value

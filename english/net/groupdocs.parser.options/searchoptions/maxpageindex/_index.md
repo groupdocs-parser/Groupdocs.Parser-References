@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/searchoptions/maxpageindex/
 Gets the value that represents the max index of the page to search.
 
 ```csharp
-public int MaxPageIndex { get; }
+public int MaxPageIndex { get; set; }
 ```
 
 ### Property Value

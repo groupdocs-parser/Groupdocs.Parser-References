@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/textoptions/userawmodeifpossible/
 Gets the value that indicates whether the raw mode is used.
 
 ```csharp
-public bool UseRawModeIfPossible { get; }
+public bool UseRawModeIfPossible { get; set; }
 ```
 
 ### Property Value

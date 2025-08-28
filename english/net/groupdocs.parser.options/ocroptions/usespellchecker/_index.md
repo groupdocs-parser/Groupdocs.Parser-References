@@ -3,7 +3,7 @@ title: UseSpellChecker
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether the spell checker is used.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.parser.options/ocroptions/usespellchecker/
 ---
 ## OcrOptions.UseSpellChecker property
@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/ocroptions/usespellchecker/
 Gets the value that indicates whether the spell checker is used.
 
 ```csharp
-public bool UseSpellChecker { get; }
+public bool UseSpellChecker { get; set; }
 ```
 
 ### Property Value

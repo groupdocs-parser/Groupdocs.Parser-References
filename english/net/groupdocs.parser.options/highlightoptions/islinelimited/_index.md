@@ -11,7 +11,7 @@ url: /net/groupdocs.parser.options/highlightoptions/islinelimited/
 Gets value that indicates whether highlight extraction is limited by the start (or the end) of a text line.
 
 ```csharp
-public bool IsLineLimited { get; }
+public bool IsLineLimited { get; set; }
 ```
 
 ### Return Value

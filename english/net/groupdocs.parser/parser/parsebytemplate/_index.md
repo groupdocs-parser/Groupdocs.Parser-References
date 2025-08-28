@@ -3,7 +3,7 @@ title: ParseByTemplate
 second_title: GroupDocs.Parser for .NET API Reference
 description: Parses the document by the usergenerated template.
 type: docs
-weight: 210
+weight: 220
 url: /net/groupdocs.parser/parser/parsebytemplate/
 ---
 ## ParseByTemplate(Template) {#parsebytemplate}
@@ -71,6 +71,35 @@ An instance of [`DocumentData`](../../../groupdocs.parser.data/documentdata) cla
 
 * class [DocumentData](../../../groupdocs.parser.data/documentdata)
 * class [Template](../../../groupdocs.parser.templates/template)
+* class [ParseByTemplateOptions](../../../groupdocs.parser.options/parsebytemplateoptions)
+* class [Parser](../../parser)
+* namespace [GroupDocs.Parser](../../../groupdocs.parser)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## ParseByTemplate(TemplateCollection, ParseByTemplateOptions) {#parsebytemplate_2}
+
+Selects the most suitable template from the provided collection and then parses the document against the selected template.
+
+```csharp
+public DocumentData ParseByTemplate(TemplateCollection templateCollection, 
+    ParseByTemplateOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| templateCollection | TemplateCollection | The template collection. |
+| options | ParseByTemplateOptions | The customization options. |
+
+### Return Value
+
+An instance of [`DocumentData`](../../../groupdocs.parser.data/documentdata) class that contains the extracted data; `null` if parsing by template isn't supported.
+
+### See Also
+
+* class [DocumentData](../../../groupdocs.parser.data/documentdata)
+* class [TemplateCollection](../../../groupdocs.parser.templates/templatecollection)
 * class [ParseByTemplateOptions](../../../groupdocs.parser.options/parsebytemplateoptions)
 * class [Parser](../../parser)
 * namespace [GroupDocs.Parser](../../../groupdocs.parser)

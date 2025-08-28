@@ -3,7 +3,7 @@ title: GetTextAreas
 second_title: GroupDocs.Parser for .NET API Reference
 description: Extracts text areas from the document.
 type: docs
-weight: 170
+weight: 180
 url: /net/groupdocs.parser/parser/gettextareas/
 ---
 ## GetTextAreas() {#gettextareas}
