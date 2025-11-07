@@ -1,14 +1,14 @@
 ---
 title: PageIndex
 second_title: GroupDocs.Parser for .NET API Reference
-description: Gets or sets index of the page for which the adjustment fields are to be generated. The default value is 0.
+description: Gets or sets index of the page for which to perform a parsing by template. The default value is 0.
 type: docs
 weight: 30
 url: /net/groupdocs.parser.options/parsebytemplateoptions/pageindex/
 ---
 ## ParseByTemplateOptions.PageIndex property
 
-Gets or sets index of the page for which the adjustment fields are to be generated. The default value is `0`.
+Gets or sets index of the page for which to perform a parsing by template. The default value is `0`.
 
 ```csharp
 public int PageIndex { get; set; }

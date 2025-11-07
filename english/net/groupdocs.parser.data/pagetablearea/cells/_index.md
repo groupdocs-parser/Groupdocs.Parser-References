@@ -3,7 +3,7 @@ title: Cells
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the collection of cells.
 type: docs
-weight: 20
+weight: 10
 url: /net/groupdocs.parser.data/pagetablearea/cells/
 ---
 ## PageTableArea.Cells property
