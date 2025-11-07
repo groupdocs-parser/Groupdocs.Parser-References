@@ -3,7 +3,7 @@ title: GetColumnWidth
 second_title: GroupDocs.Parser for .NET API Reference
 description: Returns the column width.
 type: docs
-weight: 60
+weight: 50
 url: /net/groupdocs.parser.data/pagetablearea/getcolumnwidth/
 ---
 ## PageTableArea.GetColumnWidth method

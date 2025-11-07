@@ -69,8 +69,10 @@ public sealed class Parser : IDisposable
 | [GetPagePreview](../../groupdocs.parser/parser/getpagepreview#getpagepreview)(int) | Generates a document page preview. |
 | [GetPagePreview](../../groupdocs.parser/parser/getpagepreview#getpagepreview_1)(int, PagePreviewOptions) | Generates a document page preview using customization options. |
 | [GetStructure](../../groupdocs.parser/parser/getstructure)() | Extracts a structured text from the document. |
-| [GetTables](../../groupdocs.parser/parser/gettables#gettables)(PageTableAreaOptions) | Extracts tables from the document. |
-| [GetTables](../../groupdocs.parser/parser/gettables#gettables_1)(int, PageTableAreaOptions) | Extracts tables from the document page. |
+| [GetTables](../../groupdocs.parser/parser/gettables#gettables)() | Extracts tables from the document. |
+| [GetTables](../../groupdocs.parser/parser/gettables#gettables_2)(int) | Extracts tables from the document page. |
+| [GetTables](../../groupdocs.parser/parser/gettables#gettables_1)(PageTableAreaOptions) | Extracts tables from the document. |
+| [GetTables](../../groupdocs.parser/parser/gettables#gettables_3)(int, PageTableAreaOptions) | Extracts tables from the document page. |
 | [GetText](../../groupdocs.parser/parser/gettext#gettext)() | Extracts a text from the document. |
 | [GetText](../../groupdocs.parser/parser/gettext#gettext_2)(int) | Extracts a text from the document page. |
 | [GetText](../../groupdocs.parser/parser/gettext#gettext_1)(TextOptions) | Extracts a text page from the document using text options (to enable raw fast text extraction mode). |

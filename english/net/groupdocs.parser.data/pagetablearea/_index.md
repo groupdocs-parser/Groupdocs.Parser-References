@@ -14,12 +14,6 @@ Represents a table page area which is used to represent a table in the parsing b
 public sealed class PageTableArea : PageArea
 ```
 
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [PageTableArea](pagetablearea)(IEnumerable&lt;double&gt;, IEnumerable&lt;double&gt;, IEnumerable&lt;PageTableAreaCell&gt;, Page, Rectangle) | Initializes a new instance of the [`PageTableArea`](../pagetablearea) class. |
-
 ## Properties
 
 | Name | Description |

@@ -6,7 +6,7 @@ type: docs
 weight: 160
 url: /net/groupdocs.parser/parser/gettables/
 ---
-## GetTables(PageTableAreaOptions) {#gettables}
+## GetTables(PageTableAreaOptions) {#gettables_1}
 
 Extracts tables from the document.
 
@@ -79,7 +79,7 @@ using (Parser parser = new Parser(filePath))
 
 ---
 
-## GetTables(int, PageTableAreaOptions) {#gettables_1}
+## GetTables(int, PageTableAreaOptions) {#gettables_3}
 
 Extracts tables from the document page.
 
@@ -107,7 +107,7 @@ using (Parser parser = new Parser(filePath))
     // Check if the document supports table extraction
     if (!parser.Features.Tables)
     {
-        Console.WriteLine("Document isn't supports tables extraction.");
+        Console.WriteLine("The document does not support tables extraction.");
         return;
     }
     // Create the layout of tables
@@ -121,7 +121,7 @@ using (Parser parser = new Parser(filePath))
     // Check if the document has pages
     if (documentInfo.PageCount == 0)
     {
-        Console.WriteLine("Document hasn't pages.");
+        Console.WriteLine("The document has no pages.");
         return;
     }
     // Iterate over pages
@@ -161,6 +161,148 @@ using (Parser parser = new Parser(filePath))
 
 * class [PageTableArea](../../../groupdocs.parser.data/pagetablearea)
 * class [PageTableAreaOptions](../../../groupdocs.parser.options/pagetableareaoptions)
+* class [Parser](../../parser)
+* namespace [GroupDocs.Parser](../../../groupdocs.parser)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## GetTables() {#gettables}
+
+Extracts tables from the document.
+
+```csharp
+public IEnumerable<PageTableArea> GetTables()
+```
+
+### Return Value
+
+A collection of [`PageTableArea`](../../../groupdocs.parser.data/pagetablearea) objects; `null` if tables extraction isn't supported.
+
+### Examples
+
+The following example shows how to extract tables from the whole document:
+
+```csharp
+// Create an instance of Parser class
+using (Parser parser = new Parser(filePath))
+{
+    // Check if the document supports table extraction
+    if (!parser.Features.Tables)
+    {
+        Console.WriteLine("The document does not support tables extraction.");
+        return;
+    }
+    // Extract tables from the document
+    IEnumerable<PageTableArea> tables = parser.GetTables();
+    // Iterate over tables
+    foreach (PageTableArea t in tables)
+    {
+        // Iterate over rows
+        for (int row = 0; row < t.RowCount; row++)
+        {
+            // Iterate over columns
+            for (int column = 0; column < t.ColumnCount; column++)
+            {
+                // Get the table cell
+                PageTableAreaCell cell = t[row, column];
+                if (cell != null)
+                {
+                    // Print the table cell text
+                    Console.Write(cell.Text);
+                    Console.Write(" | ");
+                }
+            }
+            Console.WriteLine();
+        }
+        Console.WriteLine();
+    }
+}
+```
+
+### See Also
+
+* class [PageTableArea](../../../groupdocs.parser.data/pagetablearea)
+* class [Parser](../../parser)
+* namespace [GroupDocs.Parser](../../../groupdocs.parser)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## GetTables(int) {#gettables_2}
+
+Extracts tables from the document page.
+
+```csharp
+public IEnumerable<PageTableArea> GetTables(int pageIndex)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pageIndex | Int32 | The zero-based page index. |
+
+### Return Value
+
+A collection of [`PageTableArea`](../../../groupdocs.parser.data/pagetablearea) objects; `null` if tables extraction isn't supported.
+
+### Examples
+
+The following example shows how to extract tables from the document page:
+
+```csharp
+// Create an instance of Parser class
+using (Parser parser = new Parser(filePath))
+{
+    // Check if the document supports table extraction
+    if (!parser.Features.Tables)
+    {
+        Console.WriteLine("The document does not support tables extraction.");
+        return;
+    }
+    // Get the document info
+    IDocumentInfo documentInfo = parser.GetDocumentInfo();
+    // Check if the document has pages
+    if (documentInfo.PageCount == 0)
+    {
+        Console.WriteLine("The document has no pages.");
+        return;
+    }
+    // Iterate over pages
+    for (int pageIndex = 0; pageIndex < documentInfo.PageCount; pageIndex++)
+    {
+        // Print a page number 
+        Console.WriteLine(string.Format("Page {0}/{1}", pageIndex + 1, documentInfo.PageCount));
+        // Extract tables from the document page
+        IEnumerable<PageTableArea> tables = parser.GetTables(pageIndex);
+        // Iterate over tables
+        foreach (PageTableArea t in tables)
+        {
+            // Iterate over rows
+            for (int row = 0; row < t.RowCount; row++)
+            {
+                // Iterate over columns
+                for (int column = 0; column < t.ColumnCount; column++)
+                {
+                    // Get the table cell
+                    PageTableAreaCell cell = t[row, column];
+                    if (cell != null)
+                    {
+                        // Print the table cell text
+                        Console.Write(cell.Text);
+                        Console.Write(" | ");
+                    }
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine();
+        }
+    }
+}
+```
+
+### See Also
+
+* class [PageTableArea](../../../groupdocs.parser.data/pagetablearea)
 * class [Parser](../../parser)
 * namespace [GroupDocs.Parser](../../../groupdocs.parser)
 * assembly [GroupDocs.Parser](../../../)

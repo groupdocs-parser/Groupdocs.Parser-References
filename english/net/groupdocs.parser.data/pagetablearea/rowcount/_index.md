@@ -3,7 +3,7 @@ title: RowCount
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the total number of the table rows.
 type: docs
-weight: 50
+weight: 40
 url: /net/groupdocs.parser.data/pagetablearea/rowcount/
 ---
 ## PageTableArea.RowCount property
