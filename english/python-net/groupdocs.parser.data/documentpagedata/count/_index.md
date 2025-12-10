@@ -1,0 +1,18 @@
+﻿---
+title: count property
+second_title: GroupDocs.Parser for Python via .NET API References
+description: 
+type: docs
+url: /python-net/groupdocs.parser.data/documentpagedata/count/
+is_root: false
+weight: 40
+---
+
+## count property
+
+
+Gets the total number of the fields data.
+
+### See Also
+* module [`groupdocs.parser.data`](../../)
+* class [`DocumentPageData`](/parser/python-net/groupdocs.parser.data/documentpagedata)
