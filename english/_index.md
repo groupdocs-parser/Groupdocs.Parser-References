@@ -21,7 +21,6 @@ This page serves as the entry point to the **GroupDocs.Parser API references**.
 Select your target platform below to access detailed API code documentation.
 
 <div style="display: flex;flex-wrap: wrap;justify-content: left;gap: 10px;padding: 10px;">
-
     <a href="/parser/net/"
         style="width: 190px; height: 220px;background-color: #f7f7f7;border: 1px solid #ccc;border-radius: 8px;display: flex;flex-direction: column;align-items: center;justify-content: space-around;padding: 20px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);transition: transform 0.3s ease;text-decoration: none;color: inherit;">
         <img src="gdocs_net.png"
@@ -29,7 +28,6 @@ Select your target platform below to access detailed API code documentation.
         <h3 style="font-size: 16px; color: #333; margin: 10px 0; text-align: center;">GroupDocs.Parser for .NET</h3>
         <p style="font-size: 12px; color: #666; text-align: center;">Access full API references for .NET developers</p>
     </a>
-
     <a href="/parser/java/"
         style="width: 190px; height: 220px;background-color: #f7f7f7;border: 1px solid #ccc;border-radius: 8px;display: flex;flex-direction: column;align-items: center;justify-content: space-around;padding: 20px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);transition: transform 0.3s ease;text-decoration: none;color: inherit;">
         <img src="gdocs_java.png"
@@ -37,7 +35,6 @@ Select your target platform below to access detailed API code documentation.
         <h3 style="font-size: 16px; color: #333; margin: 10px 0; text-align: center;">GroupDocs.Parser for Java</h3>
         <p style="font-size: 12px; color: #666; text-align: center;">Access full API references for Java developers</p>
     </a>
-
     <a href="/parser/python-net/"
         style="width: 190px; height: 220px;background-color: #f7f7f7;border: 1px solid #ccc;border-radius: 8px;display: flex;flex-direction: column;align-items: center;justify-content: space-around;padding: 20px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);transition: transform 0.3s ease;text-decoration: none;color: inherit;">
         <img src="gdocs_python_net.png"
@@ -45,7 +42,6 @@ Select your target platform below to access detailed API code documentation.
         <h3 style="font-size: 16px; color: #333; margin: 10px 0; text-align: center;">GroupDocs.Parser for Python via .NET</h3>
         <p style="font-size: 12px; color: #666; text-align: center;">Access full API references for Python developers</p>
     </a>
-
 </div>
 
 ## Additional Resources
