@@ -8,45 +8,6 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#System.Uri}
-
-Initializes a new instance of the [`Parser`](/parser/python-net/groupdocs.parser/parser) class to extract data from an URI.
-
-
-
-```python
-def __init__(self, uri):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| uri | System.Uri | The Uri the request is sent to. |
-
-
-## __init__ {#groupdocs.parser.options.EmailConnection}
-
-Initializes a new instance of the [`Parser`](/parser/python-net/groupdocs.parser/parser) class to extract data from a remote email server.
-
-
-
-```python
-def __init__(self, connection):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| connection | groupdocs.parser.options.EmailConnection | The email connection. |
-
-### Example 
-
-
-The following example shows how to extract emails from Exchange Server:
-
-
 ## __init__ {#System.String}
 
 Initializes a new instance of the [`Parser`](/parser/python-net/groupdocs.parser/parser) class.
@@ -89,65 +50,6 @@ def __init__(self, document):
 
 
 The following example shows how to load the document from the stream:
-
-
-## __init__ {#System.Uri-groupdocs.parser.options.LoadOptions}
-
-Initializes a new instance of the [`Parser`](/parser/python-net/groupdocs.parser/parser) class to extract data from an URI with `load_options`.
-
-
-
-```python
-def __init__(self, uri, load_options):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| uri | System.Uri | The Uri the request is sent to. |
-| load_options | groupdocs.parser.options.LoadOptions | The options to open the file. |
-
-
-## __init__ {#System.Uri-groupdocs.parser.options.ParserSettings}
-
-Initializes a new instance of the [`Parser`](/parser/python-net/groupdocs.parser/parser) class to extract data from an URI with `parser_settings`.
-
-
-
-```python
-def __init__(self, uri, parser_settings):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| uri | System.Uri | The Uri the request is sent to. |
-| parser_settings | groupdocs.parser.options.ParserSettings | The parser settings which are used to customize data extraction. |
-
-
-## __init__ {#groupdocs.parser.options.EmailConnection-groupdocs.parser.options.ParserSettings}
-
-Initializes a new instance of the [`Parser`](/parser/python-net/groupdocs.parser/parser) class to extract data from a remote email server.
-
-
-
-```python
-def __init__(self, connection, parser_settings):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| connection | groupdocs.parser.options.EmailConnection | The email connection. |
-| parser_settings | groupdocs.parser.options.ParserSettings | The parser settings which are used to customize data extraction. |
-
-### Example 
-
-
-The following example shows how to extract emails from Exchange Server:
 
 
 ## __init__ {#System.String-groupdocs.parser.options.LoadOptions}
@@ -233,25 +135,6 @@ def __init__(self, document, parser_settings):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | document | io.RawIOBase | The source input stream. |
-| parser_settings | groupdocs.parser.options.ParserSettings | The parser settings which are used to customize data extraction. |
-
-
-## __init__ {#System.Uri-groupdocs.parser.options.LoadOptions-groupdocs.parser.options.ParserSettings}
-
-Initializes a new instance of the [`Parser`](/parser/python-net/groupdocs.parser/parser) class to extract data from an URI with `load_options` and `parser_settings`.
-
-
-
-```python
-def __init__(self, uri, load_options, parser_settings):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| uri | System.Uri | The Uri the request is sent to. |
-| load_options | groupdocs.parser.options.LoadOptions | The options to open the file. |
 | parser_settings | groupdocs.parser.options.ParserSettings | The parser settings which are used to customize data extraction. |
 
 

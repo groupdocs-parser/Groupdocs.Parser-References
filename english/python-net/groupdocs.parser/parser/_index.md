@@ -19,12 +19,6 @@ The Parser type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/parser/python-net/groupdocs.parser/parser/__init__/#System.Uri) | Initializes a new instance of the [`Parser`](/parser/python-net/groupdocs.parser/parser) class to extract data from an URI. |
-| [__init__](/parser/python-net/groupdocs.parser/parser/__init__/#System.Uri-groupdocs.parser.options.LoadOptions) | Initializes a new instance of the [`Parser`](/parser/python-net/groupdocs.parser/parser) class to extract data from an URI with `load_options`. |
-| [__init__](/parser/python-net/groupdocs.parser/parser/__init__/#System.Uri-groupdocs.parser.options.ParserSettings) | Initializes a new instance of the [`Parser`](/parser/python-net/groupdocs.parser/parser) class to extract data from an URI with `parser_settings`. |
-| [__init__](/parser/python-net/groupdocs.parser/parser/__init__/#System.Uri-groupdocs.parser.options.LoadOptions-groupdocs.parser.options.ParserSettings) | Initializes a new instance of the [`Parser`](/parser/python-net/groupdocs.parser/parser) class to extract data from an URI with `load_options` and `parser_settings`. |
-| [__init__](/parser/python-net/groupdocs.parser/parser/__init__/#groupdocs.parser.options.EmailConnection) | Initializes a new instance of the [`Parser`](/parser/python-net/groupdocs.parser/parser) class to extract data from a remote email server. |
-| [__init__](/parser/python-net/groupdocs.parser/parser/__init__/#groupdocs.parser.options.EmailConnection-groupdocs.parser.options.ParserSettings) | Initializes a new instance of the [`Parser`](/parser/python-net/groupdocs.parser/parser) class to extract data from a remote email server. |
 | [__init__](/parser/python-net/groupdocs.parser/parser/__init__/#System.String) | Initializes a new instance of the [`Parser`](/parser/python-net/groupdocs.parser/parser) class. |
 | [__init__](/parser/python-net/groupdocs.parser/parser/__init__/#System.String-groupdocs.parser.options.LoadOptions) | Initializes a new instance of the [`Parser`](/parser/python-net/groupdocs.parser/parser) class with [`LoadOptions`](/parser/python-net/groupdocs.parser.options/loadoptions). |
 | [__init__](/parser/python-net/groupdocs.parser/parser/__init__/#System.String-groupdocs.parser.options.ParserSettings) | Initializes a new instance of the [`Parser`](/parser/python-net/groupdocs.parser/parser) class with [`ParserSettings`](/parser/python-net/groupdocs.parser.options/parsersettings). |
