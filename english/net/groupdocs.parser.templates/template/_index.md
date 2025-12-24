@@ -3,7 +3,7 @@ title: Template
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the document page template. It consists of TemplateItem./templateitem objects which represent the items of the template such as text field and table definitions.
 type: docs
-weight: 800
+weight: 810
 url: /net/groupdocs.parser.templates/template/
 ---
 ## Template class
