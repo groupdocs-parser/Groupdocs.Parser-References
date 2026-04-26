@@ -41,6 +41,7 @@ The following example shows the code for the situation if it's known that the fi
 | [getSearchArea()](#getSearchArea--) | Gets the size of the area where a field is searched. |
 | [isAutoScale()](#isAutoScale--) | Gets the value that indicates whether  SearchArea  is scaled by the linked field size. |
 | [getEdges()](#getEdges--) | Gets the edges of the linked field where a field is searched. |
+| [scale(double factor)](#scale-double-) |  |
 ### TemplateLinkedPosition(String linkedFieldName, Size searchArea, TemplateLinkedPositionEdges edges) {#TemplateLinkedPosition-java.lang.String-com.groupdocs.parser.data.Size-com.groupdocs.parser.templates.TemplateLinkedPositionEdges-}
 ```
 public TemplateLinkedPosition(String linkedFieldName, Size searchArea, TemplateLinkedPositionEdges edges)
@@ -129,3 +130,18 @@ Gets the edges of the linked field where a field is searched.
 
 **Returns:**
 [TemplateLinkedPositionEdges](../../com.groupdocs.parser.templates/templatelinkedpositionedges) - An instance of [TemplateLinkedPositionEdges](../../com.groupdocs.parser.templates/templatelinkedpositionedges) class that represents the edges of the linked field where a field is searched.
+### scale(double factor) {#scale-double-}
+```
+public TemplatePosition scale(double factor)
+```
+
+
+Creates a copy of the current position with all coordinates scaled by the given factor.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| factor | double |  |
+
+**Returns:**
+[TemplatePosition](../../com.groupdocs.parser.templates/templateposition)

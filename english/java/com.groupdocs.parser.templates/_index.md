@@ -14,7 +14,7 @@ The package provides classes for creating templates for parsing document data.
 
 | Class | Description |
 | --- | --- |
-| [Template](../com.groupdocs.parser.templates/template) | Provides the document template. |
+| [Template](../com.groupdocs.parser.templates/template) | Provides the document page template. |
 | [TemplateBarcode](../com.groupdocs.parser.templates/templatebarcode) | Provides the template barcode field. |
 | [TemplateField](../com.groupdocs.parser.templates/templatefield) | Provides the template text field. |
 | [TemplateFixedPosition](../com.groupdocs.parser.templates/templatefixedposition) | Provides a template field position which is defined by the rectangular area. |

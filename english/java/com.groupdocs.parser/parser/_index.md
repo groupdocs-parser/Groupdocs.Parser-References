@@ -76,13 +76,17 @@ Represents the main class that controls text, images, container extraction and p
 | [getBarcodes(BarcodeOptions options)](#getBarcodes-com.groupdocs.parser.options.BarcodeOptions-) | Extracts barcodes from the document using customization options (to set the rectangular area that contains barcodes). |
 | [getBarcodes(int pageIndex, BarcodeOptions options)](#getBarcodes-int-com.groupdocs.parser.options.BarcodeOptions-) | Extracts barcodes from the document page using customization options (to set the rectangular area that contains barcodes). |
 | [getTables(PageTableAreaOptions options)](#getTables-com.groupdocs.parser.options.PageTableAreaOptions-) | Extracts tables from the document. |
+| [getTables()](#getTables--) | Extracts tables from the document, detecting them automatically. |
 | [getTables(int pageIndex, PageTableAreaOptions options)](#getTables-int-com.groupdocs.parser.options.PageTableAreaOptions-) | Extracts tables from the document page. |
+| [getTables(int pageIndex)](#getTables-int-) | Extracts tables from the document page, detecting them automatically. |
+| [generateAdjustmentFields(GenerateTemplateOptions options)](#generateAdjustmentFields-com.groupdocs.parser.options.GenerateTemplateOptions-) | Generates a collection of adjustment [TemplateItem](../../com.groupdocs.parser.templates/templateitem)s for the document. |
 | [getWorksheetInfo()](#getWorksheetInfo--) | Extracts the info about all worksheets in the spreadsheet. |
 | [getWorksheetInfo(int worksheetIndex)](#getWorksheetInfo-int-) | Extracts the info about the worksheet. |
 | [getWorksheetCells(int worksheetIndex)](#getWorksheetCells-int-) | Extracts worksheet cells. |
 | [getWorksheetCells(int worksheetIndex, WorksheetOptions options)](#getWorksheetCells-int-com.groupdocs.parser.options.WorksheetOptions-) | Extracts worksheet cells using customization options. |
 | [parseByTemplate(Template template)](#parseByTemplate-com.groupdocs.parser.templates.Template-) | Parses the document by the user-generated template. |
-| [parsePagesByTemplate(Template template)](#parsePagesByTemplate-com.groupdocs.parser.templates.Template-) | Parses the document pages by the user-generated template. |
+| [parseByTemplate(Template template, ParseByTemplateOptions options)](#parseByTemplate-com.groupdocs.parser.templates.Template-com.groupdocs.parser.options.ParseByTemplateOptions-) | Parses the document by the user-generated template with the supplied options. |
+| [parseByTemplate(TemplateCollection templates, ParseByTemplateOptions options)](#parseByTemplate-com.groupdocs.parser.templates.TemplateCollection-com.groupdocs.parser.options.ParseByTemplateOptions-) | Parses the document by automatically selecting the best-matching template from a collection. |
 | [parseForm()](#parseForm--) | Parses the document form. |
 | [getStructure()](#getStructure--) | Extracts a structured text from the document. |
 | [close()](#close--) | Closes this resource, relinquishing any underlying resources. |
@@ -2156,6 +2160,16 @@ The following example shows how to extract tables from the whole document:
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageTableArea> - A collection of [PageTableArea](../../com.groupdocs.parser.data/pagetablearea) objects;  null  if tables extraction isn't supported.
+### getTables() {#getTables--}
+```
+public Iterable<PageTableArea> getTables()
+```
+
+
+Extracts tables from the document, detecting them automatically.
+
+**Returns:**
+java.lang.Iterable<com.groupdocs.parser.data.PageTableArea> - A collection of [PageTableArea](../../com.groupdocs.parser.data/pagetablearea) objects;  null  if tables extraction isn't supported.
 ### getTables(int pageIndex, PageTableAreaOptions options) {#getTables-int-com.groupdocs.parser.options.PageTableAreaOptions-}
 ```
 public Iterable<PageTableArea> getTables(int pageIndex, PageTableAreaOptions options)
@@ -2224,6 +2238,48 @@ The following example shows how to extract tables from the document page:
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageTableArea> - A collection of [PageTableArea](../../com.groupdocs.parser.data/pagetablearea) objects;  null  if tables extraction isn't supported.
+### getTables(int pageIndex) {#getTables-int-}
+```
+public Iterable<PageTableArea> getTables(int pageIndex)
+```
+
+
+Extracts tables from the document page, detecting them automatically.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pageIndex | int | The zero-based page index. |
+
+**Returns:**
+java.lang.Iterable<com.groupdocs.parser.data.PageTableArea> - A collection of [PageTableArea](../../com.groupdocs.parser.data/pagetablearea) objects;  null  if tables extraction isn't supported.
+### generateAdjustmentFields(GenerateTemplateOptions options) {#generateAdjustmentFields-com.groupdocs.parser.options.GenerateTemplateOptions-}
+```
+public Iterable<TemplateItem> generateAdjustmentFields(GenerateTemplateOptions options)
+```
+
+
+Generates a collection of adjustment [TemplateItem](../../com.groupdocs.parser.templates/templateitem)s for the document.
+
+Java mirror of the C\#  Parser.GenerateAdjustmentFields(GenerateTemplateOptions)  API (commits d4e691b / ae9e98c). Useful as a starting-point template that the user can then trim or rename.
+
+### Algorithm ###
+
+1.  Pick the page from  options.getPageIndex()  (default  0 ).
+2.  If the document supports text-area extraction, call \#getTextAreas(int, com.groupdocs.parser.options.PageTextAreaOptions).getTextAreas(int, com.groupdocs.parser.options.PageTextAreaOptions) and emit one [TemplateField](../../com.groupdocs.parser.templates/templatefield) per non-empty text area, named  \{prefix\}\_\{n\}  (default prefix  "Field" ). Each field gets a [TemplateFixedPosition](../../com.groupdocs.parser.templates/templatefixedposition) at the text area's rectangle, with the page's width recorded as  pageWidth  so subsequent template scaling works.
+3.  If the document does not support text areas, return  null .
+
+### OCR caveat ###
+
+The C\# implementation runs OCR over the page preview to derive fields when the document is image-only. Java's [OcrConnectorBase](../../com.groupdocs.parser.options/ocrconnectorbase) is user-supplied, so OCR-driven generation is only meaningful if a connector is configured AND the connector's  recognizeTextAreas(...)  returns proper rectangles. When  options.getOcrOptions()  is set and a connector is available, the OCR pipeline is preferred.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [GenerateTemplateOptions](../../com.groupdocs.parser.options/generatetemplateoptions) | The generation options. May be  null  (defaults applied). |
+
+**Returns:**
+java.lang.Iterable<com.groupdocs.parser.templates.TemplateItem> - An iterable of generated [TemplateItem](../../com.groupdocs.parser.templates/templateitem)s, or  null  if not supported by this document format.
 ### getWorksheetInfo() {#getWorksheetInfo--}
 ```
 public Iterable<WorksheetInfo> getWorksheetInfo()
@@ -2308,21 +2364,46 @@ Parses the document by the user-generated template.
 
 **Returns:**
 [DocumentData](../../com.groupdocs.parser.data/documentdata) - An instance of [DocumentData](../../com.groupdocs.parser.data/documentdata) class that contains the extracted data;  null  if parsing by template isn't supported.
-### parsePagesByTemplate(Template template) {#parsePagesByTemplate-com.groupdocs.parser.templates.Template-}
+### parseByTemplate(Template template, ParseByTemplateOptions options) {#parseByTemplate-com.groupdocs.parser.templates.Template-com.groupdocs.parser.options.ParseByTemplateOptions-}
 ```
-public Iterable<DocumentPageData> parsePagesByTemplate(Template template)
+public DocumentData parseByTemplate(Template template, ParseByTemplateOptions options)
 ```
 
 
-Parses the document pages by the user-generated template.
+Parses the document by the user-generated template with the supplied options.
+
+If  options.getPageIndex()  is set, only that page is parsed; otherwise all pages are parsed.
+
+OCR support depends on the [OcrConnectorBase](../../com.groupdocs.parser.options/ocrconnectorbase) configured in [ParserSettings](../../com.groupdocs.parser.options/parsersettings).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | template | [Template](../../com.groupdocs.parser.templates/template) | The user-generated template. |
+| options | [ParseByTemplateOptions](../../com.groupdocs.parser.options/parsebytemplateoptions) | The parse-by-template options. |
 
 **Returns:**
-java.lang.Iterable<com.groupdocs.parser.data.DocumentPageData> - A collection of [DocumentPageData](../../com.groupdocs.parser.data/documentpagedata) objects that contains the extracted data;  null  if parsing by template isn't supported.
+[DocumentData](../../com.groupdocs.parser.data/documentdata) - An instance of [DocumentData](../../com.groupdocs.parser.data/documentdata) class that contains the extracted data;  null  if parsing by template isn't supported.
+### parseByTemplate(TemplateCollection templates, ParseByTemplateOptions options) {#parseByTemplate-com.groupdocs.parser.templates.TemplateCollection-com.groupdocs.parser.options.ParseByTemplateOptions-}
+```
+public DocumentData parseByTemplate(TemplateCollection templates, ParseByTemplateOptions options)
+```
+
+
+Parses the document by automatically selecting the best-matching template from a collection.
+
+Mirror of the C\#  Parser.ParseByTemplate(TemplateCollection, ParseByTemplateOptions)  introduced in commit 71f3f21.
+
+**Selection heuristic** (Java port): each candidate template is applied via \#parseByTemplate(Template, com.groupdocs.parser.options.ParseByTemplateOptions).parseByTemplate(Template, com.groupdocs.parser.options.ParseByTemplateOptions), and the template that yields the highest number of populated fields (non-null page areas with non-empty text) wins. The C\# implementation uses hidden-marker matching against an OCR pass; that path is not yet available in Java because hidden-field markers and the OCR-driven TemplatePageOcrParser aren't ported, so this populated-field count is used as a transparent fallback. Callers that need C\#-identical behavior should plug in a custom selector once the OCR engine is wired.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| templates | [TemplateCollection](../../com.groupdocs.parser.templates/templatecollection) | A collection of candidate templates. The parser will pick the best-matching one. |
+| options | [ParseByTemplateOptions](../../com.groupdocs.parser.options/parsebytemplateoptions) | Parse options. May be  null . |
+
+**Returns:**
+[DocumentData](../../com.groupdocs.parser.data/documentdata) - The extracted data with [DocumentData.getTemplate()](../../com.groupdocs.parser.data/documentdata\#getTemplate--) set to the selected template, or  null  if the document does not support parsing-by-template or the collection is empty / produced no result.
 ### parseForm() {#parseForm--}
 ```
 public DocumentData parseForm()

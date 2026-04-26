@@ -36,6 +36,7 @@ In some cases when algorithms can't detect a table or do it in non-accurate way 
 | [getMinRowCount()](#getMinRowCount--) | Gets the minimum number of the table rows. |
 | [getMinColumnCount()](#getMinColumnCount--) | Gets the minimum number of the table columns. |
 | [getMinVerticalSpace()](#getMinVerticalSpace--) | Gets the minumum space between the table columns. |
+| [scale(double factor)](#scale-double-) | Creates a copy of these parameters with all coordinates scaled by the given factor. |
 ### TemplateTableParameters(Rectangle rectangle, Iterable<Double> verticalSeparators) {#TemplateTableParameters-com.groupdocs.parser.data.Rectangle-java.lang.Iterable-java.lang.Double--}
 ```
 public TemplateTableParameters(Rectangle rectangle, Iterable<Double> verticalSeparators)
@@ -128,3 +129,18 @@ Gets the minumum space between the table columns.
 
 **Returns:**
 java.lang.Integer - An integer value that represents the minumum space between the table columns;  null  if it isn't set.
+### scale(double factor) {#scale-double-}
+```
+public TemplateTableParameters scale(double factor)
+```
+
+
+Creates a copy of these parameters with all coordinates scaled by the given factor.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| factor | double | The scaling factor. |
+
+**Returns:**
+[TemplateTableParameters](../../com.groupdocs.parser.templates/templatetableparameters) - A new [TemplateTableParameters](../../com.groupdocs.parser.templates/templatetableparameters) with scaled coordinates.

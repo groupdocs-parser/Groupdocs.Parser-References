@@ -32,12 +32,22 @@ An instance of [FormattedTextOptions](../../com.groupdocs.parser.options/formatt
 
 | Constructor | Description |
 | --- | --- |
+| [FormattedTextOptions()](#FormattedTextOptions--) | Initializes a new instance of the [FormattedTextOptions](../../com.groupdocs.parser.options/formattedtextoptions) class with no mode set. |
 | [FormattedTextOptions(FormattedTextMode mode)](#FormattedTextOptions-com.groupdocs.parser.options.FormattedTextMode-) | Initializes a new instance of the [FormattedTextOptions](../../com.groupdocs.parser.options/formattedtextoptions) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getMode()](#getMode--) | Gets the formatted text extraction mode. |
+| [setMode(FormattedTextMode mode)](#setMode-com.groupdocs.parser.options.FormattedTextMode-) | Sets the formatted text extraction mode. |
+### FormattedTextOptions() {#FormattedTextOptions--}
+```
+public FormattedTextOptions()
+```
+
+
+Initializes a new instance of the [FormattedTextOptions](../../com.groupdocs.parser.options/formattedtextoptions) class with no mode set.
+
 ### FormattedTextOptions(FormattedTextMode mode) {#FormattedTextOptions-com.groupdocs.parser.options.FormattedTextMode-}
 ```
 public FormattedTextOptions(FormattedTextMode mode)
@@ -61,3 +71,16 @@ Gets the formatted text extraction mode.
 
 **Returns:**
 [FormattedTextMode](../../com.groupdocs.parser.options/formattedtextmode) - [FormattedTextMode](../../com.groupdocs.parser.options/formattedtextmode) enumeration that contains a formatted text extraction mode.
+### setMode(FormattedTextMode mode) {#setMode-com.groupdocs.parser.options.FormattedTextMode-}
+```
+public void setMode(FormattedTextMode mode)
+```
+
+
+Sets the formatted text extraction mode.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mode | [FormattedTextMode](../../com.groupdocs.parser.options/formattedtextmode) | [FormattedTextMode](../../com.groupdocs.parser.options/formattedtextmode) enumeration that contains a formatted text extraction mode. |
+

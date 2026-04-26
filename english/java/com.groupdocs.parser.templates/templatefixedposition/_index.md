@@ -33,6 +33,7 @@ This is simplest way to define the field position. It requires to set a rectangu
 | Method | Description |
 | --- | --- |
 | [getRectangle()](#getRectangle--) | Gets the rectangular area that contains the template field. |
+| [scale(double factor)](#scale-double-) |  |
 ### TemplateFixedPosition(Rectangle rectangle) {#TemplateFixedPosition-com.groupdocs.parser.data.Rectangle-}
 ```
 public TemplateFixedPosition(Rectangle rectangle)
@@ -56,3 +57,18 @@ Gets the rectangular area that contains the template field.
 
 **Returns:**
 [Rectangle](../../com.groupdocs.parser.data/rectangle) - An instance of [Rectangle](../../com.groupdocs.parser.data/rectangle) class that represents the rectangular area that contains the template field.
+### scale(double factor) {#scale-double-}
+```
+public TemplatePosition scale(double factor)
+```
+
+
+Creates a copy of the current position with all coordinates scaled by the given factor.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| factor | double |  |
+
+**Returns:**
+[TemplatePosition](../../com.groupdocs.parser.templates/templateposition)

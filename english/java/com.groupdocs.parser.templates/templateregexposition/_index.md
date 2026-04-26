@@ -46,6 +46,7 @@ In this case as a value "INV-3337" string is extracted.
 | --- | --- |
 | [getExpression()](#getExpression--) | Gets the regular expression. |
 | [isMatchCase()](#isMatchCase--) | Gets the value that indicates whether a text case isn't ignored. |
+| [scale(double factor)](#scale-double-) |  |
 ### TemplateRegexPosition(String expression) {#TemplateRegexPosition-java.lang.String-}
 ```
 public TemplateRegexPosition(String expression)
@@ -93,3 +94,18 @@ Gets the value that indicates whether a text case isn't ignored.
 
 **Returns:**
 boolean -  true  if a text case isn't ignored; otherwise,  false .
+### scale(double factor) {#scale-double-}
+```
+public TemplatePosition scale(double factor)
+```
+
+
+Creates a copy of the current position with all coordinates scaled by the given factor.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| factor | double |  |
+
+**Returns:**
+[TemplatePosition](../../com.groupdocs.parser.templates/templateposition)

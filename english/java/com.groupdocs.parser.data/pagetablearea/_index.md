@@ -38,6 +38,8 @@ public PageTableArea(Iterable<Double> rows, Iterable<Double> columns, Iterable<P
 
 Initializes a new instance of the [PageTableArea](../../com.groupdocs.parser.data/pagetablearea) class.
 
+Note: the C\# project marks this constructor as  internal  (commit 954951f). In Java, "internal-to-the-assembly" does not translate cleanly to package-private because the producers ( WordProcessingParser ,  TableAreaParser , etc.) live in  com.groupdocs.parser , not  com.groupdocs.parser.data . The constructor is therefore kept  public  so cross-package construction still works.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |

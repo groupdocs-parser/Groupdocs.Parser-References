@@ -26,6 +26,7 @@ An instance of [HighlightOptions](../../com.groupdocs.parser.options/highlightop
 
 | Constructor | Description |
 | --- | --- |
+| [HighlightOptions()](#HighlightOptions--) | Initializes a new instance of the [HighlightOptions](../../com.groupdocs.parser.options/highlightoptions) class with no limits set. |
 | [HighlightOptions(int maxLength)](#HighlightOptions-int-) | Initializes a new instance of the [HighlightOptions](../../com.groupdocs.parser.options/highlightoptions) class which is used to extract a fixed-length highlight. |
 | [HighlightOptions(Integer maxLength, boolean isLineLimited)](#HighlightOptions-java.lang.Integer-boolean-) | Initializes a new instance of the [HighlightOptions](../../com.groupdocs.parser.options/highlightoptions) class which is used to extract a line-limited highlight. |
 | [HighlightOptions(Integer maxLength, int wordCount)](#HighlightOptions-java.lang.Integer-int-) | Initializes a new instance of the [HighlightOptions](../../com.groupdocs.parser.options/highlightoptions) class which is used to extract a highlight with the fixed word count. |
@@ -37,6 +38,17 @@ An instance of [HighlightOptions](../../com.groupdocs.parser.options/highlightop
 | [getMaxLength()](#getMaxLength--) | Gets a maximum text length. |
 | [getWordCount()](#getWordCount--) | Gets a maximum word count. |
 | [isLineLimited()](#isLineLimited--) | Gets value that indicates whether highlight extraction is limited by the start (or the end) of a text line. |
+| [setMaxLength(Integer maxLength)](#setMaxLength-java.lang.Integer-) | Sets a maximum text length. |
+| [setWordCount(Integer wordCount)](#setWordCount-java.lang.Integer-) | Sets a maximum word count. |
+| [setLineLimited(boolean lineLimited)](#setLineLimited-boolean-) | Sets the value that indicates whether highlight extraction is limited by the start (or the end) of a text line. |
+### HighlightOptions() {#HighlightOptions--}
+```
+public HighlightOptions()
+```
+
+
+Initializes a new instance of the [HighlightOptions](../../com.groupdocs.parser.options/highlightoptions) class with no limits set. Set at least one of \#setMaxLength(Integer).setMaxLength(Integer), \#setWordCount(Integer).setWordCount(Integer), \#setLineLimited(boolean).setLineLimited(boolean) before passing to the parser.
+
 ### HighlightOptions(int maxLength) {#HighlightOptions-int-}
 ```
 public HighlightOptions(int maxLength)
@@ -123,3 +135,42 @@ Gets value that indicates whether highlight extraction is limited by the start (
 
 **Returns:**
 boolean -  true  if highlight extraction is limited by the start (or the end) of a text line; otherwise,  false .
+### setMaxLength(Integer maxLength) {#setMaxLength-java.lang.Integer-}
+```
+public void setMaxLength(Integer maxLength)
+```
+
+
+Sets a maximum text length.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| maxLength | java.lang.Integer | A non-negative integer;  null  to remove the length limit. |
+
+### setWordCount(Integer wordCount) {#setWordCount-java.lang.Integer-}
+```
+public void setWordCount(Integer wordCount)
+```
+
+
+Sets a maximum word count.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| wordCount | java.lang.Integer | A non-negative integer;  null  to remove the word-count limit. |
+
+### setLineLimited(boolean lineLimited) {#setLineLimited-boolean-}
+```
+public void setLineLimited(boolean lineLimited)
+```
+
+
+Sets the value that indicates whether highlight extraction is limited by the start (or the end) of a text line.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| lineLimited | boolean |  true  to limit by line bounds. |
+

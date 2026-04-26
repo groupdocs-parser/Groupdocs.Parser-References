@@ -21,10 +21,12 @@ Represents data of the document. It consists of [FieldData](../../com.groupdocs.
 | Constructor | Description |
 | --- | --- |
 | [DocumentData(Iterable<FieldData> fields)](#DocumentData-java.lang.Iterable-com.groupdocs.parser.data.FieldData--) | Initializes a new instance of the [FieldData](../../com.groupdocs.parser.data/fielddata) class. |
+| [DocumentData(Template template, Iterable<FieldData> fields)](#DocumentData-com.groupdocs.parser.templates.Template-java.lang.Iterable-com.groupdocs.parser.data.FieldData--) | Initializes a new instance of the [DocumentData](../../com.groupdocs.parser.data/documentdata) class with the source template. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [getTemplate()](#getTemplate--) | Gets the template that produced this document data. |
 | [getCount()](#getCount--) | Gets the total number of the fields data. |
 | [get(int index)](#get-int-) | Gets the field data by an index. |
 | [getFieldsByName(String fieldName)](#getFieldsByName-java.lang.String-) | Returns the collection of field data where the name is equal to  fieldName . |
@@ -42,6 +44,32 @@ Initializes a new instance of the [FieldData](../../com.groupdocs.parser.data/fi
 | --- | --- | --- |
 | fields | java.lang.Iterable<com.groupdocs.parser.data.FieldData> | The collection of fields data. |
 
+### DocumentData(Template template, Iterable<FieldData> fields) {#DocumentData-com.groupdocs.parser.templates.Template-java.lang.Iterable-com.groupdocs.parser.data.FieldData--}
+```
+public DocumentData(Template template, Iterable<FieldData> fields)
+```
+
+
+Initializes a new instance of the [DocumentData](../../com.groupdocs.parser.data/documentdata) class with the source template.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| template | [Template](../../com.groupdocs.parser.templates/template) | The template that produced these fields. May be  null  when the data was not produced by a template (e.g.  parseForm ). |
+| fields | java.lang.Iterable<com.groupdocs.parser.data.FieldData> | The collection of fields data. |
+
+### getTemplate() {#getTemplate--}
+```
+public Template getTemplate()
+```
+
+
+Gets the template that produced this document data.
+
+When the data was produced by an automatic template-collection selection (see [Parser.parseByTemplate(com.groupdocs.parser.templates.TemplateCollection, com.groupdocs.parser.options.ParseByTemplateOptions)](../../com.groupdocs.parser/parser\#parseByTemplate-com.groupdocs.parser.templates.TemplateCollection--com.groupdocs.parser.options.ParseByTemplateOptions-)), this is the selected template.  null  when the data was not produced by a template.
+
+**Returns:**
+[Template](../../com.groupdocs.parser.templates/template) - The source [Template](../../com.groupdocs.parser.templates/template), or  null .
 ### getCount() {#getCount--}
 ```
 public int getCount()

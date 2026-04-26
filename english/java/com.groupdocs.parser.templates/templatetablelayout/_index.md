@@ -26,6 +26,7 @@ Provides the template table layout which is used by [TemplateTable](../../com.gr
 | [getVerticalSeparators()](#getVerticalSeparators--) | Gets the table columns separators. |
 | [getHorizontalSeparators()](#getHorizontalSeparators--) | Gets the table rows separators. |
 | [moveTo(Point point)](#moveTo-com.groupdocs.parser.data.Point-) | Creates a new layout with the same size, separators and position in the point. |
+| [scale(double factor)](#scale-double-) | Creates a copy of this layout with all coordinates scaled by the given factor. |
 ### TemplateTableLayout(Iterable<Double> verticalSeparators, Iterable<Double> horizontalSeparators) {#TemplateTableLayout-java.lang.Iterable-java.lang.Double--java.lang.Iterable-java.lang.Double--}
 ```
 public TemplateTableLayout(Iterable<Double> verticalSeparators, Iterable<Double> horizontalSeparators)
@@ -121,3 +122,18 @@ If the table position depends on the other object of the page, a user can define
 
 **Returns:**
 [TemplateTableLayout](../../com.groupdocs.parser.templates/templatetablelayout) - A new layout with the same size, separators and position in the point.
+### scale(double factor) {#scale-double-}
+```
+public TemplateTableLayout scale(double factor)
+```
+
+
+Creates a copy of this layout with all coordinates scaled by the given factor.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| factor | double | The scaling factor. |
+
+**Returns:**
+[TemplateTableLayout](../../com.groupdocs.parser.templates/templatetablelayout) - A new [TemplateTableLayout](../../com.groupdocs.parser.templates/templatetablelayout) with scaled separators.

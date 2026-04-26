@@ -23,15 +23,20 @@ There are two ways to define a table:
 | Constructor | Description |
 | --- | --- |
 | [TemplateTable(TemplateTableLayout layout, String name, Integer pageIndex)](#TemplateTable-com.groupdocs.parser.templates.TemplateTableLayout-java.lang.String-java.lang.Integer-) | Initializes a new instance of the [TemplateTable](../../com.groupdocs.parser.templates/templatetable) class with the UPPER CASE name. |
+| [TemplateTable(TemplateTableLayout layout, String name, Integer pageIndex, Double pageWidth)](#TemplateTable-com.groupdocs.parser.templates.TemplateTableLayout-java.lang.String-java.lang.Integer-java.lang.Double-) | Initializes a new instance of the [TemplateTable](../../com.groupdocs.parser.templates/templatetable) class with the UPPER CASE name. |
 | [TemplateTable(TemplateTableLayout layout, String name, Integer pageIndex, boolean useUpperCaseName)](#TemplateTable-com.groupdocs.parser.templates.TemplateTableLayout-java.lang.String-java.lang.Integer-boolean-) | Initializes a new instance of the [TemplateTable](../../com.groupdocs.parser.templates/templatetable) class. |
+| [TemplateTable(TemplateTableLayout layout, String name, Integer pageIndex, Double pageWidth, boolean useUpperCaseName)](#TemplateTable-com.groupdocs.parser.templates.TemplateTableLayout-java.lang.String-java.lang.Integer-java.lang.Double-boolean-) | Initializes a new instance of the [TemplateTable](../../com.groupdocs.parser.templates/templatetable) class. |
 | [TemplateTable(TemplateTableParameters parameters, String name, Integer pageIndex)](#TemplateTable-com.groupdocs.parser.templates.TemplateTableParameters-java.lang.String-java.lang.Integer-) | Initializes a new instance of the [TemplateTable](../../com.groupdocs.parser.templates/templatetable) class with the UPPER CASE name. |
+| [TemplateTable(TemplateTableParameters parameters, String name, Integer pageIndex, Double pageWidth)](#TemplateTable-com.groupdocs.parser.templates.TemplateTableParameters-java.lang.String-java.lang.Integer-java.lang.Double-) | Initializes a new instance of the [TemplateTable](../../com.groupdocs.parser.templates/templatetable) class. |
 | [TemplateTable(TemplateTableParameters parameters, String name, Integer pageIndex, boolean useUpperCaseName)](#TemplateTable-com.groupdocs.parser.templates.TemplateTableParameters-java.lang.String-java.lang.Integer-boolean-) | Initializes a new instance of the [TemplateTable](../../com.groupdocs.parser.templates/templatetable) class. |
+| [TemplateTable(TemplateTableParameters parameters, String name, Integer pageIndex, Double pageWidth, boolean useUpperCaseName)](#TemplateTable-com.groupdocs.parser.templates.TemplateTableParameters-java.lang.String-java.lang.Integer-java.lang.Double-boolean-) | Initializes a new instance of the [TemplateTable](../../com.groupdocs.parser.templates/templatetable) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getLayout()](#getLayout--) | Gets the table layout. |
 | [getParameters()](#getParameters--) | Gets the parameters to detect the table in the automatic mode. |
+| [scale(double factor)](#scale-double-) |  |
 ### TemplateTable(TemplateTableLayout layout, String name, Integer pageIndex) {#TemplateTable-com.groupdocs.parser.templates.TemplateTableLayout-java.lang.String-java.lang.Integer-}
 ```
 public TemplateTable(TemplateTableLayout layout, String name, Integer pageIndex)
@@ -58,6 +63,22 @@ TemplateTableLayout layout = new TemplateTableLayout(
 | name | java.lang.String | The table name. |
 | pageIndex | java.lang.Integer | The index of the page where the template table is located;  null  if the template table is located on any page. |
 
+### TemplateTable(TemplateTableLayout layout, String name, Integer pageIndex, Double pageWidth) {#TemplateTable-com.groupdocs.parser.templates.TemplateTableLayout-java.lang.String-java.lang.Integer-java.lang.Double-}
+```
+public TemplateTable(TemplateTableLayout layout, String name, Integer pageIndex, Double pageWidth)
+```
+
+
+Initializes a new instance of the [TemplateTable](../../com.groupdocs.parser.templates/templatetable) class with the UPPER CASE name.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| layout | [TemplateTableLayout](../../com.groupdocs.parser.templates/templatetablelayout) | The table layout. |
+| name | java.lang.String | The table name. |
+| pageIndex | java.lang.Integer | The index of the page where the template table is located;  null  if the template table is located on any page. |
+| pageWidth | java.lang.Double | The width of the page that was used to create the template item. |
+
 ### TemplateTable(TemplateTableLayout layout, String name, Integer pageIndex, boolean useUpperCaseName) {#TemplateTable-com.groupdocs.parser.templates.TemplateTableLayout-java.lang.String-java.lang.Integer-boolean-}
 ```
 public TemplateTable(TemplateTableLayout layout, String name, Integer pageIndex, boolean useUpperCaseName)
@@ -72,6 +93,23 @@ Initializes a new instance of the [TemplateTable](../../com.groupdocs.parser.tem
 | layout | [TemplateTableLayout](../../com.groupdocs.parser.templates/templatetablelayout) | The table layout. |
 | name | java.lang.String | The table name. |
 | pageIndex | java.lang.Integer | The index of the page where the template table is located;  null  if the template table is located on any page. |
+| useUpperCaseName | boolean | The value that indicates whether a  name  is converted to UPPER CASE. |
+
+### TemplateTable(TemplateTableLayout layout, String name, Integer pageIndex, Double pageWidth, boolean useUpperCaseName) {#TemplateTable-com.groupdocs.parser.templates.TemplateTableLayout-java.lang.String-java.lang.Integer-java.lang.Double-boolean-}
+```
+public TemplateTable(TemplateTableLayout layout, String name, Integer pageIndex, Double pageWidth, boolean useUpperCaseName)
+```
+
+
+Initializes a new instance of the [TemplateTable](../../com.groupdocs.parser.templates/templatetable) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| layout | [TemplateTableLayout](../../com.groupdocs.parser.templates/templatetablelayout) | The table layout. |
+| name | java.lang.String | The table name. |
+| pageIndex | java.lang.Integer | The index of the page where the template table is located;  null  if the template table is located on any page. |
+| pageWidth | java.lang.Double | The width of the page that was used to create the template item. |
 | useUpperCaseName | boolean | The value that indicates whether a  name  is converted to UPPER CASE. |
 
 ### TemplateTable(TemplateTableParameters parameters, String name, Integer pageIndex) {#TemplateTable-com.groupdocs.parser.templates.TemplateTableParameters-java.lang.String-java.lang.Integer-}
@@ -101,6 +139,22 @@ TemplateTableParameters parameters = new TemplateTableParameters(
 | name | java.lang.String | The table name. |
 | pageIndex | java.lang.Integer | The index of the page where the template table is located;  null  if the template table is located on any page. |
 
+### TemplateTable(TemplateTableParameters parameters, String name, Integer pageIndex, Double pageWidth) {#TemplateTable-com.groupdocs.parser.templates.TemplateTableParameters-java.lang.String-java.lang.Integer-java.lang.Double-}
+```
+public TemplateTable(TemplateTableParameters parameters, String name, Integer pageIndex, Double pageWidth)
+```
+
+
+Initializes a new instance of the [TemplateTable](../../com.groupdocs.parser.templates/templatetable) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| parameters | [TemplateTableParameters](../../com.groupdocs.parser.templates/templatetableparameters) | The parameters to detect the table in the automatic mode. |
+| name | java.lang.String | The table name. |
+| pageIndex | java.lang.Integer | The index of the page where the template table is located;  null  if the template table is located on any page. |
+| pageWidth | java.lang.Double | The width of the page that was used to create the template item. |
+
 ### TemplateTable(TemplateTableParameters parameters, String name, Integer pageIndex, boolean useUpperCaseName) {#TemplateTable-com.groupdocs.parser.templates.TemplateTableParameters-java.lang.String-java.lang.Integer-boolean-}
 ```
 public TemplateTable(TemplateTableParameters parameters, String name, Integer pageIndex, boolean useUpperCaseName)
@@ -115,6 +169,23 @@ Initializes a new instance of the [TemplateTable](../../com.groupdocs.parser.tem
 | parameters | [TemplateTableParameters](../../com.groupdocs.parser.templates/templatetableparameters) | The parameters to detect the table in the automatic mode. |
 | name | java.lang.String | The table name. |
 | pageIndex | java.lang.Integer | The index of the page where the template table is located;  null  if the template table is located on any page. |
+| useUpperCaseName | boolean | The value that indicates whether a  name  is converted to UPPER CASE. |
+
+### TemplateTable(TemplateTableParameters parameters, String name, Integer pageIndex, Double pageWidth, boolean useUpperCaseName) {#TemplateTable-com.groupdocs.parser.templates.TemplateTableParameters-java.lang.String-java.lang.Integer-java.lang.Double-boolean-}
+```
+public TemplateTable(TemplateTableParameters parameters, String name, Integer pageIndex, Double pageWidth, boolean useUpperCaseName)
+```
+
+
+Initializes a new instance of the [TemplateTable](../../com.groupdocs.parser.templates/templatetable) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| parameters | [TemplateTableParameters](../../com.groupdocs.parser.templates/templatetableparameters) | The parameters to detect the table in the automatic mode. |
+| name | java.lang.String | The table name. |
+| pageIndex | java.lang.Integer | The index of the page where the template table is located;  null  if the template table is located on any page. |
+| pageWidth | java.lang.Double | The width of the page that was used to create the template item. |
 | useUpperCaseName | boolean | The value that indicates whether a  name  is converted to UPPER CASE. |
 
 ### getLayout() {#getLayout--}
@@ -137,3 +208,18 @@ Gets the parameters to detect the table in the automatic mode.
 
 **Returns:**
 [TemplateTableParameters](../../com.groupdocs.parser.templates/templatetableparameters) - An instance of  TemplateTableParameters  class that represents the parameters to detect the table in the automatic mode;  null  if it isn't set.
+### scale(double factor) {#scale-double-}
+```
+public TemplateItem scale(double factor)
+```
+
+
+Creates a copy of the current item with all coordinates scaled by the given factor.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| factor | double |  |
+
+**Returns:**
+[TemplateItem](../../com.groupdocs.parser.templates/templateitem)

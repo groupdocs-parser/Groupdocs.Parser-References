@@ -1,7 +1,7 @@
 ---
 title: Template
 second_title: GroupDocs.Parser for Java API Reference
-description: Provides the document template.
+description: Provides the document page template.
 type: docs
 weight: 10
 url: /java/com.groupdocs.parser.templates/template/
@@ -15,7 +15,7 @@ java.lang.Iterable
 public class Template implements Iterable<TemplateItem>
 ```
 
-Provides the document template. It consists of [TemplateItem](../../com.groupdocs.parser.templates/templateitem) objects which represent the items of the template such as text field and table definitions.
+Provides the document page template. It consists of [TemplateItem](../../com.groupdocs.parser.templates/templateitem) objects which represent the items of the template such as text field and table definitions.
 
 **Learn more:**
 
