@@ -16,26 +16,36 @@ Defines a type of the file.
 
 **Learn more:**
 
- *  [Loading specific file formats][]
+* [Loading specific file formats](../https://docs.groupdocs.com/display/parserjava/Loading+specific+file+formats)
 
-
-[Loading specific file formats]: https://docs.groupdocs.com/display/parserjava/Loading+specific+file+formats
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Unknown](#Unknown) | Default value. |
-| [WordProcessing](#WordProcessing) | Word Processing document (DOC, DOCX, ODT, etc). |
-| [Spreadsheet](#Spreadsheet) | Spreadsheet document (XLS, XLSX, ODS, etc). |
-| [Presentation](#Presentation) | Presentation document (PPT, PPTX, ODP, etc). |
-| [Email](#Email) | Email document (email messages or email message containers). |
-| [Pdf](#Pdf) | PDF document. |
-| [Markup](#Markup) | Markup document (HTML, XML, Markdown, etc). |
-| [Ebook](#Ebook) | Ebook document (ePUB, FictionBook, etc). |
-| [Note](#Note) | Note document. |
-| [Archive](#Archive) | Archive file. |
-| [Database](#Database) | Database files (via JDBC). |
-| [Image](#Image) | Image file. |
+| [Unknown](#Unknown) | Default value.
+ |
+| [WordProcessing](#WordProcessing) | Word Processing document (DOC, DOCX, ODT, etc).
+ |
+| [Spreadsheet](#Spreadsheet) | Spreadsheet document (XLS, XLSX, ODS, etc).
+ |
+| [Presentation](#Presentation) | Presentation document (PPT, PPTX, ODP, etc).
+ |
+| [Email](#Email) | Email document (email messages or email message containers).
+ |
+| [Pdf](#Pdf) | PDF document.
+ |
+| [Markup](#Markup) | Markup document (HTML, XML, Markdown, etc).
+ |
+| [Ebook](#Ebook) | Ebook document (ePUB, FictionBook, etc).
+ |
+| [Note](#Note) | Note document.
+ |
+| [Archive](#Archive) | Archive file.
+ |
+| [Database](#Database) | Database files (via JDBC).
+ |
+| [Image](#Image) | Image file.
+ |
 ## Methods
 
 | Method | Description |
@@ -50,6 +60,7 @@ public static final FileFormat Unknown
 
 Default value.
 
+
 ### WordProcessing {#WordProcessing}
 ```
 public static final FileFormat WordProcessing
@@ -57,6 +68,7 @@ public static final FileFormat WordProcessing
 
 
 Word Processing document (DOC, DOCX, ODT, etc).
+
 
 ### Spreadsheet {#Spreadsheet}
 ```
@@ -66,6 +78,7 @@ public static final FileFormat Spreadsheet
 
 Spreadsheet document (XLS, XLSX, ODS, etc).
 
+
 ### Presentation {#Presentation}
 ```
 public static final FileFormat Presentation
@@ -73,6 +86,7 @@ public static final FileFormat Presentation
 
 
 Presentation document (PPT, PPTX, ODP, etc).
+
 
 ### Email {#Email}
 ```
@@ -82,6 +96,7 @@ public static final FileFormat Email
 
 Email document (email messages or email message containers).
 
+
 ### Pdf {#Pdf}
 ```
 public static final FileFormat Pdf
@@ -89,6 +104,7 @@ public static final FileFormat Pdf
 
 
 PDF document.
+
 
 ### Markup {#Markup}
 ```
@@ -98,6 +114,7 @@ public static final FileFormat Markup
 
 Markup document (HTML, XML, Markdown, etc).
 
+
 ### Ebook {#Ebook}
 ```
 public static final FileFormat Ebook
@@ -105,6 +122,7 @@ public static final FileFormat Ebook
 
 
 Ebook document (ePUB, FictionBook, etc).
+
 
 ### Note {#Note}
 ```
@@ -114,6 +132,7 @@ public static final FileFormat Note
 
 Note document.
 
+
 ### Archive {#Archive}
 ```
 public static final FileFormat Archive
@@ -121,6 +140,7 @@ public static final FileFormat Archive
 
 
 Archive file.
+
 
 ### Database {#Database}
 ```
@@ -130,6 +150,7 @@ public static final FileFormat Database
 
 Database files (via JDBC).
 
+
 ### Image {#Image}
 ```
 public static final FileFormat Image
@@ -137,6 +158,7 @@ public static final FileFormat Image
 
 
 Image file.
+
 
 ### values() {#values--}
 ```

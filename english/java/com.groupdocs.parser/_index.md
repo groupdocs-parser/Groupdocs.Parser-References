@@ -10,6 +10,7 @@ url: /java/com.groupdocs.parser/
 The package provides classes for parsing data from documents. With the main class [Parser](../../com.groupdocs.parser/parser) you may use all document data parsing and extraction features.
 
 
+
 ## Classes
 
 | Class | Description |

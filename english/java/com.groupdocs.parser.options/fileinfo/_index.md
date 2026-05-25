@@ -13,6 +13,7 @@ public class FileInfo
 ```
 
 Represents the file information.
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,9 +23,12 @@ Represents the file information.
 
 | Method | Description |
 | --- | --- |
-| [getFileType()](#getFileType--) | Gets the document type. |
-| [getSize()](#getSize--) | Gets the size of the document in bytes. |
-| [isEncrypted()](#isEncrypted--) | Gets a value that represents whether a file is password-protected. |
+| [getFileType()](#getFileType--) | Gets the document type.
+ |
+| [getSize()](#getSize--) | Gets the size of the document in bytes.
+ |
+| [isEncrypted()](#isEncrypted--) | Gets a value that represents whether a file is password-protected.
+ |
 ### FileInfo(FileType fileType, long size, boolean encrypted) {#FileInfo-com.groupdocs.parser.options.FileType-long-boolean-}
 ```
 public FileInfo(FileType fileType, long size, boolean encrypted)
@@ -46,8 +50,10 @@ public FileType getFileType()
 
 Gets the document type.
 
+
 **Returns:**
 [FileType](../../com.groupdocs.parser.options/filetype) - An instance of [FileType](../../com.groupdocs.parser.options/filetype) class that represents the type of the document.
+
 ### getSize() {#getSize--}
 ```
 public long getSize()
@@ -56,8 +62,10 @@ public long getSize()
 
 Gets the size of the document in bytes.
 
+
 **Returns:**
 long - An integer value that represents the size of the document in bytes.
+
 ### isEncrypted() {#isEncrypted--}
 ```
 public boolean isEncrypted()
@@ -66,5 +74,7 @@ public boolean isEncrypted()
 
 Gets a value that represents whether a file is password-protected.
 
+
 **Returns:**
 boolean - A boolean true if a file is password-protected; otherwise false.
+

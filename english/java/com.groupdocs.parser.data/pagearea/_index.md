@@ -13,12 +13,15 @@ public abstract class PageArea
 ```
 
 Represents an abstract base class for page areas which are used to represent blocks on the document page in the parsing by template functionality.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getRectangle()](#getRectangle--) | Gets the rectangular area. |
-| [getPage()](#getPage--) | Gets the document page information such as page index and page size. |
+| [getRectangle()](#getRectangle--) | Gets the rectangular area.
+ |
+| [getPage()](#getPage--) | Gets the document page information such as page index and page size.
+ |
 ### getRectangle() {#getRectangle--}
 ```
 public Rectangle getRectangle()
@@ -27,8 +30,10 @@ public Rectangle getRectangle()
 
 Gets the rectangular area.
 
+
 **Returns:**
 [Rectangle](../../com.groupdocs.parser.data/rectangle) - An instance of [Rectangle](../../com.groupdocs.parser.data/rectangle) class that represents the rectangular area of the page that contains the page area.
+
 ### getPage() {#getPage--}
 ```
 public Page getPage()
@@ -37,5 +42,7 @@ public Page getPage()
 
 Gets the document page information such as page index and page size.
 
+
 **Returns:**
 [Page](../../com.groupdocs.parser.data/page) - An instance of [Page](../../com.groupdocs.parser.data/page) class that represents the page that contains the page area.
+

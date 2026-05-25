@@ -13,21 +13,29 @@ public final class XmlExporter extends ExporterBase
 ```
 
 Provides the functionality to export data in XML format.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [XmlExporter()](#XmlExporter--) | Initializes a new instance of the [XmlExporter](../../com.groupdocs.parser.export/xmlexporter) class. |
+| [XmlExporter()](#XmlExporter--) | Initializes a new instance of the [XmlExporter](../../com.groupdocs.parser.export/xmlexporter) class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [exportMetadata(Iterable<MetadataItem> metadata, OutputStream outputStream)](#exportMetadata-java.lang.Iterable-com.groupdocs.parser.data.MetadataItem--java.io.OutputStream-) | Exports the collection of metadata to the stream. |
-| [exportDocumentInfo(IDocumentInfo documentInfo, OutputStream outputStream)](#exportDocumentInfo-com.groupdocs.parser.options.IDocumentInfo-java.io.OutputStream-) | Exports the document information to the stream. |
-| [exportTextAreas(Iterable<PageTextArea> textAreas, OutputStream outputStream)](#exportTextAreas-java.lang.Iterable-com.groupdocs.parser.data.PageTextArea--java.io.OutputStream-) | Exports the collection of text areas to the stream. |
-| [exportTables(Iterable<PageTableArea> tables, OutputStream outputStream)](#exportTables-java.lang.Iterable-com.groupdocs.parser.data.PageTableArea--java.io.OutputStream-) | Exports the collection of tables to the stream. |
-| [exportBarcodes(Iterable<PageBarcodeArea> barcodes, OutputStream outputStream)](#exportBarcodes-java.lang.Iterable-com.groupdocs.parser.data.PageBarcodeArea--java.io.OutputStream-) | Exports the collection of barcodes to the stream. |
-| [exportDocumentData(DocumentData documentData, OutputStream outputStream)](#exportDocumentData-com.groupdocs.parser.data.DocumentData-java.io.OutputStream-) | Exports document data to the stream. |
+| [exportMetadata(Iterable<MetadataItem> metadata, OutputStream outputStream)](#exportMetadata-java.lang.Iterable-com.groupdocs.parser.data.MetadataItem--java.io.OutputStream-) | Exports the collection of metadata to the stream.
+ |
+| [exportDocumentInfo(IDocumentInfo documentInfo, OutputStream outputStream)](#exportDocumentInfo-com.groupdocs.parser.options.IDocumentInfo-java.io.OutputStream-) | Exports the document information to the stream.
+ |
+| [exportTextAreas(Iterable<PageTextArea> textAreas, OutputStream outputStream)](#exportTextAreas-java.lang.Iterable-com.groupdocs.parser.data.PageTextArea--java.io.OutputStream-) | Exports the collection of text areas to the stream.
+ |
+| [exportTables(Iterable<PageTableArea> tables, OutputStream outputStream)](#exportTables-java.lang.Iterable-com.groupdocs.parser.data.PageTableArea--java.io.OutputStream-) | Exports the collection of tables to the stream.
+ |
+| [exportBarcodes(Iterable<PageBarcodeArea> barcodes, OutputStream outputStream)](#exportBarcodes-java.lang.Iterable-com.groupdocs.parser.data.PageBarcodeArea--java.io.OutputStream-) | Exports the collection of barcodes to the stream.
+ |
+| [exportDocumentData(DocumentData documentData, OutputStream outputStream)](#exportDocumentData-com.groupdocs.parser.data.DocumentData-java.io.OutputStream-) | Exports document data to the stream.
+ |
 ### XmlExporter() {#XmlExporter--}
 ```
 public XmlExporter()
@@ -35,6 +43,7 @@ public XmlExporter()
 
 
 Initializes a new instance of the [XmlExporter](../../com.groupdocs.parser.export/xmlexporter) class.
+
 
 ### exportMetadata(Iterable<MetadataItem> metadata, OutputStream outputStream) {#exportMetadata-java.lang.Iterable-com.groupdocs.parser.data.MetadataItem--java.io.OutputStream-}
 ```
@@ -44,11 +53,14 @@ public void exportMetadata(Iterable<MetadataItem> metadata, OutputStream outputS
 
 Exports the collection of metadata to the stream.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| metadata | java.lang.Iterable<com.groupdocs.parser.data.MetadataItem> | The collection of metadata. |
-| outputStream | java.io.OutputStream | The output stream. |
+| metadata | java.lang.Iterable<com.groupdocs.parser.data.MetadataItem> | The collection of metadata.
+ |
+| outputStream | java.io.OutputStream | The output stream.
+ |
 
 ### exportDocumentInfo(IDocumentInfo documentInfo, OutputStream outputStream) {#exportDocumentInfo-com.groupdocs.parser.options.IDocumentInfo-java.io.OutputStream-}
 ```
@@ -58,11 +70,14 @@ public void exportDocumentInfo(IDocumentInfo documentInfo, OutputStream outputSt
 
 Exports the document information to the stream.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| documentInfo | [IDocumentInfo](../../com.groupdocs.parser.options/idocumentinfo) | The document information. |
-| outputStream | java.io.OutputStream | The output stream. |
+| documentInfo | [IDocumentInfo](../../com.groupdocs.parser.options/idocumentinfo) | The document information.
+ |
+| outputStream | java.io.OutputStream | The output stream.
+ |
 
 ### exportTextAreas(Iterable<PageTextArea> textAreas, OutputStream outputStream) {#exportTextAreas-java.lang.Iterable-com.groupdocs.parser.data.PageTextArea--java.io.OutputStream-}
 ```
@@ -72,11 +87,14 @@ public void exportTextAreas(Iterable<PageTextArea> textAreas, OutputStream outpu
 
 Exports the collection of text areas to the stream.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| textAreas | java.lang.Iterable<com.groupdocs.parser.data.PageTextArea> | The collection of the text areas. |
-| outputStream | java.io.OutputStream | The output stream. |
+| textAreas | java.lang.Iterable<com.groupdocs.parser.data.PageTextArea> | The collection of the text areas.
+ |
+| outputStream | java.io.OutputStream | The output stream.
+ |
 
 ### exportTables(Iterable<PageTableArea> tables, OutputStream outputStream) {#exportTables-java.lang.Iterable-com.groupdocs.parser.data.PageTableArea--java.io.OutputStream-}
 ```
@@ -86,11 +104,14 @@ public void exportTables(Iterable<PageTableArea> tables, OutputStream outputStre
 
 Exports the collection of tables to the stream.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tables | java.lang.Iterable<com.groupdocs.parser.data.PageTableArea> | The collection of tables. |
-| outputStream | java.io.OutputStream | The output stream. |
+| tables | java.lang.Iterable<com.groupdocs.parser.data.PageTableArea> | The collection of tables.
+ |
+| outputStream | java.io.OutputStream | The output stream.
+ |
 
 ### exportBarcodes(Iterable<PageBarcodeArea> barcodes, OutputStream outputStream) {#exportBarcodes-java.lang.Iterable-com.groupdocs.parser.data.PageBarcodeArea--java.io.OutputStream-}
 ```
@@ -100,11 +121,14 @@ public void exportBarcodes(Iterable<PageBarcodeArea> barcodes, OutputStream outp
 
 Exports the collection of barcodes to the stream.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| barcodes | java.lang.Iterable<com.groupdocs.parser.data.PageBarcodeArea> | The collection of barcodes. |
-| outputStream | java.io.OutputStream | The output stream. |
+| barcodes | java.lang.Iterable<com.groupdocs.parser.data.PageBarcodeArea> | The collection of barcodes.
+ |
+| outputStream | java.io.OutputStream | The output stream.
+ |
 
 ### exportDocumentData(DocumentData documentData, OutputStream outputStream) {#exportDocumentData-com.groupdocs.parser.data.DocumentData-java.io.OutputStream-}
 ```
@@ -114,9 +138,12 @@ public void exportDocumentData(DocumentData documentData, OutputStream outputStr
 
 Exports document data to the stream.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| documentData | [DocumentData](../../com.groupdocs.parser.data/documentdata) | Document data. |
-| outputStream | java.io.OutputStream | The output stream. |
+| documentData | [DocumentData](../../com.groupdocs.parser.data/documentdata) | Document data.
+ |
+| outputStream | java.io.OutputStream | The output stream.
+ |
 

@@ -13,13 +13,17 @@ public enum QualityMode extends Enum<QualityMode>
 ```
 
 Defines a level of the quality.
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [High](#High) | Hight quality. |
-| [Normal](#Normal) | Normal quality. |
-| [Low](#Low) | Low quality. |
+| [High](#High) | Hight quality.
+ |
+| [Normal](#Normal) | Normal quality.
+ |
+| [Low](#Low) | Low quality.
+ |
 ## Methods
 
 | Method | Description |
@@ -34,6 +38,7 @@ public static final QualityMode High
 
 Hight quality. Fast processing algorithms are used.
 
+
 ### Normal {#Normal}
 ```
 public static final QualityMode Normal
@@ -42,6 +47,7 @@ public static final QualityMode Normal
 
 Normal quality. Default processing algorithms are used.
 
+
 ### Low {#Low}
 ```
 public static final QualityMode Low
@@ -49,6 +55,7 @@ public static final QualityMode Low
 
 
 Low quality. Slow processing algorithms are used.
+
 
 ### values() {#values--}
 ```

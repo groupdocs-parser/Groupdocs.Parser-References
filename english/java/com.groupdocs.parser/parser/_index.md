@@ -16,80 +16,147 @@ public class Parser implements Closeable
 ```
 
 Represents the main class that controls text, images, container extraction and parsing functionality.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [Parser(URL url)](#Parser-java.net.URL-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from an URL. |
-| [Parser(URL url, LoadOptions loadOptions)](#Parser-java.net.URL-com.groupdocs.parser.options.LoadOptions-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from an URL with  loadOptions . |
-| [Parser(URL url, ParserSettings parserSettings)](#Parser-java.net.URL-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from an URL with  parserSettings . |
-| [Parser(URL url, LoadOptions loadOptions, ParserSettings parserSettings)](#Parser-java.net.URL-com.groupdocs.parser.options.LoadOptions-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from an URL with  loadOptions  and  parserSettings . |
-| [Parser(Connection connection)](#Parser-java.sql.Connection-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from a database. |
-| [Parser(Connection connection, ParserSettings parserSettings)](#Parser-java.sql.Connection-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from a database. |
-| [Parser(EmailConnection connection)](#Parser-com.groupdocs.parser.options.EmailConnection-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class. |
-| [Parser(EmailConnection connection, ParserSettings parserSettings)](#Parser-com.groupdocs.parser.options.EmailConnection-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class. |
-| [Parser(String filePath)](#Parser-java.lang.String-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class. |
-| [Parser(String filePath, LoadOptions loadOptions)](#Parser-java.lang.String-com.groupdocs.parser.options.LoadOptions-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [LoadOptions](../../com.groupdocs.parser.options/loadoptions). |
-| [Parser(String filePath, ParserSettings parserSettings)](#Parser-java.lang.String-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [ParserSettings](../../com.groupdocs.parser.options/parsersettings). |
-| [Parser(String filePath, LoadOptions loadOptions, ParserSettings parserSettings)](#Parser-java.lang.String-com.groupdocs.parser.options.LoadOptions-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [LoadOptions](../../com.groupdocs.parser.options/loadoptions) and [ParserSettings](../../com.groupdocs.parser.options/parsersettings). |
-| [Parser(InputStream document)](#Parser-java.io.InputStream-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class. |
-| [Parser(InputStream document, LoadOptions loadOptions)](#Parser-java.io.InputStream-com.groupdocs.parser.options.LoadOptions-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [LoadOptions](../../com.groupdocs.parser.options/loadoptions). |
-| [Parser(InputStream document, ParserSettings parserSettings)](#Parser-java.io.InputStream-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [ParserSettings](../../com.groupdocs.parser.options/parsersettings). |
-| [Parser(InputStream document, LoadOptions loadOptions, ParserSettings parserSettings)](#Parser-java.io.InputStream-com.groupdocs.parser.options.LoadOptions-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [LoadOptions](../../com.groupdocs.parser.options/loadoptions) and [ParserSettings](../../com.groupdocs.parser.options/parsersettings). |
+| [Parser(URL url)](#Parser-java.net.URL-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from an URL.
+ |
+| [Parser(URL url, LoadOptions loadOptions)](#Parser-java.net.URL-com.groupdocs.parser.options.LoadOptions-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from an URL with  loadOptions .
+ |
+| [Parser(URL url, ParserSettings parserSettings)](#Parser-java.net.URL-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from an URL with  parserSettings .
+ |
+| [Parser(URL url, LoadOptions loadOptions, ParserSettings parserSettings)](#Parser-java.net.URL-com.groupdocs.parser.options.LoadOptions-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from an URL with  loadOptions  and  parserSettings .
+ |
+| [Parser(Connection connection)](#Parser-java.sql.Connection-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from a database.
+ |
+| [Parser(Connection connection, ParserSettings parserSettings)](#Parser-java.sql.Connection-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from a database.
+ |
+| [Parser(EmailConnection connection)](#Parser-com.groupdocs.parser.options.EmailConnection-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class.
+ |
+| [Parser(EmailConnection connection, ParserSettings parserSettings)](#Parser-com.groupdocs.parser.options.EmailConnection-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class.
+ |
+| [Parser(String filePath)](#Parser-java.lang.String-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class.
+ |
+| [Parser(String filePath, LoadOptions loadOptions)](#Parser-java.lang.String-com.groupdocs.parser.options.LoadOptions-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [LoadOptions](../../com.groupdocs.parser.options/loadoptions).
+ |
+| [Parser(String filePath, ParserSettings parserSettings)](#Parser-java.lang.String-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [ParserSettings](../../com.groupdocs.parser.options/parsersettings).
+ |
+| [Parser(String filePath, LoadOptions loadOptions, ParserSettings parserSettings)](#Parser-java.lang.String-com.groupdocs.parser.options.LoadOptions-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [LoadOptions](../../com.groupdocs.parser.options/loadoptions) and [ParserSettings](../../com.groupdocs.parser.options/parsersettings).
+ |
+| [Parser(InputStream document)](#Parser-java.io.InputStream-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class.
+ |
+| [Parser(InputStream document, LoadOptions loadOptions)](#Parser-java.io.InputStream-com.groupdocs.parser.options.LoadOptions-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [LoadOptions](../../com.groupdocs.parser.options/loadoptions).
+ |
+| [Parser(InputStream document, ParserSettings parserSettings)](#Parser-java.io.InputStream-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [ParserSettings](../../com.groupdocs.parser.options/parsersettings).
+ |
+| [Parser(InputStream document, LoadOptions loadOptions, ParserSettings parserSettings)](#Parser-java.io.InputStream-com.groupdocs.parser.options.LoadOptions-com.groupdocs.parser.options.ParserSettings-) | Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [LoadOptions](../../com.groupdocs.parser.options/loadoptions) and [ParserSettings](../../com.groupdocs.parser.options/parsersettings).
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFileInfo(String filePath)](#getFileInfo-java.lang.String-) | Returns the general information about a file. |
-| [getFileInfo(InputStream document)](#getFileInfo-java.io.InputStream-) | Returns the general information about a file. |
-| [getFeatures()](#getFeatures--) | Gets the supported features. |
-| [getPagePreview(int pageIndex)](#getPagePreview-int-) | Generates a document page preview. |
-| [getPagePreview(int pageIndex, PagePreviewOptions options)](#getPagePreview-int-com.groupdocs.parser.options.PagePreviewOptions-) | Generates a document page preview using customization options. |
-| [generatePreview(PreviewOptions previewOptions)](#generatePreview-com.groupdocs.parser.options.PreviewOptions-) | Get pages preview. |
-| [getDocumentInfo()](#getDocumentInfo--) | Returns the general information about the document. |
-| [getText()](#getText--) | Extracts a text from the document. |
-| [getText(TextOptions options)](#getText-com.groupdocs.parser.options.TextOptions-) | Extracts a text page from the document using text options (to enable raw fast text extraction mode). |
-| [getText(int pageIndex)](#getText-int-) | Extracts a text from the document page. |
-| [getText(int pageIndex, TextOptions options)](#getText-int-com.groupdocs.parser.options.TextOptions-) | Extracts a text from the document page using text options (to enable raw fast text extraction mode). |
-| [getFormattedText(FormattedTextOptions options)](#getFormattedText-com.groupdocs.parser.options.FormattedTextOptions-) | Extracts a formatted text from the document. |
-| [getFormattedText(int pageIndex, FormattedTextOptions options)](#getFormattedText-int-com.groupdocs.parser.options.FormattedTextOptions-) | Extracts a formatted text from the document page. |
-| [search(String keyword)](#search-java.lang.String-) | Searches a keyword in the document. |
-| [search(String keyword, SearchOptions options)](#search-java.lang.String-com.groupdocs.parser.options.SearchOptions-) | Searches a keyword in the document using search options (regular expression, match case, etc.). |
-| [getHighlight(int position, boolean isDirect, HighlightOptions options)](#getHighlight-int-boolean-com.groupdocs.parser.options.HighlightOptions-) | Extracts a highlight from the document. |
-| [getToc()](#getToc--) | Extracts a table of contents from the document. |
-| [getMetadata()](#getMetadata--) | Extracts metadata from the document. |
-| [getContainer()](#getContainer--) | Extracts a container object from the document to work with formats that contain attachments, ZIP archives etc. |
-| [getTextAreas()](#getTextAreas--) | Extracts text areas from the document. |
-| [getTextAreas(PageTextAreaOptions options)](#getTextAreas-com.groupdocs.parser.options.PageTextAreaOptions-) | Extracts text areas from the document using customization options (regular expression, match case, etc.). |
-| [getTextAreas(int pageIndex)](#getTextAreas-int-) | Extracts text areas from the document page. |
-| [getTextAreas(int pageIndex, PageTextAreaOptions options)](#getTextAreas-int-com.groupdocs.parser.options.PageTextAreaOptions-) | Extracts text areas from the document page using customization options (regular expression, match case, etc.). |
-| [getImages()](#getImages--) | Extracts images from the document. |
-| [getImages(PageAreaOptions options)](#getImages-com.groupdocs.parser.options.PageAreaOptions-) | Extracts images from the document using customization options (to set the rectangular area that contains images). |
-| [getImages(int pageIndex)](#getImages-int-) | Extracts images from the document page. |
-| [getImages(int pageIndex, PageAreaOptions options)](#getImages-int-com.groupdocs.parser.options.PageAreaOptions-) | Extracts images from the document page using customization options (to set the rectangular area that contains images). |
-| [getHyperlinks()](#getHyperlinks--) | Extracts hyperlinks from the document. |
-| [getHyperlinks(int pageIndex)](#getHyperlinks-int-) | Extracts hyperlinks from the document page. |
-| [getHyperlinks(PageAreaOptions options)](#getHyperlinks-com.groupdocs.parser.options.PageAreaOptions-) | Extracts hyperlinks from the document using customization options (to set the rectangular area that contains hyperlinks). |
-| [getHyperlinks(int pageIndex, PageAreaOptions options)](#getHyperlinks-int-com.groupdocs.parser.options.PageAreaOptions-) | Extracts hyperlinks from the document page using customization options (to set the rectangular area that contains hyperlinks). |
-| [getBarcodes()](#getBarcodes--) | Extracts barcodes from the document. |
-| [getBarcodes(int pageIndex)](#getBarcodes-int-) | Extracts barcodes from the document page. |
-| [getBarcodes(BarcodeOptions options)](#getBarcodes-com.groupdocs.parser.options.BarcodeOptions-) | Extracts barcodes from the document using customization options (to set the rectangular area that contains barcodes). |
-| [getBarcodes(int pageIndex, BarcodeOptions options)](#getBarcodes-int-com.groupdocs.parser.options.BarcodeOptions-) | Extracts barcodes from the document page using customization options (to set the rectangular area that contains barcodes). |
-| [getTables(PageTableAreaOptions options)](#getTables-com.groupdocs.parser.options.PageTableAreaOptions-) | Extracts tables from the document. |
-| [getTables()](#getTables--) | Extracts tables from the document, detecting them automatically. |
-| [getTables(int pageIndex, PageTableAreaOptions options)](#getTables-int-com.groupdocs.parser.options.PageTableAreaOptions-) | Extracts tables from the document page. |
-| [getTables(int pageIndex)](#getTables-int-) | Extracts tables from the document page, detecting them automatically. |
-| [generateAdjustmentFields(GenerateTemplateOptions options)](#generateAdjustmentFields-com.groupdocs.parser.options.GenerateTemplateOptions-) | Generates a collection of adjustment [TemplateItem](../../com.groupdocs.parser.templates/templateitem)s for the document. |
-| [getWorksheetInfo()](#getWorksheetInfo--) | Extracts the info about all worksheets in the spreadsheet. |
-| [getWorksheetInfo(int worksheetIndex)](#getWorksheetInfo-int-) | Extracts the info about the worksheet. |
-| [getWorksheetCells(int worksheetIndex)](#getWorksheetCells-int-) | Extracts worksheet cells. |
-| [getWorksheetCells(int worksheetIndex, WorksheetOptions options)](#getWorksheetCells-int-com.groupdocs.parser.options.WorksheetOptions-) | Extracts worksheet cells using customization options. |
-| [parseByTemplate(Template template)](#parseByTemplate-com.groupdocs.parser.templates.Template-) | Parses the document by the user-generated template. |
-| [parseByTemplate(Template template, ParseByTemplateOptions options)](#parseByTemplate-com.groupdocs.parser.templates.Template-com.groupdocs.parser.options.ParseByTemplateOptions-) | Parses the document by the user-generated template with the supplied options. |
-| [parseByTemplate(TemplateCollection templates, ParseByTemplateOptions options)](#parseByTemplate-com.groupdocs.parser.templates.TemplateCollection-com.groupdocs.parser.options.ParseByTemplateOptions-) | Parses the document by automatically selecting the best-matching template from a collection. |
-| [parseForm()](#parseForm--) | Parses the document form. |
-| [getStructure()](#getStructure--) | Extracts a structured text from the document. |
-| [close()](#close--) | Closes this resource, relinquishing any underlying resources. |
+| [getFileInfo(String filePath)](#getFileInfo-java.lang.String-) | Returns the general information about a file.
+ |
+| [getFileInfo(InputStream document)](#getFileInfo-java.io.InputStream-) | Returns the general information about a file.
+ |
+| [getFeatures()](#getFeatures--) | Gets the supported features.
+ |
+| [getPagePreview(int pageIndex)](#getPagePreview-int-) | Generates a document page preview.
+ |
+| [getPagePreview(int pageIndex, PagePreviewOptions options)](#getPagePreview-int-com.groupdocs.parser.options.PagePreviewOptions-) | Generates a document page preview using customization options.
+ |
+| [generatePreview(PreviewOptions previewOptions)](#generatePreview-com.groupdocs.parser.options.PreviewOptions-) | Get pages preview.
+ |
+| [getDocumentInfo()](#getDocumentInfo--) | Returns the general information about the document.
+ |
+| [getText()](#getText--) | Extracts a text from the document.
+ |
+| [getText(TextOptions options)](#getText-com.groupdocs.parser.options.TextOptions-) | Extracts a text page from the document using text options (to enable raw fast text extraction mode).
+ |
+| [getText(int pageIndex)](#getText-int-) | Extracts a text from the document page.
+ |
+| [getText(int pageIndex, TextOptions options)](#getText-int-com.groupdocs.parser.options.TextOptions-) | Extracts a text from the document page using text options (to enable raw fast text extraction mode).
+ |
+| [getFormattedText(FormattedTextOptions options)](#getFormattedText-com.groupdocs.parser.options.FormattedTextOptions-) | Extracts a formatted text from the document.
+ |
+| [getFormattedText(int pageIndex, FormattedTextOptions options)](#getFormattedText-int-com.groupdocs.parser.options.FormattedTextOptions-) | Extracts a formatted text from the document page.
+ |
+| [search(String keyword)](#search-java.lang.String-) | Searches a keyword in the document.
+ |
+| [search(String keyword, SearchOptions options)](#search-java.lang.String-com.groupdocs.parser.options.SearchOptions-) | Searches a keyword in the document using search options (regular expression, match case, etc.).
+ |
+| [getHighlight(int position, boolean isDirect, HighlightOptions options)](#getHighlight-int-boolean-com.groupdocs.parser.options.HighlightOptions-) | Extracts a highlight from the document.
+ |
+| [getToc()](#getToc--) | Extracts a table of contents from the document.
+ |
+| [getMetadata()](#getMetadata--) | Extracts metadata from the document.
+ |
+| [getContainer()](#getContainer--) | Extracts a container object from the document to work with formats that contain attachments, ZIP archives etc.
+ |
+| [getTextAreas()](#getTextAreas--) | Extracts text areas from the document.
+ |
+| [getTextAreas(PageTextAreaOptions options)](#getTextAreas-com.groupdocs.parser.options.PageTextAreaOptions-) | Extracts text areas from the document using customization options (regular expression, match case, etc.).
+ |
+| [getTextAreas(int pageIndex)](#getTextAreas-int-) | Extracts text areas from the document page.
+ |
+| [getTextAreas(int pageIndex, PageTextAreaOptions options)](#getTextAreas-int-com.groupdocs.parser.options.PageTextAreaOptions-) | Extracts text areas from the document page using customization options (regular expression, match case, etc.).
+ |
+| [getImages()](#getImages--) | Extracts images from the document.
+ |
+| [getImages(PageAreaOptions options)](#getImages-com.groupdocs.parser.options.PageAreaOptions-) | Extracts images from the document using customization options (to set the rectangular area that contains images).
+ |
+| [getImages(int pageIndex)](#getImages-int-) | Extracts images from the document page.
+ |
+| [getImages(int pageIndex, PageAreaOptions options)](#getImages-int-com.groupdocs.parser.options.PageAreaOptions-) | Extracts images from the document page using customization options (to set the rectangular area that contains images).
+ |
+| [getHyperlinks()](#getHyperlinks--) | Extracts hyperlinks from the document.
+ |
+| [getHyperlinks(int pageIndex)](#getHyperlinks-int-) | Extracts hyperlinks from the document page.
+ |
+| [getHyperlinks(PageAreaOptions options)](#getHyperlinks-com.groupdocs.parser.options.PageAreaOptions-) | Extracts hyperlinks from the document using customization options (to set the rectangular area that contains hyperlinks).
+ |
+| [getHyperlinks(int pageIndex, PageAreaOptions options)](#getHyperlinks-int-com.groupdocs.parser.options.PageAreaOptions-) | Extracts hyperlinks from the document page using customization options (to set the rectangular area that contains hyperlinks).
+ |
+| [getBarcodes()](#getBarcodes--) | Extracts barcodes from the document.
+ |
+| [getBarcodes(int pageIndex)](#getBarcodes-int-) | Extracts barcodes from the document page.
+ |
+| [getBarcodes(BarcodeOptions options)](#getBarcodes-com.groupdocs.parser.options.BarcodeOptions-) | Extracts barcodes from the document using customization options (to set the rectangular area that contains barcodes).
+ |
+| [getBarcodes(int pageIndex, BarcodeOptions options)](#getBarcodes-int-com.groupdocs.parser.options.BarcodeOptions-) | Extracts barcodes from the document page using customization options (to set the rectangular area that contains barcodes).
+ |
+| [getTables(PageTableAreaOptions options)](#getTables-com.groupdocs.parser.options.PageTableAreaOptions-) | Extracts tables from the document.
+ |
+| [getTables()](#getTables--) | Extracts tables from the document, detecting them automatically.
+ |
+| [getTables(int pageIndex, PageTableAreaOptions options)](#getTables-int-com.groupdocs.parser.options.PageTableAreaOptions-) | Extracts tables from the document page.
+ |
+| [getTables(int pageIndex)](#getTables-int-) | Extracts tables from the document page, detecting them automatically.
+ |
+| [generateAdjustmentFields(GenerateTemplateOptions options)](#generateAdjustmentFields-com.groupdocs.parser.options.GenerateTemplateOptions-) | Generates a collection of adjustment [TemplateItem](../../com.groupdocs.parser.templates/templateitem)s for the document.
+ |
+| [getWorksheetInfo()](#getWorksheetInfo--) | Extracts the info about all worksheets in the spreadsheet.
+ |
+| [getWorksheetInfo(int worksheetIndex)](#getWorksheetInfo-int-) | Extracts the info about the worksheet.
+ |
+| [getWorksheetCells(int worksheetIndex)](#getWorksheetCells-int-) | Extracts worksheet cells.
+ |
+| [getWorksheetCells(int worksheetIndex, WorksheetOptions options)](#getWorksheetCells-int-com.groupdocs.parser.options.WorksheetOptions-) | Extracts worksheet cells using customization options.
+ |
+| [parseByTemplate(Template template)](#parseByTemplate-com.groupdocs.parser.templates.Template-) | Parses the document by the user-generated template.
+ |
+| [parseByTemplate(Template template, ParseByTemplateOptions options)](#parseByTemplate-com.groupdocs.parser.templates.Template-com.groupdocs.parser.options.ParseByTemplateOptions-) | Parses the document by the user-generated template with the supplied options.
+ |
+| [parseByTemplate(TemplateCollection templates, ParseByTemplateOptions options)](#parseByTemplate-com.groupdocs.parser.templates.TemplateCollection-com.groupdocs.parser.options.ParseByTemplateOptions-) | Parses the document by automatically selecting the best-matching template from a collection.
+ |
+| [parseForm()](#parseForm--) | Parses the document form.
+ |
+| [getStructure()](#getStructure--) | Extracts a structured text from the document.
+ |
+| [close()](#close--) | Closes this resource, relinquishing any underlying resources.
+ |
 ### Parser(URL url) {#Parser-java.net.URL-}
 ```
 public Parser(URL url)
@@ -98,10 +165,12 @@ public Parser(URL url)
 
 Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from an URL.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| url | java.net.URL | The URL the request is sent to |
+| url | java.net.URL | The URL the request is sent to
+ |
 
 ### Parser(URL url, LoadOptions loadOptions) {#Parser-java.net.URL-com.groupdocs.parser.options.LoadOptions-}
 ```
@@ -111,11 +180,14 @@ public Parser(URL url, LoadOptions loadOptions)
 
 Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from an URL with  loadOptions .
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| url | java.net.URL | The URL the request is sent to. |
-| loadOptions | [LoadOptions](../../com.groupdocs.parser.options/loadoptions) | The options to open the file. |
+| url | java.net.URL | The URL the request is sent to.
+ |
+| loadOptions | [LoadOptions](../../com.groupdocs.parser.options/loadoptions) | The options to open the file.
+ |
 
 ### Parser(URL url, ParserSettings parserSettings) {#Parser-java.net.URL-com.groupdocs.parser.options.ParserSettings-}
 ```
@@ -125,11 +197,14 @@ public Parser(URL url, ParserSettings parserSettings)
 
 Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from an URL with  parserSettings .
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| url | java.net.URL | The URL the request is sent to. |
-| parserSettings | [ParserSettings](../../com.groupdocs.parser.options/parsersettings) | The parser settings which are used to customize data extraction. |
+| url | java.net.URL | The URL the request is sent to.
+ |
+| parserSettings | [ParserSettings](../../com.groupdocs.parser.options/parsersettings) | The parser settings which are used to customize data extraction.
+ |
 
 ### Parser(URL url, LoadOptions loadOptions, ParserSettings parserSettings) {#Parser-java.net.URL-com.groupdocs.parser.options.LoadOptions-com.groupdocs.parser.options.ParserSettings-}
 ```
@@ -139,12 +214,16 @@ public Parser(URL url, LoadOptions loadOptions, ParserSettings parserSettings)
 
 Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class to extract data from an URL with  loadOptions  and  parserSettings .
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| url | java.net.URL | The URL the request is sent to. |
-| loadOptions | [LoadOptions](../../com.groupdocs.parser.options/loadoptions) | The options to open the file. |
-| parserSettings | [ParserSettings](../../com.groupdocs.parser.options/parsersettings) | The parser settings which are used to customize data extraction. |
+| url | java.net.URL | The URL the request is sent to.
+ |
+| loadOptions | [LoadOptions](../../com.groupdocs.parser.options/loadoptions) | The options to open the file.
+ |
+| parserSettings | [ParserSettings](../../com.groupdocs.parser.options/parsersettings) | The parser settings which are used to customize data extraction.
+ |
 
 ### Parser(Connection connection) {#Parser-java.sql.Connection-}
 ```
@@ -156,11 +235,11 @@ Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) cl
 
 **Learn more:**
 
- *  [Extract data from databases][]
+* [Extract data from databases](../https://docs.groupdocs.com/display/parserjava/Extract+data+from+databases)
 
 The following example shows how to extract data from Sqlite database:
 
-```
+````
 // Create DbConnection object
  java.sql.Connection connection = java.sql.DriverManager.getConnection(String.format("jdbc:sqlite:%s", Constants.SampleDatabase));
  // Create an instance of Parser class to extract tables from the database
@@ -190,15 +269,15 @@ The following example shows how to extract data from Sqlite database:
      }
  }
  
-```
+````
 
 
-[Extract data from databases]: https://docs.groupdocs.com/display/parserjava/Extract+data+from+databases
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| connection | java.sql.Connection | The database connection. |
+| connection | java.sql.Connection | The database connection.
+ |
 
 ### Parser(Connection connection, ParserSettings parserSettings) {#Parser-java.sql.Connection-com.groupdocs.parser.options.ParserSettings-}
 ```
@@ -210,12 +289,12 @@ Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) cl
 
 **Learn more:**
 
- *  [Extract data from databases][]
- *  [Logging][]
+* [Extract data from databases](../https://docs.groupdocs.com/display/parserjava/Extract+data+from+databases)
+* [Logging](../https://docs.groupdocs.com/display/parserjava/Logging)
 
 The following example shows how to extract data from Sqlite database:
 
-```
+````
 // Create DbConnection object
  java.sql.Connection connection = java.sql.DriverManager.getConnection(String.format("jdbc:sqlite:%s", Constants.SampleDatabase));
  // Create an instance of Parser class to extract tables from the database
@@ -245,17 +324,17 @@ The following example shows how to extract data from Sqlite database:
      }
  }
  
-```
+````
 
 
-[Extract data from databases]: https://docs.groupdocs.com/display/parserjava/Extract+data+from+databases
-[Logging]: https://docs.groupdocs.com/display/parserjava/Logging
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| connection | java.sql.Connection | The database connection. |
-| parserSettings | [ParserSettings](../../com.groupdocs.parser.options/parsersettings) | The parser settings which are used to customize data extraction. |
+| connection | java.sql.Connection | The database connection.
+ |
+| parserSettings | [ParserSettings](../../com.groupdocs.parser.options/parsersettings) | The parser settings which are used to customize data extraction.
+ |
 
 ### Parser(EmailConnection connection) {#Parser-com.groupdocs.parser.options.EmailConnection-}
 ```
@@ -267,11 +346,11 @@ Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) cl
 
 **Learn more:**
 
- *  [Extract emails from remote server via POP, IMAP or Exchange Web Services protocols][Extract emails from remote server via POP_ IMAP or Exchange Web Services protocols]
+* [Extract emails from remote server via POP, IMAP or Exchange Web Services protocols](../https://docs.groupdocs.com/display/parserjava/Extract+emails+from+remote+server+via+POP%2C+IMAP+or+Exchange+Web+Services+protocols)
 
 The following example shows how to extract emails from Exchange Server:
 
-```
+````
 // Create the connection object for Exchange Web Services protocol
  EmailConnection connection = new EmailEwsConnection(
          "https://outlook.office365.com/ews/exchange.asmx",
@@ -299,15 +378,15 @@ The following example shows how to extract emails from Exchange Server:
      }
  }
  
-```
+````
 
 
-[Extract emails from remote server via POP_ IMAP or Exchange Web Services protocols]: https://docs.groupdocs.com/display/parserjava/Extract+emails+from+remote+server+via+POP%2C+IMAP+or+Exchange+Web+Services+protocols
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| connection | [EmailConnection](../../com.groupdocs.parser.options/emailconnection) | The email connection. |
+| connection | [EmailConnection](../../com.groupdocs.parser.options/emailconnection) | The email connection.
+ |
 
 ### Parser(EmailConnection connection, ParserSettings parserSettings) {#Parser-com.groupdocs.parser.options.EmailConnection-com.groupdocs.parser.options.ParserSettings-}
 ```
@@ -319,12 +398,12 @@ Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) cl
 
 **Learn more:**
 
- *  [Extract emails from remote server via POP, IMAP or Exchange Web Services protocols][Extract emails from remote server via POP_ IMAP or Exchange Web Services protocols]
- *  [Logging][]
+* [Extract emails from remote server via POP, IMAP or Exchange Web Services protocols](../https://docs.groupdocs.com/display/parserjava/Extract+emails+from+remote+server+via+POP%2C+IMAP+or+Exchange+Web+Services+protocols)
+* [Logging](../https://docs.groupdocs.com/display/parserjava/Logging)
 
 The following example shows how to extract emails from Exchange Server:
 
-```
+````
 // Create the connection object for Exchange Web Services protocol
  EmailConnection connection = new EmailEwsConnection(
          "https://outlook.office365.com/ews/exchange.asmx",
@@ -352,17 +431,17 @@ The following example shows how to extract emails from Exchange Server:
      }
  }
  
-```
+````
 
 
-[Extract emails from remote server via POP_ IMAP or Exchange Web Services protocols]: https://docs.groupdocs.com/display/parserjava/Extract+emails+from+remote+server+via+POP%2C+IMAP+or+Exchange+Web+Services+protocols
-[Logging]: https://docs.groupdocs.com/display/parserjava/Logging
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| connection | [EmailConnection](../../com.groupdocs.parser.options/emailconnection) | The email connection. |
-| parserSettings | [ParserSettings](../../com.groupdocs.parser.options/parsersettings) | The parser settings which are used to customize data extraction. |
+| connection | [EmailConnection](../../com.groupdocs.parser.options/emailconnection) | The email connection.
+ |
+| parserSettings | [ParserSettings](../../com.groupdocs.parser.options/parsersettings) | The parser settings which are used to customize data extraction.
+ |
 
 ### Parser(String filePath) {#Parser-java.lang.String-}
 ```
@@ -374,11 +453,11 @@ Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) cl
 
 **Learn more:**
 
- *  [Load document from local disk][]
+* [Load document from local disk](../https://docs.groupdocs.com/display/parserjava/Load+document+from+local+disk)
 
 The following example shows how to load the document from the local disk:
 
-```
+````
 // Set the filePath
  String filePath = Constants.SamplePdf;
  // Create an instance of Parser class with the filePath
@@ -391,15 +470,15 @@ The following example shows how to load the document from the local disk:
      }
  }
  
-```
+````
 
 
-[Load document from local disk]: https://docs.groupdocs.com/display/parserjava/Load+document+from+local+disk
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | The path to the file. |
+| filePath | java.lang.String | The path to the file.
+ |
 
 ### Parser(String filePath, LoadOptions loadOptions) {#Parser-java.lang.String-com.groupdocs.parser.options.LoadOptions-}
 ```
@@ -411,13 +490,13 @@ Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) cl
 
 **Learn more:**
 
- *  [Load document from local disk][]
- *  [Loading specific file formats][]
- *  [Password-protected documents][]
+* [Load document from local disk](../https://docs.groupdocs.com/display/parserjava/Load+document+from+local+disk)
+* [Loading specific file formats](../https://docs.groupdocs.com/display/parserjava/Loading+specific+file+formats)
+* [Password-protected documents](../https://docs.groupdocs.com/display/parserjava/Password-protected+documents)
 
 The document password is passed by [LoadOptions](../../com.groupdocs.parser.options/loadoptions) class:
 
-```
+````
 try {
      String password = "123456";
      // Create an instance of Parser class with the password:
@@ -437,18 +516,17 @@ try {
      System.out.println("Invalid password");
  }
  
-```
+````
 
 
-[Load document from local disk]: https://docs.groupdocs.com/display/parserjava/Load+document+from+local+disk
-[Loading specific file formats]: https://docs.groupdocs.com/display/parserjava/Loading+specific+file+formats
-[Password-protected documents]: https://docs.groupdocs.com/display/parserjava/Password-protected+documents
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | The path to the file. |
-| loadOptions | [LoadOptions](../../com.groupdocs.parser.options/loadoptions) | The options to open the file. |
+| filePath | java.lang.String | The path to the file.
+ |
+| loadOptions | [LoadOptions](../../com.groupdocs.parser.options/loadoptions) | The options to open the file.
+ |
 
 ### Parser(String filePath, ParserSettings parserSettings) {#Parser-java.lang.String-com.groupdocs.parser.options.ParserSettings-}
 ```
@@ -458,11 +536,14 @@ public Parser(String filePath, ParserSettings parserSettings)
 
 Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [ParserSettings](../../com.groupdocs.parser.options/parsersettings).
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | The path to the file. |
-| parserSettings | [ParserSettings](../../com.groupdocs.parser.options/parsersettings) | The parser settings which are used to customize data extraction. |
+| filePath | java.lang.String | The path to the file.
+ |
+| parserSettings | [ParserSettings](../../com.groupdocs.parser.options/parsersettings) | The parser settings which are used to customize data extraction.
+ |
 
 ### Parser(String filePath, LoadOptions loadOptions, ParserSettings parserSettings) {#Parser-java.lang.String-com.groupdocs.parser.options.LoadOptions-com.groupdocs.parser.options.ParserSettings-}
 ```
@@ -474,14 +555,14 @@ Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) cl
 
 **Learn more:**
 
- *  [Load document from local disk][]
- *  [Loading specific file formats][]
- *  [Password-protected documents][]
- *  [Logging][]
+* [Load document from local disk](../https://docs.groupdocs.com/display/parserjava/Load+document+from+local+disk)
+* [Loading specific file formats](../https://docs.groupdocs.com/display/parserjava/Loading+specific+file+formats)
+* [Password-protected documents](../https://docs.groupdocs.com/display/parserjava/Password-protected+documents)
+* [Logging](../https://docs.groupdocs.com/display/parserjava/Logging)
 
 The following example shows how to receive the information via [ILogger](../../com.groupdocs.parser.options/ilogger) interface:
 
-```
+````
 try {
      // Create an instance of Logger class
      Logger logger = new Logger();
@@ -518,20 +599,19 @@ try {
      }
  }
  
-```
+````
 
 
-[Load document from local disk]: https://docs.groupdocs.com/display/parserjava/Load+document+from+local+disk
-[Loading specific file formats]: https://docs.groupdocs.com/display/parserjava/Loading+specific+file+formats
-[Password-protected documents]: https://docs.groupdocs.com/display/parserjava/Password-protected+documents
-[Logging]: https://docs.groupdocs.com/display/parserjava/Logging
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | The path to the file. |
-| loadOptions | [LoadOptions](../../com.groupdocs.parser.options/loadoptions) | The options to open the file. |
-| parserSettings | [ParserSettings](../../com.groupdocs.parser.options/parsersettings) | The parser settings which are used to customize data extraction. |
+| filePath | java.lang.String | The path to the file.
+ |
+| loadOptions | [LoadOptions](../../com.groupdocs.parser.options/loadoptions) | The options to open the file.
+ |
+| parserSettings | [ParserSettings](../../com.groupdocs.parser.options/parsersettings) | The parser settings which are used to customize data extraction.
+ |
 
 ### Parser(InputStream document) {#Parser-java.io.InputStream-}
 ```
@@ -543,11 +623,11 @@ Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) cl
 
 **Learn more:**
 
- *  [Load document from stream][]
+* [Load document from stream](../https://docs.groupdocs.com/display/parserjava/Load+document+from+stream)
 
 The following example shows how to load the document from the stream:
 
-```
+````
 // Create the stream
  try (InputStream stream = new FileInputStream(Constants.SamplePdf)) {
      // Create an instance of Parser class with the stream
@@ -561,15 +641,15 @@ The following example shows how to load the document from the stream:
      }
  }
  
-```
+````
 
 
-[Load document from stream]: https://docs.groupdocs.com/display/parserjava/Load+document+from+stream
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | java.io.InputStream | The source input stream. |
+| document | java.io.InputStream | The source input stream.
+ |
 
 ### Parser(InputStream document, LoadOptions loadOptions) {#Parser-java.io.InputStream-com.groupdocs.parser.options.LoadOptions-}
 ```
@@ -581,13 +661,14 @@ Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) cl
 
 **Learn more:**
 
- *  [Load document from stream][]
- *  [Loading specific file formats][]
- *  [Password-protected documents][]
+* [Load document from stream](../https://docs.groupdocs.com/display/parserjava/Load+document+from+stream)
+* [Loading specific file formats](../https://docs.groupdocs.com/display/parserjava/Loading+specific+file+formats)
+* [Password-protected documents](../https://docs.groupdocs.com/display/parserjava/Password-protected+documents)
 
-In some cases it's necessary to define [FileFormat](../../com.groupdocs.parser.options/fileformat). Both for special cases (databases, email server) and for detecting file types by the content:
+In some cases it's necessary to define [FileFormat](../../com.groupdocs.parser.options/fileformat). Both for special cases (databases, email server)
+and for detecting file types by the content:
 
-```
+````
 // Create an instance of Parser class for markdown document
  try (Parser parser = new Parser(stream, new LoadOptions(FileFormat.Markup))) {
      // Check if text extraction is supported
@@ -602,18 +683,17 @@ In some cases it's necessary to define [FileFormat](../../com.groupdocs.parser.o
      }
  }
  
-```
+````
 
 
-[Load document from stream]: https://docs.groupdocs.com/display/parserjava/Load+document+from+stream
-[Loading specific file formats]: https://docs.groupdocs.com/display/parserjava/Loading+specific+file+formats
-[Password-protected documents]: https://docs.groupdocs.com/display/parserjava/Password-protected+documents
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | java.io.InputStream | The source input stream. |
-| loadOptions | [LoadOptions](../../com.groupdocs.parser.options/loadoptions) | The options to open the file. |
+| document | java.io.InputStream | The source input stream.
+ |
+| loadOptions | [LoadOptions](../../com.groupdocs.parser.options/loadoptions) | The options to open the file.
+ |
 
 ### Parser(InputStream document, ParserSettings parserSettings) {#Parser-java.io.InputStream-com.groupdocs.parser.options.ParserSettings-}
 ```
@@ -623,11 +703,14 @@ public Parser(InputStream document, ParserSettings parserSettings)
 
 Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) class with [ParserSettings](../../com.groupdocs.parser.options/parsersettings).
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | java.io.InputStream | The source input stream. |
-| parserSettings | [ParserSettings](../../com.groupdocs.parser.options/parsersettings) | The parser settings which are used to customize data extraction. |
+| document | java.io.InputStream | The source input stream.
+ |
+| parserSettings | [ParserSettings](../../com.groupdocs.parser.options/parsersettings) | The parser settings which are used to customize data extraction.
+ |
 
 ### Parser(InputStream document, LoadOptions loadOptions, ParserSettings parserSettings) {#Parser-java.io.InputStream-com.groupdocs.parser.options.LoadOptions-com.groupdocs.parser.options.ParserSettings-}
 ```
@@ -639,14 +722,14 @@ Initializes a new instance of the [Parser](../../com.groupdocs.parser/parser) cl
 
 **Learn more:**
 
- *  [Load document from stream][]
- *  [Loading specific file formats][]
- *  [Password-protected documents][]
- *  [Logging][]
+* [Load document from stream](../https://docs.groupdocs.com/display/parserjava/Load+document+from+stream)
+* [Loading specific file formats](../https://docs.groupdocs.com/display/parserjava/Loading+specific+file+formats)
+* [Password-protected documents](../https://docs.groupdocs.com/display/parserjava/Password-protected+documents)
+* [Logging](../https://docs.groupdocs.com/display/parserjava/Logging)
 
 The following example shows how to receive the information via [ILogger](../../com.groupdocs.parser.options/ilogger) interface:
 
-```
+````
 try {
      // Create an instance of Logger class
      Logger logger = new Logger();
@@ -683,20 +766,19 @@ try {
      }
  }
  
-```
+````
 
 
-[Load document from stream]: https://docs.groupdocs.com/display/parserjava/Load+document+from+stream
-[Loading specific file formats]: https://docs.groupdocs.com/display/parserjava/Loading+specific+file+formats
-[Password-protected documents]: https://docs.groupdocs.com/display/parserjava/Password-protected+documents
-[Logging]: https://docs.groupdocs.com/display/parserjava/Logging
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | java.io.InputStream | The source input stream. |
-| loadOptions | [LoadOptions](../../com.groupdocs.parser.options/loadoptions) | The options to open the file. |
-| parserSettings | [ParserSettings](../../com.groupdocs.parser.options/parsersettings) | The parser settings which are used to customize data extraction. |
+| document | java.io.InputStream | The source input stream.
+ |
+| loadOptions | [LoadOptions](../../com.groupdocs.parser.options/loadoptions) | The options to open the file.
+ |
+| parserSettings | [ParserSettings](../../com.groupdocs.parser.options/parsersettings) | The parser settings which are used to customize data extraction.
+ |
 
 ### getFileInfo(String filePath) {#getFileInfo-java.lang.String-}
 ```
@@ -708,20 +790,24 @@ Returns the general information about a file.
 
 The following code shows how to check whether a file is password-protected:
 
-```
+````
 // Get a file info
  FileInfo info = Parser.getFileInfo(filePath);
  // Check IsEncrypted property
  System.out.println(info.isEncrypted() ? "Password is required" : "");
-```
+````
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | The path to the file. |
+| filePath | java.lang.String | The path to the file.
+ |
 
 **Returns:**
 [FileInfo](../../com.groupdocs.parser.options/fileinfo) - An instance of [FileInfo](../../com.groupdocs.parser.options/fileinfo) class.
+
 ### getFileInfo(InputStream document) {#getFileInfo-java.io.InputStream-}
 ```
 public static FileInfo getFileInfo(InputStream document)
@@ -732,20 +818,24 @@ Returns the general information about a file.
 
 The following code shows how to check whether a file is password-protected:
 
-```
+````
 // Get a file info
  FileInfo info = Parser.getFileInfo(filePath);
  // Check IsEncrypted property
  System.out.println(info.isEncrypted() ? "Password is required" : "");
-```
+````
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | java.io.InputStream | The source input stream. |
+| document | java.io.InputStream | The source input stream.
+ |
 
 **Returns:**
 [FileInfo](../../com.groupdocs.parser.options/fileinfo) - An instance of [FileInfo](../../com.groupdocs.parser.options/fileinfo) class.
+
 ### getFeatures() {#getFeatures--}
 ```
 public Features getFeatures()
@@ -756,11 +846,15 @@ Gets the supported features.
 
 **Learn more:**
 
- *  [Get supported features][]
+* [Get supported features](../https://docs.groupdocs.com/display/parserjava/Get+supported+features)
 
-If the feature isn't supported, the method returns  null  instead of the value. Some operations may consume significant time. So it's not optimal to call the method to just check the support for the feature. For this purpose Features property is used:
+If the feature isn't supported, the method returns 
+null
+ instead of the value. Some operations may consume
+significant time. So it's not optimal to call the method to just check the support for the feature.
+For this purpose Features property is used:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.SampleZip)) {
      // Check if text extraction is supported for the document
@@ -774,13 +868,13 @@ If the feature isn't supported, the method returns  null  instead of the value. 
      }
  }
  
-```
+````
 
 
-[Get supported features]: https://docs.groupdocs.com/display/parserjava/Get+supported+features
 
 **Returns:**
 [Features](../../com.groupdocs.parser.options/features) - An instance of [Features](../../com.groupdocs.parser.options/features) class that represents the supported features.
+
 ### getPagePreview(int pageIndex) {#getPagePreview-int-}
 ```
 public OutputStream getPagePreview(int pageIndex)
@@ -789,13 +883,16 @@ public OutputStream getPagePreview(int pageIndex)
 
 Generates a document page preview.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageIndex | int | The zero-based page index. |
+| pageIndex | int | The zero-based page index.
+ |
 
 **Returns:**
 java.io.OutputStream - An instance of java.io.OutputStream containing an image of the document page;  null  if the page preview generation isn't supported.
+
 ### getPagePreview(int pageIndex, PagePreviewOptions options) {#getPagePreview-int-com.groupdocs.parser.options.PagePreviewOptions-}
 ```
 public OutputStream getPagePreview(int pageIndex, PagePreviewOptions options)
@@ -804,14 +901,18 @@ public OutputStream getPagePreview(int pageIndex, PagePreviewOptions options)
 
 Generates a document page preview using customization options.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageIndex | int | The zero-based page index. |
-| options | [PagePreviewOptions](../../com.groupdocs.parser.options/pagepreviewoptions) | The options to customize the preview generation. |
+| pageIndex | int | The zero-based page index.
+ |
+| options | [PagePreviewOptions](../../com.groupdocs.parser.options/pagepreviewoptions) | The options to customize the preview generation.
+ |
 
 **Returns:**
 java.io.OutputStream - An instance of java.io.OutputStream containing an image of the document page;  null  if the page preview generation isn't supported.
+
 ### generatePreview(PreviewOptions previewOptions) {#generatePreview-com.groupdocs.parser.options.PreviewOptions-}
 ```
 public void generatePreview(PreviewOptions previewOptions)
@@ -820,10 +921,12 @@ public void generatePreview(PreviewOptions previewOptions)
 
 Get pages preview.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| previewOptions | [PreviewOptions](../../com.groupdocs.parser.options/previewoptions) | The options to sets requirements and stream delegates for preview generation. |
+| previewOptions | [PreviewOptions](../../com.groupdocs.parser.options/previewoptions) | The options to sets requirements and stream delegates for preview generation.
+ |
 
 ### getDocumentInfo() {#getDocumentInfo--}
 ```
@@ -835,12 +938,12 @@ Returns the general information about the document.
 
 **Learn more:**
 
- *  [Get document info][]
- *  [Detect encoding][]
+* [Get document info](../https://docs.groupdocs.com/display/parserjava/Get+document+info)
+* [Detect encoding](../https://docs.groupdocs.com/display/parserjava/Detect+encoding)
 
 The following example shows how to get document info:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.SampleDocx)) {
      // Get the document info
@@ -851,14 +954,13 @@ The following example shows how to get document info:
      System.out.println(String.format("Size: %d", info.getSize()));
  }
  
-```
+````
 
 
-[Get document info]: https://docs.groupdocs.com/display/parserjava/Get+document+info
-[Detect encoding]: https://docs.groupdocs.com/display/parserjava/Detect+encoding
 
 **Returns:**
 [IDocumentInfo](../../com.groupdocs.parser.options/idocumentinfo) - An instance of class that implements [IDocumentInfo](../../com.groupdocs.parser.options/idocumentinfo) interface.
+
 ### getText() {#getText--}
 ```
 public TextReader getText()
@@ -869,12 +971,12 @@ Extracts a text from the document.
 
 **Learn more:**
 
- *  [Extract text from documents][]
- *  [Extract text in Accurate Mode][]
+* [Extract text from documents](../https://docs.groupdocs.com/display/parserjava/Extract+text+from+documents)
+* [Extract text in Accurate Mode](../https://docs.groupdocs.com/display/parserjava/Extract+text+in+Accurate+mode)
 
 The following example shows how to extract a text from a document:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.SamplePdf)) {
      // Extract a text into the reader
@@ -885,14 +987,13 @@ The following example shows how to extract a text from a document:
      }
  }
  
-```
+````
 
 
-[Extract text from documents]: https://docs.groupdocs.com/display/parserjava/Extract+text+from+documents
-[Extract text in Accurate Mode]: https://docs.groupdocs.com/display/parserjava/Extract+text+in+Accurate+mode
 
 **Returns:**
 [TextReader](../../com.groupdocs.parser.data/textreader) - An instance of [TextReader](../../com.groupdocs.parser.data/textreader) class with the extracted text;  null  if text extraction isn't supported.
+
 ### getText(TextOptions options) {#getText-com.groupdocs.parser.options.TextOptions-}
 ```
 public TextReader getText(TextOptions options)
@@ -903,12 +1004,12 @@ Extracts a text page from the document using text options (to enable raw fast te
 
 **Learn more:**
 
- *  [Extract text in Raw Mode][]
- *  [Extract text in Accurate Mode][]
+* [Extract text in Raw Mode](../https://docs.groupdocs.com/display/parserjava/Extract+text+in+Raw+mode)
+* [Extract text in Accurate Mode](../https://docs.groupdocs.com/display/parserjava/Extract+text+in+Accurate+mode)
 
 The following example shows how to extract a raw text from a document:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.SamplePdf)) {
      // Extract a raw text into the reader
@@ -919,19 +1020,19 @@ The following example shows how to extract a raw text from a document:
      }
  }
  
-```
+````
 
 
-[Extract text in Raw Mode]: https://docs.groupdocs.com/display/parserjava/Extract+text+in+Raw+mode
-[Extract text in Accurate Mode]: https://docs.groupdocs.com/display/parserjava/Extract+text+in+Accurate+mode
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [TextOptions](../../com.groupdocs.parser.options/textoptions) | The text extraction options. |
+| options | [TextOptions](../../com.groupdocs.parser.options/textoptions) | The text extraction options.
+ |
 
 **Returns:**
 [TextReader](../../com.groupdocs.parser.data/textreader) - An instance of [TextReader](../../com.groupdocs.parser.data/textreader) class with the extracted text;  null  if text extraction isn't supported.
+
 ### getText(int pageIndex) {#getText-int-}
 ```
 public TextReader getText(int pageIndex)
@@ -942,11 +1043,11 @@ Extracts a text from the document page.
 
 **Learn more:**
 
- *  [Extract text in Accurate Mode][]
+* [Extract text in Accurate Mode](../https://docs.groupdocs.com/display/parserjava/Extract+text+in+Accurate+mode)
 
 The following example shows how to extract a text from the document page:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.SamplePdf)) {
      // Check if the document supports text extraction
@@ -974,18 +1075,19 @@ The following example shows how to extract a text from the document page:
      }
  }
  
-```
+````
 
 
-[Extract text in Accurate Mode]: https://docs.groupdocs.com/display/parserjava/Extract+text+in+Accurate+mode
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageIndex | int | The zero-based page index. |
+| pageIndex | int | The zero-based page index.
+ |
 
 **Returns:**
 [TextReader](../../com.groupdocs.parser.data/textreader) - An instance of [TextReader](../../com.groupdocs.parser.data/textreader) class with the extracted text;  null  if text page extraction isn't supported.
+
 ### getText(int pageIndex, TextOptions options) {#getText-int-com.groupdocs.parser.options.TextOptions-}
 ```
 public TextReader getText(int pageIndex, TextOptions options)
@@ -996,12 +1098,12 @@ Extracts a text from the document page using text options (to enable raw fast te
 
 **Learn more:**
 
- *  [Extract text in Raw Mode][]
- *  [Extract text in Accurate Mode][]
+* [Extract text in Raw Mode](../https://docs.groupdocs.com/display/parserjava/Extract+text+in+Raw+mode)
+* [Extract text in Accurate Mode](../https://docs.groupdocs.com/display/parserjava/Extract+text+in+Accurate+mode)
 
 The following example shows how to extract a raw text from the document page:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.SamplePdf)) {
      // Check if the document supports text extraction
@@ -1031,20 +1133,21 @@ The following example shows how to extract a raw text from the document page:
      }
  }
  
-```
+````
 
 
-[Extract text in Raw Mode]: https://docs.groupdocs.com/display/parserjava/Extract+text+in+Raw+mode
-[Extract text in Accurate Mode]: https://docs.groupdocs.com/display/parserjava/Extract+text+in+Accurate+mode
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageIndex | int | The zero-based page index. |
-| options | [TextOptions](../../com.groupdocs.parser.options/textoptions) | The text extraction options. |
+| pageIndex | int | The zero-based page index.
+ |
+| options | [TextOptions](../../com.groupdocs.parser.options/textoptions) | The text extraction options.
+ |
 
 **Returns:**
 [TextReader](../../com.groupdocs.parser.data/textreader) - An instance of [TextReader](../../com.groupdocs.parser.data/textreader) class with the extracted text;  null  if text page extraction isn't supported.
+
 ### getFormattedText(FormattedTextOptions options) {#getFormattedText-com.groupdocs.parser.options.FormattedTextOptions-}
 ```
 public TextReader getFormattedText(FormattedTextOptions options)
@@ -1055,14 +1158,14 @@ Extracts a formatted text from the document.
 
 **Learn more:**
 
- *  [Extract formatted text from document][]
- *  Extract a document text as [HTML][]
- *  Extract a document text as [Markdown][]
- *  Extract a document text as [Plain text][]
+* [Extract formatted text from document](../https://docs.groupdocs.com/display/parserjava/Extract+formatted+text+from+document)
+* Extract a document text as [HTML](../https://docs.groupdocs.com/display/parserjava/HTML)
+* Extract a document text as [Markdown](../https://docs.groupdocs.com/display/parserjava/Markdown)
+* Extract a document text as [Plain text](../https://docs.groupdocs.com/display/parserjava/Plain+text)
 
 The following example shows how to extract a document text as HTML text:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.SampleDocx)) {
      // Extract a formatted text into the reader
@@ -1073,21 +1176,19 @@ The following example shows how to extract a document text as HTML text:
      }
  }
  
-```
+````
 
 
-[Extract formatted text from document]: https://docs.groupdocs.com/display/parserjava/Extract+formatted+text+from+document
-[HTML]: https://docs.groupdocs.com/display/parserjava/HTML
-[Markdown]: https://docs.groupdocs.com/display/parserjava/Markdown
-[Plain text]: https://docs.groupdocs.com/display/parserjava/Plain+text
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [FormattedTextOptions](../../com.groupdocs.parser.options/formattedtextoptions) | The formatted text extraction options. |
+| options | [FormattedTextOptions](../../com.groupdocs.parser.options/formattedtextoptions) | The formatted text extraction options.
+ |
 
 **Returns:**
 [TextReader](../../com.groupdocs.parser.data/textreader) - An instance of [TextReader](../../com.groupdocs.parser.data/textreader) class with the extracted text;  null  if formatted text extraction isn't supported.
+
 ### getFormattedText(int pageIndex, FormattedTextOptions options) {#getFormattedText-int-com.groupdocs.parser.options.FormattedTextOptions-}
 ```
 public TextReader getFormattedText(int pageIndex, FormattedTextOptions options)
@@ -1098,14 +1199,14 @@ Extracts a formatted text from the document page.
 
 **Learn more:**
 
- *  [Extract formatted text from document page][]
- *  Extract a document text as [HTML][]
- *  Extract a document text as [Markdown][]
- *  Extract a document text as [Plain text][]
+* [Extract formatted text from document page](../https://docs.groupdocs.com/display/parserjava/Extract+formatted+text+from+document+page)
+* Extract a document text as [HTML](../https://docs.groupdocs.com/display/parserjava/HTML)
+* Extract a document text as [Markdown](../https://docs.groupdocs.com/display/parserjava/Markdown)
+* Extract a document text as [Plain text](../https://docs.groupdocs.com/display/parserjava/Plain+text)
 
 The following example shows how to extract a document page text as Markdown text:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.SampleDocx)) {
      // Check if the document supports formatted text extraction
@@ -1133,22 +1234,21 @@ The following example shows how to extract a document page text as Markdown text
      }
  }
  
-```
+````
 
 
-[Extract formatted text from document page]: https://docs.groupdocs.com/display/parserjava/Extract+formatted+text+from+document+page
-[HTML]: https://docs.groupdocs.com/display/parserjava/HTML
-[Markdown]: https://docs.groupdocs.com/display/parserjava/Markdown
-[Plain text]: https://docs.groupdocs.com/display/parserjava/Plain+text
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageIndex | int | The zero-based page index. |
-| options | [FormattedTextOptions](../../com.groupdocs.parser.options/formattedtextoptions) | The formatted text extraction options. |
+| pageIndex | int | The zero-based page index.
+ |
+| options | [FormattedTextOptions](../../com.groupdocs.parser.options/formattedtextoptions) | The formatted text extraction options.
+ |
 
 **Returns:**
 [TextReader](../../com.groupdocs.parser.data/textreader) - An instance of [TextReader](../../com.groupdocs.parser.data/textreader) class with the extracted text;  null  if formatted text page extraction isn't supported.
+
 ### search(String keyword) {#search-java.lang.String-}
 ```
 public Iterable<SearchResult> search(String keyword)
@@ -1159,19 +1259,19 @@ Searches a keyword in the document.
 
 **Learn more:**
 
- *  [Search text][]
- *  [Search text in Microsoft Office Word documents][]
- *  [Search text in Microsoft Office Excel spreadsheets][]
- *  [Search text in Microsoft Office PowerPoint presentations][]
- *  [Search text in PDF documents][]
- *  [Search text in Emails][]
- *  [Search text in EPUB eBooks][]
- *  [Search text in HTML documents][]
- *  [Search text in Microsoft OneNote sections][]
+* [Search text](../https://docs.groupdocs.com/display/parserjava/Search+text)
+* [Search text in Microsoft Office Word documents](../https://docs.groupdocs.com/display/parserjava/Search+text+in+Microsoft+Office+Word+documents)
+* [Search text in Microsoft Office Excel spreadsheets](../https://docs.groupdocs.com/display/parserjava/Search+text+in+Microsoft+Office+Excel+spreadsheets)
+* [Search text in Microsoft Office PowerPoint presentations](../https://docs.groupdocs.com/display/parserjava/Search+text+in+Microsoft+Office+PowerPoint+presentations)
+* [Search text in PDF documents](../https://docs.groupdocs.com/display/parserjava/Search+text+in+PDF+documents)
+* [Search text in Emails](../https://docs.groupdocs.com/display/parserjava/Search+text+in+Emails)
+* [Search text in EPUB eBooks](../https://docs.groupdocs.com/display/parserjava/Search+text+in+EPUB+eBooks)
+* [Search text in HTML documents](../https://docs.groupdocs.com/display/parserjava/Search+text+in+HTML+documents)
+* [Search text in Microsoft OneNote sections](../https://docs.groupdocs.com/display/parserjava/Search+text+in+Microsoft+OneNote+sections)
 
 The following example shows how to find a keyword in a document:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.SamplePdf)) {
      // Search a keyword:
@@ -1188,26 +1288,19 @@ The following example shows how to find a keyword in a document:
      }
  }
  
-```
+````
 
 
-[Search text]: https://docs.groupdocs.com/display/parserjava/Search+text
-[Search text in Microsoft Office Word documents]: https://docs.groupdocs.com/display/parserjava/Search+text+in+Microsoft+Office+Word+documents
-[Search text in Microsoft Office Excel spreadsheets]: https://docs.groupdocs.com/display/parserjava/Search+text+in+Microsoft+Office+Excel+spreadsheets
-[Search text in Microsoft Office PowerPoint presentations]: https://docs.groupdocs.com/display/parserjava/Search+text+in+Microsoft+Office+PowerPoint+presentations
-[Search text in PDF documents]: https://docs.groupdocs.com/display/parserjava/Search+text+in+PDF+documents
-[Search text in Emails]: https://docs.groupdocs.com/display/parserjava/Search+text+in+Emails
-[Search text in EPUB eBooks]: https://docs.groupdocs.com/display/parserjava/Search+text+in+EPUB+eBooks
-[Search text in HTML documents]: https://docs.groupdocs.com/display/parserjava/Search+text+in+HTML+documents
-[Search text in Microsoft OneNote sections]: https://docs.groupdocs.com/display/parserjava/Search+text+in+Microsoft+OneNote+sections
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| keyword | java.lang.String | The keyword to search. |
+| keyword | java.lang.String | The keyword to search.
+ |
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.SearchResult> - A collection of [SearchResult](../../com.groupdocs.parser.data/searchresult) objects;  null  if search isn't supported.
+
 ### search(String keyword, SearchOptions options) {#search-java.lang.String-com.groupdocs.parser.options.SearchOptions-}
 ```
 public Iterable<SearchResult> search(String keyword, SearchOptions options)
@@ -1218,19 +1311,19 @@ Searches a keyword in the document using search options (regular expression, mat
 
 **Learn more:**
 
- *  [Search text][]
- *  [Search text in Microsoft Office Word documents][]
- *  [Search text in Microsoft Office Excel spreadsheets][]
- *  [Search text in Microsoft Office PowerPoint presentations][]
- *  [Search text in PDF documents][]
- *  [Search text in Emails][]
- *  [Search text in EPUB eBooks][]
- *  [Search text in HTML documents][]
- *  [Search text in Microsoft OneNote sections][]
+* [Search text](../https://docs.groupdocs.com/display/parserjava/Search+text)
+* [Search text in Microsoft Office Word documents](../https://docs.groupdocs.com/display/parserjava/Search+text+in+Microsoft+Office+Word+documents)
+* [Search text in Microsoft Office Excel spreadsheets](../https://docs.groupdocs.com/display/parserjava/Search+text+in+Microsoft+Office+Excel+spreadsheets)
+* [Search text in Microsoft Office PowerPoint presentations](../https://docs.groupdocs.com/display/parserjava/Search+text+in+Microsoft+Office+PowerPoint+presentations)
+* [Search text in PDF documents](../https://docs.groupdocs.com/display/parserjava/Search+text+in+PDF+documents)
+* [Search text in Emails](../https://docs.groupdocs.com/display/parserjava/Search+text+in+Emails)
+* [Search text in EPUB eBooks](../https://docs.groupdocs.com/display/parserjava/Search+text+in+EPUB+eBooks)
+* [Search text in HTML documents](../https://docs.groupdocs.com/display/parserjava/Search+text+in+HTML+documents)
+* [Search text in Microsoft OneNote sections](../https://docs.groupdocs.com/display/parserjava/Search+text+in+Microsoft+OneNote+sections)
 
 The following example shows how to search with a regular expression in a document:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.SamplePdf)) {
      // Search with a regular expression with case matching
@@ -1247,11 +1340,11 @@ The following example shows how to search with a regular expression in a documen
      }
  }
  
-```
+````
 
 The following example shows how to search a text on pages:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.SamplePdf)) {
      // Search a keyword with page numbers
@@ -1268,27 +1361,21 @@ The following example shows how to search a text on pages:
      }
  }
  
-```
+````
 
 
-[Search text]: https://docs.groupdocs.com/display/parserjava/Search+text
-[Search text in Microsoft Office Word documents]: https://docs.groupdocs.com/display/parserjava/Search+text+in+Microsoft+Office+Word+documents
-[Search text in Microsoft Office Excel spreadsheets]: https://docs.groupdocs.com/display/parserjava/Search+text+in+Microsoft+Office+Excel+spreadsheets
-[Search text in Microsoft Office PowerPoint presentations]: https://docs.groupdocs.com/display/parserjava/Search+text+in+Microsoft+Office+PowerPoint+presentations
-[Search text in PDF documents]: https://docs.groupdocs.com/display/parserjava/Search+text+in+PDF+documents
-[Search text in Emails]: https://docs.groupdocs.com/display/parserjava/Search+text+in+Emails
-[Search text in EPUB eBooks]: https://docs.groupdocs.com/display/parserjava/Search+text+in+EPUB+eBooks
-[Search text in HTML documents]: https://docs.groupdocs.com/display/parserjava/Search+text+in+HTML+documents
-[Search text in Microsoft OneNote sections]: https://docs.groupdocs.com/display/parserjava/Search+text+in+Microsoft+OneNote+sections
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| keyword | java.lang.String | The keyword to search. |
-| options | [SearchOptions](../../com.groupdocs.parser.options/searchoptions) | The search options. |
+| keyword | java.lang.String | The keyword to search.
+ |
+| options | [SearchOptions](../../com.groupdocs.parser.options/searchoptions) | The search options.
+ |
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.SearchResult> - A collection of [SearchResult](../../com.groupdocs.parser.data/searchresult) objects;  null  if search isn't supported.
+
 ### getHighlight(int position, boolean isDirect, HighlightOptions options) {#getHighlight-int-boolean-com.groupdocs.parser.options.HighlightOptions-}
 ```
 public HighlightItem getHighlight(int position, boolean isDirect, HighlightOptions options)
@@ -1299,11 +1386,11 @@ Extracts a highlight from the document.
 
 **Learn more:**
 
- *  [Extract highlights][]
+* [Extract highlights](../https://docs.groupdocs.com/display/parserjava/Extract+highlights)
 
 The following example shows how to extract a highlight that contains 3 words:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.SamplePdf)) {
      // Extract a highlight:
@@ -1317,20 +1404,23 @@ The following example shows how to extract a highlight that contains 3 words:
      System.out.println(String.format("At %d: %s", hl.getPosition(), hl.getText()));
  }
  
-```
+````
 
 
-[Extract highlights]: https://docs.groupdocs.com/display/parserjava/Extract+highlights
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| position | int | The start position of the highlight. |
-| isDirect | boolean | The value that indicates whether highlight extraction is direct.  true  if the higlight is extracted by the right of position; otherwise,  false . |
-| options | [HighlightOptions](../../com.groupdocs.parser.options/highlightoptions) | The highlight extraction options. |
+| position | int | The start position of the highlight.
+ |
+| isDirect | boolean | The value that indicates whether highlight extraction is direct.  true  if the higlight is extracted by the right of position; otherwise,  false .
+ |
+| options | [HighlightOptions](../../com.groupdocs.parser.options/highlightoptions) | The highlight extraction options.
+ |
 
 **Returns:**
 [HighlightItem](../../com.groupdocs.parser.data/highlightitem) - An instance of [HighlightItem](../../com.groupdocs.parser.data/highlightitem) class that represents the extracted highlight;  null  if highlight extraction isn't supported.
+
 ### getToc() {#getToc--}
 ```
 public Iterable<TocItem> getToc()
@@ -1341,14 +1431,14 @@ Extracts a table of contents from the document.
 
 **Learn more:**
 
- *  [Extract table of contents][]
- *  [Extract text by table of contents item][]
- *  [Extract table of contents from Microsoft Office Word documents][]
- *  [Extract table of contents from EPUB eBooks][]
+* [Extract table of contents](../https://docs.groupdocs.com/display/parserjava/Extract+table+of+contents)
+* [Extract text by table of contents item](../https://docs.groupdocs.com/display/parserjava/Extract+text+by+table+of+contents+item)
+* [Extract table of contents from Microsoft Office Word documents](../https://docs.groupdocs.com/display/parserjava/Extract+table+of+contents+from+Microsoft+Office+Word+documents)
+* [Extract table of contents from EPUB eBooks](../https://docs.groupdocs.com/display/parserjava/Extract+table+of+contents+from+EPUB+eBooks)
 
 The following example shows how to extract table of contents from EPUB file:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.SampleEpub)) {
      // Check if text extraction is supported
@@ -1378,16 +1468,13 @@ The following example shows how to extract table of contents from EPUB file:
      }
  }
  
-```
+````
 
 
-[Extract table of contents]: https://docs.groupdocs.com/display/parserjava/Extract+table+of+contents
-[Extract text by table of contents item]: https://docs.groupdocs.com/display/parserjava/Extract+text+by+table+of+contents+item
-[Extract table of contents from Microsoft Office Word documents]: https://docs.groupdocs.com/display/parserjava/Extract+table+of+contents+from+Microsoft+Office+Word+documents
-[Extract table of contents from EPUB eBooks]: https://docs.groupdocs.com/display/parserjava/Extract+table+of+contents+from+EPUB+eBooks
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.TocItem> - A collection of table of contents items;  null  if table of contents extraction isn't supported.
+
 ### getMetadata() {#getMetadata--}
 ```
 public Iterable<MetadataItem> getMetadata()
@@ -1398,16 +1485,16 @@ Extracts metadata from the document.
 
 **Learn more:**
 
- *  [Extract metadata from documents][]
- *  [Extract metadata from Microsoft Office Word documents][]
- *  [Extract metadata from Microsoft Office Excel spreadsheets][]
- *  [Extract metadata from Microsoft Office PowerPoint presentations][]
- *  [Extract metadata from PDF documents][]
- *  [Extract metadata from Emails][]
+* [Extract metadata from documents](../https://docs.groupdocs.com/display/parserjava/Extract+metadata+from+documents)
+* [Extract metadata from Microsoft Office Word documents](../https://docs.groupdocs.com/display/parserjava/Extract+metadata+from+Microsoft+Office+Word+documents)
+* [Extract metadata from Microsoft Office Excel spreadsheets](../https://docs.groupdocs.com/display/parserjava/Extract+metadata+from+Microsoft+Office+Excel+spreadsheets)
+* [Extract metadata from Microsoft Office PowerPoint presentations](../https://docs.groupdocs.com/display/parserjava/Extract+metadata+from+Microsoft+Office+PowerPoint+presentations)
+* [Extract metadata from PDF documents](../https://docs.groupdocs.com/display/parserjava/Extract+metadata+from+PDF+documents)
+* [Extract metadata from Emails](../https://docs.groupdocs.com/display/parserjava/Extract+metadata+from+Emails)
 
 The following example shows how to extract metadata from a document:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.SampleDocx)) {
      // Extract metadata from the document
@@ -1423,18 +1510,13 @@ The following example shows how to extract metadata from a document:
      }
  }
  
-```
+````
 
 
-[Extract metadata from documents]: https://docs.groupdocs.com/display/parserjava/Extract+metadata+from+documents
-[Extract metadata from Microsoft Office Word documents]: https://docs.groupdocs.com/display/parserjava/Extract+metadata+from+Microsoft+Office+Word+documents
-[Extract metadata from Microsoft Office Excel spreadsheets]: https://docs.groupdocs.com/display/parserjava/Extract+metadata+from+Microsoft+Office+Excel+spreadsheets
-[Extract metadata from Microsoft Office PowerPoint presentations]: https://docs.groupdocs.com/display/parserjava/Extract+metadata+from+Microsoft+Office+PowerPoint+presentations
-[Extract metadata from PDF documents]: https://docs.groupdocs.com/display/parserjava/Extract+metadata+from+PDF+documents
-[Extract metadata from Emails]: https://docs.groupdocs.com/display/parserjava/Extract+metadata+from+Emails
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.MetadataItem> - A collection of metadata items;  null  if metadata extraction isn't supported.
+
 ### getContainer() {#getContainer--}
 ```
 public Iterable<ContainerItem> getContainer()
@@ -1445,16 +1527,16 @@ Extracts a container object from the document to work with formats that contain 
 
 **Learn more:**
 
- *  [Extract data from attachments and ZIP archives][]
- *  [Iterate through container items][]
- *  [Extract attachments from PDF portfolios][]
- *  [Extract attachments from Emails][]
- *  [Extract emails from Outlook Storage][]
- *  [Extract text from ZIP archive files][]
+* [Extract data from attachments and ZIP archives](../https://docs.groupdocs.com/display/parserjava/Extract+data+from+attachments+and+ZIP+archives)
+* [Iterate through container items](../https://docs.groupdocs.com/display/parserjava/Iterate+through+container+items)
+* [Extract attachments from PDF portfolios](../https://docs.groupdocs.com/display/parserjava/Extract+attachments+from+PDF+portfolios)
+* [Extract attachments from Emails](../https://docs.groupdocs.com/display/parserjava/Extract+attachments+from+Emails)
+* [Extract emails from Outlook Storage](../https://docs.groupdocs.com/display/parserjava/Extract+emails+from+Outlook+Storage)
+* [Extract text from ZIP archive files](../https://docs.groupdocs.com/display/parserjava/Extract+text+from+ZIP+archive+files)
 
 The following example shows how to extract a text from zip entities:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.SampleZip)) {
      // Extract attachments from the container
@@ -1481,18 +1563,13 @@ The following example shows how to extract a text from zip entities:
      }
  }
  
-```
+````
 
 
-[Extract data from attachments and ZIP archives]: https://docs.groupdocs.com/display/parserjava/Extract+data+from+attachments+and+ZIP+archives
-[Iterate through container items]: https://docs.groupdocs.com/display/parserjava/Iterate+through+container+items
-[Extract attachments from PDF portfolios]: https://docs.groupdocs.com/display/parserjava/Extract+attachments+from+PDF+portfolios
-[Extract attachments from Emails]: https://docs.groupdocs.com/display/parserjava/Extract+attachments+from+Emails
-[Extract emails from Outlook Storage]: https://docs.groupdocs.com/display/parserjava/Extract+emails+from+Outlook+Storage
-[Extract text from ZIP archive files]: https://docs.groupdocs.com/display/parserjava/Extract+text+from+ZIP+archive+files
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.ContainerItem> - A collection of container items;  null  if container extraction isn't supported.
+
 ### getTextAreas() {#getTextAreas--}
 ```
 public Iterable<PageTextArea> getTextAreas()
@@ -1503,11 +1580,11 @@ Extracts text areas from the document.
 
 **Learn more:**
 
- *  [Extract text areas][]
+* [Extract text areas](../https://docs.groupdocs.com/display/parserjava/Extract+text+areas)
 
 The following example shows how to extract all text areas from the whole document:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.SampleImagesPdf)) {
      // Extract text areas
@@ -1524,13 +1601,13 @@ The following example shows how to extract all text areas from the whole documen
      }
  }
  
-```
+````
 
 
-[Extract text areas]: https://docs.groupdocs.com/display/parserjava/Extract+text+areas
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageTextArea> - A collection of [PageTextArea](../../com.groupdocs.parser.data/pagetextarea) objects;  null  if text areas extraction isn't supported.
+
 ### getTextAreas(PageTextAreaOptions options) {#getTextAreas-com.groupdocs.parser.options.PageTextAreaOptions-}
 ```
 public Iterable<PageTextArea> getTextAreas(PageTextAreaOptions options)
@@ -1541,11 +1618,11 @@ Extracts text areas from the document using customization options (regular expre
 
 **Learn more:**
 
- *  [Extract text areas][]
+* [Extract text areas](../https://docs.groupdocs.com/display/parserjava/Extract+text+areas)
 
 The following example shows how to extract only text areas with digits from the upper-left courner:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.SampleImagesPdf)) {
      // Create the options which are used for text area extraction
@@ -1564,18 +1641,19 @@ The following example shows how to extract only text areas with digits from the 
      }
  }
  
-```
+````
 
 
-[Extract text areas]: https://docs.groupdocs.com/display/parserjava/Extract+text+areas
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) | The options for text area extraction. |
+| options | [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) | The options for text area extraction.
+ |
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageTextArea> - A collection of [PageTextArea](../../com.groupdocs.parser.data/pagetextarea) objects;  null  if text areas extraction isn't supported.
+
 ### getTextAreas(int pageIndex) {#getTextAreas-int-}
 ```
 public Iterable<PageTextArea> getTextAreas(int pageIndex)
@@ -1586,11 +1664,11 @@ Extracts text areas from the document page.
 
 **Learn more:**
 
- *  [Extract text areas][]
+* [Extract text areas](../https://docs.groupdocs.com/display/parserjava/Extract+text+areas)
 
 To extract text areas from a document page the following method is used:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.SampleImagesPdf)) {
      // Check if the document supports text areas extraction
@@ -1618,18 +1696,19 @@ To extract text areas from a document page the following method is used:
      }
  }
  
-```
+````
 
 
-[Extract text areas]: https://docs.groupdocs.com/display/parserjava/Extract+text+areas
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageIndex | int | The zero-based page index. |
+| pageIndex | int | The zero-based page index.
+ |
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageTextArea> - A collection of [PageTextArea](../../com.groupdocs.parser.data/pagetextarea) objects;  null  if text areas extraction isn't supported.
+
 ### getTextAreas(int pageIndex, PageTextAreaOptions options) {#getTextAreas-int-com.groupdocs.parser.options.PageTextAreaOptions-}
 ```
 public Iterable<PageTextArea> getTextAreas(int pageIndex, PageTextAreaOptions options)
@@ -1640,19 +1719,20 @@ Extracts text areas from the document page using customization options (regular 
 
 **Learn more:**
 
- *  [Extract text areas][]
+* [Extract text areas](../https://docs.groupdocs.com/display/parserjava/Extract+text+areas)
 
-
-[Extract text areas]: https://docs.groupdocs.com/display/parserjava/Extract+text+areas
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageIndex | int | The zero-based page index. |
-| options | [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) | The options for text area extraction. |
+| pageIndex | int | The zero-based page index.
+ |
+| options | [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) | The options for text area extraction.
+ |
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageTextArea> - A collection of [PageTextArea](../../com.groupdocs.parser.data/pagetextarea) objects;  null  if text areas extraction isn't supported.
+
 ### getImages() {#getImages--}
 ```
 public Iterable<PageImageArea> getImages()
@@ -1663,17 +1743,17 @@ Extracts images from the document.
 
 **Learn more:**
 
- *  [Extract images from documents][]
- *  [Extract images to files][]
- *  [Extract images from Microsoft Office Word documents][]
- *  [Extract images from Microsoft Office Excel spreadsheets][]
- *  [Extract images from Microsoft Office PowerPoint presentations][]
- *  [Extract images from Emails][]
- *  [Extract images from PDF documents][]
+* [Extract images from documents](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+documents)
+* [Extract images to files](../https://docs.groupdocs.com/display/parserjava/Extract+images+to+files)
+* [Extract images from Microsoft Office Word documents](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+Word+documents)
+* [Extract images from Microsoft Office Excel spreadsheets](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+Excel+spreadsheets)
+* [Extract images from Microsoft Office PowerPoint presentations](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+PowerPoint+presentations)
+* [Extract images from Emails](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+Emails)
+* [Extract images from PDF documents](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+PDF+documents)
 
 The following example shows how to extract all images from the whole document:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.SampleImagesPdf)) {
      // Extract images
@@ -1690,19 +1770,13 @@ The following example shows how to extract all images from the whole document:
      }
  }
  
-```
+````
 
 
-[Extract images from documents]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+documents
-[Extract images to files]: https://docs.groupdocs.com/display/parserjava/Extract+images+to+files
-[Extract images from Microsoft Office Word documents]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+Word+documents
-[Extract images from Microsoft Office Excel spreadsheets]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+Excel+spreadsheets
-[Extract images from Microsoft Office PowerPoint presentations]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+PowerPoint+presentations
-[Extract images from Emails]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+Emails
-[Extract images from PDF documents]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+PDF+documents
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageImageArea> - A collection of [PageImageArea](../../com.groupdocs.parser.data/pageimagearea) objects;  null  if images extraction isn't supported.
+
 ### getImages(PageAreaOptions options) {#getImages-com.groupdocs.parser.options.PageAreaOptions-}
 ```
 public Iterable<PageImageArea> getImages(PageAreaOptions options)
@@ -1713,18 +1787,18 @@ Extracts images from the document using customization options (to set the rectan
 
 **Learn more:**
 
- *  [Extract images from documents][]
- *  [Extract images to files][]
- *  [Extract images from document page area][]
- *  [Extract images from Microsoft Office Word documents][]
- *  [Extract images from Microsoft Office Excel spreadsheets][]
- *  [Extract images from Microsoft Office PowerPoint presentations][]
- *  [Extract images from Emails][]
- *  [Extract images from PDF documents][]
+* [Extract images from documents](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+documents)
+* [Extract images to files](../https://docs.groupdocs.com/display/parserjava/Extract+images+to+files)
+* [Extract images from document page area](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+document+page+area)
+* [Extract images from Microsoft Office Word documents](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+Word+documents)
+* [Extract images from Microsoft Office Excel spreadsheets](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+Excel+spreadsheets)
+* [Extract images from Microsoft Office PowerPoint presentations](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+PowerPoint+presentations)
+* [Extract images from Emails](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+Emails)
+* [Extract images from PDF documents](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+PDF+documents)
 
 The following example shows how to extract only images from the upper-left courner:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.SampleImagesPdf)) {
      // Create the options which are used for images extraction
@@ -1743,25 +1817,19 @@ The following example shows how to extract only images from the upper-left courn
      }
  }
  
-```
+````
 
 
-[Extract images from documents]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+documents
-[Extract images to files]: https://docs.groupdocs.com/display/parserjava/Extract+images+to+files
-[Extract images from document page area]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+document+page+area
-[Extract images from Microsoft Office Word documents]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+Word+documents
-[Extract images from Microsoft Office Excel spreadsheets]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+Excel+spreadsheets
-[Extract images from Microsoft Office PowerPoint presentations]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+PowerPoint+presentations
-[Extract images from Emails]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+Emails
-[Extract images from PDF documents]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+PDF+documents
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [PageAreaOptions](../../com.groupdocs.parser.options/pageareaoptions) | The options for images extraction. |
+| options | [PageAreaOptions](../../com.groupdocs.parser.options/pageareaoptions) | The options for images extraction.
+ |
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageImageArea> - A collection of [PageImageArea](../../com.groupdocs.parser.data/pageimagearea) objects;  null  if images extraction isn't supported.
+
 ### getImages(int pageIndex) {#getImages-int-}
 ```
 public Iterable<PageImageArea> getImages(int pageIndex)
@@ -1772,18 +1840,18 @@ Extracts images from the document page.
 
 **Learn more:**
 
- *  [Extract images from documents][]
- *  [Extract images to files][]
- *  [Extract images from document page][]
- *  [Extract images from Microsoft Office Word documents][]
- *  [Extract images from Microsoft Office Excel spreadsheets][]
- *  [Extract images from Microsoft Office PowerPoint presentations][]
- *  [Extract images from Emails][]
- *  [Extract images from PDF documents][]
+* [Extract images from documents](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+documents)
+* [Extract images to files](../https://docs.groupdocs.com/display/parserjava/Extract+images+to+files)
+* [Extract images from document page](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+document+page)
+* [Extract images from Microsoft Office Word documents](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+Word+documents)
+* [Extract images from Microsoft Office Excel spreadsheets](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+Excel+spreadsheets)
+* [Extract images from Microsoft Office PowerPoint presentations](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+PowerPoint+presentations)
+* [Extract images from Emails](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+Emails)
+* [Extract images from PDF documents](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+PDF+documents)
 
 To extract images from a document page the following method is used:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.SampleImagesPdf)) {
      // Check if the document supports images extraction
@@ -1811,25 +1879,19 @@ To extract images from a document page the following method is used:
      }
  }
  
-```
+````
 
 
-[Extract images from documents]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+documents
-[Extract images to files]: https://docs.groupdocs.com/display/parserjava/Extract+images+to+files
-[Extract images from document page]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+document+page
-[Extract images from Microsoft Office Word documents]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+Word+documents
-[Extract images from Microsoft Office Excel spreadsheets]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+Excel+spreadsheets
-[Extract images from Microsoft Office PowerPoint presentations]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+PowerPoint+presentations
-[Extract images from Emails]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+Emails
-[Extract images from PDF documents]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+PDF+documents
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageIndex | int | The zero-based page index. |
+| pageIndex | int | The zero-based page index.
+ |
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageImageArea> - A collection of [PageImageArea](../../com.groupdocs.parser.data/pageimagearea) objects;  null  if images extraction isn't supported.
+
 ### getImages(int pageIndex, PageAreaOptions options) {#getImages-int-com.groupdocs.parser.options.PageAreaOptions-}
 ```
 public Iterable<PageImageArea> getImages(int pageIndex, PageAreaOptions options)
@@ -1840,35 +1902,28 @@ Extracts images from the document page using customization options (to set the r
 
 **Learn more:**
 
- *  [Extract images from documents][]
- *  [Extract images to files][]
- *  [Extract images from document page][]
- *  [Extract images from document page area][]
- *  [Extract images from Microsoft Office Word documents][]
- *  [Extract images from Microsoft Office Excel spreadsheets][]
- *  [Extract images from Microsoft Office PowerPoint presentations][]
- *  [Extract images from Emails][]
- *  [Extract images from PDF documents][]
+* [Extract images from documents](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+documents)
+* [Extract images to files](../https://docs.groupdocs.com/display/parserjava/Extract+images+to+files)
+* [Extract images from document page](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+document+page)
+* [Extract images from document page area](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+document+page+area)
+* [Extract images from Microsoft Office Word documents](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+Word+documents)
+* [Extract images from Microsoft Office Excel spreadsheets](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+Excel+spreadsheets)
+* [Extract images from Microsoft Office PowerPoint presentations](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+PowerPoint+presentations)
+* [Extract images from Emails](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+Emails)
+* [Extract images from PDF documents](../https://docs.groupdocs.com/display/parserjava/Extract+images+from+PDF+documents)
 
-
-[Extract images from documents]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+documents
-[Extract images to files]: https://docs.groupdocs.com/display/parserjava/Extract+images+to+files
-[Extract images from document page]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+document+page
-[Extract images from document page area]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+document+page+area
-[Extract images from Microsoft Office Word documents]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+Word+documents
-[Extract images from Microsoft Office Excel spreadsheets]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+Excel+spreadsheets
-[Extract images from Microsoft Office PowerPoint presentations]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+Microsoft+Office+PowerPoint+presentations
-[Extract images from Emails]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+Emails
-[Extract images from PDF documents]: https://docs.groupdocs.com/display/parserjava/Extract+images+from+PDF+documents
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageIndex | int | The zero-based page index. |
-| options | [PageAreaOptions](../../com.groupdocs.parser.options/pageareaoptions) | The options for images extraction. |
+| pageIndex | int | The zero-based page index.
+ |
+| options | [PageAreaOptions](../../com.groupdocs.parser.options/pageareaoptions) | The options for images extraction.
+ |
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageImageArea> - A collection of [PageImageArea](../../com.groupdocs.parser.data/pageimagearea) objects;  null  if images extraction isn't supported.
+
 ### getHyperlinks() {#getHyperlinks--}
 ```
 public Iterable<PageHyperlinkArea> getHyperlinks()
@@ -1879,7 +1934,7 @@ Extracts hyperlinks from the document.
 
 The following example shows how to extract all hyperlinks from the whole document:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(filePath)) {
      // Check if the document supports hyperlink extraction
@@ -1899,10 +1954,13 @@ The following example shows how to extract all hyperlinks from the whole documen
      }
  }
  
-```
+````
+
+
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageHyperlinkArea> - A collection of [PageHyperlinkArea](../../com.groupdocs.parser.data/pagehyperlinkarea) objects;  null  if hyperlinks extraction isn't supported.
+
 ### getHyperlinks(int pageIndex) {#getHyperlinks-int-}
 ```
 public Iterable<PageHyperlinkArea> getHyperlinks(int pageIndex)
@@ -1913,7 +1971,7 @@ Extracts hyperlinks from the document page.
 
 The following example shows how to extract hyperlinks from the document page:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(filePath)) {
      // Check if the document supports hyperlink extraction
@@ -1945,15 +2003,19 @@ The following example shows how to extract hyperlinks from the document page:
      }
  }
  
-```
+````
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageIndex | int | The zero-based page index. |
+| pageIndex | int | The zero-based page index.
+ |
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageHyperlinkArea> - A collection of [PageHyperlinkArea](../../com.groupdocs.parser.data/pagehyperlinkarea) objects;  null  if hyperlinks extraction isn't supported.
+
 ### getHyperlinks(PageAreaOptions options) {#getHyperlinks-com.groupdocs.parser.options.PageAreaOptions-}
 ```
 public Iterable<PageHyperlinkArea> getHyperlinks(PageAreaOptions options)
@@ -1964,7 +2026,7 @@ Extracts hyperlinks from the document using customization options (to set the re
 
 The following example shows how to extract hyperlinks from the document page area:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.HyperlinksPdf)) {
      // Check if the document supports hyperlink extraction
@@ -1986,15 +2048,19 @@ The following example shows how to extract hyperlinks from the document page are
      }
  }
  
-```
+````
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [PageAreaOptions](../../com.groupdocs.parser.options/pageareaoptions) | The options for hyperlinks extraction. |
+| options | [PageAreaOptions](../../com.groupdocs.parser.options/pageareaoptions) | The options for hyperlinks extraction.
+ |
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageHyperlinkArea> - A collection of [PageHyperlinkArea](../../com.groupdocs.parser.data/pagehyperlinkarea) objects;  null  if hyperlinks extraction isn't supported.
+
 ### getHyperlinks(int pageIndex, PageAreaOptions options) {#getHyperlinks-int-com.groupdocs.parser.options.PageAreaOptions-}
 ```
 public Iterable<PageHyperlinkArea> getHyperlinks(int pageIndex, PageAreaOptions options)
@@ -2005,7 +2071,7 @@ Extracts hyperlinks from the document page using customization options (to set t
 
 The following example shows how to extract hyperlinks from the document page area using customization options:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(filePath)) {
      // Check if the document supports hyperlink extraction
@@ -2039,16 +2105,21 @@ The following example shows how to extract hyperlinks from the document page are
      }
  }
  
-```
+````
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageIndex | int | The zero-based page index. |
-| options | [PageAreaOptions](../../com.groupdocs.parser.options/pageareaoptions) | The options for hyperlinks extraction. |
+| pageIndex | int | The zero-based page index.
+ |
+| options | [PageAreaOptions](../../com.groupdocs.parser.options/pageareaoptions) | The options for hyperlinks extraction.
+ |
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageHyperlinkArea> - A collection of [PageHyperlinkArea](../../com.groupdocs.parser.data/pagehyperlinkarea) objects;  null  if hyperlinks extraction isn't supported.
+
 ### getBarcodes() {#getBarcodes--}
 ```
 public Iterable<PageBarcodeArea> getBarcodes()
@@ -2057,8 +2128,10 @@ public Iterable<PageBarcodeArea> getBarcodes()
 
 Extracts barcodes from the document.
 
+
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageBarcodeArea> - A collection of [PageBarcodeArea](../../com.groupdocs.parser.data/pagebarcodearea) objects;  null  if barcodes extraction isn't supported.
+
 ### getBarcodes(int pageIndex) {#getBarcodes-int-}
 ```
 public Iterable<PageBarcodeArea> getBarcodes(int pageIndex)
@@ -2067,13 +2140,16 @@ public Iterable<PageBarcodeArea> getBarcodes(int pageIndex)
 
 Extracts barcodes from the document page.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageIndex | int | The zero-based page index. |
+| pageIndex | int | The zero-based page index.
+ |
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageBarcodeArea> - A collection of [PageBarcodeArea](../../com.groupdocs.parser.data/pagebarcodearea) objects;  null  if barcodes extraction isn't supported.
+
 ### getBarcodes(BarcodeOptions options) {#getBarcodes-com.groupdocs.parser.options.BarcodeOptions-}
 ```
 public Iterable<PageBarcodeArea> getBarcodes(BarcodeOptions options)
@@ -2082,13 +2158,16 @@ public Iterable<PageBarcodeArea> getBarcodes(BarcodeOptions options)
 
 Extracts barcodes from the document using customization options (to set the rectangular area that contains barcodes).
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [BarcodeOptions](../../com.groupdocs.parser.options/barcodeoptions) | The options for barcodes extraction. |
+| options | [BarcodeOptions](../../com.groupdocs.parser.options/barcodeoptions) | The options for barcodes extraction.
+ |
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageBarcodeArea> - A collection of [PageBarcodeArea](../../com.groupdocs.parser.data/pagebarcodearea) objects;  null  if barcodes extraction isn't supported.\\
+
 ### getBarcodes(int pageIndex, BarcodeOptions options) {#getBarcodes-int-com.groupdocs.parser.options.BarcodeOptions-}
 ```
 public Iterable<PageBarcodeArea> getBarcodes(int pageIndex, BarcodeOptions options)
@@ -2097,14 +2176,18 @@ public Iterable<PageBarcodeArea> getBarcodes(int pageIndex, BarcodeOptions optio
 
 Extracts barcodes from the document page using customization options (to set the rectangular area that contains barcodes).
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageIndex | int | The zero-based page index. |
-| options | [BarcodeOptions](../../com.groupdocs.parser.options/barcodeoptions) | The options for barcodes extraction. |
+| pageIndex | int | The zero-based page index.
+ |
+| options | [BarcodeOptions](../../com.groupdocs.parser.options/barcodeoptions) | The options for barcodes extraction.
+ |
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageBarcodeArea> - A collection of [PageBarcodeArea](../../com.groupdocs.parser.data/pagebarcodearea) objects;  null  if barcodes extraction isn't supported.
+
 ### getTables(PageTableAreaOptions options) {#getTables-com.groupdocs.parser.options.PageTableAreaOptions-}
 ```
 public Iterable<PageTableArea> getTables(PageTableAreaOptions options)
@@ -2115,7 +2198,7 @@ Extracts tables from the document.
 
 The following example shows how to extract tables from the whole document:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(filePath)) {
      // Check if the document supports table extraction
@@ -2151,15 +2234,19 @@ The following example shows how to extract tables from the whole document:
      }
  }
  
-```
+````
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [PageTableAreaOptions](../../com.groupdocs.parser.options/pagetableareaoptions) | The options for tables extraction. |
+| options | [PageTableAreaOptions](../../com.groupdocs.parser.options/pagetableareaoptions) | The options for tables extraction.
+ |
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageTableArea> - A collection of [PageTableArea](../../com.groupdocs.parser.data/pagetablearea) objects;  null  if tables extraction isn't supported.
+
 ### getTables() {#getTables--}
 ```
 public Iterable<PageTableArea> getTables()
@@ -2168,8 +2255,10 @@ public Iterable<PageTableArea> getTables()
 
 Extracts tables from the document, detecting them automatically.
 
+
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageTableArea> - A collection of [PageTableArea](../../com.groupdocs.parser.data/pagetablearea) objects;  null  if tables extraction isn't supported.
+
 ### getTables(int pageIndex, PageTableAreaOptions options) {#getTables-int-com.groupdocs.parser.options.PageTableAreaOptions-}
 ```
 public Iterable<PageTableArea> getTables(int pageIndex, PageTableAreaOptions options)
@@ -2180,7 +2269,7 @@ Extracts tables from the document page.
 
 The following example shows how to extract tables from the document page:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.SampleInvoicePagesPdf)) {
      // Check if the document supports table extraction
@@ -2228,16 +2317,21 @@ The following example shows how to extract tables from the document page:
      }
  }
  
-```
+````
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageIndex | int | The zero-based page index. |
-| options | [PageTableAreaOptions](../../com.groupdocs.parser.options/pagetableareaoptions) | The options for tables extraction. |
+| pageIndex | int | The zero-based page index.
+ |
+| options | [PageTableAreaOptions](../../com.groupdocs.parser.options/pagetableareaoptions) | The options for tables extraction.
+ |
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageTableArea> - A collection of [PageTableArea](../../com.groupdocs.parser.data/pagetablearea) objects;  null  if tables extraction isn't supported.
+
 ### getTables(int pageIndex) {#getTables-int-}
 ```
 public Iterable<PageTableArea> getTables(int pageIndex)
@@ -2246,13 +2340,16 @@ public Iterable<PageTableArea> getTables(int pageIndex)
 
 Extracts tables from the document page, detecting them automatically.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageIndex | int | The zero-based page index. |
+| pageIndex | int | The zero-based page index.
+ |
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.PageTableArea> - A collection of [PageTableArea](../../com.groupdocs.parser.data/pagetablearea) objects;  null  if tables extraction isn't supported.
+
 ### generateAdjustmentFields(GenerateTemplateOptions options) {#generateAdjustmentFields-com.groupdocs.parser.options.GenerateTemplateOptions-}
 ```
 public Iterable<TemplateItem> generateAdjustmentFields(GenerateTemplateOptions options)
@@ -2261,25 +2358,31 @@ public Iterable<TemplateItem> generateAdjustmentFields(GenerateTemplateOptions o
 
 Generates a collection of adjustment [TemplateItem](../../com.groupdocs.parser.templates/templateitem)s for the document.
 
-Java mirror of the C\#  Parser.GenerateAdjustmentFields(GenerateTemplateOptions)  API (commits d4e691b / ae9e98c). Useful as a starting-point template that the user can then trim or rename.
+Java mirror of the C# 
+Parser.GenerateAdjustmentFields(GenerateTemplateOptions)
+ API (commits d4e691b /
+ae9e98c). Useful as a starting-point template that the user can then trim or rename.
 
-### Algorithm ###
+### Algorithm
 
-1.  Pick the page from  options.getPageIndex()  (default  0 ).
-2.  If the document supports text-area extraction, call \#getTextAreas(int, com.groupdocs.parser.options.PageTextAreaOptions).getTextAreas(int, com.groupdocs.parser.options.PageTextAreaOptions) and emit one [TemplateField](../../com.groupdocs.parser.templates/templatefield) per non-empty text area, named  \{prefix\}\_\{n\}  (default prefix  "Field" ). Each field gets a [TemplateFixedPosition](../../com.groupdocs.parser.templates/templatefixedposition) at the text area's rectangle, with the page's width recorded as  pageWidth  so subsequent template scaling works.
-3.  If the document does not support text areas, return  null .
+1. Pick the page from  options.getPageIndex()  (default  0 ).
+2. If the document supports text-area extraction, call #getTextAreas(int, com.groupdocs.parser.options.PageTextAreaOptions).getTextAreas(int, com.groupdocs.parser.options.PageTextAreaOptions) and emit one [TemplateField](../../com.groupdocs.parser.templates/templatefield) per non-empty text area, named  {prefix}_{n}  (default prefix  "Field" ). Each field gets a [TemplateFixedPosition](../../com.groupdocs.parser.templates/templatefixedposition) at the text area's rectangle, with the page's width recorded as  pageWidth  so subsequent template scaling works.
+3. If the document does not support text areas, return  null .
 
-### OCR caveat ###
+### OCR caveat
 
-The C\# implementation runs OCR over the page preview to derive fields when the document is image-only. Java's [OcrConnectorBase](../../com.groupdocs.parser.options/ocrconnectorbase) is user-supplied, so OCR-driven generation is only meaningful if a connector is configured AND the connector's  recognizeTextAreas(...)  returns proper rectangles. When  options.getOcrOptions()  is set and a connector is available, the OCR pipeline is preferred.
+The C# implementation runs OCR over the page preview to derive fields when the document is image-only. Java's [OcrConnectorBase](../../com.groupdocs.parser.options/ocrconnectorbase) is user-supplied, so OCR-driven generation is only meaningful if a connector is configured AND the connector's  recognizeTextAreas(...)  returns proper rectangles. When  options.getOcrOptions()  is set and a connector is available, the OCR pipeline is preferred.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [GenerateTemplateOptions](../../com.groupdocs.parser.options/generatetemplateoptions) | The generation options. May be  null  (defaults applied). |
+| options | [GenerateTemplateOptions](../../com.groupdocs.parser.options/generatetemplateoptions) | The generation options. May be  null  (defaults applied).
+ |
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.templates.TemplateItem> - An iterable of generated [TemplateItem](../../com.groupdocs.parser.templates/templateitem)s, or  null  if not supported by this document format.
+
 ### getWorksheetInfo() {#getWorksheetInfo--}
 ```
 public Iterable<WorksheetInfo> getWorksheetInfo()
@@ -2288,8 +2391,10 @@ public Iterable<WorksheetInfo> getWorksheetInfo()
 
 Extracts the info about all worksheets in the spreadsheet.
 
+
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.WorksheetInfo> - A list of [WorksheetInfo](../../com.groupdocs.parser.data/worksheetinfo) instances that contains info about all worksheets in the spreadsheet.
+
 ### getWorksheetInfo(int worksheetIndex) {#getWorksheetInfo-int-}
 ```
 public WorksheetInfo getWorksheetInfo(int worksheetIndex)
@@ -2298,13 +2403,16 @@ public WorksheetInfo getWorksheetInfo(int worksheetIndex)
 
 Extracts the info about the worksheet.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| worksheetIndex | int | The zero-based index of the worksheet. |
+| worksheetIndex | int | The zero-based index of the worksheet.
+ |
 
 **Returns:**
 [WorksheetInfo](../../com.groupdocs.parser.data/worksheetinfo) - An instance of [WorksheetInfo](../../com.groupdocs.parser.data/worksheetinfo) that contains the info about the worksheet.
+
 ### getWorksheetCells(int worksheetIndex) {#getWorksheetCells-int-}
 ```
 public Iterable<WorksheetCell> getWorksheetCells(int worksheetIndex)
@@ -2313,13 +2421,16 @@ public Iterable<WorksheetCell> getWorksheetCells(int worksheetIndex)
 
 Extracts worksheet cells.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| worksheetIndex | int | The zero-based index of the worksheet. |
+| worksheetIndex | int | The zero-based index of the worksheet.
+ |
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.WorksheetCell> - A collection of [WorksheetCell](../../com.groupdocs.parser.data/worksheetcell) instances that contains the cell data.
+
 ### getWorksheetCells(int worksheetIndex, WorksheetOptions options) {#getWorksheetCells-int-com.groupdocs.parser.options.WorksheetOptions-}
 ```
 public Iterable<WorksheetCell> getWorksheetCells(int worksheetIndex, WorksheetOptions options)
@@ -2328,14 +2439,18 @@ public Iterable<WorksheetCell> getWorksheetCells(int worksheetIndex, WorksheetOp
 
 Extracts worksheet cells using customization options.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| worksheetIndex | int | The zero-based index of the worksheet. |
-| options | [WorksheetOptions](../../com.groupdocs.parser.options/worksheetoptions) | The worksheet extraction options. |
+| worksheetIndex | int | The zero-based index of the worksheet.
+ |
+| options | [WorksheetOptions](../../com.groupdocs.parser.options/worksheetoptions) | The worksheet extraction options.
+ |
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.WorksheetCell> - A collection of [WorksheetCell](../../com.groupdocs.parser.data/worksheetcell) instances that contains the cell data.
+
 ### parseByTemplate(Template template) {#parseByTemplate-com.groupdocs.parser.templates.Template-}
 ```
 public DocumentData parseByTemplate(Template template)
@@ -2346,24 +2461,21 @@ Parses the document by the user-generated template.
 
 **Learn more:**
 
- *  [Parse data from documents][]
- *  [Working with templates][]
- *  [Working with data extracted by template][]
- *  [Parse data from PDF documents][]
+* [Parse data from documents](../https://docs.groupdocs.com/display/parserjava/Parse+data+from+documents)
+* [Working with templates](../https://docs.groupdocs.com/display/parserjava/Working+with+templates)
+* [Working with data extracted by template](../https://docs.groupdocs.com/display/parserjava/Working+with+data+extracted+by+template)
+* [Parse data from PDF documents](../https://docs.groupdocs.com/display/parserjava/Parse+data+from+PDF+documents)
 
-
-[Parse data from documents]: https://docs.groupdocs.com/display/parserjava/Parse+data+from+documents
-[Working with templates]: https://docs.groupdocs.com/display/parserjava/Working+with+templates
-[Working with data extracted by template]: https://docs.groupdocs.com/display/parserjava/Working+with+data+extracted+by+template
-[Parse data from PDF documents]: https://docs.groupdocs.com/display/parserjava/Parse+data+from+PDF+documents
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| template | [Template](../../com.groupdocs.parser.templates/template) | The user-generated template. |
+| template | [Template](../../com.groupdocs.parser.templates/template) | The user-generated template.
+ |
 
 **Returns:**
 [DocumentData](../../com.groupdocs.parser.data/documentdata) - An instance of [DocumentData](../../com.groupdocs.parser.data/documentdata) class that contains the extracted data;  null  if parsing by template isn't supported.
+
 ### parseByTemplate(Template template, ParseByTemplateOptions options) {#parseByTemplate-com.groupdocs.parser.templates.Template-com.groupdocs.parser.options.ParseByTemplateOptions-}
 ```
 public DocumentData parseByTemplate(Template template, ParseByTemplateOptions options)
@@ -2372,18 +2484,24 @@ public DocumentData parseByTemplate(Template template, ParseByTemplateOptions op
 
 Parses the document by the user-generated template with the supplied options.
 
-If  options.getPageIndex()  is set, only that page is parsed; otherwise all pages are parsed.
+If 
+options.getPageIndex()
+ is set, only that page is parsed; otherwise all pages are parsed.
 
 OCR support depends on the [OcrConnectorBase](../../com.groupdocs.parser.options/ocrconnectorbase) configured in [ParserSettings](../../com.groupdocs.parser.options/parsersettings).
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| template | [Template](../../com.groupdocs.parser.templates/template) | The user-generated template. |
-| options | [ParseByTemplateOptions](../../com.groupdocs.parser.options/parsebytemplateoptions) | The parse-by-template options. |
+| template | [Template](../../com.groupdocs.parser.templates/template) | The user-generated template.
+ |
+| options | [ParseByTemplateOptions](../../com.groupdocs.parser.options/parsebytemplateoptions) | The parse-by-template options.
+ |
 
 **Returns:**
 [DocumentData](../../com.groupdocs.parser.data/documentdata) - An instance of [DocumentData](../../com.groupdocs.parser.data/documentdata) class that contains the extracted data;  null  if parsing by template isn't supported.
+
 ### parseByTemplate(TemplateCollection templates, ParseByTemplateOptions options) {#parseByTemplate-com.groupdocs.parser.templates.TemplateCollection-com.groupdocs.parser.options.ParseByTemplateOptions-}
 ```
 public DocumentData parseByTemplate(TemplateCollection templates, ParseByTemplateOptions options)
@@ -2392,18 +2510,29 @@ public DocumentData parseByTemplate(TemplateCollection templates, ParseByTemplat
 
 Parses the document by automatically selecting the best-matching template from a collection.
 
-Mirror of the C\#  Parser.ParseByTemplate(TemplateCollection, ParseByTemplateOptions)  introduced in commit 71f3f21.
+Mirror of the C# 
+Parser.ParseByTemplate(TemplateCollection, ParseByTemplateOptions)
+ introduced in commit 71f3f21.
 
-**Selection heuristic** (Java port): each candidate template is applied via \#parseByTemplate(Template, com.groupdocs.parser.options.ParseByTemplateOptions).parseByTemplate(Template, com.groupdocs.parser.options.ParseByTemplateOptions), and the template that yields the highest number of populated fields (non-null page areas with non-empty text) wins. The C\# implementation uses hidden-marker matching against an OCR pass; that path is not yet available in Java because hidden-field markers and the OCR-driven TemplatePageOcrParser aren't ported, so this populated-field count is used as a transparent fallback. Callers that need C\#-identical behavior should plug in a custom selector once the OCR engine is wired.
+**Selection heuristic** (Java port): each candidate template is applied via
+#parseByTemplate(Template, com.groupdocs.parser.options.ParseByTemplateOptions).parseByTemplate(Template, com.groupdocs.parser.options.ParseByTemplateOptions), and the template that yields
+the highest number of populated fields (non-null page areas with non-empty text) wins. The C# implementation uses
+hidden-marker matching against an OCR pass; that path is not yet available in Java because hidden-field markers and
+the OCR-driven TemplatePageOcrParser aren't ported, so this populated-field count is used as a transparent fallback.
+Callers that need C#-identical behavior should plug in a custom selector once the OCR engine is wired.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| templates | [TemplateCollection](../../com.groupdocs.parser.templates/templatecollection) | A collection of candidate templates. The parser will pick the best-matching one. |
-| options | [ParseByTemplateOptions](../../com.groupdocs.parser.options/parsebytemplateoptions) | Parse options. May be  null . |
+| templates | [TemplateCollection](../../com.groupdocs.parser.templates/templatecollection) | A collection of candidate templates. The parser will pick the best-matching one.
+ |
+| options | [ParseByTemplateOptions](../../com.groupdocs.parser.options/parsebytemplateoptions) | Parse options. May be  null .
+ |
 
 **Returns:**
-[DocumentData](../../com.groupdocs.parser.data/documentdata) - The extracted data with [DocumentData.getTemplate()](../../com.groupdocs.parser.data/documentdata\#getTemplate--) set to the selected template, or  null  if the document does not support parsing-by-template or the collection is empty / produced no result.
+[DocumentData](../../com.groupdocs.parser.data/documentdata) - The extracted data with [DocumentData.getTemplate()](../../com.groupdocs.parser.data/documentdata#getTemplate--) set to the selected template, or  null  if the document does not support parsing-by-template or the collection is empty / produced no result.
+
 ### parseForm() {#parseForm--}
 ```
 public DocumentData parseForm()
@@ -2414,13 +2543,13 @@ Parses the document form.
 
 **Learn more:**
 
- *  [Extract data from PDF forms][]
- *  [Working with data extracted by template][]
- *  [Parse data from PDF documents][]
+* [Extract data from PDF forms](../https://docs.groupdocs.com/display/parserjava/Extract+data+from+PDF+forms)
+* [Working with data extracted by template](../https://docs.groupdocs.com/display/parserjava/Working+with+data+extracted+by+template)
+* [Parse data from PDF documents](../https://docs.groupdocs.com/display/parserjava/Parse+data+from+PDF+documents)
 
 The following example shows how to parse a form of the document:
 
-```
+````
 // Create an instance of Parser class
  try (Parser parser = new Parser(Constants.SampleFormsPdf)) {
      // Extract data from PDF document
@@ -2440,15 +2569,13 @@ The following example shows how to parse a form of the document:
      }
  }
  
-```
+````
 
 
-[Extract data from PDF forms]: https://docs.groupdocs.com/display/parserjava/Extract+data+from+PDF+forms
-[Working with data extracted by template]: https://docs.groupdocs.com/display/parserjava/Working+with+data+extracted+by+template
-[Parse data from PDF documents]: https://docs.groupdocs.com/display/parserjava/Parse+data+from+PDF+documents
 
 **Returns:**
 [DocumentData](../../com.groupdocs.parser.data/documentdata) - An instance of [DocumentData](../../com.groupdocs.parser.data/documentdata) class that contains the extracted data;  null  if parsing by template isn't supported.
+
 ### getStructure() {#getStructure--}
 ```
 public Document getStructure()
@@ -2459,13 +2586,12 @@ Extracts a structured text from the document.
 
 **Learn more:**
 
- *  [Extract text structure][]
+* [Extract text structure](../https://docs.groupdocs.com/display/parserjava/Extract+text+structure)
 
-
-[Extract text structure]: https://docs.groupdocs.com/display/parserjava/Extract+text+structure
 
 **Returns:**
 org.w3c.dom.Document - An instance of  org.w3c.dom.Document  class with XML text structure;  null  if text structure extraction isn't supported.
+
 ### close() {#close--}
 ```
 public void close()
@@ -2473,4 +2599,5 @@ public void close()
 
 
 Closes this resource, relinquishing any underlying resources.
+
 

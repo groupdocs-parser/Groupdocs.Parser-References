@@ -14,36 +14,49 @@ public class PageTextAreaOptions extends PageAreaOptions
 
 Provides the options which are used for page text areas extraction.
 
-An instance of [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class is used as parameter in [Parser.getTextAreas(PageTextAreaOptions)](../../com.groupdocs.parser/parser\#getTextAreas-PageTextAreaOptions-) and [Parser.getTextAreas(int, PageTextAreaOptions)](../../com.groupdocs.parser/parser\#getTextAreas-int--PageTextAreaOptions-) methods. See the usage examples there.
+An instance of [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class is used as parameter in [Parser.getTextAreas(PageTextAreaOptions)](../../com.groupdocs.parser/parser#getTextAreas-PageTextAreaOptions-)
+and [Parser.getTextAreas(int, PageTextAreaOptions)](../../com.groupdocs.parser/parser#getTextAreas-int--PageTextAreaOptions-) methods. See the usage examples there.
 
 **Learn more:**
 
- *  [Extract text areas][]
+* [Extract text areas](../https://docs.groupdocs.com/display/parserjava/Extract+text+areas)
 
-
-[Extract text areas]: https://docs.groupdocs.com/display/parserjava/Extract+text+areas
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PageTextAreaOptions()](#PageTextAreaOptions--) | Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class with default values. |
-| [PageTextAreaOptions(boolean useOcr)](#PageTextAreaOptions-boolean-) | Initializes a new instance of the [TextOptions](../../com.groupdocs.parser.options/textoptions) class with the OCR usage option. |
-| [PageTextAreaOptions(boolean useOcr, OcrOptions ocrOptions)](#PageTextAreaOptions-boolean-com.groupdocs.parser.options.OcrOptions-) | Initializes a new instance of the [TextOptions](../../com.groupdocs.parser.options/textoptions) class with the ability to set OCR options. |
-| [PageTextAreaOptions(String expression)](#PageTextAreaOptions-java.lang.String-) | Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class with the regular expression. |
-| [PageTextAreaOptions(String expression, Rectangle rectangle)](#PageTextAreaOptions-java.lang.String-com.groupdocs.parser.data.Rectangle-) | Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class with the regular expression and rectangular area. |
-| [PageTextAreaOptions(String expression, Rectangle rectangle, double rectangleTolerance)](#PageTextAreaOptions-java.lang.String-com.groupdocs.parser.data.Rectangle-double-) | Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class with the regular expression, rectangular area and the size of the ignored border. |
-| [PageTextAreaOptions(String expression, boolean matchCase, boolean uniteSegments, boolean ignoreFormatting, Rectangle rectangle)](#PageTextAreaOptions-java.lang.String-boolean-boolean-boolean-com.groupdocs.parser.data.Rectangle-) | Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class. |
-| [PageTextAreaOptions(String expression, boolean matchCase, boolean uniteSegments, boolean ignoreFormatting, Rectangle rectangle, double rectangleTolerance)](#PageTextAreaOptions-java.lang.String-boolean-boolean-boolean-com.groupdocs.parser.data.Rectangle-double-) | Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class with the size of the ignored border. |
+| [PageTextAreaOptions()](#PageTextAreaOptions--) | Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class with default values.
+ |
+| [PageTextAreaOptions(boolean useOcr)](#PageTextAreaOptions-boolean-) | Initializes a new instance of the [TextOptions](../../com.groupdocs.parser.options/textoptions) class with the OCR usage option.
+ |
+| [PageTextAreaOptions(boolean useOcr, OcrOptions ocrOptions)](#PageTextAreaOptions-boolean-com.groupdocs.parser.options.OcrOptions-) | Initializes a new instance of the [TextOptions](../../com.groupdocs.parser.options/textoptions) class with the ability to set OCR options.
+ |
+| [PageTextAreaOptions(String expression)](#PageTextAreaOptions-java.lang.String-) | Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class with the regular expression.
+ |
+| [PageTextAreaOptions(String expression, Rectangle rectangle)](#PageTextAreaOptions-java.lang.String-com.groupdocs.parser.data.Rectangle-) | Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class with the regular expression and rectangular area.
+ |
+| [PageTextAreaOptions(String expression, Rectangle rectangle, double rectangleTolerance)](#PageTextAreaOptions-java.lang.String-com.groupdocs.parser.data.Rectangle-double-) | Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class with the regular expression, rectangular area and the size of the ignored border.
+ |
+| [PageTextAreaOptions(String expression, boolean matchCase, boolean uniteSegments, boolean ignoreFormatting, Rectangle rectangle)](#PageTextAreaOptions-java.lang.String-boolean-boolean-boolean-com.groupdocs.parser.data.Rectangle-) | Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class.
+ |
+| [PageTextAreaOptions(String expression, boolean matchCase, boolean uniteSegments, boolean ignoreFormatting, Rectangle rectangle, double rectangleTolerance)](#PageTextAreaOptions-java.lang.String-boolean-boolean-boolean-com.groupdocs.parser.data.Rectangle-double-) | Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class with the size of the ignored border.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getExpression()](#getExpression--) | Gets the regular expression. |
-| [isMatchCase()](#isMatchCase--) | Gets the value that indicates whether a text case isn't ignored. |
-| [isUniteSegments()](#isUniteSegments--) | Gets the value that indicates whether segments are united. |
-| [isIgnoreFormatting()](#isIgnoreFormatting--) | Gets the value that indicates whether text formatting is ignored. |
-| [isUseOcr()](#isUseOcr--) | Gets the value that indicates whether the OCR Connector is used to extract a text. |
-| [getOcrOptions()](#getOcrOptions--) | Gets the additional options for OCR functionality. |
+| [getExpression()](#getExpression--) | Gets the regular expression.
+ |
+| [isMatchCase()](#isMatchCase--) | Gets the value that indicates whether a text case isn't ignored.
+ |
+| [isUniteSegments()](#isUniteSegments--) | Gets the value that indicates whether segments are united.
+ |
+| [isIgnoreFormatting()](#isIgnoreFormatting--) | Gets the value that indicates whether text formatting is ignored.
+ |
+| [isUseOcr()](#isUseOcr--) | Gets the value that indicates whether the OCR Connector is used to extract a text.
+ |
+| [getOcrOptions()](#getOcrOptions--) | Gets the additional options for OCR functionality.
+ |
 ### PageTextAreaOptions() {#PageTextAreaOptions--}
 ```
 public PageTextAreaOptions()
@@ -51,6 +64,7 @@ public PageTextAreaOptions()
 
 
 Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class with default values.
+
 
 ### PageTextAreaOptions(boolean useOcr) {#PageTextAreaOptions-boolean-}
 ```
@@ -60,10 +74,12 @@ public PageTextAreaOptions(boolean useOcr)
 
 Initializes a new instance of the [TextOptions](../../com.groupdocs.parser.options/textoptions) class with the OCR usage option.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| useOcr | boolean | The value that indicates whether the OCR functionality is used to extract a text. |
+| useOcr | boolean | The value that indicates whether the OCR functionality is used to extract a text.
+ |
 
 ### PageTextAreaOptions(boolean useOcr, OcrOptions ocrOptions) {#PageTextAreaOptions-boolean-com.groupdocs.parser.options.OcrOptions-}
 ```
@@ -73,11 +89,14 @@ public PageTextAreaOptions(boolean useOcr, OcrOptions ocrOptions)
 
 Initializes a new instance of the [TextOptions](../../com.groupdocs.parser.options/textoptions) class with the ability to set OCR options.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| useOcr | boolean | The value that indicates whether the OCR functionality is used to extract a text. |
-| ocrOptions | [OcrOptions](../../com.groupdocs.parser.options/ocroptions) | The additional options for OCR functionality. |
+| useOcr | boolean | The value that indicates whether the OCR functionality is used to extract a text.
+ |
+| ocrOptions | [OcrOptions](../../com.groupdocs.parser.options/ocroptions) | The additional options for OCR functionality.
+ |
 
 ### PageTextAreaOptions(String expression) {#PageTextAreaOptions-java.lang.String-}
 ```
@@ -89,15 +108,17 @@ Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.pars
 
 The following properties have default values:
 
- *  MatchCase:  false 
- *  UniteSegments:  false 
- *  IgnoreFormatting:  false 
- *  Rectangle:  null 
+* MatchCase:  false 
+* UniteSegments:  false 
+* IgnoreFormatting:  false 
+* Rectangle:  null 
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| expression | java.lang.String | The regular expression. |
+| expression | java.lang.String | The regular expression.
+ |
 
 ### PageTextAreaOptions(String expression, Rectangle rectangle) {#PageTextAreaOptions-java.lang.String-com.groupdocs.parser.data.Rectangle-}
 ```
@@ -109,15 +130,18 @@ Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.pars
 
 The following properties have default values:
 
- *  MatchCase:  false 
- *  UniteSegments:  false 
- *  IgnoreFormatting:  false 
+* MatchCase:  false 
+* UniteSegments:  false 
+* IgnoreFormatting:  false 
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| expression | java.lang.String | The regular expression. |
-| rectangle | [Rectangle](../../com.groupdocs.parser.data/rectangle) | The rectangular area that contains page areas. |
+| expression | java.lang.String | The regular expression.
+ |
+| rectangle | [Rectangle](../../com.groupdocs.parser.data/rectangle) | The rectangular area that contains page areas.
+ |
 
 ### PageTextAreaOptions(String expression, Rectangle rectangle, double rectangleTolerance) {#PageTextAreaOptions-java.lang.String-com.groupdocs.parser.data.Rectangle-double-}
 ```
@@ -127,12 +151,16 @@ public PageTextAreaOptions(String expression, Rectangle rectangle, double rectan
 
 Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class with the regular expression, rectangular area and the size of the ignored border. Other options are set by default (see remarks for details).
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| expression | java.lang.String | The regular expression. |
-| rectangle | [Rectangle](../../com.groupdocs.parser.data/rectangle) | The rectangular area that contains page areas. |
-| rectangleTolerance | double | The size of the border that is ignored when captured by the rectangular area. It's measured by the fraction of a text item height. |
+| expression | java.lang.String | The regular expression.
+ |
+| rectangle | [Rectangle](../../com.groupdocs.parser.data/rectangle) | The rectangular area that contains page areas.
+ |
+| rectangleTolerance | double | The size of the border that is ignored when captured by the rectangular area. It's measured by the fraction of a text item height.
+ |
 
 ### PageTextAreaOptions(String expression, boolean matchCase, boolean uniteSegments, boolean ignoreFormatting, Rectangle rectangle) {#PageTextAreaOptions-java.lang.String-boolean-boolean-boolean-com.groupdocs.parser.data.Rectangle-}
 ```
@@ -142,14 +170,20 @@ public PageTextAreaOptions(String expression, boolean matchCase, boolean uniteSe
 
 Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| expression | java.lang.String | The regular expression. |
-| matchCase | boolean | The value that indicates whether a text case isn't ignored. |
-| uniteSegments | boolean | The value that indicates whether segments are united. |
-| ignoreFormatting | boolean | The value that indicates whether text formatting is ignored. |
-| rectangle | [Rectangle](../../com.groupdocs.parser.data/rectangle) | The rectangular area that contains page areas. |
+| expression | java.lang.String | The regular expression.
+ |
+| matchCase | boolean | The value that indicates whether a text case isn't ignored.
+ |
+| uniteSegments | boolean | The value that indicates whether segments are united.
+ |
+| ignoreFormatting | boolean | The value that indicates whether text formatting is ignored.
+ |
+| rectangle | [Rectangle](../../com.groupdocs.parser.data/rectangle) | The rectangular area that contains page areas.
+ |
 
 ### PageTextAreaOptions(String expression, boolean matchCase, boolean uniteSegments, boolean ignoreFormatting, Rectangle rectangle, double rectangleTolerance) {#PageTextAreaOptions-java.lang.String-boolean-boolean-boolean-com.groupdocs.parser.data.Rectangle-double-}
 ```
@@ -159,15 +193,22 @@ public PageTextAreaOptions(String expression, boolean matchCase, boolean uniteSe
 
 Initializes a new instance of the [PageTextAreaOptions](../../com.groupdocs.parser.options/pagetextareaoptions) class with the size of the ignored border.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| expression | java.lang.String | The regular expression. |
-| matchCase | boolean | The value that indicates whether a text case isn't ignored. |
-| uniteSegments | boolean | The value that indicates whether segments are united. |
-| ignoreFormatting | boolean | The value that indicates whether text formatting is ignored. |
-| rectangle | [Rectangle](../../com.groupdocs.parser.data/rectangle) | The rectangular area that contains page areas. |
-| rectangleTolerance | double | The size of the border that is ignored when captured by the rectangular area. It's measured by the fraction of a text item height. |
+| expression | java.lang.String | The regular expression.
+ |
+| matchCase | boolean | The value that indicates whether a text case isn't ignored.
+ |
+| uniteSegments | boolean | The value that indicates whether segments are united.
+ |
+| ignoreFormatting | boolean | The value that indicates whether text formatting is ignored.
+ |
+| rectangle | [Rectangle](../../com.groupdocs.parser.data/rectangle) | The rectangular area that contains page areas.
+ |
+| rectangleTolerance | double | The size of the border that is ignored when captured by the rectangular area. It's measured by the fraction of a text item height.
+ |
 
 ### getExpression() {#getExpression--}
 ```
@@ -177,8 +218,10 @@ public String getExpression()
 
 Gets the regular expression.
 
+
 **Returns:**
 java.lang.String - A string that represents the regular expression.
+
 ### isMatchCase() {#isMatchCase--}
 ```
 public boolean isMatchCase()
@@ -187,8 +230,10 @@ public boolean isMatchCase()
 
 Gets the value that indicates whether a text case isn't ignored.
 
+
 **Returns:**
 boolean -  true  if a text case isn't ignored; otherwise,  false .
+
 ### isUniteSegments() {#isUniteSegments--}
 ```
 public boolean isUniteSegments()
@@ -197,8 +242,10 @@ public boolean isUniteSegments()
 
 Gets the value that indicates whether segments are united.
 
+
 **Returns:**
-boolean - \{code true\} if segments are united; otherwise, \{code false\}.
+boolean - {code true} if segments are united; otherwise, {code false}.
+
 ### isIgnoreFormatting() {#isIgnoreFormatting--}
 ```
 public boolean isIgnoreFormatting()
@@ -207,8 +254,10 @@ public boolean isIgnoreFormatting()
 
 Gets the value that indicates whether text formatting is ignored.
 
+
 **Returns:**
 boolean -  true  if text formatting is ignored; otherwise,  false .
+
 ### isUseOcr() {#isUseOcr--}
 ```
 public boolean isUseOcr()
@@ -217,8 +266,10 @@ public boolean isUseOcr()
 
 Gets the value that indicates whether the OCR Connector is used to extract a text.
 
+
 **Returns:**
 boolean -  true  if the OCR functionality is used; otherwise,  false .
+
 ### getOcrOptions() {#getOcrOptions--}
 ```
 public OcrOptions getOcrOptions()
@@ -227,5 +278,7 @@ public OcrOptions getOcrOptions()
 
 Gets the additional options for OCR functionality.
 
+
 **Returns:**
 [OcrOptions](../../com.groupdocs.parser.options/ocroptions) - An instance of [OcrOptions](../../com.groupdocs.parser.options/ocroptions) class with the additional OCR options.
+

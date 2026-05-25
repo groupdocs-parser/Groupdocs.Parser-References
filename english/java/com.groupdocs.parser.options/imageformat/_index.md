@@ -13,15 +13,21 @@ public enum ImageFormat extends Enum<ImageFormat>
 ```
 
 Defines a format of the image.
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Bmp](#Bmp) | Bitmap image. |
-| [Gif](#Gif) | Graphical Interchange Format. |
-| [Jpeg](#Jpeg) | JPEG image. |
-| [Png](#Png) | Portable Network Graphic. |
-| [WebP](#WebP) | WebP Image. |
+| [Bmp](#Bmp) | Bitmap image.
+ |
+| [Gif](#Gif) | Graphical Interchange Format.
+ |
+| [Jpeg](#Jpeg) | JPEG image.
+ |
+| [Png](#Png) | Portable Network Graphic.
+ |
+| [WebP](#WebP) | WebP Image.
+ |
 ## Methods
 
 | Method | Description |
@@ -36,6 +42,7 @@ public static final ImageFormat Bmp
 
 Bitmap image.
 
+
 ### Gif {#Gif}
 ```
 public static final ImageFormat Gif
@@ -43,6 +50,7 @@ public static final ImageFormat Gif
 
 
 Graphical Interchange Format.
+
 
 ### Jpeg {#Jpeg}
 ```
@@ -52,6 +60,7 @@ public static final ImageFormat Jpeg
 
 JPEG image.
 
+
 ### Png {#Png}
 ```
 public static final ImageFormat Png
@@ -60,6 +69,7 @@ public static final ImageFormat Png
 
 Portable Network Graphic.
 
+
 ### WebP {#WebP}
 ```
 public static final ImageFormat WebP
@@ -67,6 +77,7 @@ public static final ImageFormat WebP
 
 
 WebP Image.
+
 
 ### values() {#values--}
 ```

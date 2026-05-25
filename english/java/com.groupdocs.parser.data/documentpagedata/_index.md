@@ -13,17 +13,21 @@ public class DocumentPageData extends DocumentData
 ```
 
 Represents data of the document page. It consists of [FieldData](../../com.groupdocs.parser.data/fielddata) objects which contain field data from the document page.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [DocumentPageData(Iterable<FieldData> fields, int pageIndex)](#DocumentPageData-java.lang.Iterable-com.groupdocs.parser.data.FieldData--int-) | Initializes a new instance of the [DocumentPageData](../../com.groupdocs.parser.data/documentpagedata) class. |
-| [DocumentPageData(Template template, Iterable<FieldData> fields, int pageIndex)](#DocumentPageData-com.groupdocs.parser.templates.Template-java.lang.Iterable-com.groupdocs.parser.data.FieldData--int-) | Initializes a new instance of the [DocumentPageData](../../com.groupdocs.parser.data/documentpagedata) class with the source template. |
+| [DocumentPageData(Iterable<FieldData> fields, int pageIndex)](#DocumentPageData-java.lang.Iterable-com.groupdocs.parser.data.FieldData--int-) | Initializes a new instance of the [DocumentPageData](../../com.groupdocs.parser.data/documentpagedata) class.
+ |
+| [DocumentPageData(Template template, Iterable<FieldData> fields, int pageIndex)](#DocumentPageData-com.groupdocs.parser.templates.Template-java.lang.Iterable-com.groupdocs.parser.data.FieldData--int-) | Initializes a new instance of the [DocumentPageData](../../com.groupdocs.parser.data/documentpagedata) class with the source template.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPageIndex()](#getPageIndex--) | Gets the page index. |
+| [getPageIndex()](#getPageIndex--) | Gets the page index.
+ |
 ### DocumentPageData(Iterable<FieldData> fields, int pageIndex) {#DocumentPageData-java.lang.Iterable-com.groupdocs.parser.data.FieldData--int-}
 ```
 public DocumentPageData(Iterable<FieldData> fields, int pageIndex)
@@ -32,11 +36,14 @@ public DocumentPageData(Iterable<FieldData> fields, int pageIndex)
 
 Initializes a new instance of the [DocumentPageData](../../com.groupdocs.parser.data/documentpagedata) class.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fields | java.lang.Iterable<com.groupdocs.parser.data.FieldData> | The collection of fields data. |
-| pageIndex | int | The zero-based page index. |
+| fields | java.lang.Iterable<com.groupdocs.parser.data.FieldData> | The collection of fields data.
+ |
+| pageIndex | int | The zero-based page index.
+ |
 
 ### DocumentPageData(Template template, Iterable<FieldData> fields, int pageIndex) {#DocumentPageData-com.groupdocs.parser.templates.Template-java.lang.Iterable-com.groupdocs.parser.data.FieldData--int-}
 ```
@@ -46,12 +53,16 @@ public DocumentPageData(Template template, Iterable<FieldData> fields, int pageI
 
 Initializes a new instance of the [DocumentPageData](../../com.groupdocs.parser.data/documentpagedata) class with the source template.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| template | [Template](../../com.groupdocs.parser.templates/template) | The template that produced these fields. May be  null . |
-| fields | java.lang.Iterable<com.groupdocs.parser.data.FieldData> | The collection of fields data. |
-| pageIndex | int | The zero-based page index. |
+| template | [Template](../../com.groupdocs.parser.templates/template) | The template that produced these fields. May be  null .
+ |
+| fields | java.lang.Iterable<com.groupdocs.parser.data.FieldData> | The collection of fields data.
+ |
+| pageIndex | int | The zero-based page index.
+ |
 
 ### getPageIndex() {#getPageIndex--}
 ```
@@ -61,5 +72,7 @@ public int getPageIndex()
 
 Gets the page index.
 
+
 **Returns:**
 int - A zero-based index of the page.
+

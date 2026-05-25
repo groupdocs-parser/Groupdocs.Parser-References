@@ -13,12 +13,15 @@ public class InvalidPasswordException extends GroupDocsParserException
 ```
 
 Thrown if a document is encrypted with a password and the password specified when opening the document is incorrect or missing.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [InvalidPasswordException()](#InvalidPasswordException--) | Initializes a new instance of the [InvalidPasswordException](../../com.groupdocs.parser.exceptions/invalidpasswordexception) class. |
-| [InvalidPasswordException(String message)](#InvalidPasswordException-java.lang.String-) | Initializes a new instance of the [InvalidPasswordException](../../com.groupdocs.parser.exceptions/invalidpasswordexception) class. |
+| [InvalidPasswordException()](#InvalidPasswordException--) | Initializes a new instance of the [InvalidPasswordException](../../com.groupdocs.parser.exceptions/invalidpasswordexception) class.
+ |
+| [InvalidPasswordException(String message)](#InvalidPasswordException-java.lang.String-) | Initializes a new instance of the [InvalidPasswordException](../../com.groupdocs.parser.exceptions/invalidpasswordexception) class.
+ |
 ### InvalidPasswordException() {#InvalidPasswordException--}
 ```
 public InvalidPasswordException()
@@ -26,6 +29,7 @@ public InvalidPasswordException()
 
 
 Initializes a new instance of the [InvalidPasswordException](../../com.groupdocs.parser.exceptions/invalidpasswordexception) class.
+
 
 ### InvalidPasswordException(String message) {#InvalidPasswordException-java.lang.String-}
 ```
@@ -35,8 +39,10 @@ public InvalidPasswordException(String message)
 
 Initializes a new instance of the [InvalidPasswordException](../../com.groupdocs.parser.exceptions/invalidpasswordexception) class.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The message that describes the error. |
+| message | java.lang.String | The message that describes the error.
+ |
 

@@ -13,6 +13,7 @@ public class ExternalResourceHandler
 ```
 
 Provides a handler for external resources loading.
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,7 +23,8 @@ Provides a handler for external resources loading.
 
 | Method | Description |
 | --- | --- |
-| [onLoading(ExternalResourceLoadingArgs args)](#onLoading-com.groupdocs.parser.options.ExternalResourceLoadingArgs-) | Called before any external resource load. |
+| [onLoading(ExternalResourceLoadingArgs args)](#onLoading-com.groupdocs.parser.options.ExternalResourceLoadingArgs-) | Called before any external resource load.
+ |
 ### ExternalResourceHandler() {#ExternalResourceHandler--}
 ```
 public ExternalResourceHandler()
@@ -37,8 +39,10 @@ public void onLoading(ExternalResourceLoadingArgs args)
 
 Called before any external resource load.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | [ExternalResourceLoadingArgs](../../com.groupdocs.parser.options/externalresourceloadingargs) | The data to control external resource loading. |
+| args | [ExternalResourceLoadingArgs](../../com.groupdocs.parser.options/externalresourceloadingargs) | The data to control external resource loading.
+ |
 

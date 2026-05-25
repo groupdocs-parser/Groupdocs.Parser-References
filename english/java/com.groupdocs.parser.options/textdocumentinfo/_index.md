@@ -16,12 +16,9 @@ Represents the text document information.
 
 **Learn more:**
 
- *  [Get document info][]
- *  [Detect encoding][]
+* [Get document info](../https://docs.groupdocs.com/display/parserjava/Get+document+info)
+* [Detect encoding](../https://docs.groupdocs.com/display/parserjava/Detect+encoding)
 
-
-[Get document info]: https://docs.groupdocs.com/display/parserjava/Get+document+info
-[Detect encoding]: https://docs.groupdocs.com/display/parserjava/Detect+encoding
 ## Constructors
 
 | Constructor | Description |
@@ -31,7 +28,8 @@ Represents the text document information.
 
 | Method | Description |
 | --- | --- |
-| [getCharset()](#getCharset--) | Gets the detected encoding of the text document. |
+| [getCharset()](#getCharset--) | Gets the detected encoding of the text document.
+ |
 ### TextDocumentInfo() {#TextDocumentInfo--}
 ```
 public TextDocumentInfo()
@@ -46,5 +44,7 @@ public abstract Charset getCharset()
 
 Gets the detected encoding of the text document.
 
+
 **Returns:**
 java.nio.charset.Charset - An instance of  Charset  class.
+

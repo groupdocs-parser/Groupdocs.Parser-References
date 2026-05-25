@@ -10,6 +10,7 @@ url: /java/com.groupdocs.parser.options/
 The package provides classes to specify additional options when parsing data from documents.
 
 
+
 ## Classes
 
 | Class | Description |
@@ -21,7 +22,7 @@ The package provides classes to specify additional options when parsing data fro
 | [EmailImapConnection](../com.groupdocs.parser.options/emailimapconnection) | Represents the email connection information for IMAP protocol. |
 | [EmailPopConnection](../com.groupdocs.parser.options/emailpopconnection) | Represents the email connection information for POP protocol. |
 | [ExternalResourceHandler](../com.groupdocs.parser.options/externalresourcehandler) | Provides a handler for external resources loading. |
-| [ExternalResourceLoadingArgs](../com.groupdocs.parser.options/externalresourceloadingargs) | Provides the data for [ExternalResourceHandler.\#onLoading(ExternalResourceLoadingArgs)](../com.groupdocs.parser.options/externalresourcehandler\#onLoading-ExternalResourceLoadingArgs-) method. |
+| [ExternalResourceLoadingArgs](../com.groupdocs.parser.options/externalresourceloadingargs) | Provides the data for [ExternalResourceHandler.#onLoading(ExternalResourceLoadingArgs)](../com.groupdocs.parser.options/externalresourcehandler#onLoading-ExternalResourceLoadingArgs-) method. |
 | [Features](../com.groupdocs.parser.options/features) | Represents the supported features list. |
 | [FileInfo](../com.groupdocs.parser.options/fileinfo) | Represents the file information. |
 | [FileType](../com.groupdocs.parser.options/filetype) | Represents the file type. |

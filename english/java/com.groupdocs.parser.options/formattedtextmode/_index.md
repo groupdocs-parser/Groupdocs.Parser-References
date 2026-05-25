@@ -16,23 +16,21 @@ Defines a formatted text mode.
 
 **Learn more:**
 
- *  [Extract formatted text from document][]
- *  Extract a document text as [HTML][]
- *  Extract a document text as [Markdown][]
- *  Extract a document text as [Plain text][]
+* [Extract formatted text from document](../https://docs.groupdocs.com/display/parserjava/Extract+formatted+text+from+document)
+* Extract a document text as [HTML](../https://docs.groupdocs.com/display/parserjava/HTML)
+* Extract a document text as [Markdown](../https://docs.groupdocs.com/display/parserjava/Markdown)
+* Extract a document text as [Plain text](../https://docs.groupdocs.com/display/parserjava/Plain+text)
 
-
-[Extract formatted text from document]: https://docs.groupdocs.com/display/parserjava/Extract+formatted+text+from+document
-[HTML]: https://docs.groupdocs.com/display/parserjava/HTML
-[Markdown]: https://docs.groupdocs.com/display/parserjava/Markdown
-[Plain text]: https://docs.groupdocs.com/display/parserjava/Plain+text
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Html](#Html) | HTML format. |
-| [Markdown](#Markdown) | Markdown format. |
-| [PlainText](#PlainText) | Plain text format. |
+| [Html](#Html) | HTML format.
+ |
+| [Markdown](#Markdown) | Markdown format.
+ |
+| [PlainText](#PlainText) | Plain text format.
+ |
 ## Methods
 
 | Method | Description |
@@ -47,6 +45,7 @@ public static final FormattedTextMode Html
 
 HTML format.
 
+
 ### Markdown {#Markdown}
 ```
 public static final FormattedTextMode Markdown
@@ -55,6 +54,7 @@ public static final FormattedTextMode Markdown
 
 Markdown format.
 
+
 ### PlainText {#PlainText}
 ```
 public static final FormattedTextMode PlainText
@@ -62,6 +62,7 @@ public static final FormattedTextMode PlainText
 
 
 Plain text format.
+
 
 ### values() {#values--}
 ```

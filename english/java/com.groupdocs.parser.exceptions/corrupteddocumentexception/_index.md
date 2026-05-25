@@ -13,12 +13,15 @@ public class CorruptedDocumentException extends GroupDocsParserException
 ```
 
 Thrown during document load, when the document is corrupted.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [CorruptedDocumentException()](#CorruptedDocumentException--) | Initializes a new instance of the [CorruptedDocumentException](../../com.groupdocs.parser.exceptions/corrupteddocumentexception) class. |
-| [CorruptedDocumentException(String message)](#CorruptedDocumentException-java.lang.String-) | Initializes a new instance of the [CorruptedDocumentException](../../com.groupdocs.parser.exceptions/corrupteddocumentexception) class. |
+| [CorruptedDocumentException()](#CorruptedDocumentException--) | Initializes a new instance of the [CorruptedDocumentException](../../com.groupdocs.parser.exceptions/corrupteddocumentexception) class.
+ |
+| [CorruptedDocumentException(String message)](#CorruptedDocumentException-java.lang.String-) | Initializes a new instance of the [CorruptedDocumentException](../../com.groupdocs.parser.exceptions/corrupteddocumentexception) class.
+ |
 ### CorruptedDocumentException() {#CorruptedDocumentException--}
 ```
 public CorruptedDocumentException()
@@ -26,6 +29,7 @@ public CorruptedDocumentException()
 
 
 Initializes a new instance of the [CorruptedDocumentException](../../com.groupdocs.parser.exceptions/corrupteddocumentexception) class.
+
 
 ### CorruptedDocumentException(String message) {#CorruptedDocumentException-java.lang.String-}
 ```
@@ -35,8 +39,10 @@ public CorruptedDocumentException(String message)
 
 Initializes a new instance of the [CorruptedDocumentException](../../com.groupdocs.parser.exceptions/corrupteddocumentexception) class.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The message that describes the error. |
+| message | java.lang.String | The message that describes the error.
+ |
 

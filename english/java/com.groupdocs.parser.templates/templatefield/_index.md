@@ -16,23 +16,30 @@ Provides the template text field.
 
 Text fields are defined by its position on the page. There are three ways to define a text field:
 
- *  Using the rectangular area: [TemplateFixedPosition](../../com.groupdocs.parser.templates/templatefixedposition)
- *  Using the regular expression: [TemplateRegexPosition](../../com.groupdocs.parser.templates/templateregexposition)
- *  Using the linked field: [TemplateLinkedPosition](../../com.groupdocs.parser.templates/templatelinkedposition)
+* Using the rectangular area: [TemplateFixedPosition](../../com.groupdocs.parser.templates/templatefixedposition)
+* Using the regular expression: [TemplateRegexPosition](../../com.groupdocs.parser.templates/templateregexposition)
+* Using the linked field: [TemplateLinkedPosition](../../com.groupdocs.parser.templates/templatelinkedposition)
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [TemplateField(TemplatePosition position, String name)](#TemplateField-com.groupdocs.parser.templates.TemplatePosition-java.lang.String-) | Initializes a new instance of the [TemplateField](../../com.groupdocs.parser.templates/templatefield) class. |
-| [TemplateField(TemplatePosition position, String name, Integer pageIndex)](#TemplateField-com.groupdocs.parser.templates.TemplatePosition-java.lang.String-java.lang.Integer-) | Initializes a new instance of the [TemplateField](../../com.groupdocs.parser.templates/templatefield) class with the UPPER CASE name. |
-| [TemplateField(TemplatePosition position, String name, Integer pageIndex, Double pageWidth)](#TemplateField-com.groupdocs.parser.templates.TemplatePosition-java.lang.String-java.lang.Integer-java.lang.Double-) | Initializes a new instance of the [TemplateField](../../com.groupdocs.parser.templates/templatefield) class with the UPPER CASE name. |
-| [TemplateField(TemplatePosition position, String name, Integer pageIndex, boolean useUpperCaseName)](#TemplateField-com.groupdocs.parser.templates.TemplatePosition-java.lang.String-java.lang.Integer-boolean-) | Initializes a new instance of the [TemplateField](../../com.groupdocs.parser.templates/templatefield) class. |
-| [TemplateField(TemplatePosition position, String name, Integer pageIndex, Double pageWidth, boolean useUpperCaseName)](#TemplateField-com.groupdocs.parser.templates.TemplatePosition-java.lang.String-java.lang.Integer-java.lang.Double-boolean-) | Initializes a new instance of the [TemplateField](../../com.groupdocs.parser.templates/templatefield) class. |
+| [TemplateField(TemplatePosition position, String name)](#TemplateField-com.groupdocs.parser.templates.TemplatePosition-java.lang.String-) | Initializes a new instance of the [TemplateField](../../com.groupdocs.parser.templates/templatefield) class.
+ |
+| [TemplateField(TemplatePosition position, String name, Integer pageIndex)](#TemplateField-com.groupdocs.parser.templates.TemplatePosition-java.lang.String-java.lang.Integer-) | Initializes a new instance of the [TemplateField](../../com.groupdocs.parser.templates/templatefield) class with the UPPER CASE name.
+ |
+| [TemplateField(TemplatePosition position, String name, Integer pageIndex, Double pageWidth)](#TemplateField-com.groupdocs.parser.templates.TemplatePosition-java.lang.String-java.lang.Integer-java.lang.Double-) | Initializes a new instance of the [TemplateField](../../com.groupdocs.parser.templates/templatefield) class with the UPPER CASE name.
+ |
+| [TemplateField(TemplatePosition position, String name, Integer pageIndex, boolean useUpperCaseName)](#TemplateField-com.groupdocs.parser.templates.TemplatePosition-java.lang.String-java.lang.Integer-boolean-) | Initializes a new instance of the [TemplateField](../../com.groupdocs.parser.templates/templatefield) class.
+ |
+| [TemplateField(TemplatePosition position, String name, Integer pageIndex, Double pageWidth, boolean useUpperCaseName)](#TemplateField-com.groupdocs.parser.templates.TemplatePosition-java.lang.String-java.lang.Integer-java.lang.Double-boolean-) | Initializes a new instance of the [TemplateField](../../com.groupdocs.parser.templates/templatefield) class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPosition()](#getPosition--) | Gets the value that describes how to find the template field on the document page. |
+| [getPosition()](#getPosition--) | Gets the value that describes how to find the template field on the document page.
+ |
 | [scale(double factor)](#scale-double-) |  |
 ### TemplateField(TemplatePosition position, String name) {#TemplateField-com.groupdocs.parser.templates.TemplatePosition-java.lang.String-}
 ```
@@ -42,11 +49,14 @@ public TemplateField(TemplatePosition position, String name)
 
 Initializes a new instance of the [TemplateField](../../com.groupdocs.parser.templates/templatefield) class.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| position | [TemplatePosition](../../com.groupdocs.parser.templates/templateposition) | The field position. |
-| name | java.lang.String | The field name. |
+| position | [TemplatePosition](../../com.groupdocs.parser.templates/templateposition) | The field position.
+ |
+| name | java.lang.String | The field name.
+ |
 
 ### TemplateField(TemplatePosition position, String name, Integer pageIndex) {#TemplateField-com.groupdocs.parser.templates.TemplatePosition-java.lang.String-java.lang.Integer-}
 ```
@@ -56,12 +66,16 @@ public TemplateField(TemplatePosition position, String name, Integer pageIndex)
 
 Initializes a new instance of the [TemplateField](../../com.groupdocs.parser.templates/templatefield) class with the UPPER CASE name.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| position | [TemplatePosition](../../com.groupdocs.parser.templates/templateposition) | The field position. |
-| name | java.lang.String | The field name. |
-| pageIndex | java.lang.Integer | An integer value that represents the index of the page where the template item is located;  null  if the template item is located on any page. |
+| position | [TemplatePosition](../../com.groupdocs.parser.templates/templateposition) | The field position.
+ |
+| name | java.lang.String | The field name.
+ |
+| pageIndex | java.lang.Integer | An integer value that represents the index of the page where the template item is located;  null  if the template item is located on any page.
+ |
 
 ### TemplateField(TemplatePosition position, String name, Integer pageIndex, Double pageWidth) {#TemplateField-com.groupdocs.parser.templates.TemplatePosition-java.lang.String-java.lang.Integer-java.lang.Double-}
 ```
@@ -71,13 +85,18 @@ public TemplateField(TemplatePosition position, String name, Integer pageIndex, 
 
 Initializes a new instance of the [TemplateField](../../com.groupdocs.parser.templates/templatefield) class with the UPPER CASE name.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| position | [TemplatePosition](../../com.groupdocs.parser.templates/templateposition) | The field position. |
-| name | java.lang.String | The field name. |
-| pageIndex | java.lang.Integer | An integer value that represents the index of the page where the template item is located;  null  if the template item is located on any page. |
-| pageWidth | java.lang.Double | The width of the page that was used to create the template item. |
+| position | [TemplatePosition](../../com.groupdocs.parser.templates/templateposition) | The field position.
+ |
+| name | java.lang.String | The field name.
+ |
+| pageIndex | java.lang.Integer | An integer value that represents the index of the page where the template item is located;  null  if the template item is located on any page.
+ |
+| pageWidth | java.lang.Double | The width of the page that was used to create the template item.
+ |
 
 ### TemplateField(TemplatePosition position, String name, Integer pageIndex, boolean useUpperCaseName) {#TemplateField-com.groupdocs.parser.templates.TemplatePosition-java.lang.String-java.lang.Integer-boolean-}
 ```
@@ -87,13 +106,18 @@ public TemplateField(TemplatePosition position, String name, Integer pageIndex, 
 
 Initializes a new instance of the [TemplateField](../../com.groupdocs.parser.templates/templatefield) class.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| position | [TemplatePosition](../../com.groupdocs.parser.templates/templateposition) | The field position. |
-| name | java.lang.String | The field name. |
-| pageIndex | java.lang.Integer | An integer value that represents the index of the page where the template item is located;  null  if the template item is located on any page. |
-| useUpperCaseName | boolean | The value that indicates whether a  name  is converted to UPPER CASE. |
+| position | [TemplatePosition](../../com.groupdocs.parser.templates/templateposition) | The field position.
+ |
+| name | java.lang.String | The field name.
+ |
+| pageIndex | java.lang.Integer | An integer value that represents the index of the page where the template item is located;  null  if the template item is located on any page.
+ |
+| useUpperCaseName | boolean | The value that indicates whether a  name  is converted to UPPER CASE.
+ |
 
 ### TemplateField(TemplatePosition position, String name, Integer pageIndex, Double pageWidth, boolean useUpperCaseName) {#TemplateField-com.groupdocs.parser.templates.TemplatePosition-java.lang.String-java.lang.Integer-java.lang.Double-boolean-}
 ```
@@ -103,14 +127,20 @@ public TemplateField(TemplatePosition position, String name, Integer pageIndex, 
 
 Initializes a new instance of the [TemplateField](../../com.groupdocs.parser.templates/templatefield) class.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| position | [TemplatePosition](../../com.groupdocs.parser.templates/templateposition) | The field position. |
-| name | java.lang.String | The field name. |
-| pageIndex | java.lang.Integer | An integer value that represents the index of the page where the template item is located;  null  if the template item is located on any page. |
-| pageWidth | java.lang.Double | The width of the page that was used to create the template item. |
-| useUpperCaseName | boolean | The value that indicates whether a  name  is converted to UPPER CASE. |
+| position | [TemplatePosition](../../com.groupdocs.parser.templates/templateposition) | The field position.
+ |
+| name | java.lang.String | The field name.
+ |
+| pageIndex | java.lang.Integer | An integer value that represents the index of the page where the template item is located;  null  if the template item is located on any page.
+ |
+| pageWidth | java.lang.Double | The width of the page that was used to create the template item.
+ |
+| useUpperCaseName | boolean | The value that indicates whether a  name  is converted to UPPER CASE.
+ |
 
 ### getPosition() {#getPosition--}
 ```
@@ -120,8 +150,10 @@ public TemplatePosition getPosition()
 
 Gets the value that describes how to find the template field on the document page.
 
+
 **Returns:**
 [TemplatePosition](../../com.groupdocs.parser.templates/templateposition) - An instance of [TemplatePosition](../../com.groupdocs.parser.templates/templateposition) descendant class.
+
 ### scale(double factor) {#scale-double-}
 ```
 public TemplateItem scale(double factor)
@@ -129,6 +161,7 @@ public TemplateItem scale(double factor)
 
 
 Creates a copy of the current item with all coordinates scaled by the given factor.
+
 
 **Parameters:**
 | Parameter | Type | Description |
