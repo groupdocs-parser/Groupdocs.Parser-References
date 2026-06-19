@@ -1,105 +1,43 @@
-# GroupDocs.Parser API References
+# GroupDocs.Parser — API Reference Source Files
 
-This repository contains the API reference documentation for **GroupDocs.Parser** - a comprehensive document parser and extractor SDK that enables developers to extract text, images, metadata, and structured data from 50+ document formats.
+This repository holds the Markdown source files used to generate the **GroupDocs.Parser**
+API reference, published at <https://reference.groupdocs.com/parser/>.
 
-## Overview
+## About GroupDocs.Parser
 
-**GroupDocs.Parser** is a powerful document parsing solution that provides APIs for extracting data from documents without requiring external dependencies or additional software installations. The library supports parsing and extraction from popular document formats including PDF, Microsoft Word, Excel, PowerPoint, OneNote, Outlook, and many more.
+[GroupDocs.Parser](https://products.groupdocs.com/parser/) is a developer API for document
+processing: extract text, images, metadata, and structured data from documents. It is available for the following platforms, each with its own
+API reference:
 
-## Available Platforms
+- **.NET** — <https://reference.groupdocs.com/parser/net/>
+- **Java** — <https://reference.groupdocs.com/parser/java/>
+- **Python via .NET** — <https://reference.groupdocs.com/parser/python-net/>
 
-This repository contains API references for the following platforms:
+## Repository purpose
 
-- **[GroupDocs.Parser for .NET](/parser/net/)** - API references for .NET Framework applications
-- **[GroupDocs.Parser for Java](/parser/java/)** - API references for Java-based applications  
-- **[GroupDocs.Parser for Python via .NET](/parser/python-net/)** - API references for Python applications
+The files in this repository are used to:
 
-## Supported Languages
+- Build and maintain the official **GroupDocs.Parser** API reference.
+- Keep the reference in sync with the latest product release.
+- Provide a consistent structure for automated Hugo builds and publication.
 
-The documentation is available in multiple languages:
-
-- English
-- Arabic
-- Chinese
-- French
-- German
-- Greek
-- Hindi
-- Indonesian
-- Italian
-- Japanese
-- Korean
-- Dutch
-- Russian
-- Spanish
-- Swedish
-- Turkish
-
-## Key Features
-
-- **Text Extraction**: Extract raw or formatted text from entire documents or specific pages
-- **Image Extraction**: Extract images from documents with support for various image formats
-- **Metadata Extraction**: Retrieve document properties, creation dates, author information, and more
-- **Structured Data Parsing**: Extract tables, forms, and structured data using template-based parsing
-- **Container Extraction**: Extract attachments and embedded documents from container formats
-- **Cross-Platform Support**: Available for .NET, Java, and Python platforms
-- **No External Dependencies**: Parse documents without requiring Microsoft Office, Adobe Acrobat, or other third-party software
-
-## Supported File Formats
-
-GroupDocs.Parser supports a wide range of document formats:
-
-- **Word Processing**: DOC, DOCX, DOT, DOTX, RTF, ODT, OTT
-- **Spreadsheets**: XLS, XLSX, XLSM, XLSB, CSV, ODS, OTS
-- **Presentations**: PPT, PPTX, PPS, PPSX, ODP, OTP
-- **PDF Documents**: PDF, PDF/A
-- **Email**: MSG, EML, EMLX, PST, OST
-- **Archives**: ZIP, TAR, RAR
-- **Other Formats**: OneNote, Markdown, EPUB, and more
-
-## Repository Structure
-
-```
-Groupdocs.Parser-References/
-├── english/          # English documentation
-│   ├── net/         # .NET API references
-│   ├── java/        # Java API references
-│   └── python-net/  # Python via .NET API references
-├── arabic/          # Arabic documentation
-├── chinese/         # Chinese documentation
-├── french/          # French documentation
-├── german/          # German documentation
-└── ...              # Other language directories
-```
-
-## Documentation Structure
-
-Each platform documentation includes:
-
-- **Namespaces/Packages**: Core API namespaces and packages
-- **Classes**: API classes and their members
-- **Interfaces**: API interfaces and contracts
-- **Enumerations**: API enumerations and constants
-- **Exceptions**: Exception classes for error handling
+Content is English-only and compiled into a static site with [Hugo](https://gohugo.io/).
 
 ## Resources
 
-- [Product Overview](https://products.groupdocs.com/parser/) - Learn about features, supported formats, and use cases
-- [Developer Documentation](https://docs.groupdocs.com/parser/) - Comprehensive guides, tutorials, and code examples
-- [Releases & Downloads](https://releases.groupdocs.com/parser/) - Download the latest versions and release notes
+- 📚 Documentation — <https://docs.groupdocs.com/parser/>
+- 💻 Code examples — <https://github.com/groupdocs-parser>
+- 🏷️ Releases & changelog — <https://releases.groupdocs.com/parser/>
+- 💬 Support forum — <https://forum.groupdocs.com/c/parser/>
+- 🌐 Product page — <https://products.groupdocs.com/parser/>
 
-## Common Use Cases
+## How to use
 
-- Document indexing and search engine integration
-- Content management systems (CMS)
-- Data migration and conversion projects
-- Document analysis and reporting
-- Automated document processing workflows
-- Text mining and content extraction
-- Metadata cataloging and organization
+This repository is not intended for direct use — it contains the source files that
+Hugo compiles into the published API reference. Browse the live reference using the
+links above.
 
-## Contributing
+## License
 
-This repository contains auto-generated API reference documentation. For issues, suggestions, or contributions related to the GroupDocs.Parser product itself, please visit our [Free Support Forum](https://forum.groupdocs.com/).
-
-
+The documentation source files in this repository are licensed under the
+[MIT License](LICENSE).
