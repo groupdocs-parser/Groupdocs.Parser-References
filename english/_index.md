@@ -12,15 +12,20 @@ lead: "Extract text, images, metadata, and structured data from documents."
 
 platforms:
   - name: ".NET"
+    version: "26.4.0"
+    versionUrl: "https://www.nuget.org/packages/groupdocs.parser/26.4.0"
     key: net
     ref: "/net/"
     install: "dotnet add package GroupDocs.Parser"
   - name: "Java"
+    version: "26.5"
+    versionUrl: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-parser/26.5/"
     key: java
     ref: "/java/"
     install: "com.groupdocs:groupdocs-parser"
   - name: "Python via .NET"
     version: "25.12"
+    versionUrl: "https://pypi.org/project/groupdocs-parser-net/25.12/"
     key: python
     ref: "/python-net/"
     install: "pip install groupdocs-parser-net"
