@@ -31,6 +31,8 @@ platforms:
     install: "pip install groupdocs-parser-net"
 
 formats: ["PDF", "Word", "Excel", "PowerPoint", "Email", "eBook"]
+formatsCount: "50+"
+formatsNote: "…and 40+ more document, email, and eBook formats."
 
 capabilities:
   - "Extract text, images & metadata"
