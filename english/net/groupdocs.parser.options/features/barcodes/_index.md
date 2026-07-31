@@ -3,7 +3,7 @@ title: Barcodes
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether barcodes extraction is supported.
 type: docs
-weight: 10
+weight: 20
 url: /net/groupdocs.parser.options/features/barcodes/
 ---
 ## Features.Barcodes property

@@ -3,7 +3,7 @@ title: PagePreviewOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the document page preview options.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.parser.options/ocroptions/pagepreviewoptions/
 ---
 ## OcrOptions.PagePreviewOptions property

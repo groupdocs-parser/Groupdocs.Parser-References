@@ -3,7 +3,7 @@ title: TextPage
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether text page extraction is supported.
 type: docs
-weight: 190
+weight: 200
 url: /net/groupdocs.parser.options/features/textpage/
 ---
 ## Features.TextPage property

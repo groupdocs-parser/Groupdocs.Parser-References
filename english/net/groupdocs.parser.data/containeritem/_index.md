@@ -3,7 +3,7 @@ title: ContainerItem
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents a container item like Zip archive entity email attachment PDF Portfolio item and so on.
 type: docs
-weight: 10
+weight: 20
 url: /net/groupdocs.parser.data/containeritem/
 ---
 ## ContainerItem class

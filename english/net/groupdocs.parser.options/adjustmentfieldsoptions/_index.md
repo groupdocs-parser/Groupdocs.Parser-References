@@ -3,7 +3,7 @@ title: AdjustmentFieldsOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used to generate the adjustment fields.
 type: docs
-weight: 350
+weight: 360
 url: /net/groupdocs.parser.options/adjustmentfieldsoptions/
 ---
 ## AdjustmentFieldsOptions class

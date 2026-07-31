@@ -3,7 +3,7 @@ title: ParseForm
 second_title: GroupDocs.Parser for .NET API Reference
 description: Parses the document form.
 type: docs
-weight: 230
+weight: 240
 url: /net/groupdocs.parser/parser/parseform/
 ---
 ## Parser.ParseForm method

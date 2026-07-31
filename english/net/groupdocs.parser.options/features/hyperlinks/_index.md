@@ -3,7 +3,7 @@ title: Hyperlinks
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether hyperlinks extraction is supported.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.parser.options/features/hyperlinks/
 ---
 ## Features.Hyperlinks property

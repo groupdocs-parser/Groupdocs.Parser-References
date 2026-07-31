@@ -3,7 +3,7 @@ title: TextStyle
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents the style of the text such as a font name a font size and so on.
 type: docs
-weight: 200
+weight: 210
 url: /net/groupdocs.parser.data/textstyle/
 ---
 ## TextStyle class

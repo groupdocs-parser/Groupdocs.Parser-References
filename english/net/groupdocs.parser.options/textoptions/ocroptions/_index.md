@@ -3,7 +3,7 @@ title: OcrOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the additional options for OCR functionality.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.parser.options/textoptions/ocroptions/
 ---
 ## TextOptions.OcrOptions property

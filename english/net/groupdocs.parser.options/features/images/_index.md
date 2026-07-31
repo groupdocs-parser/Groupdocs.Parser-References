@@ -3,7 +3,7 @@ title: Images
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether images extraction is supported.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.parser.options/features/images/
 ---
 ## Features.Images property

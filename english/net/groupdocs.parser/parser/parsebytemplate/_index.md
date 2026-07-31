@@ -3,7 +3,7 @@ title: ParseByTemplate
 second_title: GroupDocs.Parser for .NET API Reference
 description: Parses the document by the usergenerated template.
 type: docs
-weight: 220
+weight: 230
 url: /net/groupdocs.parser/parser/parsebytemplate/
 ---
 ## ParseByTemplate(Template) {#parsebytemplate}

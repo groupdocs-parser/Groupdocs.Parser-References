@@ -3,7 +3,7 @@ title: PreviewOptions.PreviewFormats
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents supported preview formats.
 type: docs
-weight: 710
+weight: 730
 url: /net/groupdocs.parser.options/previewoptions.previewformats/
 ---
 ## PreviewOptions.PreviewFormats enumeration
@@ -18,9 +18,9 @@ public enum PreviewFormats
 
 | Name | Value | Description |
 | --- | --- | --- |
-| PNG | `0` |  |
-| JPEG | `1` |  |
-| BMP | `2` |  |
+| PNG | `0` | Portable Network Graphics Format. |
+| JPEG | `1` | Joint Photographic Experts Group Format. |
+| BMP | `2` | Bitmap Picture Format. |
 
 ### See Also
 

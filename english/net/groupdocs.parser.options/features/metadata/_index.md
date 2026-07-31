@@ -3,7 +3,7 @@ title: Metadata
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether metadata extraction is supported.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.parser.options/features/metadata/
 ---
 ## Features.Metadata property

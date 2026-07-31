@@ -3,7 +3,7 @@ title: ExporterBase
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the base class for the data export functionality.
 type: docs
-weight: 290
+weight: 300
 url: /net/groupdocs.parser.export/exporterbase/
 ---
 ## ExporterBase class

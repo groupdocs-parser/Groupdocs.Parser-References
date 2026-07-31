@@ -3,7 +3,7 @@ title: FormattedText
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether formatted text extraction is supported.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.parser.options/features/formattedtext/
 ---
 ## Features.FormattedText property

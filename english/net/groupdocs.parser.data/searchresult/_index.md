@@ -3,7 +3,7 @@ title: SearchResult
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents the search result in the search functionality.
 type: docs
-weight: 180
+weight: 190
 url: /net/groupdocs.parser.data/searchresult/
 ---
 ## SearchResult class

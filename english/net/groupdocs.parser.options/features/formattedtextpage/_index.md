@@ -3,7 +3,7 @@ title: FormattedTextPage
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether formatted text page extraction is supported.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.parser.options/features/formattedtextpage/
 ---
 ## Features.FormattedTextPage property

@@ -22,7 +22,7 @@ public OcrOptions()
 
 ---
 
-## OcrOptions(PagePreviewOptions) {#constructor_5}
+## OcrOptions(PagePreviewOptions) {#constructor_6}
 
 Initializes a new instance of the [`OcrOptions`](../../ocroptions) class with rectangular area.
 
@@ -64,7 +64,7 @@ public OcrOptions(Rectangle rectangle)
 
 ---
 
-## OcrOptions(OcrEventHandler) {#constructor_4}
+## OcrOptions(OcrEventHandler) {#constructor_5}
 
 Initializes a new instance of the [`OcrOptions`](../../ocroptions) class with [`OcrEventHandler`](../../ocreventhandler) object.
 
@@ -129,6 +129,35 @@ public OcrOptions(Rectangle rectangle, OcrEventHandler handler,
 * class [Rectangle](../../../groupdocs.parser.data/rectangle)
 * class [OcrEventHandler](../../ocreventhandler)
 * class [PagePreviewOptions](../../pagepreviewoptions)
+* class [OcrOptions](../../ocroptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## OcrOptions(Rectangle, OcrEventHandler, PagePreviewOptions, bool, Language) {#constructor_4}
+
+Initializes a new instance of the [`OcrOptions`](../../ocroptions) class.
+
+```csharp
+public OcrOptions(Rectangle rectangle, OcrEventHandler handler, 
+    PagePreviewOptions pagePreviewOptions, bool useSpellCheker, Language language)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rectangle | Rectangle | The rectangular area that constraints the page area which is used for text recognizing. |
+| handler | OcrEventHandler | An instance of [`OcrEventHandler`](../../ocreventhandler) to catch OCR events. |
+| pagePreviewOptions | PagePreviewOptions | An instance of [`PagePreviewOptions`](../pagepreviewoptions) class that sets properties for the document page preview generation. |
+| useSpellCheker | Boolean | The value that indicates whether the spell checker is used. |
+| language | Language | The language ​​used for OCR. |
+
+### See Also
+
+* class [Rectangle](../../../groupdocs.parser.data/rectangle)
+* class [OcrEventHandler](../../ocreventhandler)
+* class [PagePreviewOptions](../../pagepreviewoptions)
+* enum [Language](../../language)
 * class [OcrOptions](../../ocroptions)
 * namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
 * assembly [GroupDocs.Parser](../../../)

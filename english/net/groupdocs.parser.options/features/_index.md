@@ -3,7 +3,7 @@ title: Features
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents the supported features list. Allows to obtain information which features are supported or not for the document.
 type: docs
-weight: 450
+weight: 460
 url: /net/groupdocs.parser.options/features/
 ---
 ## Features class
@@ -18,6 +18,7 @@ public sealed class Features
 
 | Name | Description |
 | --- | --- |
+| [Annotations](../../groupdocs.parser.options/features/annotations) { get; } | Gets the value that indicates whether annotations extraction is supported. |
 | [Barcodes](../../groupdocs.parser.options/features/barcodes) { get; } | Gets the value that indicates whether barcodes extraction is supported. |
 | [Container](../../groupdocs.parser.options/features/container) { get; } | Gets the value that indicates whether container extraction is supported. |
 | [FormattedText](../../groupdocs.parser.options/features/formattedtext) { get; } | Gets the value that indicates whether formatted text extraction is supported. |
