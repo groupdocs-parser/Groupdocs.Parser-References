@@ -12,6 +12,7 @@ The namespace provides classes which represent parsing results.
 
 | Class | Description |
 | --- | --- |
+| [AnnotationItem](./annotationitem) | Represents an annotation item which is used in annotation extraction functionality. |
 | [ContainerItem](./containeritem) | Represents a container item like Zip archive entity, email attachment, PDF Portfolio item and so on. |
 | [DocumentData](./documentdata) | Represents data of the document. It consists of [`FieldData`](../groupdocs.parser.data/fielddata) objects which contain field data from document. |
 | [DocumentPageData](./documentpagedata) | Represents data of the document page. It consists of [`FieldData`](../groupdocs.parser.data/fielddata) objects which contain field data from the document page. |

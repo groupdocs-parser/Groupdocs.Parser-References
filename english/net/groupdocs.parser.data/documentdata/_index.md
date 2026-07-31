@@ -3,7 +3,7 @@ title: DocumentData
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents data of the document. It consists of FieldData./fielddata objects which contain field data from document.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.parser.data/documentdata/
 ---
 ## DocumentData class

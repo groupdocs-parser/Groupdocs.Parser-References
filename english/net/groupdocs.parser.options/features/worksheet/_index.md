@@ -3,7 +3,7 @@ title: Worksheet
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether the worksheet extraction is supported.
 type: docs
-weight: 210
+weight: 220
 url: /net/groupdocs.parser.options/features/worksheet/
 ---
 ## Features.Worksheet property

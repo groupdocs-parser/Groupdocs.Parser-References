@@ -3,7 +3,7 @@ title: CorruptedDocumentException
 second_title: GroupDocs.Parser for .NET API Reference
 description: Thrown during document load when the document is corrupted.
 type: docs
-weight: 250
+weight: 260
 url: /net/groupdocs.parser.exceptions/corrupteddocumentexception/
 ---
 ## CorruptedDocumentException class

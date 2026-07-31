@@ -3,7 +3,7 @@ title: UseRawModeIfPossible
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether the raw mode is used.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.parser.options/textoptions/userawmodeifpossible/
 ---
 ## TextOptions.UseRawModeIfPossible property

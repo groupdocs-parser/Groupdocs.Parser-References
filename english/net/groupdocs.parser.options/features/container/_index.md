@@ -3,7 +3,7 @@ title: Container
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether container extraction is supported.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.parser.options/features/container/
 ---
 ## Features.Container property

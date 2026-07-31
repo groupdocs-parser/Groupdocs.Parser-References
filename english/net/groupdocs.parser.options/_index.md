@@ -61,6 +61,7 @@ The namespace provides classes to specify additional options when parsing data f
 | [FileTypeDetectionMode](./filetypedetectionmode) | Defines a mode of the file type detection. |
 | [FormattedTextMode](./formattedtextmode) | Defines a formatted text mode. |
 | [ImageFormat](./imageformat) | Defines a format of the image. |
+| [Language](./language) | Defines the languages ​​used for optical character recognition (OCR). ISO 939-3 codes are used. |
 | [PagePreviewFormat](./pagepreviewformat) | Represents supported preview formats. |
 | [PreviewOptions.PreviewFormats](./previewoptions.previewformats) | Represents supported preview formats. |
 | [QualityMode](./qualitymode) | Defines a level of the quality. |

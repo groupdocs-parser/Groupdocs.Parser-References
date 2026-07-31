@@ -3,7 +3,7 @@ title: PageTableAreaCell
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents a table cell which is used in PageTableArea./pagetablearea class.
 type: docs
-weight: 140
+weight: 150
 url: /net/groupdocs.parser.data/pagetableareacell/
 ---
 ## PageTableAreaCell class

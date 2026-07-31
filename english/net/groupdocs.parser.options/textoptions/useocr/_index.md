@@ -3,7 +3,7 @@ title: UseOcr
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether the OCR Connector is used to extract a text.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.parser.options/textoptions/useocr/
 ---
 ## TextOptions.UseOcr property

@@ -3,7 +3,7 @@ title: Highlight
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether highlight extraction is supported.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.parser.options/features/highlight/
 ---
 ## Features.Highlight property

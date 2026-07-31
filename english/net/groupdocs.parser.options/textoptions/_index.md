@@ -3,7 +3,7 @@ title: TextOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used for text extraction.
 type: docs
-weight: 770
+weight: 790
 url: /net/groupdocs.parser.options/textoptions/
 ---
 ## TextOptions class
@@ -27,6 +27,7 @@ public sealed class TextOptions
 
 | Name | Description |
 | --- | --- |
+| [IncludeAnnotations](../../groupdocs.parser.options/textoptions/includeannotations) { get; set; } | Gets the value indicating whether annotations are included. The default value is `false`. |
 | [OcrOptions](../../groupdocs.parser.options/textoptions/ocroptions) { get; set; } | Gets the additional options for OCR functionality. |
 | [UseOcr](../../groupdocs.parser.options/textoptions/useocr) { get; set; } | Gets the value that indicates whether the OCR Connector is used to extract a text. |
 | [UseRawModeIfPossible](../../groupdocs.parser.options/textoptions/userawmodeifpossible) { get; set; } | Gets the value that indicates whether the raw mode is used. |

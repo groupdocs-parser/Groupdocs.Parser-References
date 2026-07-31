@@ -3,7 +3,7 @@ title: Tables
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether tables extraction is supported.
 type: docs
-weight: 160
+weight: 170
 url: /net/groupdocs.parser.options/features/tables/
 ---
 ## Features.Tables property

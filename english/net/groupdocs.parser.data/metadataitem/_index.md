@@ -3,7 +3,7 @@ title: MetadataItem
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents a metadata item which is used in container items and metadata extraction functionality.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.parser.data/metadataitem/
 ---
 ## MetadataItem class

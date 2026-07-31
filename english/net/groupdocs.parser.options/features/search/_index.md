@@ -3,7 +3,7 @@ title: Search
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether text search is supported.
 type: docs
-weight: 140
+weight: 150
 url: /net/groupdocs.parser.options/features/search/
 ---
 ## Features.Search property

@@ -3,7 +3,7 @@ title: GetHighlight
 second_title: GroupDocs.Parser for .NET API Reference
 description: Extracts a highlight from the document.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.parser/parser/gethighlight/
 ---
 ## Parser.GetHighlight method

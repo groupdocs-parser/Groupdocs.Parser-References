@@ -3,7 +3,7 @@ title: ParseByTemplate
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether parsing by template is supported.
 type: docs
-weight: 110
+weight: 120
 url: /net/groupdocs.parser.options/features/parsebytemplate/
 ---
 ## Features.ParseByTemplate property

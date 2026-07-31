@@ -3,7 +3,7 @@ title: Ocr
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value that indicates whether OCR functionality is supported.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.parser.options/features/ocr/
 ---
 ## Features.Ocr property
