@@ -48,8 +48,8 @@ public sealed class Parser : IDisposable
 | [Dispose](../../groupdocs.parser/parser/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [GenerateAdjustmentFields](../../groupdocs.parser/parser/generateadjustmentfields)(AdjustmentFieldsOptions) | Generates fields for automatic adjustment of template position and scale. |
 | [GeneratePreview](../../groupdocs.parser/parser/generatepreview)(PreviewOptions) | Get pages preview. |
-| [GetAnnotations](../../groupdocs.parser/parser/getannotations#getannotations)() | Extracts annotations from the document. |
-| [GetAnnotations](../../groupdocs.parser/parser/getannotations#getannotations_1)(int) | Extracts annotations from the document page. |
+| [GetAnnotations](../../groupdocs.parser/parser/getannotations#getannotations)() | Extracts annotations from the document. Note that only PDF format is currently supported. |
+| [GetAnnotations](../../groupdocs.parser/parser/getannotations#getannotations_1)(int) | Extracts annotations from the document page. Note that only PDF format is currently supported. |
 | [GetBarcodes](../../groupdocs.parser/parser/getbarcodes#getbarcodes)() | Extracts barcodes from the document. |
 | [GetBarcodes](../../groupdocs.parser/parser/getbarcodes#getbarcodes_1)(BarcodeOptions) | Extracts barcodes from the document using customization options. |
 | [GetBarcodes](../../groupdocs.parser/parser/getbarcodes#getbarcodes_3)(int) | Extracts barcodes from the document page. |

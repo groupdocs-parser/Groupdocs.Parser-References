@@ -1,14 +1,14 @@
 ---
 title: GetAnnotations
 second_title: GroupDocs.Parser for .NET API Reference
-description: Extracts annotations from the document.
+description: Extracts annotations from the document. Note that only PDF format is currently supported.
 type: docs
 weight: 60
 url: /net/groupdocs.parser/parser/getannotations/
 ---
 ## GetAnnotations() {#getannotations}
 
-Extracts annotations from the document.
+Extracts annotations from the document. Note that only PDF format is currently supported.
 
 ```csharp
 public IEnumerable<AnnotationItem> GetAnnotations()
@@ -29,7 +29,7 @@ A collection of annotation items; `null` if annotation extraction isn't supporte
 
 ## GetAnnotations(int) {#getannotations_1}
 
-Extracts annotations from the document page.
+Extracts annotations from the document page. Note that only PDF format is currently supported.
 
 ```csharp
 public IEnumerable<AnnotationItem> GetAnnotations(int pageIndex)
