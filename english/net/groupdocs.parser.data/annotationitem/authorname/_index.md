@@ -1,27 +1,26 @@
 ---
-title: Template
+title: AuthorName
 second_title: GroupDocs.Parser for .NET API Reference
-description: Gets the template.
+description: Gets the annotation author name.
 type: docs
 weight: 30
-url: /net/groupdocs.parser.data/documentdata/template/
+url: /net/groupdocs.parser.data/annotationitem/authorname/
 ---
-## DocumentData.Template property
+## AnnotationItem.AuthorName property
 
-Gets the template.
+Gets the annotation author name.
 
 ```csharp
-public Template Template { get; }
+public string AuthorName { get; }
 ```
 
 ### Property Value
 
-The template.
+The annotation author name.
 
 ### See Also
 
-* class [Template](../../../groupdocs.parser.templates/template)
-* class [DocumentData](../../documentdata)
+* class [AnnotationItem](../../annotationitem)
 * namespace [GroupDocs.Parser.Data](../../../groupdocs.parser.data)
 * assembly [GroupDocs.Parser](../../../)
 

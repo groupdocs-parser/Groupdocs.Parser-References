@@ -3,7 +3,7 @@ title: UseUpperCaseName
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets a boolean value that indicates whether a Name was converted to UPPER CASE.
 type: docs
-weight: 70
+weight: 60
 url: /net/groupdocs.parser.data/fielddata/useuppercasename/
 ---
 ## FieldData.UseUpperCaseName property

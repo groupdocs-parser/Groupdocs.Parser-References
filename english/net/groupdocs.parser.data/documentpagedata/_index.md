@@ -14,12 +14,6 @@ Represents data of the document page. It consists of [`FieldData`](../fielddata)
 public sealed class DocumentPageData : DocumentData
 ```
 
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [DocumentPageData](documentpagedata)(Template, IEnumerable&lt;FieldData&gt;, int) | Initializes a new instance of the [`DocumentPageData`](../documentpagedata) class. |
-
 ## Properties
 
 | Name | Description |

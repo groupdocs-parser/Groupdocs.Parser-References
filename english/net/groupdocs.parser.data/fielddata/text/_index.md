@@ -3,7 +3,7 @@ title: Text
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the text.
 type: docs
-weight: 60
+weight: 50
 url: /net/groupdocs.parser.data/fielddata/text/
 ---
 ## FieldData.Text property

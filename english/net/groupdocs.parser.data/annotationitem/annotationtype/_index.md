@@ -1,26 +1,26 @@
 ---
-title: PageIndex
+title: AnnotationType
 second_title: GroupDocs.Parser for .NET API Reference
-description: Gets the page index.
+description: Gets the annotation type.
 type: docs
 weight: 10
-url: /net/groupdocs.parser.data/documentpagedata/pageindex/
+url: /net/groupdocs.parser.data/annotationitem/annotationtype/
 ---
-## DocumentPageData.PageIndex property
+## AnnotationItem.AnnotationType property
 
-Gets the page index.
+Gets the annotation type.
 
 ```csharp
-public int PageIndex { get; }
+public string AnnotationType { get; }
 ```
 
 ### Property Value
 
-A zero-based index of the page.
+The annotation type.
 
 ### See Also
 
-* class [DocumentPageData](../../documentpagedata)
+* class [AnnotationItem](../../annotationitem)
 * namespace [GroupDocs.Parser.Data](../../../groupdocs.parser.data)
 * assembly [GroupDocs.Parser](../../../)
 

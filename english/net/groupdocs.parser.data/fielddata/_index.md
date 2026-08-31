@@ -14,15 +14,6 @@ Represents field data such as a name, a page index, a field value and so on. Dep
 public sealed class FieldData
 ```
 
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [FieldData](fielddata#constructor)(string, PageArea) | Initializes a new instance of the [`FieldData`](../fielddata) class with UPPER CASE name. |
-| [FieldData](fielddata#constructor_1)(string, PageArea, bool) | Initializes a new instance of the [`FieldData`](../fielddata) class. |
-| [FieldData](fielddata#constructor_2)(string, PageArea, FieldData) | Initializes a new instance of the [`FieldData`](../fielddata) class with UPPER CASE name. |
-| [FieldData](fielddata#constructor_3)(string, PageArea, FieldData, bool) | Initializes a new instance of the [`FieldData`](../fielddata) class. |
-
 ## Properties
 
 | Name | Description |

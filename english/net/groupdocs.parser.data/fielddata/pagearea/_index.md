@@ -3,7 +3,7 @@ title: PageArea
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the value of the field.
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.parser.data/fielddata/pagearea/
 ---
 ## FieldData.PageArea property

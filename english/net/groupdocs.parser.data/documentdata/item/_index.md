@@ -3,7 +3,7 @@ title: Item
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the field data by an index.
 type: docs
-weight: 30
+weight: 20
 url: /net/groupdocs.parser.data/documentdata/item/
 ---
 ## DocumentData indexer

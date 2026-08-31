@@ -3,7 +3,7 @@ title: LinkedField
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the linked field.
 type: docs
-weight: 20
+weight: 10
 url: /net/groupdocs.parser.data/fielddata/linkedfield/
 ---
 ## FieldData.LinkedField property

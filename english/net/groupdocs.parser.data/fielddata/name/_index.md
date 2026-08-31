@@ -3,7 +3,7 @@ title: Name
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the field name.
 type: docs
-weight: 30
+weight: 20
 url: /net/groupdocs.parser.data/fielddata/name/
 ---
 ## FieldData.Name property

@@ -3,7 +3,7 @@ title: GetEnumerator
 second_title: GroupDocs.Parser for .NET API Reference
 description: Returns an enumerator for the fields data.
 type: docs
-weight: 50
+weight: 40
 url: /net/groupdocs.parser.data/documentdata/getenumerator/
 ---
 ## DocumentData.GetEnumerator method

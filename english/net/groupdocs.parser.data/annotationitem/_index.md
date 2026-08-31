@@ -18,7 +18,12 @@ public sealed class AnnotationItem
 
 | Name | Description |
 | --- | --- |
-| [Value](../../groupdocs.parser.data/annotationitem/value) { get; } | Gets the value of the metadata item. |
+| [AnnotationType](../../groupdocs.parser.data/annotationitem/annotationtype) { get; } | Gets the annotation type. |
+| [AuthorInitials](../../groupdocs.parser.data/annotationitem/authorinitials) { get; } | Gets the annotation author initials. |
+| [AuthorName](../../groupdocs.parser.data/annotationitem/authorname) { get; } | Gets the annotation author name. |
+| [PageIndex](../../groupdocs.parser.data/annotationitem/pageindex) { get; } | Gets the zero-based index of the page (or slide) where the annotation is located. |
+| [Timestamp](../../groupdocs.parser.data/annotationitem/timestamp) { get; } | Gets the date and time when the annotation was created or last modified. |
+| [Value](../../groupdocs.parser.data/annotationitem/value) { get; } | Gets the value of the annotation item. |
 
 ### See Also
 

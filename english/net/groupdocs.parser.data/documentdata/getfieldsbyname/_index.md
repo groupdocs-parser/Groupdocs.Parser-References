@@ -3,7 +3,7 @@ title: GetFieldsByName
 second_title: GroupDocs.Parser for .NET API Reference
 description: Returns the collection of field data where the name is equal to fieldName.
 type: docs
-weight: 60
+weight: 50
 url: /net/groupdocs.parser.data/documentdata/getfieldsbyname/
 ---
 ## DocumentData.GetFieldsByName method

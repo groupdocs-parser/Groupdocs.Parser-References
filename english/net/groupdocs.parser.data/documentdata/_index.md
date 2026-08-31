@@ -14,13 +14,6 @@ Represents data of the document. It consists of [`FieldData`](../fielddata) obje
 public class DocumentData : IEnumerable<FieldData>
 ```
 
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [DocumentData](documentdata#constructor_1)(IEnumerable&lt;FieldData&gt;) | Initializes a new instance of the [`DocumentData`](../documentdata) class. |
-| [DocumentData](documentdata#constructor)(Template, IEnumerable&lt;FieldData&gt;) | Initializes a new instance of the [`DocumentData`](../documentdata) class. |
-
 ## Properties
 
 | Name | Description |

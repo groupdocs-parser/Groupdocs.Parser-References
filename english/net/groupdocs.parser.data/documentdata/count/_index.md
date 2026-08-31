@@ -3,7 +3,7 @@ title: Count
 second_title: GroupDocs.Parser for .NET API Reference
 description: Gets the total number of the fields data.
 type: docs
-weight: 20
+weight: 10
 url: /net/groupdocs.parser.data/documentdata/count/
 ---
 ## DocumentData.Count property

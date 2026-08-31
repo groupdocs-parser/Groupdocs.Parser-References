@@ -1,22 +1,22 @@
 ---
-title: Value
+title: AuthorInitials
 second_title: GroupDocs.Parser for .NET API Reference
-description: Gets the value of the annotation item.
+description: Gets the annotation author initials.
 type: docs
-weight: 60
-url: /net/groupdocs.parser.data/annotationitem/value/
+weight: 20
+url: /net/groupdocs.parser.data/annotationitem/authorinitials/
 ---
-## AnnotationItem.Value property
+## AnnotationItem.AuthorInitials property
 
-Gets the value of the annotation item.
+Gets the annotation author initials.
 
 ```csharp
-public string Value { get; }
+public string AuthorInitials { get; }
 ```
 
 ### Property Value
 
-A string value that represents the value of the annotation item.
+The annotation author initials.
 
 ### See Also
 
