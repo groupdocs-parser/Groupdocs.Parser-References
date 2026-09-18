@@ -61,6 +61,8 @@ An instance of this class is used as [Parser.getFeatures()](../../com.groupdocs.
  |
 | [isTables()](#isTables--) | Gets the value that indicates whether tables extraction is supported.
  |
+| [isAnnotations()](#isAnnotations--) | Gets the value that indicates whether annotations extraction is supported.
+ |
 | [isParseByTemplate()](#isParseByTemplate--) | Gets the value that indicates whether parsing by template is supported.
  |
 | [isParseForm()](#isParseForm--) | Gets the value that indicates whether form parsing is supported.
@@ -276,6 +278,18 @@ Gets the value that indicates whether tables extraction is supported.
 
 **Returns:**
 boolean -  true  if tables extraction is supported; otherwise,  false .
+
+### isAnnotations() {#isAnnotations--}
+```
+public boolean isAnnotations()
+```
+
+
+Gets the value that indicates whether annotations extraction is supported.
+
+
+**Returns:**
+boolean -  true  if annotations extraction is supported; otherwise,  false .
 
 ### isParseByTemplate() {#isParseByTemplate--}
 ```

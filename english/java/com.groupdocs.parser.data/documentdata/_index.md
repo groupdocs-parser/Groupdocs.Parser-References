@@ -17,14 +17,6 @@ public class DocumentData implements Iterable<FieldData>
 
 Represents data of the document. It consists of [FieldData](../../com.groupdocs.parser.data/fielddata) objects which contain field data from document. An instance of [DocumentData](../../com.groupdocs.parser.data/documentdata) class is used as return value of [Parser.parseByTemplate(Template)](../../com.groupdocs.parser/parser#parseByTemplate-Template-) and [Parser.parseForm()](../../com.groupdocs.parser/parser#parseForm--) methods. See the usage examples there.
 
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [DocumentData(Iterable<FieldData> fields)](#DocumentData-java.lang.Iterable-com.groupdocs.parser.data.FieldData--) | Initializes a new instance of the [FieldData](../../com.groupdocs.parser.data/fielddata) class.
- |
-| [DocumentData(Template template, Iterable<FieldData> fields)](#DocumentData-com.groupdocs.parser.templates.Template-java.lang.Iterable-com.groupdocs.parser.data.FieldData--) | Initializes a new instance of the [DocumentData](../../com.groupdocs.parser.data/documentdata) class with the source template.
- |
 ## Methods
 
 | Method | Description |
@@ -39,38 +31,6 @@ Represents data of the document. It consists of [FieldData](../../com.groupdocs.
  |
 | [iterator()](#iterator--) | Returns an iterator over the elements in this list in proper sequence.
  |
-### DocumentData(Iterable<FieldData> fields) {#DocumentData-java.lang.Iterable-com.groupdocs.parser.data.FieldData--}
-```
-public DocumentData(Iterable<FieldData> fields)
-```
-
-
-Initializes a new instance of the [FieldData](../../com.groupdocs.parser.data/fielddata) class.
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fields | java.lang.Iterable<com.groupdocs.parser.data.FieldData> | The collection of fields data.
- |
-
-### DocumentData(Template template, Iterable<FieldData> fields) {#DocumentData-com.groupdocs.parser.templates.Template-java.lang.Iterable-com.groupdocs.parser.data.FieldData--}
-```
-public DocumentData(Template template, Iterable<FieldData> fields)
-```
-
-
-Initializes a new instance of the [DocumentData](../../com.groupdocs.parser.data/documentdata) class with the source template.
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| template | [Template](../../com.groupdocs.parser.templates/template) | The template that produced these fields. May be  null  when the data was not produced by a template (e.g.  parseForm ).
- |
-| fields | java.lang.Iterable<com.groupdocs.parser.data.FieldData> | The collection of fields data.
- |
-
 ### getTemplate() {#getTemplate--}
 ```
 public Template getTemplate()
