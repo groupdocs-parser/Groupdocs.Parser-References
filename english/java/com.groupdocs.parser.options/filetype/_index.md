@@ -217,6 +217,7 @@ Represents the file type. Provides methods to obtain list of all file types supp
 | [getFormat()](#getFormat--) | File format e.g.
  |
 | [equals(Object object)](#equals-java.lang.Object-) |  |
+| [hashCode()](#hashCode--) |  |
 | [toString()](#toString--) |  |
 | [fromExtension(String extension)](#fromExtension-java.lang.String-) | Maps file extension to file type.
  |
@@ -1092,6 +1093,16 @@ public boolean equals(Object object)
 
 **Returns:**
 boolean
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+
+
+**Returns:**
+int
 ### toString() {#toString--}
 ```
 public String toString()

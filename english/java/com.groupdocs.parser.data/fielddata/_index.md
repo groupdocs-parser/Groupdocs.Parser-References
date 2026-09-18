@@ -16,18 +16,6 @@ Represents field data such as a name, a page index, a field value and so on. Dep
 
 The instances of [FieldData](../../com.groupdocs.parser.data/fielddata) class are used in [DocumentData](../../com.groupdocs.parser.data/documentdata) collection.
 
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [FieldData(String name, PageArea pageArea)](#FieldData-java.lang.String-com.groupdocs.parser.data.PageArea-) | Initializes a new instance of the [FieldData](../../com.groupdocs.parser.data/fielddata) class with UPPER CASE name.
- |
-| [FieldData(String name, PageArea pageArea, boolean useUpperCaseName)](#FieldData-java.lang.String-com.groupdocs.parser.data.PageArea-boolean-) | Initializes a new instance of the [FieldData](../../com.groupdocs.parser.data/fielddata) class.
- |
-| [FieldData(String name, PageArea pageArea, FieldData linkedField)](#FieldData-java.lang.String-com.groupdocs.parser.data.PageArea-com.groupdocs.parser.data.FieldData-) | Initializes a new instance of the [FieldData](../../com.groupdocs.parser.data/fielddata) class with UPPER CASE name.
- |
-| [FieldData(String name, PageArea pageArea, FieldData linkedField, boolean useUpperCaseName)](#FieldData-java.lang.String-com.groupdocs.parser.data.PageArea-com.groupdocs.parser.data.FieldData-boolean-) | Initializes a new instance of the [FieldData](../../com.groupdocs.parser.data/fielddata) class.
- |
 ## Methods
 
 | Method | Description |
@@ -44,82 +32,6 @@ The instances of [FieldData](../../com.groupdocs.parser.data/fielddata) class ar
  |
 | [getUseUpperCaseName()](#getUseUpperCaseName--) | Gets a value that indicates whether a  Name  was converted to UPPER CASE.
  |
-### FieldData(String name, PageArea pageArea) {#FieldData-java.lang.String-com.groupdocs.parser.data.PageArea-}
-```
-public FieldData(String name, PageArea pageArea)
-```
-
-
-Initializes a new instance of the [FieldData](../../com.groupdocs.parser.data/fielddata) class with UPPER CASE name.
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The name of the field.
- |
-| pageArea | [PageArea](../../com.groupdocs.parser.data/pagearea) | The value of the field.
- |
-
-### FieldData(String name, PageArea pageArea, boolean useUpperCaseName) {#FieldData-java.lang.String-com.groupdocs.parser.data.PageArea-boolean-}
-```
-public FieldData(String name, PageArea pageArea, boolean useUpperCaseName)
-```
-
-
-Initializes a new instance of the [FieldData](../../com.groupdocs.parser.data/fielddata) class.
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The name of the field.
- |
-| pageArea | [PageArea](../../com.groupdocs.parser.data/pagearea) | The value of the field.
- |
-| useUpperCaseName | boolean | The value that indicates whether a  name  is converted to UPPER CASE.
- |
-
-### FieldData(String name, PageArea pageArea, FieldData linkedField) {#FieldData-java.lang.String-com.groupdocs.parser.data.PageArea-com.groupdocs.parser.data.FieldData-}
-```
-public FieldData(String name, PageArea pageArea, FieldData linkedField)
-```
-
-
-Initializes a new instance of the [FieldData](../../com.groupdocs.parser.data/fielddata) class with UPPER CASE name.
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The name of the field.
- |
-| pageArea | [PageArea](../../com.groupdocs.parser.data/pagearea) | The value of the field.
- |
-| linkedField | [FieldData](../../com.groupdocs.parser.data/fielddata) | The field which is linked to the field.
- |
-
-### FieldData(String name, PageArea pageArea, FieldData linkedField, boolean useUpperCaseName) {#FieldData-java.lang.String-com.groupdocs.parser.data.PageArea-com.groupdocs.parser.data.FieldData-boolean-}
-```
-public FieldData(String name, PageArea pageArea, FieldData linkedField, boolean useUpperCaseName)
-```
-
-
-Initializes a new instance of the [FieldData](../../com.groupdocs.parser.data/fielddata) class.
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The name of the field.
- |
-| pageArea | [PageArea](../../com.groupdocs.parser.data/pagearea) | The value of the field.
- |
-| linkedField | [FieldData](../../com.groupdocs.parser.data/fielddata) | The field which is linked to the field.
- |
-| useUpperCaseName | boolean | The value that indicates whether a  name  is converted to UPPER CASE.
- |
-
 ### getName() {#getName--}
 ```
 public String getName()

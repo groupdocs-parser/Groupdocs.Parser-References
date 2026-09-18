@@ -46,6 +46,10 @@ then this parameter is ignored and the standard mode is used.
  |
 | [getOcrOptions()](#getOcrOptions--) | Gets the additional options for OCR functionality.
  |
+| [isIncludeAnnotations()](#isIncludeAnnotations--) | Gets the value that indicates whether annotations are included in the extracted text.
+ |
+| [setIncludeAnnotations(boolean includeAnnotations)](#setIncludeAnnotations-boolean-) | Sets the value that indicates whether annotations are included in the extracted text.
+ |
 ### TextOptions(boolean useRawModeIfPossible) {#TextOptions-boolean-}
 ```
 public TextOptions(boolean useRawModeIfPossible)
@@ -132,4 +136,31 @@ Gets the additional options for OCR functionality.
 
 **Returns:**
 [OcrOptions](../../com.groupdocs.parser.options/ocroptions) - An instance of [OcrOptions](../../com.groupdocs.parser.options/ocroptions) class with the additional OCR options.
+
+### isIncludeAnnotations() {#isIncludeAnnotations--}
+```
+public boolean isIncludeAnnotations()
+```
+
+
+Gets the value that indicates whether annotations are included in the extracted text. The default value is  false .
+
+
+**Returns:**
+boolean -  true  if annotations are included; otherwise,  false .
+
+### setIncludeAnnotations(boolean includeAnnotations) {#setIncludeAnnotations-boolean-}
+```
+public void setIncludeAnnotations(boolean includeAnnotations)
+```
+
+
+Sets the value that indicates whether annotations are included in the extracted text.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| includeAnnotations | boolean |  true  to include annotations in the extracted text.
+ |
 

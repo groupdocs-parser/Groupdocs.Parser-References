@@ -93,6 +93,10 @@ Represents the main class that controls text, images, container extraction and p
  |
 | [getMetadata()](#getMetadata--) | Extracts metadata from the document.
  |
+| [getAnnotations()](#getAnnotations--) | Extracts annotations from the document.
+ |
+| [getAnnotations(int pageIndex)](#getAnnotations-int-) | Extracts annotations from the document page.
+ |
 | [getContainer()](#getContainer--) | Extracts a container object from the document to work with formats that contain attachments, ZIP archives etc.
  |
 | [getTextAreas()](#getTextAreas--) | Extracts text areas from the document.
@@ -1516,6 +1520,36 @@ The following example shows how to extract metadata from a document:
 
 **Returns:**
 java.lang.Iterable<com.groupdocs.parser.data.MetadataItem> - A collection of metadata items;  null  if metadata extraction isn't supported.
+
+### getAnnotations() {#getAnnotations--}
+```
+public Iterable<AnnotationItem> getAnnotations()
+```
+
+
+Extracts annotations from the document.
+
+
+**Returns:**
+java.lang.Iterable<com.groupdocs.parser.data.AnnotationItem> - A collection of annotation items;  null  if annotation extraction isn't supported.
+
+### getAnnotations(int pageIndex) {#getAnnotations-int-}
+```
+public Iterable<AnnotationItem> getAnnotations(int pageIndex)
+```
+
+
+Extracts annotations from the document page.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pageIndex | int | The zero-based page index.
+ |
+
+**Returns:**
+java.lang.Iterable<com.groupdocs.parser.data.AnnotationItem> - A collection of annotation items;  null  if annotation extraction isn't supported.
 
 ### getContainer() {#getContainer--}
 ```
