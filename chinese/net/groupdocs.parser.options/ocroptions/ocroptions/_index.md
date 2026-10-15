@@ -1,0 +1,166 @@
+---
+title: "OcrOptions"
+second_title: "GroupDocs.Parser for .NET API 参考"
+description: "使用矩形区域初始化 OcrOptionsgroupdocs.parser.options/ocroptions 类的新实例。"
+type: docs
+weight: 10
+url: /zh/net/groupdocs.parser.options/ocroptions/ocroptions/
+---
+
+## OcrOptions() {#constructor}
+
+使用矩形区域初始化 [`OcrOptions`](../../ocroptions) 类的新实例。
+
+```csharp
+public OcrOptions()
+```
+
+### 另请参见
+
+* class [OcrOptions](../../ocroptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## OcrOptions(PagePreviewOptions) {#constructor_6}
+
+使用矩形区域初始化 [`OcrOptions`](../../ocroptions) 类的新实例。
+
+```csharp
+public OcrOptions(PagePreviewOptions pagePreviewOptions)
+```
+
+| Parameter | Type | 描述 |
+| --- | --- | --- |
+| pagePreviewOptions | PagePreviewOptions | [`PagePreviewOptions`](../pagepreviewoptions) 类的实例，用于设置文档页面预览生成的属性。 |
+
+### 另请参见
+
+* class [PagePreviewOptions](../../pagepreviewoptions)
+* class [OcrOptions](../../ocroptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## OcrOptions(Rectangle) {#constructor_1}
+
+使用矩形区域初始化 [`OcrOptions`](../../ocroptions) 类的新实例。
+
+```csharp
+public OcrOptions(Rectangle rectangle)
+```
+
+| Parameter | Type | 描述 |
+| --- | --- | --- |
+| rectangle | 矩形 | 约束用于文本识别的页面区域的矩形区域。 |
+
+### 另请参见
+
+* class [Rectangle](../../../groupdocs.parser.data/rectangle)
+* class [OcrOptions](../../ocroptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## OcrOptions(OcrEventHandler) {#constructor_5}
+
+使用 [`OcrEventHandler`](../../ocreventhandler) 对象初始化 [`OcrOptions`](../../ocroptions) 类的新实例。
+
+```csharp
+public OcrOptions(OcrEventHandler handler)
+```
+
+| Parameter | Type | 描述 |
+| --- | --- | --- |
+| handler | OcrEventHandler | [`OcrEventHandler`](../../ocreventhandler) 的实例，用于捕获 OCR 事件。 |
+
+### 另请参见
+
+* class [OcrEventHandler](../../ocreventhandler)
+* class [OcrOptions](../../ocroptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## OcrOptions(Rectangle, OcrEventHandler) {#constructor_2}
+
+使用矩形区域和 [`OcrEventHandler`](../../ocreventhandler) 对象初始化 [`OcrOptions`](../../ocroptions) 类的新实例。
+
+```csharp
+public OcrOptions(Rectangle rectangle, OcrEventHandler handler)
+```
+
+| Parameter | Type | 描述 |
+| --- | --- | --- |
+| rectangle | 矩形 | 约束用于文本识别的页面区域的矩形区域。 |
+| handler | OcrEventHandler | [`OcrEventHandler`](../../ocreventhandler) 的实例，用于捕获 OCR 事件。 |
+
+### 另请参见
+
+* class [Rectangle](../../../groupdocs.parser.data/rectangle)
+* class [OcrEventHandler](../../ocreventhandler)
+* class [OcrOptions](../../ocroptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## OcrOptions(Rectangle, OcrEventHandler, PagePreviewOptions, bool) {#constructor_3}
+
+初始化 [`OcrOptions`](../../ocroptions) 类的新实例。
+
+```csharp
+public OcrOptions(Rectangle rectangle, OcrEventHandler handler, 
+    PagePreviewOptions pagePreviewOptions, bool useSpellCheker)
+```
+
+| Parameter | Type | 描述 |
+| --- | --- | --- |
+| rectangle | 矩形 | 约束用于文本识别的页面区域的矩形区域。 |
+| handler | OcrEventHandler | [`OcrEventHandler`](../../ocreventhandler) 的实例，用于捕获 OCR 事件。 |
+| pagePreviewOptions | PagePreviewOptions | [`PagePreviewOptions`](../pagepreviewoptions) 类的实例，用于设置文档页面预览生成的属性。 |
+| useSpellCheker | Boolean | 指示是否使用拼写检查器的值。 |
+
+### 另请参见
+
+* class [Rectangle](../../../groupdocs.parser.data/rectangle)
+* class [OcrEventHandler](../../ocreventhandler)
+* class [PagePreviewOptions](../../pagepreviewoptions)
+* class [OcrOptions](../../ocroptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## OcrOptions(Rectangle, OcrEventHandler, PagePreviewOptions, bool, Language) {#constructor_4}
+
+初始化 [`OcrOptions`](../../ocroptions) 类的新实例。
+
+```csharp
+public OcrOptions(Rectangle rectangle, OcrEventHandler handler, 
+    PagePreviewOptions pagePreviewOptions, bool useSpellCheker, Language language)
+```
+
+| Parameter | Type | 描述 |
+| --- | --- | --- |
+| rectangle | 矩形 | 约束用于文本识别的页面区域的矩形区域。 |
+| handler | OcrEventHandler | [`OcrEventHandler`](../../ocreventhandler) 的实例，用于捕获 OCR 事件。 |
+| pagePreviewOptions | PagePreviewOptions | [`PagePreviewOptions`](../pagepreviewoptions) 类的实例，用于设置文档页面预览生成的属性。 |
+| useSpellCheker | Boolean | 指示是否使用拼写检查器的值。 |
+| 语言 | Language | 用于 OCR 的语言。 |
+
+### 另请参见
+
+* class [Rectangle](../../../groupdocs.parser.data/rectangle)
+* class [OcrEventHandler](../../ocreventhandler)
+* class [PagePreviewOptions](../../pagepreviewoptions)
+* enum [Language](../../language)
+* class [OcrOptions](../../ocroptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Parser.dll -->
