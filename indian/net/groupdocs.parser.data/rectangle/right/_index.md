@@ -1,0 +1,28 @@
+---
+title: "दायाँ"
+second_title: "GroupDocs.Parser के लिए .NET API संदर्भ"
+description: "आयताकार क्षेत्र के दाएँ किनारे का x-निर्देशांक प्राप्त करता है।"
+type: docs
+weight: 50
+url: /hi/net/groupdocs.parser.data/rectangle/right/
+---
+
+## Rectangle.Right property
+
+आयताकार क्षेत्र के दाएँ किनारे का x-निर्देशांक प्राप्त करता है।
+
+```csharp
+public double Right { get; }
+```
+
+### Property Value
+
+एक डबल मान जो आयताकार क्षेत्र के दाएँ किनारे के x-निर्देशांक को दर्शाता है।
+
+### संबंधित देखें
+
+* class [Rectangle](../../rectangle)
+* namespace [GroupDocs.Parser.Data](../../../groupdocs.parser.data)
+* assembly [GroupDocs.Parser](../../../)
+
+<!-- संपादित न करें: xmldocmd द्वारा GroupDocs.Parser.dll के लिए उत्पन्न किया गया -->

@@ -1,0 +1,28 @@
+---
+title: "MinColumnIndex"
+second_title: "GroupDocs.Parser के लिए .NET API संदर्भ"
+description: "पहले कॉलम का सूचकांक प्राप्त करता है।"
+type: docs
+weight: 50
+url: /hi/net/groupdocs.parser.data/worksheetrange/mincolumnindex/
+---
+
+## WorksheetRange.MinColumnIndex property
+
+पहले कॉलम का सूचकांक प्राप्त करता है।
+
+```csharp
+public int MinColumnIndex { get; }
+```
+
+### Property Value
+
+पहले कॉलम का शून्य-आधारित सूचकांक।
+
+### संबंधित देखें
+
+* class [WorksheetRange](../../worksheetrange)
+* namespace [GroupDocs.Parser.Data](../../../groupdocs.parser.data)
+* assembly [GroupDocs.Parser](../../../)
+
+<!-- संपादित न करें: xmldocmd द्वारा GroupDocs.Parser.dll के लिए उत्पन्न किया गया -->

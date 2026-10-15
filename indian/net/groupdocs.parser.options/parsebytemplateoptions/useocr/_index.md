@@ -1,0 +1,28 @@
+---
+title: "UseOcr"
+second_title: "GroupDocs.Parser के लिए .NET API संदर्भ"
+description: "यह मान प्राप्त करता है जो दर्शाता है कि टेम्प्लेट द्वारा पार्स करने के लिए OCR Connector उपयोग किया गया है या नहीं।"
+type: docs
+weight: 40
+url: /hi/net/groupdocs.parser.options/parsebytemplateoptions/useocr/
+---
+
+## ParseByTemplateOptions.UseOcr property
+
+यह मान प्राप्त करता है जो दर्शाता है कि टेम्प्लेट द्वारा पार्स करने के लिए OCR Connector उपयोग किया गया है या नहीं।
+
+```csharp
+public bool UseOcr { get; set; }
+```
+
+### Property Value
+
+`true` यदि OCR कार्यक्षमता उपयोग की जाती है; अन्यथा, `false`।
+
+### संबंधित देखें
+
+* class [ParseByTemplateOptions](../../parsebytemplateoptions)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+<!-- संपादित न करें: xmldocmd द्वारा GroupDocs.Parser.dll के लिए उत्पन्न किया गया -->
