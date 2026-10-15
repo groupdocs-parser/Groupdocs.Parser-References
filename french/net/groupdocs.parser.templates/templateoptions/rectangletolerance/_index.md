@@ -1,0 +1,28 @@
+---
+title: "RectangleTolerance"
+second_title: "Référence API de GroupDocs.Parser pour .NET"
+description: "Obtient la taille de la bordure qui est ignorée lorsqu'elle est capturée par la zone rectangulaire. Elle est mesurée par la fraction de la hauteur d'un élément de texte."
+type: docs
+weight: 20
+url: /fr/net/groupdocs.parser.templates/templateoptions/rectangletolerance/
+---
+
+## TemplateOptions.RectangleTolerance property
+
+Obtient la taille de la bordure qui est ignorée lorsqu'elle est capturée par la zone rectangulaire. Elle est mesurée par la fraction de la hauteur d'un élément de texte.
+
+```csharp
+public double RectangleTolerance { get; }
+```
+
+### Valeur de retour
+
+La valeur double de 0 (pas de bordure) à 1 (ignorer tout l'élément).
+
+### Voir aussi
+
+* class [TemplateOptions](../../templateoptions)
+* namespace [GroupDocs.Parser.Templates](../../../groupdocs.parser.templates)
+* assembly [GroupDocs.Parser](../../../)
+
+<!-- NE PAS MODIFIER : généré par xmldocmd pour GroupDocs.Parser.dll -->
