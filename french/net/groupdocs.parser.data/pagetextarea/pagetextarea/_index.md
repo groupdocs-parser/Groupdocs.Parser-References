@@ -1,0 +1,82 @@
+---
+title: "PageTextArea"
+second_title: "Référence API de GroupDocs.Parser pour .NET"
+description: "Initialise une nouvelle instance de la classe PageTextAreagroupdocs.parser.data/pagetextarea."
+type: docs
+weight: 10
+url: /fr/net/groupdocs.parser.data/pagetextarea/pagetextarea/
+---
+
+## PageTextArea(string, Page, Rectangle) {#constructor_1}
+
+Initialise une nouvelle instance de la classe [`PageTextArea`](../../pagetextarea).
+
+```csharp
+public PageTextArea(string text, Page page, Rectangle rectangle)
+```
+
+| Paramètre | Type | Description |
+| --- | --- | --- |
+| text | Chaîne | La valeur du texte. |
+| page | Page | La page qui contient la zone de texte. |
+| rectangle | Rectangle | La zone rectangulaire qui contient la zone de texte. |
+
+### Voir aussi
+
+* class [Page](../../page)
+* class [Rectangle](../../rectangle)
+* class [PageTextArea](../../pagetextarea)
+* namespace [GroupDocs.Parser.Data](../../../groupdocs.parser.data)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## PageTextArea(string, double?, TextStyle, Page, Rectangle) {#constructor_2}
+
+Initialise une nouvelle instance de la classe [`PageTextArea`](../../pagetextarea).
+
+```csharp
+public PageTextArea(string text, double? baseLine, TextStyle textStyle, Page page, 
+    Rectangle rectangle)
+```
+
+| Paramètre | Type | Description |
+| --- | --- | --- |
+| text | Chaîne | La valeur du texte. |
+| baseLine | Nullable`1 | La ligne de base du texte. |
+| textStyle | TextStyle | Le style du texte. |
+| page | Page | La page qui contient la zone de texte. |
+| rectangle | Rectangle | La zone rectangulaire qui contient la zone de texte. |
+
+### Voir aussi
+
+* class [TextStyle](../../textstyle)
+* class [Page](../../page)
+* class [Rectangle](../../rectangle)
+* class [PageTextArea](../../pagetextarea)
+* namespace [GroupDocs.Parser.Data](../../../groupdocs.parser.data)
+* assembly [GroupDocs.Parser](../../../)
+
+---
+
+## PageTextArea(IEnumerable&lt;PageTextArea&gt;, Page) {#constructor}
+
+Initialise une nouvelle instance de la classe [`PageTextArea`](../../pagetextarea).
+
+```csharp
+public PageTextArea(IEnumerable<PageTextArea> areas, Page page)
+```
+
+| Paramètre | Type | Description |
+| --- | --- | --- |
+| areas | IEnumerable`1 | La collection de zones de page texte enfants. |
+| page | Page | La page qui contient la zone de texte. |
+
+### Voir aussi
+
+* class [Page](../../page)
+* class [PageTextArea](../../pagetextarea)
+* namespace [GroupDocs.Parser.Data](../../../groupdocs.parser.data)
+* assembly [GroupDocs.Parser](../../../)
+
+<!-- NE PAS MODIFIER : généré par xmldocmd pour GroupDocs.Parser.dll -->
