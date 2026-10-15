@@ -1,0 +1,28 @@
+---
+title: "IsItalic"
+second_title: "GroupDocs.Parser के लिए .NET API संदर्भ"
+description: "फ़ॉन्ट इटैलिक है या नहीं, यह दर्शाने वाला मान प्राप्त करता है।"
+type: docs
+weight: 50
+url: /hi/net/groupdocs.parser.data/textstyle/isitalic/
+---
+
+## TextStyle.IsItalic property
+
+फ़ॉन्ट इटैलिक है या नहीं, यह दर्शाने वाला मान प्राप्त करता है।
+
+```csharp
+public bool IsItalic { get; }
+```
+
+### रिटर्न वैल्यू
+
+`true` यदि फ़ॉन्ट इटैलिक है; अन्यथा, `false`।
+
+### संबंधित देखें
+
+* class [TextStyle](../../textstyle)
+* namespace [GroupDocs.Parser.Data](../../../groupdocs.parser.data)
+* assembly [GroupDocs.Parser](../../../)
+
+<!-- संपादित न करें: xmldocmd द्वारा GroupDocs.Parser.dll के लिए उत्पन्न किया गया -->

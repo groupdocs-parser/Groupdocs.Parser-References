@@ -1,0 +1,31 @@
+---
+title: "EmailPopConnection"
+second_title: "GroupDocs.Parser के लिए .NET API संदर्भ"
+description: "EmailPopConnectiongroupdocs.parser.options/emailpopconnection क्लास का नया उदाहरण प्रारंभ करता है।"
+type: docs
+weight: 10
+url: /hi/net/groupdocs.parser.options/emailpopconnection/emailpopconnection/
+---
+
+## EmailPopConnection constructor
+
+[`EmailPopConnection`](../../emailpopconnection) क्लास का नया उदाहरण प्रारंभ करता है।
+
+```csharp
+public EmailPopConnection(string host, int port, string userName, string password)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| host | स्ट्रिंग | होस्ट नाम। |
+| port | Int32 | पोर्ट संख्या। |
+| userName | स्ट्रिंग | उपयोगकर्ता नाम। |
+| password | स्ट्रिंग | पासवर्ड। |
+
+### संबंधित देखें
+
+* class [EmailPopConnection](../../emailpopconnection)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+<!-- संपादित न करें: xmldocmd द्वारा GroupDocs.Parser.dll के लिए उत्पन्न किया गया -->
