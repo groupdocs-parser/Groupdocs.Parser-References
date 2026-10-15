@@ -1,0 +1,24 @@
+---
+title: "OST"
+second_title: "Referensi API GroupDocs.Parser untuk .NET"
+description: "OST atau Offline Storage Files mewakili data kotak surat pengguna dalam mode offline pada mesin lokal setelah pendaftaran dengan Exchange Server menggunakan Microsoft Outlook. Pelajari lebih lanjut tentang format file ini di sinihttps//wiki.fileformat.com/email/ost/"
+type: docs
+weight: 470
+url: /id/net/groupdocs.parser.options/filetype/ost/
+---
+
+## FileType.OST field
+
+OST atau Offline Storage Files mewakili data kotak surat pengguna dalam mode offline pada mesin lokal setelah pendaftaran dengan Exchange Server menggunakan Microsoft Outlook. Pelajari lebih lanjut tentang format file ini [di sini](https://wiki.fileformat.com/email/ost/)
+
+```csharp
+public static readonly FileType OST;
+```
+
+### Lihat Juga
+
+* class [FileType](../../filetype)
+* namespace [GroupDocs.Parser.Options](../../../groupdocs.parser.options)
+* assembly [GroupDocs.Parser](../../../)
+
+<!-- JANGAN EDIT: dihasilkan oleh xmldocmd untuk GroupDocs.Parser.dll -->
