@@ -3,7 +3,7 @@ title: TocItem
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents the item which is used in the table of contents extraction functionality.
 type: docs
-weight: 920
+weight: 930
 url: /net/groupdocs.parser.data/tocitem/
 ---
 

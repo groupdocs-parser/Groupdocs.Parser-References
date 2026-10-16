@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used to open a file.
 type: docs
-weight: 420
+weight: 430
 url: /net/groupdocs.parser.options/loadoptions/
 ---
 
@@ -12,7 +12,7 @@ url: /net/groupdocs.parser.options/loadoptions/
 Provides the options which are used to open a file.
 
 ```csharp
-public sealed class LoadOptions
+public sealed class LoadOptions : IResourceLoadingOptions
 ```
 
 ## Constructors
@@ -40,7 +40,9 @@ public sealed class LoadOptions
 | [FileFormat](../../groupdocs.parser.options/loadoptions/fileformat) { get; } | Gets the file format. |
 | [FileType](../../groupdocs.parser.options/loadoptions/filetype) { get; } | Gets the file type. |
 | [Password](../../groupdocs.parser.options/loadoptions/password) { get; } | Gets the password. |
+| [SkipExternalResources](../../groupdocs.parser.options/loadoptions/skipexternalresources) { get; set; } | If true, all external resources will not be loaded except those in [`WhitelistedResources`](./whitelistedresources) list. Default: true |
 | [Timeout](../../groupdocs.parser.options/loadoptions/timeout) { get; } | Gets the value that represents the number of milliseconds to wait. |
+| [WhitelistedResources](../../groupdocs.parser.options/loadoptions/whitelistedresources) { get; set; } | External resources that will be always loaded |
 
 ### Remarks
 
@@ -58,6 +60,7 @@ See the usage examples there.
 
 ### See Also
 
+* interface [IResourceLoadingOptions](../iresourceloadingoptions)
 * namespace [GroupDocs.Parser.Options](../../groupdocs.parser.options)
 * assembly [GroupDocs.Parser](../../)
 

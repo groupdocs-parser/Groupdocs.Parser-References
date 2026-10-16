@@ -3,7 +3,7 @@ title: PageHyperlinkArea
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents a page area which is used to represent a hyperlink on the page.
 type: docs
-weight: 820
+weight: 830
 url: /net/groupdocs.parser.data/pagehyperlinkarea/
 ---
 

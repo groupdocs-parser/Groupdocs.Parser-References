@@ -3,7 +3,7 @@ title: OcrEventHandler
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides a handler for OCR events.
 type: docs
-weight: 440
+weight: 450
 url: /net/groupdocs.parser.options/ocreventhandler/
 ---
 

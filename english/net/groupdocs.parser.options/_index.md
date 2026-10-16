@@ -54,6 +54,7 @@ The namespace provides classes to specify additional options when parsing data f
 | --- | --- |
 | [IDocumentInfo](./idocumentinfo) | Represents the document information. |
 | [ILogger](./ilogger) | Defines the interface of a logger that is used for logging events and errors during data extraction. |
+| [IResourceLoadingOptions](./iresourceloadingoptions) | Represents set of options to control how external resources will be loaded |
 ## Enumeration
 
 | Enumeration | Description |

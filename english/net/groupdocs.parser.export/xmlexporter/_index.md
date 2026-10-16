@@ -3,7 +3,7 @@ title: XmlExporter
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the functionality to export data in XML format.
 type: docs
-weight: 660
+weight: 670
 url: /net/groupdocs.parser.export/xmlexporter/
 ---
 

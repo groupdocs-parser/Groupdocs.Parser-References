@@ -3,7 +3,7 @@ title: AnnotationItem
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents an annotation item which is used in annotation extraction functionality.
 type: docs
-weight: 710
+weight: 720
 url: /net/groupdocs.parser.data/annotationitem/
 ---
 

@@ -3,7 +3,7 @@ title: Language
 second_title: GroupDocs.Parser for .NET API Reference
 description: Defines the languages used for optical character recognition OCR. ISO 9393 codes are used.
 type: docs
-weight: 410
+weight: 420
 url: /net/groupdocs.parser.options/language/
 ---
 
