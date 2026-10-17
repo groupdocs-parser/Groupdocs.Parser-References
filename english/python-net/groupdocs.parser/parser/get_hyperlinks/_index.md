@@ -1,127 +1,155 @@
-﻿---
+---
 title: get_hyperlinks method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Extracts hyperlinks from the document."
 type: docs
 url: /python-net/groupdocs.parser/parser/get_hyperlinks/
 is_root: false
-weight: 100
+weight: 1240
 ---
 
-## get_hyperlinks {#}
+
+## get_hyperlinks
 
 Extracts hyperlinks from the document.
-
-
-### Returns 
-
-
-A collection of [`PageHyperlinkArea`](/parser/python-net/groupdocs.parser.data/pagehyperlinkarea) objects;
-`null` if hyperlinks extraction isn't supported.
-
 
 ```python
 def get_hyperlinks(self):
     ...
 ```
 
+**Returns:** Iterable[PageHyperlinkArea] or None: A collection of `PageHyperlinkArea` objects, or `None` if hyperlink extraction isn't supported.
 
+### Example
 
-### Example 
+```python
+from groupdocs.parser import Parser
 
+with Parser("document.pdf") as parser:
+    if not parser.features.hyperlinks:
+        print("Hyperlink extraction not supported")
+    else:
+        hyperlinks = parser.get_hyperlinks()
+        if hyperlinks:
+            for hyperlink in hyperlinks:
+                print(hyperlink.text)
+                print(hyperlink.url)
+                print()
+```
 
-The following example shows how to extract all hyperlinks from the whole document:
-
-
-## get_hyperlinks {#int}
+## get_hyperlinks {#page_index}
 
 Extracts hyperlinks from the document page.
-
-
-### Returns 
-
-
-A collection of [`PageHyperlinkArea`](/parser/python-net/groupdocs.parser.data/pagehyperlinkarea) objects;
-`null` if hyperlinks extraction isn't supported.
-
 
 ```python
 def get_hyperlinks(self, page_index):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| page_index | int | The zero-based page index. |
+| page_index | `int` | The zero-based page index. |
 
-### Example 
+**Returns:** Iterable[PageHyperlinkArea] | None: A collection of PageHyperlinkArea objects, or None if hyperlink extraction isn't supported.
 
+### Example
 
-The following example shows how to extract hyperlinks from the document page:
+```python
+from groupdocs.parser import Parser
 
+with Parser("./document.pdf") as parser:
+    # Verify that the document supports hyperlink extraction
+    if not parser.features.hyperlinks:
+        print("Hyperlink extraction not supported")
+    else:
+        page_index = 0
+        hyperlinks = parser.get_hyperlinks(page_index)
+        if hyperlinks:
+            for link in hyperlinks:
+                print(f"Text: {link.text}, URL: {link.url}")
+```
 
-## get_hyperlinks {#groupdocs.parser.options.PageAreaOptions}
+## get_hyperlinks {#options}
 
-Extracts hyperlinks from the document using customization options 
-(to set the rectangular area that contains hyperlinks).
-
-
-### Returns 
-
-
-A collection of [`PageHyperlinkArea`](/parser/python-net/groupdocs.parser.data/pagehyperlinkarea) objects;
-`null` if hyperlinks extraction isn't supported.
-
+Extracts hyperlinks from the document using customization options (to set the rectangular area that contains hyperlinks).
 
 ```python
 def get_hyperlinks(self, options):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | groupdocs.parser.options.PageAreaOptions | The options for hyperlinks extraction. |
+| options | `PageAreaOptions` | The options for hyperlinks extraction. |
 
-### Example 
+**Returns:** list[PageHyperlinkArea] or None: A collection of PageHyperlinkArea objects; None if hyperlink extraction isn't supported.
 
+### Example
 
-The following example shows how to extract hyperlinks from the document page area:
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.data import Rectangle, Point, Size
+from groupdocs.parser.options import PageAreaOptions
 
+with Parser("file.pdf") as parser:
+    if not parser.features.hyperlinks:
+        print("Hyperlink extraction not supported")
+    else:
+        # Define the rectangular area that contains hyperlinks
+        options = PageAreaOptions(Rectangle(Point(380, 90), Size(150, 50)))
+        hyperlinks = parser.get_hyperlinks(options)
+        for link in hyperlinks:
+            print(link.text)
+            print(link.url)
+```
 
-## get_hyperlinks {#int-groupdocs.parser.options.PageAreaOptions}
+## get_hyperlinks {#page_index-options}
 
-Extracts hyperlinks from the document page using customization options 
-(to set the rectangular area that contains hyperlinks).
-
-
-### Returns 
-
-
-A collection of [`PageHyperlinkArea`](/parser/python-net/groupdocs.parser.data/pagehyperlinkarea) objects;
-`null` if hyperlinks extraction isn't supported.
-
+Extracts hyperlinks from the document page using customization options to set the rectangular area that contains hyperlinks.
 
 ```python
 def get_hyperlinks(self, page_index, options):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| page_index | int | The zero-based page index. |
-| options | groupdocs.parser.options.PageAreaOptions | The options for hyperlinks extraction. |
+| page_index | `int` | The zero‑based page index. |
+| options | `PageAreaOptions` | The options for hyperlinks extraction. |
 
-### Example 
+**Returns:** Iterable[PageHyperlinkArea] | None: A collection of `PageHyperlinkArea` objects; `None` if hyperlink extraction isn't supported.
 
+### Example
 
-The following example shows how to extract hyperlinks from the document page area using customization options:
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.data import Rectangle, Point, Size
+from groupdocs.parser.options import PageAreaOptions
 
+file_path = "sample.pdf"
+with Parser(file_path) as parser:
+    if not parser.features.hyperlinks:
+        print("Document doesn't support hyperlink extraction")
+        exit()
 
+    doc_info = parser.get_document_info()
+    if doc_info.page_count == 0:
+        print("Document has no pages")
+        exit()
+
+    # Define the area that contains hyperlinks
+    options = PageAreaOptions(Rectangle(Point(380, 90), Size(150, 50)))
+
+    for page_index in range(doc_info.page_count):
+        print(f"Page {page_index + 1}/{doc_info.page_count}")
+        hyperlinks = parser.get_hyperlinks(page_index, options)
+        if not hyperlinks:
+            continue
+        for h in hyperlinks:
+            print(h.text)
+            print(h.url)
+            print()
+```
 
 ### See Also
-* module [`groupdocs.parser`](../../)
-* class [`PageHyperlinkArea`](/parser/python-net/groupdocs.parser.data/pagehyperlinkarea)
-* class [`Parser`](/parser/python-net/groupdocs.parser/parser)
+* class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

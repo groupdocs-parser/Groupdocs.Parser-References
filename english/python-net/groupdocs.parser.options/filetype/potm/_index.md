@@ -1,21 +1,17 @@
-﻿---
-title: POTM property
+---
+title: POTM field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Files with POTM extension are Microsoft PowerPoint template files with support for Macros."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/potm/
 is_root: false
-weight: 610
+weight: 3480
 ---
 
-## POTM property
 
+## POTM field
 
-Files with POTM extension are Microsoft PowerPoint template files with support for Macros. POTM files
-are created with PowerPoint 2007 or above and contains default settings that can be used to create
-further presentation files. Learn more about this file format
-[here](https://wiki.fileformat.com/presentation/potm/).
+Files with POTM extension are Microsoft PowerPoint template files with support for Macros. POTM files are created with PowerPoint 2007 or above and contains default settings that can be used to create further presentation files. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

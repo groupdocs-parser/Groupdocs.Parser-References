@@ -1,43 +1,32 @@
-﻿---
+---
 title: EmailImapConnection class
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Represents the email connection information for IMAP protocol."
 type: docs
 url: /python-net/groupdocs.parser.options/emailimapconnection/
 is_root: false
-weight: 60
+weight: 70
 ---
+
 
 ## EmailImapConnection class
 
 Represents the email connection information for IMAP protocol.
-
-
-
-**Inheritance:** [`EmailImapConnection`](/parser/python-net/groupdocs.parser.options/emailimapconnection) → 
-[`EmailConnection`](/parser/python-net/groupdocs.parser.options/emailconnection)
-
-
 
 The EmailImapConnection type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/parser/python-net/groupdocs.parser.options/emailimapconnection/__init__/#System.String-int-System.String-System.String) | Initializes a new instance of the [`EmailImapConnection`](/parser/python-net/groupdocs.parser.options/emailimapconnection) class. |
-
+| [__init__](/parser/python-net/groupdocs.parser.options/emailimapconnection/__init__/#host-port-user_name-password) | Initializes a new EmailImapConnection instance. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [user_name](/parser/python-net/groupdocs.parser.options/emailimapconnection/user_name) | Gets the user name. |
-| [password](/parser/python-net/groupdocs.parser.options/emailimapconnection/password) | Gets the password. |
-| [host](/parser/python-net/groupdocs.parser.options/emailimapconnection/host) | Gets the host name. |
-| [port](/parser/python-net/groupdocs.parser.options/emailimapconnection/port) | Gets the port number. |
-
-
+| [host](/parser/python-net/groupdocs.parser.options/emailimapconnection/host/) | The host name as a string. |
+| [port](/parser/python-net/groupdocs.parser.options/emailimapconnection/port/) | The port number as an integer. |
+| [password](/parser/python-net/groupdocs.parser.options/emailconnection/password/) | The password used for the email connection. (inherited from [`EmailConnection`](/parser/python-net/groupdocs.parser.options/emailconnection/)) |
+| [user_name](/parser/python-net/groupdocs.parser.options/emailconnection/user_name/) | The user name. (inherited from [`EmailConnection`](/parser/python-net/groupdocs.parser.options/emailconnection/)) |
 
 ### See Also
-* module [`groupdocs.parser.options`](..)
-* class [`EmailConnection`](/parser/python-net/groupdocs.parser.options/emailconnection)
-* class [`EmailImapConnection`](/parser/python-net/groupdocs.parser.options/emailimapconnection)
+* module [`groupdocs.parser.options`](/parser/python-net/groupdocs.parser.options/)

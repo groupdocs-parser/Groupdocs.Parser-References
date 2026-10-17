@@ -1,38 +1,29 @@
-﻿---
+---
 title: try_parse method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Converts the string representation of a size to its class equivalent."
 type: docs
 url: /python-net/groupdocs.parser.data/size/try_parse/
 is_root: false
-weight: 30
+weight: 1030
 ---
 
-## try_parse {#System.String-any}
+
+## try_parse {#s-size}
 
 Converts the string representation of a size to its class equivalent.
-A return value indicates whether the conversion is succeeded or failed.
-
-
-### Returns 
-
-
-`true` if `s` is converted successfully; otherwise, `false`.
-
 
 ```python
-def try_parse(self, s, size):
+def try_parse(cls, s, size):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| s | System.String | A string containing a size to convert. |
-| size | any | When the method returns, it contains the instance of [`Size`](/parser/python-net/groupdocs.parser.data/size) class <br/>that is equivalent to the value specified in `s` parameter, if the conversion is succeeded; otherwise, `null`. |
+| s | `str` | A string containing a size to convert. |
+| size | `Size` | When the method returns, contains the instance of `Size` that is equivalent to the value specified in `s` if the conversion succeeded; otherwise, `None`. |
 
-
+**Returns:** bool: `True` if `s` is converted successfully; otherwise, `False`.
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`Size`](/parser/python-net/groupdocs.parser.data/size)
+* class [`Size`](/parser/python-net/groupdocs.parser.data/size/)

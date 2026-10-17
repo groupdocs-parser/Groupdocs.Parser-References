@@ -1,17 +1,20 @@
-﻿---
+---
 title: port property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The port number."
 type: docs
 url: /python-net/groupdocs.parser.options/emailpopconnection/port/
 is_root: false
-weight: 50
+weight: 2020
 ---
+
 
 ## port property
 
+The port number.
 
-Gets the port number.
+An integer value that represents the port number.
+
 ### Definition:
 ```python
 @property
@@ -20,5 +23,4 @@ def port(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`EmailPopConnection`](/parser/python-net/groupdocs.parser.options/emailpopconnection)
+* class [`EmailPopConnection`](/parser/python-net/groupdocs.parser.options/emailpopconnection/)

@@ -1,174 +1,161 @@
-﻿---
+---
 title: get_barcodes method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Extracts barcodes from the document."
 type: docs
 url: /python-net/groupdocs.parser/parser/get_barcodes/
 is_root: false
-weight: 40
+weight: 1080
 ---
 
-## get_barcodes {#}
+
+## get_barcodes
 
 Extracts barcodes from the document.
-
-
-### Returns 
-
-
-A collection of [`PageBarcodeArea`](/parser/python-net/groupdocs.parser.data/pagebarcodearea) objects;
-`null` if barcodes extraction isn't supported.
-
 
 ```python
 def get_barcodes(self):
     ...
 ```
 
+**Returns:** A collection of `PageBarcodeArea` objects; `None` if barcodes extraction isn't supported.
 
+### Example
 
-### Example 
+```python
+from groupdocs.parser import Parser
 
+file_path = "sample.pdf"
+with Parser(file_path) as parser:
+    barcodes = parser.get_barcodes()
+    for barcode in barcodes:
+        print(f"Page: {barcode.page.index}")
+        print(f"Value: {barcode.value}")
+```
 
-The following example shows how to extract barcodes from a document:
-
-
-## get_barcodes {#int}
+## get_barcodes {#page_index}
 
 Extracts barcodes from the document page.
-
-
-### Returns 
-
-
-A collection of [`PageBarcodeArea`](/parser/python-net/groupdocs.parser.data/pagebarcodearea) objects;
-`null` if barcodes extraction isn't supported.
-
 
 ```python
 def get_barcodes(self, page_index):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| page_index | int | The zero-based page index. |
+| page_index | `int` | The zero-based page index. |
 
-### Example 
+**Returns:** Iterable[PageBarcodeArea] or None: A collection of `PageBarcodeArea` objects; `None` if barcodes extraction isn't supported.
 
+### Example
 
-The following example shows how to extract barcodes from a document page:
+```python
+from groupdocs.parser import Parser
 
+parser = Parser(file_path)
+barcodes = parser.get_barcodes(1)
+for barcode in barcodes:
+    print(f"Page: {barcode.page.index}")
+    print(f"Value: {barcode.value}")
+```
 
-## get_barcodes {#groupdocs.parser.options.PageAreaOptions}
+## get_barcodes {#options}
 
-Extracts barcodes from the document using customization options 
-(to set the rectangular area that contains barcodes).
+Extracts barcodes from the document using customization options (to set the rectangular area that contains barcodes).
 
-
-### Returns 
-
-
-A collection of [`PageBarcodeArea`](/parser/python-net/groupdocs.parser.data/pagebarcodearea) objects;
-`null` if barcodes extraction isn't supported.
-
+The following example shows how to extract barcodes from the upper‑right corner.
 
 ```python
 def get_barcodes(self, options):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | groupdocs.parser.options.PageAreaOptions | The options for barcodes extraction. |
+| options | `PageAreaOptions` | The options for barcodes extraction. |
 
-### Example 
+**Returns:** list[PageBarcodeArea]: A collection of PageBarcodeArea objects; None if barcodes extraction isn't supported.
 
+### Example
 
-The following example shows how to extract barcodes from the upper-right corner.
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.data import Rectangle, Point, Size
+from groupdocs.parser.options import PageAreaOptions
 
+with Parser(file_path) as parser:
+    options = PageAreaOptions(Rectangle(Point(590, 80), Size(150, 150)))
+    barcodes = parser.get_barcodes(options)
+    for barcode in barcodes:
+        print(f"Page: {barcode.page.index}")
+        print(f"Value: {barcode.value}")
+```
 
-## get_barcodes {#groupdocs.parser.options.BarcodeOptions}
+## get_barcodes {#options}
 
 Extracts barcodes from the document using customization options.
 
-
-### Returns 
-
-
-A collection of [`PageBarcodeArea`](/parser/python-net/groupdocs.parser.data/pagebarcodearea) objects;
-`null` if barcodes extraction isn't supported.
-
-
 ```python
 def get_barcodes(self, options):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | groupdocs.parser.options.BarcodeOptions | The options for barcodes extraction. |
+| options | `BarcodeOptions` | The options for barcodes extraction. |
 
-### Example 
+**Returns:** Iterable[PageBarcodeArea] | None: A collection of PageBarcodeArea objects; None if barcodes extraction isn't supported.
 
+### Example
 
-The following example shows how to extract barcodes from the upper-right corner.
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.data import Rectangle, Point, Size
+from groupdocs.parser.options import BarcodeOptions
 
+file_path = "sample.pdf"
+with Parser(file_path) as parser:
+    # Extract barcodes from the upper‑right corner of each page
+    options = BarcodeOptions(Rectangle(Point(590, 80), Size(150, 150)))
+    barcodes = parser.get_barcodes(options)
 
-## get_barcodes {#int-groupdocs.parser.options.PageAreaOptions}
+    for barcode in barcodes:
+        print(f"Page: {barcode.page.index}")
+        print(f"Value: {barcode.value}")
+```
 
-Extracts barcodes from the document page using customization options 
-(to set the rectangular area that contains barcodes).
+## get_barcodes {#page_index-options}
 
-
-### Returns 
-
-
-A collection of [`PageBarcodeArea`](/parser/python-net/groupdocs.parser.data/pagebarcodearea) objects;
-`null` if barcodes extraction isn't supported.
-
+Extracts barcodes from a document page using customization options to set the rectangular area that contains barcodes.
 
 ```python
 def get_barcodes(self, page_index, options):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| page_index | int | The zero-based page index. |
-| options | groupdocs.parser.options.PageAreaOptions | The options for barcodes extraction. |
+| page_index | `int` | The zero-based page index. |
+| options | `PageAreaOptions` | The options for barcodes extraction. |
 
+**Returns:** list[PageBarcodeArea] | None: A collection of PageBarcodeArea objects; None if barcode extraction isn't supported.
 
-## get_barcodes {#int-groupdocs.parser.options.BarcodeOptions}
+## get_barcodes {#page_index-options}
 
 Extracts barcodes from the document page using customization options.
 
-
-### Returns 
-
-
-A collection of [`PageBarcodeArea`](/parser/python-net/groupdocs.parser.data/pagebarcodearea) objects;
-`null` if barcodes extraction isn't supported.
-
-
 ```python
 def get_barcodes(self, page_index, options):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| page_index | int | The zero-based page index. |
-| options | groupdocs.parser.options.BarcodeOptions | The options for barcodes extraction. |
+| page_index | `int` | The zero-based page index. |
+| options | `BarcodeOptions` | The options for barcodes extraction. |
 
-
+**Returns:** list[PageBarcodeArea] or None: A collection of PageBarcodeArea objects; None if barcode extraction isn't supported.
 
 ### See Also
-* module [`groupdocs.parser`](../../)
-* class [`PageBarcodeArea`](/parser/python-net/groupdocs.parser.data/pagebarcodearea)
-* class [`Parser`](/parser/python-net/groupdocs.parser/parser)
+* class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

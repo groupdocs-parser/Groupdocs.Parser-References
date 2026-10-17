@@ -1,109 +1,84 @@
-﻿---
+---
 title: recognize_text_areas method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Recognize text areas from image_stream stream."
 type: docs
 url: /python-net/groupdocs.parser.options/ocrconnectorbase/recognize_text_areas/
 is_root: false
-weight: 30
+weight: 1020
 ---
 
-## recognize_text_areas {#io.RawIOBase-groupdocs.parser.data.Size-groupdocs.parser.options.OcrOptions}
+
+## recognize_text_areas {#image_stream-page_index-page_size-options}
 
 Recognize text areas from `image_stream` stream.
-
-
-### Returns 
-
-
-A collection of [`PageTextArea`](/parser/python-net/groupdocs.parser.data/pagetextarea) objects; `null` if text areas recognizing isn't supported.
-
-
-```python
-def recognize_text_areas(self, image_stream, page_size, options):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| image_stream | io.RawIOBase | The image representation of the document page. |
-| page_size | groupdocs.parser.data.Size | The size of the document page. |
-| options | groupdocs.parser.options.OcrOptions | The OCR options. |
-
-
-## recognize_text_areas {#io.RawIOBase-groupdocs.parser.data.Page-groupdocs.parser.options.OcrOptions}
-
-Recognize text areas from `image_stream` stream.
-
-
-### Returns 
-
-
-A collection of [`PageTextArea`](/parser/python-net/groupdocs.parser.data/pagetextarea) objects; `null` if text areas recognizing isn't supported.
-
-
-```python
-def recognize_text_areas(self, image_stream, page, options):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| image_stream | io.RawIOBase | The image representation of the document page. |
-| page | groupdocs.parser.data.Page | The the document page. |
-| options | groupdocs.parser.options.OcrOptions | The OCR options. |
-
-
-## recognize_text_areas {#io.RawIOBase-int-groupdocs.parser.data.Size-groupdocs.parser.options.OcrOptions}
-
-Recognize text areas from `image_stream` stream.
-
-
-### Returns 
-
-
-A collection of [`PageTextArea`](/parser/python-net/groupdocs.parser.data/pagetextarea) objects; `null` if text areas recognizing isn't supported.
-
 
 ```python
 def recognize_text_areas(self, image_stream, page_index, page_size, options):
     ...
 ```
 
+| Parameter | Type | Description |
+| :- | :- | :- |
+| image_stream | `io.RawIOBase` | The image representation of the document page. |
+| page_index | `int` | The page index of the document. |
+| page_size | `Size` | The size of the document page. |
+| options | `OcrOptions` | The OCR options. |
+
+**Returns:** Iterable[PageTextArea]: A collection of PageTextArea objects; None if text areas recognizing isn't supported.
+
+## recognize_text_areas {#image_stream-page_size-options}
+
+Recognizes text areas from the provided image stream.
+
+```python
+def recognize_text_areas(self, image_stream, page_size, options):
+    ...
+```
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image_stream | io.RawIOBase | The image representation of the document page. |
-| page_index | int | The page index of the document. |
-| page_size | groupdocs.parser.data.Size | The size of the document page. |
-| options | groupdocs.parser.options.OcrOptions | The OCR options. |
+| image_stream | `io.RawIOBase` | The image representation of the document page. |
+| page_size | `Size` | The size of the document page. |
+| options | `OcrOptions` | The OCR options. |
 
+**Returns:** A collection of `PageTextArea` objects; None if text areas recognizing isn't supported.
 
-## recognize_text_areas {#io.RawIOBase-list-System.String-groupdocs.parser.data.Page-groupdocs.parser.options.OcrOptions}
+## recognize_text_areas {#image_stream-page-options}
 
+Recognizes text areas from `image_stream` stream.
 
+```python
+def recognize_text_areas(self, image_stream, page, options):
+    ...
+```
 
+| Parameter | Type | Description |
+| :- | :- | :- |
+| image_stream | `io.RawIOBase` | The image representation of the document page. |
+| page | `Page` | The document page. |
+| options | `OcrOptions` | The OCR options. |
 
+**Returns:** A collection of `PageTextArea` objects; `None` if text areas recognizing isn't supported.
+
+## recognize_text_areas {#image_stream-rectangles-allowed_symbols-page-options}
+
+Recognizes text areas from the given image stream.
 
 ```python
 def recognize_text_areas(self, image_stream, rectangles, allowed_symbols, page, options):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image_stream | io.RawIOBase |  |
-| rectangles | list |  |
-| allowed_symbols | System.String |  |
-| page | groupdocs.parser.data.Page |  |
-| options | groupdocs.parser.options.OcrOptions |  |
+| image_stream | `io.RawIOBase` | The image representation of the document page. |
+| rectangles | `Iterable[Rectangle]` | The collection of rectangular areas that limits the OCR functionality. |
+| allowed_symbols | `str` | The filter of allowed symbols by OCR. |
+| page | `Page` | The document page. |
+| options | `OcrOptions` | The OCR options. |
 
-
+**Returns:** A collection of `PageTextArea` objects; `None` if text areas recognizing isn't supported.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`OcrConnectorBase`](/parser/python-net/groupdocs.parser.options/ocrconnectorbase)
-* class [`PageTextArea`](/parser/python-net/groupdocs.parser.data/pagetextarea)
+* class [`OcrConnectorBase`](/parser/python-net/groupdocs.parser.options/ocrconnectorbase/)

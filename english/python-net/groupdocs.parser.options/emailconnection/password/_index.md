@@ -1,17 +1,20 @@
-﻿---
+---
 title: password property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The password used for the email connection."
 type: docs
 url: /python-net/groupdocs.parser.options/emailconnection/password/
 is_root: false
-weight: 30
+weight: 2010
 ---
+
 
 ## password property
 
+The password used for the email connection.
 
-Gets the password.
+A string value that represents the password.
+
 ### Definition:
 ```python
 @property
@@ -20,5 +23,4 @@ def password(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`EmailConnection`](/parser/python-net/groupdocs.parser.options/emailconnection)
+* class [`EmailConnection`](/parser/python-net/groupdocs.parser.options/emailconnection/)

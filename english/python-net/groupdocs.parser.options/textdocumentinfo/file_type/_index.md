@@ -1,18 +1,24 @@
-﻿---
+---
 title: file_type property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The document type as a FileType instance that represents the type of the document."
 type: docs
 url: /python-net/groupdocs.parser.options/textdocumentinfo/file_type/
 is_root: false
-weight: 40
+weight: 2020
 ---
+
 
 ## file_type property
 
+The document type as a [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/) instance that represents the type of the document.
 
-Gets the document type.
+### Definition:
+```python
+@property
+def file_type(self):
+    ...
+```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`TextDocumentInfo`](/parser/python-net/groupdocs.parser.options/textdocumentinfo)
+* class [`TextDocumentInfo`](/parser/python-net/groupdocs.parser.options/textdocumentinfo/)

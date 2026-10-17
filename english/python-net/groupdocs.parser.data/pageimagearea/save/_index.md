@@ -1,59 +1,81 @@
-﻿---
+---
 title: save method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Saves the image to the file."
 type: docs
 url: /python-net/groupdocs.parser.data/pageimagearea/save/
 is_root: false
-weight: 30
+weight: 1030
 ---
 
-## save {#System.String}
+
+## save {#file_path}
 
 Saves the image to the file.
-
-
 
 ```python
 def save(self, file_path):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | System.String | The path to the file. |
+| file_path | `str` | The path to the file. |
 
-### Example 
+### Example
 
+```python
+import uuid
+from groupdocs.parser import Parser
 
-The following example shows how to save images to files:
+parser = Parser(file_path)
+images = parser.get_images()
 
+if images is None:
+    print("Page images extraction isn't supported")
+else:
+    for image in images:
+        # Save the image to a file with a unique name
+        image.save(f"{uuid.uuid4()}{image.file_type.extension}")
+```
 
-## save {#System.String-groupdocs.parser.options.ImageOptions}
+## save {#file_path-options}
 
 Saves the image to the file in a different format.
-
-
 
 ```python
 def save(self, file_path, options):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | System.String | The path to the file. |
-| options | groupdocs.parser.options.ImageOptions | The options which are used to save the image. |
+| file_path | `str` | The path to the file. |
+| options | `ImageOptions` | The options which are used to save the image. |
 
-### Example 
+### Example
 
+```python
+import uuid
+from groupdocs.parser import Parser
+from groupdocs.parser.options import ImageOptions, ImageFormat
 
-The following example shows how to save images to files in a different format:
+# Initialize parser for the source document
+parser = Parser(file_path)
 
+# Extract images from the document
+images = parser.get_images()
 
+if images is None:
+    print("Page images extraction isn't supported")
+else:
+    # Create options to save images in PNG format
+    options = ImageOptions(ImageFormat.Png)
+
+    for image in images:
+        # Save each image to a PNG file with a unique name
+        image.save(f"{uuid.uuid4()}.png", options)
+```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`PageImageArea`](/parser/python-net/groupdocs.parser.data/pageimagearea)
+* class [`PageImageArea`](/parser/python-net/groupdocs.parser.data/pageimagearea/)

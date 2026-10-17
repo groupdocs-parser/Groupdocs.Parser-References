@@ -1,20 +1,17 @@
-﻿---
-title: ODG property
+---
+title: ODG field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The ODG file format is used by Apache OpenOffice's Draw application to store drawing elements as a vector image."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/odg/
 is_root: false
-weight: 470
+weight: 3890
 ---
 
-## ODG property
 
+## ODG field
 
-The ODG file format is used by Apache OpenOffice's Draw application to store
-drawing elements as a vector image. Learn more about this file format
-[here](https://wiki.fileformat.com/image/odg/).
+The ODG file format is used by Apache OpenOffice's Draw application to store drawing elements as a vector image. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

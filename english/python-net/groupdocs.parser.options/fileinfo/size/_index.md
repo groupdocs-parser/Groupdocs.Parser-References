@@ -1,17 +1,20 @@
-﻿---
+---
 title: size property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The size of the document in bytes."
 type: docs
 url: /python-net/groupdocs.parser.options/fileinfo/size/
 is_root: false
-weight: 50
+weight: 2030
 ---
+
 
 ## size property
 
+The size of the document in bytes.
 
-Gets the size of the document in bytes.
+It is returned as an integer representing the number of bytes.
+
 ### Definition:
 ```python
 @property
@@ -20,5 +23,4 @@ def size(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileInfo`](/parser/python-net/groupdocs.parser.options/fileinfo)
+* class [`FileInfo`](/parser/python-net/groupdocs.parser.options/fileinfo/)

@@ -1,17 +1,20 @@
-﻿---
+---
 title: page_preview_options property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The document page preview options."
 type: docs
 url: /python-net/groupdocs.parser.options/barcodeoptions/page_preview_options/
 is_root: false
-weight: 80
+weight: 2060
 ---
+
 
 ## page_preview_options property
 
+The document page preview options.
 
-Gets or sets the document page preview options.
+An instance of [`BarcodeOptions.page_preview_options`](/parser/python-net/groupdocs.parser.options/barcodeoptions/page_preview_options/) that sets properties for the document page preview generation.
+
 ### Definition:
 ```python
 @property
@@ -23,6 +26,4 @@ def page_preview_options(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`BarcodeOptions`](/parser/python-net/groupdocs.parser.options/barcodeoptions)
-* class [`PagePreviewOptions`](/parser/python-net/groupdocs.parser.options/pagepreviewoptions)
+* class [`BarcodeOptions`](/parser/python-net/groupdocs.parser.options/barcodeoptions/)

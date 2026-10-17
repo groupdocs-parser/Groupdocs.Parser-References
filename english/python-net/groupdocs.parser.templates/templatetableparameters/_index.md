@@ -1,55 +1,68 @@
-﻿---
+---
 title: TemplateTableParameters class
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Provides parameters for the table detection algorithms."
 type: docs
 url: /python-net/groupdocs.parser.templates/templatetableparameters/
 is_root: false
 weight: 140
 ---
 
+
 ## TemplateTableParameters class
 
 Provides parameters for the table detection algorithms.
 
+There are two algorithms to detect a table:
 
+- Detect a table in the rectangular area with set columns. This algorithm is useful for simple tables (without merged columns) and provides more accurate detection.
+- Detect a table in any place on the page. This is a more complex algorithm. It can detect tables in any place on the page. Additional parameters help to detect a table more correctly.
+
+In some cases when algorithms can't detect a table or do it in a non‑accurate way, [`TemplateTableLayout`](/parser/python-net/groupdocs.parser.templates/templatetablelayout/) class is used.
 
 The TemplateTableParameters type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/parser/python-net/groupdocs.parser.templates/templatetableparameters/__init__/#groupdocs.parser.data.Rectangle-list) | Constructs a new instance of TemplateTableParameters |
-| [__init__](/parser/python-net/groupdocs.parser.templates/templatetableparameters/__init__/#groupdocs.parser.data.Rectangle-list-System.Nullable`1[[System.Boolean]]-System.Nullable`1[[System.Int32]]-System.Nullable`1[[System.Int32]]-System.Nullable`1[[System.Int32]]) | Constructs a new instance of TemplateTableParameters |
-
+| [__init__](/parser/python-net/groupdocs.parser.templates/templatetableparameters/__init__/#rectangle-vertical_separators) | Initializes a new instance of the TemplateTableParameters class. |
+| [__init__](/parser/python-net/groupdocs.parser.templates/templatetableparameters/__init__/#rectangle-vertical_separators-has_merged_cells-min_row_count-min_column_count-min_vertical_space) | Initializes a new instance of the TemplateTableParameters class. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [rectangle](/parser/python-net/groupdocs.parser.templates/templatetableparameters/rectangle) | Gets the rectangular area that contains the table. |
-| [has_merged_cells](/parser/python-net/groupdocs.parser.templates/templatetableparameters/has_merged_cells) | Gets the value that indicates whether the table has merged cells. |
-| [min_row_count](/parser/python-net/groupdocs.parser.templates/templatetableparameters/min_row_count) | Gets the minimum number of the table rows. |
-| [min_column_count](/parser/python-net/groupdocs.parser.templates/templatetableparameters/min_column_count) | Gets the minimum number of the table columns. |
-| [min_vertical_space](/parser/python-net/groupdocs.parser.templates/templatetableparameters/min_vertical_space) | Gets the minumum space between the table columns. |
-| [vertical_separators](/parser/python-net/groupdocs.parser.templates/templatetableparameters/vertical_separators) | Gets the table columns separators. |
+| [has_merged_cells](/parser/python-net/groupdocs.parser.templates/templatetableparameters/has_merged_cells/) | The value indicates whether the table has merged cells. True if the table has merged cells; otherwise False. None if it isn't set. |
+| [min_column_count](/parser/python-net/groupdocs.parser.templates/templatetableparameters/min_column_count/) | The minimum number of the table columns; None if it isn't set. |
+| [min_row_count](/parser/python-net/groupdocs.parser.templates/templatetableparameters/min_row_count/) | The minimum number of table rows. |
+| [min_vertical_space](/parser/python-net/groupdocs.parser.templates/templatetableparameters/min_vertical_space/) | The minimum space between the table columns. |
+| [rectangle](/parser/python-net/groupdocs.parser.templates/templatetableparameters/rectangle/) | The rectangular area that contains the table. |
+| [vertical_separators](/parser/python-net/groupdocs.parser.templates/templatetableparameters/vertical_separators/) | The table columns separators. |
 
+### Example
 
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.data import Rectangle, Point, Size
+from groupdocs.parser.templates import Template, TemplateTable, TemplateTableParameters
 
-### Remarks 
+table_area = Rectangle(Point(175.0, 350.0), Size(400.0, 200.0))
+columns = [185.0, 370.0, 425.0, 485.0, 545.0]
 
+table = TemplateTable(
+    parameters=TemplateTableParameters(table_area, columns),
+    name="Details",
+)
 
-There are two algorithms to detect a table:
+template = Template([table])
 
-|
-|
- |
- |
-
-
-
-In some cases when algorithms can't detect a table or do it in non-accurate way
-[`TemplateTableLayout`](/parser/python-net/groupdocs.parser.templates/templatetablelayout) class is used.
+with Parser("./invoice.pdf") as parser:
+    data = parser.parse_by_template(template)
+    if data is not None:
+        fields = data.get_fields_by_name("Details")
+        if fields:
+            details = fields[0].page_area
+            print(f"Rows extracted: {details.row_count}")
+```
 
 ### See Also
-* module [`groupdocs.parser.templates`](..)
-* class [`TemplateTableLayout`](/parser/python-net/groupdocs.parser.templates/templatetablelayout)
+* module [`groupdocs.parser.templates`](/parser/python-net/groupdocs.parser.templates/)

@@ -1,17 +1,20 @@
-﻿---
+---
 title: size property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The size of the page."
 type: docs
 url: /python-net/groupdocs.parser.data/page/size/
 is_root: false
-weight: 40
+weight: 2020
 ---
+
 
 ## size property
 
+The size of the page.
 
-Gets the page size.
+An instance of [`Size`](/parser/python-net/groupdocs.parser.data/size/) class that represents the size of the page.
+
 ### Definition:
 ```python
 @property
@@ -23,6 +26,4 @@ def size(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`Page`](/parser/python-net/groupdocs.parser.data/page)
-* class [`Size`](/parser/python-net/groupdocs.parser.data/size)
+* class [`Page`](/parser/python-net/groupdocs.parser.data/page/)

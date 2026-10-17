@@ -1,18 +1,26 @@
-﻿---
+---
 title: page_count property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The total number of document pages."
 type: docs
 url: /python-net/groupdocs.parser.options/textdocumentinfo/page_count/
 is_root: false
-weight: 50
+weight: 2030
 ---
+
 
 ## page_count property
 
+The total number of document pages.
 
-Gets the total number of document pages.
+An integer value that represents the total number of pages.
+
+### Definition:
+```python
+@property
+def page_count(self):
+    ...
+```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`TextDocumentInfo`](/parser/python-net/groupdocs.parser.options/textdocumentinfo)
+* class [`TextDocumentInfo`](/parser/python-net/groupdocs.parser.options/textdocumentinfo/)

@@ -1,34 +1,29 @@
-﻿---
-title: EmailImapConnection constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Initializes a new EmailImapConnection instance."
 type: docs
 url: /python-net/groupdocs.parser.options/emailimapconnection/__init__/
 is_root: false
 weight: 10
 ---
 
-## __init__ {#System.String-int-System.String-System.String}
 
-Initializes a new instance of the [`EmailImapConnection`](/parser/python-net/groupdocs.parser.options/emailimapconnection) class.
+## __init__ {#host-port-user_name-password}
 
-
+Initializes a new EmailImapConnection instance.
 
 ```python
 def __init__(self, host, port, user_name, password):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| host | System.String | The host name. |
-| port | int | The port number. |
-| user_name | System.String | The user name. |
-| password | System.String | The password. |
-
-
+| host | `str` | The host name. |
+| port | `int` | The port number. |
+| user_name | `str` | The user name. |
+| password | `str` | The password. |
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`EmailImapConnection`](/parser/python-net/groupdocs.parser.options/emailimapconnection)
+* class [`EmailImapConnection`](/parser/python-net/groupdocs.parser.options/emailimapconnection/)

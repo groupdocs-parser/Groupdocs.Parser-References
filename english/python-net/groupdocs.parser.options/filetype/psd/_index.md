@@ -1,20 +1,17 @@
-﻿---
-title: PSD property
+---
+title: PSD field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "PSD, Photoshop Document, represents Adobe Photoshop's native file format used for graphics designing and development."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/psd/
 is_root: false
-weight: 700
+weight: 3850
 ---
 
-## PSD property
 
+## PSD field
 
-PSD, Photoshop Document, represents Adobe Photoshop's native file format used 
-for graphics designing and development. Learn more about this file format
-[here](https://wiki.fileformat.com/image/psd/).
+PSD, Photoshop Document, represents Adobe Photoshop's native file format used for graphics designing and development. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

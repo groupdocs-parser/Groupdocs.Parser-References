@@ -1,17 +1,18 @@
-﻿---
+---
 title: rectangle property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The rectangular area of the page as a Rectangle."
 type: docs
 url: /python-net/groupdocs.parser.data/pagearea/rectangle/
 is_root: false
-weight: 40
+weight: 2020
 ---
+
 
 ## rectangle property
 
+The rectangular area of the page as a [`Rectangle`](/parser/python-net/groupdocs.parser.data/rectangle/).
 
-Gets the rectangular area.
 ### Definition:
 ```python
 @property
@@ -23,6 +24,4 @@ def rectangle(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`PageArea`](/parser/python-net/groupdocs.parser.data/pagearea)
-* class [`Rectangle`](/parser/python-net/groupdocs.parser.data/rectangle)
+* class [`PageArea`](/parser/python-net/groupdocs.parser.data/pagearea/)

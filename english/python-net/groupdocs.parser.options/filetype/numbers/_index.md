@@ -1,19 +1,17 @@
-﻿---
-title: NUMBERS property
+---
+title: NUMBERS field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Files that contain the .numbers file extension are files that are created by the Apple iWork Numbers spreadsheet application."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/numbers/
 is_root: false
-weight: 460
+weight: 3390
 ---
 
-## NUMBERS property
 
+## NUMBERS field
 
-Files that contain the .numbers file extension are files that are created by 
-the Apple iWork Numbers spreadsheet application.
+Files that contain the .numbers file extension are files that are created by the Apple iWork Numbers spreadsheet application.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

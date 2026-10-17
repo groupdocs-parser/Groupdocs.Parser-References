@@ -1,17 +1,20 @@
-﻿---
+---
 title: code_type_name property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The name of the barcode type."
 type: docs
 url: /python-net/groupdocs.parser.data/pagebarcodearea/code_type_name/
 is_root: false
-weight: 40
+weight: 2020
 ---
+
 
 ## code_type_name property
 
+The name of the barcode type.
 
-Gets the name of the barcode type.
+A string that represents the type name of the barcode.
+
 ### Definition:
 ```python
 @property
@@ -23,5 +26,4 @@ def code_type_name(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`PageBarcodeArea`](/parser/python-net/groupdocs.parser.data/pagebarcodearea)
+* class [`PageBarcodeArea`](/parser/python-net/groupdocs.parser.data/pagebarcodearea/)

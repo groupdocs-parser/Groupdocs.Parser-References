@@ -1,60 +1,44 @@
-﻿---
+---
 title: get_worksheet_cells method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Extracts worksheet cells."
 type: docs
 url: /python-net/groupdocs.parser/parser/get_worksheet_cells/
 is_root: false
-weight: 180
+weight: 1440
 ---
 
-## get_worksheet_cells {#int}
+
+## get_worksheet_cells {#worksheet_index}
 
 Extracts worksheet cells.
-
-
-### Returns 
-
-
-A collection of instances of [`WorksheetCell`](/parser/python-net/groupdocs.parser.data/worksheetcell) class that contains the cell data.
-
 
 ```python
 def get_worksheet_cells(self, worksheet_index):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| worksheet_index | int | The zero-based index of the worksheet. |
+| worksheet_index | `int` | The zero-based index of the worksheet. |
 
+**Returns:** Iterable[WorksheetCell]: A collection of instances of `WorksheetCell` class that contains the cell data.
 
-## get_worksheet_cells {#int-groupdocs.parser.options.WorksheetOptions}
+## get_worksheet_cells {#worksheet_index-options}
 
 Extracts worksheet cells using customization options.
-
-
-### Returns 
-
-
-A collection of instances of [`WorksheetCell`](/parser/python-net/groupdocs.parser.data/worksheetcell) class that contains the cell data.
-
 
 ```python
 def get_worksheet_cells(self, worksheet_index, options):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| worksheet_index | int | The zero-based index of the worksheet. |
-| options | groupdocs.parser.options.WorksheetOptions | The customization options. |
+| worksheet_index | `int` | The zero-based index of the worksheet. |
+| options | `WorksheetOptions` | The customization options. |
 
-
+**Returns:** Iterable[WorksheetCell]: A collection of instances of `WorksheetCell` containing the cell data.
 
 ### See Also
-* module [`groupdocs.parser`](../../)
-* class [`Parser`](/parser/python-net/groupdocs.parser/parser)
-* class [`WorksheetCell`](/parser/python-net/groupdocs.parser.data/worksheetcell)
+* class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

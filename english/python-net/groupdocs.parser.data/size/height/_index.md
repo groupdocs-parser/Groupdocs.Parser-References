@@ -1,17 +1,18 @@
-﻿---
+---
 title: height property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The height in pixels."
 type: docs
 url: /python-net/groupdocs.parser.data/size/height/
 is_root: false
-weight: 50
+weight: 2010
 ---
+
 
 ## height property
 
+The height in pixels.
 
-Gets the height.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def height(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`Size`](/parser/python-net/groupdocs.parser.data/size)
+* class [`Size`](/parser/python-net/groupdocs.parser.data/size/)

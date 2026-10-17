@@ -1,17 +1,18 @@
-﻿---
+---
 title: port property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The port number as an integer."
 type: docs
 url: /python-net/groupdocs.parser.options/emailimapconnection/port/
 is_root: false
-weight: 50
+weight: 2020
 ---
+
 
 ## port property
 
+The port number as an integer.
 
-Gets the port number.
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def port(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`EmailImapConnection`](/parser/python-net/groupdocs.parser.options/emailimapconnection)
+* class [`EmailImapConnection`](/parser/python-net/groupdocs.parser.options/emailimapconnection/)

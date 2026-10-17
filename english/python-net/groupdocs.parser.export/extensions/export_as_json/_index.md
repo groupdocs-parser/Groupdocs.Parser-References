@@ -1,230 +1,181 @@
-﻿---
+---
 title: export_as_json method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Exports the collection of metadata to the stream in JSON format."
 type: docs
 url: /python-net/groupdocs.parser.export/extensions/export_as_json/
 is_root: false
-weight: 20
+weight: 1010
 ---
 
-## export_as_json {#list-io.RawIOBase}
 
+## export_as_json {#metadata-stream}
 
-
-
+Exports the collection of metadata to the stream in JSON format.
 
 ```python
-def export_as_json(self, metadata, stream):
+def export_as_json(cls, metadata, stream):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| metadata | list |  |
-| stream | io.RawIOBase |  |
+| metadata | `Iterable[MetadataItem]` | The collection of metadata. |
+| stream | `io.RawIOBase` | The output stream. |
 
+## export_as_json {#metadata-file_name}
 
-## export_as_json {#list-System.String}
-
-
-
-
+Exports the collection of metadata to the file in JSON format.
 
 ```python
-def export_as_json(self, metadata, file_name):
+def export_as_json(cls, metadata, file_name):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| metadata | list |  |
-| file_name | System.String |  |
+| metadata | `Iterable[MetadataItem]` | The collection of metadata. |
+| file_name | `str` | The full path to the output file. |
 
+## export_as_json {#document_info-stream}
 
-## export_as_json {#groupdocs.parser.options.IDocumentInfo-io.RawIOBase}
-
-Exports the document information to the stream in JSON format.
-
-
+Exports the document information to the given stream in JSON format.
 
 ```python
-def export_as_json(self, document_info, stream):
+def export_as_json(cls, document_info, stream):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| document_info | groupdocs.parser.options.IDocumentInfo | The document information. |
-| stream | io.RawIOBase | The output stream. |
+| document_info | `IDocumentInfo` | The document information. |
+| stream | `io.RawIOBase` | The output stream. |
 
+## export_as_json {#document_info-file_name}
 
-## export_as_json {#groupdocs.parser.options.IDocumentInfo-System.String}
-
-Exports the document information to the file in JSON format.
-
-
+Exports the document information to a file in JSON format.
 
 ```python
-def export_as_json(self, document_info, file_name):
+def export_as_json(cls, document_info, file_name):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| document_info | groupdocs.parser.options.IDocumentInfo | The document information. |
-| file_name | System.String | The full path to the output file. |
+| document_info | `IDocumentInfo` | The document information. |
+| file_name | `str` | The full path to the output file. |
 
+## export_as_json {#text_areas-stream}
 
-## export_as_json {#list-io.RawIOBase}
-
-
-
-
+Exports the collection of text areas to the stream in JSON format.
 
 ```python
-def export_as_json(self, text_areas, stream):
+def export_as_json(cls, text_areas, stream):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text_areas | list |  |
-| stream | io.RawIOBase |  |
+| text_areas | `Iterable[PageTextArea]` | The collection of the text areas. |
+| stream | `io.RawIOBase` | The output stream. |
 
+## export_as_json {#text_areas-file_name}
 
-## export_as_json {#list-System.String}
-
-
-
-
+Exports the collection of text areas to the file in JSON format.
 
 ```python
-def export_as_json(self, text_areas, file_name):
+def export_as_json(cls, text_areas, file_name):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text_areas | list |  |
-| file_name | System.String |  |
+| text_areas | `Iterable[PageTextArea]` | The collection of text areas. |
+| file_name | `str` | The full path to the output file. |
 
+## export_as_json {#tables-stream}
 
-## export_as_json {#list-io.RawIOBase}
-
-
-
-
+Exports the collection of tables to the stream in JSON format.
 
 ```python
-def export_as_json(self, tables, stream):
+def export_as_json(cls, tables, stream):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| tables | list |  |
-| stream | io.RawIOBase |  |
+| tables | `Iterable[PageTableArea]` | The collecton of tables. |
+| stream | `io.RawIOBase` | The output stream. |
 
+## export_as_json {#tables-file_name}
 
-## export_as_json {#list-System.String}
-
-
-
-
+Exports the collection of tables to the file in JSON format.
 
 ```python
-def export_as_json(self, tables, file_name):
+def export_as_json(cls, tables, file_name):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| tables | list |  |
-| file_name | System.String |  |
+| tables | `Iterable[PageTableArea]` | The collection of tables. |
+| file_name | `str` | The full path to the output file. |
 
+## export_as_json {#barcodes-stream}
 
-## export_as_json {#list-io.RawIOBase}
-
-
-
-
+Exports the collection of barcodes to the stream in JSON format.
 
 ```python
-def export_as_json(self, barcodes, stream):
+def export_as_json(cls, barcodes, stream):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| barcodes | list |  |
-| stream | io.RawIOBase |  |
+| barcodes | `Iterable[PageBarcodeArea]` | The collection of barcodes. |
+| stream | `io.RawIOBase` | The output stream. |
 
+## export_as_json {#barcodes-file_name}
 
-## export_as_json {#list-System.String}
-
-
-
-
+Exports the collection of barcodes to the file in JSON format.
 
 ```python
-def export_as_json(self, barcodes, file_name):
+def export_as_json(cls, barcodes, file_name):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| barcodes | list |  |
-| file_name | System.String |  |
+| barcodes | `Iterable[PageBarcodeArea]` | The collection of barcodes. |
+| file_name | `str` | The full path to the output file. |
 
-
-## export_as_json {#groupdocs.parser.data.DocumentData-io.RawIOBase}
+## export_as_json {#document_data-stream}
 
 Exports document data to the stream in JSON format.
 
-
-
 ```python
-def export_as_json(self, document_data, stream):
+def export_as_json(cls, document_data, stream):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| document_data | groupdocs.parser.data.DocumentData | Document data. |
-| stream | io.RawIOBase | The output stream. |
+| document_data | `DocumentData` | Document data. |
+| stream | `io.RawIOBase` | The output stream. |
 
-
-## export_as_json {#groupdocs.parser.data.DocumentData-System.String}
+## export_as_json {#document_data-file_name}
 
 Exports document data to the file in JSON format.
 
-
-
 ```python
-def export_as_json(self, document_data, file_name):
+def export_as_json(cls, document_data, file_name):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| document_data | groupdocs.parser.data.DocumentData | Document data. |
-| file_name | System.String | The full path to the output file. |
-
-
+| document_data | `DocumentData` | Document data. |
+| file_name | `str` | The full path to the output file. |
 
 ### See Also
-* module [`groupdocs.parser.export`](../../)
-* class [`Extensions`](/parser/python-net/groupdocs.parser.export/extensions)
+* class [`Extensions`](/parser/python-net/groupdocs.parser.export/extensions/)

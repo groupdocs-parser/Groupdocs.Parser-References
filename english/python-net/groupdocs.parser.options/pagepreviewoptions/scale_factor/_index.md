@@ -1,17 +1,18 @@
-﻿---
+---
 title: scale_factor property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The scale factor that specifies how many times the image should be scaled; 1 for PagePreviewOptions.default_dpi."
 type: docs
 url: /python-net/groupdocs.parser.options/pagepreviewoptions/scale_factor/
 is_root: false
-weight: 60
+weight: 2030
 ---
+
 
 ## scale_factor property
 
+The scale factor that specifies how many times the image should be scaled; 1 for [`PagePreviewOptions.default_dpi`](/parser/python-net/groupdocs.parser.options/pagepreviewoptions/default_dpi/).
 
-Gets a scale factor.
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def scale_factor(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`PagePreviewOptions`](/parser/python-net/groupdocs.parser.options/pagepreviewoptions)
+* class [`PagePreviewOptions`](/parser/python-net/groupdocs.parser.options/pagepreviewoptions/)

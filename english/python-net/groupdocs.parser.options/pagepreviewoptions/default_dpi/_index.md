@@ -1,18 +1,17 @@
-﻿---
-title: DEFAULT_DPI property
+---
+title: DEFAULT_DPI field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Defines a default value of property."
 type: docs
 url: /python-net/groupdocs.parser.options/pagepreviewoptions/default_dpi/
 is_root: false
-weight: 30
+weight: 3010
 ---
 
-## DEFAULT_DPI property
 
+## DEFAULT_DPI field
 
-Defines a default value of [`PagePreviewOptions.dpi`](/parser/python-net/groupdocs.parser.options/pagepreviewoptions#dpi) property.
+Defines a default value of property.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`PagePreviewOptions`](/parser/python-net/groupdocs.parser.options/pagepreviewoptions)
+* class [`PagePreviewOptions`](/parser/python-net/groupdocs.parser.options/pagepreviewoptions/)

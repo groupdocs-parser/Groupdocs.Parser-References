@@ -1,17 +1,18 @@
-﻿---
+---
 title: right property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The value indicating whether a field is searched by the right from the linked field; True if it is, otherwise False."
 type: docs
 url: /python-net/groupdocs.parser.templates/templatelinkedpositionedges/right/
 is_root: false
-weight: 80
+weight: 2040
 ---
+
 
 ## right property
 
+The value indicating whether a field is searched by the right from the linked field; `True` if it is, otherwise `False`.
 
-Gets the value that indicates whether a field is searched by the right from the linked field.
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def right(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.templates`](../../)
-* class [`TemplateLinkedPositionEdges`](/parser/python-net/groupdocs.parser.templates/templatelinkedpositionedges)
+* class [`TemplateLinkedPositionEdges`](/parser/python-net/groupdocs.parser.templates/templatelinkedpositionedges/)

@@ -1,21 +1,17 @@
-﻿---
-title: HTM property
+---
+title: HTM field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Files with HTM extension represent Hypertext Markup Language for creating web pages for display in web browsers such as Google Chrome, Internet Explorer, Firefox and a number of others."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/htm/
 is_root: false
-weight: 290
+weight: 3140
 ---
 
-## HTM property
 
+## HTM field
 
-Files with HTM extension represent Hypertext Markup Language for creating web pages 
-for display in web browsers such as Google Chrome, Internet Explorer, Firefox and a number of others.
-Learn more about this file format 
-[here](https://wiki.fileformat.com/web/htm/).
+Files with HTM extension represent Hypertext Markup Language for creating web pages for display in web browsers such as Google Chrome, Internet Explorer, Firefox and a number of others. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

@@ -1,31 +1,26 @@
-﻿---
-title: ImageFormat enumeration
+---
+title: ImageFormat class
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "ImageFormat enum — GroupDocs.Parser for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.parser.options/imageformat/
 is_root: false
-weight: 410
+weight: 210
 ---
 
-## ImageFormat enumeration
 
-Defines a format of the image.
-
-
+## ImageFormat class
 
 The ImageFormat type exposes the following members:
 
 ### Fields
 | Field | Description |
 | :- | :- |
-| BMP | Bitmap image. |
-| GIF | Graphical Interchange Format. |
-| JPEG | JPEG image. |
-| PNG | Portable Network Graphic. |
-| WEB_P | WebP Image. |
-
-
+| [BMP](/parser/python-net/groupdocs.parser.options/imageformat/bmp/) | Bitmap image. |
+| [GIF](/parser/python-net/groupdocs.parser.options/imageformat/gif/) | Graphical Interchange Format. |
+| [JPEG](/parser/python-net/groupdocs.parser.options/imageformat/jpeg/) | JPEG image. |
+| [PNG](/parser/python-net/groupdocs.parser.options/imageformat/png/) | Portable Network Graphic. |
+| [WEB_P](/parser/python-net/groupdocs.parser.options/imageformat/web_p/) | WebP Image. |
 
 ### See Also
-* module [`groupdocs.parser.options`](..)
+* module [`groupdocs.parser.options`](/parser/python-net/groupdocs.parser.options/)

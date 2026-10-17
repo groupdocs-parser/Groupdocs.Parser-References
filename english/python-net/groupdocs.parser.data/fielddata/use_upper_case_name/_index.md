@@ -1,17 +1,18 @@
-﻿---
+---
 title: use_upper_case_name property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The boolean value indicates whether a Name was converted to UPPER CASE."
 type: docs
 url: /python-net/groupdocs.parser.data/fielddata/use_upper_case_name/
 is_root: false
-weight: 80
+weight: 2060
 ---
+
 
 ## use_upper_case_name property
 
+The boolean value indicates whether a `Name` was converted to UPPER CASE.
 
-Gets a boolean value that indicates whether a `Name` was converted to UPPER CASE.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def use_upper_case_name(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`FieldData`](/parser/python-net/groupdocs.parser.data/fielddata)
+* class [`FieldData`](/parser/python-net/groupdocs.parser.data/fielddata/)

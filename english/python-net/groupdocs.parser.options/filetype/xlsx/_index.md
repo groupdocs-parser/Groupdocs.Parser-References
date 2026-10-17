@@ -1,20 +1,17 @@
-﻿---
-title: XLSX property
+---
+title: XLSX field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "XLSX is well-known format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/xlsx/
 is_root: false
-weight: 920
+weight: 3270
 ---
 
-## XLSX property
 
+## XLSX field
 
-XLSX is well-known format for Microsoft Excel documents that was introduced by Microsoft with the release
-of Microsoft Office 2007. Learn more about this file format
-[here](https://wiki.fileformat.com/specification/spreadsheet/xlsx/).
+XLSX is well-known format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

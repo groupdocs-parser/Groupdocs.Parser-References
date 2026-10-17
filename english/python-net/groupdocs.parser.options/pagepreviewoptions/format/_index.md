@@ -1,17 +1,20 @@
-﻿---
+---
 title: format property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The format of the document page image."
 type: docs
 url: /python-net/groupdocs.parser.options/pagepreviewoptions/format/
 is_root: false
-weight: 50
+weight: 2020
 ---
+
 
 ## format property
 
+The format of the document page image.
 
-Gets a format of the document page image.
+If not set, the default is `PagePreviewFormat.png`.
+
 ### Definition:
 ```python
 @property
@@ -23,6 +26,4 @@ def format(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`PagePreviewFormat`](/parser/python-net/groupdocs.parser.options/pagepreviewformat)
-* class [`PagePreviewOptions`](/parser/python-net/groupdocs.parser.options/pagepreviewoptions)
+* class [`PagePreviewOptions`](/parser/python-net/groupdocs.parser.options/pagepreviewoptions/)

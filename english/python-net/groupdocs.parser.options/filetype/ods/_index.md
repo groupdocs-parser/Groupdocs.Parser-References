@@ -1,20 +1,17 @@
-﻿---
-title: ODS property
+---
+title: ODS field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Files with ODS extension stand for OpenDocument Spreadsheet Document format that are editable by user."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/ods/
 is_root: false
-weight: 490
+weight: 3370
 ---
 
-## ODS property
 
+## ODS field
 
-Files with ODS extension stand for OpenDocument Spreadsheet Document format that are editable by user.
-Learn more about this file format
-[here](https://wiki.fileformat.com/spreadsheet/ods/).
+Files with ODS extension stand for OpenDocument Spreadsheet Document format that are editable by user. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

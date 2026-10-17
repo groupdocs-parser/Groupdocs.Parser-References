@@ -1,138 +1,205 @@
-﻿---
-title: TemplateTable constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Initializes a new TemplateTable with the specified layout and name."
 type: docs
 url: /python-net/groupdocs.parser.templates/templatetable/__init__/
 is_root: false
 weight: 10
 ---
 
-## __init__ {#groupdocs.parser.templates.TemplateTableLayout-System.String}
 
-Initializes a new instance of the [`TemplateTable`](/parser/python-net/groupdocs.parser.templates/templatetable) class with the UPPER CASE name.
+## __init__ {#layout-name}
 
-
+Initializes a new TemplateTable with the specified layout and name.
 
 ```python
 def __init__(self, layout, name):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| layout | groupdocs.parser.templates.TemplateTableLayout | The table layout. |
-| name | System.String | The table name. |
+| layout | `TemplateTableLayout` | The table layout. |
+| name | `str` | The table name. |
 
-### Example 
+## __init__ {#layout-name-page_width}
 
-
-Template table is set by table layout if the table can't be detected automatically:
-
-
-## __init__ {#groupdocs.parser.templates.TemplateTableParameters-System.String}
-
-Initializes a new instance of the [`TemplateTable`](/parser/python-net/groupdocs.parser.templates/templatetable) class.
-
-
-
-```python
-def __init__(self, parameters, name):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| parameters | groupdocs.parser.templates.TemplateTableParameters | The parameters to detect the table in the automatic mode. |
-| name | System.String | The table name. |
-
-### Example 
-
-
-If a template table is set by detector parameters, the table is detected automatically:
-
-
-## __init__ {#groupdocs.parser.templates.TemplateTableLayout-System.String-System.Nullable`1[[System.Double]]}
-
-Constructs a new instance of TemplateTable
-
-
+Initializes a TemplateTable with the given layout, name (in upper case), and page width.
 
 ```python
 def __init__(self, layout, name, page_width):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| layout | groupdocs.parser.templates.TemplateTableLayout |  |
-| name | System.String |  |
-| page_width | System.Nullable`1[[System.Double]] |  |
+| layout | `TemplateTableLayout` | The table layout. |
+| name | `str` | The table name. |
+| page_width | `Optional[float]` | The width of the page that was used to create the template item. |
 
-
-## __init__ {#groupdocs.parser.templates.TemplateTableParameters-System.String-System.Nullable`1[[System.Double]]}
-
-Constructs a new instance of TemplateTable
-
-
+### Example
 
 ```python
-def __init__(self, parameters, name, page_width):
-    ...
+from groupdocs.parser.templates import TemplateTable, TemplateTableLayout, Template
+
+layout = TemplateTableLayout([50.0, 95.0, 275.0], [325.0, 340.0, 365.0])
+table = TemplateTable(layout, "DETAILS", None)
+
+template = Template([table])
 ```
 
+## __init__ {#layout-name-page_width-use_upper_case_name}
 
-| Parameter | Type | Description |
-| :- | :- | :- |
-| parameters | groupdocs.parser.templates.TemplateTableParameters |  |
-| name | System.String |  |
-| page_width | System.Nullable`1[[System.Double]] |  |
-
-
-## __init__ {#groupdocs.parser.templates.TemplateTableLayout-System.String-System.Nullable`1[[System.Double]]-bool}
-
-Constructs a new instance of TemplateTable
-
-
+Initializes a new TemplateTable.
 
 ```python
 def __init__(self, layout, name, page_width, use_upper_case_name):
     ...
 ```
 
+| Parameter | Type | Description |
+| :- | :- | :- |
+| layout | `TemplateTableLayout` | The table layout. |
+| name | `str` | The table name. |
+| page_width | `Optional[float]` | The width of the page that was used to create the template item. |
+| use_upper_case_name | `bool` | Indicates whether a `name` is converted to UPPER CASE. |
+
+## __init__ {#parameters-name}
+
+Initializes a new TemplateTable.
+
+```python
+def __init__(self, parameters, name):
+    ...
+```
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| layout | groupdocs.parser.templates.TemplateTableLayout |  |
-| name | System.String |  |
-| page_width | System.Nullable`1[[System.Double]] |  |
-| use_upper_case_name | bool |  |
+| parameters | `TemplateTableParameters` | The parameters to detect the table in the automatic mode. |
+| name | `str` | The table name. |
 
+### Example
 
-## __init__ {#groupdocs.parser.templates.TemplateTableParameters-System.String-System.Nullable`1[[System.Double]]-bool}
+```python
+    from groupdocs.parser import Parser
+    from groupdocs.parser.data import Rectangle, Point, Size
+    from groupdocs.parser.templates import (
+        Template,
+        TemplateItem,
+        TemplateTable,
+        TemplateTableParameters,
+    )
 
-Constructs a new instance of TemplateTable
+    table_area = Rectangle(Point(175.0, 350.0), Size(400.0, 200.0))
+    columns = [185.0, 370.0, 425.0, 485.0, 545.0]
 
+    table = TemplateTable(
+        parameters=TemplateTableParameters(table_area, columns),
+        name="Details",
+    )
 
+    template = Template([table])
+
+    with Parser("./invoice.pdf") as parser:
+        data = parser.parse_by_template(template)
+        if data is not None:
+            fields = data.get_fields_by_name("Details")
+            if fields:
+                details = fields[0].page_area
+                print(f"Rows extracted: {details.row_count}")
+    ```
+
+## __init__ {#parameters-name-page_width}
+
+Initializes a new TemplateTable.
+
+```python
+def __init__(self, parameters, name, page_width):
+    ...
+```
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| parameters | `TemplateTableParameters` | The parameters to detect the table in the automatic mode. |
+| name | `str` | The table name. |
+| page_width | `Optional[float]` | The width of the page that was used to create the template item. |
+
+### Example
+
+```python
+    from groupdocs.parser import Parser
+    from groupdocs.parser.data import Rectangle, Point, Size
+    from groupdocs.parser.templates import (
+        Template,
+        TemplateTable,
+        TemplateTableParameters,
+    )
+
+    table_area = Rectangle(Point(175.0, 350.0), Size(400.0, 200.0))
+    columns = [185.0, 370.0, 425.0, 485.0, 545.0]
+
+    table = TemplateTable(
+        parameters=TemplateTableParameters(table_area, columns),
+        name="Details",
+    )
+
+    template = Template([table])
+
+    with Parser("./invoice.pdf") as parser:
+        data = parser.parse_by_template(template)
+        if data is not None:
+            fields = data.get_fields_by_name("Details")
+            if fields:
+                details = fields[0].page_area
+                print(f"Rows extracted: {details.row_count}")
+    ```
+
+## __init__ {#parameters-name-page_width-use_upper_case_name}
+
+Initializes a new TemplateTable instance.
 
 ```python
 def __init__(self, parameters, name, page_width, use_upper_case_name):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| parameters | groupdocs.parser.templates.TemplateTableParameters |  |
-| name | System.String |  |
-| page_width | System.Nullable`1[[System.Double]] |  |
-| use_upper_case_name | bool |  |
+| parameters | `TemplateTableParameters` | The parameters to detect the table in the automatic mode. |
+| name | `str` | The table name. |
+| page_width | `Optional[float]` | The width of the page that was used to create the template item. |
+| use_upper_case_name | `bool` | Indicates whether the `name` is converted to upper case. |
 
+### Example
 
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.data import Rectangle, Point, Size
+from groupdocs.parser.templates import (
+    Template,
+    TemplateTable,
+    TemplateTableParameters,
+)
+
+table_area = Rectangle(Point(175.0, 350.0), Size(400.0, 200.0))
+columns = [185.0, 370.0, 425.0, 485.0, 545.0]
+
+table = TemplateTable(
+    parameters=TemplateTableParameters(table_area, columns),
+    name="Details",
+)
+
+template = Template([table])
+
+with Parser("./invoice.pdf") as parser:
+    data = parser.parse_by_template(template)
+    if data is not None:
+        fields = data.get_fields_by_name("Details")
+        if fields:
+            details = fields[0].page_area
+            print(f"Rows extracted: {details.row_count}")
+```
 
 ### See Also
-* module [`groupdocs.parser.templates`](../../)
-* class [`TemplateTable`](/parser/python-net/groupdocs.parser.templates/templatetable)
+* class [`TemplateTable`](/parser/python-net/groupdocs.parser.templates/templatetable/)

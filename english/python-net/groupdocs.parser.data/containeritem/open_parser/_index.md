@@ -1,82 +1,95 @@
-﻿---
+---
 title: open_parser method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Creates the Parser object for the item content."
 type: docs
 url: /python-net/groupdocs.parser.data/containeritem/open_parser/
 is_root: false
-weight: 40
+weight: 1060
 ---
 
-## open_parser {#}
 
-Creates the [`Parser`](/parser/python-net/groupdocs.parser/parser) object for the item content.
+## open_parser
 
-
-### Returns 
-
-
-An instance of [`Parser`](/parser/python-net/groupdocs.parser/parser) class of the item content.
-
+Creates the [`Parser`](/parser/python-net/groupdocs.parser/parser/) object for the item content.
 
 ```python
 def open_parser(self):
     ...
 ```
 
+**Returns:** An instance of `Parser` class of the item content.
 
+### Example
 
+```python
+    from groupdocs.parser import Parser
+    from groupdocs.parser.exceptions import UnsupportedDocumentFormatException
 
-## open_parser {#groupdocs.parser.options.LoadOptions}
+    with Parser("portfolio.pdf") as parser:
+        container = parser.get_container()
+        if container:
+            for item in container:
+                try:
+                    with item.open_parser() as inner_parser:
+                        text = inner_parser.get_text().read_to_end()
+                        print(f"{item.file_path}: {text if text else '[no text]'}")
+                except UnsupportedDocumentFormatException:
+                    print(f"{item.file_path}: format is not supported.")
+    ```
 
-Creates the [`Parser`](/parser/python-net/groupdocs.parser/parser) object for the item content with [`LoadOptions`](/parser/python-net/groupdocs.parser.options/loadoptions).
+## open_parser {#load_options}
 
-
-### Returns 
-
-
-An instance of [`Parser`](/parser/python-net/groupdocs.parser/parser) class of the item content.
-
+Creates a [`Parser`](/parser/python-net/groupdocs.parser/parser/) object for the item content with [`LoadOptions`](/parser/python-net/groupdocs.parser.options/loadoptions/).
 
 ```python
 def open_parser(self, load_options):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| load_options | groupdocs.parser.options.LoadOptions | The options to open the item content. |
+| load_options | `LoadOptions` | The options to open the item content. |
 
+**Returns:** Parser: An instance of the parser for the item content.
 
-## open_parser {#groupdocs.parser.options.LoadOptions-groupdocs.parser.options.ParserSettings}
+### Example
 
-Creates the [`Parser`](/parser/python-net/groupdocs.parser/parser) object for the item content with [`LoadOptions`](/parser/python-net/groupdocs.parser.options/loadoptions)
-and [`ParserSettings`](/parser/python-net/groupdocs.parser.options/parsersettings).
+```python
+with item.open_parser() as inner_parser:
+    text = inner_parser.get_text().read_to_end()
+    print(text)
+```
 
+## open_parser {#load_options-parser_settings}
 
-### Returns 
-
-
-An instance of [`Parser`](/parser/python-net/groupdocs.parser/parser) class of the item content.
-
+Creates a [`Parser`](/parser/python-net/groupdocs.parser/parser/) object for the item content with [`LoadOptions`](/parser/python-net/groupdocs.parser.options/loadoptions/) and [`ParserSettings`](/parser/python-net/groupdocs.parser.options/parsersettings/).
 
 ```python
 def open_parser(self, load_options, parser_settings):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| load_options | groupdocs.parser.options.LoadOptions | The options to open the item content. |
-| parser_settings | groupdocs.parser.options.ParserSettings | The parser settings which are used to customize data extraction. |
+| load_options | `LoadOptions` | The options to open the item content. |
+| parser_settings | `ParserSettings` | The parser settings which are used to customize data extraction. |
 
+**Returns:** An instance of `Parser` for the item content.
 
+### Example
+
+```python
+from groupdocs.parser import Parser
+
+with Parser("portfolio.pdf") as parser:
+    container = parser.get_container()
+    if container:
+        for item in container:
+            with item.open_parser() as inner_parser:
+                text = inner_parser.get_text().read_to_end()
+                print(f"{item.file_path}: {text if text else '[no text]'}")
+```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`ContainerItem`](/parser/python-net/groupdocs.parser.data/containeritem)
-* class [`LoadOptions`](/parser/python-net/groupdocs.parser.options/loadoptions)
-* class [`Parser`](/parser/python-net/groupdocs.parser/parser)
-* class [`ParserSettings`](/parser/python-net/groupdocs.parser.options/parsersettings)
+* class [`ContainerItem`](/parser/python-net/groupdocs.parser.data/containeritem/)

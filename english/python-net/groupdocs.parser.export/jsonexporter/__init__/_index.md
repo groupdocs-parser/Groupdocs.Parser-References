@@ -1,28 +1,20 @@
-﻿---
-title: JsonExporter constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Constructor for the JsonExporter class — GroupDocs.Parser for Python via .NET."
 type: docs
 url: /python-net/groupdocs.parser.export/jsonexporter/__init__/
 is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Constructs a new instance of JsonExporter
-
-
+## __init__
 
 ```python
 def __init__(self):
     ...
 ```
 
-
-
-
-
 ### See Also
-* module [`groupdocs.parser.export`](../../)
-* class [`JsonExporter`](/parser/python-net/groupdocs.parser.export/jsonexporter)
+* class [`JsonExporter`](/parser/python-net/groupdocs.parser.export/jsonexporter/)

@@ -1,17 +1,20 @@
-﻿---
+---
 title: logger property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The logger used for logging events and errors during data extraction."
 type: docs
 url: /python-net/groupdocs.parser.options/parsersettings/logger/
 is_root: false
-weight: 40
+weight: 2020
 ---
+
 
 ## logger property
 
+The logger used for logging events and errors during data extraction.
 
-Gets the logger which is used for logging events and errors during data extraction.
+An instance of a class that implements [`ILogger`](/parser/python-net/groupdocs.parser.options/ilogger/).
+
 ### Definition:
 ```python
 @property
@@ -20,6 +23,4 @@ def logger(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`ILogger`](/parser/python-net/groupdocs.parser.options/ilogger)
-* class [`ParserSettings`](/parser/python-net/groupdocs.parser.options/parsersettings)
+* class [`ParserSettings`](/parser/python-net/groupdocs.parser.options/parsersettings/)

@@ -1,17 +1,20 @@
-﻿---
+---
 title: use_ocr property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The flag indicating whether OCR functionality is used to extract text areas."
 type: docs
 url: /python-net/groupdocs.parser.options/pagetextareaoptions/use_ocr/
 is_root: false
-weight: 100
+weight: 2060
 ---
+
 
 ## use_ocr property
 
+The flag indicating whether OCR functionality is used to extract text areas.
 
-Gets the value that indicates whether OCR functionality is used to extract text areas.
+True if OCR functionality is used; otherwise, False.
+
 ### Definition:
 ```python
 @property
@@ -23,5 +26,4 @@ def use_ocr(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`PageTextAreaOptions`](/parser/python-net/groupdocs.parser.options/pagetextareaoptions)
+* class [`PageTextAreaOptions`](/parser/python-net/groupdocs.parser.options/pagetextareaoptions/)

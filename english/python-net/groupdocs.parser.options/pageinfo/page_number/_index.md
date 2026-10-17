@@ -1,17 +1,18 @@
-﻿---
+---
 title: page_number property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The page number as a zero-based integer."
 type: docs
 url: /python-net/groupdocs.parser.options/pageinfo/page_number/
 is_root: false
-weight: 40
+weight: 2020
 ---
+
 
 ## page_number property
 
+The page number as a zero-based integer.
 
-Gets the page number.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def page_number(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`PageInfo`](/parser/python-net/groupdocs.parser.options/pageinfo)
+* class [`PageInfo`](/parser/python-net/groupdocs.parser.options/pageinfo/)

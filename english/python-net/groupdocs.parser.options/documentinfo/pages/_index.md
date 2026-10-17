@@ -1,17 +1,20 @@
-﻿---
+---
 title: pages property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The collection of page information, including index and page size."
 type: docs
 url: /python-net/groupdocs.parser.options/documentinfo/pages/
 is_root: false
-weight: 50
+weight: 2030
 ---
+
 
 ## pages property
 
+The collection of page information, including index and page size.
 
-Gets the information about pages such as the index and page size.
+A collection with instances of [`PageInfo`](/parser/python-net/groupdocs.parser.options/pageinfo/) classes.
+
 ### Definition:
 ```python
 @property
@@ -20,5 +23,4 @@ def pages(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`DocumentInfo`](/parser/python-net/groupdocs.parser.options/documentinfo)
+* class [`DocumentInfo`](/parser/python-net/groupdocs.parser.options/documentinfo/)

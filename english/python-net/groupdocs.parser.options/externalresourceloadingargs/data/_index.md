@@ -1,17 +1,18 @@
-﻿---
+---
 title: data property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The user data as a byte array."
 type: docs
 url: /python-net/groupdocs.parser.options/externalresourceloadingargs/data/
 is_root: false
-weight: 30
+weight: 2010
 ---
+
 
 ## data property
 
+The user data as a byte array. If set, loading is skipped and these data are used.
 
-Gets or sets the user data.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def data(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`ExternalResourceLoadingArgs`](/parser/python-net/groupdocs.parser.options/externalresourceloadingargs)
+* class [`ExternalResourceLoadingArgs`](/parser/python-net/groupdocs.parser.options/externalresourceloadingargs/)

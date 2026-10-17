@@ -1,36 +1,28 @@
-﻿---
+---
 title: License class
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Manages GroupDocs.Parser licensing."
 type: docs
 url: /python-net/groupdocs.parser/license/
 is_root: false
 weight: 10
 ---
 
+
 ## License class
 
-Provides methods to license the component.
-Learn more about licensing [here](https://purchase.groupdocs.com/faqs/licensing).
+Manages GroupDocs.Parser licensing.
 
-
+Licensed builds unlock the full feature set of the wrapper at
+runtime. Unlicensed builds run in evaluation mode with the same API
+surface but with limits on output size and watermarked content.
 
 The License type exposes the following members:
-
-### Constructors
-| Constructor | Description |
-| :- | :- |
-| [__init__](/parser/python-net/groupdocs.parser/license/__init__/#) | Initializes a new instance of the [`License`](/parser/python-net/groupdocs.parser/license) class. |
-
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [set_license](/parser/python-net/groupdocs.parser/license/set_license/#System.String) | Licenses the component. |
-| [set_license](/parser/python-net/groupdocs.parser/license/set_license/#io.RawIOBase) | Licenses the component. |
-
-
+| [set_license](/parser/python-net/groupdocs.parser/license/set_license/#license_source) | Apply a license to the current process. |
 
 ### See Also
-* module [`groupdocs.parser`](..)
-* class [`License`](/parser/python-net/groupdocs.parser/license)
+* module [`groupdocs.parser`](/parser/python-net/groupdocs.parser/)

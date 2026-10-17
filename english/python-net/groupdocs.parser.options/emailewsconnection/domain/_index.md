@@ -1,17 +1,20 @@
-﻿---
+---
 title: domain property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The domain name."
 type: docs
 url: /python-net/groupdocs.parser.options/emailewsconnection/domain/
 is_root: false
-weight: 30
+weight: 2010
 ---
+
 
 ## domain property
 
+The domain name.
 
-Gets the domain name.
+A string value that represents the domain name.
+
 ### Definition:
 ```python
 @property
@@ -20,5 +23,4 @@ def domain(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`EmailEwsConnection`](/parser/python-net/groupdocs.parser.options/emailewsconnection)
+* class [`EmailEwsConnection`](/parser/python-net/groupdocs.parser.options/emailewsconnection/)

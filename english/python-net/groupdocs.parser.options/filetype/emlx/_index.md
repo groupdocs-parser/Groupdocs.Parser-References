@@ -1,20 +1,17 @@
-﻿---
-title: EMLX property
+---
+title: EMLX field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The EMLX file format is implemented and developed by Apple."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/emlx/
 is_root: false
-weight: 230
+weight: 3530
 ---
 
-## EMLX property
 
+## EMLX field
 
-The EMLX file format is implemented and developed by Apple. The Apple Mail application uses the EMLX
-file format for exporting the emails. Learn more about this file format
-[here](https://wiki.fileformat.com/email/emlx/).
+The EMLX file format is implemented and developed by Apple. The Apple Mail application uses the EMLX file format for exporting the emails. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

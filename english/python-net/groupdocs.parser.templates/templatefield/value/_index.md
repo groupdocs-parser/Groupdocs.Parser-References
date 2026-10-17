@@ -1,17 +1,18 @@
-﻿---
+---
 title: value property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The value of the template field."
 type: docs
 url: /python-net/groupdocs.parser.templates/templatefield/value/
 is_root: false
-weight: 90
+weight: 2030
 ---
+
 
 ## value property
 
+The value of the template field.
 
-Gets or sets the value of the template field.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def value(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.templates`](../../)
-* class [`TemplateField`](/parser/python-net/groupdocs.parser.templates/templatefield)
+* class [`TemplateField`](/parser/python-net/groupdocs.parser.templates/templatefield/)

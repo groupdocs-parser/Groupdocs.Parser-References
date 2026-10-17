@@ -1,17 +1,18 @@
-﻿---
+---
 title: position property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The coordinates of the upper-left corner of the rectangular area as a Point instance."
 type: docs
 url: /python-net/groupdocs.parser.data/rectangle/position/
 is_root: false
-weight: 50
+weight: 2030
 ---
+
 
 ## position property
 
+The coordinates of the upper-left corner of the rectangular area as a [`Point`](/parser/python-net/groupdocs.parser.data/point/) instance.
 
-Gets the coordinates of the upper-left corner of the rectangular area.
 ### Definition:
 ```python
 @property
@@ -23,6 +24,4 @@ def position(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`Point`](/parser/python-net/groupdocs.parser.data/point)
-* class [`Rectangle`](/parser/python-net/groupdocs.parser.data/rectangle)
+* class [`Rectangle`](/parser/python-net/groupdocs.parser.data/rectangle/)

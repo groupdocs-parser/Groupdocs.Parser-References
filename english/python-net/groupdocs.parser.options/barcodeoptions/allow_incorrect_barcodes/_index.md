@@ -1,17 +1,20 @@
-﻿---
+---
 title: allow_incorrect_barcodes property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The value indicating whether incorrect barcodes are allowed."
 type: docs
 url: /python-net/groupdocs.parser.options/barcodeoptions/allow_incorrect_barcodes/
 is_root: false
-weight: 30
+weight: 2010
 ---
+
 
 ## allow_incorrect_barcodes property
 
+The value indicating whether incorrect barcodes are allowed.
 
-Gets the value that indicates whether the incorrect barcodes are allowed.
+True if the incorrect barcodes are allowed; otherwise, False.
+
 ### Definition:
 ```python
 @property
@@ -23,5 +26,4 @@ def allow_incorrect_barcodes(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`BarcodeOptions`](/parser/python-net/groupdocs.parser.options/barcodeoptions)
+* class [`BarcodeOptions`](/parser/python-net/groupdocs.parser.options/barcodeoptions/)

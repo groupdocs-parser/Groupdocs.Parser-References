@@ -1,17 +1,18 @@
-﻿---
+---
 title: min_row_index property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The zero-based index of the first row."
 type: docs
 url: /python-net/groupdocs.parser.data/worksheetrange/min_row_index/
 is_root: false
-weight: 70
+weight: 2050
 ---
+
 
 ## min_row_index property
 
+The zero-based index of the first row.
 
-Gets an index of the first row.
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def min_row_index(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`WorksheetRange`](/parser/python-net/groupdocs.parser.data/worksheetrange)
+* class [`WorksheetRange`](/parser/python-net/groupdocs.parser.data/worksheetrange/)

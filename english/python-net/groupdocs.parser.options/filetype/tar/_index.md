@@ -1,20 +1,17 @@
-﻿---
-title: TAR property
+---
+title: TAR field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Files with .tar extension are archives created with Unix-based utility for collecting one or more files."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/tar/
 is_root: false
-weight: 770
+weight: 3600
 ---
 
-## TAR property
 
+## TAR field
 
-Files with .tar extension are archives created with Unix-based utility for collecting one or more files.
-Learn more about this file format
-[here](https://wiki.fileformat.com/compression/tar/).
+Files with .tar extension are archives created with Unix-based utility for collecting one or more files. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

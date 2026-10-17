@@ -1,17 +1,20 @@
-﻿---
+---
 title: column_count property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The total number of columns in the table."
 type: docs
 url: /python-net/groupdocs.parser.data/pagetablearea/column_count/
 is_root: false
-weight: 60
+weight: 2020
 ---
+
 
 ## column_count property
 
+The total number of columns in the table.
 
-Gets the total number of the table colums.
+An integer value that contains the total number of the table columns.
+
 ### Definition:
 ```python
 @property
@@ -20,5 +23,4 @@ def column_count(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`PageTableArea`](/parser/python-net/groupdocs.parser.data/pagetablearea)
+* class [`PageTableArea`](/parser/python-net/groupdocs.parser.data/pagetablearea/)

@@ -1,20 +1,17 @@
-﻿---
-title: FB2 property
+---
+title: FB2 field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Files with FB2 extension are FictionBook 2.0 eBook files that contains the structure of the eBook."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/fb2/
 is_root: false
-weight: 260
+weight: 3210
 ---
 
-## FB2 property
 
+## FB2 field
 
-Files with FB2 extension are FictionBook 2.0 eBook files that contains the structure of the eBook.
-Learn more about this file format
-[here](https://wiki.fileformat.com/ebook/fb2/).
+Files with FB2 extension are FictionBook 2.0 eBook files that contains the structure of the eBook. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

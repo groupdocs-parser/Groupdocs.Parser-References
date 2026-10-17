@@ -1,52 +1,50 @@
-﻿---
+---
 title: TemplateLinkedPosition class
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Provides a template field position which uses the linked field."
 type: docs
 url: /python-net/groupdocs.parser.templates/templatelinkedposition/
 is_root: false
 weight: 70
 ---
 
+
 ## TemplateLinkedPosition class
 
 Provides a template field position which uses the linked field.
-
-
-
-**Inheritance:** [`TemplateLinkedPosition`](/parser/python-net/groupdocs.parser.templates/templatelinkedposition) → 
-[`TemplatePosition`](/parser/python-net/groupdocs.parser.templates/templateposition)
-
-
 
 The TemplateLinkedPosition type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/parser/python-net/groupdocs.parser.templates/templatelinkedposition/__init__/#System.String-groupdocs.parser.data.Size-groupdocs.parser.templates.TemplateLinkedPositionEdges) | Initializes a new instance of the [`TemplateLinkedPosition`](/parser/python-net/groupdocs.parser.templates/templatelinkedposition) class. |
-| [__init__](/parser/python-net/groupdocs.parser.templates/templatelinkedposition/__init__/#System.String-groupdocs.parser.data.Size-groupdocs.parser.templates.TemplateLinkedPositionEdges-bool) | Initializes a new instance of the [`TemplateLinkedPosition`](/parser/python-net/groupdocs.parser.templates/templatelinkedposition) class with UPPER CASE linked field name. |
-| [__init__](/parser/python-net/groupdocs.parser.templates/templatelinkedposition/__init__/#System.String-groupdocs.parser.data.Size-groupdocs.parser.templates.TemplateLinkedPositionEdges-bool-bool) | Initializes a new instance of the [`TemplateLinkedPosition`](/parser/python-net/groupdocs.parser.templates/templatelinkedposition) class. |
-
+| [__init__](/parser/python-net/groupdocs.parser.templates/templatelinkedposition/__init__/#linked_field_name-search_area-edges) | Initializes a new instance of the [`TemplateLinkedPosition`](/parser/python-net/groupdocs.parser.templates/templatelinkedposition/) class. |
+| [__init__](/parser/python-net/groupdocs.parser.templates/templatelinkedposition/__init__/#linked_field_name-search_area-edges-auto_scale) | Initializes a new instance of TemplateLinkedPosition with an upper‑case linked field name. |
+| [__init__](/parser/python-net/groupdocs.parser.templates/templatelinkedposition/__init__/#linked_field_name-search_area-edges-auto_scale-use_upper_case_name) | Initializes a new TemplateLinkedPosition instance. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [linked_field_name](/parser/python-net/groupdocs.parser.templates/templatelinkedposition/linked_field_name) | Gets the linked field name. |
-| [search_area](/parser/python-net/groupdocs.parser.templates/templatelinkedposition/search_area) | Gets the size of the area where a field is searched. |
-| [edges](/parser/python-net/groupdocs.parser.templates/templatelinkedposition/edges) | Gets the edges of the linked field where a field is searched. |
-| [auto_scale](/parser/python-net/groupdocs.parser.templates/templatelinkedposition/auto_scale) | Gets the value that indicates whether [`TemplateLinkedPosition.search_area`](/parser/python-net/groupdocs.parser.templates/templatelinkedposition#search_area) is scaled by the linked field size. |
+| [auto_scale](/parser/python-net/groupdocs.parser.templates/templatelinkedposition/auto_scale/) | The value indicating whether the linked position's search area is scaled by the linked field size. |
+| [edges](/parser/python-net/groupdocs.parser.templates/templatelinkedposition/edges/) | The edges of the linked field where a field is searched. |
+| [linked_field_name](/parser/python-net/groupdocs.parser.templates/templatelinkedposition/linked_field_name/) | The linked field name as an uppercase string. |
+| [search_area](/parser/python-net/groupdocs.parser.templates/templatelinkedposition/search_area/) | The size of the area where a field is searched. |
 
+### Example
 
+```python
+from groupdocs.parser.data import Size
+from groupdocs.parser.templates import (TemplateField, TemplateLinkedPosition,
+                                        TemplateLinkedPositionEdges, TemplateRegexPosition)
 
-### Example 
+# Create a regex template field to find "Invoice Number" text
+invoice = TemplateField(TemplateRegexPosition("Invoice Number"), "Invoice")
 
-
-The following example shows the code for the situation
-if it's known that the field with an invoice number is placed on the right 
-of "Invoice number" string the following code is used:
+# Create a related template field associated with "Invoice" field and extract the value on the right of it
+invoice_number = TemplateField(
+    TemplateLinkedPosition("invoice", Size(100, 15), TemplateLinkedPositionEdges(False, False, True, False)),
+    "InvoiceNumber")
+```
 
 ### See Also
-* module [`groupdocs.parser.templates`](..)
-* class [`TemplateLinkedPosition`](/parser/python-net/groupdocs.parser.templates/templatelinkedposition)
-* class [`TemplatePosition`](/parser/python-net/groupdocs.parser.templates/templateposition)
+* module [`groupdocs.parser.templates`](/parser/python-net/groupdocs.parser.templates/)

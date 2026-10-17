@@ -1,20 +1,17 @@
-﻿---
-title: XML property
+---
+title: XML field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "XML stands for Extensible Markup Language that is similar to HTML but different in using tags for defining objects."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/xml/
 is_root: false
-weight: 960
+weight: 3190
 ---
 
-## XML property
 
+## XML field
 
-XML stands for Extensible Markup Language that is similar to HTML 
-but different in using tags for defining objects. Learn more about this file format 
-[here](https://wiki.fileformat.com/web/xml/).
+XML stands for Extensible Markup Language that is similar to HTML but different in using tags for defining objects. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

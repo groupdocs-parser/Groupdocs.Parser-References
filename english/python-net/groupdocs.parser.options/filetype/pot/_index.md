@@ -1,20 +1,17 @@
-﻿---
-title: POT property
+---
+title: POT field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Files with .POT extension represent Microsoft PowerPoint template files created by PowerPoint 97-2003 versions."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/pot/
 is_root: false
-weight: 600
+weight: 3450
 ---
 
-## POT property
 
+## POT field
 
-Files with .POT extension represent Microsoft PowerPoint template files created 
-by PowerPoint 97-2003 versions. Learn more about this file format
-[here](https://wiki.fileformat.com/presentation/pot/).
+Files with .POT extension represent Microsoft PowerPoint template files created by PowerPoint 97-2003 versions. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

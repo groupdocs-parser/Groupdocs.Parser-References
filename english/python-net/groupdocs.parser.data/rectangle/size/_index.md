@@ -1,17 +1,18 @@
-﻿---
+---
 title: size property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The size of the rectangular area as a Size instance."
 type: docs
 url: /python-net/groupdocs.parser.data/rectangle/size/
 is_root: false
-weight: 70
+weight: 2050
 ---
+
 
 ## size property
 
+The size of the rectangular area as a [`Size`](/parser/python-net/groupdocs.parser.data/size/) instance.
 
-Gets the size.
 ### Definition:
 ```python
 @property
@@ -23,6 +24,4 @@ def size(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`Rectangle`](/parser/python-net/groupdocs.parser.data/rectangle)
-* class [`Size`](/parser/python-net/groupdocs.parser.data/size)
+* class [`Rectangle`](/parser/python-net/groupdocs.parser.data/rectangle/)

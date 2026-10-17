@@ -1,19 +1,17 @@
-﻿---
-title: GIF property
+---
+title: GIF field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "A GIF or Graphical Interchange Format is a type of highly compressed image."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/gif/
 is_root: false
-weight: 270
+weight: 3680
 ---
 
-## GIF property
 
+## GIF field
 
-A GIF or Graphical Interchange Format is a type of highly compressed image.
-Learn more about this file format [here](https://wiki.fileformat.com/image/gif/).
+A GIF or Graphical Interchange Format is a type of highly compressed image. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

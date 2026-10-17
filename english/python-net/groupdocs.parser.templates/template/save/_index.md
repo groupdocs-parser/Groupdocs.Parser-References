@@ -1,48 +1,39 @@
-﻿---
+---
 title: save method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Saves a template to a file."
 type: docs
 url: /python-net/groupdocs.parser.templates/template/save/
 is_root: false
-weight: 30
+weight: 1090
 ---
 
-## save {#System.String}
+
+## save {#file_path}
 
 Saves a template to a file.
-
-
 
 ```python
 def save(self, file_path):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | System.String | The path to the file. |
+| file_path | `str` | The path to the file. |
 
-
-## save {#io.RawIOBase}
+## save {#stream}
 
 Saves a template to a stream.
-
-
 
 ```python
 def save(self, stream):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | io.RawIOBase | The output stream. |
-
-
+| stream | `io.RawIOBase` | The output stream. |
 
 ### See Also
-* module [`groupdocs.parser.templates`](../../)
-* class [`Template`](/parser/python-net/groupdocs.parser.templates/template)
+* class [`Template`](/parser/python-net/groupdocs.parser.templates/template/)

@@ -1,17 +1,20 @@
-﻿---
+---
 title: image_format property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The image format for image extraction."
 type: docs
 url: /python-net/groupdocs.parser.options/imageoptions/image_format/
 is_root: false
-weight: 30
+weight: 2010
 ---
+
 
 ## image_format property
 
+The image format for image extraction.
 
-Gets the image format for image extraction.
+It is a `ImageFormat` enumeration that contains an image format.
+
 ### Definition:
 ```python
 @property
@@ -20,6 +23,4 @@ def image_format(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`ImageFormat`](/parser/python-net/groupdocs.parser.options/imageformat)
-* class [`ImageOptions`](/parser/python-net/groupdocs.parser.options/imageoptions)
+* class [`ImageOptions`](/parser/python-net/groupdocs.parser.options/imageoptions/)

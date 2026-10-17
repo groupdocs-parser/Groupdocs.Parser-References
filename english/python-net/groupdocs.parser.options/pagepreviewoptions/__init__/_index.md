@@ -1,80 +1,62 @@
-﻿---
-title: PagePreviewOptions constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Initializes a new instance of the PagePreviewOptions class."
 type: docs
 url: /python-net/groupdocs.parser.options/pagepreviewoptions/__init__/
 is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Initializes a new instance of the [`PagePreviewOptions`](/parser/python-net/groupdocs.parser.options/pagepreviewoptions) class.
+## __init__
 
-
+Initializes a new instance of the PagePreviewOptions class.
 
 ```python
 def __init__(self):
     ...
 ```
 
+## __init__ {#format}
 
-
-
-## __init__ {#groupdocs.parser.options.PagePreviewFormat}
-
-Initializes a new instance of the [`PagePreviewOptions`](/parser/python-net/groupdocs.parser.options/pagepreviewoptions) class with the preview format.
-
-
+Initializes a new instance of the [`PagePreviewOptions`](/parser/python-net/groupdocs.parser.options/pagepreviewoptions/) class with the preview format.
 
 ```python
 def __init__(self, format):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| format | groupdocs.parser.options.PagePreviewFormat | The format of the document page image. |
+| format | `PagePreviewFormat` | The format of the document page image. |
 
+## __init__ {#dpi}
 
-## __init__ {#int}
-
-Initializes a new instance of the [`PagePreviewOptions`](/parser/python-net/groupdocs.parser.options/pagepreviewoptions) class with the preview dpi.
-
-
+Initializes a new PagePreviewOptions instance with the preview DPI.
 
 ```python
 def __init__(self, dpi):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| dpi | int | The DPI of the document page image. |
+| dpi | `int` | The DPI of the document page image. |
 
+## __init__ {#format-dpi}
 
-## __init__ {#groupdocs.parser.options.PagePreviewFormat-int}
-
-Initializes a new instance of the [`PagePreviewOptions`](/parser/python-net/groupdocs.parser.options/pagepreviewoptions) class the preview format and dpi.
-
-
+Initializes a new PagePreviewOptions instance with the preview format and DPI.
 
 ```python
 def __init__(self, format, dpi):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| format | groupdocs.parser.options.PagePreviewFormat | The format of the document page image. |
-| dpi | int | The DPI of the document page image. |
-
-
+| format | `PagePreviewFormat` | The format of the document page image. |
+| dpi | `int` | The DPI of the document page image. |
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`PagePreviewOptions`](/parser/python-net/groupdocs.parser.options/pagepreviewoptions)
+* class [`PagePreviewOptions`](/parser/python-net/groupdocs.parser.options/pagepreviewoptions/)

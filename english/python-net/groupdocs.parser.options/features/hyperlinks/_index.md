@@ -1,17 +1,18 @@
-﻿---
+---
 title: hyperlinks property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The value indicates whether hyperlink extraction is supported."
 type: docs
 url: /python-net/groupdocs.parser.options/features/hyperlinks/
 is_root: false
-weight: 90
+weight: 2070
 ---
+
 
 ## hyperlinks property
 
+The value indicates whether hyperlink extraction is supported.
 
-Gets the value that indicates whether hyperlinks extraction is supported.
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def hyperlinks(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`Features`](/parser/python-net/groupdocs.parser.options/features)
+* class [`Features`](/parser/python-net/groupdocs.parser.options/features/)

@@ -1,18 +1,17 @@
-﻿---
-title: BZ2 property
+---
+title: BZ2 field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Compressed file using Bzip2 algorithm."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/bz2/
 is_root: false
-weight: 80
+weight: 3620
 ---
 
-## BZ2 property
 
+## BZ2 field
 
 Compressed file using Bzip2 algorithm.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

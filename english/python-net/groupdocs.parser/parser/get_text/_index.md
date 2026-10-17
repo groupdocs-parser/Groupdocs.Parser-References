@@ -1,124 +1,141 @@
-﻿---
+---
 title: get_text method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Extracts text from the document."
 type: docs
 url: /python-net/groupdocs.parser/parser/get_text/
 is_root: false
-weight: 150
+weight: 1370
 ---
 
-## get_text {#}
 
-Extracts a text from the document.
+## get_text
 
+Extracts text from the document.
 
-### Returns 
-
-
-An instance of TextReader class with the extracted text;
-`null` if text extraction isn't supported.
-
+Learn more:
+- [Extract text from documents](https://docs.groupdocs.com/display/parsernet/Extract+text+from+documents)
+- [Extract text in Accurate mode](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
 
 ```python
 def get_text(self):
     ...
 ```
 
+**Returns:** io.TextIOBase: An instance with the extracted text, or None if text extraction isn't supported.
 
+### Example
 
-### Example 
+```python
+from groupdocs.parser import Parser
 
+with Parser("./sample.pdf") as parser:
+    text_reader = parser.get_text()
+    if text_reader is not None:
+        print(text_reader.read_to_end())
+```
 
-The following example shows how to extract a text from a document:
-
-
-## get_text {#groupdocs.parser.options.TextOptions}
+## get_text {#options}
 
 Extracts a text page from the document using text options (to enable raw fast text extraction mode).
 
-
-### Returns 
-
-
-An instance of TextReader class with the extracted text;
-`null` if text extraction isn't supported.
-
+Learn more:
+- https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode
+- https://docs.groupdocs.com/display/parsernet/Extract+text+in+Raw+mode
 
 ```python
 def get_text(self, options):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | groupdocs.parser.options.TextOptions | The text extraction options. |
+| options | `TextOptions` | The text extraction options. |
 
-### Example 
+**Returns:** An instance of `io.TextIOBase` with the extracted text; `None` if text extraction isn't supported.
 
+### Example
 
-The following example shows how to extract a raw text from a document:
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.options import TextOptions
 
+with Parser("./sample.pdf") as parser:
+    # Enable raw fast text extraction mode
+    options = TextOptions(True)  # raw fast mode
+    text_reader = parser.get_text(options)
+    if text_reader is not None:
+        print(text_reader.read_to_end())
+```
 
-## get_text {#int}
+## get_text {#page_index}
 
-Extracts a text from the document page.
+Extracts text from a specific page of the document.
 
-
-### Returns 
-
-
-An instance of TextReader class with the extracted text;
-`null` if text page extraction isn't supported.
-
+The method returns a `TextReader` containing the extracted text, or `None` if text extraction for the page is not supported.
 
 ```python
 def get_text(self, page_index):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| page_index | int | The zero-based page index. |
+| page_index | `int` | The zero‑based page index. |
 
-### Example 
+**Returns:** TextReader | None: A `TextReader` with the extracted text, or `None` if the page cannot be extracted.
 
+Remarks:
+- Learn more: https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode
 
-The following example shows how to extract a text from the document page:
+### Example
 
+```python
+from groupdocs.parser import Parser
 
-## get_text {#int-groupdocs.parser.options.TextOptions}
+with Parser("./sample.pdf") as parser:
+    # Extract text from the first page (page index 0)
+    reader = parser.get_text(0)
+    if reader is not None:
+        print(reader.read_to_end())
+```
 
-Extracts a text from the document page using text options (to enable raw fast text extraction mode).
+## get_text {#page_index-options}
 
-
-### Returns 
-
-
-An instance of TextReader class with the extracted text;
-`null` if text page extraction isn't supported.
-
+Extracts text from a specific page of the document using text options (enables raw fast text extraction mode).
 
 ```python
 def get_text(self, page_index, options):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| page_index | int | The zero-based page index. |
-| options | groupdocs.parser.options.TextOptions | The text extraction options. |
+| page_index | `int` | The zero‑based page index. |
+| options | `TextOptions` | The text extraction options. |
 
-### Example 
+**Returns:** io.TextIOBase: A text reader with the extracted text, or None if text extraction for the page is not supported.
 
+Learn more:
+- https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode
+- https://docs.groupdocs.com/display/parsernet/Extract+text+in+Raw+mode
 
-The following example shows how to extract a raw text from the document page:
+### Example
 
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.options import TextOptions
 
+with Parser("./sample.pdf") as parser:
+    # Ensure the document supports text extraction
+    if not parser.features.text:
+        print("Document does not support text extraction.")
+    else:
+        # Extract raw text from the first page
+        reader = parser.get_text(0, TextOptions(True))
+        if reader is not None:
+            print(reader.read_to_end())
+```
 
 ### See Also
-* module [`groupdocs.parser`](../../)
-* class [`Parser`](/parser/python-net/groupdocs.parser/parser)
+* class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

@@ -1,17 +1,18 @@
-﻿---
+---
 title: column_index property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The zero-based index of the first column that contains the table cell."
 type: docs
 url: /python-net/groupdocs.parser.data/pagetableareacell/column_index/
 is_root: false
-weight: 30
+weight: 2010
 ---
+
 
 ## column_index property
 
+The zero-based index of the first column that contains the table cell.
 
-Gets the column index.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def column_index(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`PageTableAreaCell`](/parser/python-net/groupdocs.parser.data/pagetableareacell)
+* class [`PageTableAreaCell`](/parser/python-net/groupdocs.parser.data/pagetableareacell/)

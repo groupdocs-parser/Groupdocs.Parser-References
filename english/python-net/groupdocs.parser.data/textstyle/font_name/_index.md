@@ -1,17 +1,18 @@
-﻿---
+---
 title: font_name property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The font name as a string."
 type: docs
 url: /python-net/groupdocs.parser.data/textstyle/font_name/
 is_root: false
-weight: 30
+weight: 2010
 ---
+
 
 ## font_name property
 
+The font name as a string.
 
-Gets the font name.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def font_name(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`TextStyle`](/parser/python-net/groupdocs.parser.data/textstyle)
+* class [`TextStyle`](/parser/python-net/groupdocs.parser.data/textstyle/)

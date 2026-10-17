@@ -1,17 +1,20 @@
-﻿---
+---
 title: confidence property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The level of confidence of the parsed barcode."
 type: docs
 url: /python-net/groupdocs.parser.data/pagebarcodearea/confidence/
 is_root: false
-weight: 50
+weight: 2030
 ---
+
 
 ## confidence property
 
+The level of confidence of the parsed barcode.
 
-Gets the level of confidence of the parsered barcode.
+An integer value that represents the confidence of the parsed barcode (0-100).
+
 ### Definition:
 ```python
 @property
@@ -23,5 +26,4 @@ def confidence(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`PageBarcodeArea`](/parser/python-net/groupdocs.parser.data/pagebarcodearea)
+* class [`PageBarcodeArea`](/parser/python-net/groupdocs.parser.data/pagebarcodearea/)

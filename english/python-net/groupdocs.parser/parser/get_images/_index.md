@@ -1,122 +1,173 @@
-﻿---
+---
 title: get_images method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Extracts images from the document."
 type: docs
 url: /python-net/groupdocs.parser/parser/get_images/
 is_root: false
-weight: 110
+weight: 1270
 ---
 
-## get_images {#}
+
+## get_images
 
 Extracts images from the document.
 
-
-### Returns 
-
-
-A collection of [`PageImageArea`](/parser/python-net/groupdocs.parser.data/pageimagearea) objects;
-`null` if images extraction isn't supported.
-
+Learn more:
+- [Extract images from documents](https://docs.groupdocs.com/display/parsernet/Extract+images+from+documents)
+- [Extract images to files](https://docs.groupdocs.com/display/parsernet/Extract+images+to+files)
+- [Extract images from Microsoft Office Word documents](https://docs.groupdocs.com/display/parsernet/Extract+images+from+Microsoft+Office+Word+documents)
+- [Extract images from Microsoft Office Excel spreadsheets](https://docs.groupdocs.com/display/parsernet/Extract+images+from+Microsoft+Office+Excel+spreadsheets)
+- [Extract images from Microsoft Office PowerPoint presentations](https://docs.groupdocs.com/display/parsernet/Extract+images+from+Microsoft+Office+PowerPoint+presentations)
+- [Extract images from Emails](https://docs.groupdocs.com/display/parsernet/Extract+images+from+Emails)
+- [Extract images from PDF documents](https://docs.groupdocs.com/display/parsernet/Extract+images+from+PDF+documents)
 
 ```python
 def get_images(self):
     ...
 ```
 
+**Returns:** Iterable[PageImageArea]: A collection of `PageImageArea` objects; `None` if images extraction isn't supported.
 
+### Example
 
-### Example 
+```python
+from groupdocs.parser import Parser
 
+with Parser("brochure.pdf") as parser:
+    images = parser.get_images()
+    if images is None:
+        print("Image extraction isn't supported for this format.")
+    elif not images:
+        print("No images found")
+    else:
+        for image_area in images:
+            # The image stream is a .NET MemoryStream; to_array() returns its bytes
+            with image_area.get_image_stream() as stream:
+                data = stream.to_array()
+                print(f"Read {len(data)} bytes from page {image_area.page.index + 1}")
+```
 
-The following example shows how to extract all images from the whole document:
+## get_images {#options}
 
+Extracts images from the document using customization options (to set the rectangular area that contains images).
 
-## get_images {#groupdocs.parser.options.PageAreaOptions}
-
-Extracts images from the document using customization options 
-(to set the rectangular area that contains images).
-
-
-### Returns 
-
-
-A collection of [`PageImageArea`](/parser/python-net/groupdocs.parser.data/pageimagearea) objects;
-`null` if images extraction isn't supported.
-
+Learn more:
+- https://docs.groupdocs.com/display/parsernet/Extract+images+from+documents
+- https://docs.groupdocs.com/display/parsernet/Extract+images+to+files
+- https://docs.groupdocs.com/display/parsernet/Extract+images+from+document+page+area
+- https://docs.groupdocs.com/display/parsernet/Extract+images+from+Microsoft+Office+Word+documents
+- https://docs.groupdocs.com/display/parsernet/Extract+images+from+Microsoft+Office+Excel+spreadsheets
+- https://docs.groupdocs.com/display/parsernet/Extract+images+from+Microsoft+Office+PowerPoint+presentations
+- https://docs.groupdocs.com/display/parsernet/Extract+images+from+Emails
+- https://docs.groupdocs.com/display/parsernet/Extract+images+from+PDF+documents
 
 ```python
 def get_images(self, options):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | groupdocs.parser.options.PageAreaOptions | The options for images extraction. |
+| options | `PageAreaOptions` | The options for images extraction. |
 
-### Example 
+**Returns:** A collection of `PageImageArea` objects; None if images extraction isn't supported.
 
+### Example
 
-The following example shows how to extract only images from the upper-left courner:
+```python
+from groupdocs.parser import Parser
 
+with Parser("brochure.pdf") as parser:
+    images = parser.get_images()
+    if images is None:
+        print("Image extraction isn't supported for this format.")
+    elif not images:
+        print("No images found")
+    else:
+        for image_area in images:
+            with image_area.get_image_stream() as stream:
+                data = stream.to_array()
+                print(f"Read {len(data)} bytes from page {image_area.page.index + 1}")
+```
 
-## get_images {#int}
+## get_images {#page_index}
 
 Extracts images from the document page.
-
-
-### Returns 
-
-
-A collection of [`PageImageArea`](/parser/python-net/groupdocs.parser.data/pageimagearea) objects;
-`null` if images extraction isn't supported.
-
 
 ```python
 def get_images(self, page_index):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| page_index | int | The zero-based page index. |
+| page_index | `int` | The zero-based page index. |
 
-### Example 
+**Returns:** list[PageImageArea] | None: A collection of `PageImageArea` objects; `None` if images extraction isn't supported.
 
+### Example
 
-To extract images from a document page the following method is used:
+```python
+from groupdocs.parser import Parser
 
+with Parser("brochure.pdf") as parser:
+    images = parser.get_images(0)  # extract images from the first page
+    if images is None:
+        print("Image extraction isn't supported for this format.")
+    elif not images:
+        print("No images found")
+    else:
+        for image_area in images:
+            with image_area.get_image_stream() as stream:
+                data = stream.to_array()
+                print(f"Read {len(data)} bytes from page {image_area.page.index + 1}")
+```
 
-## get_images {#int-groupdocs.parser.options.PageAreaOptions}
+## get_images {#page_index-options}
 
-Extracts images from the document page using customization options 
-(to set the rectangular area that contains images).
+Extracts images from the document page using customization options (to set the rectangular area that contains images).
 
-
-### Returns 
-
-
-A collection of [`PageImageArea`](/parser/python-net/groupdocs.parser.data/pageimagearea) objects;
-`null` if images extraction isn't supported.
-
+Learn more:
+- [Extract images from documents](https://docs.groupdocs.com/display/parsernet/Extract+images+from+documents)
+- [Extract images to files](https://docs.groupdocs.com/display/parsernet/Extract+images+to+files)
+- [Extract images from document page](https://docs.groupdocs.com/display/parsernet/Extract+images+from+document+page)
+- [Extract images from document page area](https://docs.groupdocs.com/display/parsernet/Extract+images+from+document+page+area)
+- [Extract images from Microsoft Office Word documents](https://docs.groupdocs.com/display/parsernet/Extract+images+from+Microsoft+Office+Word+documents)
+- [Extract images from Microsoft Office Excel spreadsheets](https://docs.groupdocs.com/display/parsernet/Extract+images+from+Microsoft+Office+Excel+spreadsheets)
+- [Extract images from Microsoft Office PowerPoint presentations](https://docs.groupdocs.com/display/parsernet/Extract+images+from+Microsoft+Office+PowerPoint+presentations)
+- [Extract images from Emails](https://docs.groupdocs.com/display/parsernet/Extract+images+from+Emails)
+- [Extract images from PDF documents](https://docs.groupdocs.com/display/parsernet/Extract+images+from+PDF+documents)
 
 ```python
 def get_images(self, page_index, options):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| page_index | int | The zero-based page index. |
-| options | groupdocs.parser.options.PageAreaOptions | The options for images extraction. |
+| page_index | `int` | The zero-based page index. |
+| options | `PageAreaOptions` | The options for images extraction. |
 
+**Returns:** list[PageImageArea] | None: A collection of `PageImageArea` objects; None if images extraction isn't supported.
 
+### Example
+
+```python
+from groupdocs.parser import Parser
+
+with Parser("brochure.pdf") as parser:
+    images = parser.get_images()
+    if images is None:
+        print("Image extraction isn't supported for this format.")
+    elif not images:
+        print("No images found")
+    else:
+        for image_area in images:
+            with image_area.get_image_stream() as stream:
+                data = stream.to_array()
+                print(f"Read {len(data)} bytes from page {image_area.page.index + 1}")
+```
 
 ### See Also
-* module [`groupdocs.parser`](../../)
-* class [`PageImageArea`](/parser/python-net/groupdocs.parser.data/pageimagearea)
-* class [`Parser`](/parser/python-net/groupdocs.parser/parser)
+* class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

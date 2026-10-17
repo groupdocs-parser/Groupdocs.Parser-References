@@ -1,34 +1,29 @@
-﻿---
+---
 title: WorksheetOptions class
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The options used for worksheet extraction."
 type: docs
 url: /python-net/groupdocs.parser.options/worksheetoptions/
 is_root: false
-weight: 370
+weight: 450
 ---
+
 
 ## WorksheetOptions class
 
-Provides the options which are used for the worksheet extraction.
-
-
+The options used for worksheet extraction.
 
 The WorksheetOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/parser/python-net/groupdocs.parser.options/worksheetoptions/__init__/#list) | Initializes a new instance of the [`WorksheetOptions`](/parser/python-net/groupdocs.parser.options/worksheetoptions) class. |
-
+| [__init__](/parser/python-net/groupdocs.parser.options/worksheetoptions/__init__/#ranges) | Initializes a new WorksheetOptions instance. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [ranges](/parser/python-net/groupdocs.parser.options/worksheetoptions/ranges) | Get a list of ranges. |
-
-
+| [ranges](/parser/python-net/groupdocs.parser.options/worksheetoptions/ranges/) | The list of ranges to extract cells. |
 
 ### See Also
-* module [`groupdocs.parser.options`](..)
-* class [`WorksheetOptions`](/parser/python-net/groupdocs.parser.options/worksheetoptions)
+* module [`groupdocs.parser.options`](/parser/python-net/groupdocs.parser.options/)

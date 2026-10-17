@@ -1,31 +1,36 @@
-﻿---
-title: TemplateFixedPosition constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Initializes a new instance of the TemplateFixedPosition class."
 type: docs
 url: /python-net/groupdocs.parser.templates/templatefixedposition/__init__/
 is_root: false
 weight: 10
 ---
 
-## __init__ {#groupdocs.parser.data.Rectangle}
 
-Initializes a new instance of the [`TemplateFixedPosition`](/parser/python-net/groupdocs.parser.templates/templatefixedposition) class.
+## __init__ {#rectangle}
 
-
+Initializes a new instance of the TemplateFixedPosition class.
 
 ```python
 def __init__(self, rectangle):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rectangle | groupdocs.parser.data.Rectangle | The rectangular area that contains the template field. |
+| rectangle | `Rectangle` | The rectangular area that contains the template field. |
 
+### Example
 
+```python
+from groupdocs.parser.templates import TemplateFixedPosition
+from groupdocs.parser.data import Rectangle, Point, Size
+
+rect = Rectangle(Point(35.0, 135.0), Size(100.0, 10.0))
+fixed_pos = TemplateFixedPosition(rect)
+```
 
 ### See Also
-* module [`groupdocs.parser.templates`](../../)
-* class [`TemplateFixedPosition`](/parser/python-net/groupdocs.parser.templates/templatefixedposition)
+* class [`TemplateFixedPosition`](/parser/python-net/groupdocs.parser.templates/templatefixedposition/)

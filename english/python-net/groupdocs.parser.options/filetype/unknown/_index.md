@@ -1,18 +1,17 @@
-﻿---
-title: UNKNOWN property
+---
+title: UNKNOWN field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Represents unknown file type."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/unknown/
 is_root: false
-weight: 830
+weight: 3010
 ---
 
-## UNKNOWN property
 
+## UNKNOWN field
 
 Represents unknown file type.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

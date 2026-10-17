@@ -1,38 +1,25 @@
-﻿---
+---
 title: get_consumption_quantity method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Return the amount of data processed so far."
 type: docs
 url: /python-net/groupdocs.parser/metered/get_consumption_quantity/
 is_root: false
-weight: 30
+weight: 1020
 ---
 
-## get_consumption_quantity {#}
 
-Retrieves amount of MBs processed.
+## get_consumption_quantity
 
-
-### Returns 
-
-
-A decimal value that represents the consumption quantity.
-
+Return the amount of data processed so far.
 
 ```python
-def get_consumption_quantity(self):
+def get_consumption_quantity():
     ...
 ```
 
-
-
-### Example 
-
-
-Following example demonstrates how to retrieve amount of MBs processed.
-
-
+**Returns:** float: The amount of data, in megabytes, processed against the
+current metered key.
 
 ### See Also
-* module [`groupdocs.parser`](../../)
-* class [`Metered`](/parser/python-net/groupdocs.parser/metered)
+* class [`Metered`](/parser/python-net/groupdocs.parser/metered/)

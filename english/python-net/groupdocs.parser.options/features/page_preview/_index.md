@@ -1,17 +1,18 @@
-﻿---
+---
 title: page_preview property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The value indicates whether the page preview generation is supported."
 type: docs
 url: /python-net/groupdocs.parser.options/features/page_preview/
 is_root: false
-weight: 130
+weight: 2110
 ---
+
 
 ## page_preview property
 
+The value indicates whether the page preview generation is supported.
 
-Gets the value that indicates whether the page preview generation is supported.
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def page_preview(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`Features`](/parser/python-net/groupdocs.parser.options/features)
+* class [`Features`](/parser/python-net/groupdocs.parser.options/features/)

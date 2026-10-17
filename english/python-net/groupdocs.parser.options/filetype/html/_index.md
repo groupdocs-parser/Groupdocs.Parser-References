@@ -1,20 +1,17 @@
-﻿---
-title: HTML property
+---
+title: HTML field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "HTML (Hyper Text Markup Language) is the extension for web pages created for display in browsers."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/html/
 is_root: false
-weight: 300
+weight: 3150
 ---
 
-## HTML property
 
+## HTML field
 
-HTML (Hyper Text Markup Language) is the extension for web pages created for display in browsers.
-Learn more about this file format 
-[here](https://wiki.fileformat.com/web/html/).
+HTML (Hyper Text Markup Language) is the extension for web pages created for display in browsers. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

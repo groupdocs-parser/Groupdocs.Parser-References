@@ -1,17 +1,20 @@
-﻿---
+---
 title: text property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The text of the item."
 type: docs
 url: /python-net/groupdocs.parser.data/tocitem/text/
 is_root: false
-weight: 50
+weight: 2030
 ---
+
 
 ## text property
 
+The text of the item.
 
-Gets the text.
+A string value that represents the text of the item.
+
 ### Definition:
 ```python
 @property
@@ -20,5 +23,4 @@ def text(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`TocItem`](/parser/python-net/groupdocs.parser.data/tocitem)
+* class [`TocItem`](/parser/python-net/groupdocs.parser.data/tocitem/)

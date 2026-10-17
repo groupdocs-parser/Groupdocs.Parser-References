@@ -1,32 +1,27 @@
-﻿---
-title: PageGroupArea constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Initializes a new instance of the PageGroupArea class."
 type: docs
 url: /python-net/groupdocs.parser.data/pagegrouparea/__init__/
 is_root: false
 weight: 10
 ---
 
-## __init__ {#list-groupdocs.parser.data.Page}
 
-Constructs a new instance of PageGroupArea
+## __init__ {#areas-page}
 
-
+Initializes a new instance of the [`PageGroupArea`](/parser/python-net/groupdocs.parser.data/pagegrouparea/) class.
 
 ```python
 def __init__(self, areas, page):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| areas | list |  |
-| page | groupdocs.parser.data.Page |  |
-
-
+| areas | `Iterable[PageArea]` | The collection of page areas to be grouped. |
+| page | `Page` | The page that contains the area. |
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`PageGroupArea`](/parser/python-net/groupdocs.parser.data/pagegrouparea)
+* class [`PageGroupArea`](/parser/python-net/groupdocs.parser.data/pagegrouparea/)

@@ -1,17 +1,20 @@
-﻿---
+---
 title: left property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The value indicates whether a field is searched by the left from the linked field."
 type: docs
 url: /python-net/groupdocs.parser.templates/templatelinkedpositionedges/left/
 is_root: false
-weight: 70
+weight: 2030
 ---
+
 
 ## left property
 
+The value indicates whether a field is searched by the left from the linked field.
 
-Gets the value that indicates whether a field is searched by the left from the linked field.
+`True` if a field is searched by the left from the linked field; otherwise `False`.
+
 ### Definition:
 ```python
 @property
@@ -20,5 +23,4 @@ def left(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.templates`](../../)
-* class [`TemplateLinkedPositionEdges`](/parser/python-net/groupdocs.parser.templates/templatelinkedpositionedges)
+* class [`TemplateLinkedPositionEdges`](/parser/python-net/groupdocs.parser.templates/templatelinkedpositionedges/)

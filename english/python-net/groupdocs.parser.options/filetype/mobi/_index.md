@@ -1,20 +1,17 @@
-﻿---
-title: MOBI property
+---
+title: MOBI field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The Mobipocket file format (originally with extension .prc and later .mobi) is a proprietary, partially documented, binary format for ebooks."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/mobi/
 is_root: false
-weight: 440
+weight: 3250
 ---
 
-## MOBI property
 
+## MOBI field
 
-The Mobipocket file format (originally with extension .prc and later .mobi) is a proprietary, partially documented, binary format for ebooks.
-Learn more about this file format
-[here](https://wiki.fileformat.com/ebook/mobi/).
+The Mobipocket file format (originally with extension .prc and later .mobi) is a proprietary, partially documented, binary format for ebooks. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

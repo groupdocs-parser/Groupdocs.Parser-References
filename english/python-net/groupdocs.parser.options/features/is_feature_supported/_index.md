@@ -1,36 +1,28 @@
-﻿---
+---
 title: is_feature_supported method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Returns a boolean indicating whether the specified feature is supported."
 type: docs
 url: /python-net/groupdocs.parser.options/features/is_feature_supported/
 is_root: false
-weight: 20
+weight: 1010
 ---
 
-## is_feature_supported {#System.String}
 
-Returns the value that indicates whether the feature is supported.
+## is_feature_supported {#feature_name}
 
-
-### Returns 
-
-
-`true` if the feature is supported; otherwise, `false`.
-
+Returns a boolean indicating whether the specified feature is supported.
 
 ```python
 def is_feature_supported(self, feature_name):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| feature_name | System.String | The feature name. |
+| feature_name | `str` | The feature name. |
 
-
+**Returns:** bool: True if the feature is supported; otherwise, False.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`Features`](/parser/python-net/groupdocs.parser.options/features)
+* class [`Features`](/parser/python-net/groupdocs.parser.options/features/)

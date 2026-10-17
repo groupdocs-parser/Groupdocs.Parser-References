@@ -1,17 +1,18 @@
-﻿---
+---
 title: file_type property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The format of the image as a FileType instance."
 type: docs
 url: /python-net/groupdocs.parser.data/pageimagearea/file_type/
 is_root: false
-weight: 50
+weight: 2010
 ---
+
 
 ## file_type property
 
+The format of the image as a [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/) instance.
 
-Gets the format of the image.
 ### Definition:
 ```python
 @property
@@ -20,6 +21,4 @@ def file_type(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
-* class [`PageImageArea`](/parser/python-net/groupdocs.parser.data/pageimagearea)
+* class [`PageImageArea`](/parser/python-net/groupdocs.parser.data/pageimagearea/)

@@ -1,17 +1,18 @@
-﻿---
+---
 title: barcode_quality property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The quality of a source barcode, defined by the mode that specifies its level."
 type: docs
 url: /python-net/groupdocs.parser.options/barcodeoptions/barcode_quality/
 is_root: false
-weight: 40
+weight: 2020
 ---
+
 
 ## barcode_quality property
 
+The quality of a source barcode, defined by the mode that specifies its level.
 
-Gets the quality of a source barcode.
 ### Definition:
 ```python
 @property
@@ -23,6 +24,4 @@ def barcode_quality(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`BarcodeOptions`](/parser/python-net/groupdocs.parser.options/barcodeoptions)
-* class [`QualityMode`](/parser/python-net/groupdocs.parser.options/qualitymode)
+* class [`BarcodeOptions`](/parser/python-net/groupdocs.parser.options/barcodeoptions/)

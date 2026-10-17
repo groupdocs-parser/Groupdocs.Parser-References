@@ -1,17 +1,20 @@
-﻿---
+---
 title: rectangle property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The rectangular area that contains page areas."
 type: docs
 url: /python-net/groupdocs.parser.options/barcodeoptions/rectangle/
 is_root: false
-weight: 90
+weight: 2070
 ---
+
 
 ## rectangle property
 
+The rectangular area that contains page areas.
 
-Gets the rectangular area that contains page areas.
+An instance of [`Rectangle`](/parser/python-net/groupdocs.parser.data/rectangle/) that represents the rectangular area that contains page areas; `None` if it isn't set.
+
 ### Definition:
 ```python
 @property
@@ -23,6 +26,4 @@ def rectangle(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`BarcodeOptions`](/parser/python-net/groupdocs.parser.options/barcodeoptions)
-* class [`Rectangle`](/parser/python-net/groupdocs.parser.data/rectangle)
+* class [`BarcodeOptions`](/parser/python-net/groupdocs.parser.options/barcodeoptions/)

@@ -1,17 +1,20 @@
-﻿---
+---
 title: base_line property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The base line of the page text area."
 type: docs
 url: /python-net/groupdocs.parser.data/pagetextarea/base_line/
 is_root: false
-weight: 40
+weight: 2020
 ---
+
 
 ## base_line property
 
+The base line of the page text area.
 
-Gets the base line.
+A float value that represents the base line.
+
 ### Definition:
 ```python
 @property
@@ -23,5 +26,4 @@ def base_line(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`PageTextArea`](/parser/python-net/groupdocs.parser.data/pagetextarea)
+* class [`PageTextArea`](/parser/python-net/groupdocs.parser.data/pagetextarea/)

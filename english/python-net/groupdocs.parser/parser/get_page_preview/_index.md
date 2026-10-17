@@ -1,59 +1,44 @@
-﻿---
+---
 title: get_page_preview method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Generates a document page preview."
 type: docs
 url: /python-net/groupdocs.parser/parser/get_page_preview/
 is_root: false
-weight: 130
+weight: 1310
 ---
 
-## get_page_preview {#int}
+
+## get_page_preview {#page_index}
 
 Generates a document page preview.
-
-
-### Returns 
-
-
-An instance of Stream containing an image of the document page; `null` if the page preview generation isn't supported.
-
 
 ```python
 def get_page_preview(self, page_index):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| page_index | int | The zero-based page index. |
+| page_index | `int` | The zero-based page index. |
 
+**Returns:** io.RawIOBase: An image of the document page; None if the page preview generation isn't supported.
 
-## get_page_preview {#int-groupdocs.parser.options.PagePreviewOptions}
+## get_page_preview {#page_index-options}
 
 Generates a document page preview using customization options.
-
-
-### Returns 
-
-
-An instance of Stream containing an image of the document page; `null` if the page preview generation isn't supported.
-
 
 ```python
 def get_page_preview(self, page_index, options):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| page_index | int | The zero-based page index. |
-| options | groupdocs.parser.options.PagePreviewOptions | The options to customize the preview generation. |
+| page_index | `int` | The zero-based page index. |
+| options | `PagePreviewOptions` | The options to customize the preview generation. |
 
-
+**Returns:** io.RawIOBase: A stream containing an image of the document page, or None if the page preview generation isn't supported.
 
 ### See Also
-* module [`groupdocs.parser`](../../)
-* class [`Parser`](/parser/python-net/groupdocs.parser/parser)
+* class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

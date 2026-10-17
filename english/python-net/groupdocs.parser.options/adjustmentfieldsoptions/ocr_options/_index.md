@@ -1,18 +1,22 @@
-﻿---
+---
 title: ocr_options property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The additional OCR options for adjustment fields."
 type: docs
 url: /python-net/groupdocs.parser.options/adjustmentfieldsoptions/ocr_options/
 is_root: false
-weight: 40
+weight: 2020
 ---
+
 
 ## ocr_options property
 
+The additional OCR options for adjustment fields.
 
-Gets or sets the additional options for OCR functionality.
-The default value is `null`.
+The default value is None.
+
+An instance of [`AdjustmentFieldsOptions.ocr_options`](/parser/python-net/groupdocs.parser.options/adjustmentfieldsoptions/ocr_options/) with the additional OCR options.
+
 ### Definition:
 ```python
 @property
@@ -24,6 +28,4 @@ def ocr_options(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`AdjustmentFieldsOptions`](/parser/python-net/groupdocs.parser.options/adjustmentfieldsoptions)
-* class [`OcrOptions`](/parser/python-net/groupdocs.parser.options/ocroptions)
+* class [`AdjustmentFieldsOptions`](/parser/python-net/groupdocs.parser.options/adjustmentfieldsoptions/)

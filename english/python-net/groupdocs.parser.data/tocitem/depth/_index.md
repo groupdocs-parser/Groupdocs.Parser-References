@@ -1,17 +1,20 @@
-﻿---
+---
 title: depth property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The depth level of the item."
 type: docs
 url: /python-net/groupdocs.parser.data/tocitem/depth/
 is_root: false
-weight: 30
+weight: 2010
 ---
+
 
 ## depth property
 
+The depth level of the item.
 
-Gets the depth level.
+An integer value that represents the depth level of the item.
+
 ### Definition:
 ```python
 @property
@@ -20,5 +23,4 @@ def depth(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`TocItem`](/parser/python-net/groupdocs.parser.data/tocitem)
+* class [`TocItem`](/parser/python-net/groupdocs.parser.data/tocitem/)

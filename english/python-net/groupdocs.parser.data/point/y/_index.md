@@ -1,17 +1,18 @@
-﻿---
+---
 title: y property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The y-coordinate as a float."
 type: docs
 url: /python-net/groupdocs.parser.data/point/y/
 is_root: false
-weight: 70
+weight: 2020
 ---
+
 
 ## y property
 
+The y-coordinate as a float.
 
-Gets the y-coordinate.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def y(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`Point`](/parser/python-net/groupdocs.parser.data/point)
+* class [`Point`](/parser/python-net/groupdocs.parser.data/point/)

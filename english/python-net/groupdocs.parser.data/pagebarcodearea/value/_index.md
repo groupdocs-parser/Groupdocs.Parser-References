@@ -1,17 +1,18 @@
-﻿---
+---
 title: value property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The barcode value as a string that represents the value of the barcode page area."
 type: docs
 url: /python-net/groupdocs.parser.data/pagebarcodearea/value/
 is_root: false
-weight: 80
+weight: 2040
 ---
+
 
 ## value property
 
+The barcode value as a string that represents the value of the barcode page area.
 
-Gets the barcode value.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def value(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`PageBarcodeArea`](/parser/python-net/groupdocs.parser.data/pagebarcodearea)
+* class [`PageBarcodeArea`](/parser/python-net/groupdocs.parser.data/pagebarcodearea/)

@@ -1,62 +1,44 @@
-﻿---
+---
 title: parse_pages_by_template method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Parses the document pages using the user-generated template."
 type: docs
 url: /python-net/groupdocs.parser/parser/parse_pages_by_template/
 is_root: false
-weight: 220
+weight: 1520
 ---
 
-## parse_pages_by_template {#groupdocs.parser.templates.Template}
 
-Parses the document pages by the user-generated template.
+## parse_pages_by_template {#template}
 
-
-### Returns 
-
-
-A collection of [`DocumentPageData`](/parser/python-net/groupdocs.parser.data/documentpagedata) objects that contains the extracted data;
-`null` if parsing by template isn't supported.
-
+Parses the document pages using the user-generated template.
 
 ```python
 def parse_pages_by_template(self, template):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| template | groupdocs.parser.templates.Template | The user-generated template. |
+| template | `Template` | The user-generated template. |
 
+**Returns:** list[`DocumentPageData`] – Collection of extracted data, or None if parsing by template isn't supported.
 
-## parse_pages_by_template {#groupdocs.parser.templates.Template-groupdocs.parser.options.ParseByTemplateOptions}
+## parse_pages_by_template {#template-options}
 
 Parses the document pages by the user-generated template using customization options.
-
-
-### Returns 
-
-
-A collection of [`DocumentPageData`](/parser/python-net/groupdocs.parser.data/documentpagedata) objects that contains the extracted data;
-`null` if parsing by template isn't supported.
-
 
 ```python
 def parse_pages_by_template(self, template, options):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| template | groupdocs.parser.templates.Template | The user-generated template. |
-| options | groupdocs.parser.options.ParseByTemplateOptions | The customization options. |
+| template | `Template` | The user-generated template. |
+| options | `ParseByTemplateOptions` | The customization options. |
 
-
+**Returns:** Iterable[`DocumentPageData`] containing the extracted data, or None if parsing by template isn't supported.
 
 ### See Also
-* module [`groupdocs.parser`](../../)
-* class [`DocumentPageData`](/parser/python-net/groupdocs.parser.data/documentpagedata)
-* class [`Parser`](/parser/python-net/groupdocs.parser/parser)
+* class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

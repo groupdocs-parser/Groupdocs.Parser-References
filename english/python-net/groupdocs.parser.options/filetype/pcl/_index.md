@@ -1,20 +1,17 @@
-﻿---
-title: PCL property
+---
+title: PCL field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "PCL stands for Printer Command Language which is a Page Description Language introduced by Hewlett Packard (HP)."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/pcl/
 is_root: false
-weight: 560
+weight: 3840
 ---
 
-## PCL property
 
+## PCL field
 
-PCL stands for Printer Command Language which is a Page Description Language 
-introduced by Hewlett Packard (HP). Learn more about this file format
-[here](https://wiki.fileformat.com/page-description-language/pcl/).
+PCL stands for Printer Command Language which is a Page Description Language introduced by Hewlett Packard (HP). Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

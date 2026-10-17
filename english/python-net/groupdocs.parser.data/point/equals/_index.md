@@ -1,36 +1,43 @@
-﻿---
+---
 title: equals method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Determines whether the current Point is the same as the specified object."
 type: docs
 url: /python-net/groupdocs.parser.data/point/equals/
 is_root: false
-weight: 20
+weight: 1010
 ---
 
-## equals {#groupdocs.parser.data.Point}
 
-Determines whether the current [`Point`](/parser/python-net/groupdocs.parser.data/point) is the same as specified [`Point`](/parser/python-net/groupdocs.parser.data/point) object.
+## equals {#obj}
 
+Determines whether the current [`Point`](/parser/python-net/groupdocs.parser.data/point/) is the same as the specified object.
 
-### Returns 
+```python
+def equals(self, obj):
+    ...
+```
 
+| Parameter | Type | Description |
+| :- | :- | :- |
+| obj | `Any` | The object to compare with the current `Point` object. |
 
-if both [`Point`](/parser/python-net/groupdocs.parser.data/point) objects are the same; otherwise,
+**Returns:** bool: `True` if `obj` is a `Point` and is the same as the current `Point` object; otherwise, `False`.
 
+## equals {#other}
+
+Determines whether the current Point equals the specified Point.
 
 ```python
 def equals(self, other):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| other | groupdocs.parser.data.Point | The object to compare with the current [`Point`](/parser/python-net/groupdocs.parser.data/point) object. |
+| other | `Point` | The object to compare with the current Point. |
 
-
+**Returns:** bool: True if both Point objects are the same; otherwise False.
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`Point`](/parser/python-net/groupdocs.parser.data/point)
+* class [`Point`](/parser/python-net/groupdocs.parser.data/point/)

@@ -1,17 +1,18 @@
-﻿---
+---
 title: count property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The number of templates contained in the TemplateCollection."
 type: docs
 url: /python-net/groupdocs.parser.templates/templatecollection/count/
 is_root: false
-weight: 80
+weight: 2010
 ---
+
 
 ## count property
 
+The number of templates contained in the TemplateCollection.
 
-Gets the number of templates contained in the [`TemplateCollection`](/parser/python-net/groupdocs.parser.templates/templatecollection).
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def count(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.templates`](../../)
-* class [`TemplateCollection`](/parser/python-net/groupdocs.parser.templates/templatecollection)
+* class [`TemplateCollection`](/parser/python-net/groupdocs.parser.templates/templatecollection/)

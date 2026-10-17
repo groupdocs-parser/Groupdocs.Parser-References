@@ -1,17 +1,20 @@
-﻿---
+---
 title: areas property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The collection of child text page areas."
 type: docs
 url: /python-net/groupdocs.parser.data/pagetextarea/areas/
 is_root: false
-weight: 30
+weight: 2010
 ---
+
 
 ## areas property
 
+The collection of child text page areas.
 
-Gets the collection of child text page areas.
+Empty if the text page area has no children.
+
 ### Definition:
 ```python
 @property
@@ -23,5 +26,4 @@ def areas(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`PageTextArea`](/parser/python-net/groupdocs.parser.data/pagetextarea)
+* class [`PageTextArea`](/parser/python-net/groupdocs.parser.data/pagetextarea/)

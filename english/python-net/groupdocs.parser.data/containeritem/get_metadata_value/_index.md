@@ -1,36 +1,38 @@
-﻿---
+---
 title: get_metadata_value method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Gets the metadata value."
 type: docs
 url: /python-net/groupdocs.parser.data/containeritem/get_metadata_value/
 is_root: false
-weight: 30
+weight: 1030
 ---
 
-## get_metadata_value {#System.String}
+
+## get_metadata_value {#name}
 
 Gets the metadata value.
-
-
-### Returns 
-
-
-A string value that represents the value of the metadata item; `null` if the metadata with this name isn't found.
-
 
 ```python
 def get_metadata_value(self, name):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | System.String | The name of the metadata. |
+| name | `str` | The name of the metadata. |
 
+**Returns:** str or None: The value of the metadata item, or None if the metadata with this name isn't found.
 
+### Example
+
+```python
+    from groupdocs.parser import Parser
+
+    with Parser("archive.zip") as parser:
+        for item in parser.get_container() or []:
+            print(item.name, item.get_metadata_value("author"))
+    ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`ContainerItem`](/parser/python-net/groupdocs.parser.data/containeritem)
+* class [`ContainerItem`](/parser/python-net/groupdocs.parser.data/containeritem/)

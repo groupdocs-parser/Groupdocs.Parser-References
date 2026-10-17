@@ -1,17 +1,20 @@
-﻿---
+---
 title: ocr_options property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The additional OCR options."
 type: docs
 url: /python-net/groupdocs.parser.options/parsebytemplateoptions/ocr_options/
 is_root: false
-weight: 30
+weight: 2010
 ---
+
 
 ## ocr_options property
 
+The additional OCR options.
 
-Gets the additional options for OCR functionality.
+An instance of [`ParseByTemplateOptions.ocr_options`](/parser/python-net/groupdocs.parser.options/parsebytemplateoptions/ocr_options/) class with the additional OCR options.
+
 ### Definition:
 ```python
 @property
@@ -23,6 +26,4 @@ def ocr_options(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`OcrOptions`](/parser/python-net/groupdocs.parser.options/ocroptions)
-* class [`ParseByTemplateOptions`](/parser/python-net/groupdocs.parser.options/parsebytemplateoptions)
+* class [`ParseByTemplateOptions`](/parser/python-net/groupdocs.parser.options/parsebytemplateoptions/)

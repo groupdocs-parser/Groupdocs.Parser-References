@@ -1,42 +1,32 @@
-﻿---
+---
 title: parse method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Converts the string representation of edges to its class equivalent."
 type: docs
 url: /python-net/groupdocs.parser.templates/templatelinkedpositionedges/parse/
 is_root: false
-weight: 20
+weight: 1010
 ---
 
-## parse {#System.String}
+
+## parse {#s}
 
 Converts the string representation of edges to its class equivalent.
 
-
-### Returns 
-
-
-An instance of [`TemplateLinkedPositionEdges`](/parser/python-net/groupdocs.parser.templates/templatelinkedpositionedges) class that is equivalent to the value specified in `s` parameter.
-
-
 ```python
-def parse(self, s):
+def parse(cls, s):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| s | System.String | A string that contains edges to convert. |
-### Exceptions
-| Exception | Description |
+| s | `str` | A string that contains edges to convert. |
+
+**Returns:** TemplateLinkedPositionEdges: An instance of `TemplateLinkedPositionEdges` class that is equivalent to the value specified in `s` parameter.
+
+| Raises | Description |
 | :- | :- |
-| ArgumentException | `s` does not represent edges in a valid format. |
-
-
-
-
+| `ValueError` | `s` does not represent edges in a valid format. |
 
 ### See Also
-* module [`groupdocs.parser.templates`](../../)
-* class [`TemplateLinkedPositionEdges`](/parser/python-net/groupdocs.parser.templates/templatelinkedpositionedges)
+* class [`TemplateLinkedPositionEdges`](/parser/python-net/groupdocs.parser.templates/templatelinkedpositionedges/)

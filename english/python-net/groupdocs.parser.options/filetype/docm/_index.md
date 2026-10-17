@@ -1,19 +1,17 @@
-﻿---
-title: DOCM property
+---
+title: DOCM field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "DOCM files are Microsoft Word 2007 or higher generated documents with the ability to run macros."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/docm/
 is_root: false
-weight: 160
+weight: 3050
 ---
 
-## DOCM property
 
+## DOCM field
 
-DOCM files are Microsoft Word 2007 or higher generated documents with the ability to run macros.
-Learn more about this file format [here](https://wiki.fileformat.com/word-processing/docm/).
+DOCM files are Microsoft Word 2007 or higher generated documents with the ability to run macros. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

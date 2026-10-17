@@ -1,71 +1,102 @@
-﻿---
-title: TemplateField constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Initializes a new TemplateField instance."
 type: docs
 url: /python-net/groupdocs.parser.templates/templatefield/__init__/
 is_root: false
 weight: 10
 ---
 
-## __init__ {#groupdocs.parser.templates.TemplatePosition-System.String}
 
-Initializes a new instance of the [`TemplateField`](/parser/python-net/groupdocs.parser.templates/templatefield) class.
+## __init__ {#position-name}
 
-
+Initializes a new TemplateField instance.
 
 ```python
 def __init__(self, position, name):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | groupdocs.parser.templates.TemplatePosition | The field position. |
-| name | System.String | The field name. |
+| position | `TemplatePosition` | The field position. |
+| name | `str` | The field name. |
 
+### Example
 
-## __init__ {#groupdocs.parser.templates.TemplatePosition-System.String-System.Nullable`1[[System.Double]]}
+```python
+from groupdocs.parser.templates import TemplateField, TemplateRegexPosition
 
-Constructs a new instance of TemplateField
+field = TemplateField(
+    TemplateRegexPosition(r"Invoice Number\s+(?<value>[A-Z0-9\-]+)"),
+    "InvoiceNumber",
+)
+```
 
+## __init__ {#position-name-page_width}
 
+Initializes a new TemplateField.
 
 ```python
 def __init__(self, position, name, page_width):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | groupdocs.parser.templates.TemplatePosition |  |
-| name | System.String |  |
-| page_width | System.Nullable`1[[System.Double]] |  |
+| position | `TemplatePosition` | The field position. |
+| name | `str` | The field name. |
+| page_width | `Optional[float]` | The width of the page that was used to create the template item. |
 
+### Example
 
-## __init__ {#groupdocs.parser.templates.TemplatePosition-System.String-System.Nullable`1[[System.Double]]-bool}
+```python
+from groupdocs.parser.templates import TemplateField, TemplateFixedPosition
+from groupdocs.parser.data import Rectangle, Point, Size
 
-Constructs a new instance of TemplateField
+field = TemplateField(
+    TemplateFixedPosition(Rectangle(Point(35.0, 135.0), Size(100.0, 10.0))),
+    "CompanyName",
+)
+```
 
+## __init__ {#position-name-page_width-use_upper_case_name}
 
+Initializes a new TemplateField.
 
 ```python
 def __init__(self, position, name, page_width, use_upper_case_name):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| position | groupdocs.parser.templates.TemplatePosition |  |
-| name | System.String |  |
-| page_width | System.Nullable`1[[System.Double]] |  |
-| use_upper_case_name | bool |  |
+| position | `TemplatePosition` | The field position. |
+| name | `str` | The field name. |
+| page_width | `Optional[float]` | The width of the page that was used to create the template item. |
+| use_upper_case_name | `bool` | Indicates whether the `name` is converted to upper case. |
 
+### Example
 
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.templates import Template, TemplateField, TemplateRegexPosition
+
+template = Template([
+    TemplateField(
+        TemplateRegexPosition(r"Invoice Number\s+(?<value>[A-Z0-9\-]+)"),
+        "InvoiceNumber",
+    )
+])
+
+with Parser("./invoice.pdf") as parser:
+    data = parser.parse_by_template(template)
+    if data is not None:
+        fields = data.get_fields_by_name("InvoiceNumber")
+        if fields:
+            print(f"Invoice number: {fields[0].text}")
+```
 
 ### See Also
-* module [`groupdocs.parser.templates`](../../)
-* class [`TemplateField`](/parser/python-net/groupdocs.parser.templates/templatefield)
+* class [`TemplateField`](/parser/python-net/groupdocs.parser.templates/templatefield/)

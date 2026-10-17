@@ -1,39 +1,40 @@
-﻿---
+---
 title: get_document_info method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Returns the general information about the document."
 type: docs
 url: /python-net/groupdocs.parser/parser/get_document_info/
 is_root: false
-weight: 60
+weight: 1130
 ---
 
-## get_document_info {#}
+
+## get_document_info
 
 Returns the general information about the document.
 
-
-### Returns 
-
-
-An instance of class that implements [`IDocumentInfo`](/parser/python-net/groupdocs.parser.options/idocumentinfo) interface.
-
+Learn more:
+- https://docs.groupdocs.com/display/parsernet/Get+document+info
+- https://docs.groupdocs.com/display/parsernet/Detect+encoding
 
 ```python
 def get_document_info(self):
     ...
 ```
 
+**Returns:** IDocumentInfo
 
+### Example
 
-### Example 
+```python
+from groupdocs.parser import Parser
 
-
-The following example shows how to get document info:
-
-
+with Parser("./sample.docx") as parser:
+    doc_info = parser.get_document_info()
+    print(f"File type: {doc_info.file_type.file_format}")
+    print(f"Page count: {doc_info.page_count}")
+    print(f"Size: {doc_info.size} bytes")
+```
 
 ### See Also
-* module [`groupdocs.parser`](../../)
-* class [`IDocumentInfo`](/parser/python-net/groupdocs.parser.options/idocumentinfo)
-* class [`Parser`](/parser/python-net/groupdocs.parser/parser)
+* class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

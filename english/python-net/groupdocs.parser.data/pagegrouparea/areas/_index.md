@@ -1,17 +1,18 @@
-﻿---
+---
 title: areas property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The collection of grouped page areas."
 type: docs
 url: /python-net/groupdocs.parser.data/pagegrouparea/areas/
 is_root: false
-weight: 30
+weight: 2010
 ---
+
 
 ## areas property
 
+The collection of grouped page areas. A collection of [`PageArea`](/parser/python-net/groupdocs.parser.data/pagearea/) objects.
 
-Gets the collection of grouped page areas.
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def areas(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`PageGroupArea`](/parser/python-net/groupdocs.parser.data/pagegrouparea)
+* class [`PageGroupArea`](/parser/python-net/groupdocs.parser.data/pagegrouparea/)

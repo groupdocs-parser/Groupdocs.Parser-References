@@ -1,125 +1,127 @@
-﻿---
+---
 title: get_file_info method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Returns the general information about a file."
 type: docs
 url: /python-net/groupdocs.parser/parser/get_file_info/
 is_root: false
-weight: 70
+weight: 1140
 ---
 
-## get_file_info {#System.String}
+
+## get_file_info {#file_path}
 
 Returns the general information about a file.
 
-
-### Returns 
-
-
-An instance of [`FileInfo`](/parser/python-net/groupdocs.parser.options/fileinfo) class.
-
-
 ```python
-def get_file_info(self, file_path):
+def get_file_info(cls, file_path):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | System.String | The path to the file. |
+| file_path | `str` | The path to the file. |
 
-### Example 
+**Returns:** FileInfo: An instance containing file information.
 
+### Example
 
-The following code shows how to check whether a file is password-protected:
+```python
+    from groupdocs.parser import Parser
 
+    info = Parser.get_file_info("./sample.pdf")
+    print("Password is required" if info.is_encrypted else "")
+    ```
 
-## get_file_info {#io.RawIOBase}
+## get_file_info {#file_path-load_options}
 
 Returns the general information about a file.
 
-
-### Returns 
-
-
-An instance of [`FileInfo`](/parser/python-net/groupdocs.parser.options/fileinfo) class.
-
-
 ```python
-def get_file_info(self, document):
+def get_file_info(cls, file_path, load_options):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| document | io.RawIOBase | The source input stream. |
+| file_path | `str` | The path to the file. |
+| load_options | `LoadOptions` | The options to open the file. |
 
-### Example 
+**Returns:** FileInfo: An instance of `FileInfo`.
 
+### Example
 
-The following code shows how to check whether a file is password-protected:
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.options import LoadOptions
 
+# Get file info, providing a password if the document is protected
+file_info = Parser.get_file_info("./sample.pdf", LoadOptions("password"))
 
-## get_file_info {#System.String-groupdocs.parser.options.LoadOptions}
+# Check if the document is encrypted
+if file_info.is_encrypted:
+    print("Password is required")
+
+# Print the detected file type
+print(file_info.file_type)
+```
+
+## get_file_info {#document}
 
 Returns the general information about a file.
 
-
-### Returns 
-
-
-An instance of [`FileInfo`](/parser/python-net/groupdocs.parser.options/fileinfo) class.
-
-
 ```python
-def get_file_info(self, file_path, load_options):
+def get_file_info(cls, document):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | System.String | The path to the file. |
-| load_options | groupdocs.parser.options.LoadOptions | The options to open the file. |
+| document | `io.RawIOBase` | The source input stream. |
 
-### Example 
+**Returns:** FileInfo: General information about the file.
 
+### Example
 
-The following code shows how to check a file type of the password-protected document:
+```python
+    from groupdocs.parser import Parser
 
+    # Get file information
+    file_info = Parser.get_file_info("./sample.pdf")
+    print(f"File type: {file_info.file_type}")
 
-## get_file_info {#io.RawIOBase-groupdocs.parser.options.LoadOptions}
+    # Check if the document is password-protected
+    if file_info.is_encrypted:
+        print("Password is required")
+    ```
+
+## get_file_info {#document-load_options}
 
 Returns the general information about a file.
 
-
-### Returns 
-
-
-An instance of [`FileInfo`](/parser/python-net/groupdocs.parser.options/fileinfo) class.
-
-
 ```python
-def get_file_info(self, document, load_options):
+def get_file_info(cls, document, load_options):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| document | io.RawIOBase | The source input stream. |
-| load_options | groupdocs.parser.options.LoadOptions | The options to open the file. |
+| document | `io.RawIOBase` | The source input stream. |
+| load_options | `LoadOptions` | The options to open the file. |
 
-### Example 
+**Returns:** FileInfo: An instance containing file information.
 
+### Example
 
-The following code shows how to check a file type of the password-protected document:
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.options import LoadOptions
 
-
+with open("sample.pdf", "rb") as stream:
+    file_info = Parser.get_file_info(stream, LoadOptions())
+    print("Password is required" if file_info.is_encrypted else "")
+    print(file_info.file_type)
+```
 
 ### See Also
-* module [`groupdocs.parser`](../../)
-* class [`FileInfo`](/parser/python-net/groupdocs.parser.options/fileinfo)
-* class [`Parser`](/parser/python-net/groupdocs.parser/parser)
+* class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

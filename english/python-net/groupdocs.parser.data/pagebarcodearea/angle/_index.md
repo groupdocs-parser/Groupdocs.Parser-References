@@ -1,17 +1,18 @@
-﻿---
+---
 title: angle property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The angle of the barcode as an integer between 0 and 360."
 type: docs
 url: /python-net/groupdocs.parser.data/pagebarcodearea/angle/
 is_root: false
-weight: 30
+weight: 2010
 ---
+
 
 ## angle property
 
+The angle of the barcode as an integer between 0 and 360.
 
-Gets the angle of the barcode.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def angle(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`PageBarcodeArea`](/parser/python-net/groupdocs.parser.data/pagebarcodearea)
+* class [`PageBarcodeArea`](/parser/python-net/groupdocs.parser.data/pagebarcodearea/)

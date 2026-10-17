@@ -1,62 +1,52 @@
-﻿---
+---
 title: move_to method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Creates a new layout with the same size, separators, and position at the specified point."
 type: docs
 url: /python-net/groupdocs.parser.templates/templatetablelayout/move_to/
 is_root: false
-weight: 20
+weight: 1010
 ---
 
-## move_to {#groupdocs.parser.data.Point}
 
-Creates a new layout with the same size, separators and position in the `point`.
+## move_to {#point}
 
+Creates a new layout with the same size, separators, and position at the specified point.
 
-### Returns 
-
-
-A new layout with the same size, separators and position in the `point`.
-
+This functionality allows moving a table layout. For documents where tables share the same column and row structure but appear at different positions, a [`TemplateTableLayout`](/parser/python-net/groupdocs.parser.templates/templatetablelayout/) can be defined once (e.g., at (0, 0)) and then moved to each table’s location. The method returns a copy of the original layout, so modifications to the moved layout do not affect the source layout. Any coordinates, including negative values, are accepted.
 
 ```python
 def move_to(self, point):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | groupdocs.parser.data.Point | The position of the new layout. |
+| point | `Point` | The position of the new layout. |
 
-### Example 
+**Returns:** A new layout with the same size, separators, and position at the specified point.
 
+### Example
 
-This functionality allows to move Table Layout.
+```python
+from groupdocs.parser.data import Point
+from groupdocs.parser.templates import TemplateTableLayout
 
+# Create a table layout with column and row separators
+layout = TemplateTableLayout(
+    [0, 25, 150, 180, 230],
+    [0, 15, 30, 45, 60, 75]
+)
 
+print(f"pos: ({layout.rectangle.left}, {layout.rectangle.top}) "
+      f"size: ({layout.rectangle.size.width}, {layout.rectangle.size.height})")
 
+# Move layout to a specific location
+moved_layout = layout.move_to(Point(315, 250))
 
-For example, a document has tables on each page (or a set of documents with a table on the page). 
-These tables differ by position and content, but have the same columns and rows. In this case a user can define 
-[`TemplateTableLayout`](/parser/python-net/groupdocs.parser.templates/templatetablelayout) object at `(0, 0)` once and then move it to the location of the definite table.
-
-
-
-
-If the table position depends on the other object of the page, a user can define [`TemplateTableLayout`](/parser/python-net/groupdocs.parser.templates/templatetablelayout) object based 
-on template document and then move it according to an anchor object. For example, if this is a summary table and 
-it is followed by details table (which can contain a different count of rows). In this case a user can define 
-[`TemplateTableLayout`](/parser/python-net/groupdocs.parser.templates/templatetablelayout) object on template document (with the known details table rectangle) and then move 
-[`TemplateTableLayout`](/parser/python-net/groupdocs.parser.templates/templatetablelayout) object according to the difference of details table rectangle of template and real document.
-
-
-
-[`TemplateTableLayout.move_to`](/parser/python-net/groupdocs.parser.templates/templatetablelayout/move_to) method returns a copy of the current object. 
-A user can pass any coordinates (even negative - then layout will be moved to the left/top).
-
-
+print(moved_layout.vertical_separators[0])   # 315
+print(moved_layout.horizontal_separators[0]) # 250
+```
 
 ### See Also
-* module [`groupdocs.parser.templates`](../../)
-* class [`TemplateTableLayout`](/parser/python-net/groupdocs.parser.templates/templatetablelayout)
+* class [`TemplateTableLayout`](/parser/python-net/groupdocs.parser.templates/templatetablelayout/)

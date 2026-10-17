@@ -1,20 +1,17 @@
-﻿---
-title: DJVU property
+---
+title: DJVU field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "DjVu, pronounced as “déjà vu”, is a graphics file format intended for scanned documents and books especially those which contain the combination of text, drawings, images and photographs."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/djvu/
 is_root: false
-weight: 140
+weight: 3820
 ---
 
-## DJVU property
 
+## DJVU field
 
-DjVu, pronounced as “déjà vu”, is a graphics file format intended for scanned documents and 
-books especially those which contain the combination of text, drawings, images and photographs.
-Learn more about this file format [here](https://wiki.fileformat.com/image/djvu/).
+DjVu, pronounced as “déjà vu”, is a graphics file format intended for scanned documents and books especially those which contain the combination of text, drawings, images and photographs. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

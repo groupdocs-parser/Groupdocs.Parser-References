@@ -1,28 +1,22 @@
-﻿---
-title: AdjustmentFieldsOptions constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Initializes a new AdjustmentFieldsOptions instance."
 type: docs
 url: /python-net/groupdocs.parser.options/adjustmentfieldsoptions/__init__/
 is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Initializes a new instance of the [`AdjustmentFieldsOptions`](/parser/python-net/groupdocs.parser.options/adjustmentfieldsoptions) class.
+## __init__
 
-
+Initializes a new [`AdjustmentFieldsOptions`](/parser/python-net/groupdocs.parser.options/adjustmentfieldsoptions/) instance.
 
 ```python
 def __init__(self):
     ...
 ```
 
-
-
-
-
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`AdjustmentFieldsOptions`](/parser/python-net/groupdocs.parser.options/adjustmentfieldsoptions)
+* class [`AdjustmentFieldsOptions`](/parser/python-net/groupdocs.parser.options/adjustmentfieldsoptions/)

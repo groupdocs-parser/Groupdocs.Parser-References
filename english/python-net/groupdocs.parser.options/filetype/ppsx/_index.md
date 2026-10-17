@@ -1,20 +1,17 @@
-﻿---
-title: PPSX property
+---
+title: PPSX field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/ppsx/
 is_root: false
-weight: 650
+weight: 3430
 ---
 
-## PPSX property
 
+## PPSX field
 
-PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for
-Slide Show purpose. Learn more about this file format
-[here](https://wiki.fileformat.com/presentation/ppsx/).
+PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

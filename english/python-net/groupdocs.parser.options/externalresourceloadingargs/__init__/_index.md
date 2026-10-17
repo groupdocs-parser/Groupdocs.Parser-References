@@ -1,37 +1,30 @@
-﻿---
-title: ExternalResourceLoadingArgs constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Initializes a new ExternalResourceLoadingArgs instance."
 type: docs
 url: /python-net/groupdocs.parser.options/externalresourceloadingargs/__init__/
 is_root: false
 weight: 10
 ---
 
-## __init__ {#System.String}
 
-Initializes a new instance of the [`ExternalResourceLoadingArgs`](/parser/python-net/groupdocs.parser.options/externalresourceloadingargs) class.
+## __init__ {#uri}
 
-
+Initializes a new ExternalResourceLoadingArgs instance.
 
 ```python
 def __init__(self, uri):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| uri | System.String | URI of the external resource. |
-### Exceptions
-| Exception | Description |
+| uri | `str` | URI of the external resource. |
+
+| Raises | Description |
 | :- | :- |
-| ArgumentException | Throws if `uri` is `null` or an empty string. |
-
-
-
-
+| `ValueError` | If `uri` is None or an empty string. |
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`ExternalResourceLoadingArgs`](/parser/python-net/groupdocs.parser.options/externalresourceloadingargs)
+* class [`ExternalResourceLoadingArgs`](/parser/python-net/groupdocs.parser.options/externalresourceloadingargs/)

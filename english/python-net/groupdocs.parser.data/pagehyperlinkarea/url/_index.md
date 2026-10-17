@@ -1,17 +1,18 @@
-﻿---
+---
 title: url property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The hyperlink URL as a string."
 type: docs
 url: /python-net/groupdocs.parser.data/pagehyperlinkarea/url/
 is_root: false
-weight: 60
+weight: 2020
 ---
+
 
 ## url property
 
+The hyperlink URL as a string.
 
-Gets the hyperlink URL.
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def url(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`PageHyperlinkArea`](/parser/python-net/groupdocs.parser.data/pagehyperlinkarea)
+* class [`PageHyperlinkArea`](/parser/python-net/groupdocs.parser.data/pagehyperlinkarea/)

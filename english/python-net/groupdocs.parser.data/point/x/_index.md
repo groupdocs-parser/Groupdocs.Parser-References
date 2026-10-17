@@ -1,17 +1,20 @@
-﻿---
+---
 title: x property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The x-coordinate of the point."
 type: docs
 url: /python-net/groupdocs.parser.data/point/x/
 is_root: false
-weight: 60
+weight: 2010
 ---
+
 
 ## x property
 
+The x-coordinate of the point.
 
-Gets the x-coordinate.
+A float value that represents the x-coordinate.
+
 ### Definition:
 ```python
 @property
@@ -23,5 +26,4 @@ def x(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`Point`](/parser/python-net/groupdocs.parser.data/point)
+* class [`Point`](/parser/python-net/groupdocs.parser.data/point/)

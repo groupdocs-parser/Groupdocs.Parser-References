@@ -1,71 +1,51 @@
-﻿---
+---
 title: load method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Loads a template from a file."
 type: docs
 url: /python-net/groupdocs.parser.templates/template/load/
 is_root: false
-weight: 20
+weight: 1040
 ---
 
-## load {#System.String}
+
+## load {#file_path}
 
 Loads a template from a file.
 
-
-### Returns 
-
-
-An instance of [`Template`](/parser/python-net/groupdocs.parser.templates/template) class with loaded template.
-
-
 ```python
-def load(self, file_path):
+def load(cls, file_path):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | System.String | The path to the file. |
-### Exceptions
-| Exception | Description |
+| file_path | `str` | The path to the file. |
+
+**Returns:** Template: An instance of `Template` class with loaded template.
+
+| Raises | Description |
 | :- | :- |
-| [`GroupDocsParserException`](/parser/python-net/groupdocs.parser.exceptions/groupdocsparserexception) | The file does not represent the template in a valid format. |
+| `GroupDocsParserException` | The file does not represent the template in a valid format. |
 
-
-
-
-## load {#io.RawIOBase}
+## load {#stream}
 
 Loads a template from a stream.
 
-
-### Returns 
-
-
-An instance of [`Template`](/parser/python-net/groupdocs.parser.templates/template) class with loaded template.
-
-
 ```python
-def load(self, stream):
+def load(cls, stream):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | io.RawIOBase | The input stream. |
-### Exceptions
-| Exception | Description |
+| stream | `io.RawIOBase` | The input stream. |
+
+**Returns:** Template: An instance of `Template` class with loaded template.
+
+| Raises | Description |
 | :- | :- |
-| [`GroupDocsParserException`](/parser/python-net/groupdocs.parser.exceptions/groupdocsparserexception) | The stream does not represent the template in a valid format. |
-
-
-
-
+| `GroupDocsParserException` | The stream does not represent the template in a valid format. |
 
 ### See Also
-* module [`groupdocs.parser.templates`](../../)
-* class [`GroupDocsParserException`](/parser/python-net/groupdocs.parser.exceptions/groupdocsparserexception)
-* class [`Template`](/parser/python-net/groupdocs.parser.templates/template)
+* class [`Template`](/parser/python-net/groupdocs.parser.templates/template/)

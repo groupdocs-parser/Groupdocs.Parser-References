@@ -1,17 +1,18 @@
-﻿---
+---
 title: parameters property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The parameters used to detect the table in automatic mode."
 type: docs
 url: /python-net/groupdocs.parser.templates/templatetable/parameters/
 is_root: false
-weight: 70
+weight: 2020
 ---
+
 
 ## parameters property
 
+The parameters used to detect the table in automatic mode. Returns an instance of [`TemplateTableParameters`](/parser/python-net/groupdocs.parser.templates/templatetableparameters/) or `None` if not set.
 
-Gets the parameters to detect the table in the automatic mode.
 ### Definition:
 ```python
 @property
@@ -20,6 +21,4 @@ def parameters(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.templates`](../../)
-* class [`TemplateTable`](/parser/python-net/groupdocs.parser.templates/templatetable)
-* class [`TemplateTableParameters`](/parser/python-net/groupdocs.parser.templates/templatetableparameters)
+* class [`TemplateTable`](/parser/python-net/groupdocs.parser.templates/templatetable/)

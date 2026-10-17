@@ -1,17 +1,20 @@
-﻿---
+---
 title: page_index property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The page index of the item."
 type: docs
 url: /python-net/groupdocs.parser.data/tocitem/page_index/
 is_root: false
-weight: 40
+weight: 2020
 ---
+
 
 ## page_index property
 
+The page index of the item.
 
-Gets the page index.
+An integer value that represents the index of the page referenced by the item; None if it isn't set.
+
 ### Definition:
 ```python
 @property
@@ -20,5 +23,4 @@ def page_index(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`TocItem`](/parser/python-net/groupdocs.parser.data/tocitem)
+* class [`TocItem`](/parser/python-net/groupdocs.parser.data/tocitem/)

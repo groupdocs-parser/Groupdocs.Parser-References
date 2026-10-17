@@ -1,17 +1,18 @@
-﻿---
+---
 title: is_empty property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The size is empty."
 type: docs
 url: /python-net/groupdocs.parser.data/size/is_empty/
 is_root: false
-weight: 60
+weight: 2020
 ---
+
 
 ## is_empty property
 
+The size is empty.
 
-Gets a value that indicates whether the size is empty.
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def is_empty(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`Size`](/parser/python-net/groupdocs.parser.data/size)
+* class [`Size`](/parser/python-net/groupdocs.parser.data/size/)

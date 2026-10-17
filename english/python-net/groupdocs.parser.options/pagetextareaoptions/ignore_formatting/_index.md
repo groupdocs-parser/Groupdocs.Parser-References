@@ -1,17 +1,18 @@
-﻿---
+---
 title: ignore_formatting property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The value indicating whether text formatting is ignored."
 type: docs
 url: /python-net/groupdocs.parser.options/pagetextareaoptions/ignore_formatting/
 is_root: false
-weight: 40
+weight: 2020
 ---
+
 
 ## ignore_formatting property
 
+The value indicating whether text formatting is ignored. True if text formatting is ignored; otherwise, False.
 
-Gets the value that indicates whether text formatting is ignored.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def ignore_formatting(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`PageTextAreaOptions`](/parser/python-net/groupdocs.parser.options/pagetextareaoptions)
+* class [`PageTextAreaOptions`](/parser/python-net/groupdocs.parser.options/pagetextareaoptions/)

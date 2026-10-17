@@ -1,75 +1,96 @@
-﻿---
+---
 title: search method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Searches a keyword in the document."
 type: docs
 url: /python-net/groupdocs.parser/parser/search/
 is_root: false
-weight: 230
+weight: 1540
 ---
 
-## search {#System.String}
 
-Searches a `keyword` in the document.
+## search {#keyword}
 
+Searches a keyword in the document.
 
-### Returns 
-
-
-A collection of [`SearchResult`](/parser/python-net/groupdocs.parser.data/searchresult) objects; 
-`null` if search isn't supported.
-
+Learn more:
+- [Search text](https://docs.groupdocs.com/display/parsernet/Search+text)
+- [Search text in Microsoft Office Word documents](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+Word+documents)
+- [Search text in Microsoft Office Excel spreadsheets](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+Excel+spreadsheets)
+- [Search text in Microsoft Office PowerPoint presentations](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+PowerPoint+presentations)
+- [Search text in PDF documents](https://docs.groupdocs.com/display/parsernet/Search+text+in+PDF+documents)
+- [Search text in Emails](https://docs.groupdocs.com/display/parsernet/Search+text+in+Emails)
+- [Search text in EPUB eBooks](https://docs.groupdocs.com/display/parsernet/Search+text+in+EPUB+eBooks)
+- [Search text in HTML documents](https://docs.groupdocs.com/display/parsernet/Search+text+in+HTML+documents)
+- [Search text in Microsoft OneNote sections](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+OneNote+sections)
 
 ```python
 def search(self, keyword):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| keyword | System.String | The keyword to search. |
+| keyword | `str` | The keyword to search. |
 
-### Example 
+**Returns:** Iterable[SearchResult] | None: A collection of search result objects; None if search isn't supported.
 
+### Example
 
-The following example shows how to find a keyword in a document:
+```python
+from groupdocs.parser import Parser
 
+with Parser("sample.pdf") as parser:
+    results = parser.search("lorem")
+    if results is None:
+        print("Search isn't supported for this format.")
+    else:
+        for result in results:
+            print(f"Found at {result.position}: {result.text}")
+```
 
-## search {#System.String-groupdocs.parser.options.SearchOptions}
+## search {#keyword-options}
 
-Searches a `keyword` in the document using search options (regular expression, match case, etc.).
-
-
-### Returns 
-
-
-A collection of [`SearchResult`](/parser/python-net/groupdocs.parser.data/searchresult) objects;
-`null` if search isn't supported.
-
+Searches a keyword in the document using search options (regular expression, match case, etc.).
 
 ```python
 def search(self, keyword, options):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| keyword | System.String | The keyword to search. |
-| options | groupdocs.parser.options.SearchOptions | The search options. |
+| keyword | `str` | The keyword to search. |
+| options | `SearchOptions` | The search options. |
 
-### Example 
+**Returns:** Iterable[SearchResult] or None: A collection of `SearchResult` objects; `None` if search isn't supported.
 
+Remarks:
+- [Search text](https://docs.groupdocs.com/display/parsernet/Search+text)
+- [Search text in Microsoft Office Word documents](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+Word+documents)
+- [Search text in Microsoft Office Excel spreadsheets](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+Excel+spreadsheets)
+- [Search text in Microsoft Office PowerPoint presentations](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+PowerPoint+presentations)
+- [Search text in PDF documents](https://docs.groupdocs.com/display/parsernet/Search+text+in+PDF+documents)
+- [Search text in Emails](https://docs.groupdocs.com/display/parsernet/Search+text+in+Emails)
+- [Search text in EPUB eBooks](https://docs.groupdocs.com/display/parsernet/Search+text+in+EPUB+eBooks)
+- [Search text in HTML documents](https://docs.groupdocs.com/display/parsernet/Search+text+in+HTML+documents)
+- [Search text in Microsoft OneNote sections](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+OneNote+sections)
 
-The following example shows how to search with a regular expression in a document:
+### Example
 
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.options import SearchOptions
 
-The following example shows how to search a text on pages:
-
-
+with Parser("sample.pdf") as parser:
+    options = SearchOptions(False, False, False, True)
+    results = parser.search("lorem", options)
+    if results is None:
+        print("Search isn't supported for this format.")
+    else:
+        for result in results:
+            print(f"Found on page {result.page_index + 1}: {result.text}")
+```
 
 ### See Also
-* module [`groupdocs.parser`](../../)
-* class [`Parser`](/parser/python-net/groupdocs.parser/parser)
-* class [`SearchResult`](/parser/python-net/groupdocs.parser.data/searchresult)
+* class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

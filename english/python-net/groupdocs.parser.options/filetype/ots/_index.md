@@ -1,18 +1,17 @@
-﻿---
-title: OTS property
+---
+title: OTS field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The OTS files contain template files used by the OpenOffice spreadsheet application."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/ots/
 is_root: false
-weight: 540
+weight: 3380
 ---
 
-## OTS property
 
+## OTS field
 
 The OTS files contain template files used by the OpenOffice spreadsheet application.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

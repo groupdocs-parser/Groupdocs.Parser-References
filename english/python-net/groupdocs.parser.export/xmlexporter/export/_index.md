@@ -1,230 +1,99 @@
-﻿---
+---
 title: export method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Exports the collection of metadata to the stream."
 type: docs
 url: /python-net/groupdocs.parser.export/xmlexporter/export/
 is_root: false
-weight: 20
+weight: 1010
 ---
 
-## export {#list-io.RawIOBase}
 
+## export {#metadata-stream}
 
-
-
+Exports the collection of metadata to the stream.
 
 ```python
 def export(self, metadata, stream):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| metadata | list |  |
-| stream | io.RawIOBase |  |
+| metadata | `Iterable[MetadataItem]` | The collection of metadata. |
+| stream | `io.RawIOBase` | The output stream. |
 
-
-## export {#groupdocs.parser.options.IDocumentInfo-io.RawIOBase}
+## export {#document_info-stream}
 
 Exports the document information to the stream.
-
-
 
 ```python
 def export(self, document_info, stream):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| document_info | groupdocs.parser.options.IDocumentInfo | The document information. |
-| stream | io.RawIOBase | The output stream. |
+| document_info | `IDocumentInfo` | The document information. |
+| stream | `io.RawIOBase` | The output stream. |
 
+## export {#text_areas-stream}
 
-## export {#list-io.RawIOBase}
-
-
-
-
+Exports the collection of text areas to the stream.
 
 ```python
 def export(self, text_areas, stream):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text_areas | list |  |
-| stream | io.RawIOBase |  |
+| text_areas | `Iterable[PageTextArea]` | The collection of the text areas. |
+| stream | `io.RawIOBase` | The output stream. |
 
+## export {#tables-stream}
 
-## export {#list-io.RawIOBase}
-
-
-
-
+Exports the collection of tables to the stream.
 
 ```python
 def export(self, tables, stream):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| tables | list |  |
-| stream | io.RawIOBase |  |
+| tables | `Iterable[PageTableArea]` | The collection of tables. |
+| stream | `io.RawIOBase` | The output stream. |
 
+## export {#barcodes-stream}
 
-## export {#list-io.RawIOBase}
-
-
-
-
+Exports the collection of barcodes to the provided output stream.
 
 ```python
 def export(self, barcodes, stream):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| barcodes | list |  |
-| stream | io.RawIOBase |  |
+| barcodes | `Iterable[PageBarcodeArea]` | Iterable of barcode objects to export. |
+| stream | `io.RawIOBase` | An io.RawIOBase stream to write the exported data. |
 
-
-## export {#groupdocs.parser.data.DocumentData-io.RawIOBase}
+## export {#document_data-stream}
 
 Exports document data to the stream.
-
-
 
 ```python
 def export(self, document_data, stream):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| document_data | groupdocs.parser.data.DocumentData | Document data. |
-| stream | io.RawIOBase | The output stream. |
+| document_data | `DocumentData` | Document data. |
+| stream | `io.RawIOBase` | The output stream. |
 
-
-## export {#list-System.String}
-
-
-
-
-
-```python
-def export(self, metadata, file_name):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| metadata | list |  |
-| file_name | System.String |  |
-
-
-## export {#groupdocs.parser.options.IDocumentInfo-System.String}
-
-Exports the document information to the file.
-
-
-
-```python
-def export(self, document_info, file_name):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| document_info | groupdocs.parser.options.IDocumentInfo | The document information. |
-| file_name | System.String | The full path to the output file. |
-
-
-## export {#list-System.String}
-
-
-
-
-
-```python
-def export(self, text_areas, file_name):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| text_areas | list |  |
-| file_name | System.String |  |
-
-
-## export {#list-System.String}
-
-
-
-
-
-```python
-def export(self, tables, file_name):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| tables | list |  |
-| file_name | System.String |  |
-
-
-## export {#list-System.String}
-
-
-
-
-
-```python
-def export(self, barcodes, file_name):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| barcodes | list |  |
-| file_name | System.String |  |
-
-
-## export {#groupdocs.parser.data.DocumentData-System.String}
-
-Exports document data to the file.
-
-
-
-```python
-def export(self, document_data, file_name):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| document_data | groupdocs.parser.data.DocumentData | Document data. |
-| file_name | System.String | The full path to the output file. |
-
-
+**Returns:** None.
 
 ### See Also
-* module [`groupdocs.parser.export`](../../)
-* class [`XmlExporter`](/parser/python-net/groupdocs.parser.export/xmlexporter)
+* class [`XmlExporter`](/parser/python-net/groupdocs.parser.export/xmlexporter/)

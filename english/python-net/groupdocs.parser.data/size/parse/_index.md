@@ -1,42 +1,32 @@
-﻿---
+---
 title: parse method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Converts the string representation of a size to its class equivalent."
 type: docs
 url: /python-net/groupdocs.parser.data/size/parse/
 is_root: false
-weight: 20
+weight: 1010
 ---
 
-## parse {#System.String}
+
+## parse {#s}
 
 Converts the string representation of a size to its class equivalent.
 
-
-### Returns 
-
-
-An instance of [`Size`](/parser/python-net/groupdocs.parser.data/size) class that is equivalent to the value specified in `s` parameter.
-
-
 ```python
-def parse(self, s):
+def parse(cls, s):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| s | System.String | A string that contains a size to convert. |
-### Exceptions
-| Exception | Description |
+| s | `str` | A string that contains a size to convert. |
+
+**Returns:** `Size`: An instance of `Size` class that is equivalent to the value specified in `s` parameter.
+
+| Raises | Description |
 | :- | :- |
-| ArgumentException | `s` does not represent a size in a valid format. |
-
-
-
-
+| `ValueError` | `s` does not represent a size in a valid format. |
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`Size`](/parser/python-net/groupdocs.parser.data/size)
+* class [`Size`](/parser/python-net/groupdocs.parser.data/size/)

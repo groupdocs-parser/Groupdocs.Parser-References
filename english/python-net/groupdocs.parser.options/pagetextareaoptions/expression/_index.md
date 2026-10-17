@@ -1,17 +1,20 @@
-﻿---
+---
 title: expression property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The regular expression used to filter text areas."
 type: docs
 url: /python-net/groupdocs.parser.options/pagetextareaoptions/expression/
 is_root: false
-weight: 30
+weight: 2010
 ---
+
 
 ## expression property
 
+The regular expression used to filter text areas.
 
-Gets the regular expression.
+A string that represents the regular expression.
+
 ### Definition:
 ```python
 @property
@@ -23,5 +26,4 @@ def expression(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`PageTextAreaOptions`](/parser/python-net/groupdocs.parser.options/pagetextareaoptions)
+* class [`PageTextAreaOptions`](/parser/python-net/groupdocs.parser.options/pagetextareaoptions/)

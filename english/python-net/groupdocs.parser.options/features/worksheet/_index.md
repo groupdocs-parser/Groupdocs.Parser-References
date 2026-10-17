@@ -1,17 +1,18 @@
-﻿---
+---
 title: worksheet property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The property indicates whether worksheet extraction is supported."
 type: docs
 url: /python-net/groupdocs.parser.options/features/worksheet/
 is_root: false
-weight: 240
+weight: 2220
 ---
+
 
 ## worksheet property
 
+The property indicates whether worksheet extraction is supported.
 
-Gets the value that indicates whether the worksheet extraction is supported.
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def worksheet(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`Features`](/parser/python-net/groupdocs.parser.options/features)
+* class [`Features`](/parser/python-net/groupdocs.parser.options/features/)

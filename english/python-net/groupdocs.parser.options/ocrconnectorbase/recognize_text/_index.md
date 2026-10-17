@@ -1,61 +1,46 @@
-﻿---
+---
 title: recognize_text method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Recognizes text from an image stream."
 type: docs
 url: /python-net/groupdocs.parser.options/ocrconnectorbase/recognize_text/
 is_root: false
-weight: 20
+weight: 1010
 ---
 
-## recognize_text {#io.RawIOBase-groupdocs.parser.options.OcrOptions}
 
-Recognize a text from `image_stream` stream.
+## recognize_text {#image_stream-page_index-options}
 
-
-### Returns 
-
-
-A string that represents a recognized text; `null` if text recognizing isn't supported.
-
-
-```python
-def recognize_text(self, image_stream, options):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| image_stream | io.RawIOBase | The image representation of the document page. |
-| options | groupdocs.parser.options.OcrOptions | The OCR options. |
-
-
-## recognize_text {#io.RawIOBase-int-groupdocs.parser.options.OcrOptions}
-
-Recognize a text from `image_stream` stream.
-
-
-### Returns 
-
-
-A string that represents a recognized text; `null` if text recognizing isn't supported.
-
+Recognizes text from an image stream.
 
 ```python
 def recognize_text(self, image_stream, page_index, options):
     ...
 ```
 
+| Parameter | Type | Description |
+| :- | :- | :- |
+| image_stream | `io.RawIOBase` | The image representation of the document page. |
+| page_index | `int` | The page index of the document. |
+| options | `OcrOptions` | The OCR options. |
+
+**Returns:** str | None: The recognized text, or None if text recognition isn't supported.
+
+## recognize_text {#image_stream-options}
+
+Recognize text from an image stream.
+
+```python
+def recognize_text(self, image_stream, options):
+    ...
+```
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image_stream | io.RawIOBase | The image representation of the document page. |
-| page_index | int | The page index of the document. |
-| options | groupdocs.parser.options.OcrOptions | The OCR options. |
+| image_stream | `io.RawIOBase` | The image representation of the document page. |
+| options | `OcrOptions` | The OCR options. |
 
-
+**Returns:** str or None: The recognized text, or None if text recognition isn’t supported.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`OcrConnectorBase`](/parser/python-net/groupdocs.parser.options/ocrconnectorbase)
+* class [`OcrConnectorBase`](/parser/python-net/groupdocs.parser.options/ocrconnectorbase/)

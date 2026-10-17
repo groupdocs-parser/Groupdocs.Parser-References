@@ -1,17 +1,18 @@
-﻿---
+---
 title: text_page property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The value indicates whether text page extraction is supported."
 type: docs
 url: /python-net/groupdocs.parser.options/features/text_page/
 is_root: false
-weight: 220
+weight: 2200
 ---
+
 
 ## text_page property
 
+The value indicates whether text page extraction is supported.
 
-Gets the value that indicates whether text page extraction is supported.
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def text_page(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`Features`](/parser/python-net/groupdocs.parser.options/features)
+* class [`Features`](/parser/python-net/groupdocs.parser.options/features/)

@@ -1,17 +1,18 @@
-﻿---
+---
 title: width property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The width in pixels as a float."
 type: docs
 url: /python-net/groupdocs.parser.data/size/width/
 is_root: false
-weight: 70
+weight: 2030
 ---
+
 
 ## width property
 
+The width in pixels as a float.
 
-Gets the width.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def width(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`Size`](/parser/python-net/groupdocs.parser.data/size)
+* class [`Size`](/parser/python-net/groupdocs.parser.data/size/)

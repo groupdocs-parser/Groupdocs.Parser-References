@@ -1,17 +1,18 @@
-﻿---
+---
 title: row_index property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The zero-based row index of the first row that contains the table cell."
 type: docs
 url: /python-net/groupdocs.parser.data/pagetableareacell/row_index/
 is_root: false
-weight: 60
+weight: 2040
 ---
+
 
 ## row_index property
 
+The zero-based row index of the first row that contains the table cell.
 
-Gets the row index.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def row_index(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`PageTableAreaCell`](/parser/python-net/groupdocs.parser.data/pagetableareacell)
+* class [`PageTableAreaCell`](/parser/python-net/groupdocs.parser.data/pagetableareacell/)

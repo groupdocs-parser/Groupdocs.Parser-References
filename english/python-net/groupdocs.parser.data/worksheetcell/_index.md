@@ -1,40 +1,35 @@
-﻿---
+---
 title: WorksheetCell class
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Represents a worksheet cell."
 type: docs
 url: /python-net/groupdocs.parser.data/worksheetcell/
 is_root: false
-weight: 220
+weight: 230
 ---
+
 
 ## WorksheetCell class
 
 Represents a worksheet cell.
-
-
 
 The WorksheetCell type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/parser/python-net/groupdocs.parser.data/worksheetcell/__init__/#int-int-int-System.String) | Initializes a new instance of the [`WorksheetCell`](/parser/python-net/groupdocs.parser.data/worksheetcell) class. |
-| [__init__](/parser/python-net/groupdocs.parser.data/worksheetcell/__init__/#int-int-int-int-int-System.String) | Initializes a new instance of the [`WorksheetCell`](/parser/python-net/groupdocs.parser.data/worksheetcell) class. |
-
+| [__init__](/parser/python-net/groupdocs.parser.data/worksheetcell/__init__/#worksheet_index-row_index-column_index-text) | Initializes a new WorksheetCell instance. |
+| [__init__](/parser/python-net/groupdocs.parser.data/worksheetcell/__init__/#worksheet_index-row_index-column_index-row_span-column_span-text) | Initializes a new WorksheetCell instance. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [worksheet_index](/parser/python-net/groupdocs.parser.data/worksheetcell/worksheet_index) | Gets the worksheet index. |
-| [row_index](/parser/python-net/groupdocs.parser.data/worksheetcell/row_index) | Gets the row index. |
-| [column_index](/parser/python-net/groupdocs.parser.data/worksheetcell/column_index) | Gets the column index. |
-| [row_span](/parser/python-net/groupdocs.parser.data/worksheetcell/row_span) | Gets the total number of rows that contain the cell. |
-| [column_span](/parser/python-net/groupdocs.parser.data/worksheetcell/column_span) | Gets the total number of columns that contain the cell. |
-| [text](/parser/python-net/groupdocs.parser.data/worksheetcell/text) | Gets the worksheet cell text value. |
-
-
+| [column_index](/parser/python-net/groupdocs.parser.data/worksheetcell/column_index/) | The zero-based column index of the first column that contains the cell. |
+| [column_span](/parser/python-net/groupdocs.parser.data/worksheetcell/column_span/) | The total number of columns that contain the cell. |
+| [row_index](/parser/python-net/groupdocs.parser.data/worksheetcell/row_index/) | The zero-based index of the first row that contains the cell. |
+| [row_span](/parser/python-net/groupdocs.parser.data/worksheetcell/row_span/) | The total number of rows that contain the cell. A positive integer value that represents the total number of rows that contain the cell. |
+| [text](/parser/python-net/groupdocs.parser.data/worksheetcell/text/) | The worksheet cell text value. |
+| [worksheet_index](/parser/python-net/groupdocs.parser.data/worksheetcell/worksheet_index/) | The zero-based index of the worksheet that contains the cell. |
 
 ### See Also
-* module [`groupdocs.parser.data`](..)
-* class [`WorksheetCell`](/parser/python-net/groupdocs.parser.data/worksheetcell)
+* module [`groupdocs.parser.data`](/parser/python-net/groupdocs.parser.data/)

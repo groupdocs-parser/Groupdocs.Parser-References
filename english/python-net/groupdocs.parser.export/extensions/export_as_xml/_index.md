@@ -1,230 +1,181 @@
-﻿---
+---
 title: export_as_xml method
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Exports the collection of metadata to the stream in XML format."
 type: docs
 url: /python-net/groupdocs.parser.export/extensions/export_as_xml/
 is_root: false
-weight: 30
+weight: 1090
 ---
 
-## export_as_xml {#list-io.RawIOBase}
 
+## export_as_xml {#metadata-stream}
 
-
-
+Exports the collection of metadata to the stream in XML format.
 
 ```python
-def export_as_xml(self, metadata, stream):
+def export_as_xml(cls, metadata, stream):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| metadata | list |  |
-| stream | io.RawIOBase |  |
+| metadata | `Iterable[MetadataItem]` | The collection of metadata. |
+| stream | `io.RawIOBase` | The output stream. |
 
+## export_as_xml {#metadata-file_name}
 
-## export_as_xml {#list-System.String}
-
-
-
-
+Exports the collection of metadata to the file in XML format.
 
 ```python
-def export_as_xml(self, metadata, file_name):
+def export_as_xml(cls, metadata, file_name):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| metadata | list |  |
-| file_name | System.String |  |
+| metadata | `Iterable[MetadataItem]` | The collection of metadata. |
+| file_name | `str` | The full path to the output file. |
 
-
-## export_as_xml {#groupdocs.parser.options.IDocumentInfo-io.RawIOBase}
+## export_as_xml {#document_info-stream}
 
 Exports the document information to the stream in XML format.
 
-
-
 ```python
-def export_as_xml(self, document_info, stream):
+def export_as_xml(cls, document_info, stream):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| document_info | groupdocs.parser.options.IDocumentInfo | The document information. |
-| stream | io.RawIOBase | The output stream. |
+| document_info | `IDocumentInfo` | The document information. |
+| stream | `io.RawIOBase` | The output stream. |
 
-
-## export_as_xml {#groupdocs.parser.options.IDocumentInfo-System.String}
+## export_as_xml {#document_info-file_name}
 
 Exports the document information to the file in XML format.
 
-
-
 ```python
-def export_as_xml(self, document_info, file_name):
+def export_as_xml(cls, document_info, file_name):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| document_info | groupdocs.parser.options.IDocumentInfo | The document information. |
-| file_name | System.String | The full path to the output file. |
+| document_info | `IDocumentInfo` | The document information. |
+| file_name | `str` | The full path to the output file. |
 
+## export_as_xml {#text_areas-stream}
 
-## export_as_xml {#list-io.RawIOBase}
-
-
-
-
+Exports the collection of text areas to the stream in XML format.
 
 ```python
-def export_as_xml(self, text_areas, stream):
+def export_as_xml(cls, text_areas, stream):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text_areas | list |  |
-| stream | io.RawIOBase |  |
+| text_areas | `Iterable[PageTextArea]` | The collection of the text areas. |
+| stream | `io.RawIOBase` | The output stream. |
 
+## export_as_xml {#text_areas-file_name}
 
-## export_as_xml {#list-System.String}
-
-
-
-
+Exports the collection of text areas to the file in XML format.
 
 ```python
-def export_as_xml(self, text_areas, file_name):
+def export_as_xml(cls, text_areas, file_name):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text_areas | list |  |
-| file_name | System.String |  |
+| text_areas | `Iterable[PageTextArea]` | The collection of text areas. |
+| file_name | `str` | The full path to the output file. |
 
+## export_as_xml {#tables-stream}
 
-## export_as_xml {#list-io.RawIOBase}
-
-
-
-
+Exports the collection of tables to the stream in XML format.
 
 ```python
-def export_as_xml(self, tables, stream):
+def export_as_xml(cls, tables, stream):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| tables | list |  |
-| stream | io.RawIOBase |  |
+| tables | `Iterable[PageTableArea]` | The collection of tables. |
+| stream | `io.RawIOBase` | The output stream. |
 
+## export_as_xml {#tables-file_name}
 
-## export_as_xml {#list-System.String}
-
-
-
-
+Exports the collection of tables to the file in XML format.
 
 ```python
-def export_as_xml(self, tables, file_name):
+def export_as_xml(cls, tables, file_name):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| tables | list |  |
-| file_name | System.String |  |
+| tables | `Iterable[PageTableArea]` | The collection of tables. |
+| file_name | `str` | The full path to the output file. |
 
+## export_as_xml {#barcodes-stream}
 
-## export_as_xml {#list-io.RawIOBase}
-
-
-
-
+Exports the collection of barcodes to the stream in XML format.
 
 ```python
-def export_as_xml(self, barcodes, stream):
+def export_as_xml(cls, barcodes, stream):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| barcodes | list |  |
-| stream | io.RawIOBase |  |
+| barcodes | `Iterable[PageBarcodeArea]` | The collection of barcodes. |
+| stream | `io.RawIOBase` | The output stream. |
 
+## export_as_xml {#barcodes-file_name}
 
-## export_as_xml {#list-System.String}
-
-
-
-
+Exports the collection of barcodes to the file in XML format.
 
 ```python
-def export_as_xml(self, barcodes, file_name):
+def export_as_xml(cls, barcodes, file_name):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| barcodes | list |  |
-| file_name | System.String |  |
+| barcodes | `Iterable[PageBarcodeArea]` | The collection of barcodes. |
+| file_name | `str` | The full path to the output file. |
 
-
-## export_as_xml {#groupdocs.parser.data.DocumentData-io.RawIOBase}
+## export_as_xml {#document_data-stream}
 
 Exports document data to the stream in XML format.
 
-
-
 ```python
-def export_as_xml(self, document_data, stream):
+def export_as_xml(cls, document_data, stream):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| document_data | groupdocs.parser.data.DocumentData | Document data. |
-| stream | io.RawIOBase | The output stream. |
+| document_data | `DocumentData` | Document data. |
+| stream | `io.RawIOBase` | The output stream. |
 
-
-## export_as_xml {#groupdocs.parser.data.DocumentData-System.String}
+## export_as_xml {#document_data-file_name}
 
 Exports document data to the file in XML format.
 
-
-
 ```python
-def export_as_xml(self, document_data, file_name):
+def export_as_xml(cls, document_data, file_name):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| document_data | groupdocs.parser.data.DocumentData | Document data. |
-| file_name | System.String | The full path to the output file. |
-
-
+| document_data | `DocumentData` | Document data. |
+| file_name | `str` | The full path to the output file. |
 
 ### See Also
-* module [`groupdocs.parser.export`](../../)
-* class [`Extensions`](/parser/python-net/groupdocs.parser.export/extensions)
+* class [`Extensions`](/parser/python-net/groupdocs.parser.export/extensions/)

@@ -1,20 +1,17 @@
-﻿---
-title: PS property
+---
+title: PS field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "PostScript (PS) is a general-purpose page description language used in the business of desktop and electronic publishing."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/ps/
 is_root: false
-weight: 690
+weight: 3870
 ---
 
-## PS property
 
+## PS field
 
-PostScript (PS) is a general-purpose page description language used 
-in the business of desktop and electronic publishing. Learn more about this file format
-[here](https://wiki.fileformat.com/page-description-language/ps/).
+PostScript (PS) is a general-purpose page description language used in the business of desktop and electronic publishing. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

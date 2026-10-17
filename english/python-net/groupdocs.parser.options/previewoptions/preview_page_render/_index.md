@@ -1,17 +1,18 @@
-﻿---
+---
 title: preview_page_render property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The page preview render info delegate."
 type: docs
 url: /python-net/groupdocs.parser.options/previewoptions/preview_page_render/
 is_root: false
-weight: 80
+weight: 2060
 ---
+
 
 ## preview_page_render property
 
+The page preview render info delegate.
 
-Gets or sets an instance of the page preview render info delegate.
 ### Definition:
 ```python
 @property
@@ -23,6 +24,4 @@ def preview_page_render(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`IPreviewPageRender`](/parser/python-net/groupdocs.parser.options/ipreviewpagerender)
-* class [`PreviewOptions`](/parser/python-net/groupdocs.parser.options/previewoptions)
+* class [`PreviewOptions`](/parser/python-net/groupdocs.parser.options/previewoptions/)

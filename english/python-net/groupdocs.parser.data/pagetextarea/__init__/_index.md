@@ -1,72 +1,59 @@
-﻿---
-title: PageTextArea constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Initializes a new PageTextArea instance."
 type: docs
 url: /python-net/groupdocs.parser.data/pagetextarea/__init__/
 is_root: false
 weight: 10
 ---
 
-## __init__ {#list-groupdocs.parser.data.Page}
 
-Constructs a new instance of PageTextArea
+## __init__ {#text-page-rectangle}
 
-
-
-```python
-def __init__(self, areas, page):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| areas | list |  |
-| page | groupdocs.parser.data.Page |  |
-
-
-## __init__ {#System.String-groupdocs.parser.data.Page-groupdocs.parser.data.Rectangle}
-
-Initializes a new instance of the [`PageTextArea`](/parser/python-net/groupdocs.parser.data/pagetextarea) class.
-
-
+Initializes a new PageTextArea instance.
 
 ```python
 def __init__(self, text, page, rectangle):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text | System.String | The value of the text. |
-| page | groupdocs.parser.data.Page | The page that contains the text area. |
-| rectangle | groupdocs.parser.data.Rectangle | The rectangular area that contains the text area. |
+| text | `str` | The value of the text. |
+| page | `Page` | The page that contains the text area. |
+| rectangle | `Rectangle` | The rectangular area that contains the text area. |
 
+## __init__ {#text-base_line-text_style-page-rectangle}
 
-## __init__ {#System.String-System.Nullable`1[[System.Double]]-groupdocs.parser.data.TextStyle-groupdocs.parser.data.Page-groupdocs.parser.data.Rectangle}
-
-Constructs a new instance of PageTextArea
-
-
+Initializes a new PageTextArea.
 
 ```python
 def __init__(self, text, base_line, text_style, page, rectangle):
     ...
 ```
 
+| Parameter | Type | Description |
+| :- | :- | :- |
+| text | `str` | The value of the text. |
+| base_line | `Optional[float]` | The base line of the text. |
+| text_style | `TextStyle` | The style of the text. |
+| page | `Page` | The page that contains the text area. |
+| rectangle | `Rectangle` | The rectangular area that contains the text area. |
+
+## __init__ {#areas-page}
+
+Initializes a new PageTextArea instance.
+
+```python
+def __init__(self, areas, page):
+    ...
+```
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text | System.String |  |
-| base_line | System.Nullable`1[[System.Double]] |  |
-| text_style | groupdocs.parser.data.TextStyle |  |
-| page | groupdocs.parser.data.Page |  |
-| rectangle | groupdocs.parser.data.Rectangle |  |
-
-
+| areas | `Iterable[PageTextArea]` | The collection of child text page areas. |
+| page | `Page` | The page that contains the text area. |
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`PageTextArea`](/parser/python-net/groupdocs.parser.data/pagetextarea)
+* class [`PageTextArea`](/parser/python-net/groupdocs.parser.data/pagetextarea/)

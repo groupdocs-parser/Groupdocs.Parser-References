@@ -1,41 +1,35 @@
-﻿---
+---
 title: PageTableAreaCell class
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Represents a table cell which is used in PageArea class."
 type: docs
 url: /python-net/groupdocs.parser.data/pagetableareacell/
 is_root: false
-weight: 140
+weight: 150
 ---
+
 
 ## PageTableAreaCell class
 
-Represents a table cell which is used in [`PageTableArea`](/parser/python-net/groupdocs.parser.data/pagetablearea) class.
-
-
+Represents a table cell which is used in [`PageArea`](/parser/python-net/groupdocs.parser.data/pagearea/) class.
 
 The PageTableAreaCell type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/parser/python-net/groupdocs.parser.data/pagetableareacell/__init__/#int-int-groupdocs.parser.data.PageArea-int-int) | Initializes a new instance of the [`PageTableAreaCell`](/parser/python-net/groupdocs.parser.data/pagetableareacell) class. |
-| [__init__](/parser/python-net/groupdocs.parser.data/pagetableareacell/__init__/#int-int-groupdocs.parser.data.PageArea) | Initializes a new instance of the [`PageTableAreaCell`](/parser/python-net/groupdocs.parser.data/pagetableareacell) class. |
-
+| [__init__](/parser/python-net/groupdocs.parser.data/pagetableareacell/__init__/#row_index-column_index-page_area-row_span-column_span) | Initializes a new instance of the PageTableAreaCell class. |
+| [__init__](/parser/python-net/groupdocs.parser.data/pagetableareacell/__init__/#row_index-column_index-page_area) | Initializes a new instance of the [`PageTableAreaCell`](/parser/python-net/groupdocs.parser.data/pagetableareacell/) class. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [row_index](/parser/python-net/groupdocs.parser.data/pagetableareacell/row_index) | Gets the row index. |
-| [column_index](/parser/python-net/groupdocs.parser.data/pagetableareacell/column_index) | Gets the column index. |
-| [row_span](/parser/python-net/groupdocs.parser.data/pagetableareacell/row_span) | Gets the total number of rows that contain the table cell. |
-| [column_span](/parser/python-net/groupdocs.parser.data/pagetableareacell/column_span) | Gets the total number of columns that contain the table cell. |
-| [page_area](/parser/python-net/groupdocs.parser.data/pagetableareacell/page_area) | Gets the table cell value. |
-| [text](/parser/python-net/groupdocs.parser.data/pagetableareacell/text) | Gets the table cell text value. |
-
-
+| [column_index](/parser/python-net/groupdocs.parser.data/pagetableareacell/column_index/) | The zero-based index of the first column that contains the table cell. |
+| [column_span](/parser/python-net/groupdocs.parser.data/pagetableareacell/column_span/) | The total number of columns that contain the table cell. |
+| [page_area](/parser/python-net/groupdocs.parser.data/pagetableareacell/page_area/) | The table cell value. |
+| [row_index](/parser/python-net/groupdocs.parser.data/pagetableareacell/row_index/) | The zero-based row index of the first row that contains the table cell. |
+| [row_span](/parser/python-net/groupdocs.parser.data/pagetableareacell/row_span/) | The total number of rows that contain the table cell. |
+| [text](/parser/python-net/groupdocs.parser.data/pagetableareacell/text/) | The text value of the table cell. |
 
 ### See Also
-* module [`groupdocs.parser.data`](..)
-* class [`PageTableArea`](/parser/python-net/groupdocs.parser.data/pagetablearea)
-* class [`PageTableAreaCell`](/parser/python-net/groupdocs.parser.data/pagetableareacell)
+* module [`groupdocs.parser.data`](/parser/python-net/groupdocs.parser.data/)

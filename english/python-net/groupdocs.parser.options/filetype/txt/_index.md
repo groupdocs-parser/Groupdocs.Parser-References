@@ -1,19 +1,17 @@
-﻿---
-title: TXT property
+---
+title: TXT field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "A file with .TXT extension represents a text document that contains plain text in the form of lines."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/txt/
 is_root: false
-weight: 820
+weight: 3080
 ---
 
-## TXT property
 
+## TXT field
 
-A file with .TXT extension represents a text document that contains plain text in the form of lines.
-Learn more about this file format [here](https://wiki.fileformat.com/word-processing/txt/).
+A file with .TXT extension represents a text document that contains plain text in the form of lines. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

@@ -1,20 +1,17 @@
-﻿---
-title: EMF property
+---
+title: EMF field
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Enhanced metafile format (EMF) stores graphical images device-independently."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/emf/
 is_root: false
-weight: 210
+weight: 3800
 ---
 
-## EMF property
 
+## EMF field
 
-Enhanced metafile format (EMF) stores graphical images device-independently.
-Learn more about this file format 
-[here](https://wiki.fileformat.com/image/emf/).
+Enhanced metafile format (EMF) stores graphical images device-independently. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype)
+* class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

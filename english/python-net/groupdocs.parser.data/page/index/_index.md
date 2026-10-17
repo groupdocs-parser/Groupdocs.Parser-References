@@ -1,17 +1,18 @@
-﻿---
+---
 title: index property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The zero-based index of the page."
 type: docs
 url: /python-net/groupdocs.parser.data/page/index/
 is_root: false
-weight: 30
+weight: 2010
 ---
+
 
 ## index property
 
+The zero-based index of the page.
 
-Gets the page index.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def index(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.parser.data`](../../)
-* class [`Page`](/parser/python-net/groupdocs.parser.data/page)
+* class [`Page`](/parser/python-net/groupdocs.parser.data/page/)

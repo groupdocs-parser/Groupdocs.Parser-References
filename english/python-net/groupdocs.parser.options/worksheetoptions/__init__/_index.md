@@ -1,37 +1,30 @@
-﻿---
-title: WorksheetOptions constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Initializes a new WorksheetOptions instance."
 type: docs
 url: /python-net/groupdocs.parser.options/worksheetoptions/__init__/
 is_root: false
 weight: 10
 ---
 
-## __init__ {#list}
 
-Initializes a new instance of the [`WorksheetOptions`](/parser/python-net/groupdocs.parser.options/worksheetoptions) class.
+## __init__ {#ranges}
 
-
+Initializes a new WorksheetOptions instance.
 
 ```python
 def __init__(self, ranges):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| ranges | list | The collection of ranges. |
-### Exceptions
-| Exception | Description |
+| ranges | `list[WorksheetRange]` | The collection of ranges. |
+
+| Raises | Description |
 | :- | :- |
-| ArgumentNullException | The range collection or any of its elements cannot be null. |
-
-
-
-
+| `ValueError` | The range collection or any of its elements cannot be null. |
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`WorksheetOptions`](/parser/python-net/groupdocs.parser.options/worksheetoptions)
+* class [`WorksheetOptions`](/parser/python-net/groupdocs.parser.options/worksheetoptions/)

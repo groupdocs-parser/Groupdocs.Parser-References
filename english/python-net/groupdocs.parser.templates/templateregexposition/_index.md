@@ -1,58 +1,54 @@
-﻿---
+---
 title: TemplateRegexPosition class
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Provides a template field position which uses a regular expression."
 type: docs
 url: /python-net/groupdocs.parser.templates/templateregexposition/
 is_root: false
 weight: 110
 ---
 
+
 ## TemplateRegexPosition class
 
-Provides a template field position which uses the regular expression.
+Provides a template field position which uses a regular expression.
 
-
-
-**Inheritance:** [`TemplateRegexPosition`](/parser/python-net/groupdocs.parser.templates/templateregexposition) → 
-[`TemplatePosition`](/parser/python-net/groupdocs.parser.templates/templateposition)
-
-
+The position extracts the entire match by default. To extract a specific capture group, include a named group `value` in the pattern; only the content of that group will be returned as the field value.
 
 The TemplateRegexPosition type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/parser/python-net/groupdocs.parser.templates/templateregexposition/__init__/#System.String) | Initializes a new instance of the [`TemplateRegexPosition`](/parser/python-net/groupdocs.parser.templates/templateregexposition) class. |
-| [__init__](/parser/python-net/groupdocs.parser.templates/templateregexposition/__init__/#System.String-bool) | Initializes a new instance of the [`TemplateRegexPosition`](/parser/python-net/groupdocs.parser.templates/templateregexposition) class. |
-
+| [__init__](/parser/python-net/groupdocs.parser.templates/templateregexposition/__init__/#expression) | Initializes a new TemplateRegexPosition with the specified regular expression. |
+| [__init__](/parser/python-net/groupdocs.parser.templates/templateregexposition/__init__/#expression-match_case) | Initializes a new TemplateRegexPosition instance. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [expression](/parser/python-net/groupdocs.parser.templates/templateregexposition/expression) | Gets the regular expression. |
-| [match_case](/parser/python-net/groupdocs.parser.templates/templateregexposition/match_case) | Gets the value that indicates whether a text case isn't ignored. |
+| [expression](/parser/python-net/groupdocs.parser.templates/templateregexposition/expression/) | The regular expression used to locate values. |
+| [match_case](/parser/python-net/groupdocs.parser.templates/templateregexposition/match_case/) | The value indicates whether text case is not ignored. |
 
+### Example
 
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.templates import Template, TemplateField, TemplateRegexPosition
 
-### Example 
+template = Template([
+    TemplateField(
+        TemplateRegexPosition(r"Invoice Number\s+(?<value>[A-Z0-9\-]+)"),
+        "InvoiceNumber",
+    )
+])
 
-
-The following example shows the situation
-if the document contains "Invoice Number INV-12345" then template field can be defined in the following way:
-
-
-
-
-In this case as a value the entire string is extracted.
-To extract only a part of the string the regular expression group "value" is used:
-
-
-
-In this case as a value "INV-3337" string is extracted.
+with Parser("./invoice.pdf") as parser:
+    data = parser.parse_by_template(template)
+    if data:
+        fields = data.get_fields_by_name("InvoiceNumber")
+        if fields:
+            print(f"Invoice number: {fields[0].text}")
+```
 
 ### See Also
-* module [`groupdocs.parser.templates`](..)
-* class [`TemplatePosition`](/parser/python-net/groupdocs.parser.templates/templateposition)
-* class [`TemplateRegexPosition`](/parser/python-net/groupdocs.parser.templates/templateregexposition)
+* module [`groupdocs.parser.templates`](/parser/python-net/groupdocs.parser.templates/)

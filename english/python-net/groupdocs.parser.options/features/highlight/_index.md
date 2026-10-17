@@ -1,17 +1,18 @@
-﻿---
+---
 title: highlight property
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "The value indicating whether highlight extraction is supported."
 type: docs
 url: /python-net/groupdocs.parser.options/features/highlight/
 is_root: false
-weight: 80
+weight: 2060
 ---
+
 
 ## highlight property
 
+The value indicating whether highlight extraction is supported.
 
-Gets the value that indicates whether highlight extraction is supported.
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def highlight(self):
 ```
 
 ### See Also
-* module [`groupdocs.parser.options`](../../)
-* class [`Features`](/parser/python-net/groupdocs.parser.options/features)
+* class [`Features`](/parser/python-net/groupdocs.parser.options/features/)

@@ -1,51 +1,41 @@
-﻿---
+---
 title: JsonExporter class
 second_title: GroupDocs.Parser for Python via .NET API References
-description: 
+description: "Provides the functionality to export data in JSON format."
 type: docs
 url: /python-net/groupdocs.parser.export/jsonexporter/
 is_root: false
 weight: 30
 ---
 
+
 ## JsonExporter class
 
 Provides the functionality to export data in JSON format.
-
-
-
-**Inheritance:** [`JsonExporter`](/parser/python-net/groupdocs.parser.export/jsonexporter) → 
-[`ExporterBase`](/parser/python-net/groupdocs.parser.export/exporterbase)
-
-
 
 The JsonExporter type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/parser/python-net/groupdocs.parser.export/jsonexporter/__init__/#) | Constructs a new instance of JsonExporter |
-
+| [__init__](/parser/python-net/groupdocs.parser.export/jsonexporter/__init__/) |  |
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [export](/parser/python-net/groupdocs.parser.export/jsonexporter/export/#list-io.RawIOBase) |  |
-| [export](/parser/python-net/groupdocs.parser.export/jsonexporter/export/#groupdocs.parser.options.IDocumentInfo-io.RawIOBase) | Exports the document information to the stream. |
-| [export](/parser/python-net/groupdocs.parser.export/jsonexporter/export/#list-io.RawIOBase) |  |
-| [export](/parser/python-net/groupdocs.parser.export/jsonexporter/export/#list-io.RawIOBase) |  |
-| [export](/parser/python-net/groupdocs.parser.export/jsonexporter/export/#list-io.RawIOBase) |  |
-| [export](/parser/python-net/groupdocs.parser.export/jsonexporter/export/#groupdocs.parser.data.DocumentData-io.RawIOBase) | Exports document data to the stream. |
-| [export](/parser/python-net/groupdocs.parser.export/jsonexporter/export/#list-System.String) |  |
-| [export](/parser/python-net/groupdocs.parser.export/jsonexporter/export/#groupdocs.parser.options.IDocumentInfo-System.String) | Exports the document information to the file. |
-| [export](/parser/python-net/groupdocs.parser.export/jsonexporter/export/#list-System.String) |  |
-| [export](/parser/python-net/groupdocs.parser.export/jsonexporter/export/#list-System.String) |  |
-| [export](/parser/python-net/groupdocs.parser.export/jsonexporter/export/#list-System.String) |  |
-| [export](/parser/python-net/groupdocs.parser.export/jsonexporter/export/#groupdocs.parser.data.DocumentData-System.String) | Exports document data to the file. |
-
-
+| [export](/parser/python-net/groupdocs.parser.export/jsonexporter/export/#metadata-stream) | Exports the collection of metadata to the provided output stream. |
+| [export](/parser/python-net/groupdocs.parser.export/jsonexporter/export/#document_info-stream) | Exports the document information to the given stream. |
+| [export](/parser/python-net/groupdocs.parser.export/jsonexporter/export/#text_areas-stream) | Exports the collection of text areas to the stream. |
+| [export](/parser/python-net/groupdocs.parser.export/jsonexporter/export/#tables-stream) | Exports the collection of tables to the provided stream. |
+| [export](/parser/python-net/groupdocs.parser.export/jsonexporter/export/#barcodes-stream) | Exports the collection of barcodes to the stream. |
+| [export](/parser/python-net/groupdocs.parser.export/jsonexporter/export/#document_data-stream) | Exports document data to the provided stream. |
+| [export_document_data](/parser/python-net/groupdocs.parser.export/jsonexporter/export_document_data/) |  |
+| [export_idocument_info](/parser/python-net/groupdocs.parser.export/jsonexporter/export_idocument_info/) |  |
+| [export_ienumerable](/parser/python-net/groupdocs.parser.export/jsonexporter/export_ienumerable/) |  |
+| [export_stream](/parser/python-net/groupdocs.parser.export/jsonexporter/export_stream/) |  |
+| [export_streams](/parser/python-net/groupdocs.parser.export/jsonexporter/export_streams/) |  |
+| [export_file](/parser/python-net/groupdocs.parser.export/exporterbase/export_file/) |  (inherited from [`ExporterBase`](/parser/python-net/groupdocs.parser.export/exporterbase/)) |
+| [export_string](/parser/python-net/groupdocs.parser.export/exporterbase/export_string/) |  (inherited from [`ExporterBase`](/parser/python-net/groupdocs.parser.export/exporterbase/)) |
 
 ### See Also
-* module [`groupdocs.parser.export`](..)
-* class [`ExporterBase`](/parser/python-net/groupdocs.parser.export/exporterbase)
-* class [`JsonExporter`](/parser/python-net/groupdocs.parser.export/jsonexporter)
+* module [`groupdocs.parser.export`](/parser/python-net/groupdocs.parser.export/)
