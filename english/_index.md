@@ -1,14 +1,14 @@
 ---
 title: "GroupDocs.Parser"
 linktitle: "GroupDocs.Parser"
-description: "GroupDocs.Parser API reference for .NET, Java, Node.js, and Python — Extract text, images, metadata, and structured data from documents."
+description: "GroupDocs.Parser API reference for .NET, Java, Node.js, and Python - Extract text, images, metadata, and structured data from documents across 65+ formats."
 keywords: "GroupDocs.Parser, parser API, API reference, .NET, Java, Python, document processing"
 additionalTitle: "GroupDocs API References"
 type: docs
 layout: family
 weight: 10
 url: /
-lead: "Extract text, images, metadata, and structured data from documents."
+lead: "Extract text, images, metadata, and structured data from documents across 65+ formats."
 
 platforms:
   - name: ".NET"
@@ -31,8 +31,8 @@ platforms:
     install: "pip install groupdocs-parser-net"
 
 formats: ["PDF", "Word", "Excel", "PowerPoint", "Email", "eBook"]
-formatsCount: "50+"
-formatsNote: "…and 40+ more document, email, and eBook formats."
+formatsCount: "65+"
+formatsNote: "...with 65+ document, email, and eBook formats."
 
 capabilities:
   - "Extract text, images & metadata"
