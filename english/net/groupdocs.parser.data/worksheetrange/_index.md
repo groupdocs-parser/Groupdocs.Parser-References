@@ -3,7 +3,7 @@ title: WorksheetRange
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the range which are used for the worksheet extraction.
 type: docs
-weight: 960
+weight: 1010
 url: /net/groupdocs.parser.data/worksheetrange/
 ---
 

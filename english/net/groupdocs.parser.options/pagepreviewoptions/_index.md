@@ -3,7 +3,7 @@ title: PagePreviewOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used to generate the document page preview.
 type: docs
-weight: 500
+weight: 530
 url: /net/groupdocs.parser.options/pagepreviewoptions/
 ---
 

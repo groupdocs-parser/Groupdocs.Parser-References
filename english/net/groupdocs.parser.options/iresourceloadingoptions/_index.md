@@ -3,7 +3,7 @@ title: IResourceLoadingOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents set of options to control how external resources will be loaded
 type: docs
-weight: 410
+weight: 440
 url: /net/groupdocs.parser.options/iresourceloadingoptions/
 ---
 

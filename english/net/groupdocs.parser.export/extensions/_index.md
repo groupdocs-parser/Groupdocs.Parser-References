@@ -3,7 +3,7 @@ title: Extensions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides extensions methods for the data export functionality.
 type: docs
-weight: 650
+weight: 700
 url: /net/groupdocs.parser.export/extensions/
 ---
 

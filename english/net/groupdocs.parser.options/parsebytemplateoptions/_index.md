@@ -3,7 +3,7 @@ title: ParseByTemplateOptions
 second_title: GroupDocs.Parser for .NET API Reference
 description: Provides the options which are used to parse by template.
 type: docs
-weight: 540
+weight: 570
 url: /net/groupdocs.parser.options/parsebytemplateoptions/
 ---
 

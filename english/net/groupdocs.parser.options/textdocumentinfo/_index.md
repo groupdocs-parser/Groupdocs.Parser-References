@@ -3,7 +3,7 @@ title: TextDocumentInfo
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents the text document information.
 type: docs
-weight: 610
+weight: 660
 url: /net/groupdocs.parser.options/textdocumentinfo/
 ---
 

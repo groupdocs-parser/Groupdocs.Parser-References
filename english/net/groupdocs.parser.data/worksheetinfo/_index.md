@@ -3,7 +3,7 @@ title: WorksheetInfo
 second_title: GroupDocs.Parser for .NET API Reference
 description: Represents a sheet info.
 type: docs
-weight: 950
+weight: 1000
 url: /net/groupdocs.parser.data/worksheetinfo/
 ---
 
