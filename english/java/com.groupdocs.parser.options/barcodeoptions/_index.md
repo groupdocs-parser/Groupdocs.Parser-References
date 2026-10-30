@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /java/com.groupdocs.parser.options/barcodeoptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

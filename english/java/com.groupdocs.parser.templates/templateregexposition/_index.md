@@ -6,6 +6,7 @@ type: docs
 weight: 19
 url: /java/com.groupdocs.parser.templates/templateregexposition/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.parser.templates.TemplatePosition](../../com.groupdocs.parser.templates/templateposition)
 ```

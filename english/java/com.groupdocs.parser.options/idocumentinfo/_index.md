@@ -5,7 +5,8 @@ description: Represents the document information.
 type: docs
 weight: 39
 url: /java/com.groupdocs.parser.options/idocumentinfo/
----```
+---
+```
 public interface IDocumentInfo
 ```
 

@@ -6,6 +6,7 @@ type: docs
 weight: 12
 url: /java/com.groupdocs.parser.options/emailconnection/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

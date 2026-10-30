@@ -6,6 +6,7 @@ type: docs
 weight: 44
 url: /java/com.groupdocs.parser.options/filetypedetectionmode/
 ---
+
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```

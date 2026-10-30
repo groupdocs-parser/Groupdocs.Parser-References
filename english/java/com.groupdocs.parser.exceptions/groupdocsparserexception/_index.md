@@ -6,6 +6,7 @@ type: docs
 weight: 11
 url: /java/com.groupdocs.parser.exceptions/groupdocsparserexception/
 ---
+
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException
 ```

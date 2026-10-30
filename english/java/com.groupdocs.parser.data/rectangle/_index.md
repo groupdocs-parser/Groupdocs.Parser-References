@@ -6,6 +6,7 @@ type: docs
 weight: 26
 url: /java/com.groupdocs.parser.data/rectangle/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

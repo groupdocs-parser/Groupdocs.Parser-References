@@ -7,6 +7,7 @@ weight: 11
 url: /java/com.groupdocs.parser.data/
 ---
 
+
 The package provides classes which represent parsing results.
 
 

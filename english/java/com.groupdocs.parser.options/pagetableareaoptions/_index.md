@@ -6,6 +6,7 @@ type: docs
 weight: 31
 url: /java/com.groupdocs.parser.options/pagetableareaoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.parser.options.PageAreaOptions](../../com.groupdocs.parser.options/pageareaoptions)
 ```

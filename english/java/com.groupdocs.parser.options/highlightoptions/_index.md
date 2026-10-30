@@ -6,6 +6,7 @@ type: docs
 weight: 22
 url: /java/com.groupdocs.parser.options/highlightoptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

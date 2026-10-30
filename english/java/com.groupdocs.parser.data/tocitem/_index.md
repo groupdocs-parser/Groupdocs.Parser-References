@@ -6,6 +6,7 @@ type: docs
 weight: 31
 url: /java/com.groupdocs.parser.data/tocitem/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

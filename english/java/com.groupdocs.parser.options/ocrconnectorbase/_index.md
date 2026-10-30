@@ -6,6 +6,7 @@ type: docs
 weight: 25
 url: /java/com.groupdocs.parser.options/ocrconnectorbase/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

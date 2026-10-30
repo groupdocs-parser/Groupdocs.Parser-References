@@ -6,6 +6,7 @@ type: docs
 weight: 27
 url: /java/com.groupdocs.parser.data/searchresult/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

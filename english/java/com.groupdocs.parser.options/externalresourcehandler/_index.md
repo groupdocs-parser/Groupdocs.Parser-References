@@ -6,6 +6,7 @@ type: docs
 weight: 16
 url: /java/com.groupdocs.parser.options/externalresourcehandler/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

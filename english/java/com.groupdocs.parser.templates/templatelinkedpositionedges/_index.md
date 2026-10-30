@@ -6,6 +6,7 @@ type: docs
 weight: 16
 url: /java/com.groupdocs.parser.templates/templatelinkedpositionedges/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

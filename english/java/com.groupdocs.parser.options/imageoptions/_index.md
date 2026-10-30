@@ -6,6 +6,7 @@ type: docs
 weight: 23
 url: /java/com.groupdocs.parser.options/imageoptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

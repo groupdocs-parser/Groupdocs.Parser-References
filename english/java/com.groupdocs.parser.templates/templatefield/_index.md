@@ -6,6 +6,7 @@ type: docs
 weight: 12
 url: /java/com.groupdocs.parser.templates/templatefield/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.parser.templates.TemplateItem](../../com.groupdocs.parser.templates/templateitem)
 ```
