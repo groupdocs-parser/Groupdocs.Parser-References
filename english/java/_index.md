@@ -5,7 +5,7 @@ weight: 20
 url: /java/
 description: GroupDocs.Parser for Java API References contain examples, code snippets, and API documentation. It provides packages, classes, interfaces, and other API details.
 is_root: true
-version: 26.10
+version: "26.10"
 ---
 
 ## Packages
