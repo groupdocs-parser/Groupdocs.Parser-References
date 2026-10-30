@@ -6,6 +6,7 @@ type: docs
 weight: 45
 url: /java/com.groupdocs.parser.options/formattedtextmode/
 ---
+
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```

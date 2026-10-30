@@ -6,6 +6,7 @@ type: docs
 weight: 17
 url: /java/com.groupdocs.parser.data/pagearea/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

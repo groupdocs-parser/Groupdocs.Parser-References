@@ -6,6 +6,7 @@ type: docs
 weight: 15
 url: /java/com.groupdocs.parser.templates/templatelinkedposition/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.parser.templates.TemplatePosition](../../com.groupdocs.parser.templates/templateposition)
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 11
 url: /java/com.groupdocs.parser.export/xmlexporter/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.parser.export.ExporterBase](../../com.groupdocs.parser.export/exporterbase)
 ```

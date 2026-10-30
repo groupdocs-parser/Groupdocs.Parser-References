@@ -5,7 +5,8 @@ description: Represents a delegate that returns a stream to write page preview d
 type: docs
 weight: 38
 url: /java/com.groupdocs.parser.options/icreatepagestream/
----```
+---
+```
 public interface ICreatePageStream
 ```
 

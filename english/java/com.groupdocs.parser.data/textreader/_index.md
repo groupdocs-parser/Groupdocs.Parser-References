@@ -6,6 +6,7 @@ type: docs
 weight: 29
 url: /java/com.groupdocs.parser.data/textreader/
 ---
+
 **Inheritance:**
 java.lang.Object, java.io.Reader
 ```

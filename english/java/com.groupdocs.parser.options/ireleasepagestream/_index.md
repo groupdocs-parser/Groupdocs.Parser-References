@@ -5,7 +5,8 @@ description: Represents a method which releases the stream created by the  deleg
 type: docs
 weight: 42
 url: /java/com.groupdocs.parser.options/ireleasepagestream/
----```
+---
+```
 public interface IReleasePageStream
 ```
 

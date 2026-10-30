@@ -6,6 +6,7 @@ type: docs
 weight: 22
 url: /java/com.groupdocs.parser.templates/templatetableparameters/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 27
 url: /java/com.groupdocs.parser.options/ocroptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

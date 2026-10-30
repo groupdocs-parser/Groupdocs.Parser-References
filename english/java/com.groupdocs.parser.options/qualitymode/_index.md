@@ -6,6 +6,7 @@ type: docs
 weight: 48
 url: /java/com.groupdocs.parser.options/qualitymode/
 ---
+
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```

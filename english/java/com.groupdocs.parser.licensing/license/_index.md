@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /java/com.groupdocs.parser.licensing/license/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

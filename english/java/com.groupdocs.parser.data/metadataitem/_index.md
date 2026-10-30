@@ -6,6 +6,7 @@ type: docs
 weight: 15
 url: /java/com.groupdocs.parser.data/metadataitem/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

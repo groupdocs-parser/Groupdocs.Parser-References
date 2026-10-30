@@ -6,6 +6,7 @@ type: docs
 weight: 36
 url: /java/com.groupdocs.parser.options/textdocumentinfo/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.parser.options.DocumentInfo](../../com.groupdocs.parser.options/documentinfo)
 ```

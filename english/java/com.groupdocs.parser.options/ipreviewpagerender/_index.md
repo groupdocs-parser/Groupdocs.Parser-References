@@ -5,7 +5,8 @@ description: Represents a method which is called before a document page is rende
 type: docs
 weight: 41
 url: /java/com.groupdocs.parser.options/ipreviewpagerender/
----```
+---
+```
 public interface IPreviewPageRender
 ```
 

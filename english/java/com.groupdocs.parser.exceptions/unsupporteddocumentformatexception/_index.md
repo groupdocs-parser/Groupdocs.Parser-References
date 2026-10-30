@@ -6,6 +6,7 @@ type: docs
 weight: 13
 url: /java/com.groupdocs.parser.exceptions/unsupporteddocumentformatexception/
 ---
+
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, [com.groupdocs.parser.exceptions.GroupDocsParserException](../../com.groupdocs.parser.exceptions/groupdocsparserexception)
 ```

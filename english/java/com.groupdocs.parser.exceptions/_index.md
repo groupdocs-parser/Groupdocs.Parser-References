@@ -7,6 +7,7 @@ weight: 12
 url: /java/com.groupdocs.parser.exceptions/
 ---
 
+
 The package provides different exceptions classes.
 
 
