@@ -1,38 +1,38 @@
 ---
 title: "GroupDocs.Parser"
 linktitle: "GroupDocs.Parser"
-description: "GroupDocs.Parser API reference for .NET, Java, Node.js, and Python - Extract text, images, metadata, and structured data from documents across 65+ formats."
+description: "GroupDocs.Parser API reference for .NET, Java, Node.js, and Python — Extract text, images, metadata, and structured data from documents."
 keywords: "GroupDocs.Parser, parser API, API reference, .NET, Java, Python, document processing"
 additionalTitle: "GroupDocs API References"
 type: docs
 layout: family
 weight: 10
 url: /
-lead: "Extract text, images, metadata, and structured data from documents across 65+ formats."
+lead: "Extract text, images, metadata, and structured data from documents."
 
 platforms:
   - name: ".NET"
-    version: "26.4.0"
-    versionUrl: "https://www.nuget.org/packages/groupdocs.parser/26.4.0"
+    version: "26.8.0"
+    versionUrl: "https://www.nuget.org/packages/groupdocs.parser/26.8.0"
     key: net
     ref: "/net/"
     install: "dotnet add package GroupDocs.Parser"
   - name: "Java"
-    version: "26.5.0"
-    versionUrl: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-parser/26.5/"
+    version: "26.9.0"
+    versionUrl: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-parser/26.9/"
     key: java
     ref: "/java/"
     install: "com.groupdocs:groupdocs-parser"
   - name: "Python via .NET"
-    version: "25.12.0"
-    versionUrl: "https://pypi.org/project/groupdocs-parser-net/25.12/"
+    version: "26.10.0"
+    versionUrl: "https://pypi.org/project/groupdocs-parser-net/26.10.0/"
     key: python
     ref: "/python-net/"
     install: "pip install groupdocs-parser-net"
 
 formats: ["PDF", "Word", "Excel", "PowerPoint", "Email", "eBook"]
 formatsCount: "65+"
-formatsNote: "...with 65+ document, email, and eBook formats."
+formatsNote: "...plus OpenDocument, archives, images, HTML, Markdown and OneNote."
 
 capabilities:
   - "Extract text, images & metadata"
