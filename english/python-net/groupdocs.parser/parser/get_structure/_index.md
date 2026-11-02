@@ -5,7 +5,7 @@ description: "Extracts a structured text from the document."
 type: docs
 url: /python-net/groupdocs.parser/parser/get_structure/
 is_root: false
-weight: 1330
+weight: 1150
 ---
 
 
@@ -15,7 +15,7 @@ Extracts a structured text from the document.
 
 Learn more:
 
-- Extract text structure (https://docs.groupdocs.com/display/parsernet/Extract+text+structure)
+- Extract text structure (https://docs.groupdocs.com/parser/python-net/extract-text-structure/)
 
 ```python
 def get_structure(self):

@@ -25,8 +25,6 @@ The Point type exposes the following members:
 | :- | :- |
 | [equals](/parser/python-net/groupdocs.parser.data/point/equals/#obj) | Determines whether the current [`Point`](/parser/python-net/groupdocs.parser.data/point/) is the same as the specified object. |
 | [equals](/parser/python-net/groupdocs.parser.data/point/equals/#other) | Determines whether the current Point equals the specified Point. |
-| [equals_object](/parser/python-net/groupdocs.parser.data/point/equals_object/) |  |
-| [equals_point](/parser/python-net/groupdocs.parser.data/point/equals_point/) |  |
 | [get_hash_code](/parser/python-net/groupdocs.parser.data/point/get_hash_code/) | Returns the hash code for the current [`Point`](/parser/python-net/groupdocs.parser.data/point/) object. |
 | [parse](/parser/python-net/groupdocs.parser.data/point/parse/#s) | Converts the string representation of a point to its class equivalent. |
 | [to_string](/parser/python-net/groupdocs.parser.data/point/to_string/) | Converts the value of this instance to a string. |

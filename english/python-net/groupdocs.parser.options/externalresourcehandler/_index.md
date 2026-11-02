@@ -24,7 +24,6 @@ The ExternalResourceHandler type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [on_loading](/parser/python-net/groupdocs.parser.options/externalresourcehandler/on_loading/#args) | Called before any external resource load. |
-| [on_loading_external_resource_loading_args](/parser/python-net/groupdocs.parser.options/externalresourcehandler/on_loading_external_resource_loading_args/) |  |
 
 ### See Also
 * module [`groupdocs.parser.options`](/parser/python-net/groupdocs.parser.options/)

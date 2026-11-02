@@ -24,5 +24,13 @@ def scale(self, factor):
 
 **Returns:** A new template item scaled by the given factor.
 
+### Aliases
+
+These names call `scale` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `scale_double` | `scale_double(factor)` |
+
 ### See Also
 * class [`TemplateItem`](/parser/python-net/groupdocs.parser.templates/templateitem/)

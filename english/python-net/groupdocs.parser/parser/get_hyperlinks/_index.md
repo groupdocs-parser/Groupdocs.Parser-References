@@ -5,7 +5,7 @@ description: "Extracts hyperlinks from the document."
 type: docs
 url: /python-net/groupdocs.parser/parser/get_hyperlinks/
 is_root: false
-weight: 1240
+weight: 1110
 ---
 
 
@@ -150,6 +150,15 @@ with Parser(file_path) as parser:
             print(h.url)
             print()
 ```
+
+### Aliases
+
+These names call `get_hyperlinks` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `get_hyperlinks_int32` | `get_hyperlinks_int32(page_index, options)`<br>`get_hyperlinks_int32(page_index)` |
+| `get_hyperlinks_page_area_options` | `get_hyperlinks_page_area_options(options)` |
 
 ### See Also
 * class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

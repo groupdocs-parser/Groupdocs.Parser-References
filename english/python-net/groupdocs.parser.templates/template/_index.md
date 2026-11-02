@@ -14,7 +14,7 @@ weight: 10
 Provides the document page template consisting of [`TemplateItem`](/parser/python-net/groupdocs.parser.templates/templateitem/) objects that represent items such as text fields and table definitions.
 
 Learn more:
-- https://docs.groupdocs.com/display/parsernet/Working+with+templates
+- https://docs.groupdocs.com/parser/python-net/working-with-templates/
 
 The Template type exposes the following members:
 
@@ -29,19 +29,10 @@ The Template type exposes the following members:
 | :- | :- |
 | [get](/parser/python-net/groupdocs.parser.templates/template/get/) |  |
 | [get_enumerator](/parser/python-net/groupdocs.parser.templates/template/get_enumerator/) | Returns an enumerator for template items. |
-| [get_int32](/parser/python-net/groupdocs.parser.templates/template/get_int32/) |  |
 | [load](/parser/python-net/groupdocs.parser.templates/template/load/#file_path) | Loads a template from a file. |
 | [load](/parser/python-net/groupdocs.parser.templates/template/load/#stream) | Loads a template from a stream. |
-| [load_file](/parser/python-net/groupdocs.parser.templates/template/load_file/) |  |
-| [load_stream](/parser/python-net/groupdocs.parser.templates/template/load_stream/) |  |
-| [load_streams](/parser/python-net/groupdocs.parser.templates/template/load_streams/) |  |
-| [load_string](/parser/python-net/groupdocs.parser.templates/template/load_string/) |  |
 | [save](/parser/python-net/groupdocs.parser.templates/template/save/#file_path) | Saves a template to a file. |
 | [save](/parser/python-net/groupdocs.parser.templates/template/save/#stream) | Saves a template to a stream. |
-| [save_file](/parser/python-net/groupdocs.parser.templates/template/save_file/) |  |
-| [save_stream](/parser/python-net/groupdocs.parser.templates/template/save_stream/) |  |
-| [save_streams](/parser/python-net/groupdocs.parser.templates/template/save_streams/) |  |
-| [save_string](/parser/python-net/groupdocs.parser.templates/template/save_string/) |  |
 
 ### Properties
 | Property | Description |

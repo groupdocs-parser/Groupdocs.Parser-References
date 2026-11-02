@@ -25,16 +25,12 @@ The TemplateCollection type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [add](/parser/python-net/groupdocs.parser.templates/templatecollection/add/#template) | Adds a template to the end of the [`TemplateCollection`](/parser/python-net/groupdocs.parser.templates/templatecollection/). |
-| [add_template](/parser/python-net/groupdocs.parser.templates/templatecollection/add_template/) |  |
 | [append](/parser/python-net/groupdocs.parser.templates/templatecollection/append/) |  |
 | [clear](/parser/python-net/groupdocs.parser.templates/templatecollection/clear/) | Removes all elements from the TemplateCollection. |
 | [get](/parser/python-net/groupdocs.parser.templates/templatecollection/get/#index) | Retrieves the template at the specified index. |
 | [get_enumerator](/parser/python-net/groupdocs.parser.templates/templatecollection/get_enumerator/) | Returns an iterator that iterates through the TemplateCollection. |
-| [get_int32](/parser/python-net/groupdocs.parser.templates/templatecollection/get_int32/) |  |
 | [remove](/parser/python-net/groupdocs.parser.templates/templatecollection/remove/#template) | Removes the first occurrence of a specific template from the [`TemplateCollection`](/parser/python-net/groupdocs.parser.templates/templatecollection/). |
 | [remove_at](/parser/python-net/groupdocs.parser.templates/templatecollection/remove_at/#index) | Removes the template at the specified index of the TemplateCollection. |
-| [remove_at_int32](/parser/python-net/groupdocs.parser.templates/templatecollection/remove_at_int32/) |  |
-| [remove_template](/parser/python-net/groupdocs.parser.templates/templatecollection/remove_template/) |  |
 
 ### Properties
 | Property | Description |

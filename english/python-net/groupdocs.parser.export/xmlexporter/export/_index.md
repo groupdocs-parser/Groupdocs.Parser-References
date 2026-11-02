@@ -95,5 +95,17 @@ def export(self, document_data, stream):
 
 **Returns:** None.
 
+### Aliases
+
+These names call `export` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `export_ienumerable` | `export_ienumerable(metadata, stream)`<br>`export_ienumerable(text_areas, stream)`<br>`export_ienumerable(tables, stream)`<br>`export_ienumerable(barcodes, stream)` |
+| `export_stream` | `export_stream(metadata, stream)`<br>`export_stream(document_info, stream)`<br>`export_stream(text_areas, stream)`<br>`export_stream(tables, stream)`<br>`export_stream(barcodes, stream)`<br>`export_stream(document_data, stream)` |
+| `export_streams` | `export_streams(metadata, stream)`<br>`export_streams(document_info, stream)`<br>`export_streams(text_areas, stream)`<br>`export_streams(tables, stream)`<br>`export_streams(barcodes, stream)`<br>`export_streams(document_data, stream)` |
+| `export_idocument_info` | `export_idocument_info(document_info, stream)` |
+| `export_document_data` | `export_document_data(document_data, stream)` |
+
 ### See Also
 * class [`XmlExporter`](/parser/python-net/groupdocs.parser.export/xmlexporter/)

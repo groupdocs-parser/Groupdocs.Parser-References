@@ -5,7 +5,7 @@ description: "Extracts a container object from the document to work with formats
 type: docs
 url: /python-net/groupdocs.parser/parser/get_container/
 is_root: false
-weight: 1120
+weight: 1060
 ---
 
 
@@ -13,15 +13,11 @@ weight: 1120
 
 Extracts a container object from the document to work with formats that contain attachments, ZIP archives, etc.
 
-To check if the format supports extracting attachments, see the Supported Document Formats page (Extract Containers and Attachments column): https://docs.groupdocs.com/parser/net/supported-document-formats/
+To check if the format supports extracting attachments, see the Supported Document Formats page (Extract Containers and Attachments column): https://docs.groupdocs.com/parser/python-net/supported-document-formats/
 
 Learn more:
-- https://docs.groupdocs.com/display/parsernet/Extract+data+from+attachments+and+ZIP+archives
-- https://docs.groupdocs.com/display/parsernet/Iterate+through+container+items
-- https://docs.groupdocs.com/display/parsernet/Extract+attachments+from+PDF+portfolios
-- https://docs.groupdocs.com/display/parsernet/Extract+attachments+from+Emails
-- https://docs.groupdocs.com/display/parsernet/Extract+emails+from+Outlook+Storage
-- https://docs.groupdocs.com/display/parsernet/Extract+text+from+ZIP+archive+files
+- https://docs.groupdocs.com/parser/python-net/extract-data-from-attachments-and-zip-archives/
+- https://docs.groupdocs.com/parser/python-net/iterate-through-container-items/
 
 ```python
 def get_container(self):

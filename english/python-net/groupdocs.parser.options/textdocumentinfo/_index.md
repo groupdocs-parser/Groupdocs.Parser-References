@@ -14,8 +14,7 @@ weight: 430
 Represents the text document information.
 
 Learn more:
-- https://docs.groupdocs.com/display/parsernet/Get+document+info
-- https://docs.groupdocs.com/display/parsernet/Detect+encoding
+- https://docs.groupdocs.com/parser/python-net/get-document-info/
 
 The TextDocumentInfo type exposes the following members:
 

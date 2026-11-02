@@ -5,7 +5,7 @@ description: "Exports the collection of metadata to the stream in XML format."
 type: docs
 url: /python-net/groupdocs.parser.export/extensions/export_as_xml/
 is_root: false
-weight: 1090
+weight: 1020
 ---
 
 
@@ -176,6 +176,20 @@ def export_as_xml(cls, document_data, file_name):
 | :- | :- | :- |
 | document_data | `DocumentData` | Document data. |
 | file_name | `str` | The full path to the output file. |
+
+### Aliases
+
+These names call `export_as_xml` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `export_as_xml_ienumerable` | `export_as_xml_ienumerable(metadata, stream)`<br>`export_as_xml_ienumerable(metadata, file_name)`<br>`export_as_xml_ienumerable(text_areas, stream)`<br>`export_as_xml_ienumerable(text_areas, file_name)`<br>`export_as_xml_ienumerable(tables, stream)`<br>`export_as_xml_ienumerable(tables, file_name)`<br>`export_as_xml_ienumerable(barcodes, stream)`<br>`export_as_xml_ienumerable(barcodes, file_name)` |
+| `export_as_xml_stream` | `export_as_xml_stream(metadata, stream)`<br>`export_as_xml_stream(document_info, stream)`<br>`export_as_xml_stream(text_areas, stream)`<br>`export_as_xml_stream(tables, stream)`<br>`export_as_xml_stream(barcodes, stream)`<br>`export_as_xml_stream(document_data, stream)` |
+| `export_as_xml_streams` | `export_as_xml_streams(metadata, stream)`<br>`export_as_xml_streams(document_info, stream)`<br>`export_as_xml_streams(text_areas, stream)`<br>`export_as_xml_streams(tables, stream)`<br>`export_as_xml_streams(barcodes, stream)`<br>`export_as_xml_streams(document_data, stream)` |
+| `export_as_xml_file` | `export_as_xml_file(metadata, file_name)`<br>`export_as_xml_file(document_info, file_name)`<br>`export_as_xml_file(text_areas, file_name)`<br>`export_as_xml_file(tables, file_name)`<br>`export_as_xml_file(barcodes, file_name)`<br>`export_as_xml_file(document_data, file_name)` |
+| `export_as_xml_string` | `export_as_xml_string(metadata, file_name)`<br>`export_as_xml_string(document_info, file_name)`<br>`export_as_xml_string(text_areas, file_name)`<br>`export_as_xml_string(tables, file_name)`<br>`export_as_xml_string(barcodes, file_name)`<br>`export_as_xml_string(document_data, file_name)` |
+| `export_as_xml_idocument_info` | `export_as_xml_idocument_info(document_info, stream)`<br>`export_as_xml_idocument_info(document_info, file_name)` |
+| `export_as_xml_document_data` | `export_as_xml_document_data(document_data, stream)`<br>`export_as_xml_document_data(document_data, file_name)` |
 
 ### See Also
 * class [`Extensions`](/parser/python-net/groupdocs.parser.export/extensions/)

@@ -80,5 +80,16 @@ def recognize_text_areas(self, image_stream, rectangles, allowed_symbols, page, 
 
 **Returns:** A collection of `PageTextArea` objects; `None` if text areas recognizing isn't supported.
 
+### Aliases
+
+These names call `recognize_text_areas` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `recognize_text_areas_stream` | `recognize_text_areas_stream(image_stream, rectangles, allowed_symbols, page, options)`<br>`recognize_text_areas_stream(image_stream, page_index, page_size, options)`<br>`recognize_text_areas_stream(image_stream, page_size, options)`<br>`recognize_text_areas_stream(image_stream, page, options)` |
+| `recognize_text_areas_streams` | `recognize_text_areas_streams(image_stream, rectangles, allowed_symbols, page, options)`<br>`recognize_text_areas_streams(image_stream, page_index, page_size, options)`<br>`recognize_text_areas_streams(image_stream, page_size, options)`<br>`recognize_text_areas_streams(image_stream, page, options)` |
+| `recognize_text_areas_file` | `recognize_text_areas_file(image_stream, rectangles, allowed_symbols, page, options)` |
+| `recognize_text_areas_string` | `recognize_text_areas_string(image_stream, rectangles, allowed_symbols, page, options)` |
+
 ### See Also
 * class [`OcrConnectorBase`](/parser/python-net/groupdocs.parser.options/ocrconnectorbase/)

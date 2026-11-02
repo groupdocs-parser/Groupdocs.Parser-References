@@ -5,7 +5,7 @@ description: "Returns the general information about a file."
 type: docs
 url: /python-net/groupdocs.parser/parser/get_file_info/
 is_root: false
-weight: 1140
+weight: 1080
 ---
 
 
@@ -122,6 +122,17 @@ with open("sample.pdf", "rb") as stream:
     print("Password is required" if file_info.is_encrypted else "")
     print(file_info.file_type)
 ```
+
+### Aliases
+
+These names call `get_file_info` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `get_file_info_file` | `get_file_info_file(file_path, load_options)`<br>`get_file_info_file(file_path)` |
+| `get_file_info_string` | `get_file_info_string(file_path, load_options)`<br>`get_file_info_string(file_path)` |
+| `get_file_info_stream` | `get_file_info_stream(document, load_options)`<br>`get_file_info_stream(document)` |
+| `get_file_info_streams` | `get_file_info_streams(document, load_options)`<br>`get_file_info_streams(document)` |
 
 ### See Also
 * class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

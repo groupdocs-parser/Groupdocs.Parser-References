@@ -17,8 +17,8 @@ An instance of [`TextOptions`](/parser/python-net/groupdocs.parser.options/texto
 
 It specifies the raw mode of text extraction. Text in this mode is extracted in a non‑accurate way but faster than in the standard mode. If raw mode doesn't support the document format, this option is ignored and the standard mode is used.
 
-- Extract text in Accurate mode (https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
-- Extract text in Raw mode (https://docs.groupdocs.com/display/parsernet/Extract+text+in+Raw+mode)
+- Extract text in Accurate mode (https://docs.groupdocs.com/parser/python-net/extract-text-in-accurate-mode/)
+- Extract text in Raw mode (https://docs.groupdocs.com/parser/python-net/extract-text-in-raw-mode/)
 
 The TextOptions type exposes the following members:
 

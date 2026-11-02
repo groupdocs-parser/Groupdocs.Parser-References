@@ -5,7 +5,7 @@ description: "Loads a template from a file."
 type: docs
 url: /python-net/groupdocs.parser.templates/template/load/
 is_root: false
-weight: 1040
+weight: 1030
 ---
 
 
@@ -46,6 +46,17 @@ def load(cls, stream):
 | Raises | Description |
 | :- | :- |
 | `GroupDocsParserException` | The stream does not represent the template in a valid format. |
+
+### Aliases
+
+These names call `load` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `load_file` | `load_file(file_path)` |
+| `load_string` | `load_string(file_path)` |
+| `load_stream` | `load_stream(stream)` |
+| `load_streams` | `load_streams(stream)` |
 
 ### See Also
 * class [`Template`](/parser/python-net/groupdocs.parser.templates/template/)

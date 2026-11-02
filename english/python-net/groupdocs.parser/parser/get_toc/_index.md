@@ -5,19 +5,13 @@ description: "Extracts a table of contents from the document."
 type: docs
 url: /python-net/groupdocs.parser/parser/get_toc/
 is_root: false
-weight: 1430
+weight: 1190
 ---
 
 
 ## get_toc
 
 Extracts a table of contents from the document.
-
-Learn more:
-- https://docs.groupdocs.com/display/parsernet/Extract+table+of+contents
-- https://docs.groupdocs.com/display/parsernet/Extract+text+by+table+of+contents+item
-- https://docs.groupdocs.com/display/parsernet/Extract+table+of+contents+from+Microsoft+Office+Word+documents
-- https://docs.groupdocs.com/display/parsernet/Extract+table+of+contents+from+EPUB+eBooks
 
 ```python
 def get_toc(self):

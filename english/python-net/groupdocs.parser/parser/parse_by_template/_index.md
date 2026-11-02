@@ -5,7 +5,7 @@ description: "Parses the document by the user-generated template."
 type: docs
 url: /python-net/groupdocs.parser/parser/parse_by_template/
 is_root: false
-weight: 1480
+weight: 1220
 ---
 
 
@@ -14,10 +14,8 @@ weight: 1480
 Parses the document by the user-generated template.
 
 Learn more:
-- [Parse data from documents](https://docs.groupdocs.com/display/parsernet/Parse+data+from+documents)
-- [Working with templates](https://docs.groupdocs.com/display/parsernet/Working+with+templates)
-- [Working with data extracted by template](https://docs.groupdocs.com/display/parsernet/Working+with+data+extracted+by+template)
-- [Parse data from PDF documents](https://docs.groupdocs.com/display/parsernet/Parse+data+from+PDF+documents)
+- [Parse data from documents](https://docs.groupdocs.com/parser/python-net/parse-data-from-documents/)
+- [Working with templates](https://docs.groupdocs.com/parser/python-net/working-with-templates/)
 
 ```python
 def parse_by_template(self, template):
@@ -56,10 +54,8 @@ with Parser("./invoice.pdf") as parser:
 Parses the document by the user-generated template using customization options.
 
 Learn more:
-- https://docs.groupdocs.com/display/parsernet/Parse+data+from+documents
-- https://docs.groupdocs.com/display/parsernet/Working+with+templates
-- https://docs.groupdocs.com/display/parsernet/Working+with+data+extracted+by+template
-- https://docs.groupdocs.com/display/parsernet/Parse+data+from+PDF+documents
+- https://docs.groupdocs.com/parser/python-net/parse-data-from-documents/
+- https://docs.groupdocs.com/parser/python-net/working-with-templates/
 
 ```python
 def parse_by_template(self, template, options):
@@ -137,6 +133,15 @@ with Parser("./invoice.pdf") as parser:
             field = data[i]
             print(f"{field.name}: {field.text}")
 ```
+
+### Aliases
+
+These names call `parse_by_template` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `parse_by_template_template` | `parse_by_template_template(template, options)`<br>`parse_by_template_template(template)` |
+| `parse_by_template_template_collection` | `parse_by_template_template_collection(template_collection, options)` |
 
 ### See Also
 * class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

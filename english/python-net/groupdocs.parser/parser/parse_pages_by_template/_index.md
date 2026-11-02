@@ -5,7 +5,7 @@ description: "Parses the document pages using the user-generated template."
 type: docs
 url: /python-net/groupdocs.parser/parser/parse_pages_by_template/
 is_root: false
-weight: 1520
+weight: 1240
 ---
 
 
@@ -39,6 +39,14 @@ def parse_pages_by_template(self, template, options):
 | options | `ParseByTemplateOptions` | The customization options. |
 
 **Returns:** Iterable[`DocumentPageData`] containing the extracted data, or None if parsing by template isn't supported.
+
+### Aliases
+
+These names call `parse_pages_by_template` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `parse_pages_by_template_template` | `parse_pages_by_template_template(template, options)`<br>`parse_pages_by_template_template(template)` |
 
 ### See Also
 * class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

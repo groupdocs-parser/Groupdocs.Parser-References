@@ -24,5 +24,13 @@ def generate_adjustment_fields(self, options):
 
 **Returns:** Generated auxiliary template fields for a document page.
 
+### Aliases
+
+These names call `generate_adjustment_fields` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `generate_adjustment_fields_adjustment_fields_options` | `generate_adjustment_fields_adjustment_fields_options(options)` |
+
 ### See Also
 * class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

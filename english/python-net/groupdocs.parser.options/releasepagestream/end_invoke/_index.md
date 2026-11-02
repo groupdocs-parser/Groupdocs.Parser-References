@@ -5,7 +5,7 @@ description: "ReleasePageStream.end_invoke method — GroupDocs.Parser for Pytho
 type: docs
 url: /python-net/groupdocs.parser.options/releasepagestream/end_invoke/
 is_root: false
-weight: 1050
+weight: 1020
 ---
 
 
@@ -19,6 +19,14 @@ def end_invoke(self, result):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | result | `System.IAsyncResult` |  |
+
+### Aliases
+
+These names call `end_invoke` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `end_invoke_iasync_result` | `end_invoke_iasync_result(result)` |
 
 ### See Also
 * class [`ReleasePageStream`](/parser/python-net/groupdocs.parser.options/releasepagestream/)

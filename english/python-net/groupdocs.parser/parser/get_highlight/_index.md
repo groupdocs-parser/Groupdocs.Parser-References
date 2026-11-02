@@ -5,7 +5,7 @@ description: "Extracts a highlight from the document."
 type: docs
 url: /python-net/groupdocs.parser/parser/get_highlight/
 is_root: false
-weight: 1220
+weight: 1100
 ---
 
 
@@ -14,7 +14,7 @@ weight: 1220
 Extracts a highlight from the document.
 
 Learn more:
-- https://docs.groupdocs.com/display/parsernet/Extract+highlights
+- https://docs.groupdocs.com/parser/python-net/extract-highlights/
 
 ```python
 def get_highlight(self, position, is_direct, options):
@@ -44,6 +44,14 @@ with Parser("sample.docx") as parser:
             print(f"Position: {highlight.position}")
             print(f"Text: {highlight.text}")
 ```
+
+### Aliases
+
+These names call `get_highlight` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `get_highlight_int32` | `get_highlight_int32(position, is_direct, options)` |
 
 ### See Also
 * class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

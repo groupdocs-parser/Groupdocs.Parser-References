@@ -5,7 +5,7 @@ description: "Extracts text areas from the document."
 type: docs
 url: /python-net/groupdocs.parser/parser/get_text_areas/
 is_root: false
-weight: 1380
+weight: 1180
 ---
 
 
@@ -14,7 +14,7 @@ weight: 1380
 Extracts text areas from the document.
 
 Learn more:
-- Extract text areas (https://docs.groupdocs.com/display/parsernet/Extract+text+areas)
+- Extract text areas (https://docs.groupdocs.com/parser/python-net/extract-text-areas/)
 
 ```python
 def get_text_areas(self):
@@ -43,7 +43,7 @@ with Parser("./sample.pdf") as parser:
 Extracts text areas from the document using customization options (regular expression, match case, etc.).
 
 Learn more:
-- https://docs.groupdocs.com/display/parsernet/Extract+text+areas
+- https://docs.groupdocs.com/parser/python-net/extract-text-areas/
 
 ```python
 def get_text_areas(self, options):
@@ -115,7 +115,7 @@ Extracts text areas from the document page using customization options (regular 
 
 Learn more:
 
-- https://docs.groupdocs.com/display/parsernet/Extract+text+areas
+- https://docs.groupdocs.com/parser/python-net/extract-text-areas/
 
 ```python
 def get_text_areas(self, page_index, options):
@@ -144,6 +144,15 @@ with Parser("./sample.docx") as parser:
             if area.text_style is not None:
                 print(f"Text: {area.text}")
 ```
+
+### Aliases
+
+These names call `get_text_areas` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `get_text_areas_int32` | `get_text_areas_int32(page_index, options)`<br>`get_text_areas_int32(page_index)` |
+| `get_text_areas_page_text_area_options` | `get_text_areas_page_text_area_options(options)` |
 
 ### See Also
 * class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

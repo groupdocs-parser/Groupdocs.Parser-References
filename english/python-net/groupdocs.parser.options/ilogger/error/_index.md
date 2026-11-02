@@ -23,5 +23,14 @@ def error(self, message, exception):
 | message | `str` | The error message. |
 | exception | `Exception` | The instance of the occurred exception. |
 
+### Aliases
+
+These names call `error` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `error_file` | `error_file(message, exception)` |
+| `error_string` | `error_string(message, exception)` |
+
 ### See Also
 * class [`ILogger`](/parser/python-net/groupdocs.parser.options/ilogger/)

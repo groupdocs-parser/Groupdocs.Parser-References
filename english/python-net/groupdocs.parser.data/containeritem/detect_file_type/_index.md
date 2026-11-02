@@ -46,5 +46,13 @@ def detect_items(file_path):
             print(f"{item.name}: {file_type}")
 ```
 
+### Aliases
+
+These names call `detect_file_type` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `detect_file_type_file_type_detection_mode` | `detect_file_type_file_type_detection_mode(detection_mode)` |
+
 ### See Also
 * class [`ContainerItem`](/parser/python-net/groupdocs.parser.data/containeritem/)

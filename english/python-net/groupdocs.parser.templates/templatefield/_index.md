@@ -32,7 +32,6 @@ The TemplateField type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [scale](/parser/python-net/groupdocs.parser.templates/templatefield/scale/#factor) | Scales the template item by a given factor. |
-| [scale_double](/parser/python-net/groupdocs.parser.templates/templatefield/scale_double/) |  |
 
 ### Properties
 | Property | Description |

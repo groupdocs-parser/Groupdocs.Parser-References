@@ -30,13 +30,6 @@ The Extensions type exposes the following members:
 | [export_as_json](/parser/python-net/groupdocs.parser.export/extensions/export_as_json/#barcodes-file_name) | Exports the collection of barcodes to the file in JSON format. |
 | [export_as_json](/parser/python-net/groupdocs.parser.export/extensions/export_as_json/#document_data-stream) | Exports document data to the stream in JSON format. |
 | [export_as_json](/parser/python-net/groupdocs.parser.export/extensions/export_as_json/#document_data-file_name) | Exports document data to the file in JSON format. |
-| [export_as_json_document_data](/parser/python-net/groupdocs.parser.export/extensions/export_as_json_document_data/) |  |
-| [export_as_json_file](/parser/python-net/groupdocs.parser.export/extensions/export_as_json_file/) |  |
-| [export_as_json_idocument_info](/parser/python-net/groupdocs.parser.export/extensions/export_as_json_idocument_info/) |  |
-| [export_as_json_ienumerable](/parser/python-net/groupdocs.parser.export/extensions/export_as_json_ienumerable/) |  |
-| [export_as_json_stream](/parser/python-net/groupdocs.parser.export/extensions/export_as_json_stream/) |  |
-| [export_as_json_streams](/parser/python-net/groupdocs.parser.export/extensions/export_as_json_streams/) |  |
-| [export_as_json_string](/parser/python-net/groupdocs.parser.export/extensions/export_as_json_string/) |  |
 | [export_as_xml](/parser/python-net/groupdocs.parser.export/extensions/export_as_xml/#metadata-stream) | Exports the collection of metadata to the stream in XML format. |
 | [export_as_xml](/parser/python-net/groupdocs.parser.export/extensions/export_as_xml/#metadata-file_name) | Exports the collection of metadata to the file in XML format. |
 | [export_as_xml](/parser/python-net/groupdocs.parser.export/extensions/export_as_xml/#document_info-stream) | Exports the document information to the stream in XML format. |
@@ -49,13 +42,6 @@ The Extensions type exposes the following members:
 | [export_as_xml](/parser/python-net/groupdocs.parser.export/extensions/export_as_xml/#barcodes-file_name) | Exports the collection of barcodes to the file in XML format. |
 | [export_as_xml](/parser/python-net/groupdocs.parser.export/extensions/export_as_xml/#document_data-stream) | Exports document data to the stream in XML format. |
 | [export_as_xml](/parser/python-net/groupdocs.parser.export/extensions/export_as_xml/#document_data-file_name) | Exports document data to the file in XML format. |
-| [export_as_xml_document_data](/parser/python-net/groupdocs.parser.export/extensions/export_as_xml_document_data/) |  |
-| [export_as_xml_file](/parser/python-net/groupdocs.parser.export/extensions/export_as_xml_file/) |  |
-| [export_as_xml_idocument_info](/parser/python-net/groupdocs.parser.export/extensions/export_as_xml_idocument_info/) |  |
-| [export_as_xml_ienumerable](/parser/python-net/groupdocs.parser.export/extensions/export_as_xml_ienumerable/) |  |
-| [export_as_xml_stream](/parser/python-net/groupdocs.parser.export/extensions/export_as_xml_stream/) |  |
-| [export_as_xml_streams](/parser/python-net/groupdocs.parser.export/extensions/export_as_xml_streams/) |  |
-| [export_as_xml_string](/parser/python-net/groupdocs.parser.export/extensions/export_as_xml_string/) |  |
 
 ### See Also
 * module [`groupdocs.parser.export`](/parser/python-net/groupdocs.parser.export/)

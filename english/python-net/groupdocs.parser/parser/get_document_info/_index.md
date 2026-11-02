@@ -5,7 +5,7 @@ description: "Returns the general information about the document."
 type: docs
 url: /python-net/groupdocs.parser/parser/get_document_info/
 is_root: false
-weight: 1130
+weight: 1070
 ---
 
 
@@ -14,8 +14,7 @@ weight: 1130
 Returns the general information about the document.
 
 Learn more:
-- https://docs.groupdocs.com/display/parsernet/Get+document+info
-- https://docs.groupdocs.com/display/parsernet/Detect+encoding
+- https://docs.groupdocs.com/parser/python-net/get-document-info/
 
 ```python
 def get_document_info(self):

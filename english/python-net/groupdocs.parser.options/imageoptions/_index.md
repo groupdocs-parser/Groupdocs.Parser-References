@@ -17,8 +17,8 @@ An instance of [`ImageOptions`](/parser/python-net/groupdocs.parser.options/imag
 
 It is used to specify the image format for image extraction.
 
-- https://docs.groupdocs.com/display/parsernet/Extract+images+from+document+page+area
-- https://docs.groupdocs.com/display/parsernet/Extract+images+to+files
+- https://docs.groupdocs.com/parser/python-net/extract-images-from-document-page-area/
+- https://docs.groupdocs.com/parser/python-net/extract-images-to-files/
 
 The ImageOptions type exposes the following members:
 

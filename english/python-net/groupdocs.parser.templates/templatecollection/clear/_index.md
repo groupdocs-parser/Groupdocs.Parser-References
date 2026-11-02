@@ -5,7 +5,7 @@ description: "Removes all elements from the TemplateCollection."
 type: docs
 url: /python-net/groupdocs.parser.templates/templatecollection/clear/
 is_root: false
-weight: 1040
+weight: 1030
 ---
 
 

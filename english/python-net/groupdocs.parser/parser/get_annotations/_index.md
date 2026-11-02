@@ -5,7 +5,7 @@ description: "Extracts annotations from the document."
 type: docs
 url: /python-net/groupdocs.parser/parser/get_annotations/
 is_root: false
-weight: 1060
+weight: 1040
 ---
 
 
@@ -34,6 +34,14 @@ def get_annotations(self, page_index):
 | page_index | `int` | The zero-based page index. |
 
 **Returns:** A collection of annotation items; None if annotation extraction isn't supported.
+
+### Aliases
+
+These names call `get_annotations` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `get_annotations_int32` | `get_annotations_int32(page_index)` |
 
 ### See Also
 * class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

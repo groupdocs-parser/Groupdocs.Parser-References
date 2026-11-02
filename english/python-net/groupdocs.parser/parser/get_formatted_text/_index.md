@@ -5,20 +5,13 @@ description: "Extracts formatted text from the document."
 type: docs
 url: /python-net/groupdocs.parser/parser/get_formatted_text/
 is_root: false
-weight: 1190
+weight: 1090
 ---
 
 
 ## get_formatted_text {#options}
 
 Extracts formatted text from the document.
-
-Learn more:
-
-- [Extract formatted text from document](https://docs.groupdocs.com/display/parsernet/Extract+formatted+text+from+document)
-- [Extract a document text as HTML](https://docs.groupdocs.com/display/parsernet/HTML)
-- [Extract a document text as Markdown](https://docs.groupdocs.com/display/parsernet/Markdown)
-- [Extract a document text as Plain text](https://docs.groupdocs.com/display/parsernet/Plain+text)
 
 ```python
 def get_formatted_text(self, options):
@@ -47,7 +40,6 @@ with Parser("sample.pptx") as parser:
 Extracts formatted text from a document page.
 
 Learn more:
-- [Extract formatted text from document page](https://docs.groupdocs.com/display/parsernet/Extract+formatted+text+from+document+page)
 - Extract a document text as HTML
 - Extract a document text as Markdown
 - Extract a document text as Plain text
@@ -78,6 +70,15 @@ with Parser("sample.pptx") as parser:
     else:
         print("Formatted text isn't available.")
 ```
+
+### Aliases
+
+These names call `get_formatted_text` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `get_formatted_text_int32` | `get_formatted_text_int32(page_index, options)` |
+| `get_formatted_text_formatted_text_options` | `get_formatted_text_formatted_text_options(options)` |
 
 ### See Also
 * class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

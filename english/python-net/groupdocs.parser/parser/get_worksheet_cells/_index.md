@@ -5,7 +5,7 @@ description: "Extracts worksheet cells."
 type: docs
 url: /python-net/groupdocs.parser/parser/get_worksheet_cells/
 is_root: false
-weight: 1440
+weight: 1200
 ---
 
 
@@ -39,6 +39,14 @@ def get_worksheet_cells(self, worksheet_index, options):
 | options | `WorksheetOptions` | The customization options. |
 
 **Returns:** Iterable[WorksheetCell]: A collection of instances of `WorksheetCell` containing the cell data.
+
+### Aliases
+
+These names call `get_worksheet_cells` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `get_worksheet_cells_int32` | `get_worksheet_cells_int32(worksheet_index, options)`<br>`get_worksheet_cells_int32(worksheet_index)` |
 
 ### See Also
 * class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

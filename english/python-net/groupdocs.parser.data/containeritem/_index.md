@@ -21,14 +21,10 @@ The ContainerItem type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [detect_file_type](/parser/python-net/groupdocs.parser.data/containeritem/detect_file_type/#detection_mode) | Detects the file type of the container item. |
-| [detect_file_type_file_type_detection_mode](/parser/python-net/groupdocs.parser.data/containeritem/detect_file_type_file_type_detection_mode/) |  |
 | [get_metadata_value](/parser/python-net/groupdocs.parser.data/containeritem/get_metadata_value/#name) | Gets the metadata value. |
-| [get_metadata_value_file](/parser/python-net/groupdocs.parser.data/containeritem/get_metadata_value_file/) |  |
-| [get_metadata_value_string](/parser/python-net/groupdocs.parser.data/containeritem/get_metadata_value_string/) |  |
 | [open_parser](/parser/python-net/groupdocs.parser.data/containeritem/open_parser/) | Creates the [`Parser`](/parser/python-net/groupdocs.parser/parser/) object for the item content. |
 | [open_parser](/parser/python-net/groupdocs.parser.data/containeritem/open_parser/#load_options) | Creates a [`Parser`](/parser/python-net/groupdocs.parser/parser/) object for the item content with [`LoadOptions`](/parser/python-net/groupdocs.parser.options/loadoptions/). |
 | [open_parser](/parser/python-net/groupdocs.parser.data/containeritem/open_parser/#load_options-parser_settings) | Creates a [`Parser`](/parser/python-net/groupdocs.parser/parser/) object for the item content with [`LoadOptions`](/parser/python-net/groupdocs.parser.options/loadoptions/) and [`ParserSettings`](/parser/python-net/groupdocs.parser.options/parsersettings/). |
-| [open_parser_load_options](/parser/python-net/groupdocs.parser.data/containeritem/open_parser_load_options/) |  |
 | [open_stream](/parser/python-net/groupdocs.parser.data/containeritem/open_stream/) | Opens the stream of the item content. |
 
 ### Properties

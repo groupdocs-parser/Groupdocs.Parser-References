@@ -5,7 +5,7 @@ description: "Searches a keyword in the document."
 type: docs
 url: /python-net/groupdocs.parser/parser/search/
 is_root: false
-weight: 1540
+weight: 1250
 ---
 
 
@@ -14,15 +14,7 @@ weight: 1540
 Searches a keyword in the document.
 
 Learn more:
-- [Search text](https://docs.groupdocs.com/display/parsernet/Search+text)
-- [Search text in Microsoft Office Word documents](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+Word+documents)
-- [Search text in Microsoft Office Excel spreadsheets](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+Excel+spreadsheets)
-- [Search text in Microsoft Office PowerPoint presentations](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+PowerPoint+presentations)
-- [Search text in PDF documents](https://docs.groupdocs.com/display/parsernet/Search+text+in+PDF+documents)
-- [Search text in Emails](https://docs.groupdocs.com/display/parsernet/Search+text+in+Emails)
-- [Search text in EPUB eBooks](https://docs.groupdocs.com/display/parsernet/Search+text+in+EPUB+eBooks)
-- [Search text in HTML documents](https://docs.groupdocs.com/display/parsernet/Search+text+in+HTML+documents)
-- [Search text in Microsoft OneNote sections](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+OneNote+sections)
+- [Search text](https://docs.groupdocs.com/parser/python-net/search-text/)
 
 ```python
 def search(self, keyword):
@@ -66,15 +58,7 @@ def search(self, keyword, options):
 **Returns:** Iterable[SearchResult] or None: A collection of `SearchResult` objects; `None` if search isn't supported.
 
 Remarks:
-- [Search text](https://docs.groupdocs.com/display/parsernet/Search+text)
-- [Search text in Microsoft Office Word documents](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+Word+documents)
-- [Search text in Microsoft Office Excel spreadsheets](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+Excel+spreadsheets)
-- [Search text in Microsoft Office PowerPoint presentations](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+Office+PowerPoint+presentations)
-- [Search text in PDF documents](https://docs.groupdocs.com/display/parsernet/Search+text+in+PDF+documents)
-- [Search text in Emails](https://docs.groupdocs.com/display/parsernet/Search+text+in+Emails)
-- [Search text in EPUB eBooks](https://docs.groupdocs.com/display/parsernet/Search+text+in+EPUB+eBooks)
-- [Search text in HTML documents](https://docs.groupdocs.com/display/parsernet/Search+text+in+HTML+documents)
-- [Search text in Microsoft OneNote sections](https://docs.groupdocs.com/display/parsernet/Search+text+in+Microsoft+OneNote+sections)
+- [Search text](https://docs.groupdocs.com/parser/python-net/search-text/)
 
 ### Example
 
@@ -91,6 +75,15 @@ with Parser("sample.pdf") as parser:
         for result in results:
             print(f"Found on page {result.page_index + 1}: {result.text}")
 ```
+
+### Aliases
+
+These names call `search` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `search_file` | `search_file(keyword, options)`<br>`search_file(keyword)` |
+| `search_string` | `search_string(keyword, options)`<br>`search_string(keyword)` |
 
 ### See Also
 * class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

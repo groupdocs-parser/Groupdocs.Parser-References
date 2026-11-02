@@ -34,7 +34,6 @@ The TemplateTable type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [scale](/parser/python-net/groupdocs.parser.templates/templatetable/scale/#factor) | Scales the template item by a given factor. |
-| [scale_double](/parser/python-net/groupdocs.parser.templates/templatetable/scale_double/) |  |
 
 ### Properties
 | Property | Description |

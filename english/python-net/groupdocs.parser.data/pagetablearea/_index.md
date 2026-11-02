@@ -22,10 +22,7 @@ The PageTableArea type exposes the following members:
 | :- | :- |
 | [get](/parser/python-net/groupdocs.parser.data/pagetablearea/get/) |  |
 | [get_column_width](/parser/python-net/groupdocs.parser.data/pagetablearea/get_column_width/#column_index) | Returns the column width. |
-| [get_column_width_int32](/parser/python-net/groupdocs.parser.data/pagetablearea/get_column_width_int32/) |  |
-| [get_int32](/parser/python-net/groupdocs.parser.data/pagetablearea/get_int32/) |  |
 | [get_row_height](/parser/python-net/groupdocs.parser.data/pagetablearea/get_row_height/#row_index) | Returns the row height. |
-| [get_row_height_int32](/parser/python-net/groupdocs.parser.data/pagetablearea/get_row_height_int32/) |  |
 
 ### Properties
 | Property | Description |

@@ -15,17 +15,12 @@ Represents the supported features list and allows obtaining information about wh
 
 An instance of this class is used as [`Parser.features`](/parser/python-net/groupdocs.parser/parser/features/) property. See the usage examples there.
 
-Learn more:
-- [Get supported features](https://docs.groupdocs.com/display/parsernet/Get+supported+features)
-
 The Features type exposes the following members:
 
 ### Methods
 | Method | Description |
 | :- | :- |
 | [is_feature_supported](/parser/python-net/groupdocs.parser.options/features/is_feature_supported/#feature_name) | Returns a boolean indicating whether the specified feature is supported. |
-| [is_feature_supported_file](/parser/python-net/groupdocs.parser.options/features/is_feature_supported_file/) |  |
-| [is_feature_supported_string](/parser/python-net/groupdocs.parser.options/features/is_feature_supported_string/) |  |
 
 ### Properties
 | Property | Description |

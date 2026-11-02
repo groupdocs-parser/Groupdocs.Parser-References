@@ -5,18 +5,13 @@ description: "Parses the document form."
 type: docs
 url: /python-net/groupdocs.parser/parser/parse_form/
 is_root: false
-weight: 1510
+weight: 1230
 ---
 
 
 ## parse_form
 
 Parses the document form.
-
-Learn more:
-- https://docs.groupdocs.com/display/parsernet/Extract+data+from+PDF+forms
-- https://docs.groupdocs.com/display/parsernet/Working+with+data+extracted+by+template
-- https://docs.groupdocs.com/display/parsernet/Parse+data+from+PDF+documents
 
 ```python
 def parse_form(self):

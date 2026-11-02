@@ -5,7 +5,7 @@ description: "Returns an iterator that iterates through the TemplateCollection."
 type: docs
 url: /python-net/groupdocs.parser.templates/templatecollection/get_enumerator/
 is_root: false
-weight: 1060
+weight: 1050
 ---
 
 

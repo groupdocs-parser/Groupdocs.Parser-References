@@ -39,5 +39,14 @@ def equals(self, other):
 
 **Returns:** bool: True if both Point objects are the same; otherwise False.
 
+### Aliases
+
+These names call `equals` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `equals_point` | `equals_point(other)` |
+| `equals_object` | `equals_object(obj)` |
+
 ### See Also
 * class [`Point`](/parser/python-net/groupdocs.parser.data/point/)

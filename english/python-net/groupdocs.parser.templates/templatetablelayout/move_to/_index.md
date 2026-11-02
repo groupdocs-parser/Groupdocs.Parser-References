@@ -48,5 +48,13 @@ print(moved_layout.vertical_separators[0])   # 315
 print(moved_layout.horizontal_separators[0]) # 250
 ```
 
+### Aliases
+
+These names call `move_to` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `move_to_point` | `move_to_point(point)` |
+
 ### See Also
 * class [`TemplateTableLayout`](/parser/python-net/groupdocs.parser.templates/templatetablelayout/)

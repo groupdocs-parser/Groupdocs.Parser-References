@@ -16,8 +16,7 @@ Represents the document information.
 Objects implementing this interface are returned by [`Parser.get_document_info`](/parser/python-net/groupdocs.parser/parser/get_document_info/) method. See the usage examples there.
 
 Learn more:
-- [Get document info](https://docs.groupdocs.com/display/parsernet/Get+document+info)
-- [Detect encoding](https://docs.groupdocs.com/display/parsernet/Detect+encoding)
+- [Get document info](https://docs.groupdocs.com/parser/python-net/get-document-info/)
 
 The IDocumentInfo type exposes the following members:
 

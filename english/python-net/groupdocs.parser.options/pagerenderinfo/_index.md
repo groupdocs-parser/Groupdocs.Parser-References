@@ -28,9 +28,7 @@ The PageRenderInfo type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [get_column](/parser/python-net/groupdocs.parser.options/pagerenderinfo/get_column/#tile_index) | Returns the column index for the specified tile. |
-| [get_column_int32](/parser/python-net/groupdocs.parser.options/pagerenderinfo/get_column_int32/) |  |
 | [get_row](/parser/python-net/groupdocs.parser.options/pagerenderinfo/get_row/#tile_index) | Returns the index of the row where the tile with the specified tile index is placed. |
-| [get_row_int32](/parser/python-net/groupdocs.parser.options/pagerenderinfo/get_row_int32/) |  |
 
 ### Properties
 | Property | Description |

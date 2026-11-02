@@ -24,7 +24,6 @@ The TemplateTableLayout type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [move_to](/parser/python-net/groupdocs.parser.templates/templatetablelayout/move_to/#point) | Creates a new layout with the same size, separators, and position at the specified point. |
-| [move_to_point](/parser/python-net/groupdocs.parser.templates/templatetablelayout/move_to_point/) |  |
 
 ### Properties
 | Property | Description |

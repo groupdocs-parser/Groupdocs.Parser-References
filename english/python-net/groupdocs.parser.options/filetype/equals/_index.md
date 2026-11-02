@@ -39,5 +39,14 @@ def equals(self, obj):
 
 **Returns:** bool: True if `obj` is a `FileType` and is the same as the current FileType; otherwise, False.
 
+### Aliases
+
+These names call `equals` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `equals_file_type` | `equals_file_type(other)` |
+| `equals_object` | `equals_object(obj)` |
+
 ### See Also
 * class [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/)

@@ -35,11 +35,8 @@ The PageImageArea type exposes the following members:
 | :- | :- |
 | [get_image_stream](/parser/python-net/groupdocs.parser.data/pageimagearea/get_image_stream/) | Returns the image stream. |
 | [get_image_stream](/parser/python-net/groupdocs.parser.data/pageimagearea/get_image_stream/#options) | Returns the image stream in a different format. |
-| [get_image_stream_image_options](/parser/python-net/groupdocs.parser.data/pageimagearea/get_image_stream_image_options/) |  |
 | [save](/parser/python-net/groupdocs.parser.data/pageimagearea/save/#file_path) | Saves the image to the file. |
 | [save](/parser/python-net/groupdocs.parser.data/pageimagearea/save/#file_path-options) | Saves the image to the file in a different format. |
-| [save_file](/parser/python-net/groupdocs.parser.data/pageimagearea/save_file/) |  |
-| [save_string](/parser/python-net/groupdocs.parser.data/pageimagearea/save_string/) |  |
 
 ### Properties
 | Property | Description |

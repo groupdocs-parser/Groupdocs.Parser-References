@@ -24,11 +24,8 @@ The CreatePageStream type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [begin_invoke](/parser/python-net/groupdocs.parser.options/createpagestream/begin_invoke/#page_number-callback-object) |  |
-| [begin_invoke_int32](/parser/python-net/groupdocs.parser.options/createpagestream/begin_invoke_int32/) |  |
 | [end_invoke](/parser/python-net/groupdocs.parser.options/createpagestream/end_invoke/#result) |  |
-| [end_invoke_iasync_result](/parser/python-net/groupdocs.parser.options/createpagestream/end_invoke_iasync_result/) |  |
 | [invoke](/parser/python-net/groupdocs.parser.options/createpagestream/invoke/#page_number) |  |
-| [invoke_int32](/parser/python-net/groupdocs.parser.options/createpagestream/invoke_int32/) |  |
 
 ### See Also
 * module [`groupdocs.parser.options`](/parser/python-net/groupdocs.parser.options/)

@@ -24,15 +24,8 @@ The ReleasePageStream type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [begin_invoke](/parser/python-net/groupdocs.parser.options/releasepagestream/begin_invoke/#page_number-page_stream-callback-object) |  |
-| [begin_invoke_int32](/parser/python-net/groupdocs.parser.options/releasepagestream/begin_invoke_int32/) |  |
-| [begin_invoke_stream](/parser/python-net/groupdocs.parser.options/releasepagestream/begin_invoke_stream/) |  |
-| [begin_invoke_streams](/parser/python-net/groupdocs.parser.options/releasepagestream/begin_invoke_streams/) |  |
 | [end_invoke](/parser/python-net/groupdocs.parser.options/releasepagestream/end_invoke/#result) |  |
-| [end_invoke_iasync_result](/parser/python-net/groupdocs.parser.options/releasepagestream/end_invoke_iasync_result/) |  |
 | [invoke](/parser/python-net/groupdocs.parser.options/releasepagestream/invoke/#page_number-page_stream) |  |
-| [invoke_int32](/parser/python-net/groupdocs.parser.options/releasepagestream/invoke_int32/) |  |
-| [invoke_stream](/parser/python-net/groupdocs.parser.options/releasepagestream/invoke_stream/) |  |
-| [invoke_streams](/parser/python-net/groupdocs.parser.options/releasepagestream/invoke_streams/) |  |
 
 ### See Also
 * module [`groupdocs.parser.options`](/parser/python-net/groupdocs.parser.options/)

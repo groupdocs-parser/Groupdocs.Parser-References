@@ -37,5 +37,14 @@ else:
     print("InvoiceNumber not found")
 ```
 
+### Aliases
+
+These names call `get_fields_by_name` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `get_fields_by_name_file` | `get_fields_by_name_file(field_name)` |
+| `get_fields_by_name_string` | `get_fields_by_name_string(field_name)` |
+
 ### See Also
 * class [`DocumentData`](/parser/python-net/groupdocs.parser.data/documentdata/)

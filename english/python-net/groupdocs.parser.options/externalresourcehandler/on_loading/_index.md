@@ -22,5 +22,13 @@ def on_loading(self, args):
 | :- | :- | :- |
 | args | `ExternalResourceLoadingArgs` | The data to control external resource loading. |
 
+### Aliases
+
+These names call `on_loading` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `on_loading_external_resource_loading_args` | `on_loading_external_resource_loading_args(args)` |
+
 ### See Also
 * class [`ExternalResourceHandler`](/parser/python-net/groupdocs.parser.options/externalresourcehandler/)

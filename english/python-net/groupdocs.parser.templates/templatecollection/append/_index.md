@@ -5,7 +5,7 @@ description: "TemplateCollection.append method — GroupDocs.Parser for Python v
 type: docs
 url: /python-net/groupdocs.parser.templates/templatecollection/append/
 is_root: false
-weight: 1030
+weight: 1020
 ---
 
 

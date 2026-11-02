@@ -42,5 +42,14 @@ def recognize_text(self, image_stream, options):
 
 **Returns:** str or None: The recognized text, or None if text recognition isn’t supported.
 
+### Aliases
+
+These names call `recognize_text` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `recognize_text_stream` | `recognize_text_stream(image_stream, page_index, options)`<br>`recognize_text_stream(image_stream, options)` |
+| `recognize_text_streams` | `recognize_text_streams(image_stream, page_index, options)`<br>`recognize_text_streams(image_stream, options)` |
+
 ### See Also
 * class [`OcrConnectorBase`](/parser/python-net/groupdocs.parser.options/ocrconnectorbase/)

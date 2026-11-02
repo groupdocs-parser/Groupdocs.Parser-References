@@ -5,7 +5,7 @@ description: "Returns the index of the row where the tile with the specified til
 type: docs
 url: /python-net/groupdocs.parser.options/pagerenderinfo/get_row/
 is_root: false
-weight: 1030
+weight: 1020
 ---
 
 
@@ -23,6 +23,14 @@ def get_row(self, tile_index):
 | tile_index | `int` | The zero-based index of the tile. |
 
 **Returns:** int: The zero-based integer value that represents the row index.
+
+### Aliases
+
+These names call `get_row` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `get_row_int32` | `get_row_int32(tile_index)` |
 
 ### See Also
 * class [`PageRenderInfo`](/parser/python-net/groupdocs.parser.options/pagerenderinfo/)

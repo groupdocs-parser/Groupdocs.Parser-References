@@ -5,7 +5,7 @@ description: "Extracts barcodes from the document."
 type: docs
 url: /python-net/groupdocs.parser/parser/get_barcodes/
 is_root: false
-weight: 1080
+weight: 1050
 ---
 
 
@@ -156,6 +156,16 @@ def get_barcodes(self, page_index, options):
 | options | `BarcodeOptions` | The options for barcodes extraction. |
 
 **Returns:** list[PageBarcodeArea] or None: A collection of PageBarcodeArea objects; None if barcode extraction isn't supported.
+
+### Aliases
+
+These names call `get_barcodes` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `get_barcodes_int32` | `get_barcodes_int32(page_index, options)`<br>`get_barcodes_int32(page_index, options)`<br>`get_barcodes_int32(page_index)` |
+| `get_barcodes_page_area_options` | `get_barcodes_page_area_options(options)` |
+| `get_barcodes_barcode_options` | `get_barcodes_barcode_options(options)` |
 
 ### See Also
 * class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

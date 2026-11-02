@@ -15,7 +15,7 @@ Defines the interface of a logger that is used for logging events and errors dur
 
 Learn more:
 
-- [Logging](https://docs.groupdocs.com/display/parsernet/Logging)
+- [Logging](https://docs.groupdocs.com/parser/python-net/logging/)
 
 The ILogger type exposes the following members:
 
@@ -23,14 +23,8 @@ The ILogger type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [error](/parser/python-net/groupdocs.parser.options/ilogger/error/#message-exception) | Logs an error that occurred during data extraction. |
-| [error_file](/parser/python-net/groupdocs.parser.options/ilogger/error_file/) |  |
-| [error_string](/parser/python-net/groupdocs.parser.options/ilogger/error_string/) |  |
 | [trace](/parser/python-net/groupdocs.parser.options/ilogger/trace/#message) | Logs an event that occurred during data extraction. |
-| [trace_file](/parser/python-net/groupdocs.parser.options/ilogger/trace_file/) |  |
-| [trace_string](/parser/python-net/groupdocs.parser.options/ilogger/trace_string/) |  |
 | [warning](/parser/python-net/groupdocs.parser.options/ilogger/warning/#message) | Logs a warning that occurred during data extraction. |
-| [warning_file](/parser/python-net/groupdocs.parser.options/ilogger/warning_file/) |  |
-| [warning_string](/parser/python-net/groupdocs.parser.options/ilogger/warning_string/) |  |
 
 ### See Also
 * module [`groupdocs.parser.options`](/parser/python-net/groupdocs.parser.options/)

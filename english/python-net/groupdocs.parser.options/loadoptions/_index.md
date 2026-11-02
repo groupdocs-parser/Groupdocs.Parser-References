@@ -19,10 +19,6 @@ An instance of this class is used as a parameter in [`Parser`](/parser/python-ne
 
 See the usage examples there.
 
-Learn more:
-- https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats
-- https://docs.groupdocs.com/display/parsernet/Password-protected+documents
-
 The LoadOptions type exposes the following members:
 
 ### Constructors

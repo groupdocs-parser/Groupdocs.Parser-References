@@ -5,7 +5,7 @@ description: "Logs a warning that occurred during data extraction."
 type: docs
 url: /python-net/groupdocs.parser.options/ilogger/warning/
 is_root: false
-weight: 1070
+weight: 1030
 ---
 
 
@@ -21,6 +21,15 @@ def warning(self, message):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | message | `str` | The warning message. |
+
+### Aliases
+
+These names call `warning` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `warning_file` | `warning_file(message)` |
+| `warning_string` | `warning_string(message)` |
 
 ### See Also
 * class [`ILogger`](/parser/python-net/groupdocs.parser.options/ilogger/)

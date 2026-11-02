@@ -15,8 +15,7 @@ Represents the document information.
 
 Learn more:
 
-- Get document info (https://docs.groupdocs.com/display/parsernet/Get+document+info)
-- Detect encoding (https://docs.groupdocs.com/display/parsernet/Detect+encoding)
+- Get document info (https://docs.groupdocs.com/parser/python-net/get-document-info/)
 
 The DocumentInfo type exposes the following members:
 

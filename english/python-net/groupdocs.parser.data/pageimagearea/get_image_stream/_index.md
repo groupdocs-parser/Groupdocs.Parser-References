@@ -77,5 +77,13 @@ with Parser("document.pdf") as parser:
                 print(f"Saved {len(data)} bytes to {file_name}")
 ```
 
+### Aliases
+
+These names call `get_image_stream` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `get_image_stream_image_options` | `get_image_stream_image_options(options)` |
+
 ### See Also
 * class [`PageImageArea`](/parser/python-net/groupdocs.parser.data/pageimagearea/)

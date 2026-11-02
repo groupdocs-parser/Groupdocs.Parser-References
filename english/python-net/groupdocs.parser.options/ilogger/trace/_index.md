@@ -5,7 +5,7 @@ description: "Logs an event that occurred during data extraction."
 type: docs
 url: /python-net/groupdocs.parser.options/ilogger/trace/
 is_root: false
-weight: 1040
+weight: 1020
 ---
 
 
@@ -21,6 +21,15 @@ def trace(self, message):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | message | `str` | The event message. |
+
+### Aliases
+
+These names call `trace` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `trace_file` | `trace_file(message)` |
+| `trace_string` | `trace_string(message)` |
 
 ### See Also
 * class [`ILogger`](/parser/python-net/groupdocs.parser.options/ilogger/)

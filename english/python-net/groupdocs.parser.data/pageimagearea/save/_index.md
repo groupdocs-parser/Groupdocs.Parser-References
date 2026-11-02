@@ -5,7 +5,7 @@ description: "Saves the image to the file."
 type: docs
 url: /python-net/groupdocs.parser.data/pageimagearea/save/
 is_root: false
-weight: 1030
+weight: 1020
 ---
 
 
@@ -76,6 +76,15 @@ else:
         # Save each image to a PNG file with a unique name
         image.save(f"{uuid.uuid4()}.png", options)
 ```
+
+### Aliases
+
+These names call `save` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `save_file` | `save_file(file_path, options)`<br>`save_file(file_path)` |
+| `save_string` | `save_string(file_path, options)`<br>`save_string(file_path)` |
 
 ### See Also
 * class [`PageImageArea`](/parser/python-net/groupdocs.parser.data/pageimagearea/)

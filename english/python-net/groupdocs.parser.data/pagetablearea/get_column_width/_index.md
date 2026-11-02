@@ -24,5 +24,13 @@ def get_column_width(self, column_index):
 
 **Returns:** float: The width of the column.
 
+### Aliases
+
+These names call `get_column_width` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `get_column_width_int32` | `get_column_width_int32(column_index)` |
+
 ### See Also
 * class [`PageTableArea`](/parser/python-net/groupdocs.parser.data/pagetablearea/)

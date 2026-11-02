@@ -5,7 +5,7 @@ description: "Creates the Parser object for the item content."
 type: docs
 url: /python-net/groupdocs.parser.data/containeritem/open_parser/
 is_root: false
-weight: 1060
+weight: 1030
 ---
 
 
@@ -90,6 +90,14 @@ with Parser("portfolio.pdf") as parser:
                 text = inner_parser.get_text().read_to_end()
                 print(f"{item.file_path}: {text if text else '[no text]'}")
 ```
+
+### Aliases
+
+These names call `open_parser` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `open_parser_load_options` | `open_parser_load_options(load_options, parser_settings)`<br>`open_parser_load_options(load_options)` |
 
 ### See Also
 * class [`ContainerItem`](/parser/python-net/groupdocs.parser.data/containeritem/)

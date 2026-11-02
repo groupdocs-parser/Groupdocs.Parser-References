@@ -5,7 +5,7 @@ description: "PreviewPageRender.invoke method — GroupDocs.Parser for Python vi
 type: docs
 url: /python-net/groupdocs.parser.options/previewpagerender/invoke/
 is_root: false
-weight: 1050
+weight: 1030
 ---
 
 
@@ -19,6 +19,14 @@ def invoke(self, info):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | info | `PageRenderInfo` |  |
+
+### Aliases
+
+These names call `invoke` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `invoke_page_render_info` | `invoke_page_render_info(info)` |
 
 ### See Also
 * class [`PreviewPageRender`](/parser/python-net/groupdocs.parser.options/previewpagerender/)

@@ -5,7 +5,7 @@ description: "Returns the hash code for the current FileType object."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/get_hash_code/
 is_root: false
-weight: 1050
+weight: 1030
 ---
 
 

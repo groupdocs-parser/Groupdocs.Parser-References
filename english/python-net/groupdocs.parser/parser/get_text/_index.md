@@ -5,7 +5,7 @@ description: "Extracts text from the document."
 type: docs
 url: /python-net/groupdocs.parser/parser/get_text/
 is_root: false
-weight: 1370
+weight: 1170
 ---
 
 
@@ -14,8 +14,8 @@ weight: 1370
 Extracts text from the document.
 
 Learn more:
-- [Extract text from documents](https://docs.groupdocs.com/display/parsernet/Extract+text+from+documents)
-- [Extract text in Accurate mode](https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode)
+- [Extract text from documents](https://docs.groupdocs.com/parser/python-net/extract-text-from-documents/)
+- [Extract text in Accurate mode](https://docs.groupdocs.com/parser/python-net/extract-text-in-accurate-mode/)
 
 ```python
 def get_text(self):
@@ -40,8 +40,8 @@ with Parser("./sample.pdf") as parser:
 Extracts a text page from the document using text options (to enable raw fast text extraction mode).
 
 Learn more:
-- https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode
-- https://docs.groupdocs.com/display/parsernet/Extract+text+in+Raw+mode
+- https://docs.groupdocs.com/parser/python-net/extract-text-in-accurate-mode/
+- https://docs.groupdocs.com/parser/python-net/extract-text-in-raw-mode/
 
 ```python
 def get_text(self, options):
@@ -86,7 +86,7 @@ def get_text(self, page_index):
 **Returns:** TextReader | None: A `TextReader` with the extracted text, or `None` if the page cannot be extracted.
 
 Remarks:
-- Learn more: https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode
+- Learn more: https://docs.groupdocs.com/parser/python-net/extract-text-in-accurate-mode/
 
 ### Example
 
@@ -117,8 +117,8 @@ def get_text(self, page_index, options):
 **Returns:** io.TextIOBase: A text reader with the extracted text, or None if text extraction for the page is not supported.
 
 Learn more:
-- https://docs.groupdocs.com/display/parsernet/Extract+text+in+Accurate+mode
-- https://docs.groupdocs.com/display/parsernet/Extract+text+in+Raw+mode
+- https://docs.groupdocs.com/parser/python-net/extract-text-in-accurate-mode/
+- https://docs.groupdocs.com/parser/python-net/extract-text-in-raw-mode/
 
 ### Example
 
@@ -136,6 +136,15 @@ with Parser("./sample.pdf") as parser:
         if reader is not None:
             print(reader.read_to_end())
 ```
+
+### Aliases
+
+These names call `get_text` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `get_text_int32` | `get_text_int32(page_index, options)`<br>`get_text_int32(page_index)` |
+| `get_text_text_options` | `get_text_text_options(options)` |
 
 ### See Also
 * class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

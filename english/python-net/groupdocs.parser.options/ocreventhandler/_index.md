@@ -24,9 +24,7 @@ The OcrEventHandler type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [get_warnings](/parser/python-net/groupdocs.parser.options/ocreventhandler/get_warnings/#page_index) | Returns a list of warning messages for the page with the given zero‑based index. |
-| [get_warnings_int32](/parser/python-net/groupdocs.parser.options/ocreventhandler/get_warnings_int32/) |  |
 | [on_warnings](/parser/python-net/groupdocs.parser.options/ocreventhandler/on_warnings/#page_index-warnings) | Sets warning messages for the page. |
-| [on_warnings_int32](/parser/python-net/groupdocs.parser.options/ocreventhandler/on_warnings_int32/) |  |
 
 ### Properties
 | Property | Description |

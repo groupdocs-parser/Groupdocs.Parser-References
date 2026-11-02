@@ -5,7 +5,7 @@ description: "Retrieves the template at the specified index."
 type: docs
 url: /python-net/groupdocs.parser.templates/templatecollection/get/
 is_root: false
-weight: 1050
+weight: 1040
 ---
 
 
@@ -23,6 +23,14 @@ def get(self, index):
 | index | `int` | The zero-based index of the template to get. |
 
 **Returns:** The template at the specified index.
+
+### Aliases
+
+These names call `get` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `get_int32` | `get_int32(index)` |
 
 ### See Also
 * class [`TemplateCollection`](/parser/python-net/groupdocs.parser.templates/templatecollection/)

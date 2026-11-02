@@ -5,7 +5,7 @@ description: "PreviewPageRender.end_invoke method — GroupDocs.Parser for Pytho
 type: docs
 url: /python-net/groupdocs.parser.options/previewpagerender/end_invoke/
 is_root: false
-weight: 1030
+weight: 1020
 ---
 
 
@@ -19,6 +19,14 @@ def end_invoke(self, result):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | result | `System.IAsyncResult` |  |
+
+### Aliases
+
+These names call `end_invoke` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `end_invoke_iasync_result` | `end_invoke_iasync_result(result)` |
 
 ### See Also
 * class [`PreviewPageRender`](/parser/python-net/groupdocs.parser.options/previewpagerender/)

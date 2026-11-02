@@ -5,7 +5,7 @@ description: "Converts the string representation of a point to its class equival
 type: docs
 url: /python-net/groupdocs.parser.data/point/parse/
 is_root: false
-weight: 1050
+weight: 1030
 ---
 
 

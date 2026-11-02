@@ -5,7 +5,7 @@ description: "Generates a document page preview."
 type: docs
 url: /python-net/groupdocs.parser/parser/get_page_preview/
 is_root: false
-weight: 1310
+weight: 1140
 ---
 
 
@@ -39,6 +39,14 @@ def get_page_preview(self, page_index, options):
 | options | `PagePreviewOptions` | The options to customize the preview generation. |
 
 **Returns:** io.RawIOBase: A stream containing an image of the document page, or None if the page preview generation isn't supported.
+
+### Aliases
+
+These names call `get_page_preview` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `get_page_preview_int32` | `get_page_preview_int32(page_index, options)`<br>`get_page_preview_int32(page_index)` |
 
 ### See Also
 * class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

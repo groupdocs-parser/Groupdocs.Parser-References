@@ -5,7 +5,7 @@ description: "Removes the first occurrence of a specific template from the Templ
 type: docs
 url: /python-net/groupdocs.parser.templates/templatecollection/remove/
 is_root: false
-weight: 1080
+weight: 1060
 ---
 
 
@@ -23,6 +23,14 @@ def remove(self, template):
 | template | `Template` | The template to remove from the `TemplateCollection`. |
 
 **Returns:** bool: True if template is successfully removed; otherwise, False.
+
+### Aliases
+
+These names call `remove` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `remove_template` | `remove_template(template)` |
 
 ### See Also
 * class [`TemplateCollection`](/parser/python-net/groupdocs.parser.templates/templatecollection/)

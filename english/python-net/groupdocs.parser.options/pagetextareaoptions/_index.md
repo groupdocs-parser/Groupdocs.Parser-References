@@ -16,7 +16,7 @@ Provides the options which are used for page text areas extraction.
 An instance of [`PageTextAreaOptions`](/parser/python-net/groupdocs.parser.options/pagetextareaoptions/) is used as a parameter in [`Parser.get_text_areas`](/parser/python-net/groupdocs.parser/parser/get_text_areas/) and [`Parser.get_text_areas`](/parser/python-net/groupdocs.parser/parser/get_text_areas/) methods. See the usage examples there.
 
 Learn more:
-- [Extract text areas](https://docs.groupdocs.com/display/parsernet/Extract+text+areas)
+- [Extract text areas](https://docs.groupdocs.com/parser/python-net/extract-text-areas/)
 
 The PageTextAreaOptions type exposes the following members:
 

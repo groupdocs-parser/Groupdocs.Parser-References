@@ -5,7 +5,7 @@ description: "Generates pages preview."
 type: docs
 url: /python-net/groupdocs.parser/parser/generate_preview/
 is_root: false
-weight: 1040
+weight: 1030
 ---
 
 
@@ -25,6 +25,14 @@ def generate_preview(self, preview_options):
 | Raises | Description |
 | :- | :- |
 | `NotImplementedError` | Preview generation isn't supported for this document type. |
+
+### Aliases
+
+These names call `generate_preview` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `generate_preview_preview_options` | `generate_preview_preview_options(preview_options)` |
 
 ### See Also
 * class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

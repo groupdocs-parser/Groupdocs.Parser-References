@@ -16,7 +16,7 @@ Provides the options which are used to extract a highlight (a block of text arou
 An instance of [`HighlightOptions`](/parser/python-net/groupdocs.parser.options/highlightoptions/) is used as a parameter in `Parser.get_highlight(int, bool, HighlightOptions)` method. See the usage examples there.
 
 Learn more:
-- Extract highlights (https://docs.groupdocs.com/display/parsernet/Extract+highlights)
+- Extract highlights (https://docs.groupdocs.com/parser/python-net/extract-highlights/)
 
 The HighlightOptions type exposes the following members:
 

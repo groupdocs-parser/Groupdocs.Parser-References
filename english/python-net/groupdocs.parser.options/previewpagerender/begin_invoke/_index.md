@@ -22,5 +22,13 @@ def begin_invoke(self, info, callback, object):
 | callback | `System.AsyncCallback` |  |
 | object | `Any` |  |
 
+### Aliases
+
+These names call `begin_invoke` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `begin_invoke_page_render_info` | `begin_invoke_page_render_info(info, callback, object)` |
+
 ### See Also
 * class [`PreviewPageRender`](/parser/python-net/groupdocs.parser.options/previewpagerender/)

@@ -24,12 +24,6 @@ The OcrConnectorBase type exposes the following members:
 | [recognize_text_areas](/parser/python-net/groupdocs.parser.options/ocrconnectorbase/recognize_text_areas/#image_stream-page_size-options) | Recognizes text areas from the provided image stream. |
 | [recognize_text_areas](/parser/python-net/groupdocs.parser.options/ocrconnectorbase/recognize_text_areas/#image_stream-page-options) | Recognizes text areas from `image_stream` stream. |
 | [recognize_text_areas](/parser/python-net/groupdocs.parser.options/ocrconnectorbase/recognize_text_areas/#image_stream-rectangles-allowed_symbols-page-options) | Recognizes text areas from the given image stream. |
-| [recognize_text_areas_file](/parser/python-net/groupdocs.parser.options/ocrconnectorbase/recognize_text_areas_file/) |  |
-| [recognize_text_areas_stream](/parser/python-net/groupdocs.parser.options/ocrconnectorbase/recognize_text_areas_stream/) |  |
-| [recognize_text_areas_streams](/parser/python-net/groupdocs.parser.options/ocrconnectorbase/recognize_text_areas_streams/) |  |
-| [recognize_text_areas_string](/parser/python-net/groupdocs.parser.options/ocrconnectorbase/recognize_text_areas_string/) |  |
-| [recognize_text_stream](/parser/python-net/groupdocs.parser.options/ocrconnectorbase/recognize_text_stream/) |  |
-| [recognize_text_streams](/parser/python-net/groupdocs.parser.options/ocrconnectorbase/recognize_text_streams/) |  |
 
 ### Properties
 | Property | Description |

@@ -24,5 +24,14 @@ def is_feature_supported(self, feature_name):
 
 **Returns:** bool: True if the feature is supported; otherwise, False.
 
+### Aliases
+
+These names call `is_feature_supported` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `is_feature_supported_file` | `is_feature_supported_file(feature_name)` |
+| `is_feature_supported_string` | `is_feature_supported_string(feature_name)` |
+
 ### See Also
 * class [`Features`](/parser/python-net/groupdocs.parser.options/features/)

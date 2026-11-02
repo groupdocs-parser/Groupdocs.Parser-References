@@ -26,7 +26,6 @@ The TemplateBarcode type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [scale](/parser/python-net/groupdocs.parser.templates/templatebarcode/scale/#factor) | Scales this template item by a given factor. |
-| [scale_double](/parser/python-net/groupdocs.parser.templates/templatebarcode/scale_double/) |  |
 
 ### Properties
 | Property | Description |

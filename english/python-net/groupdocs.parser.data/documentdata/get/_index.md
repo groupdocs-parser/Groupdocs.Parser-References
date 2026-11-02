@@ -16,5 +16,13 @@ def get(self):
     ...
 ```
 
+### Aliases
+
+These names call `get` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `get_int32` | `get_int32(int)` |
+
 ### See Also
 * class [`DocumentData`](/parser/python-net/groupdocs.parser.data/documentdata/)

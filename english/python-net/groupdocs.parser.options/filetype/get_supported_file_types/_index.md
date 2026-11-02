@@ -5,7 +5,7 @@ description: "Retrieves supported file types."
 type: docs
 url: /python-net/groupdocs.parser.options/filetype/get_supported_file_types/
 is_root: false
-weight: 1060
+weight: 1040
 ---
 
 

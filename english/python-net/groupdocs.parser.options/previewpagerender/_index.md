@@ -24,11 +24,8 @@ The PreviewPageRender type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [begin_invoke](/parser/python-net/groupdocs.parser.options/previewpagerender/begin_invoke/#info-callback-object) |  |
-| [begin_invoke_page_render_info](/parser/python-net/groupdocs.parser.options/previewpagerender/begin_invoke_page_render_info/) |  |
 | [end_invoke](/parser/python-net/groupdocs.parser.options/previewpagerender/end_invoke/#result) |  |
-| [end_invoke_iasync_result](/parser/python-net/groupdocs.parser.options/previewpagerender/end_invoke_iasync_result/) |  |
 | [invoke](/parser/python-net/groupdocs.parser.options/previewpagerender/invoke/#info) |  |
-| [invoke_page_render_info](/parser/python-net/groupdocs.parser.options/previewpagerender/invoke_page_render_info/) |  |
 
 ### See Also
 * module [`groupdocs.parser.options`](/parser/python-net/groupdocs.parser.options/)

@@ -15,7 +15,7 @@ Provides the settings which are used to customize data extraction.
 
 Learn more:
 
-- Logging (https://docs.groupdocs.com/display/parsernet/Logging)
+- Logging (https://docs.groupdocs.com/parser/python-net/logging/)
 
 The ParserSettings type exposes the following members:
 

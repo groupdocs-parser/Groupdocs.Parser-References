@@ -5,21 +5,13 @@ description: "Extracts metadata from the document."
 type: docs
 url: /python-net/groupdocs.parser/parser/get_metadata/
 is_root: false
-weight: 1300
+weight: 1130
 ---
 
 
 ## get_metadata
 
 Extracts metadata from the document.
-
-Learn more:
-- Extract metadata from documents (https://docs.groupdocs.com/display/parsernet/Extract+metadata+from+documents)
-- Extract metadata from Microsoft Office Word documents (https://docs.groupdocs.com/display/parsernet/Extract+metadata+from+Microsoft+Office+Word+documents)
-- Extract metadata from Microsoft Office Excel spreadsheets (https://docs.groupdocs.com/display/parsernet/Extract+metadata+from+Microsoft+Office+Excel+spreadsheets)
-- Extract metadata from Microsoft Office PowerPoint presentations (https://docs.groupdocs.com/display/parsernet/Extract+metadata+from+Microsoft+Office+PowerPoint+presentations)
-- Extract metadata from PDF documents (https://docs.groupdocs.com/display/parsernet/Extract+metadata+from+PDF+documents)
-- Extract metadata from Emails (https://docs.groupdocs.com/display/parsernet/Extract+metadata+from+Emails)
 
 ```python
 def get_metadata(self):

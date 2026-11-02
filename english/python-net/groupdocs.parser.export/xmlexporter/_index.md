@@ -29,13 +29,6 @@ The XmlExporter type exposes the following members:
 | [export](/parser/python-net/groupdocs.parser.export/xmlexporter/export/#tables-stream) | Exports the collection of tables to the stream. |
 | [export](/parser/python-net/groupdocs.parser.export/xmlexporter/export/#barcodes-stream) | Exports the collection of barcodes to the provided output stream. |
 | [export](/parser/python-net/groupdocs.parser.export/xmlexporter/export/#document_data-stream) | Exports document data to the stream. |
-| [export_document_data](/parser/python-net/groupdocs.parser.export/xmlexporter/export_document_data/) |  |
-| [export_idocument_info](/parser/python-net/groupdocs.parser.export/xmlexporter/export_idocument_info/) |  |
-| [export_ienumerable](/parser/python-net/groupdocs.parser.export/xmlexporter/export_ienumerable/) |  |
-| [export_stream](/parser/python-net/groupdocs.parser.export/xmlexporter/export_stream/) |  |
-| [export_streams](/parser/python-net/groupdocs.parser.export/xmlexporter/export_streams/) |  |
-| [export_file](/parser/python-net/groupdocs.parser.export/exporterbase/export_file/) |  (inherited from [`ExporterBase`](/parser/python-net/groupdocs.parser.export/exporterbase/)) |
-| [export_string](/parser/python-net/groupdocs.parser.export/exporterbase/export_string/) |  (inherited from [`ExporterBase`](/parser/python-net/groupdocs.parser.export/exporterbase/)) |
 
 ### See Also
 * module [`groupdocs.parser.export`](/parser/python-net/groupdocs.parser.export/)

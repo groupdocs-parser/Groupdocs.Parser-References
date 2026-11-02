@@ -24,5 +24,13 @@ def get_column(self, tile_index):
 
 **Returns:** int: The zero-based integer value that represents the column index.
 
+### Aliases
+
+These names call `get_column` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `get_column_int32` | `get_column_int32(tile_index)` |
+
 ### See Also
 * class [`PageRenderInfo`](/parser/python-net/groupdocs.parser.options/pagerenderinfo/)

@@ -24,5 +24,13 @@ def get_warnings(self, page_index):
 
 **Returns:** list[str]: A list of warning messages for the page; empty list if no warning messages for the page.
 
+### Aliases
+
+These names call `get_warnings` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `get_warnings_int32` | `get_warnings_int32(page_index)` |
+
 ### See Also
 * class [`OcrEventHandler`](/parser/python-net/groupdocs.parser.options/ocreventhandler/)

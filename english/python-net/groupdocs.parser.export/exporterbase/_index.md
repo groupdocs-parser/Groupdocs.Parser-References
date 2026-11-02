@@ -30,13 +30,6 @@ The ExporterBase type exposes the following members:
 | [export](/parser/python-net/groupdocs.parser.export/exporterbase/export/#barcodes-file_name) | Exports the collection of barcodes to the file. |
 | [export](/parser/python-net/groupdocs.parser.export/exporterbase/export/#document_data-stream) | Exports document data to the provided stream. |
 | [export](/parser/python-net/groupdocs.parser.export/exporterbase/export/#document_data-file_name) | Exports document data to the file. |
-| [export_document_data](/parser/python-net/groupdocs.parser.export/exporterbase/export_document_data/) |  |
-| [export_file](/parser/python-net/groupdocs.parser.export/exporterbase/export_file/) |  |
-| [export_idocument_info](/parser/python-net/groupdocs.parser.export/exporterbase/export_idocument_info/) |  |
-| [export_ienumerable](/parser/python-net/groupdocs.parser.export/exporterbase/export_ienumerable/) |  |
-| [export_stream](/parser/python-net/groupdocs.parser.export/exporterbase/export_stream/) |  |
-| [export_streams](/parser/python-net/groupdocs.parser.export/exporterbase/export_streams/) |  |
-| [export_string](/parser/python-net/groupdocs.parser.export/exporterbase/export_string/) |  |
 
 ### See Also
 * module [`groupdocs.parser.export`](/parser/python-net/groupdocs.parser.export/)

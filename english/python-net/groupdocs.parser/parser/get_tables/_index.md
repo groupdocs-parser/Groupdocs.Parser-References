@@ -5,7 +5,7 @@ description: "Extracts tables from the document."
 type: docs
 url: /python-net/groupdocs.parser/parser/get_tables/
 is_root: false
-weight: 1340
+weight: 1160
 ---
 
 
@@ -152,6 +152,15 @@ with Parser("./report.pdf") as parser:
                     print()
                 print()
 ```
+
+### Aliases
+
+These names call `get_tables` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `get_tables_int32` | `get_tables_int32(page_index, options)`<br>`get_tables_int32(page_index)` |
+| `get_tables_page_table_area_options` | `get_tables_page_table_area_options(options)` |
 
 ### See Also
 * class [`Parser`](/parser/python-net/groupdocs.parser/parser/)

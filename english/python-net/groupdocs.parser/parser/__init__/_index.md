@@ -121,9 +121,6 @@ with Parser("./sample.pdf") as parser:
 
 Initializes a new Parser instance to extract data from a database.
 
-Learn more:
-- https://docs.groupdocs.com/display/parsernet/Extract+data+from+databases
-
 ```python
 def __init__(self, connection):
     ...
@@ -138,8 +135,7 @@ def __init__(self, connection):
 Initializes a new Parser instance to extract data from a database.
 
 Learn more:
-- Extract data from databases: https://docs.groupdocs.com/display/parsernet/Extract+data+from+databases
-- Logging: https://docs.groupdocs.com/display/parsernet/Logging
+- Logging: https://docs.groupdocs.com/parser/python-net/logging/
 
 ```python
 def __init__(self, connection, parser_settings):
@@ -168,9 +164,6 @@ with Parser(connection, settings) as parser:
 ## __init__ {#connection}
 
 Initializes a new Parser instance to extract data from a remote email server.
-
-Learn more:
-- [Extract emails from remote server via POP, IMAP or Exchange Web Services protocols](https://docs.groupdocs.com/display/parsernet/Extract+emails+from+remote+server+via+POP%2C+IMAP+or+Exchange+Web+Services+protocols)
 
 ```python
 def __init__(self, connection):
@@ -217,14 +210,11 @@ def __init__(self, connection, parser_settings):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | connection | `EmailConnection` | The email connection. |
-| parser_settings | `ParserSettings` | The parser settings which are used to customize data extraction. Learn more: - [Extract emails from remote server via POP, IMAP or Exchange Web Services protocols](https://docs.groupdocs.com/display/parsernet/Extract+emails+from+remote+server+via+POP%2C+IMAP+or+Exchange+Web+Services+protocols) - [Logging](https://docs.groupdocs.com/display/parsernet/Logging) |
+| parser_settings | `ParserSettings` | The parser settings which are used to customize data extraction. Learn more: - [Logging](https://docs.groupdocs.com/parser/python-net/logging/) |
 
 ## __init__ {#file_path}
 
 Initializes a new instance of the [`Parser`](/parser/python-net/groupdocs.parser/parser/) class.
-
-Learn more:
-- [Load document from local disk](https://docs.groupdocs.com/display/parsernet/Load+document+from+local+disk)
 
 ```python
 def __init__(self, file_path):
@@ -346,9 +336,6 @@ with Parser("./sample.pdf") as parser:
 
 Initializes a new [`Parser`](/parser/python-net/groupdocs.parser/parser/) instance.
 
-Learn more:
-- Load document from stream: https://docs.groupdocs.com/display/parsernet/Load+document+from+stream
-
 ```python
 def __init__(self, document):
     ...
@@ -372,11 +359,6 @@ with Parser("./sample.pdf") as parser:
 ## __init__ {#document-load_options}
 
 Initializes a new Parser instance with the specified load options.
-
-Learn more:
-- Loading specific file formats: https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats
-- Loading password-protected documents: https://docs.groupdocs.com/display/parsernet/Password-protected+documents
-- Load document from stream: https://docs.groupdocs.com/display/parsernet/Load+document+from+stream
 
 ```python
 def __init__(self, document, load_options):
@@ -445,10 +427,7 @@ with open("./sample.pdf", "rb") as stream:
 Initializes a new Parser instance with the given document stream, load options, and parser settings.
 
 Learn more:
-- https://docs.groupdocs.com/display/parsernet/Loading+specific+file+formats
-- https://docs.groupdocs.com/display/parsernet/Password-protected+documents
-- https://docs.groupdocs.com/display/parsernet/Load+document+from+stream
-- https://docs.groupdocs.com/display/parsernet/Logging
+- https://docs.groupdocs.com/parser/python-net/logging/
 
 ```python
 def __init__(self, document, load_options, parser_settings):

@@ -5,7 +5,7 @@ description: "Opens the stream of the item content."
 type: docs
 url: /python-net/groupdocs.parser.data/containeritem/open_stream/
 is_root: false
-weight: 1080
+weight: 1040
 ---
 
 

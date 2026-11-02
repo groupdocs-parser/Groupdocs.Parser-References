@@ -28,9 +28,6 @@ The DocumentPageData type exposes the following members:
 | [get](/parser/python-net/groupdocs.parser.data/documentdata/get/) |  (inherited from [`DocumentData`](/parser/python-net/groupdocs.parser.data/documentdata/)) |
 | [get_enumerator](/parser/python-net/groupdocs.parser.data/documentdata/get_enumerator/) | Returns an iterator for the fields data. (inherited from [`DocumentData`](/parser/python-net/groupdocs.parser.data/documentdata/)) |
 | [get_fields_by_name](/parser/python-net/groupdocs.parser.data/documentdata/get_fields_by_name/) | Returns the collection of field data where the name is equal to `field_name`. (inherited from [`DocumentData`](/parser/python-net/groupdocs.parser.data/documentdata/)) |
-| [get_fields_by_name_file](/parser/python-net/groupdocs.parser.data/documentdata/get_fields_by_name_file/) |  (inherited from [`DocumentData`](/parser/python-net/groupdocs.parser.data/documentdata/)) |
-| [get_fields_by_name_string](/parser/python-net/groupdocs.parser.data/documentdata/get_fields_by_name_string/) |  (inherited from [`DocumentData`](/parser/python-net/groupdocs.parser.data/documentdata/)) |
-| [get_int32](/parser/python-net/groupdocs.parser.data/documentdata/get_int32/) |  (inherited from [`DocumentData`](/parser/python-net/groupdocs.parser.data/documentdata/)) |
 
 ### Properties
 | Property | Description |

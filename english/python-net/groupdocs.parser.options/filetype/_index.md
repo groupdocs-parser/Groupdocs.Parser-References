@@ -15,9 +15,9 @@ Represents a file type and provides methods to obtain the list of all file types
 
 Learn more:
 
-- [Supported Document Formats](https://docs.groupdocs.com/display/parsernet/Supported+Document+Formats)
-- [Get supported file formats](https://docs.groupdocs.com/display/parsernet/Get+supported+file+formats)
-- [Get document info](https://docs.groupdocs.com/display/parsernet/Get+document+info)
+- [Supported Document Formats](https://docs.groupdocs.com/parser/python-net/supported-document-formats/)
+- [Get supported file formats](https://docs.groupdocs.com/parser/python-net/get-supported-file-formats/)
+- [Get document info](https://docs.groupdocs.com/parser/python-net/get-document-info/)
 
 The FileType type exposes the following members:
 
@@ -26,8 +26,6 @@ The FileType type exposes the following members:
 | :- | :- |
 | [equals](/parser/python-net/groupdocs.parser.options/filetype/equals/#other) | Determines whether the current [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/) is the same as the specified [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/) object. |
 | [equals](/parser/python-net/groupdocs.parser.options/filetype/equals/#obj) | Determines whether the current FileType is the same as the specified object. |
-| [equals_file_type](/parser/python-net/groupdocs.parser.options/filetype/equals_file_type/) |  |
-| [equals_object](/parser/python-net/groupdocs.parser.options/filetype/equals_object/) |  |
 | [from_extension](/parser/python-net/groupdocs.parser.options/filetype/from_extension/#extension) | Maps file extension to file type. |
 | [get_hash_code](/parser/python-net/groupdocs.parser.options/filetype/get_hash_code/) | Returns the hash code for the current [`FileType`](/parser/python-net/groupdocs.parser.options/filetype/) object. |
 | [get_supported_file_types](/parser/python-net/groupdocs.parser.options/filetype/get_supported_file_types/) | Retrieves supported file types. |

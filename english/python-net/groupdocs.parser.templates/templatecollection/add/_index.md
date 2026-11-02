@@ -22,5 +22,13 @@ def add(self, template):
 | :- | :- | :- |
 | template | `Template` | The template to be added to the end of the `TemplateCollection`. |
 
+### Aliases
+
+These names call `add` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `add_template` | `add_template(template)` |
+
 ### See Also
 * class [`TemplateCollection`](/parser/python-net/groupdocs.parser.templates/templatecollection/)
