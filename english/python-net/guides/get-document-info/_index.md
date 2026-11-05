@@ -1,0 +1,255 @@
+---
+title: Get document info
+linkTitle: "Get document info"
+second_title: GroupDocs.Parser for Python via .NET API References
+description: "This article explains how to detect document file type, page count, and file size with GroupDocs.Parser for Python via .NET."
+type: docs
+url: /python-net/guides/get-document-info/
+is_root: false
+weight: 120
+---
+
+
+With [GroupDocs.Parser](https://products.groupdocs.com/parser/python-net) you can retrieve the following information about a document:
+
+*   `file_type` represents the document file type (PDF, Word document, Excel spreadsheet, PowerPoint presentation, image etc.)
+*   `page_count` represents the number of pages in a document
+*   `size` represents the document file size in bytes
+
+The following code samples show how to get document information:
+
+## Get document info from a local file
+{{< tabs "example-1" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+
+# Create an instance of Parser class
+with Parser("./sample.docx") as parser:
+    # Get the document info
+    doc_info = parser.get_document_info()
+    
+    # Print document information
+    print(f"File type: {doc_info.file_type.file_format}")
+    print(f"Page count: {doc_info.page_count}")
+    print(f"File size: {doc_info.size} bytes")
+    
+    # Print file extension
+    print(f"File extension: {doc_info.file_type.extension}")
+```
+
+{{< /tab >}}
+{{< tab "sample.docx" >}}
+
+The following sample file is used in this example: [sample.docx](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/basic-usage/get-document-info/sample.docx)
+
+{{< /tab >}}
+{{< tab "get-document-info-local-file.txt" >}}  
+```text
+File type: Microsoft Word Open XML Document
+Page count: 2
+File size: 263263 bytes
+File extension: .docx
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/basic-usage/get-document-info/example-1/get-document-info-local-file.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+## Get document info from a stream
+{{< tabs "example-2" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+
+# Open the file stream
+with open("sample.pdf", "rb") as stream:
+    # Create an instance of Parser class with the stream
+    with Parser(stream) as parser:
+        # Get the document info
+        doc_info = parser.get_document_info()
+        
+        # Print document information
+        print(f"File type: {doc_info.file_type.file_format}")
+        print(f"Page count: {doc_info.page_count}")
+        print(f"File size: {doc_info.size} bytes")
+```
+
+{{< /tab >}}
+{{< tab "sample.pdf" >}}
+
+The following sample file is used in this example: [sample.pdf](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/basic-usage/get-document-info/sample.pdf)
+
+{{< /tab >}}
+{{< tab "get-document-info-stream.txt" >}}  
+```text
+File type: Portable Document Format File
+Page count: 4
+File size: 622772 bytes
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/basic-usage/get-document-info/example-2/get-document-info-stream.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+## Check document properties before extraction
+
+It's useful to check document properties before performing extraction operations:
+{{< tabs "example-3" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+
+def process_document(file_path):
+    with Parser(file_path) as parser:
+        # Get document information
+        doc_info = parser.get_document_info()
+        
+        print(f"Processing: {file_path}")
+        print(f"Type: {doc_info.file_type.file_format}")
+        print(f"Pages: {doc_info.page_count}")
+        print(f"Size: {doc_info.size / 1024:.2f} KB")
+        
+        # Process based on page count
+        if doc_info.page_count > 0:
+            print("Document has pages, proceeding with text extraction...")
+            text_reader = parser.get_text()
+            if text_reader is not None:
+                print(text_reader.read_to_end())
+        else:
+            print("Document has no pages or page count is not available")
+
+# Process different document types
+process_document("sample.pdf")
+```
+
+{{< /tab >}}
+{{< tab "sample.pdf" >}}
+
+The following sample file is used in this example: [sample.pdf](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/basic-usage/get-document-info/sample.pdf)
+
+{{< /tab >}}
+{{< tab "process-document.txt" >}}  
+```text
+Processing: sample.pdf
+Type: Portable Document Format File
+Pages: 4
+Size: 608.18 KB
+Document has pages, proceeding with text extraction...
+                                                                                       Investor relations
+
+Annual Report 2025  |  Port Ellery
+Annual Report 2025
+[TRUNCATED]
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/basic-usage/get-document-info/process_document/process-document.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+## Get page-specific information
+
+For multi-page documents, you can also get information about individual pages:
+{{< tabs "example-4" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+
+with Parser("./sample.docx") as parser:
+    # Get document info
+    doc_info = parser.get_document_info()
+    
+    print(f"Total pages: {doc_info.page_count}")
+    
+    # Iterate through pages
+    for page_index in range(doc_info.page_count):
+        # Extract text from each page
+        print(f"\n--- Page {page_index + 1} ---")
+        text_reader = parser.get_text(page_index)
+        if text_reader is not None:
+            page_text = text_reader.read_to_end()
+            print(f"Characters: {len(page_text)}")
+```
+
+{{< /tab >}}
+{{< tab "sample.docx" >}}
+
+The following sample file is used in this example: [sample.docx](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/basic-usage/get-document-info/sample.docx)
+
+{{< /tab >}}
+{{< tab "get-page-specific-information.txt" >}}  
+```text
+Total pages: 2
+
+--- Page 1 ---
+Characters: 974
+
+--- Page 2 ---
+Characters: 1610
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/basic-usage/get-document-info/example-4/get-page-specific-information.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+## Working with unsupported formats
+
+If a document format doesn't support certain features, the API returns appropriate values:
+{{< tabs "example-5" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.exceptions import UnsupportedDocumentFormatException
+
+# A Word document, and an audio recording that isn't a document
+for path in ("./sample.docx", "./voice-memo.wav"):
+    try:
+        with Parser(path) as parser:
+            doc_info = parser.get_document_info()
+            print(f"{path}: {doc_info.file_type.file_format}, {doc_info.page_count} pages")
+
+            # Some formats may not have page count
+            if doc_info.page_count == 0:
+                print("Page count is not available for this format")
+    except UnsupportedDocumentFormatException:
+        print(f"{path}: this document format isn't supported")
+    except FileNotFoundError:
+        print(f"File not found: {path}")
+```
+
+{{< /tab >}}
+{{< tab "sample.docx" >}}
+
+The following sample file is used in this example: [sample.docx](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/basic-usage/get-document-info/sample.docx)
+
+{{< /tab >}}
+{{< tab "voice-memo.wav" >}}
+
+The following sample file is used in this example: [voice-memo.wav](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/basic-usage/get-document-info/voice-memo.wav)
+
+{{< /tab >}}
+{{< tab "working-with-unsupported-formats.txt" >}}  
+```text
+./sample.docx: Microsoft Word Open XML Document, 2 pages
+./voice-memo.wav: this document format isn't supported
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/basic-usage/get-document-info/example-5/working-with-unsupported-formats.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+## More resources
+
+### Advanced usage topics
+
+To learn more about document data extraction features and how to extract text, images, metadata, and more, please refer to the [advanced usage section](https://docs.groupdocs.com/parser/python-net/developer-guide/advanced-usage/).
+
+### GitHub examples
+
+You may find more code examples in our GitHub repository:
+
+*   [GroupDocs.Parser for Python via .NET examples](https://github.com/groupdocs-parser/GroupDocs.Parser-for-Python-via-.NET)
+
+### Free online document parser
+
+Along with the full-featured library, we provide a free online document parser app. You are welcome to extract data from PDF, DOCX, XLSX, and more with our [Free Online Document Parser App](https://products.groupdocs.app/parser).

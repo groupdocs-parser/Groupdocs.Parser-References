@@ -60,5 +60,10 @@ with Parser("protected.pdf", options) as parser:
     print(text if text is not None else "Text extraction isn't supported.")
 ```
 
+### Guides
+Task guides that use `LoadOptions`:
+
+* [Load password-protected documents](/parser/python-net/guides/load-password-protected-documents/)
+
 ### See Also
 * module [`groupdocs.parser.options`](/parser/python-net/groupdocs.parser.options/)

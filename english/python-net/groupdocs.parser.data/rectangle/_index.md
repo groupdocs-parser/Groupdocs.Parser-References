@@ -36,5 +36,11 @@ The Rectangle type exposes the following members:
 | [size](/parser/python-net/groupdocs.parser.data/rectangle/size/) | The size of the rectangular area as a [`Size`](/parser/python-net/groupdocs.parser.data/size/) instance. |
 | [top](/parser/python-net/groupdocs.parser.data/rectangle/top/) | The y-coordinate of the top edge of the rectangular area. |
 
+### Guides
+Task guides that use `Rectangle`:
+
+* [Parse Data from Documents](/parser/python-net/guides/parse-data-from-documents/)
+* [Working with Templates](/parser/python-net/guides/working-with-templates/)
+
 ### See Also
 * module [`groupdocs.parser.data`](/parser/python-net/groupdocs.parser.data/)

@@ -64,5 +64,10 @@ with Parser("./invoice.pdf") as parser:
             print(f"{field.name}: {field.text}")
 ```
 
+### Guides
+Task guides that use `DocumentData`:
+
+* [Parse Data from Documents](/parser/python-net/guides/parse-data-from-documents/)
+
 ### See Also
 * module [`groupdocs.parser.data`](/parser/python-net/groupdocs.parser.data/)

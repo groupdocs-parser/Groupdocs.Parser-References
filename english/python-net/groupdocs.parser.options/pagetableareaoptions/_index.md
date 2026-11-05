@@ -41,5 +41,10 @@ options = PageTableAreaOptions(TemplateTableLayout([50.0, 95.0, 275.0], [325.0, 
 tables = parser.get_tables(options)
 ```
 
+### Guides
+Task guides that use `PageTableAreaOptions`:
+
+* [Extract tables from document](/parser/python-net/guides/extract-tables-from-document/)
+
 ### See Also
 * module [`groupdocs.parser.options`](/parser/python-net/groupdocs.parser.options/)

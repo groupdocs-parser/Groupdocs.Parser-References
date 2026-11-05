@@ -1,0 +1,371 @@
+---
+title: Load password-protected documents
+linkTitle: "Load password-protected"
+second_title: GroupDocs.Parser for Python via .NET API References
+description: "This article explains how to load password-protected PDF, Word, Excel, PowerPoint documents when using GroupDocs.Parser for Python via .NET."
+type: docs
+url: /python-net/guides/load-password-protected-documents/
+is_root: false
+weight: 190
+---
+
+
+[GroupDocs.Parser](https://products.groupdocs.com/parser/python-net) allows you to extract data from password-protected documents including encrypted PDFs and password-protected Office files.
+
+To load a password-protected document, follow these steps:
+
+1. Create a [`LoadOptions`](/parser/python-net/groupdocs.parser.options/loadoptions/) object and specify the document password
+2. Instantiate the [`Parser`](/parser/python-net/groupdocs.parser/parser/) object with the file path and [`LoadOptions`](/parser/python-net/groupdocs.parser.options/loadoptions/) object
+3. Use extraction methods as usual
+
+## Load password-protected document
+
+The following code snippet shows how to load a password-protected document:
+{{< tabs "example-1" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.options import LoadOptions
+
+# Document password
+password = "123456"
+
+# Create LoadOptions with the password
+load_options = LoadOptions(password)
+
+# Create an instance of Parser class with the file path and load options
+with Parser("protected_document.pdf", load_options) as parser:
+    # Extract text from the document
+    text_reader = parser.get_text()
+    
+    if text_reader is not None:
+        # Print the extracted text
+        print(text_reader.read_to_end())
+    else:
+        print("Text extraction isn't supported for this format")
+```
+
+{{< /tab >}}
+{{< tab "protected_document.pdf" >}}
+
+The following sample file is used in this example: [protected_document.pdf](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/advanced-usage/loading/load-password-protected-documents/protected_document.pdf)
+
+{{< /tab >}}
+{{< tab "load-password-protected-document.txt" >}}  
+```text
+Payroll summary - December 2025
+Confidential: prepared by Finance for the directors of Harbor Lane Provisions.
+Department                              Headcount          Gross pay            Employer costs
+Warehouse                               21                 $71,400              $13,900
+Drivers                                 9                  $29,700              $5,800
+Sales and customer service              7                  $27,300              $5,300
+Procurement               
+[TRUNCATED]
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/advanced-usage/loading/load-password-protected-documents/example-1/load-password-protected-document.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+## Handle incorrect password
+
+You should handle cases when an incorrect password is provided:
+{{< tabs "example-2" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.options import LoadOptions
+
+def load_protected_document(file_path, password):
+    """Load a password-protected document with error handling"""
+    
+    try:
+        # Create LoadOptions with password
+        load_options = LoadOptions(password)
+        
+        # Create Parser instance
+        with Parser(file_path, load_options) as parser:
+            # Get document info to verify successful loading
+            doc_info = parser.get_document_info()
+            
+            print(f"Document loaded successfully!")
+            print(f"Type: {doc_info.file_type.file_format}")
+            print(f"Pages: {doc_info.page_count}")
+            
+            # Extract text
+            text_reader = parser.get_text()
+            if text_reader is not None:
+                return text_reader.read_to_end()
+            
+    except Exception as e:
+        print(f"Error loading document: {e}")
+        return None
+
+# Try loading with password
+text = load_protected_document("protected.docx", "123456")
+```
+
+{{< /tab >}}
+{{< tab "protected.docx" >}}
+
+The following sample file is used in this example: [protected.docx](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/advanced-usage/loading/load-password-protected-documents/protected.docx)
+
+{{< /tab >}}
+{{< tab "load-protected-document.txt" >}}  
+```text
+Document loaded successfully!
+Type: Microsoft Word Open XML Document
+Pages: 2
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/advanced-usage/loading/load-password-protected-documents/load_protected_document/load-protected-document.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+## Check if document is password-protected
+
+Before attempting to open a document, you can check if it requires a password:
+{{< tabs "example-3" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.options import LoadOptions
+
+def check_if_protected(file_path):
+    """Check if a document is password-protected"""
+    
+    try:
+        # Try to get file info without password
+        file_info = Parser.get_file_info(file_path)
+        
+        # Check if the document is encrypted
+        if hasattr(file_info, 'is_encrypted') and file_info.is_encrypted:
+            print("Document is password-protected")
+            return True
+        else:
+            print("Document is not password-protected")
+            return False
+            
+    except Exception as e:
+        print(f"Error checking document: {e}")
+        return None
+
+# Check if document is protected
+is_protected = check_if_protected("sample.pdf")
+
+if is_protected:
+    password = input("Enter password: ")
+    load_options = LoadOptions(password)
+    with Parser("./sample.pdf", load_options) as parser:
+        text_reader = parser.get_text()
+        if text_reader is not None:
+            print(text_reader.read_to_end())
+else:
+    with Parser("./sample.pdf") as parser:
+        text_reader = parser.get_text()
+        if text_reader is not None:
+            print(text_reader.read_to_end())
+```
+
+{{< /tab >}}
+{{< tab "sample.pdf" >}}
+
+The following sample file is used in this example: [sample.pdf](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/advanced-usage/loading/load-password-protected-documents/sample.pdf)
+
+{{< /tab >}}
+{{< tab "sample.pdf" >}}
+
+The following sample file is used in this example: [sample.pdf](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/advanced-usage/loading/load-password-protected-documents/sample.pdf)
+
+{{< /tab >}}
+{{< tab "check-if-protected.txt" >}}  
+```text
+Document is not password-protected
+                                                                                       Investor relations
+
+Annual Report 2025  |  Port Ellery
+Annual Report 2025
+
+1. Overview
+Harbor Lane Provisions supplies specialty food to 1,265 independent grocers, cafes and restaurants from its
+[TRUNCATED]
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/advanced-usage/loading/load-password-protected-documents/check_if_protected/check-if-protected.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+## Load different protected formats
+{{< tabs "example-4" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.options import LoadOptions
+
+def extract_from_protected(file_path, password, extract_type="text"):
+    """Extract data from various password-protected formats"""
+    
+    try:
+        # Create LoadOptions with password
+        load_options = LoadOptions(password)
+        
+        # Create Parser instance
+        with Parser(file_path, load_options) as parser:
+            if extract_type == "text":
+                # Extract text
+                text_reader = parser.get_text()
+                if text_reader is not None:
+                    return text_reader.read_to_end()
+                    
+            elif extract_type == "metadata":
+                # Extract metadata
+                metadata = parser.get_metadata()
+                if metadata:
+                    result = {}
+                    for item in metadata:
+                        result[item.name] = item.value
+                    return result
+                    
+            elif extract_type == "images":
+                # Extract images
+                images = parser.get_images()
+                if images:
+                    return list(images)
+                    
+    except Exception as e:
+        print(f"Error: {e}")
+        return None
+
+# Extract text from protected PDF
+text = extract_from_protected("protected.pdf", "123456", "text")
+print(text)
+
+# Extract its metadata
+metadata = extract_from_protected("protected.pdf", "123456", "metadata")
+for name, value in (metadata or {}).items():
+    print(f"{name}: {value}")
+```
+
+{{< /tab >}}
+{{< tab "protected.pdf" >}}
+
+The following sample file is used in this example: [protected.pdf](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/advanced-usage/loading/load-password-protected-documents/protected.pdf)
+
+{{< /tab >}}
+{{< tab "extract-from-protected.txt" >}}  
+```text
+Payroll summary - December 2025
+Confidential: prepared by Finance for the directors of Harbor Lane Provisions.
+Department                              Headcount          Gross pay            Employer costs
+Warehouse                               21                 $71,400              $13,900
+Drivers                                 9                  $29,700              $5,800
+Sales and customer service              7                  $27,300              $5,300
+Procurement               
+[TRUNCATED]
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/advanced-usage/loading/load-password-protected-documents/extract_from_protected/extract-from-protected.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+## Batch process protected documents
+{{< tabs "example-5" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.options import LoadOptions
+import os
+
+def process_protected_documents(directory, password):
+    """Process all password-protected documents in a directory"""
+    
+    results = []
+    
+    for filename in os.listdir(directory):
+        file_path = os.path.join(directory, filename)
+        
+        if not os.path.isfile(file_path):
+            continue
+        
+        try:
+            print(f"\nProcessing: {filename}")
+            
+            # Create LoadOptions with password
+            load_options = LoadOptions(password)
+            
+            # Try to parse the document
+            with Parser(file_path, load_options) as parser:
+                # Get document info
+                doc_info = parser.get_document_info()
+                
+                # Extract text
+                text_reader = parser.get_text()
+                text = text_reader.read_to_end() if text_reader is not None else ""
+                
+                results.append({
+                    "filename": filename,
+                    "type": doc_info.file_type.file_format,
+                    "pages": doc_info.page_count,
+                    "text_length": len(text),
+                    "success": True
+                })
+                
+                print(f"  ✓ Success - {len(text)} characters extracted")
+                
+        except Exception as e:
+            print(f"  ✗ Failed - {e}")
+            results.append({
+                "filename": filename,
+                "success": False,
+                "error": str(e)
+            })
+    
+    return results
+
+# Process all protected documents
+results = process_protected_documents("./protected_docs", "123456")
+
+# Print summary
+successful = [r for r in results if r.get("success")]
+print(f"\n{len(successful)}/{len(results)} documents processed successfully")
+```
+
+{{< /tab >}}
+{{< tab "protected_docs/payroll-summary.pdf" >}}
+
+The following sample file is used in this example: [protected_docs/payroll-summary.pdf](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/advanced-usage/loading/load-password-protected-documents/protected_docs/payroll-summary.pdf)
+
+{{< /tab >}}
+{{< tab "process-protected-documents.txt" >}}  
+```text
+Processing: payroll-summary.pdf
+  ✓ Success - 809 characters extracted
+
+1/1 documents processed successfully
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/advanced-usage/loading/load-password-protected-documents/process_protected_documents/process-protected-documents.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+## Supported encryption types
+
+GroupDocs.Parser supports the following encryption types:
+
+- **PDF:** Standard password encryption (user password)
+- **Office Documents:** Password-protected DOCX, XLSX, PPTX files
+- **Legacy Office:** Password-protected DOC, XLS, PPT files
+
+> **Note:** Documents with owner passwords (restrictions passwords) that only restrict printing/editing are not supported. Only documents with user passwords (opening passwords) can be processed.
+
+## More resources
+
+### GitHub examples
+
+You may find more code examples in our GitHub repository:
+
+*   [GroupDocs.Parser for Python via .NET examples](https://github.com/groupdocs-parser/GroupDocs.Parser-for-Python-via-.NET)
+
+### Free online document parser
+
+Along with the full-featured library, we provide a free online document parser app. You are welcome to extract data from PDF, DOCX, XLSX, and more with our [Free Online Document Parser App](https://products.groupdocs.app/parser).

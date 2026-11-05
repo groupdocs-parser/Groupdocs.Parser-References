@@ -24,5 +24,10 @@ The License type exposes the following members:
 | :- | :- |
 | [set_license](/parser/python-net/groupdocs.parser/license/set_license/#license_source) | Apply a license to the current process. |
 
+### Guides
+Task guides that use `License`:
+
+* [Quick Start Guide](/parser/python-net/guides/quick-start-guide/)
+
 ### See Also
 * module [`groupdocs.parser`](/parser/python-net/groupdocs.parser/)

@@ -142,5 +142,10 @@ from groupdocs.parser.options import FileType
 supported_file_types = FileType.get_supported_file_types()
 ```
 
+### Guides
+Task guides that use `FileType`:
+
+* [Get supported file formats](/parser/python-net/guides/get-supported-file-formats/)
+
 ### See Also
 * module [`groupdocs.parser.options`](/parser/python-net/groupdocs.parser.options/)

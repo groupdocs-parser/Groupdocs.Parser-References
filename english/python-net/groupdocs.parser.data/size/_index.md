@@ -34,5 +34,14 @@ The Size type exposes the following members:
 | [is_empty](/parser/python-net/groupdocs.parser.data/size/is_empty/) | The size is empty. |
 | [width](/parser/python-net/groupdocs.parser.data/size/width/) | The width in pixels as a float. |
 
+### Guides
+Task guides that use `Size`:
+
+* [Parse Data from Documents](/parser/python-net/guides/parse-data-from-documents/)
+* [Get document info](/parser/python-net/guides/get-document-info/)
+* [Extract tables from document](/parser/python-net/guides/extract-tables-from-document/)
+* [Extract hyperlinks from document](/parser/python-net/guides/extract-hyperlinks-from-document/)
+* [Working with Templates](/parser/python-net/guides/working-with-templates/)
+
 ### See Also
 * module [`groupdocs.parser.data`](/parser/python-net/groupdocs.parser.data/)

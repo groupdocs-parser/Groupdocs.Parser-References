@@ -50,5 +50,10 @@ with Parser("./invoice.pdf") as parser:
             print(f"Invoice number: {fields[0].text}")
 ```
 
+### Guides
+Task guides that use `TemplateRegexPosition`:
+
+* [Working with Templates](/parser/python-net/guides/working-with-templates/)
+
 ### See Also
 * module [`groupdocs.parser.templates`](/parser/python-net/groupdocs.parser.templates/)

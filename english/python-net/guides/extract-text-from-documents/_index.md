@@ -1,0 +1,215 @@
+---
+title: Extract text from documents
+linkTitle: "Extract text from documents"
+second_title: GroupDocs.Parser for Python via .NET API References
+description: "This article demonstrates how to extract text from PDF, Word, Excel, PowerPoint, Outlook, OneNote, HTML, and 65+ other documents using GroupDocs.Parser for Python via .NET."
+type: docs
+url: /python-net/guides/extract-text-from-documents/
+is_root: false
+weight: 60
+---
+
+
+Text extraction is one of the most fundamental features of [GroupDocs.Parser](https://products.groupdocs.com/parser/python-net). The API allows you to extract text from:
+
+*   PDF documents
+*   Microsoft Office documents (Word, Excel, PowerPoint)
+*   Email messages
+*   Images (with OCR)
+*   eBooks (EPUB, FB2, CHM)
+*   And 65+ other formats
+
+GroupDocs.Parser's text extractor is easy to use and powerful at the same time. For advanced text extraction scenarios, refer to the [advanced usage section](https://docs.groupdocs.com/parser/python-net/developer-guide/advanced-usage/extraction/).
+
+## Extract text from documents
+
+To extract text from documents, simply call the `get_text` method:
+{{< tabs "example-1" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+
+with Parser("./sample.docx") as parser:
+    text = parser.get_text()
+    print(text)
+```
+
+{{< /tab >}}
+{{< tab "sample.docx" >}}
+
+The following sample file is used in this example: [sample.docx](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/basic-usage/extract-text-from-documents/sample.docx)
+
+{{< /tab >}}
+{{< tab "extract-text-from-documents.txt" >}}  
+```text
+Supply Agreement  |  Harbor Lane Provisions and Northwind Coffee Roasters  |  Confidential
+
+Supply Agreement
+Harbor Lane Provisions and Northwind Coffee Roasters
+1. Parties
+Buyer: Harbor Lane Provisions, 18 Quayside Road, Port Ellery, represented by Lena Park, Procurement Lead.
+Supplier: Northwind Coffee Roasters, 4 Roastery Lane, Millbrook, represented by Alex Chen.
+This agreement takes effect on 12 January 2026 and replaces the agreement of January 2023.
+[TRUNCATED]
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/basic-usage/extract-text-from-documents/example-1/extract-text-from-documents.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+The method returns the extracted text as a `str`, or `None` if text extraction isn't supported for the document format. The returned string also has a `read_to_end()` method, so code written for earlier versions, which returned a reader, keeps working.
+
+Here are the steps to extract text from a document:
+
+1. Instantiate the [`Parser`](/parser/python-net/groupdocs.parser/parser/) object with the source document path
+2. Call the `get_text` method
+3. Check the result for `None`, then use the text
+
+The following code snippet shows how to extract text from a document:
+
+## Extract text from local files
+{{< tabs "example-2" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+
+# Create an instance of Parser class
+with Parser("./sample.docx") as parser:
+    # Extract text into the reader
+    text_reader = parser.get_text()
+
+    if text_reader is None:
+        print("Text extraction isn't supported for this format")
+    else:
+        # Print the extracted text
+        print(text_reader.read_to_end())
+```
+
+{{< /tab >}}
+{{< tab "sample.docx" >}}
+
+The following sample file is used in this example: [sample.docx](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/basic-usage/extract-text-from-documents/sample.docx)
+
+{{< /tab >}}
+{{< tab "extract-text-from-local-files.txt" >}}  
+```text
+Supply Agreement  |  Harbor Lane Provisions and Northwind Coffee Roasters  |  Confidential
+
+Supply Agreement
+Harbor Lane Provisions and Northwind Coffee Roasters
+1. Parties
+Buyer: Harbor Lane Provisions, 18 Quayside Road, Port Ellery, represented by Lena Park, Procurement Lead.
+Supplier: Northwind Coffee Roasters, 4 Roastery Lane, Millbrook, represented by Alex Chen.
+This agreement takes effect on 12 January 2026 and replaces the agreement of January 2023.
+[TRUNCATED]
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/basic-usage/extract-text-from-documents/example-2/extract-text-from-local-files.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+## Extract text from a stream
+{{< tabs "example-3" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+
+# Open the file stream
+with open("sample.pdf", "rb") as stream:
+    # Create an instance of Parser class with the stream
+    with Parser(stream) as parser:
+        # Extract text into the reader
+        text_reader = parser.get_text()
+
+        if text_reader is None:
+            print("Text extraction isn't supported for this format")
+        else:
+            # Print the extracted text
+            print(text_reader.read_to_end())
+```
+
+{{< /tab >}}
+{{< tab "sample.pdf" >}}
+
+The following sample file is used in this example: [sample.pdf](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/basic-usage/extract-text-from-documents/sample.pdf)
+
+{{< /tab >}}
+{{< tab "extract-text-stream.txt" >}}  
+```text
+Investor relations
+
+Annual Report 2025  |  Port Ellery
+Annual Report 2025
+
+1. Overview
+Harbor Lane Provisions supplies specialty food to 1,265 independent grocers, cafes and restaurants from its
+Quayside warehouse in Port Ellery. In 2025 net revenue grew 15.1% to $21.4 million, driven by the Autumn
+[TRUNCATED]
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/basic-usage/extract-text-from-documents/example-3/extract-text-stream.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+## Extract text from specific pages
+
+You can also extract text from specific pages in a document:
+{{< tabs "example-5" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+
+with Parser("./sample.pdf") as parser:
+    # Get document info to check page count
+    doc_info = parser.get_document_info()
+
+    # Check if the document has pages
+    if doc_info.page_count > 0:
+        # Extract text from the first page (page index is 0-based)
+        text_reader = parser.get_text(0)
+
+        if text_reader is None:
+            print("Page text extraction isn't supported for this format")
+        else:
+            print("Text from page 1:")
+            print(text_reader.read_to_end())
+```
+
+{{< /tab >}}
+{{< tab "sample.pdf" >}}
+
+The following sample file is used in this example: [sample.pdf](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/basic-usage/extract-text-from-documents/sample.pdf)
+
+{{< /tab >}}
+{{< tab "extract-text-from-specific-pages.txt" >}}  
+```text
+Text from page 1:
+                                                                                       Investor relations
+
+Annual Report 2025  |  Port Ellery
+Annual Report 2025
+
+1. Overview
+Harbor Lane Provisions supplies specialty food to 1,265 independent grocers, cafes and restaurants from its
+[TRUNCATED]
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/basic-usage/extract-text-from-documents/example-5/extract-text-from-specific-pages.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+## More resources
+
+### Advanced usage topics
+
+To learn more about text extraction features, including formatted text, text structure, and search functionality, please refer to the [advanced usage section](https://docs.groupdocs.com/parser/python-net/developer-guide/advanced-usage/extraction/).
+
+### GitHub examples
+
+You may find more code examples in our GitHub repository:
+
+*   [GroupDocs.Parser for Python via .NET examples](https://github.com/groupdocs-parser/GroupDocs.Parser-for-Python-via-.NET)
+
+### Free online text extractor
+
+Along with the full-featured library, we provide a free online text extractor app. You are welcome to extract text from your documents with our [Free Online Document Parser App](https://products.groupdocs.app/parser).

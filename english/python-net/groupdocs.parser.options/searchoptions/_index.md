@@ -56,5 +56,10 @@ with Parser("sample.pdf") as parser:
             print(f"Found on page {result.page_index + 1}: {result.text}")
 ```
 
+### Guides
+Task guides that use `SearchOptions`:
+
+* [Search text](/parser/python-net/guides/search-text/)
+
 ### See Also
 * module [`groupdocs.parser.options`](/parser/python-net/groupdocs.parser.options/)

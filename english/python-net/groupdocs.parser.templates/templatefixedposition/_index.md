@@ -46,5 +46,10 @@ field = TemplateField(
 )
 ```
 
+### Guides
+Task guides that use `TemplateFixedPosition`:
+
+* [Parse Data from Documents](/parser/python-net/guides/parse-data-from-documents/)
+
 ### See Also
 * module [`groupdocs.parser.templates`](/parser/python-net/groupdocs.parser.templates/)

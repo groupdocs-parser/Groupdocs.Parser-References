@@ -1,0 +1,490 @@
+---
+title: Extract tables from document
+linkTitle: "Extract tables from document"
+second_title: GroupDocs.Parser for Python via .NET API References
+description: "Learn how to extract tables from documents including Excel spreadsheets, Word documents, and PDFs using GroupDocs.Parser for Python via .NET. Complete guide with code examples for table extraction."
+type: docs
+url: /python-net/guides/extract-tables-from-document/
+is_root: false
+weight: 150
+---
+
+
+GroupDocs.Parser provides functionality to extract tables from various document formats including **Excel spreadsheets (XLS, XLSX)**, Word documents, PDFs, and PowerPoint presentations.
+
+## Prerequisites
+
+- GroupDocs.Parser for Python via .NET installed
+- Sample documents containing tables
+- Understanding of table structure (rows, columns, cells)
+
+## Extract tables from document
+
+To extract all tables from a document:
+{{< tabs "example-1" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+
+# Create an instance of Parser class
+with Parser("./sample.xlsx") as parser:
+    # Check if table extraction is supported
+    if not parser.features.tables:
+        print("Table extraction isn't supported")
+    else:
+        # Extract tables from the document
+        tables = parser.get_tables(None)
+    
+        if tables:
+            table_index = 0
+            for table in tables:
+                table_index += 1
+                print(f"\n=== Table {table_index} ===")
+                print(f"Rows: {table.row_count}, Columns: {table.column_count}")
+            
+                # Iterate over rows
+                for row_index in range(table.row_count):
+                    # Iterate over columns
+                    for col_index in range(table.column_count):
+                        # Get table cell
+                        cell = table[row_index, col_index]
+                        if cell is not None:
+                            print(f"{cell.text}\t", end="")
+                    print()  # New line after each row
+        else:
+            print("No tables found")
+```
+
+{{< /tab >}}
+{{< tab "sample.xlsx" >}}
+
+The following sample file is used in this example: [sample.xlsx](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/advanced-usage/working-with-tables/extract-tables-from-document/sample.xlsx)
+
+{{< /tab >}}
+{{< tab "extract-tables-from-document.txt" >}}  
+```text
+=== Table 1 ===
+Rows: 40, Columns: 9
+
+HLP-CF-101	Harbor Blend whole bean coffee	Coffee	Northwind Coffee Roasters	1 kg bag	$18.40	240	80	A-01	
+HLP-CF-102	Dockside Decaf whole bean coffee	Coffee	Northwind Coffee Roasters	1 kg bag	$19.10	96	40	A-01	
+HLP-CF-103	Lighthouse Espresso beans	Coffee	Northwind Coffee Roasters	1 kg bag	$21.75	180	60	A-02	
+HLP-CF-104	Cold brew concentrate	Coffee	Northwind Coffee Roasters	1 L bottle	$9.60	150	50	A-02	
+HLP-CF-105	Autumn Harvest spiced roast	Coffee	Northwind Co
+[TRUNCATED]
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/advanced-usage/working-with-tables/extract-tables-from-document/example-1/extract-tables-from-document.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+**Expected behavior:** Extracts all tables from the document with automatic table detection, returning structured table data with rows, columns, and cell values.
+
+## Extract tables from Excel spreadsheets
+
+To extract tables from Excel files:
+{{< tabs "example-2" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+
+# Excel file path
+excel_path = "data.xlsx"
+
+# Create an instance of Parser class
+with Parser(excel_path) as parser:
+    # Check if table extraction is supported
+    if not parser.features.tables:
+        print("Table extraction not supported for this file")
+    else:
+        # Extract tables (pass None for automatic detection)
+        tables = parser.get_tables(None)
+    
+        if tables:
+            for table_idx, table in enumerate(tables):
+                print(f"\nTable {table_idx + 1}:")
+                print(f"Size: {table.row_count} rows x {table.column_count} columns")
+                print(f"Page: {table.page.index + 1}")
+            
+                # Print table data
+                for row in range(table.row_count):
+                    row_data = []
+                    for col in range(table.column_count):
+                        cell = table[row, col]
+                        row_data.append(cell.text if cell is not None else "")
+                    print(" | ".join(row_data))
+        else:
+            print("No tables found")
+```
+
+{{< /tab >}}
+{{< tab "data.xlsx" >}}
+
+The following sample file is used in this example: [data.xlsx](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/advanced-usage/working-with-tables/extract-tables-from-document/data.xlsx)
+
+{{< /tab >}}
+{{< tab "extract-tables-from-excel-spreadsheets.txt" >}}  
+```text
+Table 1:
+Size: 40 rows x 9 columns
+Page: 1
+ |  |  |  |  |  |  |  | 
+HLP-CF-101 | Harbor Blend whole bean coffee | Coffee | Northwind Coffee Roasters | 1 kg bag | $18.40 | 240 | 80 | A-01
+HLP-CF-102 | Dockside Decaf whole bean coffee | Coffee | Northwind Coffee Roasters | 1 kg bag | $19.10 | 96 | 40 | A-01
+HLP-CF-103 | Lighthouse Espresso beans | Coffee | Northwind Coffee Roasters | 1 kg bag | $21.75 | 180 | 60 | A-02
+HLP-CF-104 | Cold brew concentrate | Coffee | Northwind Coffee Roasters | 1 L b
+[TRUNCATED]
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/advanced-usage/working-with-tables/extract-tables-from-document/example-2/extract-tables-from-excel-spreadsheets.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+**Expected behavior:** Extracts structured table data from Excel spreadsheets, including all sheets and tables.
+
+## Extract tables with custom layout
+
+To extract tables when you know the exact table structure:
+{{< tabs "example-3" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.options import PageTableAreaOptions
+from groupdocs.parser.templates import TemplateTableLayout
+
+# Create an instance of Parser class
+with Parser("invoice.pdf") as parser:
+    # Check if table extraction is supported
+    if not parser.features.tables:
+        print("Table extraction not supported")
+    else:
+        # Define table layout (column and row separators in points)
+        # Columns: x-coordinates of vertical separators
+        # Rows: y-coordinates of horizontal separators
+        layout = TemplateTableLayout(
+            [40, 120, 330, 390, 470, 555],  # Column separators
+            [300, 318, 338, 358, 378, 398]  # Row separators
+        )
+    
+        # Create options for table extraction
+        options = PageTableAreaOptions(layout)
+    
+        # Extract tables with custom layout
+        tables = parser.get_tables(options)
+    
+        if tables:
+            for table in tables:
+                print(f"\nTable: {table.row_count} rows x {table.column_count} columns")
+            
+                # Print table content
+                for row in range(table.row_count):
+                    for col in range(table.column_count):
+                        cell = table[row, col]
+                        if cell is not None:
+                            print(f"{cell.text} | ", end="")
+                    print()
+```
+
+{{< /tab >}}
+{{< tab "invoice.pdf" >}}
+
+The following sample file is used in this example: [invoice.pdf](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/advanced-usage/working-with-tables/extract-tables-from-document/invoice.pdf)
+
+{{< /tab >}}
+{{< tab "extract-tables-with-custom-layout.txt" >}}  
+```text
+Table: 5 rows x 5 columns
+SKU | Description | Qty | Unit price | Amount | 
+HLP-CF-101 | Harbor Blend whole bean coffee, 1 kg | 120 | $18.40 | $2,208.00 | 
+HLP-CF-102 | Dockside Decaf whole bean coffee, 1 kg | 48 | $19.10 | $916.80 | 
+HLP-CF-103 | Lighthouse Espresso beans, 1 kg | 90 | $21.75 | $1,957.50 | 
+HLP-CF-105 | Autumn Harvest spiced roast, 500 g | 150 | $11.20 | $1,680.00 |
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/advanced-usage/working-with-tables/extract-tables-from-document/example-3/extract-tables-with-custom-layout.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+**Expected behavior:** Extracts tables using predefined column and row positions, useful for structured documents like invoices or forms.
+
+## Convert table to CSV
+
+To export extracted tables to CSV format:
+{{< tabs "example-4" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+import csv
+import os
+
+def export_tables_to_csv(file_path, output_dir):
+    """
+    Extract tables from document and save as CSV files.
+    """
+    os.makedirs(output_dir, exist_ok=True)
+    
+    with Parser(file_path) as parser:
+        if not parser.features.tables:
+            print("Table extraction not supported")
+            return
+        
+        tables = parser.get_tables(None)
+        
+        if not tables:
+            print("No tables found")
+            return
+        
+        for table_idx, table in enumerate(tables):
+            # Create CSV filename
+            csv_filename = f"table_{table_idx + 1}.csv"
+            csv_path = os.path.join(output_dir, csv_filename)
+            
+            # Write table to CSV
+            with open(csv_path, 'w', newline='', encoding='utf-8') as csvfile:
+                writer = csv.writer(csvfile)
+                
+                # Write table rows
+                for row in range(table.row_count):
+                    row_data = []
+                    for col in range(table.column_count):
+                        cell = table[row, col]
+                        row_data.append(cell.text if cell is not None else "")
+                    writer.writerow(row_data)
+            
+            print(f"Saved: {csv_path}")
+
+# Usage
+export_tables_to_csv("report.xlsx", "exported_tables")
+```
+
+{{< /tab >}}
+{{< tab "report.xlsx" >}}
+
+The following sample file is used in this example: [report.xlsx](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/advanced-usage/working-with-tables/extract-tables-from-document/report.xlsx)
+
+{{< /tab >}}
+{{< tab "export-tables-to-csv-outputs.zip" >}}  
+```text
+exported_tables/table_1.csv (3 KB)
+exported_tables/table_2.csv (644 bytes)
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/advanced-usage/working-with-tables/extract-tables-from-document/export_tables_to_csv/export-tables-to-csv-outputs.zip)
+{{< /tab >}}
+{{< /tabs >}}
+
+**Expected behavior:** Converts each extracted table to a separate CSV file preserving the table structure.
+
+## Get table cell properties
+
+To access detailed cell information:
+{{< tabs "example-5" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+
+# Create an instance of Parser class
+with Parser("document.docx") as parser:
+    if not parser.features.tables:
+        print("Table extraction not supported")
+    else:
+        tables = parser.get_tables(None)
+    
+        if tables:
+            for table in tables:
+                print(f"\nTable: {table.row_count}×{table.column_count}")
+                print(f"Position: {table.rectangle}")
+            
+                # Access specific cell
+                if table.row_count > 0 and table.column_count > 0:
+                    cell = table[0, 0]  # First cell
+                    if cell is not None:
+                        print("\nFirst cell:")
+                        print(f"  Text: {cell.text}")
+                        print(f"  Row index: {cell.row_index}")
+                        print(f"  Column index: {cell.column_index}")
+                        print(f"  Row span: {cell.row_span}")
+                        print(f"  Column span: {cell.column_span}")
+```
+
+{{< /tab >}}
+{{< tab "document.docx" >}}
+
+The following sample file is used in this example: [document.docx](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/advanced-usage/working-with-tables/extract-tables-from-document/document.docx)
+
+{{< /tab >}}
+{{< tab "get-table-cell-properties.txt" >}}  
+```text
+Table: 6×4
+Position: (0; 0) (0; 0)
+
+First cell:
+  Text: Product
+  Row index: 0
+  Column index: 0
+  Row span: 1
+  Column span: 1
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/advanced-usage/working-with-tables/extract-tables-from-document/example-5/get-table-cell-properties.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+**Expected behavior:** Provides access to individual cell properties including text, position, and span information.
+
+## Extract tables from multiple pages
+
+To extract tables with page information:
+{{< tabs "example-6" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+
+# Create an instance of Parser class
+with Parser("report.pdf") as parser:
+    if not parser.features.tables:
+        print("Table extraction not supported")
+    else:
+        # Get document info
+        info = parser.get_document_info()
+        print(f"Document has {info.page_count} pages")
+    
+        # Extract all tables
+        tables = parser.get_tables(None)
+    
+        if tables:
+            # Group tables by page
+            tables_by_page = {}
+            for table in tables:
+                page_num = table.page.index + 1
+                if page_num not in tables_by_page:
+                    tables_by_page[page_num] = []
+                tables_by_page[page_num].append(table)
+        
+            # Print summary
+            print(f"\nFound {len(tables)} tables across {len(tables_by_page)} pages")
+        
+            for page_num in sorted(tables_by_page.keys()):
+                page_tables = tables_by_page[page_num]
+                print(f"\nPage {page_num}: {len(page_tables)} table(s)")
+            
+                for idx, table in enumerate(page_tables):
+                    print(f"  Table {idx + 1}: {table.row_count}×{table.column_count}")
+```
+
+{{< /tab >}}
+{{< tab "report.pdf" >}}
+
+The following sample file is used in this example: [report.pdf](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/advanced-usage/working-with-tables/extract-tables-from-document/report.pdf)
+
+{{< /tab >}}
+{{< tab "extract-tables-from-multiple-pages.txt" >}}  
+```text
+Document has 4 pages
+
+Found 2 tables across 2 pages
+
+Page 1: 1 table(s)
+  Table 1: 6×4
+
+Page 3: 1 table(s)
+  Table 1: 7×4
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/advanced-usage/working-with-tables/extract-tables-from-document/example-6/extract-tables-from-multiple-pages.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+**Expected behavior:** Extracts all tables and organizes them by page number.
+
+## Process large tables efficiently
+
+To handle large tables with many rows:
+{{< tabs "example-7" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+
+def process_large_table(file_path, max_rows_to_print=10):
+    """
+    Process large tables efficiently, showing only a preview.
+    """
+    with Parser(file_path) as parser:
+        if not parser.features.tables:
+            print("Table extraction not supported")
+            return
+        
+        tables = parser.get_tables(None)
+        
+        if not tables:
+            print("No tables found")
+            return
+        
+        for table_idx, table in enumerate(tables):
+            print(f"\nTable {table_idx + 1}:")
+            print(f"Total size: {table.row_count} rows x {table.column_count} columns")
+            
+            # Print header (first row)
+            if table.row_count > 0:
+                print("\nHeader:")
+                for col in range(table.column_count):
+                    cell = table[0, col]
+                    if cell is not None:
+                        print(f"  Column {col + 1}: {cell.text}")
+            
+            # Print preview of data
+            rows_to_show = min(max_rows_to_print, table.row_count)
+            print(f"\nShowing first {rows_to_show} rows:")
+            
+            for row in range(rows_to_show):
+                row_data = []
+                for col in range(table.column_count):
+                    cell = table[row, col]
+                    cell_text = cell.text[:20] if cell is not None and cell.text else ""  # Truncate long text
+                    row_data.append(cell_text)
+                print(" | ".join(row_data))
+
+# Usage
+process_large_table("large_spreadsheet.xlsx")
+```
+
+{{< /tab >}}
+{{< tab "large_spreadsheet.xlsx" >}}
+
+The following sample file is used in this example: [large_spreadsheet.xlsx](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/advanced-usage/working-with-tables/extract-tables-from-document/large_spreadsheet.xlsx)
+
+{{< /tab >}}
+{{< tab "process-large-table.txt" >}}  
+```text
+Table 1:
+Total size: 40 rows x 9 columns
+
+Header:
+
+Showing first 10 rows:
+ |  |  |  |  |  |  |  | 
+HLP-CF-101 | Harbor Blend whole b | Coffee | Northwind Coffee Roa | 1 kg bag | $18.40 | 240 | 80 | A-01
+HLP-CF-102 | Dockside Decaf whole | Coffee | Northwind Coffee Roa | 1 kg bag | $19.10 | 96 | 40 | A-01
+HLP-CF-103 | Lighthouse Espresso  | Coffee | Northwind Coffee Roa | 1 kg bag | $21.75 | 180 | 60 | A-02
+[TRUNCATED]
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/advanced-usage/working-with-tables/extract-tables-from-document/process_large_table/process-large-table.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+## Notes
+
+- Always check `parser.features.tables` before attempting table extraction
+- Pass `None` to `get_tables()` for automatic table detection
+- Use [`TemplateTableLayout`](/parser/python-net/groupdocs.parser.templates/templatetablelayout/) for documents with known table structures
+- Table coordinates are in document-specific units (points or pixels)
+- Cells can span multiple rows or columns (check `row_span` and `column_span`)
+- Empty cells return `None` when accessed via indexer
+- The `get_tables()` method returns `None` if table extraction is not supported
+
+## Related pages
+
+- [Extract tables from document page](https://docs.groupdocs.com/parser/python-net/extract-tables-from-document-page/)
+- [Working with templates](/parser/python-net/guides/working-with-templates/)
+- [Get document info](/parser/python-net/guides/get-document-info/)

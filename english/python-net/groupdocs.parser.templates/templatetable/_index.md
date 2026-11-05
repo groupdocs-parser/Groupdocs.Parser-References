@@ -74,5 +74,10 @@ with Parser("./invoice.pdf") as parser:
             print(f"Rows extracted: {details.row_count}")
 ```
 
+### Guides
+Task guides that use `TemplateTable`:
+
+* [Working with Templates](/parser/python-net/guides/working-with-templates/)
+
 ### See Also
 * module [`groupdocs.parser.templates`](/parser/python-net/groupdocs.parser.templates/)

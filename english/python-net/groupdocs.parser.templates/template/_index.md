@@ -60,5 +60,11 @@ with Parser("./invoice.pdf") as parser:
         print(data.get_fields_by_name("InvoiceNumber")[0].text)
 ```
 
+### Guides
+Task guides that use `Template`:
+
+* [Parse Data from Documents](/parser/python-net/guides/parse-data-from-documents/)
+* [Working with Templates](/parser/python-net/guides/working-with-templates/)
+
 ### See Also
 * module [`groupdocs.parser.templates`](/parser/python-net/groupdocs.parser.templates/)

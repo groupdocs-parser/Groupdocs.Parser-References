@@ -48,5 +48,10 @@ highlight = parser.get_highlight(1, True, options)
 print(highlight.text)
 ```
 
+### Guides
+Task guides that use `HighlightOptions`:
+
+* [Search text](/parser/python-net/guides/search-text/)
+
 ### See Also
 * module [`groupdocs.parser.options`](/parser/python-net/groupdocs.parser.options/)

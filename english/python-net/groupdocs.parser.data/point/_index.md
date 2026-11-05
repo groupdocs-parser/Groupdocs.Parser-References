@@ -36,5 +36,11 @@ The Point type exposes the following members:
 | [x](/parser/python-net/groupdocs.parser.data/point/x/) | The x-coordinate of the point. |
 | [y](/parser/python-net/groupdocs.parser.data/point/y/) | The y-coordinate as a float. |
 
+### Guides
+Task guides that use `Point`:
+
+* [Parse Data from Documents](/parser/python-net/guides/parse-data-from-documents/)
+* [Working with Templates](/parser/python-net/guides/working-with-templates/)
+
 ### See Also
 * module [`groupdocs.parser.data`](/parser/python-net/groupdocs.parser.data/)

@@ -1,0 +1,346 @@
+---
+title: Search text
+linkTitle: "Search text"
+second_title: GroupDocs.Parser for Python via .NET API References
+description: "Learn how to search for keywords and use regular expressions to find text in documents using GroupDocs.Parser for Python via .NET. Search text with case sensitivity and whole word options."
+type: docs
+url: /python-net/guides/search-text/
+is_root: false
+weight: 140
+---
+
+
+GroupDocs.Parser provides powerful text search functionality with support for keywords, regular expressions, case-sensitive search, and highlighting.
+
+## Prerequisites
+
+- GroupDocs.Parser for Python via .NET installed
+- Sample documents for testing
+- Basic understanding of regular expressions (for advanced searches)
+
+## Search text by keyword
+
+To search for a specific keyword in a document:
+{{< tabs "example-1" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+
+# Create an instance of Parser class
+with Parser("./sample.pdf") as parser:
+    # Search for a keyword
+    search_results = parser.search("harvest")
+    
+    # Check if search is supported
+    if search_results is None:
+        print("Search isn't supported")
+    else:
+        # Iterate over search results
+        for result in search_results:
+            # Print position and found text
+            print(f"At {result.position}: {result.text}")
+```
+
+{{< /tab >}}
+{{< tab "sample.pdf" >}}
+
+The following sample file is used in this example: [sample.pdf](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/advanced-usage/extraction/search-text/sample.pdf)
+
+{{< /tab >}}
+{{< tab "search-text-by-keyword.txt" >}}  
+```text
+At 399: Harvest
+At 1710: Harvest
+At 1736: Harvest
+At 1937: harvest
+At 3849: harvest
+At 4149: Harvest
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/advanced-usage/extraction/search-text/example-1/search-text-by-keyword.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+**Expected behavior:** The method returns a collection of [`SearchResult`](/parser/python-net/groupdocs.parser.data/searchresult/) objects, each containing the position and text of every occurrence of the keyword.
+
+## Search with regular expressions
+
+To search using regular expressions:
+{{< tabs "example-2" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.options import SearchOptions
+
+# Create an instance of Parser class
+with Parser("./sample.pdf") as parser:
+    # Create search options for regex search
+    # Parameters: match_case, match_whole_word, use_regular_expression
+    options = SearchOptions(True, False, True)
+    
+    # Search with a regular expression (case-sensitive)
+    search_results = parser.search(r"\d+\. [A-Z]\w+", options)
+    
+    # Check if search is supported
+    if search_results is None:
+        print("Search isn't supported")
+    else:
+        # Iterate over search results
+        for result in search_results:
+            print(f"At {result.position}: {result.text}")
+```
+
+{{< /tab >}}
+{{< tab "sample.pdf" >}}
+
+The following sample file is used in this example: [sample.pdf](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/advanced-usage/extraction/search-text/sample.pdf)
+
+{{< /tab >}}
+{{< tab "search-with-regular-expressions.txt" >}}  
+```text
+At 171: 1. Overview
+At 1210: 2. Operations
+At 1696: 3. The
+At 2522: 4. Financial
+At 3752: 5. Sustainability
+At 4105: 6. Outlook
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/advanced-usage/extraction/search-text/example-2/search-with-regular-expressions.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+**Expected behavior:** Finds all text matching the regular expression pattern with the specified options.
+
+## Search with case sensitivity and whole word matching
+{{< tabs "example-3" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.options import SearchOptions
+
+# Create an instance of Parser class
+with Parser("./sample.docx") as parser:
+    # Search for exact word match (case-insensitive, whole word)
+    # Parameters: match_case=False, match_whole_word=True, use_regular_expression=False
+    options = SearchOptions(False, True, False)
+    
+    search_results = parser.search("harvest", options)
+    
+    if search_results:
+        print(f"Found {len(list(search_results))} occurrences of 'harvest' as whole word")
+```
+
+{{< /tab >}}
+{{< tab "sample.docx" >}}
+
+The following sample file is used in this example: [sample.docx](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/advanced-usage/extraction/search-text/sample.docx)
+
+{{< /tab >}}
+{{< tab "search-with-case-sensitivity-and-whole-word-matching.txt" >}}  
+```text
+Found 4 occurrences of 'harvest' as whole word
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/advanced-usage/extraction/search-text/example-3/search-with-case-sensitivity-and-whole-word-matching.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+## Search text with highlights
+
+To search and extract surrounding text (highlights):
+{{< tabs "example-4" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.options import SearchOptions, HighlightOptions
+
+# Create an instance of Parser class
+with Parser("./sample.pdf") as parser:
+    # Create highlight options (extract 15 characters around the match)
+    highlight_options = HighlightOptions(15)
+    
+    # Create search options with highlights
+    search_options = SearchOptions(
+        match_case=False,
+        match_whole_word=False,
+        use_regular_expression=False,
+        left_highlight_options=highlight_options,
+        right_highlight_options=highlight_options
+    )
+    
+    # Search with highlights
+    search_results = parser.search("harvest", search_options)
+    
+    if search_results is None:
+        print("Search isn't supported")
+    else:
+        # Iterate over search results and print with highlights
+        for result in search_results:
+            left_text = result.left_highlight_item.text if result.left_highlight_item is not None else ""
+            right_text = result.right_highlight_item.text if result.right_highlight_item is not None else ""
+            print(f"{left_text}[{result.text}]{right_text}")
+```
+
+{{< /tab >}}
+{{< tab "sample.pdf" >}}
+
+The following sample file is used in this example: [sample.pdf](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/advanced-usage/extraction/search-text/sample.pdf)
+
+{{< /tab >}}
+{{< tab "search-text-with-highlights.txt" >}}  
+```text
+[Harvest] range and by c
+3. The Autumn [Harvest] range
+The Autumn [Harvest] range launched
+and [harvest] lines now make
+suring. Unsold [harvest] produce goes t
+ second Autumn [Harvest] season with tw
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/advanced-usage/extraction/search-text/example-4/search-text-with-highlights.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+**Expected behavior:** Returns search results with context from surrounding text on both sides of the match.
+
+## Search text with page numbers
+
+To search and get page numbers where text appears:
+{{< tabs "example-5" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.options import SearchOptions
+
+# Create an instance of Parser class
+with Parser("./sample.pdf") as parser:
+    # Create search options with page search enabled
+    # Parameters: match_case, match_whole_word, use_regular_expression, search_by_pages
+    options = SearchOptions(False, False, False, True)
+    
+    # Search with page numbers
+    search_results = parser.search("harvest", options)
+    
+    if search_results is None:
+        print("Search isn't supported")
+    else:
+        # Iterate over search results
+        for result in search_results:
+            # Print position, page number, and found text
+            print(f"At {result.position} (page {result.page_index + 1}): {result.text}")
+```
+
+{{< /tab >}}
+{{< tab "sample.pdf" >}}
+
+The following sample file is used in this example: [sample.pdf](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/advanced-usage/extraction/search-text/sample.pdf)
+
+{{< /tab >}}
+{{< tab "search-text-with-page-numbers.txt" >}}  
+```text
+At 399 (page 1): Harvest
+At 551 (page 2): Harvest
+At 577 (page 2): Harvest
+At 778 (page 2): harvest
+At 148 (page 4): harvest
+At 448 (page 4): Harvest
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/advanced-usage/extraction/search-text/example-5/search-text-with-page-numbers.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+**Expected behavior:** Each search result includes the page index where the text was found.
+
+## Advanced search example
+
+Combine multiple search techniques:
+{{< tabs "example-6" >}}
+{{< tab "Python" >}}
+
+```python
+from groupdocs.parser import Parser
+from groupdocs.parser.options import SearchOptions, HighlightOptions
+
+def advanced_search(file_path, pattern, case_sensitive=False, use_regex=False):
+    """
+    Perform advanced text search with highlights and page numbers.
+    """
+    try:
+        with Parser(file_path) as parser:
+            # Configure highlight options
+            highlight_opts = HighlightOptions(20)
+            
+            # Configure search options
+            search_opts = SearchOptions(
+                match_case=case_sensitive,
+                match_whole_word=False,
+                use_regular_expression=use_regex,
+                search_by_pages=True,
+                left_highlight_options=highlight_opts,
+                right_highlight_options=highlight_opts
+            )
+            
+            # Perform search
+            results = parser.search(pattern, search_opts)
+            
+            if results is None:
+                print("Search not supported for this document")
+                return []
+            
+            # Process results
+            found_items = []
+            for result in results:
+                found_items.append({
+                    'text': result.text,
+                    'position': result.position,
+                    'page': result.page_index + 1,
+                    'left_context': result.left_highlight_item.text if result.left_highlight_item is not None else "",
+                    'right_context': result.right_highlight_item.text if result.right_highlight_item is not None else ""
+                })
+            
+            return found_items
+            
+    except Exception as e:
+        print(f"Error during search: {e}")
+        return []
+
+# Usage
+results = advanced_search("sample.pdf", r"\d+\.\s+\w+", use_regex=True)
+for item in results:
+    print(f"Page {item['page']}: {item['left_context']}[{item['text']}]{item['right_context']}")
+```
+
+{{< /tab >}}
+{{< tab "sample.pdf" >}}
+
+The following sample file is used in this example: [sample.pdf](https://docs.groupdocs.com/parser/python-net/_sample_files/developer-guide/advanced-usage/extraction/search-text/sample.pdf)
+
+{{< /tab >}}
+{{< tab "advanced-search.txt" >}}  
+```text
+Page 1: [1. Overview]
+Page 2: [2. Operations]
+Page 2: [3. The] Autumn Harvest rang
+Page 3: [4. Financial] summary
+Page 4: [5. Sustainability]
+Page 4: [6. Outlook]
+```
+[Download full output](https://docs.groupdocs.com/parser/python-net/_output_files/developer-guide/advanced-usage/extraction/search-text/advanced_search/advanced-search.txt)
+{{< /tab >}}
+{{< /tabs >}}
+
+## Notes
+
+- The `search()` method returns `None` if search is not supported for the document format
+- Use `parser.features.search` to check if search is available before calling `search()`
+- Regular expressions are evaluated by .NET (`System.Text.RegularExpressions`), whose syntax matches Python's `re` for common patterns
+- Highlight extraction adds minimal performance overhead
+- Page-based search (`search_by_pages=True`) is useful for large documents
+
+## Related pages
+
+- [Extract text in Accurate mode](https://docs.groupdocs.com/parser/python-net/extract-text-in-accurate-mode/)
+- [Extract text areas](https://docs.groupdocs.com/parser/python-net/extract-text-areas/)
+- [Extract highlights](https://docs.groupdocs.com/parser/python-net/extract-highlights/)

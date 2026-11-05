@@ -26,5 +26,16 @@ The Page type exposes the following members:
 | [index](/parser/python-net/groupdocs.parser.data/page/index/) | The zero-based index of the page. |
 | [size](/parser/python-net/groupdocs.parser.data/page/size/) | The size of the page. |
 
+### Guides
+Task guides that use `Page`:
+
+* [Extract text from documents](/parser/python-net/guides/extract-text-from-documents/)
+* [Extract Images from Documents](/parser/python-net/guides/extract-images-from-documents/)
+* [Get document info](/parser/python-net/guides/get-document-info/)
+* [Search text](/parser/python-net/guides/search-text/)
+* [Extract tables from document](/parser/python-net/guides/extract-tables-from-document/)
+* [Extract hyperlinks from document](/parser/python-net/guides/extract-hyperlinks-from-document/)
+* [Extract annotations from document](/parser/python-net/guides/extract-annotations-from-document/)
+
 ### See Also
 * module [`groupdocs.parser.data`](/parser/python-net/groupdocs.parser.data/)

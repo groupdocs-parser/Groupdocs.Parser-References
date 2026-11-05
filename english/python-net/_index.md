@@ -19,3 +19,6 @@ version: 26.10.0
 | [`groupdocs.parser.export`](/parser/python-net/groupdocs.parser.export/) | Types under `groupdocs.parser.export`. |
 | [`groupdocs.parser.options`](/parser/python-net/groupdocs.parser.options/) | Option classes that configure the API's operations. |
 | [`groupdocs.parser.templates`](/parser/python-net/groupdocs.parser.templates/) | Types under `groupdocs.parser.templates`. |
+
+### Developer Guide
+* [Task guides with runnable examples](/parser/python-net/guides/)

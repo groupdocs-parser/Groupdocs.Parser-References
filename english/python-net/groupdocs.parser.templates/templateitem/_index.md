@@ -29,5 +29,10 @@ The TemplateItem type exposes the following members:
 | [page_width](/parser/python-net/groupdocs.parser.templates/templateitem/page_width/) | The width of the page in pixels; None if the page width is unknown. |
 | [use_upper_case_name](/parser/python-net/groupdocs.parser.templates/templateitem/use_upper_case_name/) | The property returns a boolean value that indicates whether a Name was converted to UPPER CASE. |
 
+### Guides
+Task guides that use `TemplateItem`:
+
+* [Working with Templates](/parser/python-net/guides/working-with-templates/)
+
 ### See Also
 * module [`groupdocs.parser.templates`](/parser/python-net/groupdocs.parser.templates/)

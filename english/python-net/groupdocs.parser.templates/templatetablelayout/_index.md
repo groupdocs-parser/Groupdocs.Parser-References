@@ -32,5 +32,10 @@ The TemplateTableLayout type exposes the following members:
 | [rectangle](/parser/python-net/groupdocs.parser.templates/templatetablelayout/rectangle/) | The rectangular area that contains the table. |
 | [vertical_separators](/parser/python-net/groupdocs.parser.templates/templatetablelayout/vertical_separators/) | The vertical separators of the table columns as a collection of double values representing their x‑coordinates. |
 
+### Guides
+Task guides that use `TemplateTableLayout`:
+
+* [Extract tables from document](/parser/python-net/guides/extract-tables-from-document/)
+
 ### See Also
 * module [`groupdocs.parser.templates`](/parser/python-net/groupdocs.parser.templates/)
