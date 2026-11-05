@@ -12,14 +12,14 @@ lead: "Extract text, images, metadata, and structured data from documents."
 
 platforms:
   - name: ".NET"
-    version: "26.8.0"
-    versionUrl: "https://www.nuget.org/packages/groupdocs.parser/26.8.0"
+    version: "26.10.0"
+    versionUrl: "https://www.nuget.org/packages/groupdocs.parser/26.10.0"
     key: net
     ref: "/net/"
     install: "dotnet add package GroupDocs.Parser"
   - name: "Java"
-    version: "26.9.0"
-    versionUrl: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-parser/26.9/"
+    version: "26.10.0"
+    versionUrl: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-parser/26.10/"
     key: java
     ref: "/java/"
     install: "com.groupdocs:groupdocs-parser"
